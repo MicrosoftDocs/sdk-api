@@ -1,12 +1,12 @@
 ---
 UID: NF:objbase.CoLoadLibrary
 title: CoLoadLibrary function (objbase.h)
-author: windows-sdk-content
+
 description: Loads a specific DLL into the caller's process.
 old-location: com\coloadlibrary.htm
 tech.root: com
 ms.assetid: be0d9e82-2438-488e-88c3-68dc7ac3e16f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoLoadLibrary, CoLoadLibrary function [COM], _com_CoLoadLibrary, com.coloadlibrary, objbase/CoLoadLibrary
 ms.topic: function

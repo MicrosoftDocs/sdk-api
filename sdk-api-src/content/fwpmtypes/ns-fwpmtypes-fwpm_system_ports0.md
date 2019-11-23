@@ -1,12 +1,12 @@
 ---
 UID: NS:fwpmtypes.FWPM_SYSTEM_PORTS0_
 title: FWPM_SYSTEM_PORTS0 (fwpmtypes.h)
-author: windows-sdk-content
+
 description: The FWPM_SYSTEM_PORTS0 structure.
 old-location: fwp\fwpm_system_ports0.htm
 tech.root: fwp
 ms.assetid: cf6fbd43-f603-417d-925d-418d9aec5a03
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FWPM_SYSTEM_PORTS0, FWPM_SYSTEM_PORTS0 structure [Filtering], fwp.fwpm_system_ports0, fwpmtypes/FWPM_SYSTEM_PORTS0
 ms.topic: struct

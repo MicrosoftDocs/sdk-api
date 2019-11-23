@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IObjectConstructString.get_ConstructString
 title: IObjectConstructString::get_ConstructString (comsvcs.h)
-author: windows-sdk-content
+
 description: Retrieves the constructor string for the object.
 old-location: cos\iobjectconstructstring_get_constructstring.htm
 tech.root: cossdk
 ms.assetid: 154b7567-0f25-49c3-90b2-58c95f0ebfee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IObjectConstructString interface [COM+],get_ConstructString method, IObjectConstructString.get_ConstructString, IObjectConstructString::get_ConstructString, _cos_IObjectConstructString_get_ConstructString, comsvcs/IObjectConstructString::get_ConstructString, cos.iobjectconstructstring_get_constructstring, get_ConstructString, get_ConstructString method [COM+], get_ConstructString method [COM+],IObjectConstructString interface
 ms.topic: method

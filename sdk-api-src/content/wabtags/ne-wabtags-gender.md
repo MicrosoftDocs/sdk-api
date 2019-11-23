@@ -1,12 +1,12 @@
 ---
 UID: NE:wabtags.Gender
 title: Gender (wabtags.h)
-author: windows-sdk-content
+
 description: Do not use. The Gender enumeration specifies the possible values for the PR_GENDER property.
 old-location: wab\_wab_gender.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\enums\gender.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Gender, Gender enumeration [Windows Address Book], _wab_gender, genderFemale, genderMale, genderUnspecified, wab._wab_gender, wabtags/Gender, wabtags/genderFemale, wabtags/genderMale, wabtags/genderUnspecified
 ms.topic: enum

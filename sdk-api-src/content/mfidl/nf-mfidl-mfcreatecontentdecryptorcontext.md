@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.MFCreateContentDecryptorContext
 title: MFCreateContentDecryptorContext function (mfidl.h)
-author: windows-sdk-content
+
 description: Creates an IMFContentDecryptorContext interface for the specified media protection system.
 old-location: mf\mfcreatecontentdecryptorcontext.htm
 tech.root: medfound
 ms.assetid: 9CD2AEAE-E960-450F-824B-ED9FD32FB210
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFCreateContentDecryptorContext, MFCreateContentDecryptorContext function [Media Foundation], mf.mfcreatecontentdecryptorcontext, mfidl/MFCreateContentDecryptorContext
 ms.topic: function

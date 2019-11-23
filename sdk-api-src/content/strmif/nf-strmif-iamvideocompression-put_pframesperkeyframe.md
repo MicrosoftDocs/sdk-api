@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMVideoCompression.put_PFramesPerKeyFrame
 title: IAMVideoCompression::put_PFramesPerKeyFrame (strmif.h)
-author: windows-sdk-content
+
 description: The put_PFramesPerKeyFrame method sets the rate of predicted (P) frames per key frame.
 old-location: dshow\iamvideocompression_put_pframesperkeyframe.htm
 tech.root: DirectShow
 ms.assetid: bf1dfc28-a6c7-4c0d-96ea-8cf417b13a10
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],put_PFramesPerKeyFrame method, IAMVideoCompression.put_PFramesPerKeyFrame, IAMVideoCompression::put_PFramesPerKeyFrame, IAMVideoCompressionput_PFramesPerKeyFrame, dshow.iamvideocompression_put_pframesperkeyframe, put_PFramesPerKeyFrame, put_PFramesPerKeyFrame method [DirectShow], put_PFramesPerKeyFrame method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::put_PFramesPerKeyFrame
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:vmr9.IVMRMixerBitmap9.SetAlphaBitmap
 title: IVMRMixerBitmap9::SetAlphaBitmap (vmr9.h)
-author: windows-sdk-content
+
 description: The SetAlphaBitmap method specifies a new bitmap image and the source location of the bitmap and how and where it should be rendered on the destination rectangle.
 old-location: dshow\ivmrmixerbitmap9_setalphabitmap.htm
 tech.root: DirectShow
 ms.assetid: 22aadb5b-8dc8-48ec-bff1-1bac498f3984
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap9 interface [DirectShow],SetAlphaBitmap method, IVMRMixerBitmap9.SetAlphaBitmap, IVMRMixerBitmap9::SetAlphaBitmap, IVMRMixerBitmap9SetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [DirectShow], SetAlphaBitmap method [DirectShow],IVMRMixerBitmap9 interface, dshow.ivmrmixerbitmap9_setalphabitmap, vmr9/IVMRMixerBitmap9::SetAlphaBitmap
 ms.topic: method

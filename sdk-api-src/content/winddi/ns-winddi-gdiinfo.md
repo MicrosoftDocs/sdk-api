@@ -1,12 +1,12 @@
 ---
 UID: NS:winddi._GDIINFO
 title: GDIINFO (winddi.h)
-author: windows-sdk-content
+
 description: The GDIINFO structure describes the graphics capabilities of a given device.
 old-location: display\gdiinfo.htm
 tech.root: display
 ms.assetid: f75f599f-43ea-4da6-a6e3-6591cf6d69f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PGDIINFO, GDIINFO, GDIINFO structure [Display Devices], PGDIINFO, PGDIINFO structure pointer [Display Devices], display.gdiinfo, grstrcts_181c0d6e-5908-4505-8093-956eefc87c85.xml, winddi/GDIINFO, winddi/PGDIINFO'
 ms.topic: struct

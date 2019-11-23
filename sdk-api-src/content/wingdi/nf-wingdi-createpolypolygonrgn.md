@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.CreatePolyPolygonRgn
 title: CreatePolyPolygonRgn function (wingdi.h)
-author: windows-sdk-content
+
 description: The CreatePolyPolygonRgn function creates a region consisting of a series of polygons. The polygons can overlap.
 old-location: gdi\createpolypolygonrgn.htm
 tech.root: gdi
 ms.assetid: 1113d3dc-8e3f-436c-a5a8-191785bc7fcc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ALTERNATE, CreatePolyPolygonRgn, CreatePolyPolygonRgn function [Windows GDI], WINDING, _win32_CreatePolyPolygonRgn, gdi.createpolypolygonrgn, wingdi/CreatePolyPolygonRgn
 ms.topic: function

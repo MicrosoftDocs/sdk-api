@@ -1,12 +1,12 @@
 ---
 UID: NE:strmif.InterleavingMode
 title: InterleavingMode (strmif.h)
-author: windows-sdk-content
+
 description: Specifies how video frames and audio samples will be written to disk.
 old-location: dshow\interleavingmode.htm
 tech.root: DirectShow
 ms.assetid: 4011b1e4-4bcf-4a2e-9d9a-ccdc8e12cd5a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INTERLEAVE_CAPTURE, INTERLEAVE_FULL, INTERLEAVE_NONE, INTERLEAVE_NONE_BUFFERED, InterleavingMode, InterleavingMode enumeration [DirectShow], InterleavingModeEnumeration, dshow.interleavingmode, strmif/INTERLEAVE_CAPTURE, strmif/INTERLEAVE_FULL, strmif/INTERLEAVE_NONE, strmif/INTERLEAVE_NONE_BUFFERED, strmif/InterleavingMode
 ms.topic: enum

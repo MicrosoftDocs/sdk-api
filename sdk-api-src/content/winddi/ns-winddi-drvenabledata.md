@@ -1,12 +1,12 @@
 ---
 UID: NS:winddi.tagDRVENABLEDATA
 title: DRVENABLEDATA (winddi.h)
-author: windows-sdk-content
+
 description: The DRVENABLEDATA structure contains a pointer to an array of DRVFN structures and the graphics DDI version number of an NT-based operating system.
 old-location: display\drvenabledata.htm
 tech.root: display
 ms.assetid: dbeaecf8-dea1-4412-babb-6e40bf5dc7b0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PDRVENABLEDATA, DRVENABLEDATA, DRVENABLEDATA structure [Display Devices], PDRVENABLEDATA, PDRVENABLEDATA structure pointer [Display Devices], display.drvenabledata, grstrcts_d39f1feb-36e3-4fc6-b580-5b428dbeebd0.xml, winddi/DRVENABLEDATA, winddi/PDRVENABLEDATA'
 ms.topic: struct

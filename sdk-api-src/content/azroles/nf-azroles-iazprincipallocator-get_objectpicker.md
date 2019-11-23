@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzPrincipalLocator.get_ObjectPicker
 title: IAzPrincipalLocator::get_ObjectPicker (azroles.h)
-author: windows-sdk-content
+
 description: Gets a pointer to the IAzObjectPicker interface associated with this IAzPrincipalLocator object.
 old-location: security\iazprincipallocator_objectpicker_method.htm
 tech.root: SecAuthZ
 ms.assetid: 23861b03-0e18-4c0a-a58e-91bac2d474b0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAzPrincipalLocator interface [Security],ObjectPicker property, IAzPrincipalLocator.ObjectPicker, IAzPrincipalLocator.get_ObjectPicker, IAzPrincipalLocator::ObjectPicker, IAzPrincipalLocator::get_ObjectPicker, ObjectPicker property [Security], ObjectPicker property [Security],IAzPrincipalLocator interface, azroles/IAzPrincipalLocator::ObjectPicker, azroles/IAzPrincipalLocator::get_ObjectPicker, get_ObjectPicker, security.iazprincipallocator_objectpicker_method
 ms.topic: method

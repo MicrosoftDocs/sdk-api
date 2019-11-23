@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMATRIX.operator-mult
 title: XMMATRIX::operator-mult
-author: windows-sdk-content
+
 description: Performs a matrix multiplication of the current instance of XMMATRIX by another instance of XMMATRIX.
 old-location: dxmath\xmmatrix_operator_mul.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.operator *(const XMMATRIX)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMATRIX.operator *, Use DirectX::::XMMATRIX::operator *, XMMATRIX structure [DirectX Math Support APIs],operator * method, XMMATRIX.operator *, XMMATRIX.operator*, XMMATRIX.operator-mult, XMMATRIX::operator*, XMMATRIX::operator-mult, dxmath.xmmatrix_operator_mul, operator * method [DirectX Math Support APIs], operator * method [DirectX Math Support APIs],XMMATRIX structure, operator*
 ms.topic: method

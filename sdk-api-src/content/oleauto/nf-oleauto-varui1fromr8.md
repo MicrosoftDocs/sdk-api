@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarUI1FromR8
 title: VarUI1FromR8 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a double value to an unsigned char value.
 old-location: automat\varui1fromr8.htm
 tech.root: automat
 ms.assetid: 121fa736-d7fc-46a2-b75e-2e6748e51f3f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarUI1FromR8, VarUI1FromR8 function [Automation], _oa96_VarUI1FromR8, automat.varui1fromr8, oleauto/VarUI1FromR8
 ms.topic: function

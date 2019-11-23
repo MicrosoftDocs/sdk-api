@@ -1,12 +1,12 @@
 ---
 UID: NL:gdiplusgraphics.Graphics
 title: Graphics (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics class provides methods for drawing lines, curves, figures, images, and text. A Graphics object stores attributes of the display device and attributes of the items to be drawn.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphics.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Graphics, Graphics class [GDI+], Graphics class [GDI+],described, _gdiplus_CLASS_Graphics_Class, gdiplus._gdiplus_CLASS_Graphics_Class, gdiplusgraphics/Graphics
 ms.topic: class

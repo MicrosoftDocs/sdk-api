@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.ApplyPropertiesToItem
 title: IFileOperation::ApplyPropertiesToItem (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Declares a single item whose property values are to be set.
 old-location: shell\IFileOperation_ApplyPropertiesToItem.htm
 tech.root: shell
 ms.assetid: 35330c7c-29fc-4337-a538-863925398b0d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ApplyPropertiesToItem, ApplyPropertiesToItem method [Windows Shell], ApplyPropertiesToItem method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],ApplyPropertiesToItem method, IFileOperation.ApplyPropertiesToItem, IFileOperation::ApplyPropertiesToItem, _shell_IFileOperation_ApplyPropertiesToItem, shell.IFileOperation_ApplyPropertiesToItem, shobjidl_core/IFileOperation::ApplyPropertiesToItem
 ms.topic: method

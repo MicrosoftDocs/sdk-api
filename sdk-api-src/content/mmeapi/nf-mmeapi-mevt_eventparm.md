@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.MEVT_EVENTPARM
 title: MEVT_EVENTPARM macro (mmeapi.h)
-author: windows-sdk-content
+
 description: The MEVT_EVENTPARM macro retrieves the event parameters or length from the value specified in the dwEvent member of a MIDIEVENT structure.
 old-location: multimedia\mevt_eventparm.htm
 tech.root: Multimedia
 ms.assetid: cabb6e1f-2a86-47eb-9bbb-1429cc56f485
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MEVT_EVENTPARM, MEVT_EVENTPARM macro [Windows Multimedia], _win32_MEVT_EVENTPARM, mmeapi/MEVT_EVENTPARM, multimedia.mevt_eventparm
 ms.topic: macro

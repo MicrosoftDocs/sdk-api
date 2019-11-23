@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDragDropBehavior.SetConfiguration
 title: IDirectManipulationDragDropBehavior::SetConfiguration (directmanipulation.h)
-author: windows-sdk-content
+
 description: Sets the configuration of the drag-drop interaction for the viewport this behavior is attached to.
 old-location: directmanipulation\idirectmanipulationdragdropbehavior_setconfiguration.htm
 tech.root: directmanipulation
 ms.assetid: 972EF04E-B14C-4EF9-B40A-EAF0458F2947
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationDragDropBehavior interface [Direct Manipulation],SetConfiguration method, IDirectManipulationDragDropBehavior.SetConfiguration, IDirectManipulationDragDropBehavior::SetConfiguration, SetConfiguration, SetConfiguration method [Direct Manipulation], SetConfiguration method [Direct Manipulation],IDirectManipulationDragDropBehavior interface, directmanipulation.idirectmanipulationdragdropbehavior_setconfiguration, directmanipulation/IDirectManipulationDragDropBehavior::SetConfiguration
 ms.topic: method

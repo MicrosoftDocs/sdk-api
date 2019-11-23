@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMFSample.GetTotalLength
 title: IMFSample::GetTotalLength (mfobjects.h)
-author: windows-sdk-content
+
 description: Retrieves the total length of the valid data in all of the buffers in the sample. The length is calculated as the sum of the values retrieved by the IMFMediaBuffer::GetCurrentLength method.
 old-location: mf\imfsample_gettotallength.htm
 tech.root: medfound
 ms.assetid: e0dfc1d2-ec78-4d1c-992d-3a876b600ca6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTotalLength, GetTotalLength method [Media Foundation], GetTotalLength method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetTotalLength method, IMFSample.GetTotalLength, IMFSample::GetTotalLength, e0dfc1d2-ec78-4d1c-992d-3a876b600ca6, mf.imfsample_gettotallength, mfobjects/IMFSample::GetTotalLength
 ms.topic: method

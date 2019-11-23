@@ -1,12 +1,12 @@
 ---
 UID: NE:uxtheme.PROPERTYORIGIN
 title: PROPERTYORIGIN (uxtheme.h)
-author: windows-sdk-content
+
 description: Returned by GetThemePropertyOrigin to specify where a property was found.
 old-location: controls\PROPERTYORIGIN.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\propertyorigin.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PO_CLASS, PO_GLOBAL, PO_NOTFOUND, PO_PART, PO_STATE, PROPERTYORIGIN, PROPERTYORIGIN enumeration [Windows Controls], controls.PROPERTYORIGIN, controls.inet_PROPERTYORIGIN, inet_PROPERTYORIGIN, inet_PROPERTYORIGIN_cpp, uxtheme/PO_CLASS, uxtheme/PO_GLOBAL, uxtheme/PO_NOTFOUND, uxtheme/PO_PART, uxtheme/PO_STATE, uxtheme/PROPERTYORIGIN
 ms.topic: enum

@@ -1,11 +1,11 @@
 ---
 UID: NN:d3d12video.ID3D12VideoDevice
 title: ID3D12VideoDevice
-author: windows-sdk-content
+
 description: Provides video decoding and processing capabilities of a Microsoft Direct3D 12 device including the ability to query video capabilities and instantiating video decoders and processors. 
 tech.root: mf
 ms.assetid: 283d0a88-eb23-4083-af27-c08d2ce463a2
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: interface
 f1_keywords:

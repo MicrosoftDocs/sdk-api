@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.ClearMarkers
 title: GraphicsPath::ClearMarkers (gdipluspath.h)
-author: windows-sdk-content
+
 description: The GraphicsPath::ClearMarkers method clears the markers from this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_ClearMarkers_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\clearmarkers.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClearMarkers, ClearMarkers method [GDI+], ClearMarkers method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],ClearMarkers method, GraphicsPath.ClearMarkers, GraphicsPath::ClearMarkers, _gdiplus_CLASS_GraphicsPath_ClearMarkers_, gdiplus._gdiplus_CLASS_GraphicsPath_ClearMarkers_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wintrust.WTHelperGetProvPrivateDataFromChain
 title: WTHelperGetProvPrivateDataFromChain function (wintrust.h)
-author: windows-sdk-content
+
 description: Receives a CRYPT_PROVIDER_PRIVDATA structure from the chain by using the provider ID.
 old-location: security\wthelpergetprovprivatedatafromchain.htm
 tech.root: SecCrypto
 ms.assetid: 67a718a2-47ca-4c45-a939-99dd8311dc6d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WTHelperGetProvPrivateDataFromChain, WTHelperGetProvPrivateDataFromChain function [Security], security.wthelpergetprovprivatedatafromchain, wintrust/WTHelperGetProvPrivateDataFromChain
 ms.topic: function

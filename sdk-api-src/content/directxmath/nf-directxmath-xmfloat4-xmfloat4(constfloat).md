@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMFLOAT4.XMFLOAT4(const float)
 title: XMFLOAT4::XMFLOAT4(const float) (directxmath.h)
-author: windows-sdk-content
+
 description: A constructor for XMFLOAT4.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: XMFLOAT4, XMFLOAT4 constructor [DirectX Math Support APIs], XMFLOAT4 constructor [DirectX Math Support APIs],XMFLOAT4 structure, XMFLOAT4 structure [DirectX Math Support APIs],XMFLOAT4 constructor, XMFLOAT4.XMFLOAT4, XMFLOAT4.XMFLOAT4(), XMFLOAT4.XMFLOAT4(const float), XMFLOAT4::XMFLOAT4, XMFLOAT4::XMFLOAT4(const float), dxmath.xmfloat4_ctor_1
 ms.topic: method

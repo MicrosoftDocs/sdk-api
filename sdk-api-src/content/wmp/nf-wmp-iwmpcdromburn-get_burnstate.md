@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.get_burnState
 title: IWMPCdromBurn::get_burnState (wmp.h)
-author: windows-sdk-content
+
 description: The get_burnState method retrieves an enumeration value that indicates the current burn state.
 old-location: wmp\iwmpcdromburn_get_burnstate.htm
 tech.root: WMP
 ms.assetid: a6bcb8d6-07ad-4d8f-a94a-6b8c1b7f0c2b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnState method, IWMPCdromBurn.get_burnState, IWMPCdromBurn::get_burnState, IWMPCdromBurnget_burnState, get_burnState, get_burnState method [Windows Media Player], get_burnState method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnstate, wmp/IWMPCdromBurn::get_burnState
 ms.topic: method

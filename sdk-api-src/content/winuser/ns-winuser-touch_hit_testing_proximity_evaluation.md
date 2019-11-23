@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser.tagTOUCH_HIT_TESTING_PROXIMITY_EVALUATION
 title: TOUCH_HIT_TESTING_PROXIMITY_EVALUATION (winuser.h)
-author: windows-sdk-content
+
 description: Contains the hit test score that indicates whether the object is the likely target of the touch contact area, relative to other objects that intersect the touch contact area.
 old-location: input_touchhittest\touch_hit_testing_proximity_evaluation.htm
 tech.root: Input_TouchHitTest
 ms.assetid: a26facc3-fe63-4657-9bd6-821dd89cb11d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION, PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION, PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION structure pointer, TOUCH_HIT_TESTING_PROXIMITY_EVALUATION, TOUCH_HIT_TESTING_PROXIMITY_EVALUATION structure, input_touchhittest.touch_hit_testing_proximity_evaluation, tagTOUCH_HIT_TESTING_PROXIMITY_EVALUATION, touch_hittest.touch_hit_testing_proximity_evaluation, winuser/PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION, winuser/TOUCH_HIT_TESTING_PROXIMITY_EVALUATION"
 ms.topic: struct

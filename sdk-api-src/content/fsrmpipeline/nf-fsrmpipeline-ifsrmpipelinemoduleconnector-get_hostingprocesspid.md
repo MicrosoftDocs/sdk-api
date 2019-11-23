@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.get_HostingProcessPid
 title: IFsrmPipelineModuleConnector::get_HostingProcessPid (fsrmpipeline.h)
-author: windows-sdk-content
+
 description: The process identifier of the module.
 old-location: fsrm\ifsrmpipelinemoduleconnector_hostingprocesspid.htm
 tech.root: fsrm
 ms.assetid: bd9259de-35e4-46e9-9994-388c3ac77172
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],HostingProcessPid property, HostingProcessPid property [File Server Resource Manager], HostingProcessPid property [File Server Resource Manager],FsrmPipelineModuleConnector class, HostingProcessPid property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, IFsrmPipelineModuleConnector interface [File Server Resource Manager],HostingProcessPid property, IFsrmPipelineModuleConnector.HostingProcessPid, IFsrmPipelineModuleConnector.get_HostingProcessPid, IFsrmPipelineModuleConnector::HostingProcessPid, IFsrmPipelineModuleConnector::get_HostingProcessPid, fs.ifsrmpipelinemoduleconnector_hostingprocesspid, fsrm.ifsrmpipelinemoduleconnector_hostingprocesspid, fsrmpipeline/IFsrmPipelineModuleConnector::HostingProcessPid, fsrmpipeline/IFsrmPipelineModuleConnector::get_HostingProcessPid, get_HostingProcessPid
 ms.topic: method

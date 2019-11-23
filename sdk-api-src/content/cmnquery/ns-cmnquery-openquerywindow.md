@@ -1,12 +1,12 @@
 ---
 UID: NS:cmnquery.__unnamed_struct_1
 title: OPENQUERYWINDOW (cmnquery.h)
-author: windows-sdk-content
+
 description: Used with the ICommonQuery::OpenQueryWindow method to initialize the directory service query dialog box.
 old-location: ad\openquerywindow.htm
 tech.root: ad
 ms.assetid: 07ef2af1-230e-41d9-ad19-d002d0579d66
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPOPENQUERYWINDOW, CLSID_DsFindAdvanced, CLSID_DsFindComputer, CLSID_DsFindContainer, CLSID_DsFindDomainController, CLSID_DsFindFrsMembers, CLSID_DsFindObjects, CLSID_DsFindPeople, CLSID_DsFindPrinter, CLSID_DsFindVolume, CLSID_DsFindWriteableDomainController, CLSID_DsQuery, LPOPENQUERYWINDOW, LPOPENQUERYWINDOW structure pointer [Active Directory], OPENQUERYWINDOW, OPENQUERYWINDOW structure [Active Directory], OQWF_DEFAULTFORM, OQWF_HIDEMENUS, OQWF_HIDESEARCHUI, OQWF_ISSUEONOPEN, OQWF_LOADQUERY, OQWF_OKCANCEL, OQWF_PARAMISPROPERTYBAG, OQWF_REMOVEFORMS, OQWF_REMOVESCOPES, OQWF_SAVEQUERYONOK, OQWF_SHOWOPTIONAL, OQWF_SINGLESELECT, _glines_openquerywindow, ad.openquerywindow, cmnquery/LPOPENQUERYWINDOW, cmnquery/OPENQUERYWINDOW"
 ms.topic: struct

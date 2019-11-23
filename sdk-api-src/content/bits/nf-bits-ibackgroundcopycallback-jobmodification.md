@@ -1,12 +1,12 @@
 ---
 UID: NF:bits.IBackgroundCopyCallback.JobModification
 title: IBackgroundCopyCallback::JobModification (bits.h)
-author: windows-sdk-content
+
 description: BITS calls your implementation of the JobModification method when the job has been modified.
 old-location: bits\ibackgroundcopycallback_jobmodification.htm
 tech.root: Bits
 ms.assetid: 7614756d-92d1-4b71-a589-c0e39728a51c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback interface [BITS],JobModification method, IBackgroundCopyCallback.JobModification, IBackgroundCopyCallback::JobModification, JobModification, JobModification method [BITS], JobModification method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_jobmodification, bits.ibackgroundcopycallback_jobmodification, bits/IBackgroundCopyCallback::JobModification
 ms.topic: method

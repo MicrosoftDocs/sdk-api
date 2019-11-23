@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFCreateAttributes
 title: MFCreateAttributes function (mfapi.h)
-author: windows-sdk-content
+
 description: Creates an empty attribute store.
 old-location: mf\mfcreateattributes.htm
 tech.root: medfound
 ms.assetid: a79b1edd-5ca1-4550-a6ce-58073155affd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFCreateAttributes, MFCreateAttributes function [Media Foundation], a79b1edd-5ca1-4550-a6ce-58073155affd, mf.mfcreateattributes, mfapi/MFCreateAttributes
 ms.topic: function

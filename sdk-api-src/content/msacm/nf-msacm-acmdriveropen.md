@@ -1,12 +1,12 @@
 ---
 UID: NF:msacm.acmDriverOpen
 title: acmDriverOpen function (msacm.h)
-author: windows-sdk-content
+
 description: The acmDriverOpen function opens the specified ACM driver and returns a driver instance handle that can be used to communicate with the driver.
 old-location: multimedia\acmdriveropen.htm
 tech.root: Multimedia
 ms.assetid: a2b98e82-be7a-4e14-bc74-4926eb663ef9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmDriverOpen, acmDriverOpen, acmDriverOpen function [Windows Multimedia], msacm/acmDriverOpen, multimedia.acmdriveropen"
 ms.topic: function

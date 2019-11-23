@@ -1,12 +1,12 @@
 ---
 UID: NF:joystickapi.joyReleaseCapture
 title: joyReleaseCapture function (joystickapi.h)
-author: windows-sdk-content
+
 description: The joyReleaseCapture function releases the specified captured joystick.
 old-location: multimedia\joyreleasecapture.htm
 tech.root: Multimedia
 ms.assetid: deb1f280-12bd-4e4d-841a-667b7785207c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_joyReleaseCapture, joyReleaseCapture, joyReleaseCapture function [Windows Multimedia], joystickapi/joyReleaseCapture, multimedia.joyreleasecapture"
 ms.topic: function

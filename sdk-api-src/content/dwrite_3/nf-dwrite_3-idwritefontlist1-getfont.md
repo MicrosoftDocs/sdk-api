@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_3.IDWriteFontList1.GetFont
 title: IDWriteFontList1::GetFont (dwrite_3.h)
-author: windows-sdk-content
+
 description: Gets a font given its zero-based index.
 old-location: directwrite\idwritefontlist1_getfont.htm
 tech.root: DirectWrite
 ms.assetid: 206A103C-5847-4388-83EC-BE038DB20A09
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFont, GetFont method [Direct Write], GetFont method [Direct Write],IDWriteFontList1 interface, IDWriteFontList1 interface [Direct Write],GetFont method, IDWriteFontList1.GetFont, IDWriteFontList1::GetFont, directwrite.idwritefontlist1_getfont, dwrite_3/IDWriteFontList1::GetFont
 ms.topic: method

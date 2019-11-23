@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUDECN4.operator-assign(XMUDECN4 &&)
 title: XMUDECN4::operator-assign(XMUDECN4 &&) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Assigns the vector component data from one instance of XMUDECN4 to the current instance of XMUDECN4.
 old-location: dxmath\xmudecn4_operator_eq_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUDECN4.operator = (const XMUDECN4)
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMUDECN4 structure [DirectX Math Support APIs],operator = method, XMUDECN4.operator =(const XMUDECN4&), XMUDECN4.operator-assign(XMUDECN4 &&), XMUDECN4.operator=, XMUDECN4::operator-assign(XMUDECN4 &&), XMUDECN4::operator=, dxmath.xmudecn4_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUDECN4 structure, operator=
 ms.topic: method

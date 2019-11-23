@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.Push
 title: ITfDocumentMgr::Push (msctf.h)
-author: windows-sdk-content
+
 description: ITfDocumentMgr::Push method
 old-location: tsf\itfdocumentmgr_push.htm
 tech.root: TSF
 ms.assetid: afd5452b-4121-428d-801f-1638c2767c67
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfDocumentMgr interface [Text Services Framework],Push method, ITfDocumentMgr.Push, ITfDocumentMgr::Push, Push, Push method [Text Services Framework], Push method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_push_ref, msctf/ITfDocumentMgr::Push, tsf.itfdocumentmgr_push
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.DoesPropertyValueApply
 title: IFsrmClassifierModuleImplementation::DoesPropertyValueApply (fsrmpipeline.h)
-author: windows-sdk-content
+
 description: Queries the classifier to find out whether the specified property value applies to the file most recently specified by the IFsrmClassifierModuleImplementation::OnBeginFile method.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_doespropertyvalueapply.htm
 tech.root: fsrm
 ms.assetid: ab42430c-1e30-4576-b6f8-c0488b6230dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DoesPropertyValueApply, DoesPropertyValueApply method [File Server Resource Manager], DoesPropertyValueApply method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, IFsrmClassifierModuleImplementation interface [File Server Resource Manager],DoesPropertyValueApply method, IFsrmClassifierModuleImplementation.DoesPropertyValueApply, IFsrmClassifierModuleImplementation::DoesPropertyValueApply, fs.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrm.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrmpipeline/IFsrmClassifierModuleImplementation::DoesPropertyValueApply
 ms.topic: method

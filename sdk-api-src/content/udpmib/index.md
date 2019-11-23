@@ -1,7 +1,7 @@
 ---
 UID: NA:udpmib
 ms.assetid: 920df706-c723-37fe-8536-596167286f93
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

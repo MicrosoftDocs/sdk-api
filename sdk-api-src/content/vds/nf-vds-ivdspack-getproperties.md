@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsPack.GetProperties
 title: IVdsPack::GetProperties (vds.h)
-author: windows-sdk-content
+
 description: Returns the property details of a pack object.
 old-location: base\ivdspack_getproperties.htm
 tech.root: VDS
 ms.assetid: 0793642c-1905-470c-a69f-8bf5f8bbe90d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsPack interface, IVdsPack interface [VDS],GetProperties method, IVdsPack.GetProperties, IVdsPack::GetProperties, base.ivdspack_getproperties, vds/IVdsPack::GetProperties
 ms.topic: method

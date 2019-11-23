@@ -1,12 +1,12 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetImage
 title: IUserInputString::GetImage (photoacquire.h)
-author: windows-sdk-content
+
 description: The GetImage method retrieves the default image used to initialize an edit control.
 old-location: picacq\iuserinputstring_getimage.htm
 tech.root: acquisition
 ms.assetid: a626c53d-b9dd-483b-924d-6f5d2d1c2663
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetImage, GetImage method [Picture Acquisition], GetImage method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetImage method, IUserInputString.GetImage, IUserInputString::GetImage, IUserInputStringGetImage, photoacquire/IUserInputString::GetImage, picacq.iuserinputstring_getimage
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetStatus
 title: IXblIdpAuthTokenResult::GetStatus (xblidpauthmanager.h)
-author: windows-sdk-content
+
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getstatus.htm
 tech.root: xblidp
 ms.assetid: 3596B41E-C360-4B29-BE78-AD08D0290DA9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method, GetStatus method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetStatus method, IXblIdpAuthTokenResult.GetStatus, IXblIdpAuthTokenResult::GetStatus, xblidp.ixblidpauthtokenresult_getstatus, xblidpauthmanager/IXblIdpAuthTokenResult::GetStatus
 ms.topic: method

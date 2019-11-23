@@ -1,12 +1,12 @@
 ---
 UID: NN:qnetwork.IDShowPlugin
 title: IDShowPlugin (qnetwork.h)
-author: windows-sdk-content
+
 description: The IDShowPlugin interface enables the Windows Media Source filter to communicate with the Windows Media Player 6.4 Plug-in for Netscape Navigator.
 old-location: dshow\idshowplugin.htm
 tech.root: DirectShow
 ms.assetid: b5b73489-4d2d-4afa-a4df-7b84711f2556
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDShowPlugin, IDShowPlugin interface [DirectShow], IDShowPlugin interface [DirectShow],described, IDShowPluginInterface, dshow.idshowplugin, qnetwork/IDShowPlugin
 ms.topic: interface

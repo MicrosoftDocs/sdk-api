@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetCount
 title: IMFAttributes::GetCount (mfobjects.h)
-author: windows-sdk-content
+
 description: Retrieves the number of attributes that are set on this object.
 old-location: mf\imfattributes_getcount.htm
 tech.root: medfound
 ms.assetid: 5f511d5c-249c-4311-8380-a932a755eaaf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 5f511d5c-249c-4311-8380-a932a755eaaf, GetCount, GetCount method [Media Foundation], GetCount method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetCount method, IMFAttributes.GetCount, IMFAttributes::GetCount, mf.imfattributes_getcount, mfobjects/IMFAttributes::GetCount
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:windows.media.streaming.ConnectionStatus
 title: ConnectionStatus (windows.media.streaming.h)
-author: windows-sdk-content
+
 description: Represents the state of the device in the network as last seen.
 old-location: mediastreaming\connectionstatus.htm
 tech.root: mediastreaming
 ms.assetid: e1893a59-ce7d-4e9c-a013-02ac916d4ee8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ConnectionStatus, ConnectionStatus enumeration [Media Streaming API], Offline, Online, Sleeping, mediastreaming.connectionstatus, windows/ConnectionStatus, windows/Offline, windows/Online, windows/Sleeping
 ms.topic: enum

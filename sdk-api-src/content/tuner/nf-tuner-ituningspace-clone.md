@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.ITuningSpace.Clone
 title: ITuningSpace::Clone (tuner.h)
-author: windows-sdk-content
+
 description: The Clone method creates a new copy of the tuning space.
 old-location: mstv\ituningspace_clone.htm
 tech.root: mstv
 ms.assetid: 01dcde87-b043-491e-b5cf-9800c12b5335
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],Clone method, ITuningSpace.Clone, ITuningSpace::Clone, ITuningSpaceClone, mstv.ituningspace_clone, tuner/ITuningSpace::Clone
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.AcceptConnection
 title: IWRdsProtocolConnection::AcceptConnection (wtsprotocol.h)
-author: windows-sdk-content
+
 description: Directs the protocol to continue with the connection request.
 old-location: termserv\iwrdsprotocolconnection_acceptconnection.htm
 tech.root: TermServ
 ms.assetid: ef7e13ad-eeb8-4452-b3d6-a137b766f98f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AcceptConnection, AcceptConnection method [Remote Desktop Services], AcceptConnection method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],AcceptConnection method, IWRdsProtocolConnection.AcceptConnection, IWRdsProtocolConnection::AcceptConnection, termserv.iwrdsprotocolconnection_acceptconnection, wtsprotocol/IWRdsProtocolConnection::AcceptConnection
 ms.topic: method

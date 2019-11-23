@@ -1,12 +1,12 @@
 ---
 UID: NF:tspi.TSPI_phoneGetHookSwitch
 title: TSPI_phoneGetHookSwitch function (tspi.h)
-author: windows-sdk-content
+
 description: The TSPI_phoneGetHookSwitch function returns the current hookswitch mode of the specified open phone device.
 old-location: tspi\tspi_phonegethookswitch.htm
 tech.root: Tapi
 ms.assetid: 31248a74-84f2-4ca6-a6fc-f8710953ce34
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetHookSwitch, TSPI_phoneGetHookSwitch function [TAPI 2.2], _tspi_tspi_phonegethookswitch, tspi.tspi_phonegethookswitch, tspi/TSPI_phoneGetHookSwitch
 ms.topic: function

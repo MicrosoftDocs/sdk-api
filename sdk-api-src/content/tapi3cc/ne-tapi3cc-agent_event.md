@@ -1,12 +1,12 @@
 ---
 UID: NE:tapi3cc.AGENT_EVENT
 title: AGENT_EVENT (tapi3cc.h)
-author: windows-sdk-content
+
 description: The AGENT_EVENT enum describes agent events. The ITAgentEvent::get_Event method returns a member of this enum to indicate the type of agent event that occurred.
 old-location: tapi3\agent_event.htm
 tech.root: Tapi
 ms.assetid: 9dec832a-98da-436a-89c8-d5c69053082a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AE_BUSY_ACD, AE_BUSY_INCOMING, AE_BUSY_OUTGOING, AE_NOT_READY, AE_READY, AE_UNKNOWN, AGENT_EVENT, AGENT_EVENT enumeration [TAPI 2.2], _tapi3_agent_event, tapi3.agent_event, tapi3cc/AE_BUSY_ACD, tapi3cc/AE_BUSY_INCOMING, tapi3cc/AE_BUSY_OUTGOING, tapi3cc/AE_NOT_READY, tapi3cc/AE_READY, tapi3cc/AE_UNKNOWN, tapi3cc/AGENT_EVENT
 ms.topic: enum

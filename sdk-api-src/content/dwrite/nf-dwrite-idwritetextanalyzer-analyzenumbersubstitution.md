@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.AnalyzeNumberSubstitution
 title: IDWriteTextAnalyzer::AnalyzeNumberSubstitution (dwrite.h)
-author: windows-sdk-content
+
 description: Analyzes a text range for spans where number substitution is applicable, reading attributes from the source and reporting substitutable ranges to the sink callback SetNumberSubstitution.
 old-location: directwrite\IDWriteTextAnalyzer_AnalyzeNumberSubstitution.htm
 tech.root: DirectWrite
 ms.assetid: 1cd53f79-5bbc-4a70-b66a-b807fe163a98
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AnalyzeNumberSubstitution, AnalyzeNumberSubstitution method [Direct Write], AnalyzeNumberSubstitution method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeNumberSubstitution method, IDWriteTextAnalyzer.AnalyzeNumberSubstitution, IDWriteTextAnalyzer::AnalyzeNumberSubstitution, directwrite.IDWriteTextAnalyzer_AnalyzeNumberSubstitution, dwrite/IDWriteTextAnalyzer::AnalyzeNumberSubstitution
 ms.topic: method

@@ -1,7 +1,7 @@
 ---
 UID: NA:txlogpub
 ms.assetid: 08e9a373-7fa6-33d6-9a8b-ce0a30237de4
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

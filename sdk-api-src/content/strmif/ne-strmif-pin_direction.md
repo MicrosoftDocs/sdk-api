@@ -1,12 +1,12 @@
 ---
 UID: NE:strmif._PinDirection
 title: PIN_DIRECTION (strmif.h)
-author: windows-sdk-content
+
 description: Indicates a pin's direction.
 old-location: dshow\pin_direction.htm
 tech.root: DirectShow
 ms.assetid: 87f4e2e8-543f-46a3-b385-cc2e6af39770
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PINDIR_INPUT, PINDIR_OUTPUT, PIN_DIRECTION, PIN_DIRECTION , PIN_DIRECTION enumeration [DirectShow], PIN_DIRECTIONEnumeration, dshow.pin_direction, strmif/PINDIR_INPUT, strmif/PINDIR_OUTPUT, strmif/PIN_DIRECTION
 ms.topic: enum

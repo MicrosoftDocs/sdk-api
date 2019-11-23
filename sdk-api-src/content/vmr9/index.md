@@ -1,7 +1,7 @@
 ---
 UID: NA:vmr9
 ms.assetid: f6e4c70d-fd24-3358-aef7-e108b8ef2c3a
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

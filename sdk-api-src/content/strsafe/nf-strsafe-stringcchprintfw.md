@@ -1,12 +1,12 @@
 ---
 UID: NF:strsafe.StringCchPrintfW
 title: StringCchPrintfW function (strsafe.h)
-author: windows-sdk-content
+
 description: Writes formatted data to the specified string.
 old-location: menurc\stringcchprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchprintf.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: StringCchPrintf, StringCchPrintf function [Menus and Other Resources], StringCchPrintfA, StringCchPrintfW, _shell_StringCchPrintf, _shell_stringcchprintf_cpp, menurc.stringcchprintf, strsafe/StringCchPrintf, strsafe/StringCchPrintfA, strsafe/StringCchPrintfW, winui._shell_stringcchprintf
 ms.topic: function

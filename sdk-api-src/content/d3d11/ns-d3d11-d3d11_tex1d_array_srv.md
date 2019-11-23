@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_TEX1D_ARRAY_SRV
 title: D3D11_TEX1D_ARRAY_SRV (d3d11.h)
-author: windows-sdk-content
+
 description: Specifies the subresources from an array of 1D textures to use in a shader-resource view.
 old-location: direct3d11\d3d11_tex1d_array_srv.htm
 tech.root: direct3d11
 ms.assetid: e0caf038-d0d7-4fd4-bec3-f0023035a82a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_TEX1D_ARRAY_SRV, D3D11_TEX1D_ARRAY_SRV structure [Direct3D 11], c31f5cd3-cca9-011f-b154-0ba95200b6e6, d3d11/D3D11_TEX1D_ARRAY_SRV, direct3d11.d3d11_tex1d_array_srv
 ms.topic: struct

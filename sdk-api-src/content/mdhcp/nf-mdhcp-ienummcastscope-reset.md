@@ -1,12 +1,12 @@
 ---
 UID: NF:mdhcp.IEnumMcastScope.Reset
 title: IEnumMcastScope::Reset (mdhcp.h)
-author: windows-sdk-content
+
 description: The Reset method resets to the beginning of enumeration sequence.
 old-location: tapi3\ienummcastscope_reset.htm
 tech.root: Tapi
 ms.assetid: 799ebbdb-b285-40a6-9fd8-39341d39bbf9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumMcastScope interface [TAPI 2.2],Reset method, IEnumMcastScope.Reset, IEnumMcastScope::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumMcastScope interface, _tapi3_ienummcastscope_reset, mdhcp/IEnumMcastScope::Reset, tapi3.ienummcastscope_reset
 ms.topic: method

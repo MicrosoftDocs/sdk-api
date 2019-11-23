@@ -1,11 +1,11 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_PROCESS_ORIENTATION
 title: D3D12_VIDEO_PROCESS_ORIENTATION
-author: windows-sdk-content
+
 description: Specifies an orientation operation to be performed by a video processor.
 tech.root: mf
 ms.assetid: 1196949a-a9d4-4a82-8300-d84b5960f6ef
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: enum
 f1_keywords:

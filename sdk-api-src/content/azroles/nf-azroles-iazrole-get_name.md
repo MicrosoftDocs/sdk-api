@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzRole.get_Name
 title: IAzRole::get_Name (azroles.h)
-author: windows-sdk-content
+
 description: Sets or retrieves the name of the role.
 old-location: security\iazrole_name.htm
 tech.root: SecAuthZ
 ms.assetid: fecd1cb8-55b8-4c7c-ba49-a633f9c8710c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],Name property, IAzRole interface [Security],Name property, IAzRole.Name, IAzRole.get_Name, IAzRole::Name, IAzRole::get_Name, IAzRole::put_Name, Name property [Security], Name property [Security],AzRole object, Name property [Security],IAzRole interface, azroles/IAzRole::Name, azroles/IAzRole::get_Name, azroles/IAzRole::put_Name, get_Name, security.iazrole_name
 ms.topic: method

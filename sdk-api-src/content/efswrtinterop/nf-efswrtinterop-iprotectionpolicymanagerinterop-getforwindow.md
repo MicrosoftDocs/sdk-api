@@ -1,12 +1,12 @@
 ---
 UID: NF:efswrtinterop.IProtectionPolicyManagerInterop.GetForWindow
 title: IProtectionPolicyManagerInterop::GetForWindow (efswrtinterop.h)
-author: windows-sdk-content
+
 description: Returns the protection policy manager object associated with the current app window.
 old-location: edp\iprotectionpolicymanager_getforwindow.htm
 tech.root: EDP
 ms.assetid: 638316E0-8D5C-4966-A44F-8F31ECBE83EB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EDP.iprotectionpolicymanager_getforwindow, GetForWindow, GetForWindow method, GetForWindow method,IProtectionPolicyManagerInterop interface, IProtectionPolicyManagerInterop interface,GetForWindow method, IProtectionPolicyManagerInterop.GetForWindow, IProtectionPolicyManagerInterop::GetForWindow, efswrtinterop/IProtectionPolicyManagerInterop::GetForWindow
 ms.topic: method

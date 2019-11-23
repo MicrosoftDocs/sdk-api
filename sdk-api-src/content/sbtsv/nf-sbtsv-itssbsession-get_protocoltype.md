@@ -1,12 +1,12 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_ProtocolType
 title: ITsSbSession::get_ProtocolType (sbtsv.h)
-author: windows-sdk-content
+
 description: Retrieves or specifies the protocol type for the session.
 old-location: termserv\itssbsession_protocoltype.htm
 tech.root: TermServ
 ms.assetid: ee4016c7-1cd4-456c-abec-e43d57866bc1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],ProtocolType property, ITsSbSession.ProtocolType, ITsSbSession.get_ProtocolType, ITsSbSession::ProtocolType, ITsSbSession::get_ProtocolType, ITsSbSession::put_ProtocolType, ProtocolType property [Remote Desktop Services], ProtocolType property [Remote Desktop Services],ITsSbSession interface, get_ProtocolType, sbtsv/ITsSbSession::ProtocolType, sbtsv/ITsSbSession::get_ProtocolType, sbtsv/ITsSbSession::put_ProtocolType, termserv.itssbsession_protocoltype
 ms.topic: method

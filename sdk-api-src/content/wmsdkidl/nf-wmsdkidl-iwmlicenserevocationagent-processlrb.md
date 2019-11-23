@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseRevocationAgent.ProcessLRB
 title: IWMLicenseRevocationAgent::ProcessLRB (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The ProcessLRB method removes licenses from the license store on the client computer.
 old-location: wmformat\iwmlicenserevocationagent_processlrb.htm
 tech.root: wmformat
 ms.assetid: 185611f8-beef-47b8-a9c2-abcda7651a18
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMLicenseRevocationAgent interface [windows Media Format],ProcessLRB method, IWMLicenseRevocationAgent.ProcessLRB, IWMLicenseRevocationAgent::ProcessLRB, IWMLicenseRevocationAgentProcessLRB, ProcessLRB, ProcessLRB method [windows Media Format], ProcessLRB method [windows Media Format],IWMLicenseRevocationAgent interface, wmformat.iwmlicenserevocationagent_processlrb, wmsdkidl/IWMLicenseRevocationAgent::ProcessLRB
 ms.topic: method

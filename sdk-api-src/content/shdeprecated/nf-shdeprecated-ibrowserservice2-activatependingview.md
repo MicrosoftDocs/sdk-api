@@ -1,12 +1,12 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.ActivatePendingView
 title: IBrowserService2::ActivatePendingView (shdeprecated.h)
-author: windows-sdk-content
+
 description: Deprecated. Coordinates state updating while the browser is switching between a current and a pending view.
 old-location: shell\IBrowserService2_ActivatePendingView.htm
 tech.root: shell
 ms.assetid: 833acb3f-4c33-4b46-8759-3c08698cd245
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ActivatePendingView, ActivatePendingView method [Windows Shell], ActivatePendingView method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],ActivatePendingView method, IBrowserService2.ActivatePendingView, IBrowserService2::ActivatePendingView, shdeprecated/IBrowserService2::ActivatePendingView, shell.IBrowserService2_ActivatePendingView, zone_IBrowserService2_ActivatePendingView
 ms.topic: method

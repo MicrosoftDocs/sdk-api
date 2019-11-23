@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetRight(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetRight(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Animates the value of the Right property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_setright_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 5514B37F-1F52-4A4B-89F7-830B1672A758
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetRight method, IDCompositionRectangleClip.SetRight, IDCompositionRectangleClip.SetRight(IDCompositionAnimation), IDCompositionRectangleClip::SetRight, IDCompositionRectangleClip::SetRight(IDCompositionAnimation), IDCompositionRectangleClip::SetRight(IDCompositionAnimation*), SetRight, SetRight method [DirectComposition], SetRight method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetRight, directcomp.idcompositionrectangleclip_setright_idcompositionanimation
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.Stop
 title: IDirectManipulationViewport::Stop (directmanipulation.h)
-author: windows-sdk-content
+
 description: Stops the manipulation and returns the viewport to a ready state.
 old-location: directmanipulation\idirectmanipulationviewport_stop.htm
 tech.root: directmanipulation
 ms.assetid: e0b88429-0d75-4c4a-8468-1a5637455324
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],Stop method, IDirectManipulationViewport.Stop, IDirectManipulationViewport::Stop, Stop, Stop method [Direct Manipulation], Stop method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_stop, directmanipulation/IDirectManipulationViewport::Stop
 ms.topic: method

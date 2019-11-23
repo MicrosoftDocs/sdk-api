@@ -1,12 +1,12 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_GETBANDWIDTH
 title: PDD_VPORTCB_GETBANDWIDTH (ddrawint.h)
-author: windows-sdk-content
+
 description: The DdVideoPortGetBandwidth callback function reports the bandwidth limitations of the device's frame buffer memory based the specified VPE object output format.
 old-location: display\ddvideoportgetbandwidth.htm
 tech.root: display
 ms.assetid: 4b9cfec1-a599-47a5-878e-2cde6b3b780a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetBandwidth, DdVideoPortGetBandwidth callback function [Display Devices], PDD_VPORTCB_GETBANDWIDTH, PDD_VPORTCB_GETBANDWIDTH callback, ddfncs_e47d95f4-8b95-4344-a1d0-f036007ac802.xml, ddrawint/DdVideoPortGetBandwidth, display.ddvideoportgetbandwidth
 ms.topic: callback

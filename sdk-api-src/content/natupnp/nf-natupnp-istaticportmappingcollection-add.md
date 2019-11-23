@@ -1,12 +1,12 @@
 ---
 UID: NF:natupnp.IStaticPortMappingCollection.Add
 title: IStaticPortMappingCollection::Add (natupnp.h)
-author: windows-sdk-content
+
 description: The Add method creates a new port mapping and adds it to the collection.
 old-location: ics\istaticportmappingcollection_add.htm
 tech.root: ics
 ms.assetid: 5e61629d-80e4-4d44-8e53-12e17b399126
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],IStaticPortMappingCollection interface, IStaticPortMappingCollection interface [ICS/ICF],Add method, IStaticPortMappingCollection.Add, IStaticPortMappingCollection::Add, _ics_istaticportmappingcollection_add, ics.istaticportmappingcollection_add, natupnp/IStaticPortMappingCollection::Add
 ms.topic: method

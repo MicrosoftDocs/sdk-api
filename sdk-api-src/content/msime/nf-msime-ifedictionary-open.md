@@ -1,12 +1,12 @@
 ---
 UID: NF:msime.IFEDictionary.Open
 title: IFEDictionary::Open (msime.h)
-author: windows-sdk-content
+
 description: Opens a dictionary file.
 old-location: intl\ifedictionary_open.htm
 tech.root: Intl
 ms.assetid: 7170EED5-0D96-4314-8B9F-A019052B0F32
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],Open method, IFEDictionary.Open, IFEDictionary::Open, Open, Open method [Internationalization for Windows Applications], Open method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_open, msime/IFEDictionary::Open
 ms.topic: method

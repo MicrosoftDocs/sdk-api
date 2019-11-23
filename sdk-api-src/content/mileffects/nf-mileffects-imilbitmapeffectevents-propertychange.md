@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectEvents.PropertyChange
 title: IMILBitmapEffectEvents::PropertyChange (mileffects.h)
-author: windows-sdk-content
+
 description: Notifies an IMILBitmapEffectPrimitive of a property change.
 old-location: wibe\_wibe_imilbitmapeffectevents_propertychange.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectevents\propertychange.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectEvents interface [WPF Bitmap Effects],PropertyChange method, IMILBitmapEffectEvents.PropertyChange, IMILBitmapEffectEvents::PropertyChange, PropertyChange, PropertyChange method [WPF Bitmap Effects], PropertyChange method [WPF Bitmap Effects],IMILBitmapEffectEvents interface, _wibe_imilbitmapeffectevents_propertychange, mileffects/IMILBitmapEffectEvents::PropertyChange, wibe._wibe_imilbitmapeffectevents_propertychange
 ms.topic: method

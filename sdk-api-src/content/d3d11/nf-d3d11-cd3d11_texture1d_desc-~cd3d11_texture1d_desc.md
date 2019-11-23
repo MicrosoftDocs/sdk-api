@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.CD3D11_TEXTURE1D_DESC.~CD3D11_TEXTURE1D_DESC
 title: CD3D11_TEXTURE1D_DESC::~CD3D11_TEXTURE1D_DESC (d3d11.h)
-author: windows-sdk-content
+
 description: Destroys an instance of a CD3D11_TEXTURE1D_DESC structure.
 old-location: direct3d11\cd3d11_texture1d_desc__cd3d11_texture1d_desc.htm
 tech.root: direct3d11
 ms.assetid: 73D53F85-FF69-4732-B83A-028A8B71E4B9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_TEXTURE1D_DESC interface [Direct3D 11],~CD3D11_TEXTURE1D_DESC destructor, CD3D11_TEXTURE1D_DESC.~CD3D11_TEXTURE1D_DESC, CD3D11_TEXTURE1D_DESC::~CD3D11_TEXTURE1D_DESC, CD3D11_TEXTURE1D_DESC::~CD3D11_TEXTURE1D_DESC(), d3d11/CD3D11_TEXTURE1D_DESC::~CD3D11_TEXTURE1D_DESC, direct3d11.cd3d11_texture1d_desc__cd3d11_texture1d_desc, ~CD3D11_TEXTURE1D_DESC, ~CD3D11_TEXTURE1D_DESC destructor [Direct3D 11], ~CD3D11_TEXTURE1D_DESC destructor [Direct3D 11],CD3D11_TEXTURE1D_DESC interface
 ms.topic: method

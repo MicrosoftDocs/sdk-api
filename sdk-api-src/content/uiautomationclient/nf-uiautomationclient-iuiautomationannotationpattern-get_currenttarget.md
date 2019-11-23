@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentTarget
 title: IUIAutomationAnnotationPattern::get_CurrentTarget (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the element that is being annotated.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentTarget.htm
 tech.root: WinAuto
 ms.assetid: 4D4CACBB-5451-4E0E-9907-5BEF4F3679B4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CurrentTarget property [Windows Accessibility], CurrentTarget property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentTarget property, IUIAutomationAnnotationPattern.CurrentTarget, IUIAutomationAnnotationPattern.get_CurrentTarget, IUIAutomationAnnotationPattern::CurrentTarget, IUIAutomationAnnotationPattern::get_CurrentTarget, get_CurrentTarget, uiautomationclient/IUIAutomationAnnotationPattern::CurrentTarget, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentTarget, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentTarget
 ms.topic: method

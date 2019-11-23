@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.SendOnClose
 title: IOleAdviseHolder::SendOnClose (oleidl.h)
-author: windows-sdk-content
+
 description: Sends notification to all advisory sinks currently registered with the advise holder that the object has closed.
 old-location: com\ioleadviseholder_sendonclose.htm
 tech.root: com
 ms.assetid: f4efa947-d357-432c-9585-b00b19551ad6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder interface [COM],SendOnClose method, IOleAdviseHolder.SendOnClose, IOleAdviseHolder::SendOnClose, SendOnClose, SendOnClose method [COM], SendOnClose method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonclose, com.ioleadviseholder_sendonclose, oleidl/IOleAdviseHolder::SendOnClose
 ms.topic: method

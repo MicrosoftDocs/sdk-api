@@ -1,12 +1,12 @@
 ---
 UID: NN:ctffunc.ITfFnBalloon
 title: ITfFnBalloon (ctffunc.h)
-author: windows-sdk-content
+
 description: The ITfFnBalloon interface is implemented by a text service and is used by an application or other text service to update the balloon item that the text service adds to the language bar.
 old-location: tsf\itffnballoon.htm
 tech.root: TSF
 ms.assetid: 9b79526b-b7e1-41a2-b32e-88124347d77d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfFnBalloon, ITfFnBalloon interface [Text Services Framework], ITfFnBalloon interface [Text Services Framework],described, _tsf_itffnballoon_ref, ctffunc/ITfFnBalloon, tsf.itffnballoon
 ms.topic: interface

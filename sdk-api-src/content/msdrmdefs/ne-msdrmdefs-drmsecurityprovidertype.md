@@ -1,12 +1,12 @@
 ---
 UID: NE:msdrmdefs._DRMSECURITYPROVIDERTYPE
 title: DRMSECURITYPROVIDERTYPE (msdrmdefs.h)
-author: windows-sdk-content
+
 description: The DRMSECURITYPROVIDERTYPE enumeration specifies the type of secure DRM environment used.
 old-location: rm\drmsecurityprovidertype.htm
 tech.root: AdRms_Sdk
 ms.assetid: e8b81e48-d13a-4b7d-b7a4-a197dc81dc6b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DRMSECURITYPROVIDERTYPE, DRMSECURITYPROVIDERTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMSECURITYPROVIDERTYPE_SOFTWARESECREP, msdrmdefs/DRMSECURITYPROVIDERTYPE, msdrmdefs/DRMSECURITYPROVIDERTYPE_SOFTWARESECREP, rm.drmsecurityprovidertype
 ms.topic: enum

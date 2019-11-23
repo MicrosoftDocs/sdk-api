@@ -1,12 +1,12 @@
 ---
 UID: NF:msajtransport.AllJoynConnectToBus
 title: AllJoynConnectToBus function (msajtransport.h)
-author: windows-sdk-content
+
 description: Opens the AllJoyn Router Node Service named pipe, and sets it to PIPE_NOWAIT.
 old-location: alljoyn\alljoynconnecttobus.htm
 tech.root: AllJoyn
 ms.assetid: B1929CE6-3707-4660-92CA-E267B1E5B9CC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AllJoynConnectToBus, AllJoynConnectToBus function [AllJoyn API], alljoyn.alljoynconnecttobus, msajtransport/AllJoynConnectToBus
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0002
 title: OPC_COMPRESSION_OPTIONS (msopc.h)
-author: windows-sdk-content
+
 description: Describes ways to compress part content.
 old-location: opc\opc_compression_options.htm
 tech.root: OPC
 ms.assetid: bc821e84-fd18-449c-89d0-a261f43f8971
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OPC_COMPRESSION_FAST, OPC_COMPRESSION_MAXIMUM, OPC_COMPRESSION_NONE, OPC_COMPRESSION_NORMAL, OPC_COMPRESSION_OPTIONS, OPC_COMPRESSION_OPTIONS enumeration [Open Packaging Conventions], OPC_COMPRESSION_SUPERFAST, msopc/OPC_COMPRESSION_FAST, msopc/OPC_COMPRESSION_MAXIMUM, msopc/OPC_COMPRESSION_NONE, msopc/OPC_COMPRESSION_NORMAL, msopc/OPC_COMPRESSION_OPTIONS, msopc/OPC_COMPRESSION_SUPERFAST, opc.opc_compression_options
 ms.topic: enum

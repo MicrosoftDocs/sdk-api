@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPCdromRip.startRip
 title: IWMPCdromRip::startRip (wmp.h)
-author: windows-sdk-content
+
 description: The startRip method rips the CD.
 old-location: wmp\iwmpcdromrip_startrip.htm
 tech.root: WMP
 ms.assetid: 88ba1e83-a3c5-4922-8c58-37993ccb4afc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromRip interface [Windows Media Player],startRip method, IWMPCdromRip.startRip, IWMPCdromRip::startRip, IWMPCdromRipstartRip, startRip, startRip method [Windows Media Player], startRip method [Windows Media Player],IWMPCdromRip interface, wmp.iwmpcdromrip_startrip, wmp/IWMPCdromRip::startRip
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.Append
 title: IMFSourceBuffer::Append (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Appends the specified media segment to the IMFSourceBuffer.
 old-location: mf\imfsourcebuffer_append.htm
 tech.root: medfound
 ms.assetid: 824fa23d-57d9-411a-af8a-fb65dca124b2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [Media Foundation], Append method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],Append method, IMFSourceBuffer.Append, IMFSourceBuffer::Append, mf.imfsourcebuffer_append, mfmediaengine/IMFSourceBuffer::Append
 ms.topic: method

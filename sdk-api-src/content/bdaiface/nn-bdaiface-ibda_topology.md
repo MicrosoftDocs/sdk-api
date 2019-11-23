@@ -1,12 +1,12 @@
 ---
 UID: NN:bdaiface.IBDA_Topology
 title: IBDA_Topology (bdaiface.h)
-author: windows-sdk-content
+
 description: The IBDA_Topology interface is implemented on BDA device filters.
 old-location: mstv\ibda_topology.htm
 tech.root: mstv
 ms.assetid: 35dfe39e-05b4-4c7b-9358-081429b064f2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBDA_Topology, IBDA_Topology interface [Microsoft TV Technologies], IBDA_Topology interface [Microsoft TV Technologies],described, IBDA_TopologyInterface, bdaiface/IBDA_Topology, mstv.ibda_topology
 ms.topic: interface

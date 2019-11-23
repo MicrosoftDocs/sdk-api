@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetStreamAttributesCount
 title: IMFSensorDevice::GetStreamAttributesCount (mfidl.h)
-author: windows-sdk-content
+
 description: Gets the count of stream attribute stores for the sensor device. This number represents the number of total streams available for the device because every valid stream must have an attribute store that contains at least the stream ID and stream category.
 old-location: mf\imfsensordevice_getstreamattributescount.htm
 tech.root: medfound
 ms.assetid: C6A0C4E6-7939-42C1-A499-7C92D83CB418
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStreamAttributesCount, GetStreamAttributesCount method [Media Foundation], GetStreamAttributesCount method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetStreamAttributesCount method, IMFSensorDevice.GetStreamAttributesCount, IMFSensorDevice::GetStreamAttributesCount, mf.imfsensordevice_getstreamattributescount, mfidl/IMFSensorDevice::GetStreamAttributesCount
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.media.streaming.IDeviceController.AddDevice
 title: IDeviceController::streaming (windows.media.streaming.h)
-author: windows-sdk-content
+
 description: Adds a DLNA DMR or DMS Device, identified by its UPnP Unique Device Name (UDN), to the list of devices that is returned by the CachedDevices method.
 old-location: mediastreaming\idevicecontroller_adddevice.htm
 tech.root: mediastreaming
 ms.assetid: 9D7DD7C2-21C0-4DD2-BB71-613203097692
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddDevice, AddDevice method [Media Streaming API], AddDevice method [Media Streaming API],IDeviceController interface, IDeviceController interface [Media Streaming API],AddDevice method, IDeviceController.AddDevice, IDeviceController.streaming, IDeviceController::AddDevice, IDeviceController::streaming, mediastreaming.idevicecontroller_adddevice, windows/IDeviceController::AddDevice
 ms.topic: method

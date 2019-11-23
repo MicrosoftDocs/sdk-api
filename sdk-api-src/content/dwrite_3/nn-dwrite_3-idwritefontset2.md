@@ -2,9 +2,9 @@
 UID: NN:dwrite_3.IDWriteFontSet2
 title: IDWriteFontSet2
 description: Represents a font set.
-author: windows-sdk-content
+
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet2, IDWriteFontSet2 interface [Direct Write], IDWriteFontSet2 interface [Direct Write],described, directwrite.idwritefontset2, dwrite_3/IDWriteFontSet2
 ms.topic: interface

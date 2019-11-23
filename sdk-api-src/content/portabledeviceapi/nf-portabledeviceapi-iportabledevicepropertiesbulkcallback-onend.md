@@ -1,12 +1,12 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulkCallback.OnEnd
 title: IPortableDevicePropertiesBulkCallback::OnEnd (portabledeviceapi.h)
-author: windows-sdk-content
+
 description: The OnEnd method is called by the SDK when a bulk operation that is started by IPortableDevicePropertiesBulk::Start is completed.
 old-location: wpdsdk\iportabledevicepropertiesbulkcallback_onend.htm
 tech.root: wpd_sdk
 ms.assetid: a3e56415-fe75-4d54-8448-6ca7793147fd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK],OnEnd method, IPortableDevicePropertiesBulkCallback.OnEnd, IPortableDevicePropertiesBulkCallback::OnEnd, IPortableDevicePropertiesBulkCallbackOnEnd, OnEnd, OnEnd method [Windows Portable Devices SDK], OnEnd method [Windows Portable Devices SDK],IPortableDevicePropertiesBulkCallback interface, portabledeviceapi/IPortableDevicePropertiesBulkCallback::OnEnd, wpdsdk.iportabledevicepropertiesbulkcallback_onend
 ms.topic: method

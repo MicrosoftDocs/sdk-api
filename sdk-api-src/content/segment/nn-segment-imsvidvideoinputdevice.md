@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidVideoInputDevice
 title: IMSVidVideoInputDevice (segment.h)
-author: windows-sdk-content
+
 description: The IMSVidVideoInputDevice interface represents a video input device. This interface inherits from the IMSVidInputDevice interface but adds no methods to it. It exists to support polymorphism.
 old-location: mstv\imsvidvideoinputdevice.htm
 tech.root: mstv
 ms.assetid: cbc687b1-826d-4738-8d0a-a7b90f5ff20d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoInputDevice, IMSVidVideoInputDevice interface [Microsoft TV Technologies], IMSVidVideoInputDevice interface [Microsoft TV Technologies],described, mstv.imsvidvideoinputdevice, segment/IMSVidVideoInputDevice
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:ws2tcpip.getsourcefilter
 title: getsourcefilter function (ws2tcpip.h)
-author: windows-sdk-content
+
 description: Retrieves the multicast filter state for an IPv4 or IPv6 socket.
 old-location: winsock\getsourcefilter.htm
 tech.root: WinSock
 ms.assetid: 2CA84000-F114-439D-BEDE-9990044C7785
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: getsourcefilter, getsourcefilter function [Winsock], winsock.getsourcefilter, ws2tcpip/getsourcefilter
 ms.topic: function

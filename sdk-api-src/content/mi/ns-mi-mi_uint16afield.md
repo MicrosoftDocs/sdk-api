@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_Uint16AField
 title: MI_Uint16AField (mi.h)
-author: windows-sdk-content
+
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_uint16afield.htm
 tech.root: wmi_v2
 ms.assetid: c453dfe9-de6a-4c07-878a-f1f5789ef0ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint16AField, MI_Uint16AField structure [Windows Management Infrastructure (MI)], mi/MI_Uint16AField, wmi._mi_uint16afield, wmi_v2.mi_uint16afield
 ms.topic: struct

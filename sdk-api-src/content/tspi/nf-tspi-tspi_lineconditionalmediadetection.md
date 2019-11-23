@@ -1,12 +1,12 @@
 ---
 UID: NF:tspi.TSPI_lineConditionalMediaDetection
 title: TSPI_lineConditionalMediaDetection function (tspi.h)
-author: windows-sdk-content
+
 description: The TSPI_lineConditionalMediaDetection function is invoked by TAPI whenever a client application uses LINEMAPPER as the dwDeviceID in a lineOpen function call.
 old-location: tspi\tspi_lineconditionalmediadetection.htm
 tech.root: Tapi
 ms.assetid: 8fa3f9ab-1749-43c8-b2a5-c481b1f94177
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineConditionalMediaDetection, TSPI_lineConditionalMediaDetection function [TAPI 2.2], _tspi_tspi_lineconditionalmediadetection, tspi.tspi_lineconditionalmediadetection, tspi/TSPI_lineConditionalMediaDetection
 ms.topic: function

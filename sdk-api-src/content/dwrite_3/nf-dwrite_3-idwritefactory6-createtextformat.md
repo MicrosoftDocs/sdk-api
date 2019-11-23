@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory6.CreateTextFormat
 title: IDWriteFactory6::CreateTextFormat
-author: windows-sdk-content
+
 description: Creates a text format object used for text layout.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateTextFormat method, IDWriteFactory6.CreateTextFormat, IDWriteFactory6::CreateTextFormat, CreateTextFormat, CreateTextFormat method [Direct Write], CreateTextFormat method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createtextformat, dwrite_3/IDWriteFactory6::CreateTextFormat
 ms.topic: method

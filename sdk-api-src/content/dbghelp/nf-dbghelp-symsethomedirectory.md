@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSetHomeDirectory
 title: SymSetHomeDirectory function (dbghelp.h)
-author: windows-sdk-content
+
 description: Sets the home directory used by Dbghelp.
 old-location: base\symsethomedirectory.htm
 tech.root: Debug
 ms.assetid: 12e65054-c4d5-44b9-8597-b841cac012f5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SymSetHomeDirectory, SymSetHomeDirectory function, SymSetHomeDirectoryW, base.symsethomedirectory, dbghelp/SymSetHomeDirectory, dbghelp/SymSetHomeDirectoryW
 ms.topic: function

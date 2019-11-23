@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFTRegisterLocalByCLSID
 title: MFTRegisterLocalByCLSID function (mfapi.h)
-author: windows-sdk-content
+
 description: Registers a Media Foundation transform (MFT) in the caller's process.
 old-location: mf\mftregisterlocalbyclsid.htm
 tech.root: medfound
 ms.assetid: 80c45ac3-4487-41bf-a5f5-f459db3cd700
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFTRegisterLocalByCLSID, MFTRegisterLocalByCLSID function [Media Foundation], mf.mftregisterlocalbyclsid, mfapi/MFTRegisterLocalByCLSID
 ms.topic: function

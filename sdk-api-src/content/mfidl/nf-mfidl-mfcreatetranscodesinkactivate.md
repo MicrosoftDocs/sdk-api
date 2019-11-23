@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.MFCreateTranscodeSinkActivate
 title: MFCreateTranscodeSinkActivate function (mfidl.h)
-author: windows-sdk-content
+
 description: Creates the transcode sink activation object.
 old-location: mf\mfcreatetranscodesinkactivate.htm
 tech.root: medfound
 ms.assetid: cc9c604d-7f5a-4afb-a2df-b270ef883e68
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFCreateTranscodeSinkActivate, MFCreateTranscodeSinkActivate function [Media Foundation], mf.mfcreatetranscodesinkactivate, mfidl/MFCreateTranscodeSinkActivate
 ms.topic: function

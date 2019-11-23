@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSink2
 title: IMSVidStreamBufferSink2 (segment.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005. The IMSVidStreamBufferSink2 interface represents the Stream Buffer Sink filter within the Video Control.
 old-location: mstv\imsvidstreambuffersink2.htm
 tech.root: mstv
 ms.assetid: d279378b-2309-4d46-8fef-a00b3121c6c7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink2, IMSVidStreamBufferSink2 interface [Microsoft TV Technologies], IMSVidStreamBufferSink2 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSink2Interface, mstv.imsvidstreambuffersink2, segment/IMSVidStreamBufferSink2
 ms.topic: interface

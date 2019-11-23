@@ -1,12 +1,12 @@
 ---
 UID: NS:cmdtree.tagDBGROUPINFO
 title: DBGROUPINFO (cmdtree.h)
-author: windows-sdk-content
+
 description: The DBCONTENTVECTOR structure represents specific information required by the DBOP_content_vector_or operator.
 old-location: indexsrv\dbgroupinfo.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_8s4v.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DBGROUPINFO, DBGROUPINFO structure [Indexing Service], _idxs_DBGROUPINFO, cmdtree/DBGROUPINFO, indexsrv.dbgroupinfo, tagDBGROUPINFO
 ms.topic: struct

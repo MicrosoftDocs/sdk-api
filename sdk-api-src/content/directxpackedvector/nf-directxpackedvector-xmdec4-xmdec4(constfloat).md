@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMDEC4.XMDEC4(const float)
 title: XMDEC4::XMDEC4(const float) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMDEC4 from a four element float array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: 89558567-1467-4133-a768-e65d967814c8
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMDEC4, XMDEC4 constructor [DirectX Math Support APIs], XMDEC4 constructor [DirectX Math Support APIs],XMDEC4 structure, XMDEC4 structure [DirectX Math Support APIs],XMDEC4 constructor, XMDEC4.XMDEC4, XMDEC4.XMDEC4(), XMDEC4.XMDEC4(const float), XMDEC4::XMDEC4, XMDEC4::XMDEC4(const float), dxmath.xmdec4_ctor_1
 ms.topic: method

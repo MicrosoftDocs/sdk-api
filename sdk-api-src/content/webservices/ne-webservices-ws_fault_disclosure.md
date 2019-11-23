@@ -1,12 +1,12 @@
 ---
 UID: NE:webservices.__unnamed_enum_33
 title: WS_FAULT_DISCLOSURE (webservices.h)
-author: windows-sdk-content
+
 description: Controls how much error information is included in a fault. Since the error object may contain sensitive data as part of the error string, it is not always appropriate to include the error strings information in all faults.
 old-location: wsw\ws_fault_disclosure.htm
 tech.root: wsw
 ms.assetid: 1dca9074-b329-4293-8a44-d0ced00ae59e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT_DISCLOSURE, WS_FAULT_DISCLOSURE enumeration [Web Services for Windows], WS_FULL_FAULT_DISCLOSURE, WS_MINIMAL_FAULT_DISCLOSURE, webservices/WS_FAULT_DISCLOSURE, webservices/WS_FULL_FAULT_DISCLOSURE, webservices/WS_MINIMAL_FAULT_DISCLOSURE, wsw.ws_fault_disclosure
 ms.topic: enum

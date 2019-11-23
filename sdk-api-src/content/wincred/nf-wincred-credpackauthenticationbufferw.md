@@ -1,12 +1,12 @@
 ---
 UID: NF:wincred.CredPackAuthenticationBufferW
 title: CredPackAuthenticationBufferW function (wincred.h)
-author: windows-sdk-content
+
 description: Converts a string user name and password into an authentication buffer.
 old-location: security\credpackauthenticationbuffer.htm
 tech.root: SecAuthN
 ms.assetid: 48ffdd7a-1969-4f6a-bbc7-2826e21ea052
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CRED_PACK_GENERIC_CREDENTIALS, CRED_PACK_ID_PROVIDER_CREDENTIALS, CRED_PACK_PROTECTED_CREDENTIALS, CRED_PACK_WOW_BUFFER, CredPackAuthenticationBuffer, CredPackAuthenticationBuffer function [Security], CredPackAuthenticationBufferA, CredPackAuthenticationBufferW, security.credpackauthenticationbuffer, wincred/CredPackAuthenticationBuffer, wincred/CredPackAuthenticationBufferA, wincred/CredPackAuthenticationBufferW
 ms.topic: function

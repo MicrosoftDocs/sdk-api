@@ -1,7 +1,7 @@
 ---
 UID: NA:encdec
 ms.assetid: f69c62a8-282e-30f5-84ac-d7caed8c1d85
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

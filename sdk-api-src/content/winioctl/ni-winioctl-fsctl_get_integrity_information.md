@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_GET_INTEGRITY_INFORMATION
 title: FSCTL_GET_INTEGRITY_INFORMATION
-author: windows-sdk-content
+
 description: Retrieves the integrity status of a file or directory on a ReFS volume.
 old-location: fs\fsctl_get_integrity_information.htm
 tech.root: FileIO
 ms.assetid: 5e003b2f-d38a-45f1-9b50-40af4087b0ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_INTEGRITY_INFORMATION, FSCTL_GET_INTEGRITY_INFORMATION control, FSCTL_GET_INTEGRITY_INFORMATION control code [Files], fs.fsctl_get_integrity_information, winioctl/FSCTL_GET_INTEGRITY_INFORMATION
 ms.topic: ioctl

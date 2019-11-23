@@ -1,12 +1,12 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.GetCreationParameters
 title: IDirectXVideoDecoder::GetCreationParameters (dxva2api.h)
-author: windows-sdk-content
+
 description: Retrieves the parameters that were used to create this device.
 old-location: mf\idirectxvideodecoder_getcreationparameters.htm
 tech.root: medfound
 ms.assetid: 5e1a4f6b-22f3-40ae-8990-88ecb5b16d44
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 5e1a4f6b-22f3-40ae-8990-88ecb5b16d44, GetCreationParameters, GetCreationParameters method [Media Foundation], GetCreationParameters method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],GetCreationParameters method, IDirectXVideoDecoder.GetCreationParameters, IDirectXVideoDecoder::GetCreationParameters, dxva2api/IDirectXVideoDecoder::GetCreationParameters, mf.idirectxvideodecoder_getcreationparameters
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingBox.BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &)
 title: BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &)
-author: windows-sdk-content
+
 description: Creates an instance of the BoundingBox class.
 old-location: dxmath\boundingbox_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.#ctor(XMFLOAT3,XMFLOAT3)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingBox, BoundingBox constructor [DirectX Math Support APIs], BoundingBox constructor [DirectX Math Support APIs],BoundingBox interface, BoundingBox interface [DirectX Math Support APIs],BoundingBox constructor, BoundingBox.BoundingBox, BoundingBox.BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &), BoundingBox.BoundingBox(const XMFLOAT3&,const XMFLOAT3&), BoundingBox::BoundingBox, BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &), dxmath.boundingbox_ctor_2
 ms.topic: method

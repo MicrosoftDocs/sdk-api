@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetDoubleClickTime
 title: GetDoubleClickTime function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the current double-click time for the mouse.
 old-location: inputdev\getdoubleclicktime.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\getdoubleclicktime.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDoubleClickTime, GetDoubleClickTime function [Keyboard and Mouse Input], _win32_GetDoubleClickTime, _win32_getdoubleclicktime_cpp, inputdev.getdoubleclicktime, winui._win32_getdoubleclicktime, winuser/GetDoubleClickTime
 ms.topic: function

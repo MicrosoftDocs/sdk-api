@@ -1,12 +1,12 @@
 ---
 UID: NE:wbemdisp.WbemComparisonFlagEnum
 title: WbemComparisonFlagEnum (wbemdisp.h)
-author: windows-sdk-content
+
 description: Define the settings for object comparison and are used by SWbemObject.CompareTo_.
 old-location: wmi\wbemcomparisonflagenum.htm
 tech.root: WmiSdk
 ms.assetid: 83fda164-1e98-499b-b599-f999e69ad501
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WbemComparisonFlagEnum, WbemComparisonFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemcomparisonflagenum, wbemComparisonFlagIgnoreCase, wbemComparisonFlagIgnoreClass, wbemComparisonFlagIgnoreDefaultValues, wbemComparisonFlagIgnoreFlavor, wbemComparisonFlagIgnoreObjectSource, wbemComparisonFlagIgnoreQualifiers, wbemComparisonFlagIncludeAll, wbemdisp/WbemComparisonFlagEnum, wbemdisp/wbemComparisonFlagIgnoreCase, wbemdisp/wbemComparisonFlagIgnoreClass, wbemdisp/wbemComparisonFlagIgnoreDefaultValues, wbemdisp/wbemComparisonFlagIgnoreFlavor, wbemdisp/wbemComparisonFlagIgnoreObjectSource, wbemdisp/wbemComparisonFlagIgnoreQualifiers, wbemdisp/wbemComparisonFlagIncludeAll, wmi.wbemcomparisonflagenum
 ms.topic: enum

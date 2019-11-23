@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsReceiveMessage
 title: WsReceiveMessage function (webservices.h)
-author: windows-sdk-content
+
 description: Receive a message and deserialize the body of the message as a value.
 old-location: wsw\wsreceivemessage.htm
 tech.root: wsw
 ms.assetid: 3976c02c-d052-4eae-b675-edd317ac6464
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsReceiveMessage, WsReceiveMessage function [Web Services for Windows], webservices/WsReceiveMessage, wsw.wsreceivemessage
 ms.topic: function

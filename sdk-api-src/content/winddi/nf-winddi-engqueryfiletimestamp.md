@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.EngQueryFileTimeStamp
 title: EngQueryFileTimeStamp function (winddi.h)
-author: windows-sdk-content
+
 description: The EngQueryFileTimeStamp function returns the time stamp of a file.
 old-location: display\engqueryfiletimestamp.htm
 tech.root: display
 ms.assetid: f229c358-5c8d-4579-b6a6-f6bf1d12190b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngQueryFileTimeStamp, EngQueryFileTimeStamp function [Display Devices], display.engqueryfiletimestamp, gdifncs_6f6a0fd0-d012-4f50-a686-7c58cc051c5a.xml, winddi/EngQueryFileTimeStamp
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:ws2ipdef.in_pktinfo
 title: IN_PKTINFO (ws2ipdef.h)
-author: windows-sdk-content
+
 description: The in_pktinfo structure is used to store received packet address information, and is used by Windows to return information about received packets and also allows specifying the local IPv4 address to use for sending packets.
 old-location: winsock\in_pktinfo_2.htm
 tech.root: WinSock
 ms.assetid: a20cb3ff-38fb-471d-b940-7265c114e209
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PIN_PKTINFO, IN_PKTINFO, IN_PKTINFO structure [Winsock], PIN_PKTINFO, PIN_PKTINFO structure pointer [Winsock], _win32_in_pktinfo_2, in_pktinfo, in_pktinfo structure [Winsock], winsock.in_pktinfo_2, ws2ipdef/PIN_PKTINFO, ws2ipdef/in_pktinfo, ws2tcpip/PIN_PKTINFO, ws2tcpip/in_pktinfo"
 ms.topic: struct

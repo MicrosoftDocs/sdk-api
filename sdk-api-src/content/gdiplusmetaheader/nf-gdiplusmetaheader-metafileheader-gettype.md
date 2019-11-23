@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetType
 title: MetafileHeader::GetType (gdiplusmetaheader.h)
-author: windows-sdk-content
+
 description: The MetafileHeader::GetType method gets the type of the associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetType_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\gettype_36.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [GDI+], GetType method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetType method, MetafileHeader.GetType, MetafileHeader::GetType, _gdiplus_CLASS_MetafileHeader_GetType_, gdiplus._gdiplus_CLASS_MetafileHeader_GetType_
 ms.topic: method

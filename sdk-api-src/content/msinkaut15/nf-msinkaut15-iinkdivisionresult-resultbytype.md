@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut15.IInkDivisionResult.ResultByType
 title: IInkDivisionResult::ResultByType (msinkaut15.h)
-author: windows-sdk-content
+
 description: Gets the requested structural units of the analysis results for an IInkDivisionUnits collection.
 old-location: tablet\iinkdivisionresult_resultbytype.htm
 tech.root: tablet
 ms.assetid: d0bad0e8-e48c-443b-b52e-e95de3158710
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInkDivisionResult interface [Tablet PC],ResultByType method, IInkDivisionResult.ResultByType, IInkDivisionResult::ResultByType, ResultByType, ResultByType method [Tablet PC], ResultByType method [Tablet PC],IInkDivisionResult interface, d0bad0e8-e48c-443b-b52e-e95de3158710, msinkaut15/IInkDivisionResult::ResultByType, tablet.iinkdivisionresult_resultbytype
 ms.topic: method

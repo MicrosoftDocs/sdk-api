@@ -1,12 +1,12 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_ERROR_CODE
 title: MF_TIMED_TEXT_ERROR_CODE (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Specifies the kind error that occurred with a timed text track.
 old-location: mf\mf_timed_text_error_code.htm
 tech.root: medfound
 ms.assetid: D59B2063-5632-4115-BA8C-503181B5DF08
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MF_TIMED_TEXT_ERROR_CODE, MF_TIMED_TEXT_ERROR_CODE enumeration [Media Foundation], MF_TIMED_TEXT_ERROR_CODE_DATA_FORMAT, MF_TIMED_TEXT_ERROR_CODE_FATAL, MF_TIMED_TEXT_ERROR_CODE_INTERNAL, MF_TIMED_TEXT_ERROR_CODE_NETWORK, MF_TIMED_TEXT_ERROR_CODE_NOERROR, mf.mf_timed_text_error_code, mfmediaengine/MF_TIMED_TEXT_ERROR_CODE, mfmediaengine/MF_TIMED_TEXT_ERROR_CODE_DATA_FORMAT, mfmediaengine/MF_TIMED_TEXT_ERROR_CODE_FATAL, mfmediaengine/MF_TIMED_TEXT_ERROR_CODE_INTERNAL, mfmediaengine/MF_TIMED_TEXT_ERROR_CODE_NETWORK, mfmediaengine/MF_TIMED_TEXT_ERROR_CODE_NOERROR
 ms.topic: enum

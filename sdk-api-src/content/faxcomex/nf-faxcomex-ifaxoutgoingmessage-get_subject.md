@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_Subject
 title: IFaxOutgoingMessage::get_Subject (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutgoingMessage::get_Subject property is a null-terminated string that contains the contents of the subject field on the cover page of the fax.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_subject_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0h84.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Subject property, IFaxOutgoingMessage.Subject, IFaxOutgoingMessage.get_Subject, IFaxOutgoingMessage::Subject, IFaxOutgoingMessage::get_Subject, Subject property [Fax Service], Subject property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.subject, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_subject_cpp, fax._mfax_faxoutgoingmessage_subject, faxcomex/IFaxOutgoingMessage::Subject, faxcomex/IFaxOutgoingMessage::get_Subject, get_Subject
 ms.topic: method

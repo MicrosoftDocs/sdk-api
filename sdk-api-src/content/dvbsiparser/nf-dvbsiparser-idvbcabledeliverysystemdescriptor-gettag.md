@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbCableDeliverySystemDescriptor.GetTag
 title: IDvbCableDeliverySystemDescriptor::GetTag (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbcabledeliverysystemdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: eedc30b7-f51a-472a-8d6f-4a8f7be6d2dc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbCableDeliverySystemDescriptor interface, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbCableDeliverySystemDescriptor.GetTag, IDvbCableDeliverySystemDescriptor::GetTag, IDvbCableDeliverySystemDescriptorGetTag, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetTag, mstv.idvbcabledeliverysystemdescriptor_gettag
 ms.topic: method

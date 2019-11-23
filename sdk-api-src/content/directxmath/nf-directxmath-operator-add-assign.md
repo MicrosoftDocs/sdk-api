@@ -3,7 +3,7 @@ UID: NF:directxmath.operator-add-assign
 title: operator+=
 description: Adds a floating point value to an XMVECTOR instance, and returns a reference to the updated instance.
 ms.assetid: 2e3873c5-2871-49b5-ac2d-4da0d84aa169
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: operator+=
 ms.topic: language-reference

@@ -1,12 +1,12 @@
 ---
 UID: NE:processsnapshot.__unnamed_enum_6
 title: PSS_PROCESS_FLAGS (processsnapshot.h)
-author: windows-sdk-content
+
 description: Flags that describe a process.
 old-location: proc_snap\pss_process_flags.htm
 tech.root: proc_snap
 ms.assetid: A1C793DD-EE93-47B6-8EA8-3A45DAD55F2D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSS_PROCESS_FLAGS, PSS_PROCESS_FLAGS enumeration, PSS_PROCESS_FLAGS_FROZEN, PSS_PROCESS_FLAGS_NONE, PSS_PROCESS_FLAGS_PROTECTED, PSS_PROCESS_FLAGS_RESERVED_03, PSS_PROCESS_FLAGS_RESERVED_04, PSS_PROCESS_FLAGS_WOW64, proc_snap.pss_process_flags, processsnapshot/PSS_PROCESS_FLAGS, processsnapshot/PSS_PROCESS_FLAGS_FROZEN, processsnapshot/PSS_PROCESS_FLAGS_NONE, processsnapshot/PSS_PROCESS_FLAGS_PROTECTED, processsnapshot/PSS_PROCESS_FLAGS_RESERVED_03, processsnapshot/PSS_PROCESS_FLAGS_RESERVED_04, processsnapshot/PSS_PROCESS_FLAGS_WOW64
 ms.topic: enum

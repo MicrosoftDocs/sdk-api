@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetSnapType
 title: IDirectManipulationPrimaryContent::SetSnapType (directmanipulation.h)
-author: windows-sdk-content
+
 description: Specifies the type of snap point.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setsnaptype.htm
 tech.root: directmanipulation
 ms.assetid: 0f1ad54d-8c9a-4b3c-a78b-fe02cb889ca9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapType method, IDirectManipulationPrimaryContent.SetSnapType, IDirectManipulationPrimaryContent::SetSnapType, SetSnapType, SetSnapType method [Direct Manipulation], SetSnapType method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnaptype, directmanipulation/IDirectManipulationPrimaryContent::SetSnapType
 ms.topic: method

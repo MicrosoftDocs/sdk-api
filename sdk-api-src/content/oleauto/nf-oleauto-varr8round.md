@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarR8Round
 title: VarR8Round function (oleauto.h)
-author: windows-sdk-content
+
 description: Rounds a variant of type double to the specified number of decimal places.
 old-location: automat\varr8round.htm
 tech.root: automat
 ms.assetid: bdf52cd6-a32d-4814-ac2f-51256dcc47cb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarR8Round, VarR8Round function [Automation], _oa96_VarR8Round, automat.varr8round, oleauto/VarR8Round
 ms.topic: function

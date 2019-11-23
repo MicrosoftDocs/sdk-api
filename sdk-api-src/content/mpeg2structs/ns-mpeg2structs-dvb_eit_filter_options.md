@@ -1,12 +1,12 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0018
 title: DVB_EIT_FILTER_OPTIONS (mpeg2structs.h)
-author: windows-sdk-content
+
 description: Specifies a section within a Digital Video Broadcast (DVB) Event Information Table (EIT) section header. Because the EIT can be quite large, these options allow applications to reduce load time by filtering specific segments from the EIT section header.
 old-location: mstv\dvb_eit_filter_options.htm
 tech.root: mstv
 ms.assetid: 7bdbb67b-ff20-4f2a-ad8a-8bb8dba3da65
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DVB_EIT_FILTER_OPTIONS, DVB_EIT_FILTER_OPTIONS structure [Microsoft TV Technologies], PDVB_EIT_FILTER_OPTIONS, PDVB_EIT_FILTER_OPTIONS structure pointer [Microsoft TV Technologies], mpeg2structs/DVB_EIT_FILTER_OPTIONS, mpeg2structs/PDVB_EIT_FILTER_OPTIONS, mstv.dvb_eit_filter_options
 ms.topic: struct

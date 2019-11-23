@@ -1,12 +1,12 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_IO_CALLBACK
 title: MINIDUMP_IO_CALLBACK (minidumpapiset.h)
-author: windows-sdk-content
+
 description: Contains I/O callback information.
 old-location: base\minidump_io_callback.htm
 tech.root: Debug
 ms.assetid: db38f035-1fb8-4715-846f-59392aac2d4e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PMINIDUMP_IO_CALLBACK, MINIDUMP_IO_CALLBACK, MINIDUMP_IO_CALLBACK structure, PMINIDUMP_IO_CALLBACK, PMINIDUMP_IO_CALLBACK structure pointer, _MINIDUMP_IO_CALLBACK, base.minidump_io_callback, minidumpapiset/MINIDUMP_IO_CALLBACK, minidumpapiset/PMINIDUMP_IO_CALLBACK"
 ms.topic: struct

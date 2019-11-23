@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.operator-assign
 title: BoundingFrustum::operator-assign
-author: windows-sdk-content
+
 description: Copies values from another BoundingFrustum.
 old-location: dxmath\boundingfrustum_op_assignment.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.op_Assignment(BoundingFrustum)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],op_Assignment method, BoundingFrustum.op_Assignment, BoundingFrustum.operator-assign, BoundingFrustum.operator=, BoundingFrustum::operator-assign, BoundingFrustum::operator=, dxmath.boundingfrustum_op_assignment, op_Assignment method [DirectX Math Support APIs], op_Assignment method [DirectX Math Support APIs],BoundingFrustum interface, operator=
 ms.topic: method

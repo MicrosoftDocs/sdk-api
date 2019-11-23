@@ -1,12 +1,12 @@
 ---
 UID: NN:msinkaut.IInkStrokeDisp
 title: IInkStrokeDisp (msinkaut.h)
-author: windows-sdk-content
+
 description: Represents a single ink stroke.A stroke is a set of properties and point data that the digitizer captures that represent the coordinates and properties of a known ink mark.
 old-location: tablet\iinkstrokedisp.htm
 tech.root: tablet
 ms.assetid: b18464ba-feb6-4bb5-9fcf-82feff9bcce4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], IInkStrokeDisp interface [Tablet PC],described, b18464ba-feb6-4bb5-9fcf-82feff9bcce4, msinkaut/IInkStrokeDisp, tablet.iinkstrokedisp
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.ClusterGroupCloseEnumEx
 title: ClusterGroupCloseEnumEx function (clusapi.h)
-author: windows-sdk-content
+
 description: Closes the enumeration and frees any memory held by the hGroupEnumEx handle.
 old-location: mscs\clustergroupcloseenumex.htm
 tech.root: MsCS
 ms.assetid: 4777BB89-FB90-43F9-81B4-FCAE4E50889F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupCloseEnumEx, ClusterGroupCloseEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX function [Failover Cluster], clusapi/ClusterGroupCloseEnumEx, clusapi/PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX, mscs.clustergroupcloseenumex
 ms.topic: function

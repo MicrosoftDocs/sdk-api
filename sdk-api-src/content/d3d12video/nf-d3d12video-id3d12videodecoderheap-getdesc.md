@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecoderHeap.GetDesc
 title: ID3D12VideoDecoderHeap::GetDesc
-author: windows-sdk-content
+
 description: Gets the D3D12_VIDEO_DECODER_HEAP_DESC structure that was passed into ID3D12VideoDevice::CreateVideoDecoderHeap when the ID3D12VideoDecoderHeap was created.
 tech.root: mf
 ms.assetid: 784d436a-f69d-4b62-b2f4-1954c92e774f
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

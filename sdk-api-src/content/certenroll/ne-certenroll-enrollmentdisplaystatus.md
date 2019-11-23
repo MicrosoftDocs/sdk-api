@@ -1,12 +1,12 @@
 ---
 UID: NE:certenroll.EnrollmentDisplayStatus
 title: EnrollmentDisplayStatus (certenroll.h)
-author: windows-sdk-content
+
 description: Specifies whether to display enrollment status information in a user interface.
 old-location: security\enrollmentdisplaystatus_enum.htm
 tech.root: seccertenroll
 ms.assetid: bd5019de-1a72-42a6-9ade-74a9252a19eb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DisplayNo, DisplayYes, EnrollmentDisplayStatus, EnrollmentDisplayStatus enumeration [Security], certenroll/DisplayNo, certenroll/DisplayYes, certenroll/EnrollmentDisplayStatus, security.enrollmentdisplaystatus_enum
 ms.topic: enum

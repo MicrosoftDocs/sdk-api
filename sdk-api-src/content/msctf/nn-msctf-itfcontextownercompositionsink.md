@@ -1,12 +1,12 @@
 ---
 UID: NN:msctf.ITfContextOwnerCompositionSink
 title: ITfContextOwnerCompositionSink (msctf.h)
-author: windows-sdk-content
+
 description: The ITfContextOwnerCompositionSink interface is implemented by an application to receive composition-related notifications.
 old-location: tsf\itfcontextownercompositionsink.htm
 tech.root: TSF
 ms.assetid: 4fea0a48-df5f-4f34-a3ea-d52883f6f8b1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerCompositionSink, ITfContextOwnerCompositionSink interface [Text Services Framework], ITfContextOwnerCompositionSink interface [Text Services Framework],described, _tsf_itfcontextownercompositionsink_ref, msctf/ITfContextOwnerCompositionSink, tsf.itfcontextownercompositionsink
 ms.topic: interface

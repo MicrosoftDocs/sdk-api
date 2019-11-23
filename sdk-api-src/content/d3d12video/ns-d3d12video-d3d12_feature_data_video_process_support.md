@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT
 title: D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT
-author: windows-sdk-content
+
 description: Provides data for calls to ID3D12VideoDevice::CheckFeatureSupport when the feature specified is D3D12_FEATURE_VIDEO_PROCESS_SUPPORT.
 tech.root: mf
 ms.assetid: 29911ed2-9509-4fbd-8e18-c7b5a9e2d397
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

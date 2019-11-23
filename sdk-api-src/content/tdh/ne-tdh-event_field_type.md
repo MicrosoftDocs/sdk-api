@@ -1,12 +1,12 @@
 ---
 UID: NE:tdh._EVENT_FIELD_TYPE
 title: EVENT_FIELD_TYPE (tdh.h)
-author: windows-sdk-content
+
 description: Defines the provider information to retrieve.
 old-location: etw\event_field_type_enum.htm
 tech.root: ETW
 ms.assetid: da525556-e42b-41cb-b954-300f378477e5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EVENT_FIELD_TYPE, EVENT_FIELD_TYPE enumeration [ETW], EventChannelInformation, EventInformationMax, EventKeywordInformation, EventLevelInformation, EventOpcodeInformation, EventTaskInformation, etw.event_field_type_enum, tdh.event_field_type_enum, tdh/EVENT_FIELD_TYPE, tdh/EventChannelInformation, tdh/EventInformationMax, tdh/EventKeywordInformation, tdh/EventLevelInformation, tdh/EventOpcodeInformation, tdh/EventTaskInformation
 ms.topic: enum

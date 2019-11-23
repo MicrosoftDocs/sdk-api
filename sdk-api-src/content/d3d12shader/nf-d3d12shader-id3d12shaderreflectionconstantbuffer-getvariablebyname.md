@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionConstantBuffer.GetVariableByName
 title: ID3D12ShaderReflectionConstantBuffer::GetVariableByName (d3d12shader.h)
-author: windows-sdk-content
+
 description: Gets a shader-reflection variable by name.
 old-location: direct3d12\id3d12shaderreflectionconstantbuffer_getvariablebyname.htm
 tech.root: direct3d12
 ms.assetid: FD18A64F-9B4A-42FE-8E18-13E9375E19BC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetVariableByName, GetVariableByName method, GetVariableByName method,ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,GetVariableByName method, ID3D12ShaderReflectionConstantBuffer.GetVariableByName, ID3D12ShaderReflectionConstantBuffer::GetVariableByName, d3d12shader/ID3D12ShaderReflectionConstantBuffer::GetVariableByName, direct3d12.id3d12shaderreflectionconstantbuffer_getvariablebyname
 ms.topic: method

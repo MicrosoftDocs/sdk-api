@@ -1,12 +1,12 @@
 ---
 UID: NF:wsdclient.IWSDEventingStatus.SubscriptionEnded
 title: IWSDEventingStatus::SubscriptionEnded (wsdclient.h)
-author: windows-sdk-content
+
 description: Called when the device terminated the subscription.
 old-location: ncd\iwsdeventingstatus_subscriptionended.htm
 tech.root: WsdApi
 ms.assetid: 4ccb16ed-d7c6-4242-ae53-9e58cecc475b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSDEventingStatus interface,SubscriptionEnded method, IWSDEventingStatus.SubscriptionEnded, IWSDEventingStatus::SubscriptionEnded, SubscriptionEnded, SubscriptionEnded method, SubscriptionEnded method,IWSDEventingStatus interface, ncd.iwsdeventingstatus_subscriptionended, wsdclient/IWSDEventingStatus::SubscriptionEnded
 ms.topic: method

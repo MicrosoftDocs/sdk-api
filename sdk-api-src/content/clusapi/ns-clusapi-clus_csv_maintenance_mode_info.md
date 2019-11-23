@@ -1,12 +1,12 @@
 ---
 UID: NS:clusapi.CLUS_CSV_MAINTENANCE_MODE_INFO
 title: CLUS_CSV_MAINTENANCE_MODE_INFO (clusapi.h)
-author: windows-sdk-content
+
 description: Enables or disables the maintenance mode on a cluster shared volume (CSV).
 old-location: mscs\clus_csv_maintenance_mode_info.htm
 tech.root: MsCS
 ms.assetid: 4DA05ADE-3C54-45A0-8A1C-911EB1ED1308
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCLUS_CSV_MAINTENANCE_MODE_INFO, CLUS_CSV_MAINTENANCE_MODE_INFO, CLUS_CSV_MAINTENANCE_MODE_INFO structure [Failover Cluster], PCLUS_CSV_MAINTENANCE_MODE_INFO, PCLUS_CSV_MAINTENANCE_MODE_INFO structure pointer [Failover Cluster], clusapi/CLUS_CSV_MAINTENANCE_MODE_INFO, clusapi/PCLUS_CSV_MAINTENANCE_MODE_INFO, mscs.clus_csv_maintenance_mode_info"
 ms.topic: struct

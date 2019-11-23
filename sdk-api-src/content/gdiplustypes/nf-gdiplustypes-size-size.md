@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplustypes.Size.Size
 title: Size::Size (gdiplustypes.h)
-author: windows-sdk-content
+
 description: Creates a new Size object and initializes the members to zero. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_Size_Size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizeconstructors\size_20.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Size, Size class [GDI+],Size constructor, Size constructor [GDI+], Size constructor [GDI+],Size class, Size.Size, Size.Size(), Size::Size, _gdiplus_CLASS_Size_Size_, gdiplus._gdiplus_CLASS_Size_Size_
 ms.topic: method

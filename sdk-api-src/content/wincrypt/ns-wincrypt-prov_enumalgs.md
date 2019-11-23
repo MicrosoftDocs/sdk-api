@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._PROV_ENUMALGS
 title: PROV_ENUMALGS (wincrypt.h)
-author: windows-sdk-content
+
 description: Used with the CryptGetProvParam function when the PP_ENUMALGS parameter is retrieved to contain information about an algorithm supported by a cryptographic service provider (CSP).
 old-location: security\prov_enumalgs.htm
 tech.root: SecCrypto
 ms.assetid: 8301d07f-88aa-49b4-9091-8f515b585c57
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PROV_ENUMALGS, PROV_ENUMALGS structure [Security], _crypto2_prov_enumalgs, security.prov_enumalgs, wincrypt/PROV_ENUMALGS
 ms.topic: struct

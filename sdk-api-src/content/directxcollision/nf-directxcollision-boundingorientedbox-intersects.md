@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Intersects
 title: BoundingOrientedBox::Intersects
-author: windows-sdk-content
+
 description: Tests the BoundingOrientedBox for intersection with a BoundingSphere.
 ms.date: 04/22/19
 ms.keywords: BoundingOrientedBox::Intersects

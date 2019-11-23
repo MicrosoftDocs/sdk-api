@@ -1,12 +1,12 @@
 ---
 UID: NN:iads.IADsO
 title: IADsO (iads.h)
-author: windows-sdk-content
+
 description: The IADsO interface is a dual interface that inherits from IADs.
 old-location: adsi\iadso.htm
 tech.root: adsi
 ms.assetid: 223021ff-58ef-4762-a64a-056ccab2696c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsO, IADsO interface [ADSI], IADsO interface [ADSI],described, _ds_iadso, adsi.iadso, iads/IADsO
 ms.topic: interface

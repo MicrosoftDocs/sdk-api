@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymLoadModuleExW
 title: SymLoadModuleExW function (dbghelp.h)
-author: windows-sdk-content
+
 description: Loads the symbol table for the specified module.
 old-location: base\symloadmoduleex.htm
 tech.root: Debug
 ms.assetid: 4a880090-f063-4d03-8fd5-a57ccba262c8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SLMFLAG_NO_SYMBOLS, SLMFLAG_VIRTUAL, SymLoadModuleEx, SymLoadModuleEx function, SymLoadModuleExW, _win32_symloadmoduleex, base.symloadmoduleex, dbghelp/SymLoadModuleEx, dbghelp/SymLoadModuleExW
 ms.topic: function

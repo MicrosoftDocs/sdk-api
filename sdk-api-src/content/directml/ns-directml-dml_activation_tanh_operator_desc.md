@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_ACTIVATION_TANH_OPERATOR_DESC
 title: DML_ACTIVATION_TANH_OPERATOR_DESC
-author: windows-sdk-content
+
 description: Describes a DirectML operator that performs a hyperbolic tangent activation function on every element in the input, f(x) = (1 - exp(-2 * x)) / (1 + exp(-2 * x)).
 old-location: direct3d12\dml_activation_tanh_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 48F574E8-EFBA-4C55-AB3A-7D4B0AEFD174
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_TANH_OPERATOR_DESC, DML_ACTIVATION_TANH_OPERATOR_DESC structure, direct3d12.dml_activation_tanh_operator_desc, directml/DML_ACTIVATION_TANH_OPERATOR_DESC
 ms.topic: struct

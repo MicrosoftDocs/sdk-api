@@ -1,12 +1,12 @@
 ---
 UID: NS:vmr9._VMR9VideoDesc
 title: VMR9VideoDesc (vmr9.h)
-author: windows-sdk-content
+
 description: The VMR9VideoDesc structure describes a video stream to be deinterlaced.
 old-location: dshow\vmr9videodesc.htm
 tech.root: DirectShow
 ms.assetid: af4bf46a-fae7-4485-b5fb-3fd1857f383f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VMR9VideoDesc, VMR9VideoDesc structure [DirectShow], VMR9VideoDescStructure, dshow.vmr9videodesc, vmr9/VMR9VideoDesc
 ms.topic: struct

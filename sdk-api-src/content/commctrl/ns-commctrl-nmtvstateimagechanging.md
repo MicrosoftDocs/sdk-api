@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMTVSTATEIMAGECHANGING
 title: NMTVSTATEIMAGECHANGING (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information about an NM_TVSTATEIMAGECHANGING notification code.
 old-location: controls\NMTVSTATEIMAGECHANGING.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvstateimagechanging.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTVSTATEIMAGECHANGING, LPNMTVSTATEIMAGECHANGING, LPNMTVSTATEIMAGECHANGING structure pointer [Windows Controls], NMTVSTATEIMAGECHANGING, NMTVSTATEIMAGECHANGING structure [Windows Controls], _shell_NMTVSTATEIMAGECHANGING, _shell_NMTVSTATEIMAGECHANGING_cpp, commctrl/LPNMTVSTATEIMAGECHANGING, commctrl/NMTVSTATEIMAGECHANGING, controls.NMTVSTATEIMAGECHANGING, controls._shell_NMTVSTATEIMAGECHANGING'
 ms.topic: struct

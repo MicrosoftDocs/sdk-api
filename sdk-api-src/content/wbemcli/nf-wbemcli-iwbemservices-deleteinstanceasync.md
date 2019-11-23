@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IWbemServices.DeleteInstanceAsync
 title: IWbemServices::DeleteInstanceAsync (wbemcli.h)
-author: windows-sdk-content
+
 description: The IWbemServices::DeleteInstanceAsync method asynchronously deletes an instance of an existing class in the current namespace. The confirmation or failure of the operation is reported through the IWbemObjectSink interface implemented by the caller.
 old-location: wmi\iwbemservices_deleteinstanceasync.htm
 tech.root: WmiSdk
 ms.assetid: 7c726842-a274-41d1-b622-681bf9f6ae8b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeleteInstanceAsync, DeleteInstanceAsync method [Windows Management Instrumentation], DeleteInstanceAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],DeleteInstanceAsync method, IWbemServices.DeleteInstanceAsync, IWbemServices::DeleteInstanceAsync, _hmm_iwbemservices_deleteinstanceasync, wbemcli/IWbemServices::DeleteInstanceAsync, wmi.iwbemservices_deleteinstanceasync
 ms.topic: method

@@ -1,7 +1,7 @@
 ---
 UID: NA:amparse
 ms.assetid: 95501730-ce40-3e73-b8a6-3f66aebf0451
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

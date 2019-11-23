@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcasync.RpcErrorEndEnumeration
 title: RpcErrorEndEnumeration function (rpcasync.h)
-author: windows-sdk-content
+
 description: The RpcErrorEndEnumeration function ends enumeration of extended error information and frees all resources allocated by RPC for the enumeration.
 old-location: rpc\rpcerrorendenumeration.htm
 tech.root: Rpc
 ms.assetid: 04da6e7d-bbdb-47d3-9924-604ddf56d177
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RpcErrorEndEnumeration, RpcErrorEndEnumeration function [RPC], _rpc_rpcerrorendenumeration, rpc.rpcerrorendenumeration, rpcasync/RpcErrorEndEnumeration
 ms.topic: function

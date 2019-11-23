@@ -1,12 +1,12 @@
 ---
 UID: NS:ehstorapi._SILO_INFO
 title: SILO_INFO (ehstorapi.h)
-author: windows-sdk-content
+
 description: SILO_INFO structure contains information that identifies and describes the silo.
 old-location: enstor\silo_info.htm
 tech.root: enstor
 ms.assetid: 8bfe7c31-61e0-420b-8b6b-6b014cd5e243
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSILO_INFO, PSILO_INFO structure pointer [Enhanced Storage], SILO_INFO, SILO_INFO structure [Enhanced Storage], ehstorapi/PSILO_INFO, ehstorapi/SILO_INFO, enstor.silo_info
 ms.topic: struct

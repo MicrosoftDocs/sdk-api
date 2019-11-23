@@ -1,7 +1,7 @@
 ---
 UID: NA:wcntypes
 ms.assetid: 8c51489e-b819-31c3-9ad5-afd92ca63608
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

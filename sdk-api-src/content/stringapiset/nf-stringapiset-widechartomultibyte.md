@@ -1,12 +1,12 @@
 ---
 UID: NF:stringapiset.WideCharToMultiByte
 title: WideCharToMultiByte function (stringapiset.h)
-author: windows-sdk-content
+
 description: Maps a UTF-16 (wide character) string to a new character string.
 old-location: intl\widechartomultibyte.htm
 tech.root: Intl
 ms.assetid: b8c13444-86ab-479c-ac04-9b184d9eebf6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, WC_COMPOSITECHECK, WC_ERR_INVALID_CHARS, WC_NO_BEST_FIT_CHARS, WideCharToMultiByte, WideCharToMultiByte function [Internationalization for Windows Applications], _win32_WideCharToMultiByte, intl.widechartomultibyte, stringapiset/WideCharToMultiByte
 ms.topic: function

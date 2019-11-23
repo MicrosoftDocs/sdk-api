@@ -1,12 +1,12 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocatorNotify9.SetD3DDevice
 title: IVMRSurfaceAllocatorNotify9::SetD3DDevice (vmr9.h)
-author: windows-sdk-content
+
 description: The SetD3DDevice method sets the Direct3D device.
 old-location: dshow\ivmrsurfaceallocatornotify9_setd3ddevice.htm
 tech.root: DirectShow
 ms.assetid: f13fd7f4-03b3-4e10-9fe8-b81470b37253
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify9 interface [DirectShow],SetD3DDevice method, IVMRSurfaceAllocatorNotify9.SetD3DDevice, IVMRSurfaceAllocatorNotify9::SetD3DDevice, IVMRSurfaceAllocatorNotify9SetD3DDevice, SetD3DDevice, SetD3DDevice method [DirectShow], SetD3DDevice method [DirectShow],IVMRSurfaceAllocatorNotify9 interface, dshow.ivmrsurfaceallocatornotify9_setd3ddevice, vmr9/IVMRSurfaceAllocatorNotify9::SetD3DDevice
 ms.topic: method

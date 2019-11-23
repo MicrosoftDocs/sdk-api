@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IMDSPEnumDevice.Next
 title: IMDSPEnumDevice::Next (mswmdm.h)
-author: windows-sdk-content
+
 description: The Next method retrieves a pointer to the next celtIMDSPDevice interfaces.
 old-location: wmdm\imdspenumdevice_next.htm
 tech.root: WMDM
 ms.assetid: 137bcc3b-8c6e-4512-b564-a32af437f69a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMDSPEnumDevice interface [windows Media Device Manager],Next method, IMDSPEnumDevice.Next, IMDSPEnumDevice::Next, IMDSPEnumDeviceNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IMDSPEnumDevice interface, mswmdm/IMDSPEnumDevice::Next, wmdm.imdspenumdevice_next
 ms.topic: method

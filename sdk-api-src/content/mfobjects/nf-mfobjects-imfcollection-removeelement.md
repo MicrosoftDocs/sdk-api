@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMFCollection.RemoveElement
 title: IMFCollection::RemoveElement (mfobjects.h)
-author: windows-sdk-content
+
 description: Removes an object from the collection.
 old-location: mf\imfcollection_removeelement.htm
 tech.root: medfound
 ms.assetid: 47f33235-6bb5-4103-82b4-87210b0e695c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 47f33235-6bb5-4103-82b4-87210b0e695c, IMFCollection interface [Media Foundation],RemoveElement method, IMFCollection.RemoveElement, IMFCollection::RemoveElement, RemoveElement, RemoveElement method [Media Foundation], RemoveElement method [Media Foundation],IMFCollection interface, mf.imfcollection_removeelement, mfobjects/IMFCollection::RemoveElement
 ms.topic: method

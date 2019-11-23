@@ -1,12 +1,12 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER_CONDITION0_
 title: FWPM_FILTER_CONDITION0 (fwpmtypes.h)
-author: windows-sdk-content
+
 description: Expresses a filter condition that must be true for the action to be taken.
 old-location: fwp\fwpm_filter_condition0_struct.htm
 tech.root: fwp
 ms.assetid: 4dfed9d7-e51b-425c-9f27-014229c140be
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FWPM_FILTER_CONDITION0, FWPM_FILTER_CONDITION0 structure [Filtering], fwp.fwpm_filter_condition0_struct, fwpmtypes/FWPM_FILTER_CONDITION0
 ms.topic: struct

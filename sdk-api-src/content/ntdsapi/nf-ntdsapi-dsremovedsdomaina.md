@@ -1,12 +1,12 @@
 ---
 UID: NF:ntdsapi.DsRemoveDsDomainA
 title: DsRemoveDsDomainA function (ntdsapi.h)
-author: windows-sdk-content
+
 description: Removes all traces of a domain naming context from the global area of the directory service.
 old-location: ad\dsremovedsdomain.htm
 tech.root: ad
 ms.assetid: 0639cc04-2821-4421-8aa7-363621c1d6b5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DsRemoveDsDomain, DsRemoveDsDomain function [Active Directory], DsRemoveDsDomainA, DsRemoveDsDomainW, _glines_dsremovedsdomain, ad.dsremovedsdomain, ntdsapi/DsRemoveDsDomain, ntdsapi/DsRemoveDsDomainA, ntdsapi/DsRemoveDsDomainW
 ms.topic: function

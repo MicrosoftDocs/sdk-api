@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.Clone
 title: IMFPresentationDescriptor::Clone (mfidl.h)
-author: windows-sdk-content
+
 description: Creates a copy of this presentation descriptor.
 old-location: mf\imfpresentationdescriptor_clone.htm
 tech.root: medfound
 ms.assetid: 084b3adf-092a-4869-92e1-982db209bd5b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 084b3adf-092a-4869-92e1-982db209bd5b, Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],Clone method, IMFPresentationDescriptor.Clone, IMFPresentationDescriptor::Clone, mf.imfpresentationdescriptor_clone, mfidl/IMFPresentationDescriptor::Clone
 ms.topic: method

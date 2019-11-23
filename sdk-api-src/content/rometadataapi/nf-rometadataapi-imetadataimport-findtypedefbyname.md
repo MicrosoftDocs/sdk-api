@@ -1,12 +1,12 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.FindTypeDefByName
 title: IMetaDataImport::FindTypeDefByName (rometadataapi.h)
-author: windows-sdk-content
+
 description: Gets a pointer to the TypeDef metadata token for the Type with the specified name.
 old-location: winrt\imetadataimport_findtypedefbyname.htm
 tech.root: WinRT
 ms.assetid: dd4dd7d9-dfdf-4095-881b-c730ebfb083c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FindTypeDefByName, FindTypeDefByName method [Windows Runtime], FindTypeDefByName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],FindTypeDefByName method, IMetaDataImport.FindTypeDefByName, IMetaDataImport::FindTypeDefByName, rometadataapi/IMetaDataImport::FindTypeDefByName, winrt.imetadataimport_findtypedefbyname
 ms.topic: method

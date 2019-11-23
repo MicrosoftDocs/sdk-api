@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfUIElement.GetGUID
 title: ITfUIElement::GetGUID (msctf.h)
-author: windows-sdk-content
+
 description: The ITfUIElement::GetGUID method returns the unique id of this UI element.
 old-location: tsf\itfuielement_getguid.htm
 tech.root: TSF
 ms.assetid: 0456761e-58fc-4cda-a576-829dd2c1235f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfUIElement interface, ITfUIElement interface [Text Services Framework],GetGUID method, ITfUIElement.GetGUID, ITfUIElement::GetGUID, msctf/ITfUIElement::GetGUID, tsf.itfuielement_getguid
 ms.topic: method

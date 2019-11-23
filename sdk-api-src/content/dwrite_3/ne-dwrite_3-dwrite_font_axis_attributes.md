@@ -1,10 +1,10 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_AXIS_ATTRIBUTES
 title: DWRITE_FONT_AXIS_ATTRIBUTES
-author: windows-sdk-content
+
 description: Defines constants that specify attributes for a font axis.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/16/2019
 ms.keywords: DWRITE_FONT_AXIS_ATTRIBUTES, DWRITE_FONT_AXIS_ATTRIBUTES enumeration [Direct Write], directwrite.dwrite_font_axis_attributes, dwrite_3/DWRITE_FONT_AXIS_ATTRIBUTES
 ms.topic: enum

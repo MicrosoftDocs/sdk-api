@@ -1,12 +1,12 @@
 ---
 UID: NF:msacm.acmGetVersion
 title: acmGetVersion function (msacm.h)
-author: windows-sdk-content
+
 description: The acmGetVersion function returns the version number of the ACM.
 old-location: multimedia\acmgetversion.htm
 tech.root: Multimedia
 ms.assetid: 5a710149-0c3a-4dde-8069-db2e42826080
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmGetVersion, acmGetVersion, acmGetVersion function [Windows Multimedia], msacm/acmGetVersion, multimedia.acmgetversion"
 ms.topic: function

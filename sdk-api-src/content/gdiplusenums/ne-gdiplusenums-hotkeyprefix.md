@@ -1,12 +1,12 @@
 ---
 UID: NE:gdiplusenums.HotkeyPrefix
 title: HotkeyPrefix (gdiplusenums.h)
-author: windows-sdk-content
+
 description: The HotkeyPrefix enumeration specifies how to display hot keys. There are three options:\_do nothing, display hot keys underlined, and hide the hot key underlines.
 old-location: gdiplus\_gdiplus_ENUM_HotkeyPrefix.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\hotkeyprefix.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HotkeyPrefix, HotkeyPrefix enumeration [GDI+], HotkeyPrefixHide, HotkeyPrefixNone, HotkeyPrefixShow, _gdiplus_ENUM_HotkeyPrefix, gdiplus._gdiplus_ENUM_HotkeyPrefix, gdiplusenums/HotkeyPrefix, gdiplusenums/HotkeyPrefixHide, gdiplusenums/HotkeyPrefixNone, gdiplusenums/HotkeyPrefixShow
 ms.topic: enum

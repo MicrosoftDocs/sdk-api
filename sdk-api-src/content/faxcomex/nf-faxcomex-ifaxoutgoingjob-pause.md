@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.Pause
 title: IFaxOutgoingJob::Pause (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutgoingJob::Pause method pauses the outbound fax job.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_pause_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7ijp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Pause method, IFaxOutgoingJob.Pause, IFaxOutgoingJob::Pause, Pause, Pause method [Fax Service], Pause method [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.pause, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_pause_cpp, fax._mfax_faxoutgoingjob_pause, faxcomex/IFaxOutgoingJob::Pause
 ms.topic: method

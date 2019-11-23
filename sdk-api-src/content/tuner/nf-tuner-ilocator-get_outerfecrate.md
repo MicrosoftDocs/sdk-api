@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.ILocator.get_OuterFECRate
 title: ILocator::get_OuterFECRate (tuner.h)
-author: windows-sdk-content
+
 description: The get_OuterFECRate method gets the outer FEC rate.
 old-location: mstv\ilocator_get_outerfecrate.htm
 tech.root: mstv
 ms.assetid: 550103a8-dcf9-4a52-817a-61a589de4299
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDigitalLocatorget_OuterFECRate, ILocator interface [Microsoft TV Technologies],get_OuterFECRate method, ILocator.get_OuterFECRate, ILocator::get_OuterFECRate, get_OuterFECRate, get_OuterFECRate method [Microsoft TV Technologies], get_OuterFECRate method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_outerfecrate, tuner/ILocator::get_OuterFECRate
 ms.topic: method

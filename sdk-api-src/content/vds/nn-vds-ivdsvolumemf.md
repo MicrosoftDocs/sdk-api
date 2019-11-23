@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsVolumeMF
 title: IVdsVolumeMF (vds.h)
-author: windows-sdk-content
+
 description: Provides methods to perform access-path and file-system activities on the volume object.
 old-location: base\ivdsvolumemf.htm
 tech.root: VDS
 ms.assetid: 4c8a63bd-ae2f-4157-92f9-aefc592c7d4f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF, IVdsVolumeMF interface [VDS], IVdsVolumeMF interface [VDS],described, base.ivdsvolumemf, vds/IVdsVolumeMF
 ms.topic: interface

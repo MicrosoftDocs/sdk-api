@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarCyAbs
 title: VarCyAbs function (oleauto.h)
-author: windows-sdk-content
+
 description: Retrieves the absolute value of a variant of type currency.
 old-location: automat\varcyabs.htm
 tech.root: automat
 ms.assetid: 72ab02df-69e8-40ab-884c-6b23ce5dc6ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarCyAbs, VarCyAbs function [Automation], _oa96_VarCyAbs, automat.varcyabs, oleauto/VarCyAbs
 ms.topic: function

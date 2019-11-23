@@ -1,12 +1,12 @@
 ---
 UID: NF:msiquery.MsiRecordSetStreamA
 title: MsiRecordSetStreamA function (msiquery.h)
-author: windows-sdk-content
+
 description: The MsiRecordSetStream function sets a record stream field from a file. Stream data cannot be inserted into temporary fields.
 old-location: setup\msirecordsetstream.htm
 tech.root: Msi
 ms.assetid: ca62f6a6-2f39-4b4c-876f-4c74ecd28ee2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MsiRecordSetStream, MsiRecordSetStream function, MsiRecordSetStreamA, MsiRecordSetStreamW, _msi_msirecordsetstream, msiquery/MsiRecordSetStream, msiquery/MsiRecordSetStreamA, msiquery/MsiRecordSetStreamW, setup.msirecordsetstream
 ms.topic: function

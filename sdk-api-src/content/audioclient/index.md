@@ -1,7 +1,7 @@
 ---
 UID: NA:audioclient
 ms.assetid: fe5915ee-d844-316f-bd2f-12f8234f5119
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

@@ -1,12 +1,12 @@
 ---
 UID: NN:tuner.ITuningSpace
 title: ITuningSpace (tuner.h)
-author: windows-sdk-content
+
 description: The ITuningSpace interface provides the common functionality for all network-specific tuning spaces.
 old-location: mstv\ituningspace.htm
 tech.root: mstv
 ms.assetid: 51850105-b3b1-4758-acde-05ca2f3439f2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], ITuningSpace interface [Microsoft TV Technologies],described, ITuningSpaceInterface, mstv.ituningspace, tuner/ITuningSpace
 ms.topic: interface

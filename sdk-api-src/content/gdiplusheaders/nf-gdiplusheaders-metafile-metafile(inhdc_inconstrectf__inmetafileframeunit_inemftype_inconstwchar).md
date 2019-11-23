@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR)
 title: Metafile::Metafile(IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: Creates a Metafile::Metafile object for recording.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_frameUnit_EmfTyp.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_30hdcreferencehdc_rectfampframerect_meta.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(HDC,const RectF&,MetaFileFrameUnit,EmfType,const WCHAR*), Metafile.Metafile(IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR), Metafile::Metafile, Metafile::Metafile(IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_frameUnit_EmfTyp, gdiplus._gdiplus_CLASS_Metafile_Metafile_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_frameUnit_EmfTyp
 ms.topic: method

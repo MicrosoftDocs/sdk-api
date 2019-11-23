@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.waveOutGetErrorText
 title: waveOutGetErrorText function (mmeapi.h)
-author: windows-sdk-content
+
 description: The waveOutGetErrorText function retrieves a textual description of the error identified by the given error number.
 old-location: multimedia\waveoutgeterrortext.htm
 tech.root: Multimedia
 ms.assetid: 2728e30b-cf97-4320-873a-db98274f612f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_waveOutGetErrorText, mmeapi/waveOutGetErrorText, multimedia.waveoutgeterrortext, waveOutGetErrorText, waveOutGetErrorText function [Windows Multimedia]"
 ms.topic: function

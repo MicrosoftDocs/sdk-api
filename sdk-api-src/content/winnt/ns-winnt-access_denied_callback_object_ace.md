@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._ACCESS_DENIED_CALLBACK_OBJECT_ACE
 title: ACCESS_DENIED_CALLBACK_OBJECT_ACE (winnt.h)
-author: windows-sdk-content
+
 description: The ACCESS_DENIED_CALLBACK_OBJECT_ACE structure defines an access control entry that controls denied access to an object, a property set, or property.
 old-location: security\access_denied_callback_object_ace.htm
 tech.root: SecAuthZ
 ms.assetid: 945d9c3b-922f-481d-bb1d-3dca50fb9edb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PACCESS_DENIED_CALLBACK_OBJECT_ACE, 0, ACCESS_DENIED_CALLBACK_OBJECT_ACE, ACCESS_DENIED_CALLBACK_OBJECT_ACE structure [Security], ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, PACCESS_DENIED_CALLBACK_OBJECT_ACE, PACCESS_DENIED_CALLBACK_OBJECT_ACE structure pointer [Security], _ACCESS_DENIED_CALLBACK_OBJECT_ACE, security.access_denied_callback_object_ace, winnt/ACCESS_DENIED_CALLBACK_OBJECT_ACE, winnt/PACCESS_DENIED_CALLBACK_OBJECT_ACE'
 ms.topic: struct

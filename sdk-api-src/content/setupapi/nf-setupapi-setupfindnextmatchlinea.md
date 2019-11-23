@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupFindNextMatchLineA
 title: SetupFindNextMatchLineA function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupFindNextMatchLine function returns the location of the next line in an INF file relative to ContextIn.Line that matches a specified key.
 old-location: setup\setupfindnextmatchline.htm
 tech.root: SetupApi
 ms.assetid: c08e22d0-7eb3-4fad-82a6-e9d4f50c4e73
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetupFindNextMatchLine, SetupFindNextMatchLine function [Setup API], SetupFindNextMatchLineA, SetupFindNextMatchLineW, _setupapi_setupfindnextmatchline, setup.setupfindnextmatchline, setupapi/SetupFindNextMatchLine, setupapi/SetupFindNextMatchLineA, setupapi/SetupFindNextMatchLineW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.MessageBoxExA
 title: MessageBoxExA function (winuser.h)
-author: windows-sdk-content
+
 description: Creates, displays, and operates a message box.
 old-location: dlgbox\messageboxex.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messageboxex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MessageBoxEx, MessageBoxEx function [Dialog Boxes], MessageBoxExA, MessageBoxExW, _win32_MessageBoxEx, _win32_messageboxex_cpp, dlgbox.messageboxex, winui._win32_messageboxex, winuser/MessageBoxEx, winuser/MessageBoxExA, winuser/MessageBoxExW
 ms.topic: function

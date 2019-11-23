@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRules.ItemByCountryAndArea
 title: IFaxOutboundRoutingRules::ItemByCountryAndArea (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutboundRoutingRules::get_ItemByCountryAndArea method returns an outbound routing rule (FaxOutboundRoutingRule object) from the collection using the routing rule's country/region code and area code.
 old-location: fax\_mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_itembycountryandarea_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8plt.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],ItemByCountryAndArea method, IFaxOutboundRoutingRules.ItemByCountryAndArea, IFaxOutboundRoutingRules::ItemByCountryAndArea, ItemByCountryAndArea, ItemByCountryAndArea method [Fax Service], ItemByCountryAndArea method [Fax Service],IFaxOutboundRoutingRules interface, _mfax_faxoutboundroutingrules.itembycountryandarea, fax._mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_itembycountryandarea_cpp, fax._mfax_faxoutboundroutingrules_itembycountryandarea, faxcomex/IFaxOutboundRoutingRules::ItemByCountryAndArea
 ms.topic: method

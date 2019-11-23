@@ -1,12 +1,12 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLicenseConnection.RequestClientLicense
 title: IWTSProtocolLicenseConnection::RequestClientLicense (wtsprotocol.h)
-author: windows-sdk-content
+
 description: IWTSProtocolLicenseConnection::RequestClientLicense is no longer available. Instead, use IWRdsProtocolLicenseConnection::RequestClientLicense.
 old-location: termserv\iwtsprotocollicenseconnection_requestclientlicense.htm
 tech.root: TermServ
 ms.assetid: 4740d7a4-aa82-4c9d-b93c-20a974f170ae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],RequestClientLicense method, IWTSProtocolLicenseConnection.RequestClientLicense, IWTSProtocolLicenseConnection::RequestClientLicense, RequestClientLicense, RequestClientLicense method [Remote Desktop Services], RequestClientLicense method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_requestclientlicense, wtsprotocol/IWTSProtocolLicenseConnection::RequestClientLicense
 ms.topic: method

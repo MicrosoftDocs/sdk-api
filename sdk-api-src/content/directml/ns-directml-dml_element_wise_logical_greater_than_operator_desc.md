@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_LOGICAL_GREATER_THAN_OPERATOR_DESC
 title: DML_ELEMENT_WISE_LOGICAL_GREATER_THAN_OPERATOR_DESC
-author: windows-sdk-content
+
 description: Describes a DirectML math operator that performs a logical greater-than function between every element in ATensor and its corresponding element in BTensor, f(a, b) = (a &gt; b).
 old-location: direct3d12\dml_element_wise_logical_greater_than_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 872EDD82-0960-4D7A-AD56-2A35D39D1F4A
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_LOGICAL_GREATER_THAN_OPERATOR_DESC, DML_ELEMENT_WISE_LOGICAL_GREATER_THAN_OPERATOR_DESC structure, direct3d12.dml_element_wise_logical_greater_than_operator_desc, directml/DML_ELEMENT_WISE_LOGICAL_GREATER_THAN_OPERATOR_DESC
 ms.topic: struct

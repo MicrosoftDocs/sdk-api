@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayPeriodInTitleAutoStop
 title: IDvdControl2::PlayPeriodInTitleAutoStop (strmif.h)
-author: windows-sdk-content
+
 description: The PlayPeriodInTitleAutoStop method starts playback in the specified title from the specified start time until the specified end time.
 old-location: dshow\idvdcontrol2_playperiodintitleautostop.htm
 tech.root: DirectShow
 ms.assetid: 6c0d647c-a0c3-428e-8368-9204049dfea8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayPeriodInTitleAutoStop method, IDvdControl2.PlayPeriodInTitleAutoStop, IDvdControl2::PlayPeriodInTitleAutoStop, IDvdControl2PlayPeriodInTitleAutoStop, PlayPeriodInTitleAutoStop, PlayPeriodInTitleAutoStop method [DirectShow], PlayPeriodInTitleAutoStop method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playperiodintitleautostop, strmif/IDvdControl2::PlayPeriodInTitleAutoStop
 ms.topic: method

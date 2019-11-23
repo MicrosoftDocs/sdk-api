@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.IsCharacterLocal
 title: IDWriteFontFace3::IsCharacterLocal (dwrite_3.h)
-author: windows-sdk-content
+
 description: Determines whether the character is locally downloaded from the font.
 old-location: directwrite\idwritefontface3_ischaracterlocal.htm
 tech.root: DirectWrite
 ms.assetid: 7a47f73b-9ce7-f7db-688b-291cebad54bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace3 interface [Direct Write],IsCharacterLocal method, IDWriteFontFace3.IsCharacterLocal, IDWriteFontFace3::IsCharacterLocal, IsCharacterLocal, IsCharacterLocal method [Direct Write], IsCharacterLocal method [Direct Write],IDWriteFontFace3 interface, directwrite.idwritefontface3_ischaracterlocal, dwrite_3/IDWriteFontFace3::IsCharacterLocal
 ms.topic: method

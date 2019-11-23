@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmDisableLegacyIME
 title: ImmDisableLegacyIME function (immdev.h)
-author: windows-sdk-content
+
 description: Indicates that this thread is a Windows Store app&#32;UI thread.
 old-location: intl\immdisablelegacyime.htm
 tech.root: Intl
 ms.assetid: 5B207438-B437-45B0-AE0C-DDB1B19488F2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMMDisableLegacyIME, IMMDisableLegacyIME function [Internationalization for Windows Applications], ImmDisableLegacyIME, imm/IMMDisableLegacyIME, intl.immdisablelegacyime
 ms.topic: function

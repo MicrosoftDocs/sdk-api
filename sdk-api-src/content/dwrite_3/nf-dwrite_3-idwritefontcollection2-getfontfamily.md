@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontCollection2.GetFontFamily
 title: IDWriteFontCollection2::GetFontFamily
-author: windows-sdk-content
+
 description: Creates a font family object, given a zero-based font family index.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection2 interface [Direct Write],GetFontFamily method, IDWriteFontCollection2.GetFontFamily, IDWriteFontCollection2::GetFontFamily, GetFontFamily, GetFontFamily method [Direct Write], GetFontFamily method [Direct Write],IDWriteFontCollection2 interface, directwrite.idwritefontcollection2_getfontfamily, dwrite_3/IDWriteFontCollection2::GetFontFamily
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetAutoArrange
 title: IFolderView::GetAutoArrange (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Gets the current state of the folder's Auto Arrange mode.
 old-location: shell\IFolderView_GetAutoArrange.htm
 tech.root: shell
 ms.assetid: 987383c8-aaea-4144-8a8c-b4a8943a2acd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAutoArrange, GetAutoArrange method [Windows Shell], GetAutoArrange method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetAutoArrange method, IFolderView.GetAutoArrange, IFolderView::GetAutoArrange, _shell_IFolderView_GetAutoArrange, shell.IFolderView_GetAutoArrange, shobjidl_core/IFolderView::GetAutoArrange
 ms.topic: method

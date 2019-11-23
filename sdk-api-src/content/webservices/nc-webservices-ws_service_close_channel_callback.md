@@ -1,12 +1,12 @@
 ---
 UID: NC:webservices.WS_SERVICE_CLOSE_CHANNEL_CALLBACK
 title: WS_SERVICE_CLOSE_CHANNEL_CALLBACK (webservices.h)
-author: windows-sdk-content
+
 description: Invoked when a channel is closed or aborted on an endpoint.
 old-location: wsw\ws_service_close_channel_callback.htm
 tech.root: wsw
 ms.assetid: e2860015-219b-46be-921d-7ced0d95fc60
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_CLOSE_CHANNEL_CALLBACK, WS_SERVICE_CLOSE_CHANNEL_CALLBACK callback, WS_SERVICE_CLOSE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_CLOSE_CHANNEL_CALLBACK, wsw.ws_service_close_channel_callback
 ms.topic: callback

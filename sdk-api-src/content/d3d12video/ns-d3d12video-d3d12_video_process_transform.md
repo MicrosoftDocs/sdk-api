@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_TRANSFORM
 title: D3D12_VIDEO_PROCESS_TRANSFORM
-author: windows-sdk-content
+
 description: Specifies transform parameters for video processing.
 tech.root: mf
 ms.assetid: 1939e664-81b1-4138-8103-3d721e38d19a
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

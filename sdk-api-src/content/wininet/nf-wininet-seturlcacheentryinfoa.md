@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.SetUrlCacheEntryInfoA
 title: SetUrlCacheEntryInfoA function (wininet.h)
-author: windows-sdk-content
+
 description: Sets the specified members of the INTERNET_CACHE_ENTRY_INFO structure.
 old-location: wininet\seturlcacheentryinfo.htm
 tech.root: wininet
 ms.assetid: 71f6e1a3-09ce-4576-9480-1270f343db39
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetUrlCacheEntryInfo, SetUrlCacheEntryInfo function [WinINet], SetUrlCacheEntryInfoA, SetUrlCacheEntryInfoW, _inet_seturlcacheentryinfo_function, wininet.seturlcacheentryinfo, wininet/SetUrlCacheEntryInfo, wininet/SetUrlCacheEntryInfoA, wininet/SetUrlCacheEntryInfoW
 ms.topic: function

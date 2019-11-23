@@ -1,12 +1,12 @@
 ---
 UID: NN:mmc.IConsole
 title: IConsole (mmc.h)
-author: windows-sdk-content
+
 description: Enables communication with the console.
 old-location: mmc\iconsole.htm
 tech.root: mmc
 ms.assetid: 65154EB1-ABE5-4C4F-8B09-08633D82FD62
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IConsole, IConsole interface [MMC], IConsole interface [MMC],described, mmc.iconsole, mmc/IConsole
 ms.topic: interface

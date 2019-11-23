@@ -1,7 +1,7 @@
 ---
 UID: NA:debugapi
 ms.assetid: 0ce60a71-ba83-3bb5-b794-dc8b111652ee
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

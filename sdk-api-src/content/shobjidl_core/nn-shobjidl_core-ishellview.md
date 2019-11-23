@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IShellView
 title: IShellView (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Exposes methods that present a view in the Windows Explorer or folder windows.
 old-location: shell\IShellView.htm
 tech.root: shell
 ms.assetid: 91438583-e4f1-456f-a130-2a45846fd725
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellView, IShellView interface [Windows Shell], IShellView interface [Windows Shell],described, _win32_IShellView, _win32_IShellView_cpp, shell.IShellView, shobjidl_core/IShellView
 ms.topic: interface

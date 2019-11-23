@@ -1,12 +1,12 @@
 ---
 UID: NN:directml.IDMLObject
 title: IDMLObject
-author: windows-sdk-content
+
 description: An interface from which IDMLDevice and IDMLDeviceChild inherit directly (and all other interfaces, indirectly).
 old-location: direct3d12\idmlobject.htm
 tech.root: direct3d12
 ms.assetid: E41D99AF-838B-43D3-AD3F-A2F7CA85C714
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: IDMLObject, IDMLObject interface, IDMLObject interface,described, direct3d12.idmlobject, directml/IDMLObject
 ms.topic: interface

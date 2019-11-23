@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_TSID
 title: IFaxJobStatus::get_TSID (faxcomex.h)
-author: windows-sdk-content
+
 description: The TSID property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax job.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_tsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0vxg.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxJobStatus interface [Fax Service],TSID property, IFaxJobStatus.TSID, IFaxJobStatus.get_TSID, IFaxJobStatus::TSID, IFaxJobStatus::get_TSID, TSID property [Fax Service], TSID property [Fax Service],IFaxJobStatus interface, _mfax_faxjobstatus.tsid, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_tsid_cpp, fax._mfax_faxjobstatus_tsid, faxcomex/IFaxJobStatus::TSID, faxcomex/IFaxJobStatus::get_TSID, get_TSID
 ms.topic: method

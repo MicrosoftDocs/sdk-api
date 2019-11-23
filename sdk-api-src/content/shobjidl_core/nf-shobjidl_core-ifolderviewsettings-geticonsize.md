@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IFolderViewSettings.GetIconSize
 title: IFolderViewSettings::GetIconSize (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Gets the folder icon size.
 old-location: shell\IFolderViewSettings_GetIconSize.htm
 tech.root: shell
 ms.assetid: 69fa2ce6-7f44-42e8-b4b9-4eb9adb35b54
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetIconSize, GetIconSize method [Windows Shell], GetIconSize method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetIconSize method, IFolderViewSettings.GetIconSize, IFolderViewSettings::GetIconSize, _shell_IFolderViewSettings_GetIconSize, shell.IFolderViewSettings_GetIconSize, shobjidl_core/IFolderViewSettings::GetIconSize
 ms.topic: method

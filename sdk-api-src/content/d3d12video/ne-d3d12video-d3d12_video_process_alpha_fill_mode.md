@@ -1,11 +1,11 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE
 title: D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE
-author: windows-sdk-content
+
 description: Specifies the alpha fill mode for video processing.
 tech.root: mf
 ms.assetid: 828e0cbe-17ff-4830-8c95-997a6d53a994
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: enum
 f1_keywords:

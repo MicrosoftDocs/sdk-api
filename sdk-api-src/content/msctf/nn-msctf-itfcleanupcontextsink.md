@@ -1,12 +1,12 @@
 ---
 UID: NN:msctf.ITfCleanupContextSink
 title: ITfCleanupContextSink (msctf.h)
-author: windows-sdk-content
+
 description: The ITfCleanupContextSink interface is implemented by a text service to receive notifications when a context cleanup operation occurs. This notification sink is installed by calling ITfSourceSingle::AdviseSingleSink with IID_ITfCleanupContextSink.
 old-location: tsf\itfcleanupcontextsink.htm
 tech.root: TSF
 ms.assetid: f88ebef7-2796-4076-892f-28fac6e143de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfCleanupContextSink, ITfCleanupContextSink interface [Text Services Framework], ITfCleanupContextSink interface [Text Services Framework],described, _tsf_itfcleanupcontextsink_ref, msctf/ITfCleanupContextSink, tsf.itfcleanupcontextsink
 ms.topic: interface

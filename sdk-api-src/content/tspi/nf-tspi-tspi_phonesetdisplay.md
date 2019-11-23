@@ -1,12 +1,12 @@
 ---
 UID: NF:tspi.TSPI_phoneSetDisplay
 title: TSPI_phoneSetDisplay function (tspi.h)
-author: windows-sdk-content
+
 description: The TSPI_phoneSetDisplay function causes the specified string to be displayed on the specified open phone device.
 old-location: tspi\tspi_phonesetdisplay.htm
 tech.root: Tapi
 ms.assetid: c320122c-037a-40f5-8314-6aa3352cc994
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetDisplay, TSPI_phoneSetDisplay function [TAPI 2.2], _tspi_tspi_phonesetdisplay, tspi.tspi_phonesetdisplay, tspi/TSPI_phoneSetDisplay
 ms.topic: function

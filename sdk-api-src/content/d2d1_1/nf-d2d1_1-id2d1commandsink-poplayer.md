@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.PopLayer
 title: ID2D1CommandSink::PopLayer (d2d1_1.h)
-author: windows-sdk-content
+
 description: Removes a layer from the layer and clip stack.
 old-location: direct2d\id2d1commandsink_poplayer.htm
 tech.root: Direct2D
 ms.assetid: 885fb53b-da63-4c46-8ca2-306fd430858b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],PopLayer method, ID2D1CommandSink.PopLayer, ID2D1CommandSink::PopLayer, PopLayer, PopLayer method [Direct2D], PopLayer method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::PopLayer, direct2d.id2d1commandsink_poplayer
 ms.topic: method

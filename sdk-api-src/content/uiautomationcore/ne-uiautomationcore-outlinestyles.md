@@ -1,12 +1,12 @@
 ---
 UID: NE:uiautomationcore.OutlineStyles
 title: OutlineStyles (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Contains values for the OutlineStyle text attribute.
 old-location: winauto\uiauto_OutlineStylesEnum.htm
 tech.root: WinAuto
 ms.assetid: a3728607-f536-4c2c-afb2-0c040d776df5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OutlineStyles, OutlineStyles enumeration [Windows Accessibility], OutlineStyles_Embossed, OutlineStyles_Engraved, OutlineStyles_None, OutlineStyles_Outline, OutlineStyles_Shadow, uiauto.uiauto_OutlineStylesEnum, uiauto_OutlineStylesEnum, uiautomationcore/OutlineStyles, uiautomationcore/OutlineStyles_Embossed, uiautomationcore/OutlineStyles_Engraved, uiautomationcore/OutlineStyles_None, uiautomationcore/OutlineStyles_Outline, uiautomationcore/OutlineStyles_Shadow, winauto.uiauto_OutlineStylesEnum
 ms.topic: enum

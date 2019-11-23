@@ -1,12 +1,12 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.GetEntryByIndex
 title: ITocCollection::GetEntryByIndex (wmcodecdsp.h)
-author: windows-sdk-content
+
 description: The GetEntryByIndex method retrieves a table of contents, specified by an index, from the collection.
 old-location: mf\itoccollection_getentrybyindex.htm
 tech.root: medfound
 ms.assetid: 93bddd4d-8a58-46e6-9284-eaa70be2c5a4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEntryByIndex, GetEntryByIndex method [Media Foundation], GetEntryByIndex method [Media Foundation],ITocCollection interface, ITocCollection interface [Media Foundation],GetEntryByIndex method, ITocCollection.GetEntryByIndex, ITocCollection::GetEntryByIndex, codecapi.itoccollection_getentrybyindex, mf.itoccollection_getentrybyindex, wmcodecdsp/ITocCollection::GetEntryByIndex
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CERT_REVOCATION_CRL_INFO
 title: CERT_REVOCATION_CRL_INFO (wincrypt.h)
-author: windows-sdk-content
+
 description: Contains information updated by a certificate revocation list (CRL) revocation type handler.
 old-location: security\cert_revocation_crl_info.htm
 tech.root: SecCrypto
 ms.assetid: 069ff521-90fd-4de8-9b5c-045e44e87f75
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_REVOCATION_CRL_INFO, CERT_REVOCATION_CRL_INFO, CERT_REVOCATION_CRL_INFO structure [Security], PCERT_REVOCATION_CRL_INFO, PCERT_REVOCATION_CRL_INFO structure pointer [Security], _crypto2_cert_revocation_crl_info, security.cert_revocation_crl_info, wincrypt/CERT_REVOCATION_CRL_INFO, wincrypt/PCERT_REVOCATION_CRL_INFO"
 ms.topic: struct

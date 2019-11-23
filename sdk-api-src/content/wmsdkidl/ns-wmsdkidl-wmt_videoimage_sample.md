@@ -1,12 +1,12 @@
 ---
 UID: NS:wmsdkidl.__WMT_VIDEOIMAGE_SAMPLE
 title: WMT_VIDEOIMAGE_SAMPLE (wmsdkidl.h)
-author: windows-sdk-content
+
 description: Describes a sample for a Video Image stream that uses the Windows Media Video 9 Image codec.
 old-location: wmformat\wmt_videoimage_sample.htm
 tech.root: wmformat
 ms.assetid: 8572ca63-760e-4bb8-886e-8e46b8dce9e9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WMT_VIDEOIMAGE_SAMPLE, WMT_VIDEOIMAGE_SAMPLE structure [windows Media Format], wmformat.wmt_videoimage_sample, wmsdkidl/WMT_VIDEOIMAGE_SAMPLE
 ms.topic: struct

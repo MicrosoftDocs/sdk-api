@@ -1,12 +1,12 @@
 ---
 UID: NS:msime._IMEWRD
 title: IMEWRD (msime.h)
-author: windows-sdk-content
+
 description: Contains data about a word in the Word data of the Microsoft IME dictionary.
 old-location: intl\imewrd.htm
 tech.root: Intl
 ms.assetid: BC0D039A-7EB4-4A8D-B063-479CF4294FF0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PIMEWRD, IMEWRD, IMEWRD structure [Internationalization for Windows Applications], PIMEWRD, PIMEWRD structure pointer [Internationalization for Windows Applications], intl.imewrd, msime/IMEWRD, msime/PIMEWRD"
 ms.topic: struct

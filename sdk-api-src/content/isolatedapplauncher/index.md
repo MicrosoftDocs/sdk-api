@@ -1,7 +1,7 @@
 ---
 UID: NA:isolatedapplauncher
 ms.assetid: d720a701-e171-3f16-97cd-85324b4f27ec
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

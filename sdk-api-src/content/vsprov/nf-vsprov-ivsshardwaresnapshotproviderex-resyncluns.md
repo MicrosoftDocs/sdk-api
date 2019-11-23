@@ -1,12 +1,12 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProviderEx.ResyncLuns
 title: IVssHardwareSnapshotProviderEx::ResyncLuns (vsprov.h)
-author: windows-sdk-content
+
 description: The VSS service calls this method to notify hardware providers that a LUN resynchronization is needed.
 old-location: base\ivsshardwaresnapshotproviderex_resyncluns.htm
 tech.root: VSS
 ms.assetid: 27322ba0-e318-45d4-824e-8c81a18abd49
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProviderEx interface,ResyncLuns method, IVssHardwareSnapshotProviderEx.ResyncLuns, IVssHardwareSnapshotProviderEx::ResyncLuns, ResyncLuns, ResyncLuns method, ResyncLuns method,IVssHardwareSnapshotProviderEx interface, base.ivsshardwaresnapshotproviderex_resyncluns, vsprov/IVssHardwareSnapshotProviderEx::ResyncLuns
 ms.topic: method

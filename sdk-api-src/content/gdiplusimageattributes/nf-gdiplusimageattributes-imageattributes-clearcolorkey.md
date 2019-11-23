@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearColorKey
 title: ImageAttributes::ClearColorKey (gdiplusimageattributes.h)
-author: windows-sdk-content
+
 description: The ImageAttributes::ClearColorKey method clears the color key (transparency range) for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearColorKey_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearcolorkey.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClearColorKey, ClearColorKey method [GDI+], ClearColorKey method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearColorKey method, ImageAttributes.ClearColorKey, ImageAttributes::ClearColorKey, _gdiplus_CLASS_ImageAttributes_ClearColorKey_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearColorKey_type_
 ms.topic: method

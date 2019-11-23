@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetPointerDeviceCursors
 title: GetPointerDeviceCursors function (winuser.h)
-author: windows-sdk-content
+
 description: Gets the cursor IDs that are mapped to the cursors associated with a pointer device.
 old-location: input_pointerdevice\getpointerdevicecursors.htm
 tech.root: Input_PointerDevice
 ms.assetid: 4dd25033-e63a-4fa9-89b9-bfcae4061a76
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPointerDeviceCursors, GetPointerDeviceCursors function, input_pointerdevice.getpointerdevicecursors, unifiedinputstack.getpointerdevicecursors, winuser/GetPointerDeviceCursors
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetStringValue
 title: ICredentialProviderUser::GetStringValue (credentialprovider.h)
-author: windows-sdk-content
+
 description: Retrieves string properties from the ICredentialProviderUser object based on the input value.
 old-location: shell\ICredentialProviderUser_GetStringValue.htm
 tech.root: shell
 ms.assetid: 97FFD00F-6141-472c-A60C-A9A282190C9D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStringValue, GetStringValue method [Windows Shell], GetStringValue method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetStringValue method, ICredentialProviderUser.GetStringValue, ICredentialProviderUser::GetStringValue, credentialprovider/ICredentialProviderUser::GetStringValue, shell.ICredentialProviderUser_GetStringValue
 ms.topic: method

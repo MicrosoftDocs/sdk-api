@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetDeviceType
 title: IWMRegisteredDevice::GetDeviceType (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetDeviceType method retrieves the device type associated with the device.
 old-location: wmformat\iwmregistereddevice_getdevicetype.htm
 tech.root: wmformat
 ms.assetid: 12f0dbf5-bc76-4fa2-ab64-cced1f41c313
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDeviceType, GetDeviceType method [windows Media Format], GetDeviceType method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceType method, IWMRegisteredDevice.GetDeviceType, IWMRegisteredDevice::GetDeviceType, IWMRegisteredDeviceGetDeviceType, wmformat.iwmregistereddevice_getdevicetype, wmsdkidl/IWMRegisteredDevice::GetDeviceType
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Treble
 title: IAMAudioInputMixer::put_Treble (strmif.h)
-author: windows-sdk-content
+
 description: The put_Treble method sets the treble equalization for this input.
 old-location: dshow\iamaudioinputmixer_put_treble.htm
 tech.root: DirectShow
 ms.assetid: 09030c17-14d0-4af2-9e9e-64a536133b64
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Treble method, IAMAudioInputMixer.put_Treble, IAMAudioInputMixer::put_Treble, IAMAudioInputMixerput_Treble, dshow.iamaudioinputmixer_put_treble, put_Treble, put_Treble method [DirectShow], put_Treble method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Treble
 ms.topic: method

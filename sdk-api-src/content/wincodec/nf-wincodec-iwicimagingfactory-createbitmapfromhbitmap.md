@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapFromHBITMAP
 title: IWICImagingFactory::CreateBitmapFromHBITMAP (wincodec.h)
-author: windows-sdk-content
+
 description: Creates an IWICBitmap from a bitmap handle.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfromhbitmap.htm
 tech.root: wic
 ms.assetid: 8483f352-c31b-4afe-a011-ebef3430c576
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapFromHBITMAP, CreateBitmapFromHBITMAP method [Windows Imaging Component], CreateBitmapFromHBITMAP method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFromHBITMAP method, IWICImagingFactory.CreateBitmapFromHBITMAP, IWICImagingFactory::CreateBitmapFromHBITMAP, _wic_codec_iwicimagingfactory_createbitmapfromhbitmap, wic._wic_codec_iwicimagingfactory_createbitmapfromhbitmap, wincodec/IWICImagingFactory::CreateBitmapFromHBITMAP
 ms.topic: method

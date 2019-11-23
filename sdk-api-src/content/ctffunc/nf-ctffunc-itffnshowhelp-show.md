@@ -1,12 +1,12 @@
 ---
 UID: NF:ctffunc.ITfFnShowHelp.Show
 title: ITfFnShowHelp::Show (ctffunc.h)
-author: windows-sdk-content
+
 description: ITfFnShowHelp::Show method
 old-location: tsf\itffnshowhelp_show.htm
 tech.root: TSF
 ms.assetid: e150dffe-4a02-4d16-9017-f86111970aea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfFnShowHelp interface [Text Services Framework],Show method, ITfFnShowHelp.Show, ITfFnShowHelp::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfFnShowHelp interface, _tsf_itffnshowhelp_show_ref, ctffunc/ITfFnShowHelp::Show, tsf.itffnshowhelp_show
 ms.topic: method

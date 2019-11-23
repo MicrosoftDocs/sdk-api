@@ -1,12 +1,12 @@
 ---
 UID: NF:prsht.DestroyPropertySheetPage
 title: DestroyPropertySheetPage function (prsht.h)
-author: windows-sdk-content
+
 description: Destroys a property sheet page. An application must call this function for pages that have not been passed to the PropertySheet function.
 old-location: controls\DestroyPropertySheetPage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\destroypropertysheetpage.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DestroyPropertySheetPage, DestroyPropertySheetPage function [Windows Controls], _win32_DestroyPropertySheetPage, _win32_DestroyPropertySheetPage_cpp, controls.DestroyPropertySheetPage, controls._win32_DestroyPropertySheetPage, prsht/DestroyPropertySheetPage
 ms.topic: function

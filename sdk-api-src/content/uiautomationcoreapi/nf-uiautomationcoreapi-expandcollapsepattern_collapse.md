@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.ExpandCollapsePattern_Collapse
 title: ExpandCollapsePattern_Collapse function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Hides all descendant nodes, controls, or content of the UI Automation element.
 old-location: winauto\uiauto_ExpandCollapsePattern_CollapseConPat.htm
 tech.root: WinAuto
 ms.assetid: 71423347-bfae-4223-8215-d4f8d9226b63
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ExpandCollapsePattern_Collapse, ExpandCollapsePattern_Collapse function [Windows Accessibility], uiauto.uiauto_ExpandCollapsePattern_CollapseConPat, uiauto_ExpandCollapsePattern_CollapseConPat, uiautomationcoreapi/ExpandCollapsePattern_Collapse, winauto.uiauto_ExpandCollapsePattern_CollapseConPat
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.UIntPtrToInt8
 title: UIntPtrToInt8 function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type UINT_PTR to a value of type INT8.
 old-location: shell\UIntPtrToInt8.htm
 tech.root: shell
 ms.assetid: fd421216-e2c3-453f-8dd0-0a904a2e0c31
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UIntPtrToInt8, UIntPtrToInt8 function [Windows Shell], intsafe/UIntPtrToInt8, shell.UIntPtrToInt8
 ms.topic: function

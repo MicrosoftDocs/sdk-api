@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN const WCHAR,IN HDC,IN EmfType,IN const WCHAR)
 title: Metafile::Metafile(IN const WCHAR,IN HDC,IN EmfType,IN const WCHAR) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: Creates a Metafile::Metafile object for recording.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_fileName_referenceHdc_type_description_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_59filename_referencehdc_type_description.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN const WCHAR,IN HDC,IN EmfType,IN const WCHAR), Metafile.Metafile(const WCHAR*,HDC,EmfType,const WCHAR*), Metafile::Metafile, Metafile::Metafile(IN const WCHAR,IN HDC,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_fileName_referenceHdc_type_description_, gdiplus._gdiplus_CLASS_Metafile_Metafile_fileName_referenceHdc_type_description_
 ms.topic: method

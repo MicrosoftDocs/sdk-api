@@ -1,7 +1,7 @@
 ---
 UID: NA:bits4_0
 ms.assetid: c0286fc4-0610-3b23-92d1-8323fcaec5b2
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

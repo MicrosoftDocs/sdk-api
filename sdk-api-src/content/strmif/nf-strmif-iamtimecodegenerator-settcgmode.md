@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.SetTCGMode
 title: IAMTimecodeGenerator::SetTCGMode (strmif.h)
-author: windows-sdk-content
+
 description: The SetTCGMode method sets the SMPTE timecode generator properties.
 old-location: dshow\iamtimecodegenerator_settcgmode.htm
 tech.root: DirectShow
 ms.assetid: 61434534-0a43-4bf3-81d1-3b27ac601cb4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],SetTCGMode method, IAMTimecodeGenerator.SetTCGMode, IAMTimecodeGenerator::SetTCGMode, IAMTimecodeGeneratorSetTCGMode, SetTCGMode, SetTCGMode method [DirectShow], SetTCGMode method [DirectShow],IAMTimecodeGenerator interface, dshow.iamtimecodegenerator_settcgmode, strmif/IAMTimecodeGenerator::SetTCGMode
 ms.topic: method

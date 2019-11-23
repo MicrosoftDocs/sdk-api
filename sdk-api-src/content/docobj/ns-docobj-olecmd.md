@@ -1,12 +1,12 @@
 ---
 UID: NS:docobj._tagOLECMD
 title: OLECMD (docobj.h)
-author: windows-sdk-content
+
 description: Associates command flags from the OLECMDF enumeration with a command identifier through a call to IOleCommandTarget::QueryStatus.
 old-location: com\olecmd.htm
 tech.root: com
 ms.assetid: a75ca136-ed6a-43c5-b775-a50535431f1d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OLECMD, OLECMD structure [COM], _ole_OLECMD, com.olecmd, docobj/OLECMD
 ms.topic: struct

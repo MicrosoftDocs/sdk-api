@@ -1,12 +1,12 @@
 ---
 UID: NN:mfsharingengine.IMFMediaSharingEngine
 title: IMFMediaSharingEngine (mfsharingengine.h)
-author: windows-sdk-content
+
 description: Enables media sharing.
 old-location: mf\imfmediasharingengine.htm
 tech.root: medfound
 ms.assetid: D56612FC-840A-41EE-B162-7AF16ED3D975
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSharingEngine, IMFMediaSharingEngine interface [Media Foundation], IMFMediaSharingEngine interface [Media Foundation],described, mf.imfmediasharingengine, mfsharingengine/IMFMediaSharingEngine
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.AddDesktopItem
 title: IActiveDesktop::AddDesktopItem (shlobj_core.h)
-author: windows-sdk-content
+
 description: Adds a desktop item.
 old-location: lwef\iactivedesktop_adddesktopitem.htm
 tech.root: lwef
 ms.assetid: 5a0c61e8-a645-4a32-b97b-8d7b43d0e5e3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddDesktopItem, AddDesktopItem method [Legacy Windows Environment Features], AddDesktopItem method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],AddDesktopItem method, IActiveDesktop.AddDesktopItem, IActiveDesktop::AddDesktopItem, _win32_IActiveDesktop_AddDesktopItem, lwef.iactivedesktop_adddesktopitem, shell.iactivedesktop_adddesktopitem, shlobj_core/IActiveDesktop::AddDesktopItem
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:iscsidsc.RefreshISNSServerA
 title: RefreshISNSServerA function (iscsidsc.h)
-author: windows-sdk-content
+
 description: RefreshIsnsServer function instructs the iSCSI initiator service to query the indicated Internet Storage Name Service (iSNS) server to refresh the list of discovered targets for the iSCSI initiator service.
 old-location: iscsidisc\refreshisnsserver.htm
 tech.root: iSCSIDisc
 ms.assetid: c954126a-6bad-49cf-889e-81746fe175a4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RefreshISNSServerA, RefreshIsnsServer, RefreshIsnsServer function [iSCSI Discovery Library API], RefreshIsnsServerA, RefreshIsnsServerW, iscsidisc.refreshisnsserver, iscsidsc/RefreshIsnsServer, iscsidsc/RefreshIsnsServerA, iscsidsc/RefreshIsnsServerW
 ms.topic: function

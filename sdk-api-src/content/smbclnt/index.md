@@ -1,7 +1,7 @@
 ---
 UID: NA:smbclnt
 ms.assetid: c410e4e9-03fd-3d67-a73f-60913950e2df
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

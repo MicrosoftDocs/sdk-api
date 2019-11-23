@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.CD3D11_BLEND_DESC.CD3D11_BLEND_DESC(CD3D11_DEFAULT)
 title: CD3D11_BLEND_DESC::CD3D11_BLEND_DESC(CD3D11_DEFAULT) (d3d11.h)
-author: windows-sdk-content
+
 description: Instantiates a new instance of a CD3D11_BLEND_DESC structure that is initialized with default blend-state values.
 old-location: direct3d11\cd3d11_blend_desc_cd3d11_blend_desc_cd3d11_default_.htm
 tech.root: direct3d11
 ms.assetid: F1756CCA-463F-48BC-99A2-8E956DDC8A3D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_BLEND_DESC, CD3D11_BLEND_DESC constructor [Direct3D 11], CD3D11_BLEND_DESC constructor [Direct3D 11],CD3D11_BLEND_DESC interface, CD3D11_BLEND_DESC interface [Direct3D 11],CD3D11_BLEND_DESC constructor, CD3D11_BLEND_DESC.CD3D11_BLEND_DESC, CD3D11_BLEND_DESC.CD3D11_BLEND_DESC(CD3D11_DEFAULT), CD3D11_BLEND_DESC::CD3D11_BLEND_DESC, CD3D11_BLEND_DESC::CD3D11_BLEND_DESC(CD3D11_DEFAULT), d3d11/CD3D11_BLEND_DESC::CD3D11_BLEND_DESC, direct3d11.cd3d11_blend_desc_cd3d11_blend_desc_cd3d11_default_
 ms.topic: method

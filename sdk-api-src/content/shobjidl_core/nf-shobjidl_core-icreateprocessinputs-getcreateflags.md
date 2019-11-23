@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.ICreateProcessInputs.GetCreateFlags
 title: ICreateProcessInputs::GetCreateFlags (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Gets the additional flags that will be passed to CreateProcess.
 old-location: shell\icreateprocessinputs_getcreateflags.htm
 tech.root: shell
 ms.assetid: 6884E7A0-17E8-4F5F-B0A4-85BD3745ED12
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCreateFlags, GetCreateFlags method [Windows Shell], GetCreateFlags method [Windows Shell],ICreateProcessInputs interface, ICreateProcessInputs interface [Windows Shell],GetCreateFlags method, ICreateProcessInputs.GetCreateFlags, ICreateProcessInputs::GetCreateFlags, shell.icreateprocessinputs_getcreateflags, shobjidl_core/ICreateProcessInputs::GetCreateFlags
 ms.topic: method

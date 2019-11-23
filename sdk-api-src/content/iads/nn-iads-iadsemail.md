@@ -1,12 +1,12 @@
 ---
 UID: NN:iads.IADsEmail
 title: IADsEmail (iads.h)
-author: windows-sdk-content
+
 description: The IADsEmail interface provides methods for an ADSI client to access the Email Address attribute.
 old-location: adsi\iadsemail.htm
 tech.root: adsi
 ms.assetid: ce788365-9e43-4bce-89c3-07506cb308fa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Email, IADsEmail, IADsEmail interface [ADSI], IADsEmail interface [ADSI],described, _ds_iadsemail, adsi.iadsemail, iads/IADsEmail
 ms.topic: interface

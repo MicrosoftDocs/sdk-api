@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagEMRGRADIENTFILL
 title: EMRGRADIENTFILL (wingdi.h)
-author: windows-sdk-content
+
 description: The EMRGRADIENTFILL structure contains members for the GradientFill enhanced metafile record.
 old-location: gdi\emrgradientfill.htm
 tech.root: gdi
 ms.assetid: efd12e71-ee26-4fc8-8e9f-5b0105ebe057
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PEMRGRADIENTFILL, EMRGRADIENTFILL, EMRGRADIENTFILL structure [Windows GDI], GRADIENT_FILL_RECT_H, GRADIENT_FILL_RECT_V, GRADIENT_FILL_TRIANGLE, PEMRGRADIENTFILL, PEMRGRADIENTFILL structure pointer [Windows GDI], _win32_EMRGRADIENTFILL_str, gdi.emrgradientfill, wingdi/EMRGRADIENTFILL, wingdi/PEMRGRADIENTFILL'
 ms.topic: struct

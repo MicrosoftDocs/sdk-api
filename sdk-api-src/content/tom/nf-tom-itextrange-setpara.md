@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextRange.SetPara
 title: ITextRange::SetPara (tom.h)
-author: windows-sdk-content
+
 description: Sets the paragraph attributes of this range to those of the specified ITextPara object.
 old-location: controls\ITextRange_SetPara.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setpara.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetPara method, ITextRange.SetPara, ITextRange::SetPara, SetPara, SetPara method [Windows Controls], SetPara method [Windows Controls],ITextRange interface, _win32_ITextRange_SetPara, _win32_ITextRange_SetPara_cpp, controls.ITextRange_SetPara, controls._win32_ITextRange_SetPara, tom/ITextRange::SetPara
 ms.topic: method

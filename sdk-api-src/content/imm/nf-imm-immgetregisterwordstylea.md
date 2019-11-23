@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmGetRegisterWordStyleA
 title: ImmGetRegisterWordStyleA function (imm.h)
-author: windows-sdk-content
+
 description: Retrieves a list of the styles supported by the IME associated with the specified input locale.
 old-location: intl\immgetregisterwordstyle.htm
 tech.root: Intl
 ms.assetid: 29ddf963-f421-4fad-9861-a6ed51e481ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImmGetRegisterWordStyle, ImmGetRegisterWordStyle function [Internationalization for Windows Applications], ImmGetRegisterWordStyleA, ImmGetRegisterWordStyleW, _win32_ImmGetRegisterWordStyle, imm/ImmGetRegisterWordStyle, imm/ImmGetRegisterWordStyleA, imm/ImmGetRegisterWordStyleW, intl.immgetregisterwordstyle
 ms.topic: function

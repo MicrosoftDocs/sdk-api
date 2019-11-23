@@ -1,12 +1,12 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_2
 title: IKE_AUTHENTICATION_INFORMATION (iscsidsc.h)
-author: windows-sdk-content
+
 description: IKE_AUTHENTICATION_INFORMATION structure contains Internet Key Exchange (IKE) authentication information used to establish a secure channel between two key management daemons.
 old-location: iscsidisc\ike_authentication_information.htm
 tech.root: iSCSIDisc
 ms.assetid: d61036f5-a5e8-4c1a-8f99-57fe8e5c5bd0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PIKE_AUTHENTICATION_INFORMATION, IKE_AUTHENTICATION_INFORMATION, IKE_AUTHENTICATION_INFORMATION structure [iSCSI Discovery Library API], PIKE_AUTHENTICATION_INFORMATION, PIKE_AUTHENTICATION_INFORMATION structure pointer [iSCSI Discovery Library API], iscsidisc.ike_authentication_information, iscsidsc/IKE_AUTHENTICATION_INFORMATION, iscsidsc/PIKE_AUTHENTICATION_INFORMATION"
 ms.topic: struct

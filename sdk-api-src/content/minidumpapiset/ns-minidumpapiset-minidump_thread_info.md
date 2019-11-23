@@ -1,12 +1,12 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD_INFO
 title: MINIDUMP_THREAD_INFO (minidumpapiset.h)
-author: windows-sdk-content
+
 description: Contains thread state information.
 old-location: base\minidump_thread_info_str.htm
 tech.root: Debug
 ms.assetid: 855bbccb-a7c8-4744-b314-8692f785b1c0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PMINIDUMP_THREAD_INFO, MINIDUMP_THREAD_INFO, MINIDUMP_THREAD_INFO structure, MINIDUMP_THREAD_INFO_ERROR_THREAD, MINIDUMP_THREAD_INFO_EXITED_THREAD, MINIDUMP_THREAD_INFO_INVALID_CONTEXT, MINIDUMP_THREAD_INFO_INVALID_INFO, MINIDUMP_THREAD_INFO_INVALID_TEB, MINIDUMP_THREAD_INFO_WRITING_THREAD, PMINIDUMP_THREAD_INFO, PMINIDUMP_THREAD_INFO structure pointer, _MINIDUMP_THREAD_INFO, base.minidump_thread_info_str, minidumpapiset/MINIDUMP_THREAD_INFO, minidumpapiset/PMINIDUMP_THREAD_INFO"
 ms.topic: struct

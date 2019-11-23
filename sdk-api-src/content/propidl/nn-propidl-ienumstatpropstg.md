@@ -1,12 +1,12 @@
 ---
 UID: NN:propidl.IEnumSTATPROPSTG
 title: IEnumSTATPROPSTG (propidl.h)
-author: windows-sdk-content
+
 description: Iterates through an array of STATPROPSTG structures. The STATPROPSTG structures contain statistical data about properties in a property set.
 old-location: stg\ienumstatpropstg.htm
 tech.root: Stg
 ms.assetid: e625e52a-5628-4d18-9282-aa1c141c83af
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSTG, IEnumSTATPROPSTG interface [Structured Storage], IEnumSTATPROPSTG interface [Structured Storage],described, _stg_ienumstatpropstg, propidlbase/IEnumSTATPROPSTG, stg.ienumstatpropstg
 ms.topic: interface

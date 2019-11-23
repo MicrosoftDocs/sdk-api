@@ -1,12 +1,12 @@
 ---
 UID: NF:msdrm.DRMGetEnvironmentInfo
 title: DRMGetEnvironmentInfo function (msdrm.h)
-author: windows-sdk-content
+
 description: Returns information about a secure environment.
 old-location: rm\drmgetenvironmentinfo.htm
 tech.root: AdRms_Sdk
 ms.assetid: 6b6dd54f-1835-42da-b151-9da9139efeb3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DRMGetEnvironmentInfo, DRMGetEnvironmentInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetEnvironmentInfo, rm.drmgetenvironmentinfo
 ms.topic: function

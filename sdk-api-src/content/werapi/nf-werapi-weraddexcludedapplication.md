@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerAddExcludedApplication
 title: WerAddExcludedApplication function (werapi.h)
-author: windows-sdk-content
+
 description: Adds the specified application to the list of applications that are to be excluded from error reporting.
 old-location: wer\weraddexcludedapplication.htm
 tech.root: wer
 ms.assetid: ac1ec373-868f-4634-8658-4253d4f5923a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WerAddExcludedApplication, WerAddExcludedApplication function [Windows Error Reporting], base.weraddexcludedapplication, wer.weraddexcludedapplication, werapi/WerAddExcludedApplication
 ms.topic: function

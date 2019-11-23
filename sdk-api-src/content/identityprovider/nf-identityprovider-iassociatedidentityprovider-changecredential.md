@@ -1,12 +1,12 @@
 ---
 UID: NF:identityprovider.IAssociatedIdentityProvider.ChangeCredential
 title: IAssociatedIdentityProvider::ChangeCredential (identityprovider.h)
-author: windows-sdk-content
+
 description: Changes the credentials associated with the specified identity.
 old-location: security\iassociatedidentityprovider_changecredential.htm
 tech.root: SecAuthN
 ms.assetid: 6a4361a8-8054-434e-9852-fcc20b1086cd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ChangeCredential, ChangeCredential method [Security], ChangeCredential method [Security],IAssociatedIdentityProvider interface, IAssociatedIdentityProvider interface [Security],ChangeCredential method, IAssociatedIdentityProvider.ChangeCredential, IAssociatedIdentityProvider::ChangeCredential, identityprovider/IAssociatedIdentityProvider::ChangeCredential, identitystore/IAssociatedIdentityProvider::ChangeCredential, security.iassociatedidentityprovider_changecredential
 ms.topic: method

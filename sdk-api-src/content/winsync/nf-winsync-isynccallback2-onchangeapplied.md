@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.ISyncCallback2.OnChangeApplied
 title: ISyncCallback2::OnChangeApplied (winsync.h)
-author: windows-sdk-content
+
 description: Occurs after a change is successfully applied.
 old-location: winsync\isynccallback2_onchangeapplied.htm
 tech.root: winsync
 ms.assetid: 3397ca51-583b-4051-892b-68f505d85ccd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback2 interface [Windows Sync],OnChangeApplied method, ISyncCallback2.OnChangeApplied, ISyncCallback2::OnChangeApplied, OnChangeApplied, OnChangeApplied method [Windows Sync], OnChangeApplied method [Windows Sync],ISyncCallback2 interface, winsync.isynccallback2_onchangeapplied, winsync/ISyncCallback2::OnChangeApplied
 ms.topic: method

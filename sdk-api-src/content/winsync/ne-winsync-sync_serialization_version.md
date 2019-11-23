@@ -1,12 +1,12 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0007
 title: SYNC_SERIALIZATION_VERSION (winsync.h)
-author: windows-sdk-content
+
 description: Represents the version of Microsoft Sync Framework that a particular component is compatible with.
 old-location: winsync\sync_serialization_version.htm
 tech.root: winsync
 ms.assetid: 840a1f5e-56f7-4774-a154-0dab66c3d407
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SYNC_SERIALIZATION_VERSION, SYNC_SERIALIZATION_VERSION enumeration [Windows Sync], SYNC_SERIALIZATION_VERSION_V1, SYNC_SERIALIZATION_VERSION_V2, winsync.sync_serialization_version, winsync/SYNC_SERIALIZATION_VERSION, winsync/SYNC_SERIALIZATION_VERSION_V1, winsync/SYNC_SERIALIZATION_VERSION_V2
 ms.topic: enum

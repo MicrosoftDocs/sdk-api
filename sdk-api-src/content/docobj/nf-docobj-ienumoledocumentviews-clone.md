@@ -1,12 +1,12 @@
 ---
 UID: NF:docobj.IEnumOleDocumentViews.Clone
 title: IEnumOleDocumentViews::Clone (docobj.h)
-author: windows-sdk-content
+
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumoledocumentviews_clone.htm
 tech.root: com
 ms.assetid: f3d6eaaf-455a-4d66-87d2-ba19a1db1faf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumOleDocumentViews interface, IEnumOleDocumentViews interface [COM],Clone method, IEnumOleDocumentViews.Clone, IEnumOleDocumentViews::Clone, _ole_ienumoledocumentviews_clone, com.ienumoledocumentviews_clone, docobj/IEnumOleDocumentViews::Clone
 ms.topic: method

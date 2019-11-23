@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IVMRMonitorConfig.GetAvailableMonitors
 title: IVMRMonitorConfig::GetAvailableMonitors (strmif.h)
-author: windows-sdk-content
+
 description: The GetAvailableMonitors method retrieves information about the monitors currently available on the system.
 old-location: dshow\ivmrmonitorconfig_getavailablemonitors.htm
 tech.root: DirectShow
 ms.assetid: 8a44ca7d-a195-4fcf-b09c-01f8176e0aa2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAvailableMonitors, GetAvailableMonitors method [DirectShow], GetAvailableMonitors method [DirectShow],IVMRMonitorConfig interface, IVMRMonitorConfig interface [DirectShow],GetAvailableMonitors method, IVMRMonitorConfig.GetAvailableMonitors, IVMRMonitorConfig::GetAvailableMonitors, IVMRMonitorConfigGetAvailableMonitors, dshow.ivmrmonitorconfig_getavailablemonitors, strmif/IVMRMonitorConfig::GetAvailableMonitors
 ms.topic: method

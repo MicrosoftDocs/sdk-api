@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Intersects(FXMVECTOR,FXMVECTOR,float &)
 title: BoundingOrientedBox::Intersects(FXMVECTOR,FXMVECTOR,float &)
-author: windows-sdk-content
+
 description: Tests the BoundingOrientedBox for intersection with a ray.
 old-location: dxmath\boundingorientedbox_intersects_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.Intersects(XMVECTOR,XMVECTOR,float@)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],Intersects method, BoundingOrientedBox.Intersects, BoundingOrientedBox.Intersects(FXMVECTOR,FXMVECTOR,float &), BoundingOrientedBox.Intersects(XMVECTOR,XMVECTOR,float&), BoundingOrientedBox::Intersects, BoundingOrientedBox::Intersects(FXMVECTOR,FXMVECTOR,float &), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_intersects_2
 ms.topic: method

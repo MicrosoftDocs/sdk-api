@@ -1,12 +1,12 @@
 ---
 UID: NF:interactioncontext.ResetInteractionContext
 title: ResetInteractionContext function (interactioncontext.h)
-author: windows-sdk-content
+
 description: Resets the interaction state, interaction configuration settings, and all parameters to their initial state. Current interactions are cancelled without notifications. Interaction Context must be reconfigured before next use.
 old-location: input_intcontext\resetinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 5c9b7756-fad1-4656-952c-78845685aa21
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ResetInteractionContext, ResetInteractionContext function, input_intcontext.resetinteractioncontext, interactioncontext.resetinteractioncontext, interactioncontext/ResetInteractionContext
 ms.topic: function

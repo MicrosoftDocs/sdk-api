@@ -1,12 +1,12 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoderService.CreateVideoDecoder
 title: IDirectXVideoDecoderService::CreateVideoDecoder (dxva2api.h)
-author: windows-sdk-content
+
 description: Creates a video decoder device.
 old-location: mf\idirectxvideodecoderservice_createvideodecoder.htm
 tech.root: medfound
 ms.assetid: 2a799411-e8d5-4ab8-b52f-7198af9a4f2b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 2a799411-e8d5-4ab8-b52f-7198af9a4f2b, CreateVideoDecoder, CreateVideoDecoder method [Media Foundation], CreateVideoDecoder method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],CreateVideoDecoder method, IDirectXVideoDecoderService.CreateVideoDecoder, IDirectXVideoDecoderService::CreateVideoDecoder, dxva2api/IDirectXVideoDecoderService::CreateVideoDecoder, mf.idirectxvideodecoderservice_createvideodecoder
 ms.topic: method

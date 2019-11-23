@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMCUSTOMSPLITRECTINFO
 title: NMCUSTOMSPLITRECTINFO (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information about the two rectangles of a split button. Sent with the NM_GETCUSTOMSPLITRECT notification.
 old-location: controls\NMCUSTOMSPLITRECTINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmcustomsplitrectinfo.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMCUSTOMSPLITRECTINFO, LPNMCUSTOMSPLITRECTINFO, LPNMCUSTOMSPLITRECTINFO structure pointer [Windows Controls], NMCUSTOMSPLITRECTINFO, NMCUSTOMSPLITRECTINFO structure [Windows Controls], _shell_NMCUSTOMSPLITRECTINFO, _shell_NMCUSTOMSPLITRECTINFO_cpp, commctrl/LPNMCUSTOMSPLITRECTINFO, commctrl/NMCUSTOMSPLITRECTINFO, controls.NMCUSTOMSPLITRECTINFO, controls._shell_NMCUSTOMSPLITRECTINFO'
 ms.topic: struct

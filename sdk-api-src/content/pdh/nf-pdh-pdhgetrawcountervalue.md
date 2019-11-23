@@ -1,12 +1,12 @@
 ---
 UID: NF:pdh.PdhGetRawCounterValue
 title: PdhGetRawCounterValue function (pdh.h)
-author: windows-sdk-content
+
 description: Returns the current raw value of the counter.
 old-location: perf\pdhgetrawcountervalue.htm
 tech.root: perfctrs
 ms.assetid: bb246c82-8748-4e2f-9f44-a206199aff90
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PdhGetRawCounterValue, PdhGetRawCounterValue function [Perf], _win32_pdhgetrawcountervalue, base.pdhgetrawcountervalue, pdh/PdhGetRawCounterValue, perf.pdhgetrawcountervalue
 ms.topic: function

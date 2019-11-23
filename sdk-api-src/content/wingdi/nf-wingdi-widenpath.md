@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.WidenPath
 title: WidenPath function (wingdi.h)
-author: windows-sdk-content
+
 description: The WidenPath function redefines the current path as the area that would be painted if the path were stroked using the pen currently selected into the given device context.
 old-location: gdi\widenpath.htm
 tech.root: gdi
 ms.assetid: c994bd1b-c5e8-46e6-a6a6-59e2d9106d75
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WidenPath, WidenPath function [Windows GDI], _win32_WidenPath, gdi.widenpath, wingdi/WidenPath
 ms.topic: function

@@ -1,7 +1,7 @@
 ---
 UID: TP:rras
 ms.assetid: 81dd190f-fadb-3fe6-8776-f89b1ee3e540
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

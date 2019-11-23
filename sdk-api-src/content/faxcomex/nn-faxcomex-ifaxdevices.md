@@ -1,12 +1,12 @@
 ---
 UID: NN:faxcomex.IFaxDevices
 title: IFaxDevices (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxDevices interface defines a collection used by a fax client application to manage fax devices, where each device is represented by a FaxDevice object.
 old-location: fax\_mfax_faxdevices_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1eib_cpp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxDevices, IFaxDevices interface [Fax Service], IFaxDevices interface [Fax Service],described, _mfax_faxdevices_cpp, fax._mfax_faxdevices_cpp, faxcomex/IFaxDevices
 ms.topic: interface

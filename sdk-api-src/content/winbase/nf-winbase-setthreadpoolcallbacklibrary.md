@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackLibrary
 title: SetThreadpoolCallbackLibrary function (winbase.h)
-author: windows-sdk-content
+
 description: Ensures that the specified DLL remains loaded as long as there are outstanding callbacks.
 old-location: base\setthreadpoolcallbacklibrary.htm
 tech.root: ProcThread
 ms.assetid: 41d5d8c5-4938-4274-bcfa-b122bbc70530
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackLibrary, SetThreadpoolCallbackLibrary function, base.setthreadpoolcallbacklibrary, winbase/SetThreadpoolCallbackLibrary
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndSetTimers
 title: MCIWndSetTimers macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndSetTimers macro sets the update periods used by MCIWnd to update the trackbar in the MCIWnd window, update the position information displayed in the window title bar, and send notification messages to the parent window.
 old-location: multimedia\mciwndsettimers.htm
 tech.root: Multimedia
 ms.assetid: 0a1b1c87-714b-438f-b865-5f5798cb4cf3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetTimers, MCIWndSetTimers macro [Windows Multimedia], _win32_MCIWndSetTimers, multimedia.mciwndsettimers, vfw/MCIWndSetTimers
 ms.topic: macro

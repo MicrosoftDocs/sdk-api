@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetDIT
 title: IDvbSiParser::GetDIT (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_getdit.htm
 tech.root: mstv
 ms.assetid: ff6d5a04-173d-4577-a6e8-2ae5b2f99358
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDIT, GetDIT method [Microsoft TV Technologies], GetDIT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetDIT method, IDvbSiParser.GetDIT, IDvbSiParser::GetDIT, IDvbSiParserGetDIT, dvbsiparser/IDvbSiParser::GetDIT, mstv.idvbsiparser_getdit
 ms.topic: method

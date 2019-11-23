@@ -1,12 +1,12 @@
 ---
 UID: NN:micaut.IMathInputControl
 title: IMathInputControl (micaut.h)
-author: windows-sdk-content
+
 description: Exposes methods that turn ink input into interpreted math output.
 old-location: tablet\imathinputcontrol.htm
 tech.root: tablet
 ms.assetid: 3d6a6289-7be5-4cf0-8cb7-9095c4ee7149
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], IMathInputControl interface [Tablet PC],described, micaut/IMathInputControl, tablet.imathinputcontrol
 ms.topic: interface

@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontCollection3.GetExpirationEvent
 title: IDWriteFontCollection3::GetExpirationEvent
-author: windows-sdk-content
+
 description: Retrieves the expiration event for the font set, if any. The expiration event is set on a system font set object if it is out of date due to fonts being installed, uninstalled, or updated.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection3 interface [Direct Write],GetExpirationEvent method, IDWriteFontCollection3.GetExpirationEvent, IDWriteFontCollection3::GetExpirationEvent, GetExpirationEvent, GetExpirationEvent method [Direct Write], GetExpirationEvent method [Direct Write],IDWriteFontCollection3 interface, directwrite.idwritefontcollection3_getexpirationevent, dwrite_3/IDWriteFontCollection3::GetExpirationEvent
 ms.topic: method

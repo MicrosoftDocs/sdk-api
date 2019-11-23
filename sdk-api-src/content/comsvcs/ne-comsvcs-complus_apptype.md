@@ -1,12 +1,12 @@
 ---
 UID: NE:comsvcs.tagCOMPLUS_APPTYPE
 title: COMPLUS_APPTYPE (comsvcs.h)
-author: windows-sdk-content
+
 description: Represents types of applications tracked by the tracker server.
 old-location: cos\complus_apptype.htm
 tech.root: cossdk
 ms.assetid: 121d287f-067b-4640-ac81-43904463ded4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: APPTYPE_LIBRARY, APPTYPE_SERVER, APPTYPE_SWC, APPTYPE_UNKNOWN, COMPLUS_APPTYPE, COMPLUS_APPTYPE enumeration [COM+], comsvcs/APPTYPE_LIBRARY, comsvcs/APPTYPE_SERVER, comsvcs/APPTYPE_SWC, comsvcs/APPTYPE_UNKNOWN, comsvcs/COMPLUS_APPTYPE, cos.complus_apptype
 ms.topic: enum

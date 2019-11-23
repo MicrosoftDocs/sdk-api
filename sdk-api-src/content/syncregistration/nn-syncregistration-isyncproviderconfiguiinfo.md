@@ -1,12 +1,12 @@
 ---
 UID: NN:syncregistration.ISyncProviderConfigUIInfo
 title: ISyncProviderConfigUIInfo (syncregistration.h)
-author: windows-sdk-content
+
 description: Represents the information and properties needed to create an instance of a synchronization provider configuration UI.
 old-location: winsync\isyncproviderconfiguiinfo.htm
 tech.root: winsync
 ms.assetid: b7c49533-d289-44b0-9a9e-cfa47af3a087
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderConfigUIInfo, ISyncProviderConfigUIInfo interface [Windows Sync], ISyncProviderConfigUIInfo interface [Windows Sync],described, syncregistration/ISyncProviderConfigUIInfo, winsync.isyncproviderconfiguiinfo
 ms.topic: interface

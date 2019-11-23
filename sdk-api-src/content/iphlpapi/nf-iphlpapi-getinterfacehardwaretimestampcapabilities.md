@@ -1,12 +1,12 @@
 ---
 UID: NF:iphlpapi.GetInterfaceHardwareTimestampCapabilities
 title: GetInterfaceHardwareTimestampCapabilities function (iphlpapi.h)
-author: windows-sdk-content
+
 description: This function is reserved for system use, and you should not call it from your code.
 old-location: iphlp\getinterfacehardwaretimestampcapabilities.htm
 tech.root: IpHlp
 ms.assetid: E09F96C2-72C6-4426-B395-DD590D731E5B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceHardwareTimestampCapabilities, GetInterfaceHardwareTimestampCapabilities function [IP Helper], iphlp.getinterfacehardwaretimestampcapabilities, iphlpapi/GetInterfaceHardwareTimestampCapabilities
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidWebDVD2
 title: IMSVidWebDVD2 (segment.h)
-author: windows-sdk-content
+
 description: Contains methods that save and load the current location and state for DVD playback.
 old-location: mstv\imsvidwebdvd2.htm
 tech.root: mstv
 ms.assetid: f0385f72-02fe-4efc-8324-7af93d6ecb9d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidWebDVD2, IMSVidWebDVD2 interface [Microsoft TV Technologies], IMSVidWebDVD2 interface [Microsoft TV Technologies],described, mstv.imsvidwebdvd2, segment/IMSVidWebDVD2
 ms.topic: interface

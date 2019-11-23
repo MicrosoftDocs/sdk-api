@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.SubtractRect
 title: SubtractRect function (winuser.h)
-author: windows-sdk-content
+
 description: The SubtractRect function determines the coordinates of a rectangle formed by subtracting one rectangle from another.
 old-location: gdi\subtractrect.htm
 tech.root: gdi
 ms.assetid: 85c8edae-af2b-4c6c-af37-2631e8b4edcd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SubtractRect, SubtractRect function [Windows GDI], _win32_SubtractRect, gdi.subtractrect, winuser/SubtractRect
 ms.topic: function

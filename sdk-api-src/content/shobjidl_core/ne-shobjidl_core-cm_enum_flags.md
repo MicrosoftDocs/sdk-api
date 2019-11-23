@@ -1,12 +1,12 @@
 ---
 UID: NE:shobjidl_core.CM_ENUM_FLAGS
 title: CM_ENUM_FLAGS (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Used by members of the IColumnManager interface to specify which set of columns are being requested, either all or only those currently visible.
 old-location: shell\CM_ENUM_FLAGS.htm
 tech.root: shell
 ms.assetid: 9706ae59-d172-4518-8090-375b1a0ff4fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CM_ENUM_ALL, CM_ENUM_FLAGS, CM_ENUM_FLAGS enumeration [Windows Shell], CM_ENUM_VISIBLE, shell.CM_ENUM_FLAGS, shell_CM_ENUM_FLAGS, shobjidl_core/CM_ENUM_ALL, shobjidl_core/CM_ENUM_FLAGS, shobjidl_core/CM_ENUM_VISIBLE
 ms.topic: enum

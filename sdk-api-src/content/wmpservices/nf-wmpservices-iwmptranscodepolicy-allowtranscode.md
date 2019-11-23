@@ -1,12 +1,12 @@
 ---
 UID: NF:wmpservices.IWMPTranscodePolicy.allowTranscode
 title: IWMPTranscodePolicy::allowTranscode (wmpservices.h)
-author: windows-sdk-content
+
 description: The allowTranscode method retrieves a value specifying whether Windows Media Player is permitted to change the format of the digital media content to the Windows Media format.
 old-location: wmp\iwmptranscodepolicy_allowtranscode.htm
 tech.root: WMP
 ms.assetid: 6b43e247-cbb5-4ef1-8906-5ce7e1e58484
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPTranscodePolicy interface [Windows Media Player],allowTranscode method, IWMPTranscodePolicy.allowTranscode, IWMPTranscodePolicy::allowTranscode, IWMPTranscodePolicyallowTranscode, allowTranscode, allowTranscode method [Windows Media Player], allowTranscode method [Windows Media Player],IWMPTranscodePolicy interface, wmp.iwmptranscodepolicy_allowtranscode, wmpservices/IWMPTranscodePolicy::allowTranscode
 ms.topic: method

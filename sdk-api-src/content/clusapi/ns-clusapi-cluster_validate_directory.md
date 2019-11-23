@@ -1,12 +1,12 @@
 ---
 UID: NS:clusapi._CLUSTER_VALIDATE_DIRECTORY
 title: CLUSTER_VALIDATE_DIRECTORY (clusapi.h)
-author: windows-sdk-content
+
 description: TBD.
 old-location: mscs\cluster_validate_directory.htm
 tech.root: MsCS
 ms.assetid: e5cde16b-da06-4063-9337-c3cc6b6c285b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSTER_VALIDATE_DIRECTORY, CLUSTER_VALIDATE_DIRECTORY, CLUSTER_VALIDATE_DIRECTORY structure [Failover Cluster], PCLUSTER_VALIDATE_DIRECTORY, PCLUSTER_VALIDATE_DIRECTORY structure pointer [Failover Cluster], clusapi/CLUSTER_VALIDATE_DIRECTORY, clusapi/PCLUSTER_VALIDATE_DIRECTORY, mscs.cluster_validate_directory"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxActivityLogging.get_LogIncoming
 title: IFaxActivityLogging::get_LogIncoming (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxActivityLogging::get_LogIncoming property is a Boolean value that indicates whether the fax service logs entries for incoming faxes in the activity log database.
 old-location: fax\_mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_logincoming_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3yef.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxActivityLogging interface [Fax Service],LogIncoming property, IFaxActivityLogging.LogIncoming, IFaxActivityLogging.get_LogIncoming, IFaxActivityLogging.put_LogIncoming, IFaxActivityLogging::LogIncoming, IFaxActivityLogging::get_LogIncoming, IFaxActivityLogging::put_LogIncoming, LogIncoming property [Fax Service], LogIncoming property [Fax Service],IFaxActivityLogging interface, _mfax_faxactivitylogging.logincoming, fax._mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_logincoming_cpp, fax._mfax_faxactivitylogging_logincoming, faxcomex/IFaxActivityLogging::LogIncoming, faxcomex/IFaxActivityLogging::get_LogIncoming, faxcomex/IFaxActivityLogging::put_LogIncoming, get_LogIncoming
 ms.topic: method

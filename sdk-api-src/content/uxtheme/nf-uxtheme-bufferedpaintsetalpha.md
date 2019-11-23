@@ -1,12 +1,12 @@
 ---
 UID: NF:uxtheme.BufferedPaintSetAlpha
 title: BufferedPaintSetAlpha function (uxtheme.h)
-author: windows-sdk-content
+
 description: Sets the alpha to a specified value in a given rectangle. The alpha controls the amount of transparency applied when blending with the buffer onto the destination target device context (DC).
 old-location: controls\BufferedPaintSetAlpha.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintsetalpha.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BufferedPaintSetAlpha, BufferedPaintSetAlpha function [Windows Controls], _shell_BufferedPaintSetAlpha, _shell_BufferedPaintSetAlpha_cpp, controls.BufferedPaintSetAlpha, controls._shell_BufferedPaintSetAlpha, uxtheme/BufferedPaintSetAlpha
 ms.topic: function

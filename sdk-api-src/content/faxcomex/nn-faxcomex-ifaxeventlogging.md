@@ -1,12 +1,12 @@
 ---
 UID: NN:faxcomex.IFaxEventLogging
 title: IFaxEventLogging (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxEventLogging interface defines a configuration object used by a fax client application to configure the event logging categories used by the fax service.
 old-location: fax\_mfax_faxeventlogging_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1xt3_cpp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxEventLogging, IFaxEventLogging interface [Fax Service], IFaxEventLogging interface [Fax Service],described, _mfax_faxeventlogging_cpp, fax._mfax_faxeventlogging_cpp, faxcomex/IFaxEventLogging
 ms.topic: interface

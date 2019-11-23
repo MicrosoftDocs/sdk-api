@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat3.SetFontAxisValues
 title: IDWriteTextFormat3::SetFontAxisValues
-author: windows-sdk-content
+
 description: Sets values for the font axes of the format.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],SetFontAxisValues method, IDWriteTextFormat3.SetFontAxisValues, IDWriteTextFormat3::SetFontAxisValues, SetFontAxisValues, SetFontAxisValues method [Direct Write], SetFontAxisValues method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_setfontaxisvalues, dwrite_3/IDWriteTextFormat3::SetFontAxisValues
 ms.topic: method

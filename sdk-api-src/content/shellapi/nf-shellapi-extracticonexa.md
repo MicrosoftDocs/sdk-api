@@ -1,12 +1,12 @@
 ---
 UID: NF:shellapi.ExtractIconExA
 title: ExtractIconExA function (shellapi.h)
-author: windows-sdk-content
+
 description: The ExtractIconEx function creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file.
 old-location: shell\ExtractIconEx.htm
 tech.root: shell
 ms.assetid: 1c4d760a-79b5-4646-9cf2-6cd32c5d05ee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ExtractIconEx, ExtractIconEx function [Windows Shell], ExtractIconExA, ExtractIconExW, _shell_ExtractIconEx, shell.ExtractIconEx, shellapi/ExtractIconEx, shellapi/ExtractIconExA, shellapi/ExtractIconExW
 ms.topic: function

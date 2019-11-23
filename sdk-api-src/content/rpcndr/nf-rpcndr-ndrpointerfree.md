@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcndr.NdrPointerFree
 title: NdrPointerFree function (rpcndr.h)
-author: windows-sdk-content
+
 description: The NdrPointerFree function frees memory.
 old-location: rpc\ndrpointerfree.htm
 tech.root: Rpc
 ms.assetid: 8b90ae12-af0f-41f8-9b8d-4b354de511be
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NdrPointerFree, NdrPointerFree function [RPC], rpc.ndrpointerfree, rpcndr/NdrPointerFree
 ms.topic: function

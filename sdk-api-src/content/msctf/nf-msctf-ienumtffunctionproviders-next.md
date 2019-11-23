@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Next
 title: IEnumTfFunctionProviders::Next (msctf.h)
-author: windows-sdk-content
+
 description: IEnumTfFunctionProviders::Next method
 old-location: tsf\ienumtffunctionproviders_next.htm
 tech.root: TSF
 ms.assetid: c9938eb0-c084-4663-9aef-584c987a08a7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumTfFunctionProviders interface [Text Services Framework],Next method, IEnumTfFunctionProviders.Next, IEnumTfFunctionProviders::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfFunctionProviders interface, _tsf_ienumtffunctionproviders_next_ref, msctf/IEnumTfFunctionProviders::Next, tsf.ienumtffunctionproviders_next
 ms.topic: method

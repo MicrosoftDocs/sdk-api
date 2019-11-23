@@ -1,12 +1,12 @@
 ---
 UID: NS:dxgi1_6.DXGI_OUTPUT_DESC1
 title: DXGI_OUTPUT_DESC1 (dxgi1_6.h)
-author: windows-sdk-content
+
 description: Describes an output or physical connection between the adapter (video card) and a device, including additional information about color capabilities and connection type.
 old-location: direct3ddxgi\dxgi_output_desc1.htm
 tech.root: direct3ddxgi
 ms.assetid: 5215EF2C-9511-4B21-B574-3447FA5896F7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DXGI_OUTPUT_DESC1, DXGI_OUTPUT_DESC1 structure [DXGI], direct3ddxgi.dxgi_output_desc1, dxgi1_6/DXGI_OUTPUT_DESC1
 ms.topic: struct

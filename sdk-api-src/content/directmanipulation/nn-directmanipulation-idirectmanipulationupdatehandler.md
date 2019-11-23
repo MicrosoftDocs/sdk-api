@@ -1,12 +1,12 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationUpdateHandler
 title: IDirectManipulationUpdateHandler (directmanipulation.h)
-author: windows-sdk-content
+
 description: Defines methods for handling manipulation update events.
 old-location: directmanipulation\idirectmanipulationupdatehandler.htm
 tech.root: directmanipulation
 ms.assetid: a963abb5-63b8-44d1-910c-ea795398d3de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationUpdateHandler, IDirectManipulationUpdateHandler interface [Direct Manipulation], IDirectManipulationUpdateHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationupdatehandler, directmanipulation/IDirectManipulationUpdateHandler
 ms.topic: interface

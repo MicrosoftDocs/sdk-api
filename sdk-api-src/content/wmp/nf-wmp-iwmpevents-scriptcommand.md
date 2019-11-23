@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPEvents.ScriptCommand
 title: IWMPEvents::ScriptCommand (wmp.h)
-author: windows-sdk-content
+
 description: The ScriptCommand event occurs when a synchronized command or URL is received.
 old-location: wmp\iwmpevents_iwmpevents__scriptcommand.htm
 tech.root: WMP
 ms.assetid: 1010961f-6d06-455a-9c14-bc06702e9e89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],ScriptCommand method, IWMPEvents.ScriptCommand, IWMPEvents::ScriptCommand, IWMPEventsScriptCommand, ScriptCommand, ScriptCommand method [Windows Media Player], ScriptCommand method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__scriptcommand, wmp/IWMPEvents::ScriptCommand
 ms.topic: method

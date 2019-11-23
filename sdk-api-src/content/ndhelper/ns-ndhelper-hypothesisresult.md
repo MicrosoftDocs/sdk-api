@@ -1,12 +1,12 @@
 ---
 UID: NS:ndhelper.tagHypothesisResult
 title: HypothesisResult (ndhelper.h)
-author: windows-sdk-content
+
 description: Contains information about a hypothesis returned from a helper class.
 old-location: ndf\hypothesisresult.htm
 tech.root: NDF
 ms.assetid: bbf3cc69-c81b-4a3d-8fd8-d4e37a57bed6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HypothesisResult, HypothesisResult structure [NDF], ndf.hypothesisresult, ndhelper/HypothesisResult
 ms.topic: struct

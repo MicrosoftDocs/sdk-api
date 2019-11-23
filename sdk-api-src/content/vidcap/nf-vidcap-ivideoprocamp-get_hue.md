@@ -1,12 +1,12 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Hue
 title: IVideoProcAmp::get_Hue (vidcap.h)
-author: windows-sdk-content
+
 description: The get_Hue method returns the camera's hue setting.
 old-location: dshow\ivideoprocamp_get_hue.htm
 tech.root: DirectShow
 ms.assetid: dfdd44b5-fd39-40da-95b8-9008aef10f9a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Hue method, IVideoProcAmp.get_Hue, IVideoProcAmp::get_Hue, IVideoProcAmpget_Hue, dshow.ivideoprocamp_get_hue, get_Hue, get_Hue method [DirectShow], get_Hue method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Hue
 ms.topic: method

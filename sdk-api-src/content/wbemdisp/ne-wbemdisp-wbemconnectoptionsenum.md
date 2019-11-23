@@ -1,12 +1,12 @@
 ---
 UID: NE:wbemdisp.WbemConnectOptionsEnum
 title: WbemConnectOptionsEnum (wbemdisp.h)
-author: windows-sdk-content
+
 description: Defines a security flag that is used as a parameter in calls to the SWbemLocator.ConnectServer method when a connection to WMI on a remote machine is failing.
 old-location: wmi\wbemconnectoptionsenum.htm
 tech.root: WmiSdk
 ms.assetid: 781121e9-9dea-408c-a241-0c9f28c2cd46
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WbemConnectOptionsEnum, WbemConnectOptionsEnum enumeration [Windows Management Instrumentation], _hmm_wbemconnectoptionsenum, wbemConnectFlagUseMaxWait, wbemdisp/WbemConnectOptionsEnum, wbemdisp/wbemConnectFlagUseMaxWait, wmi.wbemconnectoptionsenum
 ms.topic: enum

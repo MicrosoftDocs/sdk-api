@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidRect.get_Left
 title: IMSVidRect::get_Left (segment.h)
-author: windows-sdk-content
+
 description: The get_Left method retrieves the left x-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_get_left.htm
 tech.root: mstv
 ms.assetid: 9e64e560-033b-475a-a281-57af5f893e65
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Left method, IMSVidRect.get_Left, IMSVidRect::get_Left, IMSVidRectget_Left, get_Left, get_Left method [Microsoft TV Technologies], get_Left method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_left, segment/IMSVidRect::get_Left
 ms.topic: method

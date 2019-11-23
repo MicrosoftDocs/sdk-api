@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite.IDWriteRenderingParams
 title: IDWriteRenderingParams (dwrite.h)
-author: windows-sdk-content
+
 description: Represents text rendering settings such as ClearType level, enhanced contrast, and gamma correction for glyph rasterization and filtering.
 old-location: directwrite\IDWriteRenderingParams.htm
 tech.root: DirectWrite
 ms.assetid: 28b118e4-9a63-46cf-8ab7-e1039126405b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteRenderingParams, IDWriteRenderingParams interface [Direct Write], IDWriteRenderingParams interface [Direct Write],described, directwrite.IDWriteRenderingParams, dwrite/IDWriteRenderingParams
 ms.topic: interface

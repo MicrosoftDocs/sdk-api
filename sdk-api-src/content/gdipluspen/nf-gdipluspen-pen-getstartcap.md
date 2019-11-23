@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspen.Pen.GetStartCap
 title: Pen::GetStartCap (gdipluspen.h)
-author: windows-sdk-content
+
 description: The Pen::GetStartCap method gets the start cap currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetStartCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getstartcap.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStartCap, GetStartCap method [GDI+], GetStartCap method [GDI+],Pen class, Pen class [GDI+],GetStartCap method, Pen.GetStartCap, Pen::GetStartCap, _gdiplus_CLASS_Pen_GetStartCap_, gdiplus._gdiplus_CLASS_Pen_GetStartCap_
 ms.topic: method

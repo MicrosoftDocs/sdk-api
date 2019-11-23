@@ -1,12 +1,12 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMCanvas
 title: IXpsOMCanvas (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: A group of visual elements and related properties.
 old-location: xps\ixpsomcanvas.htm
 tech.root: printdocs
 ms.assetid: 3cb0e1b3-88a8-4724-a3c5-0df416294e62
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging], IXpsOMCanvas interface [XPS Documents and Packaging],described, xps.ixpsomcanvas, xpsobjectmodel/IXpsOMCanvas
 ms.topic: interface

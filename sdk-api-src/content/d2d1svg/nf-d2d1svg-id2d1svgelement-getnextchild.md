@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetNextChild
 title: ID2D1SvgElement::GetNextChild (d2d1svg.h)
-author: windows-sdk-content
+
 description: Gets the next sibling of the referenceChild element.
 old-location: direct2d\id2d1svgelement_getnextchild.htm
 tech.root: Direct2D
 ms.assetid: 41D48F64-3C90-4CB1-91F5-32FC04042471
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNextChild, GetNextChild method [Direct2D], GetNextChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetNextChild method, ID2D1SvgElement.GetNextChild, ID2D1SvgElement::GetNextChild, d2d1svg/ID2D1SvgElement::GetNextChild, direct2d.id2d1svgelement_getnextchild
 ms.topic: method

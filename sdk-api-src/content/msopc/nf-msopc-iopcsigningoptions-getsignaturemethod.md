@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignatureMethod
 title: IOpcSigningOptions::GetSignatureMethod (msopc.h)
-author: windows-sdk-content
+
 description: Gets the signature method to use to calculate and encrypt the hash value of the SignedInfo element, which will be serialized as the SignatureValue element of the signature.
 old-location: opc\iopcsigningoptions_getsignaturemethod.htm
 tech.root: OPC
 ms.assetid: d325ed58-9acd-4ebd-9acc-28f8602a53eb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSignatureMethod, GetSignatureMethod method [Open Packaging Conventions], GetSignatureMethod method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignatureMethod method, IOpcSigningOptions.GetSignatureMethod, IOpcSigningOptions::GetSignatureMethod, msopc/IOpcSigningOptions::GetSignatureMethod, opc.iopcsigningoptions_getsignaturemethod
 ms.topic: method

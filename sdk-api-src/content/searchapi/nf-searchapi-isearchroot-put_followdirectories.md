@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_FollowDirectories
 title: ISearchRoot::put_FollowDirectories (searchapi.h)
-author: windows-sdk-content
+
 description: Sets a BOOL value that indicates whether the search engine should follow subdirectories and hierarchical scopes for this search root.
 old-location: search\_search_ISearchRoot_put_FollowDirectories.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_followdirectories.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_FollowDirectories method, ISearchRoot.put_FollowDirectories, ISearchRoot::put_FollowDirectories, _search_ISearchRoot_put_FollowDirectories, put_FollowDirectories, put_FollowDirectories method [search], put_FollowDirectories method [search],ISearchRoot interface, search._search_ISearchRoot_put_FollowDirectories, searchapi/ISearchRoot::put_FollowDirectories
 ms.topic: method

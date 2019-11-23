@@ -1,12 +1,12 @@
 ---
 UID: NF:winevt.EvtOpenPublisherEnum
 title: EvtOpenPublisherEnum function (winevt.h)
-author: windows-sdk-content
+
 description: Gets a handle that you use to enumerate the list of registered providers on the computer.
 old-location: wes\evtopenpublisherenum.htm
 tech.root: wes
 ms.assetid: 156c434c-6d0f-4af0-bf10-20aa6bae0945
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EvtOpenPublisherEnum, EvtOpenPublisherEnum function [EventLog], wes.evtopenpublisherenum, winevt/EvtOpenPublisherEnum
 ms.topic: function

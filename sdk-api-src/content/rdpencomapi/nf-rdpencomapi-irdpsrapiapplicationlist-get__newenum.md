@@ -1,12 +1,12 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationList.get__NewEnum
 title: IRDPSRAPIApplicationList::get__NewEnum (rdpencomapi.h)
-author: windows-sdk-content
+
 description: An enumerator interface for the application collection.
 old-location: rdp\irdpsrapiapplicationlist__newenum.htm
 tech.root: rdp
 ms.assetid: 946cba06-9cc1-4a44-aeed-0b636d737edd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplicationList interface [RDP],_NewEnum property, IRDPSRAPIApplicationList._NewEnum, IRDPSRAPIApplicationList.get__NewEnum, IRDPSRAPIApplicationList::_NewEnum, IRDPSRAPIApplicationList::get__NewEnum, RDPSRAPIApplicationList object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIApplicationList interface, _NewEnum property [RDP],RDPSRAPIApplicationList object, get__NewEnum, rdp.irdpsrapiapplicationlist__newenum, rdpencomapi/IRDPSRAPIApplicationList::_NewEnum, rdpencomapi/IRDPSRAPIApplicationList::get__NewEnum
 ms.topic: method

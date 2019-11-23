@@ -1,12 +1,12 @@
 ---
 UID: NC:webservices.WS_GET_CHANNEL_PROPERTY_CALLBACK
 title: WS_GET_CHANNEL_PROPERTY_CALLBACK (webservices.h)
-author: windows-sdk-content
+
 description: Handles the WsGetChannelProperty call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_get_channel_property_callback.htm
 tech.root: wsw
 ms.assetid: 8fd503a9-6f8d-46c3-9338-c900b9b1d747
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_GET_CHANNEL_PROPERTY_CALLBACK, WS_GET_CHANNEL_PROPERTY_CALLBACK callback, WS_GET_CHANNEL_PROPERTY_CALLBACK callback function [Web Services for Windows], webservices/WS_GET_CHANNEL_PROPERTY_CALLBACK, wsw.ws_get_channel_property_callback
 ms.topic: callback

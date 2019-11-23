@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.ITaskDefinition.get_Settings
 title: ITaskDefinition::get_Settings (taskschd.h)
-author: windows-sdk-content
+
 description: Gets or sets the settings that define how the Task Scheduler service performs the task.
 old-location: taskschd\itaskdefinition_settings.htm
 tech.root: taskschd
 ms.assetid: ecf768bd-5f07-4a9b-881c-e5306769f96e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],Settings property, ITaskDefinition.Settings, ITaskDefinition.get_Settings, ITaskDefinition::Settings, ITaskDefinition::get_Settings, ITaskDefinition::put_Settings, Settings property [Task Scheduler], Settings property [Task Scheduler],ITaskDefinition interface, get_Settings, taskschd.itaskdefinition_settings, taskschd/ITaskDefinition::Settings, taskschd/ITaskDefinition::get_Settings, taskschd/ITaskDefinition::put_Settings
 ms.topic: method

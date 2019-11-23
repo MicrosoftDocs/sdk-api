@@ -1,12 +1,12 @@
 ---
 UID: NF:sensorsapi.ISensorEvents.OnDataUpdated
 title: ISensorEvents::OnDataUpdated (sensorsapi.h)
-author: windows-sdk-content
+
 description: Provides sensor event data.
 old-location: winsensors_com_ref\isensorevents_ondataupdated.htm
 tech.root: SensorsAPI
 ms.assetid: dda03a66-ffdb-4f1f-a6e4-17075eab7e00
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnDataUpdated method, ISensorEvents.OnDataUpdated, ISensorEvents::OnDataUpdated, OnDataUpdated, OnDataUpdated method, OnDataUpdated method,ISensorEvents interface, sensorsapi/ISensorEvents::OnDataUpdated, winsensors_com_ref.isensorevents_ondataupdated
 ms.topic: method

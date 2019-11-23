@@ -1,12 +1,12 @@
 ---
 UID: NF:npapi.NPAddConnection
 title: NPAddConnection function (npapi.h)
-author: windows-sdk-content
+
 description: Connects a local device to a network resource.
 old-location: security\npaddconnection.htm
 tech.root: SecAuthN
 ms.assetid: 37a3988c-18ee-400a-85c3-cc3cbdf015ea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NPAddConnection, NPAddConnection function [Security], _mnp_npaddconnection, dwType, lpLocalName, lpRemoteName, npapi/NPAddConnection, security.npaddconnection
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:bdaiface.IBDA_IPV4Filter.PutMulticastMode
 title: IBDA_IPV4Filter::PutMulticastMode (bdaiface.h)
-author: windows-sdk-content
+
 description: The PutMulticastMode method sets the multicast mode.
 old-location: mstv\ibda_ipv4filter_putmulticastmode.htm
 tech.root: mstv
 ms.assetid: d0a12c21-e196-4228-9994-51047271cf57
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPV4Filter interface [Microsoft TV Technologies],PutMulticastMode method, IBDA_IPV4Filter.PutMulticastMode, IBDA_IPV4Filter::PutMulticastMode, IBDA_IPV4FilterPutMulticastMode, PutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies],IBDA_IPV4Filter interface, bdaiface/IBDA_IPV4Filter::PutMulticastMode, mstv.ibda_ipv4filter_putmulticastmode
 ms.topic: method

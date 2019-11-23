@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.CreateFontFace
 title: IDWriteFontResource::CreateFontFace
-author: windows-sdk-content
+
 description: Creates a font face instance with specific axis values.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],CreateFontFace method, IDWriteFontResource.CreateFontFace, IDWriteFontResource::CreateFontFace, CreateFontFace, CreateFontFace method [Direct Write], CreateFontFace method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_createfontface, dwrite_3/IDWriteFontResource::CreateFontFace
 ms.topic: method

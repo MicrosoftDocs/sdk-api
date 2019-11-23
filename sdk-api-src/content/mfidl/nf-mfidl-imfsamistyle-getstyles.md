@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFSAMIStyle.GetStyles
 title: IMFSAMIStyle::GetStyles (mfidl.h)
-author: windows-sdk-content
+
 description: Gets a list of the style names defined in the SAMI file.
 old-location: mf\imfsamistyle_getstyles.htm
 tech.root: medfound
 ms.assetid: e0b183f0-8781-4fc5-97dd-e42b0e7bd5e5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStyles, GetStyles method [Media Foundation], GetStyles method [Media Foundation],IMFSAMIStyle interface, IMFSAMIStyle interface [Media Foundation],GetStyles method, IMFSAMIStyle.GetStyles, IMFSAMIStyle::GetStyles, e0b183f0-8781-4fc5-97dd-e42b0e7bd5e5, mf.imfsamistyle_getstyles, mfidl/IMFSAMIStyle::GetStyles
 ms.topic: method

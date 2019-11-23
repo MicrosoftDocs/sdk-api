@@ -1,11 +1,11 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS
 title: D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS
-author: windows-sdk-content
+
 description: Flags for indicating a subset of components used with video decode histogram.
 tech.root: mf
 ms.assetid: d2806ba5-882b-4f69-9867-b271002681ba
-ms.author: windowssdkdev
+
 ms.date: 11/14/2019
 ms.topic: enum
 f1_keywords:

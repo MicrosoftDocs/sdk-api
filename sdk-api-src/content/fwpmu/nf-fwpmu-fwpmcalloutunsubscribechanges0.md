@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmCalloutUnsubscribeChanges0
 title: FwpmCalloutUnsubscribeChanges0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Is used to cancel a callout change subscription and stop receiving change notifications.
 old-location: fwp\fwpmcalloutunsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: ab0825fc-edf8-4634-a6bb-86de7e1e030c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutUnsubscribeChanges0, FwpmCalloutUnsubscribeChanges0 function [Filtering], fwp.fwpmcalloutunsubscribechanges0_func, fwpmu/FwpmCalloutUnsubscribeChanges0
 ms.topic: function

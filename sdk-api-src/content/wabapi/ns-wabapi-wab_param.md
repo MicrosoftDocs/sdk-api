@@ -1,12 +1,12 @@
 ---
 UID: NS:wabapi._tagWAB_PARAM
 title: WAB_PARAM (wabapi.h)
-author: windows-sdk-content
+
 description: Do not use. Contains the input information to pass to WABOpen.
 old-location: wab\_wab_WAB_PARAM.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\wab_param.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPWAB_PARAM, LPWAB_PARAM, LPWAB_PARAM structure pointer [Windows Address Book], WAB_ENABLE_PROFILES, WAB_PARAM, WAB_PARAM structure [Windows Address Book], WAB_USE_OE_SENDMAIL, _wab_WAB_PARAM, wab._wab_WAB_PARAM, wabapi/LPWAB_PARAM, wabapi/WAB_PARAM"
 ms.topic: struct

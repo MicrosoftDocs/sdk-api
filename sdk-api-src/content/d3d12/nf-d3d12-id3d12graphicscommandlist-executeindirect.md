@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ExecuteIndirect
 title: ID3D12GraphicsCommandList::ExecuteIndirect (d3d12.h)
-author: windows-sdk-content
+
 description: Apps perform indirect draws/dispatches using the ExecuteIndirect method.
 old-location: direct3d12\id3d12graphicscommandlist_executeindirect.htm
 tech.root: direct3d12
 ms.assetid: 99FB088D-F3EB-4BAD-A945-51A1ED6F9288
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ExecuteIndirect, ExecuteIndirect method, ExecuteIndirect method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ExecuteIndirect method, ID3D12GraphicsCommandList.ExecuteIndirect, ID3D12GraphicsCommandList::ExecuteIndirect, d3d12/ID3D12GraphicsCommandList::ExecuteIndirect, direct3d12.id3d12graphicscommandlist_executeindirect
 ms.topic: method

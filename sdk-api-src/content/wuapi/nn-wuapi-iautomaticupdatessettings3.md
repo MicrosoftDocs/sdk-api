@@ -1,12 +1,12 @@
 ---
 UID: NN:wuapi.IAutomaticUpdatesSettings3
 title: IAutomaticUpdatesSettings3 (wuapi.h)
-author: windows-sdk-content
+
 description: Contains the settings that are available in Automatic Updates.
 old-location: wua\iautomaticupdatessettings3.htm
 tech.root: Wua_Sdk
 ms.assetid: 2cc4d15f-eb8c-4db1-a81b-6eb3ee128121
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings3, IAutomaticUpdatesSettings3 interface [Windows Update Agent], IAutomaticUpdatesSettings3 interface [Windows Update Agent],described, wua.iautomaticupdatessettings3, wuapi/IAutomaticUpdatesSettings3
 ms.topic: interface

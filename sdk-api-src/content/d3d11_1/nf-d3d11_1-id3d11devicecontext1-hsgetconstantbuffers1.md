@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.HSGetConstantBuffers1
 title: ID3D11DeviceContext1::HSGetConstantBuffers1 (d3d11_1.h)
-author: windows-sdk-content
+
 description: Gets the constant buffers that the hull-shader stage uses.
 old-location: direct3d11\id3d11devicecontext1_hsgetconstantbuffers1.htm
 tech.root: direct3d11
 ms.assetid: 600F04B5-2173-4CB0-9978-7A0327BE1FE0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HSGetConstantBuffers1, HSGetConstantBuffers1 method [Direct3D 11], HSGetConstantBuffers1 method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],HSGetConstantBuffers1 method, ID3D11DeviceContext1.HSGetConstantBuffers1, ID3D11DeviceContext1::HSGetConstantBuffers1, d3d11_1/ID3D11DeviceContext1::HSGetConstantBuffers1, direct3d11.id3d11devicecontext1_hsgetconstantbuffers1
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionDesktopDevice.CreateTargetForHwnd
 title: IDCompositionDesktopDevice::CreateTargetForHwnd (dcomp.h)
-author: windows-sdk-content
+
 description: Creates a composition target object that is bound to the window that is represented by the specified window handle.
 old-location: directcomp\idcompositiondesktopdevice_createtargetforhwnd.htm
 tech.root: directcomp
 ms.assetid: F3296B55-9A0B-4A31-90E4-05E2DF7B9B15
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateTargetForHwnd, CreateTargetForHwnd method [DirectComposition], CreateTargetForHwnd method [DirectComposition],IDCompositionDesktopDevice interface, IDCompositionDesktopDevice interface [DirectComposition],CreateTargetForHwnd method, IDCompositionDesktopDevice.CreateTargetForHwnd, IDCompositionDesktopDevice::CreateTargetForHwnd, dcomp/IDCompositionDesktopDevice::CreateTargetForHwnd, directcomp.idcompositiondesktopdevice_createtargetforhwnd
 ms.topic: method

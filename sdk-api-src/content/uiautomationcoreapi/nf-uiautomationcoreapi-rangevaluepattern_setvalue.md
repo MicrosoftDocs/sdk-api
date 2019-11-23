@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.RangeValuePattern_SetValue
 title: RangeValuePattern_SetValue function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Sets the value of a control that has a numerical range.
 old-location: winauto\uiauto_RangeValuePattern_SetValueConPat.htm
 tech.root: WinAuto
 ms.assetid: 9a001826-fb0f-4e68-ba0f-54736d6ca1bd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RangeValuePattern_SetValue, RangeValuePattern_SetValue function [Windows Accessibility], uiauto.uiauto_RangeValuePattern_SetValueConPat, uiauto_RangeValuePattern_SetValueConPat, uiautomationcoreapi/RangeValuePattern_SetValue, winauto.uiauto_RangeValuePattern_SetValueConPat
 ms.topic: function

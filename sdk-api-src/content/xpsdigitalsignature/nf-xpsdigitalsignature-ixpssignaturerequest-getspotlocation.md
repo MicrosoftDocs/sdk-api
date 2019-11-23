@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetSpotLocation
 title: IXpsSignatureRequest::GetSpotLocation (xpsdigitalsignature.h)
-author: windows-sdk-content
+
 description: Gets the page and the location on the page where the visible digital signature or the digital signature request will be displayed.
 old-location: xps\ixpssignaturerequest_getspotlocation.htm
 tech.root: printdocs
 ms.assetid: f8a93c77-c978-4483-b0e0-36d998add184
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSpotLocation, GetSpotLocation method [XPS Documents and Packaging], GetSpotLocation method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSpotLocation method, IXpsSignatureRequest.GetSpotLocation, IXpsSignatureRequest::GetSpotLocation, xps.ixpssignaturerequest_getspotlocation, xpsdigitalsignature/IXpsSignatureRequest::GetSpotLocation
 ms.topic: method

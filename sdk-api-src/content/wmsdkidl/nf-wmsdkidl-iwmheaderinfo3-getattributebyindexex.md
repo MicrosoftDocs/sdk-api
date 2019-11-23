@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.GetAttributeByIndexEx
 title: IWMHeaderInfo3::GetAttributeByIndexEx (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetAttributeByIndexEx method retrieves the value of an attribute specified by the attribute index.
 old-location: wmformat\iwmheaderinfo3_getattributebyindexex.htm
 tech.root: wmformat
 ms.assetid: c20f4c79-f5b3-45d9-ad70-5fb9745bbf1b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAttributeByIndexEx, GetAttributeByIndexEx method [windows Media Format], GetAttributeByIndexEx method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeByIndexEx method, IWMHeaderInfo3.GetAttributeByIndexEx, IWMHeaderInfo3::GetAttributeByIndexEx, IWMHeaderInfo3GetAttributeByIndexEx, wmformat.iwmheaderinfo3_getattributebyindexex, wmsdkidl/IWMHeaderInfo3::GetAttributeByIndexEx
 ms.topic: method

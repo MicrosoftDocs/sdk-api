@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.CLUSCTL_GET_ACCESS_MODE
 title: CLUSCTL_GET_ACCESS_MODE macro (clusapi.h)
-author: windows-sdk-content
+
 description: Extracts the access code from a control code. For more information on the various codes that comprise a control code, see Control Code Architecture.
 old-location: mscs\clusctl_get_access_mode.htm
 tech.root: MsCS
 ms.assetid: 75544022-6c6b-4a04-83cc-427307eaf3ea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CLUSCTL_GET_ACCESS_MODE, CLUSCTL_GET_ACCESS_MODE macro [Failover Cluster], _wolf_clusctl_get_access_mode, clusapi/CLUSCTL_GET_ACCESS_MODE, mscs.clusctl_get_access_mode
 ms.topic: macro

@@ -1,12 +1,12 @@
 ---
 UID: NS:p2p.peer_security_interface_tag
 title: PEER_SECURITY_INTERFACE (p2p.h)
-author: windows-sdk-content
+
 description: The PEER_SECURITY_INTERFACE structure specifies the security interfaces that calls to Peer Graphing APIs use to validate, secure, and free records.
 old-location: p2p\peer_security_interface.htm
 tech.root: P2PSdk
 ms.assetid: b4331cfc-dc1a-490b-b21d-0550f1d3fe33
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PPEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE structure [Peer Networking], PPEER_SECURITY_INTERFACE, PPEER_SECURITY_INTERFACE structure pointer [Peer Networking], p2p.peer_security_interface, p2p/PPEER_SECURITY_INTERFACE, p2p/peer_security_interface_tag"
 ms.topic: struct

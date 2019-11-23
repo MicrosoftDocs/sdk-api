@@ -1,12 +1,12 @@
 ---
 UID: NS:winioctl._STORAGE_PHYSICAL_DEVICE_DATA
 title: STORAGE_PHYSICAL_DEVICE_DATA
-author: windows-sdk-content
+
 description: Describes a physical storage device.
 old-location: fs\storage_physical_device_data.htm
 tech.root: FileIO
 ms.assetid: 4B484F79-DDC8-4671-90EA-D793EA0A05C7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA structure pointer [Files], STORAGE_PHYSICAL_DEVICE_DATA, STORAGE_PHYSICAL_DEVICE_DATA structure [Files], fs.storage_physical_device_data, winioctl/PSTORAGE_PHYSICAL_DEVICE_DATA, winioctl/_STORAGE_PHYSICAL_DEVICE_DATA'
 ms.topic: struct

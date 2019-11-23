@@ -1,12 +1,12 @@
 ---
 UID: NF:wmpservices.IWMPMediaPluginRegistrar.WMPUnRegisterPlayerPlugin
 title: IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin (wmpservices.h)
-author: windows-sdk-content
+
 description: The IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin function removes information from the registry about a Windows Media Player plug-in.
 old-location: wmp\iwmpmediapluginregistrar__wmpunregisterplayerplugin.htm
 tech.root: WMP
 ms.assetid: b6165962-3ca6-49c8-826c-ce87e55c09fd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaPluginRegistrar.WMPUnRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin, WMPUnRegisterPlayerPlugin, WMPUnRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpunregisterplayerplugin, wmpservices/WMPUnRegisterPlayerPlugin
 ms.topic: method

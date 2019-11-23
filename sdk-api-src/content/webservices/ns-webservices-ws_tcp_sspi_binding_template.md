@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_BINDING_TEMPLATE
 title: WS_TCP_SSPI_BINDING_TEMPLATE (webservices.h)
-author: windows-sdk-content
+
 description: HTTP header authentication security template information to be filled in by application. Associated with WS_TCP_SSPI_BINDING_TEMPLATE_TYPE.
 old-location: wsw\ws_tcp_sspi_binding_template.htm
 tech.root: wsw
 ms.assetid: d81a71fa-4743-4831-8863-a8fa73d4a9f0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_TCP_SSPI_BINDING_TEMPLATE, WS_TCP_SSPI_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_TCP_SSPI_BINDING_TEMPLATE, wsw.ws_tcp_sspi_binding_template
 ms.topic: struct

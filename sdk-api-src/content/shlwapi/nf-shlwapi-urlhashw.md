@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.UrlHashW
 title: UrlHashW function (shlwapi.h)
-author: windows-sdk-content
+
 description: Hashes a URL string.
 old-location: shell\UrlHash.htm
 tech.root: shell
 ms.assetid: 9c0ce709-e097-4501-bee1-b24df9d4828d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UrlHash, UrlHash function [Windows Shell], UrlHashA, UrlHashW, _win32_UrlHash, shell.UrlHash, shlwapi/UrlHash, shlwapi/UrlHashA, shlwapi/UrlHashW
 ms.topic: function

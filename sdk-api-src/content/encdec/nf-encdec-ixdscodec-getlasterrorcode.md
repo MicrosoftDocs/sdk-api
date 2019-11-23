@@ -1,12 +1,12 @@
 ---
 UID: NF:encdec.IXDSCodec.GetLastErrorCode
 title: IXDSCodec::GetLastErrorCode (encdec.h)
-author: windows-sdk-content
+
 description: Not implemented in this release.
 old-location: mstv\ixdscodec_getlasterrorcode.htm
 tech.root: mstv
 ms.assetid: 57fd833a-00cc-41d5-acf9-6b07aa8dc115
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetLastErrorCode method, IXDSCodec.GetLastErrorCode, IXDSCodec::GetLastErrorCode, IXDSCodecGetLastErrorCode, encdec/IXDSCodec::GetLastErrorCode, mstv.ixdscodec_getlasterrorcode
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.InsertAt
 title: IXpsOMDashCollection::InsertAt (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Inserts an XPS_DASH structure at a specified location in the collection.
 old-location: xps\ixpsomdashcollection_insertat.htm
 tech.root: printdocs
 ms.assetid: d9ef0ea9-f427-41ff-b33e-c9b5f49cb7d9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMDashCollection.InsertAt, IXpsOMDashCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_insertat, xpsobjectmodel/IXpsOMDashCollection::InsertAt
 ms.topic: method

@@ -3,7 +3,7 @@ UID: NS:directxmath.XMFLOAT4A
 title: XMFLOAT4A
 description: Describes an XMFLOAT4 structure aligned on a 16-byte boundary.
 ms.assetid: 1cb0c521-3494-4bad-b6c4-3fbe029034f3
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: XMFLOAT4A
 ms.topic: language-reference

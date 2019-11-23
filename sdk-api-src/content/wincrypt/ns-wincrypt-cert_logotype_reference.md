@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CERT_LOGOTYPE_REFERENCE
 title: CERT_LOGOTYPE_REFERENCE (wincrypt.h)
-author: windows-sdk-content
+
 description: Contains logotype reference information.
 old-location: security\cert_logotype_reference.htm
 tech.root: SecCrypto
 ms.assetid: 22e6492e-afc2-4160-ad6c-0b65265eafeb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_LOGOTYPE_REFERENCE, CERT_LOGOTYPE_REFERENCE, CERT_LOGOTYPE_REFERENCE structure [Security], PCERT_LOGOTYPE_REFERENCE, PCERT_LOGOTYPE_REFERENCE structure pointer [Security], security.cert_logotype_reference, wincrypt/CERT_LOGOTYPE_REFERENCE, wincrypt/PCERT_LOGOTYPE_REFERENCE'
 ms.topic: struct

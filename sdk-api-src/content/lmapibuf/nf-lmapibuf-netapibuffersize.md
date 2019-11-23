@@ -1,12 +1,12 @@
 ---
 UID: NF:lmapibuf.NetApiBufferSize
 title: NetApiBufferSize function (lmapibuf.h)
-author: windows-sdk-content
+
 description: The NetApiBufferSize function returns the size, in bytes, of a buffer allocated by a call to the NetApiBufferAllocate function.
 old-location: netmgmt\netapibuffersize.htm
 tech.root: NetMgmt
 ms.assetid: 0c28feeb-00a3-4ad5-b85f-96326515fae2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NetApiBufferSize, NetApiBufferSize function [Network Management], _win32_netapibuffersize, lmapibuf/NetApiBufferSize, netmgmt.netapibuffersize
 ms.topic: function

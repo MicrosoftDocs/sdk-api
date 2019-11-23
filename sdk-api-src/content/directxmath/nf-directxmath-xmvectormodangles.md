@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorModAngles
 title: XMVectorModAngles function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the per-component angle modulo 2PI.
 old-location: dxmath\xmvectormodangles.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorModAngles(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorModAngles, XMVectorModAngles, XMVectorModAngles method [DirectX Math Support APIs], dxmath.xmvectormodangles
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.PurgeComm
 title: PurgeComm function (winbase.h)
-author: windows-sdk-content
+
 description: Discards all characters from the output or input buffer of a specified communications resource. It can also terminate pending read or write operations on the resource.
 old-location: base\purgecomm.htm
 tech.root: devio
 ms.assetid: bfbd6530-447e-46e2-89e6-683b3c8c32ea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PURGE_RXABORT, PURGE_RXCLEAR, PURGE_TXABORT, PURGE_TXCLEAR, PurgeComm, PurgeComm function, _win32_purgecomm, base.purgecomm, winbase/PurgeComm
 ms.topic: function

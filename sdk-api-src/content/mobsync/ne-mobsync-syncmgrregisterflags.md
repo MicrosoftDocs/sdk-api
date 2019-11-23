@@ -1,12 +1,12 @@
 ---
 UID: NE:mobsync._tagSYNCMGRREGISTERFLAGS
 title: SYNCMGRREGISTERFLAGS (mobsync.h)
-author: windows-sdk-content
+
 description: The SYNCMGRREGISTERFLAGS enumeration values are used in methods of the ISyncMgrRegister interface to identify events for which the handler is registered to be notified.
 old-location: shell\syncmgr_SYNCMGRREGISTERFLAGS.htm
 tech.root: shell
 ms.assetid: be87cebf-da50-437b-bbb1-22c2c764e700
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SYNCMGRREGISTERFLAGS, SYNCMGRREGISTERFLAGS enumeration [Windows Shell], SYNCMGRREGISTERFLAG_CONNECT, SYNCMGRREGISTERFLAG_IDLE, SYNCMGRREGISTERFLAG_PENDINGDISCONNECT, mobsync/SYNCMGRREGISTERFLAGS, mobsync/SYNCMGRREGISTERFLAG_CONNECT, mobsync/SYNCMGRREGISTERFLAG_IDLE, mobsync/SYNCMGRREGISTERFLAG_PENDINGDISCONNECT, shell.syncmgr_SYNCMGRREGISTERFLAGS, syncmgr_SYNCMGRREGISTERFLAGS
 ms.topic: enum

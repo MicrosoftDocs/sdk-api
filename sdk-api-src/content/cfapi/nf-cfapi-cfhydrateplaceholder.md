@@ -1,12 +1,12 @@
 ---
 UID: NF:cfapi.CfHydratePlaceholder
 title: CfHydratePlaceholder function (cfapi.h)
-author: windows-sdk-content
+
 description: Hydrates a placeholder file by ensuring that the specified byte range is present on-disk in the placeholder. This is valid for files only.
 old-location: cloudapi\cfhydrateplaceholder.htm
 tech.root: cfApi
 ms.assetid: 4FFD7580-BF59-48D0-B6D7-516559914096
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CfHydratePlaceholder, CfHydratePlaceholder function, cfapi/CfHydratePlaceholder, cloudApi.cfhydrateplaceholder
 ms.topic: function

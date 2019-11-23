@@ -1,12 +1,12 @@
 ---
 UID: NS:mmreg.wavefilter_tag
 title: WAVEFILTER (mmreg.h)
-author: windows-sdk-content
+
 description: The WAVEFILTER structure defines a filter for waveform-audio data.
 old-location: multimedia\wavefilter.htm
 tech.root: Multimedia
 ms.assetid: dea3df47-88a2-439f-bf07-b5c592bf23e8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPWAVEFILTER, *NPWAVEFILTER, *PWAVEFILTER, WAVEFILTER, WAVEFILTER structure [Windows Multimedia], _win32_WAVEFILTER_str, mmreg/WAVEFILTER, multimedia.wavefilter"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICspInformation.get_Valid
 title: ICspInformation::get_Valid (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves a Boolean value that specifies whether the provider is installed on the client computer.
 old-location: security\icspinformation_valid_property.htm
 tech.root: seccertenroll
 ms.assetid: 507896b0-598c-4a2d-854e-d4d266fdfaf7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],Valid property, ICspInformation.Valid, ICspInformation.get_Valid, ICspInformation::Valid, ICspInformation::get_Valid, Valid property [Security], Valid property [Security],ICspInformation interface, certenroll/ICspInformation::Valid, certenroll/ICspInformation::get_Valid, get_Valid, security.icspinformation_valid_property
 ms.topic: method

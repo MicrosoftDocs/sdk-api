@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetClipboardData
 title: GetClipboardData function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves data from the clipboard in a specified format. The clipboard must have been opened previously.
 old-location: dataxchg\getclipboarddata.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboarddata.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClipboardData, GetClipboardData function [Data Exchange], _win32_GetClipboardData, _win32_getclipboarddata_cpp, dataxchg.getclipboarddata, winui._win32_getclipboarddata, winuser/GetClipboardData
 ms.topic: function

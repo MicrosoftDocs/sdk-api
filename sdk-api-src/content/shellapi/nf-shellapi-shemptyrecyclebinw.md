@@ -1,12 +1,12 @@
 ---
 UID: NF:shellapi.SHEmptyRecycleBinW
 title: SHEmptyRecycleBinW function (shellapi.h)
-author: windows-sdk-content
+
 description: Empties the Recycle Bin on the specified drive.
 old-location: shell\SHEmptyRecycleBin.htm
 tech.root: shell
 ms.assetid: c3995be7-bc8b-4e1f-8ef6-fdf4c0a75720
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHERB_NOCONFIRMATION, SHERB_NOPROGRESSUI, SHERB_NOSOUND, SHEmptyRecycleBin, SHEmptyRecycleBin function [Windows Shell], SHEmptyRecycleBinA, SHEmptyRecycleBinW, _win32_SHEmptyRecycleBin, shell.SHEmptyRecycleBin, shellapi/SHEmptyRecycleBin, shellapi/SHEmptyRecycleBinA, shellapi/SHEmptyRecycleBinW
 ms.topic: function

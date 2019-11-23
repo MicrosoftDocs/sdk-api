@@ -1,12 +1,12 @@
 ---
 UID: NF:directml.IDMLDevice.CompileOperator
 title: IDMLDevice::CompileOperator
-author: windows-sdk-content
+
 description: Compiles an operator into an object that can be dispatched to the GPU.
 old-location: direct3d12\idmldevice_compileoperator.htm
 tech.root: direct3d12
 ms.assetid: 745DB37D-20BF-4422-B224-A6BDEF272B8D
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: CompileOperator, CompileOperator method, CompileOperator method,IDMLDevice interface, IDMLDevice interface,CompileOperator method, IDMLDevice.CompileOperator, IDMLDevice::CompileOperator, direct3d12.idmldevice_compileoperator, directml/IDMLDevice::CompileOperator
 ms.topic: method

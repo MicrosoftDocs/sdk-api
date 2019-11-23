@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.IEnumITfCompositionView.Skip
 title: IEnumITfCompositionView::Skip (msctf.h)
-author: windows-sdk-content
+
 description: IEnumITfCompositionView::Skip method
 old-location: tsf\ienumitfcompositionview_skip.htm
 tech.root: TSF
 ms.assetid: 9edc8dd8-4cbb-4250-a0e9-05d7250d5ad3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumITfCompositionView interface [Text Services Framework],Skip method, IEnumITfCompositionView.Skip, IEnumITfCompositionView::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumITfCompositionView interface, _tsf_ienumitfcompositionview_skip_ref, msctf/IEnumITfCompositionView::Skip, tsf.ienumitfcompositionview_skip
 ms.topic: method

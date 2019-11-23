@@ -1,12 +1,12 @@
 ---
 UID: NF:evntrace.RemoveTraceCallback
 title: RemoveTraceCallback function (evntrace.h)
-author: windows-sdk-content
+
 description: The RemoveTraceCallback function stops an EventClassCallback function from receiving events for an event trace class.
 old-location: etw\removetracecallback.htm
 tech.root: ETW
 ms.assetid: da779e8d-4984-44e3-8731-647a422b55b2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RemoveTraceCallback, RemoveTraceCallback function [ETW], _evt_removetracecallback, base.removetracecallback, etw.removetracecallback, evntrace/RemoveTraceCallback
 ms.topic: function

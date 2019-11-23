@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsServiceUninstallDisk
 title: IVdsServiceUninstallDisk (vds.h)
-author: windows-sdk-content
+
 description: Provides methods to uninstall basic and dynamic disks.
 old-location: base\ivdsserviceuninstalldisk.htm
 tech.root: VDS
 ms.assetid: 2d111105-9970-40a3-bb8d-a92d38985fd9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceUninstallDisk, IVdsServiceUninstallDisk interface, IVdsServiceUninstallDisk interface,described, base.ivdsserviceuninstalldisk, vds/IVdsServiceUninstallDisk
 ms.topic: interface

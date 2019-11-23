@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN
 title: PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Determines the set of calibration formats supported by the Sensor Adapter.
 old-location: secbiomet\sensoradapterquerycalibrationformats.htm
 tech.root: SecBioMet
 ms.assetid: F8C97013-3BDA-445F-A2C2-60D08DD9C71A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN, PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN callback, SensorAdapterQueryCalibrationFormats, SensorAdapterQueryCalibrationFormats callback function [Windows Biometric Framework API], secbiomet.sensoradapterquerycalibrationformats, winbio_adapter/SensorAdapterQueryCalibrationFormats
 ms.topic: callback

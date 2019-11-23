@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_CLEAR_CONTEXT_FN
 title: PIBIO_ENGINE_CLEAR_CONTEXT_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Prepares the processing pipeline of the biometric unit for a new operation.
 old-location: secbiomet\engineadapterclearcontext.htm
 tech.root: SecBioMet
 ms.assetid: c4ed5971-e657-4583-aac2-6263801f7468
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterClearContext, EngineAdapterClearContext callback function [Windows Biometric Framework API], PIBIO_ENGINE_CLEAR_CONTEXT_FN, PIBIO_ENGINE_CLEAR_CONTEXT_FN callback, secbiomet.engineadapterclearcontext, winbio_adapter/EngineAdapterClearContext
 ms.topic: callback

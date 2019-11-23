@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IAMStreamSelect
 title: IAMStreamSelect (strmif.h)
-author: windows-sdk-content
+
 description: The IAMStreamSelect interface selects from the available streams on a parser filter.
 old-location: dshow\iamstreamselect.htm
 tech.root: DirectShow
 ms.assetid: a305e91e-f506-4bd1-b4d4-7361df89e158
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMStreamSelect, IAMStreamSelect interface [DirectShow], IAMStreamSelect interface [DirectShow],described, IAMStreamSelectInterface, dshow.iamstreamselect, strmif/IAMStreamSelect
 ms.topic: interface

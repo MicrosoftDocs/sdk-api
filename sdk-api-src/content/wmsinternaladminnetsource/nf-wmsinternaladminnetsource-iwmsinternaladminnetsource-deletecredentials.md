@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.DeleteCredentials
 title: IWMSInternalAdminNetSource::DeleteCredentials (wmsinternaladminnetsource.h)
-author: windows-sdk-content
+
 description: The DeleteCredentials method removes a password from the cache.
 old-location: wmformat\iwmsinternaladminnetsource_deletecredentials.htm
 tech.root: wmformat
 ms.assetid: 16144c10-419c-4e6a-bc96-2f429c793257
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeleteCredentials, DeleteCredentials method [windows Media Format], DeleteCredentials method [windows Media Format],IWMSInternalAdminNetSource interface, IWMSInternalAdminNetSource interface [windows Media Format],DeleteCredentials method, IWMSInternalAdminNetSource.DeleteCredentials, IWMSInternalAdminNetSource::DeleteCredentials, IWMSInternalAdminNetSourceDeleteCredentials, wmformat.iwmsinternaladminnetsource_deletecredentials, wmsinternaladminnetsource/IWMSInternalAdminNetSource::DeleteCredentials
 ms.topic: method

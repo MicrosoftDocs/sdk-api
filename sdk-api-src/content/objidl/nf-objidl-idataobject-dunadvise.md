@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IDataObject.DUnadvise
 title: IDataObject::DUnadvise (objidl.h)
-author: windows-sdk-content
+
 description: Destroys a notification connection that had been previously set up.
 old-location: com\idataobject_dunadvise.htm
 tech.root: com
 ms.assetid: bb9ae4c5-8655-4553-9a1c-ce52c6c86299
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DUnadvise, DUnadvise method [COM], DUnadvise method [COM],IDataObject interface, IDataObject interface [COM],DUnadvise method, IDataObject.DUnadvise, IDataObject::DUnadvise, _ole_idataobject_dunadvise, com.idataobject_dunadvise, objidl/IDataObject::DUnadvise
 ms.topic: method

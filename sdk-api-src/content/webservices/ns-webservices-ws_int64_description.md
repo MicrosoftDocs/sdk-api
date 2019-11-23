@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_INT64_DESCRIPTION
 title: WS_INT64_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: An optional type description used with WS_INT64_TYPE to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_int64_description.htm
 tech.root: wsw
 ms.assetid: b8e355c0-2695-4162-aa77-703367ee117e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_INT64_DESCRIPTION, WS_INT64_DESCRIPTION structure [Web Services for Windows], webservices/WS_INT64_DESCRIPTION, wsw.ws_int64_description
 ms.topic: struct

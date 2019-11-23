@@ -1,12 +1,12 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.GetCandidate
 title: ITfCandidateList::GetCandidate (ctffunc.h)
-author: windows-sdk-content
+
 description: ITfCandidateList::GetCandidate method
 old-location: tsf\itfcandidatelist_getcandidate.htm
 tech.root: TSF
 ms.assetid: 4cb2127c-cce5-4815-b40b-e6e15058eab5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCandidate, GetCandidate method [Text Services Framework], GetCandidate method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],GetCandidate method, ITfCandidateList.GetCandidate, ITfCandidateList::GetCandidate, _tsf_itfcandidatelist_getcandidate_ref, ctffunc/ITfCandidateList::GetCandidate, tsf.itfcandidatelist_getcandidate
 ms.topic: method

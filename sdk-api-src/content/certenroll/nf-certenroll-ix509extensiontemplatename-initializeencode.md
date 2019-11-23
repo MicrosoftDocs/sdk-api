@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplateName.InitializeEncode
 title: IX509ExtensionTemplateName::InitializeEncode (certenroll.h)
-author: windows-sdk-content
+
 description: Initializes the extension from a string that contains the template name.
 old-location: security\ix509extensiontemplatename_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: 8b72b73a-bfd5-4a56-a106-01f2fd59e922
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionTemplateName interface [Security],InitializeEncode method, IX509ExtensionTemplateName.InitializeEncode, IX509ExtensionTemplateName::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionTemplateName interface, certenroll/IX509ExtensionTemplateName::InitializeEncode, security.ix509extensiontemplatename_initializeencode_method
 ms.topic: method

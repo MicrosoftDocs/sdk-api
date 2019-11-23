@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_SERVICE_PROPERTY
 title: WS_SERVICE_PROPERTY (webservices.h)
-author: windows-sdk-content
+
 description: Specifies a service specific setting.
 old-location: wsw\ws_service_property.htm
 tech.root: wsw
 ms.assetid: d25cab25-2227-4afe-ae45-93a229d7f78b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_PROPERTY, WS_SERVICE_PROPERTY structure [Web Services for Windows], webservices/WS_SERVICE_PROPERTY, wsw.ws_service_property
 ms.topic: struct

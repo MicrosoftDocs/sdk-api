@@ -1,12 +1,12 @@
 ---
 UID: NN:thumbcache.IThumbnailCache
 title: IThumbnailCache (thumbcache.h)
-author: windows-sdk-content
+
 description: Exposes methods for a system thumbnail cache that is shared across applications.
 old-location: shell\IThumbnailCache.htm
 tech.root: shell
 ms.assetid: b0ddfca0-49b8-4f53-8d22-9a561d09367a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IThumbnailCache, IThumbnailCache interface [Windows Shell], IThumbnailCache interface [Windows Shell],described, _shell_IThumbnailCache, shell.IThumbnailCache, thumbcache/IThumbnailCache
 ms.topic: interface

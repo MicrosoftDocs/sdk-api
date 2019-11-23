@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarBstrFromI1
 title: VarBstrFromI1 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a char value to a BSTR value.
 old-location: automat\varbstrfromi1.htm
 tech.root: automat
 ms.assetid: a11d772c-aace-4d8f-93b3-8425a4888848
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarBstrFromI1, VarBstrFromI1 function [Automation], _oa96_VarBstrFromI1, automat.varbstrfromi1, oleauto/VarBstrFromI1
 ms.topic: function

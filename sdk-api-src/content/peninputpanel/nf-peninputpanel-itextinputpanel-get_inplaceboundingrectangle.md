@@ -1,12 +1,12 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_InPlaceBoundingRectangle
 title: ITextInputPanel::get_InPlaceBoundingRectangle (peninputpanel.h)
-author: windows-sdk-content
+
 description: Gets the bounding rectangle for Tablet PC Input Panel.
 old-location: tablet\itextinputpanel_inplaceboundingrectangle.htm
 tech.root: tablet
 ms.assetid: 9a114f9d-b97d-4a2e-ac8e-f0a0241a6fbb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 9a114f9d-b97d-4a2e-ac8e-f0a0241a6fbb, ITextInputPanel interface [Tablet PC],InPlaceBoundingRectangle property, ITextInputPanel.InPlaceBoundingRectangle, ITextInputPanel.get_InPlaceBoundingRectangle, ITextInputPanel::InPlaceBoundingRectangle, ITextInputPanel::get_InPlaceBoundingRectangle, InPlaceBoundingRectangle property [Tablet PC], InPlaceBoundingRectangle property [Tablet PC],ITextInputPanel interface, get_InPlaceBoundingRectangle, peninputpanel/ITextInputPanel::InPlaceBoundingRectangle, peninputpanel/ITextInputPanel::get_InPlaceBoundingRectangle, tablet.itextinputpanel_inplaceboundingrectangle
 ms.topic: method

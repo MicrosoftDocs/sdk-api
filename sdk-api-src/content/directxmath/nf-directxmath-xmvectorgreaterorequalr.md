@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorGreaterOrEqualR
 title: XMVectorGreaterOrEqualR function (directxmath.h)
-author: windows-sdk-content
+
 description: Performs a per-component test for greater-than-or-equal between two vectors and sets a comparison value that can be examined using functions such as XMComparisonAllTrue.
 old-location: dxmath\xmvectorgreaterorequalr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorGreaterOrEqualR(uint32_t@,XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGreaterOrEqualR, XMVectorGreaterOrEqualR, XMVectorGreaterOrEqualR method [DirectX Math Support APIs], dxmath.xmvectorgreaterorequalr
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.keybd_event
 title: keybd_event function (winuser.h)
-author: windows-sdk-content
+
 description: Synthesizes a keystroke.
 old-location: inputdev\keybd_event.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\keybd_event.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: KEYEVENTF_EXTENDEDKEY, KEYEVENTF_KEYUP, _win32_keybd_event, _win32_keybd_event_cpp, inputdev.keybd_event, keybd_event, keybd_event function [Keyboard and Mouse Input], winui._win32_keybd_event, winuser/keybd_event
 ms.topic: function

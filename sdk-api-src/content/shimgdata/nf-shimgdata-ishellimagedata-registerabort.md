@@ -1,12 +1,12 @@
 ---
 UID: NF:shimgdata.IShellImageData.RegisterAbort
 title: IShellImageData::RegisterAbort (shimgdata.h)
-author: windows-sdk-content
+
 description: Sets a callback abort object, optionally returning a pointer to the previous object.
 old-location: shell\IShellImageData_RegisterAbort.htm
 tech.root: shell
 ms.assetid: 21ea1f3b-3b8a-4a92-a1fb-c19f0e97a407
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],RegisterAbort method, IShellImageData.RegisterAbort, IShellImageData::RegisterAbort, RegisterAbort, RegisterAbort method [Windows Shell], RegisterAbort method [Windows Shell],IShellImageData interface, _shell_IShellImageData_RegisterAbort, shell.IShellImageData_RegisterAbort, shimgdata/IShellImageData::RegisterAbort
 ms.topic: method

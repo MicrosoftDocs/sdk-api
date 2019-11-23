@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.UInt8Sub
 title: UInt8Sub function (intsafe.h)
-author: windows-sdk-content
+
 description: Subtracts one value of type UINT8 from another.
 old-location: shell\UInt8Sub.htm
 tech.root: shell
 ms.assetid: 3c140c21-7185-4342-bc40-d6382944e423
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UInt8Sub, UInt8Sub function [Windows Shell], intsafe/UInt8Sub, shell.UInt8Sub
 ms.topic: function

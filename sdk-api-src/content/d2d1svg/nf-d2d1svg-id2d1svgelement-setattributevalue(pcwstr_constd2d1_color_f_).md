@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,const D2D1_COLOR_F &)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_COLOR_F &) (d2d1svg.h)
-author: windows-sdk-content
+
 description: Sets an attribute of this element as a color.
 old-location: direct2d\id2d1svgelement_setattributevalue_5.htm
 tech.root: Direct2D
 ms.assetid: 652A0C00-59BC-41E7-8B9D-F4AE37416610
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,const D2D1_COLOR_F &), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_COLOR_F &), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_5
 ms.topic: method

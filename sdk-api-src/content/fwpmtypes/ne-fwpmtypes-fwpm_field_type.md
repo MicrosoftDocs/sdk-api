@@ -1,12 +1,12 @@
 ---
 UID: NE:fwpmtypes.FWPM_FIELD_TYPE_
 title: FWPM_FIELD_TYPE (fwpmtypes.h)
-author: windows-sdk-content
+
 description: Provides additional information about how the field's data should be interpreted.
 old-location: fwp\fwpm_field_type_enum.htm
 tech.root: fwp
 ms.assetid: 46983847-7c68-4ee7-946e-ea62f34d1a38
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FWPM_FIELD_FLAGS, FWPM_FIELD_IP_ADDRESS, FWPM_FIELD_RAW_DATA, FWPM_FIELD_TYPE, FWPM_FIELD_TYPE enumeration [Filtering], FWPM_FIELD_TYPE_MAX, fwp.fwpm_field_type_enum, fwpmtypes/FWPM_FIELD_FLAGS, fwpmtypes/FWPM_FIELD_IP_ADDRESS, fwpmtypes/FWPM_FIELD_RAW_DATA, fwpmtypes/FWPM_FIELD_TYPE, fwpmtypes/FWPM_FIELD_TYPE_MAX
 ms.topic: enum

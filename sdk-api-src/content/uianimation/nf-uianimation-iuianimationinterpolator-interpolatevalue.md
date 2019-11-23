@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.InterpolateValue
 title: IUIAnimationInterpolator::InterpolateValue (uianimation.h)
-author: windows-sdk-content
+
 description: Interpolates the value of an animation variable at the specified offset.
 old-location: uianimation\iuianimationinterpolator_interpolatevalue.htm
 tech.root: UIAnimation
 ms.assetid: 5f1cccd7-8b22-47a3-9704-0f22a1431c99
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator interface [Windows Animation],InterpolateValue method, IUIAnimationInterpolator.InterpolateValue, IUIAnimationInterpolator::InterpolateValue, InterpolateValue, InterpolateValue method [Windows Animation], InterpolateValue method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_interpolatevalue, uianimation/IUIAnimationInterpolator::InterpolateValue
 ms.topic: method

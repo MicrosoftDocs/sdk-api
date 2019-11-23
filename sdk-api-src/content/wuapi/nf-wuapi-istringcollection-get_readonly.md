@@ -1,12 +1,12 @@
 ---
 UID: NF:wuapi.IStringCollection.get_ReadOnly
 title: IStringCollection::get_ReadOnly (wuapi.h)
-author: windows-sdk-content
+
 description: Gets a Boolean value that indicates whether the collection is read-only.
 old-location: wua\istringcollection_readonly.htm
 tech.root: Wua_Sdk
 ms.assetid: c2556836-77a2-4f83-b16c-f9b7d2f08e3e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],ReadOnly property, IStringCollection.ReadOnly, IStringCollection.get_ReadOnly, IStringCollection::ReadOnly, IStringCollection::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IStringCollection interface, get_ReadOnly, wua.istringcollection_readonly, wuapi/IStringCollection::ReadOnly, wuapi/IStringCollection::get_ReadOnly
 ms.topic: method

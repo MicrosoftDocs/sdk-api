@@ -1,12 +1,12 @@
 ---
 UID: NF:mgmtapi.SnmpMgrOpen
 title: SnmpMgrOpen function (mgmtapi.h)
-author: windows-sdk-content
+
 description: The SnmpMgrOpen function initializes communications sockets and data structures, allowing communications with the specified SNMP agent. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgropen.htm
 tech.root: SNMP
 ms.assetid: e2827352-f1aa-477e-933c-942c73cea487
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SnmpMgrOpen, SnmpMgrOpen function [SNMP], _snmp_snmpmgropen, mgmtapi/SnmpMgrOpen, snmp.snmpmgropen
 ms.topic: function

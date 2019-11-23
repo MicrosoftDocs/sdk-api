@@ -1,10 +1,10 @@
 ---
 UID: NN:d3d12.ID3D12Device6
 title: ID3D12Device6
-author: windows-sdk-content
+
 description: Represents a virtual adapter. This interface extends [ID3D12Device5](/windows/win32/api/d3d12/nn-d3d12-id3d12device5).
 tech.root: direct3d12
-ms.author: windowssdkdev
+
 ms.date: 10/14/2019
 ms.keywords: ID3D12Device6, ID3D12Device6 interface, ID3D12Device6 interface,described, ID3D12Device6, d3d12/ID3D12Device6, direct3d12.id3d12device6
 ms.topic: interface

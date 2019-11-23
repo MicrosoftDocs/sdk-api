@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.DDiscFormat2TrackAtOnceEvents.Update
 title: DDiscFormat2TrackAtOnceEvents::Update (imapi2.h)
-author: windows-sdk-content
+
 description: Implement this method to receive progress notification of the current track-writing operation.
 old-location: imapi\ddiscformat2trackatonceevents_update.htm
 tech.root: imapi
 ms.assetid: d63ff41d-993c-4f42-a4a3-f7c67f292a03
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DDiscFormat2TrackAtOnceEvents interface [IMAPI],Update method, DDiscFormat2TrackAtOnceEvents.Update, DDiscFormat2TrackAtOnceEvents::Update, Update, Update method [IMAPI], Update method [IMAPI],DDiscFormat2TrackAtOnceEvents interface, imapi.ddiscformat2trackatonceevents_update, imapi2/DDiscFormat2TrackAtOnceEvents::Update
 ms.topic: method

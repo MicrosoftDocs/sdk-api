@@ -1,12 +1,12 @@
 ---
 UID: NE:directml.DML_INTERPOLATION_MODE
 title: DML_INTERPOLATION_MODE
-author: windows-sdk-content
+
 description: Defines constants that specify a mode for the DirectML upsample 2-D operator (as described by the DML_UPSAMPLE_2D_OPERATOR_DESC structure).
 old-location: direct3d12\dml_interpolation_mode.htm
 tech.root: direct3d12
 ms.assetid: E6A2F4EF-4BF3-4F1B-8D0D-D3EDBD07C042
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_INTERPOLATION_MODE, DML_INTERPOLATION_MODE enumeration, DML_INTERPOLATION_MODE_LINEAR, DML_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct3d12.dml_interpolation_mode, directml/DML_INTERPOLATION_MODE, directml/DML_INTERPOLATION_MODE_LINEAR, directml/DML_INTERPOLATION_MODE_NEAREST_NEIGHBOR
 ms.topic: enum

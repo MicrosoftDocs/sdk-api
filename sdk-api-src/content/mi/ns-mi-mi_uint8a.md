@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_Uint8A
 title: MI_Uint8A (mi.h)
-author: windows-sdk-content
+
 description: Represents an array of MI_Uint8 types.
 old-location: wmi_v2\mi_uint8a.htm
 tech.root: wmi_v2
 ms.assetid: 8d9951eb-7656-4c66-aecb-3e47734a776a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Uint8A, MI_Uint8A structure [Windows Management Infrastructure (MI)], mi/MI_Uint8A, wmi._mi_uint8a, wmi_v2.mi_uint8a
 ms.topic: struct

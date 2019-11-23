@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetAlpha(IDCompositionAnimation)
 title: IDCompositionShadowEffect::SetAlpha(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the alpha value for the effect.
 old-location: directcomp\idcompositionshadoweffect_setalpha_2.htm
 tech.root: directcomp
 ms.assetid: 2C0C85FC-83AF-4036-9BCE-730457FB483F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetAlpha method, IDCompositionShadowEffect.SetAlpha, IDCompositionShadowEffect.SetAlpha(IDCompositionAnimation), IDCompositionShadowEffect::SetAlpha, IDCompositionShadowEffect::SetAlpha(IDCompositionAnimation), SetAlpha, SetAlpha method [DirectComposition], SetAlpha method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetAlpha, directcomp.idcompositionshadoweffect_setalpha_2
 ms.topic: method

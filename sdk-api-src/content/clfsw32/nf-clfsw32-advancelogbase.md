@@ -1,12 +1,12 @@
 ---
 UID: NF:clfsw32.AdvanceLogBase
 title: AdvanceLogBase function (clfsw32.h)
-author: windows-sdk-content
+
 description: Advances the base log sequence number (LSN) of a log stream to the specified LSN.
 old-location: fs\advancelogbase.htm
 tech.root: Clfs
 ms.assetid: aecdea3b-ac42-43d4-88b3-14cd810a4017
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AdvanceLogBase, AdvanceLogBase function [Files], clfsw32/AdvanceLogBase, fs.advancelogbase
 ms.topic: function

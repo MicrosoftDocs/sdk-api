@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetEASEventID
 title: ISCTE_EAS::GetEASEventID (atscpsipparser.h)
-author: windows-sdk-content
+
 description: The GetEASEventID method returns the identifier of this emergency event.
 old-location: mstv\iscte_eas_geteaseventid.htm
 tech.root: mstv
 ms.assetid: d501fa7c-c1a8-42bc-af71-a966a7cba9f6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEASEventID, GetEASEventID method [Microsoft TV Technologies], GetEASEventID method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetEASEventID method, ISCTE_EAS.GetEASEventID, ISCTE_EAS::GetEASEventID, ISCTE_EASGetEASEventID, atscpsipparser/ISCTE_EAS::GetEASEventID, mstv.iscte_eas_geteaseventid
 ms.topic: method

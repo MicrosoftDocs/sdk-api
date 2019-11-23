@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagLVHITTESTINFO
 title: LVHITTESTINFO (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information about a hit test.
 old-location: controls\LVHITTESTINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvhittestinfo.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPLVHITTESTINFO, LPLVHITTESTINFO, LPLVHITTESTINFO structure pointer [Windows Controls], LVHITTESTINFO, LVHITTESTINFO structure [Windows Controls], LVHT_ABOVE, LVHT_BELOW, LVHT_EX_FOOTER, LVHT_EX_GROUP, LVHT_EX_GROUP_BACKGROUND, LVHT_EX_GROUP_COLLAPSE, LVHT_EX_GROUP_FOOTER, LVHT_EX_GROUP_HEADER, LVHT_EX_GROUP_STATEICON, LVHT_EX_GROUP_SUBSETLINK, LVHT_EX_ONCONTENTS, LVHT_NOWHERE, LVHT_ONITEMICON, LVHT_ONITEMLABEL, LVHT_ONITEMSTATEICON, LVHT_TOLEFT, LVHT_TORIGHT, _win32_LVHITTESTINFO, _win32_LVHITTESTINFO_cpp, commctrl/LPLVHITTESTINFO, commctrl/LVHITTESTINFO, controls.LVHITTESTINFO, controls._win32_LVHITTESTINFO"
 ms.topic: struct

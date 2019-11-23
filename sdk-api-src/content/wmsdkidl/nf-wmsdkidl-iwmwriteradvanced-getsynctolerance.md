@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetSyncTolerance
 title: IWMWriterAdvanced::GetSyncTolerance (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetSyncTolerance method retrieves the amount of time during which the inputs can fall out of synchronization before the samples are discarded.
 old-location: wmformat\iwmwriteradvanced_getsynctolerance.htm
 tech.root: wmformat
 ms.assetid: f62d3405-3125-4df6-bd06-fa70358560ad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSyncTolerance, GetSyncTolerance method [windows Media Format], GetSyncTolerance method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSyncTolerance method, IWMWriterAdvanced.GetSyncTolerance, IWMWriterAdvanced::GetSyncTolerance, IWMWriterAdvancedGetSyncTolerance, wmformat.iwmwriteradvanced_getsynctolerance, wmsdkidl/IWMWriterAdvanced::GetSyncTolerance
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_5
 title: PSS_THREAD_INFORMATION (processsnapshot.h)
-author: windows-sdk-content
+
 description: Holds thread information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_thread_information.htm
 tech.root: proc_snap
 ms.assetid: 68BC42FD-9A30-462F-AFB1-DF9587C50F45
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSS_THREAD_INFORMATION, PSS_THREAD_INFORMATION structure, proc_snap.pss_thread_information, processsnapshot/PSS_THREAD_INFORMATION
 ms.topic: struct

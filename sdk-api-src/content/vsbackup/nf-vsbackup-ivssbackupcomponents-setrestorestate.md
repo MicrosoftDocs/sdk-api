@@ -1,12 +1,12 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetRestoreState
 title: IVssBackupComponents::SetRestoreState (vsbackup.h)
-author: windows-sdk-content
+
 description: The SetRestoreState method defines an overall configuration for a restore operation.
 old-location: base\ivssbackupcomponents_setrestorestate.htm
 tech.root: VSS
 ms.assetid: bc85e93f-1034-41cc-bf69-025aa86a56fd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetRestoreState method, IVssBackupComponents.SetRestoreState, IVssBackupComponents::SetRestoreState, SetRestoreState, SetRestoreState method [VSS], SetRestoreState method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrestorestate, base.ivssbackupcomponents_setrestorestate, vsbackup/IVssBackupComponents::SetRestoreState
 ms.topic: method

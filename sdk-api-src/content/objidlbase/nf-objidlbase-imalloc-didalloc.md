@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IMalloc.DidAlloc
 title: IMalloc::DidAlloc (objidlbase.h)
-author: windows-sdk-content
+
 description: Determines whether this allocator was used to allocate the specified block of memory.
 old-location: com\imalloc_didalloc.htm
 tech.root: com
 ms.assetid: 085dd7cd-c360-48fa-8713-64dd9057e20d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DidAlloc, DidAlloc method [COM], DidAlloc method [COM],IMalloc interface, IMalloc interface [COM],DidAlloc method, IMalloc.DidAlloc, IMalloc::DidAlloc, _com_imalloc_didalloc, com.imalloc_didalloc, objidlbase/IMalloc::DidAlloc
 ms.topic: method

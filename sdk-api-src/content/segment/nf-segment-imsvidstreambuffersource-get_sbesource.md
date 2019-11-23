@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.get_SBESource
 title: IMSVidStreamBufferSource::get_SBESource (segment.h)
-author: windows-sdk-content
+
 description: The get_SBESource method retrieves a pointer to the Stream Buffer Source filter.
 old-location: mstv\imsvidstreambuffersource_get_sbesource.htm
 tech.root: mstv
 ms.assetid: 6ba9cf64-bf26-4a17-ae7a-3e92fc67138d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_SBESource method, IMSVidStreamBufferSource.get_SBESource, IMSVidStreamBufferSource::get_SBESource, IMSVidStreamBufferSourceget_SBESource, get_SBESource, get_SBESource method [Microsoft TV Technologies], get_SBESource method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_sbesource, segment/IMSVidStreamBufferSource::get_SBESource
 ms.topic: method

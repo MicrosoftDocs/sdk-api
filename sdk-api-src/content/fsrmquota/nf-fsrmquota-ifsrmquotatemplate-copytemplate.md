@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplate.CopyTemplate
 title: IFsrmQuotaTemplate::CopyTemplate (fsrmquota.h)
-author: windows-sdk-content
+
 description: Copies the property values of the specified template to this template.
 old-location: fsrm\ifsrmquotatemplate_copytemplate.htm
 tech.root: fsrm
 ms.assetid: 00aa7693-3c6e-4688-915e-59c31e5b8e6e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CopyTemplate, CopyTemplate method [File Server Resource Manager], CopyTemplate method [File Server Resource Manager],IFsrmQuotaTemplate interface, IFsrmQuotaTemplate interface [File Server Resource Manager],CopyTemplate method, IFsrmQuotaTemplate.CopyTemplate, IFsrmQuotaTemplate::CopyTemplate, fs.ifsrmquotatemplate_copytemplate, fsrm.ifsrmquotatemplate_copytemplate, fsrmquota/IFsrmQuotaTemplate::CopyTemplate
 ms.topic: method

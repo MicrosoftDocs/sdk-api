@@ -1,12 +1,12 @@
 ---
 UID: NN:fsrmquota.IFsrmQuota
 title: IFsrmQuota (fsrmquota.h)
-author: windows-sdk-content
+
 description: Used to define a quota for a specified directory and to retrieve use statistics.
 old-location: fsrm\ifsrmquota.htm
 tech.root: fsrm
 ms.assetid: 91ced22a-01b9-4fcf-b61a-c99e6f0286f3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuota, IFsrmQuota interface [File Server Resource Manager], IFsrmQuota interface [File Server Resource Manager],described, fs.ifsrmquota, fsrm.ifsrmquota, fsrm/IFsrmQuota
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.put_Issuer
 title: IX509CertificateRequestCertificate::put_Issuer (certenroll.h)
-author: windows-sdk-content
+
 description: Specifies or retrieves the name of the certificate issuer.
 old-location: security\ix509certificaterequestcertificate_issuer_property.htm
 tech.root: seccertenroll
 ms.assetid: cf07a0ed-8657-4044-8dcd-fcd350af20ee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCertificate interface [Security],Issuer property, IX509CertificateRequestCertificate.Issuer, IX509CertificateRequestCertificate.put_Issuer, IX509CertificateRequestCertificate::Issuer, IX509CertificateRequestCertificate::get_Issuer, IX509CertificateRequestCertificate::put_Issuer, Issuer property [Security], Issuer property [Security],IX509CertificateRequestCertificate interface, certenroll/IX509CertificateRequestCertificate::Issuer, certenroll/IX509CertificateRequestCertificate::get_Issuer, certenroll/IX509CertificateRequestCertificate::put_Issuer, put_Issuer, security.ix509certificaterequestcertificate_issuer_property
 ms.topic: method

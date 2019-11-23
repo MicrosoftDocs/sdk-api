@@ -1,12 +1,12 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_9
 title: AUTO_SCROLL_DATA (shlobj_core.h)
-author: windows-sdk-content
+
 description: AUTO_SCROLL_DATA may be altered or unavailable.
 old-location: shell\AUTO_SCROLL_DATA_str.htm
 tech.root: shell
 ms.assetid: 4229dd3b-1fc7-4cc7-bcc9-4e25bdc17c11
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AUTO_SCROLL_DATA, AUTO_SCROLL_DATA structure [Windows Shell], _win32_AUTO_SCROLL_DATA_str, shell.AUTO_SCROLL_DATA_str, shlobj_core/AUTO_SCROLL_DATA
 ms.topic: struct

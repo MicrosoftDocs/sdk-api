@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMHALF2.XMHALF2(const HALF)
 title: XMHALF2::XMHALF2(const HALF) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMHALF2 from a two element HALF array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: 4188bae6-91de-4a8a-bcbe-bc7715879f37
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMHALF2, XMHALF2 constructor [DirectX Math Support APIs], XMHALF2 constructor [DirectX Math Support APIs],XMHALF2 structure, XMHALF2 structure [DirectX Math Support APIs],XMHALF2 constructor, XMHALF2.XMHALF2, XMHALF2.XMHALF2(), XMHALF2.XMHALF2(const HALF), XMHALF2::XMHALF2, XMHALF2::XMHALF2(const HALF), dxmath.xmhalf2_ctor_1
 ms.topic: method

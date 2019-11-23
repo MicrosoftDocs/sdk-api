@@ -1,12 +1,12 @@
 ---
 UID: NF:evr.IMFDesiredSample.SetDesiredSampleTimeAndDuration
 title: IMFDesiredSample::SetDesiredSampleTimeAndDuration (evr.h)
-author: windows-sdk-content
+
 description: Called by the presenter to set the time and duration of the sample that it requests from the mixer.
 old-location: mf\imfdesiredsample_setdesiredsampletimeandduration.htm
 tech.root: medfound
 ms.assetid: 12877b24-83ec-4156-b411-f07202fdfd62
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 12877b24-83ec-4156-b411-f07202fdfd62, IMFDesiredSample interface [Media Foundation],SetDesiredSampleTimeAndDuration method, IMFDesiredSample.SetDesiredSampleTimeAndDuration, IMFDesiredSample::SetDesiredSampleTimeAndDuration, SetDesiredSampleTimeAndDuration, SetDesiredSampleTimeAndDuration method [Media Foundation], SetDesiredSampleTimeAndDuration method [Media Foundation],IMFDesiredSample interface, evr/IMFDesiredSample::SetDesiredSampleTimeAndDuration, mf.imfdesiredsample_setdesiredsampletimeandduration
 ms.topic: method

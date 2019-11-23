@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.GetUpdateRects
 title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
-author: windows-sdk-content
+
 description: Gets the set of regions that must be updated on the shared surface.
 old-location: winrt\ivirtualsurfaceimagesourcenative_getupdaterects.htm
 tech.root: WinRT
 ms.assetid: C23F3F82-FB3B-4893-8C14-FC7D3C61D295
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetUpdateRects, GetUpdateRects method [Windows Runtime], GetUpdateRects method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, IVirtualSurfaceImageSourceNative interface [Windows Runtime],GetUpdateRects method, IVirtualSurfaceImageSourceNative.GetUpdateRects, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::GetUpdateRects, IVirtualSurfaceImageSourceNative::xaml, windows/IVirtualSurfaceImageSourceNative::GetUpdateRects, winrt.ivirtualsurfaceimagesourcenative_getupdaterects
 ms.topic: method

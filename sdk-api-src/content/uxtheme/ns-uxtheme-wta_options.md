@@ -1,12 +1,12 @@
 ---
 UID: NS:uxtheme._WTA_OPTIONS
 title: WTA_OPTIONS (uxtheme.h)
-author: windows-sdk-content
+
 description: Defines options that are used to set window visual style attributes.
 old-location: controls\WTA_OPTIONS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\wta_options.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PWTA_OPTIONS, PWTA_OPTIONS, PWTA_OPTIONS structure pointer [Windows Controls], WTA_OPTIONS, WTA_OPTIONS structure [Windows Controls], controls.WTA_OPTIONS, controls.inet_WTA_OPTIONS, inet_WTA_OPTIONS, inet_WTA_OPTIONS_cpp, uxtheme/PWTA_OPTIONS, uxtheme/WTA_OPTIONS"
 ms.topic: struct

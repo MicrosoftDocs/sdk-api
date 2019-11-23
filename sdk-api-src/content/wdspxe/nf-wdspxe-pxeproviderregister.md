@@ -1,12 +1,12 @@
 ---
 UID: NF:wdspxe.PxeProviderRegister
 title: PxeProviderRegister function (wdspxe.h)
-author: windows-sdk-content
+
 description: Registers a provider with the system.
 old-location: wds\pxeproviderregister.htm
 tech.root: wds
 ms.assetid: 2b377855-dae7-47cb-925a-9ee0a9265f83
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PXE_REG_INDEX_BOTTOM, PXE_REG_INDEX_TOP, PxeProviderRegister, PxeProviderRegister function [Windows Deployment Services], wds.pxeproviderregister, wdspxe/PxeProviderRegister
 ms.topic: function

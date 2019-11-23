@@ -1,12 +1,12 @@
 ---
 UID: NF:jobapi2.AssignProcessToJobObject
 title: AssignProcessToJobObject function (jobapi2.h)
-author: windows-sdk-content
+
 description: Assigns a process to an existing job object.
 old-location: base\assignprocesstojobobject.htm
 tech.root: ProcThread
 ms.assetid: f5d7a39f-6afe-4e4a-a802-e7f875ea6e5b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AssignProcessToJobObject, AssignProcessToJobObject function, _win32_assignprocesstojobobject, base.assignprocesstojobobject, jobapi2/AssignProcessToJobObject
 ms.topic: function

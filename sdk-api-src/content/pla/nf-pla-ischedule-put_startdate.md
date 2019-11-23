@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.ISchedule.put_StartDate
 title: ISchedule::put_StartDate (pla.h)
-author: windows-sdk-content
+
 description: Retrieves or sets the date when the schedule becomes valid.
 old-location: pla\ischedule_startdate.htm
 tech.root: PLA
 ms.assetid: 1bb90c84-0249-4714-9371-d2aed2922d9b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISchedule interface [PLA],StartDate property, ISchedule.StartDate, ISchedule.put_StartDate, ISchedule::StartDate, ISchedule::get_StartDate, ISchedule::put_StartDate, StartDate property [PLA], StartDate property [PLA],ISchedule interface, base.ischedule_startdate, pla.ischedule_startdate, pla/ISchedule::StartDate, pla/ISchedule::get_StartDate, pla/ISchedule::put_StartDate, put_StartDate
 ms.topic: method

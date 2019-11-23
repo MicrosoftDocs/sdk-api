@@ -1,12 +1,12 @@
 ---
 UID: NN:mbnapi.IMbnDeviceServicesEvents
 title: IMbnDeviceServicesEvents (mbnapi.h)
-author: windows-sdk-content
+
 description: Signals an application about notification events related to Mobile Broadband device services on the system.
 old-location: mbn\imbndeviceservicesevents.htm
 tech.root: mbn
 ms.assetid: 66A388D0-C704-45D2-AD56-4F81E1928774
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents, IMbnDeviceServicesEvents interface [Microsoft Broadband Networks], IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],described, mbn.imbndeviceservicesevents, mbnapi/IMbnDeviceServicesEvents
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawBezier(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT)
 title: Graphics::DrawBezier(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT) (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::DrawBezier method draws a B&#233;zier spline.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_INT_x1_INT_y1_INT_x2_INT_y2_INT_x3_INT_y3_INT_x4_INT_y4_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawbeziermethods\drawbezier_76penpen_intx1_inty1_intx2_inty2_intx3_i.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawBezier, DrawBezier method [GDI+], DrawBezier method [GDI+],Graphics class, Graphics class [GDI+],DrawBezier method, Graphics.DrawBezier, Graphics.DrawBezier(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT), Graphics.DrawBezier(const Pen*,INT,INT,INT,INT,INT,INT,INT,INT), Graphics::DrawBezier, Graphics::DrawBezier(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_INT_x1_INT_y1_INT_x2_INT_y2_INT_x3_INT_y3_INT_x4_INT_y4_, gdiplus._gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_INT_x1_INT_y1_INT_x2_INT_y2_INT_x3_INT_y3_INT_x4_INT_y4_
 ms.topic: method

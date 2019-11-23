@@ -1,12 +1,12 @@
 ---
 UID: NF:bitscfg.IBITSExtensionSetupFactory.GetObject
 title: IBITSExtensionSetupFactory::GetObject (bitscfg.h)
-author: windows-sdk-content
+
 description: Use the GetObject method to retrieve a pointer to the IBITSExtensionSetup interface. This method performs the same binding that the ADsGetObject ADSI function performs.
 old-location: bits\ibitsextensionsetupfactory_getobject.htm
 tech.root: Bits
 ms.assetid: ac0bb9d5-3f1f-4c9b-bd7d-905e0451bf70
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [BITS], GetObject method [BITS],IBITSExtensionSetupFactory interface, IBITSExtensionSetupFactory interface [BITS],GetObject method, IBITSExtensionSetupFactory.GetObject, IBITSExtensionSetupFactory::GetObject, _drz_ibitsextensionsetupfactory_getobject, bits.ibitsextensionsetupfactory_getobject, bitscfg/IBITSExtensionSetupFactory::GetObject
 ms.topic: method

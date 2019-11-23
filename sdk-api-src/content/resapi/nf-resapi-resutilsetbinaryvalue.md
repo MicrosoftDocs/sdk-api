@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ResUtilSetBinaryValue
 title: ResUtilSetBinaryValue function (resapi.h)
-author: windows-sdk-content
+
 description: Sets a binary value in the cluster database.
 old-location: mscs\resutilsetbinaryvalue.htm
 tech.root: MsCS
 ms.assetid: 6a32169c-af14-40f4-ac45-f9923da544ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_BINARY_VALUE, PRESUTIL_SET_BINARY_VALUE function [Failover Cluster], ResUtilSetBinaryValue, ResUtilSetBinaryValue function [Failover Cluster], _wolf_resutilsetbinaryvalue, mscs.resutilsetbinaryvalue, resapi/PRESUTIL_SET_BINARY_VALUE, resapi/ResUtilSetBinaryValue
 ms.topic: function

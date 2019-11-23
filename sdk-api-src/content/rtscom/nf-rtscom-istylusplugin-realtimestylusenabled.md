@@ -1,12 +1,12 @@
 ---
 UID: NF:rtscom.IStylusPlugin.RealTimeStylusEnabled
 title: IStylusPlugin::RealTimeStylusEnabled (rtscom.h)
-author: windows-sdk-content
+
 description: Notifies the implementing plug-in that the RealTimeStylus Class (RTS) object is enabled.
 old-location: tablet\istylusplugin_realtimestylusenabled.htm
 tech.root: tablet
 ms.assetid: bd5689c1-32e2-4a37-8dd2-4525b16f4662
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],RealTimeStylusEnabled method, IStylusPlugin.RealTimeStylusEnabled, IStylusPlugin::RealTimeStylusEnabled, RealTimeStylusEnabled, RealTimeStylusEnabled method [Tablet PC], RealTimeStylusEnabled method [Tablet PC],IStylusPlugin interface, bd5689c1-32e2-4a37-8dd2-4525b16f4662, rtscom/IStylusPlugin::RealTimeStylusEnabled, tablet.istylusplugin_realtimestylusenabled
 ms.topic: method

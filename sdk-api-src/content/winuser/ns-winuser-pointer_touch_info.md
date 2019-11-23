@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser.tagPOINTER_TOUCH_INFO
 title: POINTER_TOUCH_INFO (winuser.h)
-author: windows-sdk-content
+
 description: Defines basic touch information common to all pointer types.
 old-location: inputmsg\pointer_touch_info_struct.htm
 tech.root: InputMsg
 ms.assetid: fee176ba-ad07-3141-ab4d-1b8c335fd102
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: POINTER_TOUCH_INFO, POINTER_TOUCH_INFO structure [Input Messages and Notifications], _POINTER_TOUCH_INFO, inputmsg.pointer_touch_info_struct, winuser/POINTER_TOUCH_INFO
 ms.topic: struct

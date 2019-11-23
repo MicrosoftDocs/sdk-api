@@ -1,12 +1,12 @@
 ---
 UID: NF:sensevts.ISensNetwork.ConnectionMadeNoQOCInfo
 title: ISensNetwork::ConnectionMadeNoQOCInfo (sensevts.h)
-author: windows-sdk-content
+
 description: The ConnectionMadeNoQOCInfo method notifies your application that the specified connection has been established with no Quality of Connection information available.
 old-location: sens\isensnetwork_connectionmadenoqocinfo.htm
 tech.root: Sens
 ms.assetid: a27dd3c7-e3f6-4ccb-b23a-17b15235245c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ConnectionMadeNoQOCInfo, ConnectionMadeNoQOCInfo method [SENS], ConnectionMadeNoQOCInfo method [SENS],ISensNetwork interface, ISensNetwork interface [SENS],ConnectionMadeNoQOCInfo method, ISensNetwork.ConnectionMadeNoQOCInfo, ISensNetwork::ConnectionMadeNoQOCInfo, _zaw_isensnetwork_connectionmadenoqocinfo, sens.isensnetwork_connectionmadenoqocinfo, sensevts/ISensNetwork::ConnectionMadeNoQOCInfo, syncmgr.isensnetwork_connectionmadenoqocinfo
 ms.topic: method

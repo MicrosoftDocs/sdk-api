@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.GetWindowOrgEx
 title: GetWindowOrgEx function (wingdi.h)
-author: windows-sdk-content
+
 description: The GetWindowOrgEx function retrieves the x-coordinates and y-coordinates of the window origin for the specified device context.
 old-location: gdi\getwindoworgex.htm
 tech.root: gdi
 ms.assetid: 9579ed10-6d4c-4724-af8b-22cab5b6ff5e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetWindowOrgEx, GetWindowOrgEx function [Windows GDI], _win32_GetWindowOrgEx, gdi.getwindoworgex, wingdi/GetWindowOrgEx
 ms.topic: function

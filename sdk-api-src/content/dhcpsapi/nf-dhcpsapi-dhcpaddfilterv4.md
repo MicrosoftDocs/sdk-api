@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpAddFilterV4
 title: DhcpAddFilterV4 function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Adds a link-layer address or address pattern to the allow/deny lists.
 old-location: dhcp\dhcpaddfilterv4.htm
 tech.root: DHCP
 ms.assetid: 5543ef67-d095-44b8-b511-e6754aeb9881
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpAddFilterV4, DhcpAddFilterV4 function [DHCP], dhcp.dhcpaddfilterv4, dhcpsapi/DhcpAddFilterV4
 ms.topic: function

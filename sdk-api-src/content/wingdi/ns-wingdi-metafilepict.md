@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagMETAFILEPICT
 title: METAFILEPICT (wingdi.h)
-author: windows-sdk-content
+
 description: Defines the metafile picture format used for exchanging metafile data through the clipboard.
 old-location: dataxchg\metafilepict.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardstructures\metafilepict.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPMETAFILEPICT, LPMETAFILEPICT, LPMETAFILEPICT structure pointer [Data Exchange], METAFILEPICT, METAFILEPICT structure [Data Exchange], _win32_METAFILEPICT_str, _win32_metafilepict_str_cpp, dataxchg.metafilepict, wingdi/LPMETAFILEPICT, wingdi/METAFILEPICT, winui._win32_metafilepict_str"
 ms.topic: struct

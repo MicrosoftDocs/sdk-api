@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextDocument2.SetTypographyOptions
 title: ITextDocument2::SetTypographyOptions (tom.h)
-author: windows-sdk-content
+
 description: Specifies the typography options for the document.
 old-location: controls\itextdocument2_settypographyoptions.htm
 tech.root: Controls
 ms.assetid: 1013c9bf-b6fe-4396-b7a8-36e61edf1df3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetTypographyOptions method, ITextDocument2.SetTypographyOptions, ITextDocument2::SetTypographyOptions, SetTypographyOptions, SetTypographyOptions method [Windows Controls], SetTypographyOptions method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_settypographyoptions, tom/ITextDocument2::SetTypographyOptions
 ms.topic: method

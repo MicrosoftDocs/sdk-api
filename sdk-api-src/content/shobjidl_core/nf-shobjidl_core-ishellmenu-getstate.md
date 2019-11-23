@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.GetState
 title: IShellMenu::GetState (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Gets a filled SMDATA structure.
 old-location: shell\IShellMenu_GetState.htm
 tech.root: shell
 ms.assetid: ea5d402f-2644-4e42-b1e7-2304f0ca71e2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [Windows Shell], GetState method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetState method, IShellMenu.GetState, IShellMenu::GetState, _shell_IShellMenu_GetState, shell.IShellMenu_GetState, shobjidl_core/IShellMenu::GetState
 ms.topic: method

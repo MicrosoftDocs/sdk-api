@@ -1,12 +1,12 @@
 ---
 UID: NF:winnls.GetLocaleInfoEx
 title: GetLocaleInfoEx function (winnls.h)
-author: windows-sdk-content
+
 description: Retrieves information about a locale specified by name.Note  The application should call this function in preference to GetLocaleInfo if designed to run only on Windows Vista and later. Note  This function can retrieve data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\getlocaleinfoex.htm
 tech.root: Intl
 ms.assetid: 20294ff2-b783-41a2-92a8-41cd974a2ccb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLocaleInfoEx, GetLocaleInfoEx function [Internationalization for Windows Applications], _win32_GetLocaleInfoEx, intl.getlocaleinfoex, winnls/GetLocaleInfoEx
 ms.topic: function

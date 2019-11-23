@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.AddRefActCtx
 title: AddRefActCtx function (winbase.h)
-author: windows-sdk-content
+
 description: The AddRefActCtx function increments the reference count of the specified activation context.
 old-location: setup\addrefactctx.htm
 tech.root: SbsCs
 ms.assetid: 6812a3f4-53e4-4b60-be04-711ab4c37d12
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddRefActCtx, AddRefActCtx function [Side-by-side Assemblies], _win32_addrefactctx, setup.addrefactctx, winbase/AddRefActCtx
 ms.topic: function

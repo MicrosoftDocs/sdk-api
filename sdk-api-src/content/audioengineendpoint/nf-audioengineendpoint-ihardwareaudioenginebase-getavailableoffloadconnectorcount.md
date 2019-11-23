@@ -1,12 +1,12 @@
 ---
 UID: NF:audioengineendpoint.IHardwareAudioEngineBase.GetAvailableOffloadConnectorCount
 title: IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount (audioengineendpoint.h)
-author: windows-sdk-content
+
 description: The GetAvailableOffloadConnectorCount method retrieves the number of avaialable endpoints that can handle offloaded streams on the hardware audio engine.
 old-location: coreaudio\ihardwareaudioenginebase_getavailableoffloadconnectorcount.htm
 tech.root: CoreAudio
 ms.assetid: FCAFF20A-812A-4232-A86C-79D07D5AE26F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAvailableOffloadConnectorCount, GetAvailableOffloadConnectorCount method [Core Audio], GetAvailableOffloadConnectorCount method [Core Audio],IHardwareAudioEngineBase interface, IHardwareAudioEngineBase interface [Core Audio],GetAvailableOffloadConnectorCount method, IHardwareAudioEngineBase.GetAvailableOffloadConnectorCount, IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount, audioengineendpoint/IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount, coreaudio.ihardwareaudioenginebase_getavailableoffloadconnectorcount
 ms.topic: method

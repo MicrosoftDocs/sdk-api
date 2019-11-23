@@ -1,12 +1,12 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_USER_STREAM
 title: MINIDUMP_USER_STREAM (minidumpapiset.h)
-author: windows-sdk-content
+
 description: Contains user-defined information stored in a data stream.
 old-location: base\minidump_user_stream_str.htm
 tech.root: Debug
 ms.assetid: 43eae98c-fba3-43a4-97e6-8b81874e856e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_USER_STREAM, MINIDUMP_USER_STREAM, MINIDUMP_USER_STREAM structure, PMINIDUMP_USER_STREAM, PMINIDUMP_USER_STREAM structure pointer, _MINIDUMP_USER_STREAM, _win32_minidump_user_stream_str, base.minidump_user_stream_str, minidumpapiset/MINIDUMP_USER_STREAM, minidumpapiset/PMINIDUMP_USER_STREAM'
 ms.topic: struct

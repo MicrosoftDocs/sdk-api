@@ -1,12 +1,12 @@
 ---
 UID: NS:bcrypt._BCRYPT_OID
 title: BCRYPT_OID (bcrypt.h)
-author: windows-sdk-content
+
 description: Contains information about a DER-encoded object identifier (OID).
 old-location: security\bcrypt_oid.htm
 tech.root: SecCNG
 ms.assetid: 00143883-88f7-4b15-bdba-128ee255abf6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_OID, BCRYPT_OID structure [Security], bcrypt/BCRYPT_OID, security.bcrypt_oid
 ms.topic: struct

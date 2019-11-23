@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl.IAutoCompleteDropDown.ResetEnumerator
 title: IAutoCompleteDropDown::ResetEnumerator (shobjidl.h)
-author: windows-sdk-content
+
 description: Forces the autocomplete object to refresh its list of suggestions when the list is visible.
 old-location: shell\IAutoCompleteDropDown_ResetEnumerator.htm
 tech.root: shell
 ms.assetid: 9a880b2a-190a-45ea-8672-f2d0247987ed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAutoCompleteDropDown interface [Windows Shell],ResetEnumerator method, IAutoCompleteDropDown.ResetEnumerator, IAutoCompleteDropDown::ResetEnumerator, ResetEnumerator, ResetEnumerator method [Windows Shell], ResetEnumerator method [Windows Shell],IAutoCompleteDropDown interface, _shell_IAutoCompleteDropDown_ResetEnumerator, shell.IAutoCompleteDropDown_ResetEnumerator, shobjidl/IAutoCompleteDropDown::ResetEnumerator
 ms.topic: method

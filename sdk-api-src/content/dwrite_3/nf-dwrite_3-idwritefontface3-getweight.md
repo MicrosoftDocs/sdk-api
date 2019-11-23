@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetWeight
 title: IDWriteFontFace3::GetWeight (dwrite_3.h)
-author: windows-sdk-content
+
 description: Gets the weight of this font.
 old-location: directwrite\idwritefontface3_getweight.htm
 tech.root: DirectWrite
 ms.assetid: A57873B2-F4B4-4129-96FE-A4CAFBFD537F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetWeight, GetWeight method [Direct Write], GetWeight method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetWeight method, IDWriteFontFace3.GetWeight, IDWriteFontFace3::GetWeight, directwrite.idwritefontface3_getweight, dwrite_3/IDWriteFontFace3::GetWeight
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:instance.CInstance.SetVariant
 title: CInstance::SetVariant (instance.h)
-author: windows-sdk-content
+
 description: The SetVariant method sets a VARIANT property.
 old-location: wmi\cinstance_setvariant.htm
 tech.root: WmiSdk
 ms.assetid: 45201e64-2ecc-4a18-9f41-2392dfe50caf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "?SetVariant@CInstance@@QAE_NPBGABUtagVARIANT@@@Z, CInstance interface [Windows Management Instrumentation],SetVariant method, CInstance.SetVariant, CInstance::SetVariant, SetVariant, SetVariant method [Windows Management Instrumentation], SetVariant method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setvariant, instance/CInstance::SetVariant, wmi.cinstance_setvariant"
 ms.topic: method

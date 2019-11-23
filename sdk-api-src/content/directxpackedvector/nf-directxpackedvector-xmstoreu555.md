@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMStoreU555
 title: XMStoreU555 function (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Stores an XMVECTOR in an XMU555.
 old-location: dxmath\xmstoreu555.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreU555(XMU555@,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreU555, XMStoreU555, XMStoreU555 method [DirectX Math Support APIs], dxmath.xmstoreu555
 ms.topic: function

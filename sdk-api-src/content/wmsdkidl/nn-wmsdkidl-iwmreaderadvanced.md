@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAdvanced
 title: IWMReaderAdvanced (wmsdkidl.h)
-author: windows-sdk-content
+
 description: A call to QueryInterface from a reader object exposes the advanced functionality described in this section.
 old-location: wmformat\iwmreaderadvanced.htm
 tech.root: wmformat
 ms.assetid: a7a20f87-6f21-4fe8-8889-1b6689daf833
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], IWMReaderAdvanced interface [windows Media Format],described, IWMReaderAdvancedInterface, wmformat.iwmreaderadvanced, wmsdkidl/IWMReaderAdvanced
 ms.topic: interface

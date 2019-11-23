@@ -1,12 +1,12 @@
 ---
 UID: NN:certenroll.ICertPropertyKeyProvInfo
 title: ICertPropertyKeyProvInfo (certenroll.h)
-author: windows-sdk-content
+
 description: Represents a certificate property that contains information about a private key.
 old-location: security\icertpropertykeyprovinfo.htm
 tech.root: seccertenroll
 ms.assetid: 1c35c2f0-8e79-4031-bae2-2be081f3c8dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyKeyProvInfo, ICertPropertyKeyProvInfo interface [Security], ICertPropertyKeyProvInfo interface [Security],described, certenroll/ICertPropertyKeyProvInfo, security.icertpropertykeyprovinfo
 ms.topic: interface

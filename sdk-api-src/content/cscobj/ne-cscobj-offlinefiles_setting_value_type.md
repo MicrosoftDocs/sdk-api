@@ -1,12 +1,12 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_SETTING_VALUE_TYPE
 title: OFFLINEFILES_SETTING_VALUE_TYPE (cscobj.h)
-author: windows-sdk-content
+
 description: Identifies the data type returned by the IOfflineFilesSetting::GetValueType method.
 old-location: of\offlinefiles_setting_value_type.htm
 tech.root: offlinefiles
 ms.assetid: 37569197-efd3-4e4e-953a-3bbd2cb07d5a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OFFLINEFILES_SETTING_VALUE_2DIM_ARRAY_BSTR_BSTR, OFFLINEFILES_SETTING_VALUE_2DIM_ARRAY_BSTR_UI4, OFFLINEFILES_SETTING_VALUE_BSTR, OFFLINEFILES_SETTING_VALUE_BSTR_DBLNULTERM, OFFLINEFILES_SETTING_VALUE_TYPE, OFFLINEFILES_SETTING_VALUE_TYPE enumeration [Offline Files], OFFLINEFILES_SETTING_VALUE_UI4, cscobj/OFFLINEFILES_SETTING_VALUE_2DIM_ARRAY_BSTR_BSTR, cscobj/OFFLINEFILES_SETTING_VALUE_2DIM_ARRAY_BSTR_UI4, cscobj/OFFLINEFILES_SETTING_VALUE_BSTR, cscobj/OFFLINEFILES_SETTING_VALUE_BSTR_DBLNULTERM, cscobj/OFFLINEFILES_SETTING_VALUE_TYPE, cscobj/OFFLINEFILES_SETTING_VALUE_UI4, of.offlinefiles_setting_value_type
 ms.topic: enum

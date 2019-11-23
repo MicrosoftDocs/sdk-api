@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetTimeRemaining
 title: ISCTE_EAS::GetTimeRemaining (atscpsipparser.h)
-author: windows-sdk-content
+
 description: The GetTimeRemaining method returns the time that remains in the alert message.
 old-location: mstv\iscte_eas_gettimeremaining.htm
 tech.root: mstv
 ms.assetid: 4d04408f-a1ff-41cf-8ab0-1f30e700b07b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTimeRemaining, GetTimeRemaining method [Microsoft TV Technologies], GetTimeRemaining method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetTimeRemaining method, ISCTE_EAS.GetTimeRemaining, ISCTE_EAS::GetTimeRemaining, ISCTE_EASGetTimeRemaining, atscpsipparser/ISCTE_EAS::GetTimeRemaining, mstv.iscte_eas_gettimeremaining
 ms.topic: method

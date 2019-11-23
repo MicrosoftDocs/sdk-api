@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.ICheckSxsConfig.IsSameSxsConfig
 title: ICheckSxsConfig::IsSameSxsConfig (comsvcs.h)
-author: windows-sdk-content
+
 description: Determines whether the side-by-side assembly has the specified configuration.
 old-location: cos\ichecksxsconfig_issamesxsconfig.htm
 tech.root: cossdk
 ms.assetid: 24ea3b88-2364-49e9-88cf-90a6094b9e4c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICheckSxsConfig interface [COM+],IsSameSxsConfig method, ICheckSxsConfig.IsSameSxsConfig, ICheckSxsConfig::IsSameSxsConfig, IsSameSxsConfig, IsSameSxsConfig method [COM+], IsSameSxsConfig method [COM+],ICheckSxsConfig interface, _cos_ICheckSxsConfig_IsSameSxsConfig, comsvcs/ICheckSxsConfig::IsSameSxsConfig, cos.ichecksxsconfig_issamesxsconfig
 ms.topic: method

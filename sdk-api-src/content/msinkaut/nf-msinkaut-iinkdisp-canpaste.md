@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkDisp.CanPaste
 title: IInkDisp::CanPaste (msinkaut.h)
-author: windows-sdk-content
+
 description: Indicates whether the IDataObject can be converted to an InkDisp object.
 old-location: tablet\inkdisp_canpaste.htm
 tech.root: tablet
 ms.assetid: 755c74c4-417a-49b5-9f3d-9348c05ac850
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 755c74c4-417a-49b5-9f3d-9348c05ac850, CanPaste, CanPaste method [Tablet PC], CanPaste method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CanPaste method, IInkDisp.CanPaste, IInkDisp::CanPaste, msinkaut/IInkDisp::CanPaste, tablet.inkdisp_canpaste
 ms.topic: method

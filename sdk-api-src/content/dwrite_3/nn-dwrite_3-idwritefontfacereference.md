@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_3.IDWriteFontFaceReference
 title: IDWriteFontFaceReference (dwrite_3.h)
-author: windows-sdk-content
+
 description: Represents a reference to a font face.
 old-location: directwrite\idwritefontfacereference.htm
 tech.root: DirectWrite
 ms.assetid: 04242508-7439-43B6-B3E7-07617B782038
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFaceReference, IDWriteFontFaceReference interface [Direct Write], IDWriteFontFaceReference interface [Direct Write],described, directwrite.idwritefontfacereference, dwrite_3/IDWriteFontFaceReference
 ms.topic: interface

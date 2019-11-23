@@ -1,12 +1,12 @@
 ---
 UID: NF:qnetwork.IAMChannelInfo.get_ChannelURL
 title: IAMChannelInfo::get_ChannelURL (qnetwork.h)
-author: windows-sdk-content
+
 description: The get_ChannelURL method retrieves the channel URL.
 old-location: dshow\iamchannelinfo_get_channelurl.htm
 tech.root: DirectShow
 ms.assetid: 27e1a315-db95-4f24-94b6-b10023e61e7a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ChannelURL method, IAMChannelInfo.get_ChannelURL, IAMChannelInfo::get_ChannelURL, IAMChannelInfoget_ChannelURL, dshow.iamchannelinfo_get_channelurl, get_ChannelURL, get_ChannelURL method [DirectShow], get_ChannelURL method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ChannelURL
 ms.topic: method

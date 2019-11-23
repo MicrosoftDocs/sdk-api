@@ -1,12 +1,12 @@
 ---
 UID: NF:callobj.ICallFrame.Copy
 title: ICallFrame::Copy (callobj.h)
-author: windows-sdk-content
+
 description: Creates a copy of this call frame and all of its associated data.
 old-location: com\icallframe_copy.htm
 tech.root: com
 ms.assetid: bf2d2e55-d9d1-48d6-817c-382c739d1acd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Copy, Copy method [COM], Copy method [COM],ICallFrame interface, ICallFrame interface [COM],Copy method, ICallFrame.Copy, ICallFrame::Copy, _com_icallframe_copy, callobj/ICallFrame::Copy, com.icallframe_copy
 ms.topic: method

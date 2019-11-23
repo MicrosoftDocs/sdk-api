@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateWicBitmapRenderTarget(IWICBitmap,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget)
 title: ID2D1Factory::CreateWicBitmapRenderTarget(IWICBitmap,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget) (d2d1.h)
-author: windows-sdk-content
+
 description: Creates a render target that renders to a Microsoft Windows Imaging Component (WIC) bitmap.
 old-location: direct2d\ID2D1Factory_CreateWicBitmapRenderTarget_ptr_IWICBitmap_ref_D2D1_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1RenderTarget.htm
 tech.root: Direct2D
 ms.assetid: 012950f5-d609-40e2-8f3e-cfcbf5e368cc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateWicBitmapRenderTarget, CreateWicBitmapRenderTarget method [Direct2D], CreateWicBitmapRenderTarget method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateWicBitmapRenderTarget method, ID2D1Factory.CreateWicBitmapRenderTarget, ID2D1Factory.CreateWicBitmapRenderTarget(IWICBitmap,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget), ID2D1Factory::CreateWicBitmapRenderTarget, ID2D1Factory::CreateWicBitmapRenderTarget(IWICBitmap,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget), d2d1/ID2D1Factory::CreateWicBitmapRenderTarget, direct2d.ID2D1Factory_CreateWicBitmapRenderTarget_ptr_IWICBitmap_ref_D2D1_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1RenderTarget
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.phoneGetLamp
 title: phoneGetLamp function (tapi.h)
-author: windows-sdk-content
+
 description: The phoneGetLamp function returns the current lamp mode of the specified lamp.
 old-location: tapi2\phonegetlamp.htm
 tech.root: Tapi
 ms.assetid: 97bc1dc1-ac7e-479f-8fea-e2fcca88367b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_phonegetlamp, phoneGetLamp, phoneGetLamp function [TAPI 2.2], tapi/phoneGetLamp, tapi2.phonegetlamp"
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:processthreadsapi.SetThreadContext
 title: SetThreadContext function (processthreadsapi.h)
-author: windows-sdk-content
+
 description: Sets the context for the specified thread.
 old-location: base\setthreadcontext.htm
 tech.root: Debug
 ms.assetid: be134953-b569-48ea-80ac-ab14dee24500
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetThreadContext, SetThreadContext function, _win32_setthreadcontext, base.setthreadcontext, processthreadsapi/SetThreadContext
 ms.topic: function

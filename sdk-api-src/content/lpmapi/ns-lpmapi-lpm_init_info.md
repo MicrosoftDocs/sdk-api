@@ -1,12 +1,12 @@
 ---
 UID: NS:lpmapi.lpminitinfo
 title: LPM_INIT_INFO (lpmapi.h)
-author: windows-sdk-content
+
 description: The LPM_INIT_INFO structure contains local policy module initialization information.
 old-location: qos\lpm_init_info.htm
 tech.root: QOS
 ms.assetid: 7eab2cf0-97e6-4298-99c3-09ce8c09fb87
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LPM_INIT_INFO, LPM_INIT_INFO structure [QOS], lpmapi/LPM_INIT_INFO, qos.lpm_init_info
 ms.topic: struct

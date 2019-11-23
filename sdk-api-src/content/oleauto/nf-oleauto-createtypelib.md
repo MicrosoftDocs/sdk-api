@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.CreateTypeLib
 title: CreateTypeLib function (oleauto.h)
-author: windows-sdk-content
+
 description: Provides access to a new object instance that supports the ICreateTypeLib interface.
 old-location: automat\createtypelib.htm
 tech.root: automat
 ms.assetid: c7a94d5b-7ac5-4b7c-8aed-ead23de9ea75
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateTypeLib, CreateTypeLib function [Automation], _oa96_CreateTypeLib, automat.createtypelib, oleauto/CreateTypeLib
 ms.topic: function

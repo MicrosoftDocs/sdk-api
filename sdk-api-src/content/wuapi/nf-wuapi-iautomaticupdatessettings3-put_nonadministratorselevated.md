@@ -1,12 +1,12 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings3.put_NonAdministratorsElevated
 title: IAutomaticUpdatesSettings3::put_NonAdministratorsElevated (wuapi.h)
-author: windows-sdk-content
+
 description: Gets and sets a Boolean value that indicates whether non-administrators can perform some update-related actions without administrator approval.
 old-location: wua\iautomaticupdatessettings3_nonadministratorselevated.htm
 tech.root: Wua_Sdk
 ms.assetid: 6294d982-e6ed-472d-b94b-c140b423ea88
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings3 interface [Windows Update Agent],NonAdministratorsElevated property, IAutomaticUpdatesSettings3.NonAdministratorsElevated, IAutomaticUpdatesSettings3.put_NonAdministratorsElevated, IAutomaticUpdatesSettings3::NonAdministratorsElevated, IAutomaticUpdatesSettings3::get_NonAdministratorsElevated, IAutomaticUpdatesSettings3::put_NonAdministratorsElevated, NonAdministratorsElevated property [Windows Update Agent], NonAdministratorsElevated property [Windows Update Agent],IAutomaticUpdatesSettings3 interface, put_NonAdministratorsElevated, wua.iautomaticupdatessettings3_nonadministratorselevated, wuapi/IAutomaticUpdatesSettings3::NonAdministratorsElevated, wuapi/IAutomaticUpdatesSettings3::get_NonAdministratorsElevated, wuapi/IAutomaticUpdatesSettings3::put_NonAdministratorsElevated
 ms.topic: method

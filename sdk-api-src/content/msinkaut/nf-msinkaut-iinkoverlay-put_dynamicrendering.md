@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_DynamicRendering
 title: IInkOverlay::put_DynamicRendering (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets or sets the value that specifies whether ink is rendered as it is drawn.
 old-location: tablet\inkoverlay_dynamicrendering.htm
 tech.root: tablet
 ms.assetid: 1e0e231a-82bc-4d22-9467-4c7b29f4b405
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 1e0e231a-82bc-4d22-9467-4c7b29f4b405, DynamicRendering property [Tablet PC], DynamicRendering property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],DynamicRendering property, IInkOverlay.DynamicRendering, IInkOverlay.put_DynamicRendering, IInkOverlay::DynamicRendering, IInkOverlay::get_DynamicRendering, IInkOverlay::put_DynamicRendering, InkOverlay.get_DynamicRendering, InkOverlay.put_DynamicRendering, get_DynamicRendering, msinkaut/IInkOverlay::DynamicRendering, msinkaut/IInkOverlay::get_DynamicRendering, msinkaut/IInkOverlay::put_DynamicRendering, put_DynamicRendering, tablet.inkoverlay_dynamicrendering
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:strsafe.StringCbCopyNW
 title: StringCbCopyNW function (strsafe.h)
-author: windows-sdk-content
+
 description: Copies the specified number of bytes from one string to another.
 old-location: menurc\stringcbcopyn.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopyn.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: StringCbCopyN, StringCbCopyN function [Menus and Other Resources], StringCbCopyNA, StringCbCopyNW, _shell_StringCbCopyN, _shell_stringcbcopyn_cpp, menurc.stringcbcopyn, strsafe/StringCbCopyN, strsafe/StringCbCopyNA, strsafe/StringCbCopyNW, winui._shell_stringcbcopyn
 ms.topic: function

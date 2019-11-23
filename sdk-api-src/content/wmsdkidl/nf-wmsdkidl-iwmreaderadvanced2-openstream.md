@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.OpenStream
 title: IWMReaderAdvanced2::OpenStream (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The OpenStream method opens a Windows Media stream for reading.
 old-location: wmformat\iwmreaderadvanced2_openstream.htm
 tech.root: wmformat
 ms.assetid: 20822e1d-b367-4b03-9d8a-985427f0062d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],OpenStream method, IWMReaderAdvanced2.OpenStream, IWMReaderAdvanced2::OpenStream, IWMReaderAdvanced2OpenStream, OpenStream, OpenStream method [windows Media Format], OpenStream method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_openstream, wmsdkidl/IWMReaderAdvanced2::OpenStream
 ms.topic: method

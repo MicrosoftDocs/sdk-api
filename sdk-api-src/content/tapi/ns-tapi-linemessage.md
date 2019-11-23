@@ -1,12 +1,12 @@
 ---
 UID: NS:tapi.linemessage_tag
 title: LINEMESSAGE (tapi.h)
-author: windows-sdk-content
+
 description: The LINEMESSAGE structure contains parameter values specifying a change in status of the line the application currently has open. The lineGetMessage function returns the LINEMESSAGE structure.
 old-location: tapi2\linemessage_str.htm
 tech.root: Tapi
 ms.assetid: 1d184948-4ba2-4c8c-8771-d1aea6c4f565
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEMESSAGE, LINEMESSAGE, LINEMESSAGE structure [TAPI 2.2], LPLINEMESSAGE, LPLINEMESSAGE structure pointer [TAPI 2.2], _tapi2_linemessage_str, tapi/LINEMESSAGE, tapi/LPLINEMESSAGE, tapi2.linemessage_str"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfUIElement.GetDescription
 title: ITfUIElement::GetDescription (msctf.h)
-author: windows-sdk-content
+
 description: The ITfUIElement::GetDescription method returns the description of the UI element.
 old-location: tsf\itfuielement_getdescription.htm
 tech.root: TSF
 ms.assetid: 1d6fad13-e90a-4c5a-a735-d6e54f53488f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Text Services Framework], GetDescription method [Text Services Framework],ITfUIElement interface, ITfUIElement interface [Text Services Framework],GetDescription method, ITfUIElement.GetDescription, ITfUIElement::GetDescription, msctf/ITfUIElement::GetDescription, tsf.itfuielement_getdescription
 ms.topic: method

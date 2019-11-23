@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRules.get_Item
 title: IFaxOutboundRoutingRules::get_Item (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutboundRoutingRules::get_Item method returns a IFaxOutboundRoutingRule interface from the IFaxOutboundRoutingRules interface using the routing rule's index.
 old-location: fax\_mfax_faxoutboundroutingrules_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_73xp_cpp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],get_Item method, IFaxOutboundRoutingRules.get_Item, IFaxOutboundRoutingRules::get_Item, _mfax_faxoutboundroutingrules.item_cpp, fax._mfax_faxoutboundroutingrules_item_cpp, faxcomex/IFaxOutboundRoutingRules::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxOutboundRoutingRules interface
 ms.topic: method

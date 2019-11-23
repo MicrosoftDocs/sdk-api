@@ -1,12 +1,12 @@
 ---
 UID: NF:mpeg2data.IMpeg2TableFilter.AddExtension
 title: IMpeg2TableFilter::AddExtension (mpeg2data.h)
-author: windows-sdk-content
+
 description: The AddExtension method adds a table extension to the list of MPEG-2 table sections that the filter sends.
 old-location: mstv\impeg2tablefilter_addextension.htm
 tech.root: mstv
 ms.assetid: 20484b0e-c6c8-4741-9672-a991ba368e92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddExtension, AddExtension method [Microsoft TV Technologies], AddExtension method [Microsoft TV Technologies],IMpeg2TableFilter interface, IMpeg2TableFilter interface [Microsoft TV Technologies],AddExtension method, IMpeg2TableFilter.AddExtension, IMpeg2TableFilter::AddExtension, IMpeg2TableFilterAddExtension, mpeg2data/IMpeg2TableFilter::AddExtension, mstv.impeg2tablefilter_addextension
 ms.topic: method

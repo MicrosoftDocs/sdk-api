@@ -1,12 +1,12 @@
 ---
 UID: NF:faxdev.FaxDevStartJob
 title: FaxDevStartJob function (faxdev.h)
-author: windows-sdk-content
+
 description: The fax service calls the FaxDevStartJob function to initialize a new fax job. The fax service also calls FaxDevStartJob to signal the beginning of each fax operation to the fax service provider (FSP). Each FSP must export the FaxDevStartJob function.
 old-location: fax\_mfax_faxdevstartjob.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_5ode.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FaxDevStartJob, FaxDevStartJob function [Fax Service], _mfax_faxdevstartjob, fax._mfax_faxdevstartjob, faxdev/FaxDevStartJob
 ms.topic: function

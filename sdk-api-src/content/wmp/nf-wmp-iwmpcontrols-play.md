@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPControls.play
 title: IWMPControls::play (wmp.h)
-author: windows-sdk-content
+
 description: The play method causes the current media item to start playing, or resumes play of a paused item.
 old-location: wmp\iwmpcontrols_play.htm
 tech.root: WMP
 ms.assetid: 45b5634b-6d23-4e61-90e4-ef0cc9d90a14
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],play method, IWMPControls.play, IWMPControls::play, IWMPControlsplay, play, play method [Windows Media Player], play method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_play, wmp/IWMPControls::play
 ms.topic: method

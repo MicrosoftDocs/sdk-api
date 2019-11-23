@@ -1,12 +1,12 @@
 ---
 UID: NF:audiopolicy.IAudioSessionNotification.OnSessionCreated
 title: IAudioSessionNotification::OnSessionCreated (audiopolicy.h)
-author: windows-sdk-content
+
 description: The OnSessionCreated method notifies the registered processes that the audio session has been created.
 old-location: coreaudio\iaudiosessionnotification_onsessioncreated.htm
 tech.root: CoreAudio
 ms.assetid: 03f22e06-f446-4c57-a955-3d12deec4152
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionNotification interface [Core Audio],OnSessionCreated method, IAudioSessionNotification.OnSessionCreated, IAudioSessionNotification::OnSessionCreated, OnSessionCreated, OnSessionCreated method [Core Audio], OnSessionCreated method [Core Audio],IAudioSessionNotification interface, audiopolicy/IAudioSessionNotification::OnSessionCreated, coreaudio.iaudiosessionnotification_onsessioncreated
 ms.topic: method

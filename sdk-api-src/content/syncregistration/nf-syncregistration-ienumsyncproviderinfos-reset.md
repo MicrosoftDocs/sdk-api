@@ -1,12 +1,12 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderInfos.Reset
 title: IEnumSyncProviderInfos::Reset (syncregistration.h)
-author: windows-sdk-content
+
 description: Resets the enumerator to the beginning of the ISyncProviderInfo set.
 old-location: winsync\ienumsyncproviderinfos_reset.htm
 tech.root: winsync
 ms.assetid: c2a7374b-fd57-4f50-b740-941625377b64
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderInfos interface [Windows Sync],Reset method, IEnumSyncProviderInfos.Reset, IEnumSyncProviderInfos::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncProviderInfos interface, syncregistration/IEnumSyncProviderInfos::Reset, winsync.ienumsyncproviderinfos_reset
 ms.topic: method

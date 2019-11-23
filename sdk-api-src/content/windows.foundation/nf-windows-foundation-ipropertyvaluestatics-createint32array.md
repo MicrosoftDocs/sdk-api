@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateInt32Array
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-author: windows-sdk-content
+
 description: Creates a new IPropertyValue object that contains the specified array of signed 32-bit integer values.
 old-location: winrt\ipropertyvaluestatics_createint32array.htm
 tech.root: WinRT
 ms.assetid: 148eae0c-db3b-4a62-8edb-3225a688265c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateInt32Array, CreateInt32Array method [Windows Runtime], CreateInt32Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInt32Array method, IPropertyValueStatics.CreateInt32Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInt32Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInt32Array, winrt.ipropertyvaluefactory_createint32array, winrt.ipropertyvaluestatics_createint32array
 ms.topic: method

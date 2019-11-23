@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.EngFreeModule
 title: EngFreeModule function (winddi.h)
-author: windows-sdk-content
+
 description: The EngFreeModule function unmaps a file from system memory.
 old-location: display\engfreemodule.htm
 tech.root: display
 ms.assetid: f5520aec-5747-4970-ba2f-06b39e4f43f2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngFreeModule, EngFreeModule function [Display Devices], display.engfreemodule, gdifncs_23d84e6d-60e7-43a4-af20-3234c8581190.xml, winddi/EngFreeModule
 ms.topic: function

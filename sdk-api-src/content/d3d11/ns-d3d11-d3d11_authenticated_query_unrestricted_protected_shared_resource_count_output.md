@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT
 title: D3D11_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT (d3d11.h)
-author: windows-sdk-content
+
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT query.
 old-location: mf\d3d11_authenticated_query_unrestricted_protected_shared_resource_count_output.htm
 tech.root: medfound
 ms.assetid: FE0ACC04-2FF2-43C2-8D65-5FFFF0C768CE
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT, D3D11_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT, mf.d3d11_authenticated_query_unrestricted_protected_shared_resource_count_output
 ms.topic: struct

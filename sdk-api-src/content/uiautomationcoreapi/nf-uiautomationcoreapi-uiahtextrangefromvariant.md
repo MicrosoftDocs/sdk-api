@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.UiaHTextRangeFromVariant
 title: UiaHTextRangeFromVariant function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Gets a text range from a VARIANT type.
 old-location: winauto\uiauto_UiaHTextRangeFromVariantFunction.htm
 tech.root: WinAuto
 ms.assetid: 139b970f-614c-42ff-b1d1-4d8644d98d06
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UiaHTextRangeFromVariant, UiaHTextRangeFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHTextRangeFromVariantFunction, uiauto_UiaHTextRangeFromVariantFunction, uiautomationcoreapi/UiaHTextRangeFromVariant, winauto.uiauto_UiaHTextRangeFromVariantFunction
 ms.topic: function

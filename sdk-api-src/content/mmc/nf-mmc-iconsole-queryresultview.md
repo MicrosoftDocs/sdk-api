@@ -1,12 +1,12 @@
 ---
 UID: NF:mmc.IConsole.QueryResultView
 title: IConsole::QueryResultView (mmc.h)
-author: windows-sdk-content
+
 description: Queries IConsole for the result view object IUnknown interface pointer.
 old-location: mmc\iconsole_queryresultview.htm
 tech.root: mmc
 ms.assetid: A13410D1-38F3-489A-8AAC-BD2909341ACB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],QueryResultView method, IConsole.QueryResultView, IConsole::QueryResultView, QueryResultView, QueryResultView method [MMC], QueryResultView method [MMC],IConsole interface, mmc.iconsole_queryresultview, mmc/IConsole::QueryResultView
 ms.topic: method

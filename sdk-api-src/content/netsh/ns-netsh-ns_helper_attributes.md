@@ -1,12 +1,12 @@
 ---
 UID: NS:netsh._NS_HELPER_ATTRIBUTES
 title: NS_HELPER_ATTRIBUTES (netsh.h)
-author: windows-sdk-content
+
 description: Provides attributes of a helper.
 old-location: netshell\ns_helper_attributes.htm
 tech.root: netshell
 ms.assetid: b2a3ae40-4aaa-41b2-965c-1467a07ab2de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PNS_HELPER_ATTRIBUTES, NS_HELPER_ATTRIBUTES, NS_HELPER_ATTRIBUTES structure [NetShell], PNS_HELPER_ATTRIBUTES, PNS_HELPER_ATTRIBUTES structure pointer [NetShell], _netsh_ns_helper_attributes, netsh/NS_HELPER_ATTRIBUTES, netsh/PNS_HELPER_ATTRIBUTES, netshell.ns_helper_attributes"
 ms.topic: struct

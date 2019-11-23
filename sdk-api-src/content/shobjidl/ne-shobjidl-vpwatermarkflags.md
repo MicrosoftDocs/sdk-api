@@ -1,12 +1,12 @@
 ---
 UID: NE:shobjidl.VPWATERMARKFLAGS
 title: VPWATERMARKFLAGS (shobjidl.h)
-author: windows-sdk-content
+
 description: Specifies watermark flags. Used by IVisualProperties::SetWatermark.
 old-location: shell\VPWATERMARKFLAGS.htm
 tech.root: shell
 ms.assetid: e54db88e-c334-442b-8ab5-6004176aab41
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VPWATERMARKFLAGS, VPWATERMARKFLAGS enumeration [Windows Shell], VPWF_ALPHABLEND, VPWF_DEFAULT, _shell_VPWATERMARKFLAGS, shell.VPWATERMARKFLAGS, shobjidl/VPWATERMARKFLAGS, shobjidl/VPWF_ALPHABLEND, shobjidl/VPWF_DEFAULT
 ms.topic: enum

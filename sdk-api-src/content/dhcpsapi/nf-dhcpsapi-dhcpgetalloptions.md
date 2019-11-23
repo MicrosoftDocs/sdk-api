@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpGetAllOptions
 title: DhcpGetAllOptions function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Returns an array that contains all options defined on the DHCP server.
 old-location: dhcp\dhcpgetalloptions.htm
 tech.root: DHCP
 ms.assetid: 72284a0e-4bd9-451a-bf6b-4b11bbbd4511
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetAllOptions, DhcpGetAllOptions function [DHCP], dhcp.dhcpgetalloptions, dhcpsapi/DhcpGetAllOptions
 ms.topic: function

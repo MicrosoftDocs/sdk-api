@@ -1,12 +1,12 @@
 ---
 UID: NF:msiquery.MsiViewExecute
 title: MsiViewExecute function (msiquery.h)
-author: windows-sdk-content
+
 description: The MsiViewExecute function executes a SQL view query and supplies any required parameters.
 old-location: setup\msiviewexecute.htm
 tech.root: Msi
 ms.assetid: 12b2373f-425a-4035-bdb4-be1a5469f1d7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MsiViewExecute, MsiViewExecute function, _msi_msiviewexecute, msiquery/MsiViewExecute, setup.msiviewexecute
 ms.topic: function

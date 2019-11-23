@@ -1,12 +1,12 @@
 ---
 UID: NF:amvideo.RESET_PALETTE
 title: RESET_PALETTE macro (amvideo.h)
-author: windows-sdk-content
+
 description: The RESET_PALETTE macro fills the palette entries in a VIDEOINFO structure with zeroes.
 old-location: dshow\reset_palette.htm
 tech.root: DirectShow
 ms.assetid: e981f5d4-9ad2-4e9b-8bc8-6a5e9a2fd632
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RESET_PALETTE, RESET_PALETTE macro [DirectShow], amvideo/RESET_PALETTE, dshow.reset_palette
 ms.topic: macro

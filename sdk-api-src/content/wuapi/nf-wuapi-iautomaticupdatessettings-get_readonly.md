@@ -1,12 +1,12 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.get_ReadOnly
 title: IAutomaticUpdatesSettings::get_ReadOnly (wuapi.h)
-author: windows-sdk-content
+
 description: Gets a Boolean value that indicates whether the Automatic Update settings are read-only.
 old-location: wua\iautomaticupdatessettings_readonly.htm
 tech.root: Wua_Sdk
 ms.assetid: e7a066b9-9581-4573-82e2-a6f2ca7440ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],ReadOnly property, IAutomaticUpdatesSettings.ReadOnly, IAutomaticUpdatesSettings.get_ReadOnly, IAutomaticUpdatesSettings::ReadOnly, IAutomaticUpdatesSettings::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IAutomaticUpdatesSettings interface, get_ReadOnly, wua.iautomaticupdatessettings_readonly, wuapi/IAutomaticUpdatesSettings::ReadOnly, wuapi/IAutomaticUpdatesSettings::get_ReadOnly
 ms.topic: method

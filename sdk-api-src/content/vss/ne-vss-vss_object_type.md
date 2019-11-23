@@ -1,12 +1,12 @@
 ---
 UID: NE:vss._VSS_OBJECT_TYPE
 title: VSS_OBJECT_TYPE (vss.h)
-author: windows-sdk-content
+
 description: Used by requesters to identify an object as a shadow copy set, shadow copy, or provider.
 old-location: base\vss_object_type.htm
 tech.root: VSS
 ms.assetid: b7c91003-0ce7-463e-a816-c212da9dc31e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_OBJECT_TYPE, PVSS_OBJECT_TYPE, PVSS_OBJECT_TYPE enumeration pointer [VSS], VSS_OBJECT_NONE, VSS_OBJECT_PROVIDER, VSS_OBJECT_SNAPSHOT, VSS_OBJECT_SNAPSHOT_SET, VSS_OBJECT_TYPE, VSS_OBJECT_TYPE enumeration [VSS], VSS_OBJECT_TYPE_COUNT, VSS_OBJECT_UNKNOWN, _win32_vss_object_type, base.vss_object_type, vss/PVSS_OBJECT_TYPE, vss/VSS_OBJECT_NONE, vss/VSS_OBJECT_PROVIDER, vss/VSS_OBJECT_SNAPSHOT, vss/VSS_OBJECT_SNAPSHOT_SET, vss/VSS_OBJECT_TYPE, vss/VSS_OBJECT_TYPE_COUNT, vss/VSS_OBJECT_UNKNOWN'
 ms.topic: enum

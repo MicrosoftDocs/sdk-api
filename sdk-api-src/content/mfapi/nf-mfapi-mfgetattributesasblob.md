@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFGetAttributesAsBlob
 title: MFGetAttributesAsBlob function (mfapi.h)
-author: windows-sdk-content
+
 description: Converts the contents of an attribute store to a byte array.
 old-location: mf\mfgetattributesasblob.htm
 tech.root: medfound
 ms.assetid: 1a3bd860-1022-481f-8615-5a73c16dd77b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 1a3bd860-1022-481f-8615-5a73c16dd77b, MFGetAttributesAsBlob, MFGetAttributesAsBlob function [Media Foundation], mf.mfgetattributesasblob, mfapi/MFGetAttributesAsBlob
 ms.topic: function

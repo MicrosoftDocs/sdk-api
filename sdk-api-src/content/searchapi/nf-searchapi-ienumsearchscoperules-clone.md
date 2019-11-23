@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.IEnumSearchScopeRules.Clone
 title: IEnumSearchScopeRules::Clone (searchapi.h)
-author: windows-sdk-content
+
 description: Creates a copy of this IEnumSearchScopeRules object with the same contents and state as the current one.
 old-location: search\_search_IEnumSearchScopeRules_Clone.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\clone.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],IEnumSearchScopeRules interface, IEnumSearchScopeRules interface [search],Clone method, IEnumSearchScopeRules.Clone, IEnumSearchScopeRules::Clone, _search_IEnumSearchScopeRules_Clone, search._search_IEnumSearchScopeRules_Clone, searchapi/IEnumSearchScopeRules::Clone
 ms.topic: method

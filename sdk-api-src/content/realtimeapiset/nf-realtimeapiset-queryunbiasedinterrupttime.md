@@ -1,12 +1,12 @@
 ---
 UID: NF:realtimeapiset.QueryUnbiasedInterruptTime
 title: QueryUnbiasedInterruptTime function (realtimeapiset.h)
-author: windows-sdk-content
+
 description: Gets the current unbiased interrupt-time count, in units of 100 nanoseconds. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.
 old-location: base\queryunbiasedinterrupttime.htm
 tech.root: SysInfo
 ms.assetid: f9cf5440-9be9-4ff9-b85c-2779b847954c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: QueryUnbiasedInterruptTime, QueryUnbiasedInterruptTime function, base.queryunbiasedinterrupttime, realtimeapiset/QueryUnbiasedInterruptTime
 ms.topic: function

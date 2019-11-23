@@ -1,12 +1,12 @@
 ---
 UID: NN:wrdsgraphicschannels.IWRdsGraphicsChannelEvents
 title: IWRdsGraphicsChannelEvents (wrdsgraphicschannels.h)
-author: windows-sdk-content
+
 description: This interface receives notifications that relate to a graphics virtual channel.
 old-location: termserv\iwrdsgraphicschannelevents.htm
 tech.root: TermServ
 ms.assetid: 59802a2d-bdb0-4792-b667-5095d4a02b06
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannelEvents, IWRdsGraphicsChannelEvents interface [Remote Desktop Services], IWRdsGraphicsChannelEvents interface [Remote Desktop Services],described, termserv.iwrdsgraphicschannelevents, wrdsgraphicschannels/IWRdsGraphicsChannelEvents
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.GetUrlCacheGroupAttributeW
 title: GetUrlCacheGroupAttributeW function (wininet.h)
-author: windows-sdk-content
+
 description: Retrieves the attribute information of the specified cache group.
 old-location: wininet\geturlcachegroupattribute.htm
 tech.root: wininet
 ms.assetid: 5e4e5666-1999-4bea-9b3e-f435f5dcfff8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetUrlCacheGroupAttribute, GetUrlCacheGroupAttribute function [WinINet], GetUrlCacheGroupAttributeA, GetUrlCacheGroupAttributeW, _inet_geturlcachegroupattribute_function, wininet.geturlcachegroupattribute, wininet/GetUrlCacheGroupAttribute, wininet/GetUrlCacheGroupAttributeA, wininet/GetUrlCacheGroupAttributeW
 ms.topic: function

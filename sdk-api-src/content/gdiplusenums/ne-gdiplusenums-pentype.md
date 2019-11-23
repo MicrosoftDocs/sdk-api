@@ -1,12 +1,12 @@
 ---
 UID: NE:gdiplusenums.PenType
 title: PenType (gdiplusenums.h)
-author: windows-sdk-content
+
 description: The PenType enumeration indicates the type of pattern, texture, or gradient that a pen draws.
 old-location: gdiplus\_gdiplus_ENUM_PenType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\pentype.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PenType, PenType enumeration [GDI+], PenTypeHatchFill, PenTypeLinearGradient, PenTypePathGradient, PenTypeSolidColor, PenTypeTextureFill, PenTypeUnknown, _gdiplus_ENUM_PenType, gdiplus._gdiplus_ENUM_PenType, gdiplusenums/PenType, gdiplusenums/PenTypeHatchFill, gdiplusenums/PenTypeLinearGradient, gdiplusenums/PenTypePathGradient, gdiplusenums/PenTypeSolidColor, gdiplusenums/PenTypeTextureFill, gdiplusenums/PenTypeUnknown
 ms.topic: enum

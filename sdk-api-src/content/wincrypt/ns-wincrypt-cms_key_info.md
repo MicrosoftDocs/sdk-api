@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CMS_KEY_INFO
 title: CMS_KEY_INFO (wincrypt.h)
-author: windows-sdk-content
+
 description: Not used.
 old-location: security\cms_key_info.htm
 tech.root: SecCrypto
 ms.assetid: 4aec1184-d375-48a0-8b98-d5ff5932d297
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCMS_KEY_INFO, CMS_KEY_INFO, CMS_KEY_INFO structure [Security], PCMS_KEY_INFO, PCMS_KEY_INFO structure pointer [Security], security.cms_key_info, wincrypt/CMS_KEY_INFO, wincrypt/PCMS_KEY_INFO"
 ms.topic: struct

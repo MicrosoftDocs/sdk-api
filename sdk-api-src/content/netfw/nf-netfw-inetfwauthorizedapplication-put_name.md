@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.put_Name
 title: INetFwAuthorizedApplication::put_Name (netfw.h)
-author: windows-sdk-content
+
 description: Specifies the friendly name of this application.
 old-location: ics\inetfwauthorizedapplication_name.htm
 tech.root: ics
 ms.assetid: 4937e0a5-089f-404f-b0dc-bba8e8a332a5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],Name property, INetFwAuthorizedApplication.Name, INetFwAuthorizedApplication.put_Name, INetFwAuthorizedApplication::Name, INetFwAuthorizedApplication::get_Name, INetFwAuthorizedApplication::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwAuthorizedApplication interface, ics.inetfwauthorizedapplication_name, netfw/INetFwAuthorizedApplication::Name, netfw/INetFwAuthorizedApplication::get_Name, netfw/INetFwAuthorizedApplication::put_Name, put_Name
 ms.topic: method

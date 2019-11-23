@@ -1,12 +1,12 @@
 ---
 UID: NE:ntsecapi._PKU2U_LOGON_SUBMIT_TYPE
 title: PKU2U_LOGON_SUBMIT_TYPE (ntsecapi.h)
-author: windows-sdk-content
+
 description: Indicates the type of logon message passed in a PKU2U_CERTIFICATE_S4U_LOGON structure.
 old-location: security\pku2u_logon_submit_type.htm
 tech.root: SecAuthN
 ms.assetid: 10de9dd4-0f6c-4431-a60d-9b9c60585676
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PPKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SUBMIT_TYPE enumeration [Security], PPKU2U_LOGON_SUBMIT_TYPE, PPKU2U_LOGON_SUBMIT_TYPE enumeration pointer [Security], Pku2uCertificateS4ULogon, ntsecapi/PKU2U_LOGON_SUBMIT_TYPE, ntsecapi/PPKU2U_LOGON_SUBMIT_TYPE, ntsecapi/Pku2uCertificateS4ULogon, security.pku2u_logon_submit_type'
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser.tagSTYLESTRUCT
 title: STYLESTRUCT (winuser.h)
-author: windows-sdk-content
+
 description: Contains the styles for a window.
 old-location: winmsg\stylestruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\stylestruct.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPSTYLESTRUCT, LPSTYLESTRUCT, LPSTYLESTRUCT structure pointer [Windows and Messages], STYLESTRUCT, STYLESTRUCT structure [Windows and Messages], _win32_STYLESTRUCT_str, _win32_stylestruct_str_cpp, winmsg.stylestruct, winui._win32_stylestruct_str, winuser/LPSTYLESTRUCT, winuser/STYLESTRUCT"
 ms.topic: struct

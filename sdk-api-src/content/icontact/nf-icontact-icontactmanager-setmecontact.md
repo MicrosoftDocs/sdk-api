@@ -1,12 +1,12 @@
 ---
 UID: NF:icontact.IContactManager.SetMeContact
 title: IContactManager::SetMeContact (icontact.h)
-author: windows-sdk-content
+
 description: Sets the local user account concept of 'me' to specified user.
 old-location: wincontacts\_wincontacts_IContactManager_SetMeContact.htm
 tech.root: wincontacts
 ms.assetid: 3922ea46-da14-44ad-a9bf-8a10480722da
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IContactManager interface [Windows Contacts],SetMeContact method, IContactManager.SetMeContact, IContactManager::SetMeContact, SetMeContact, SetMeContact method [Windows Contacts], SetMeContact method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_SetMeContact, icontact/IContactManager::SetMeContact, wincontacts._wincontacts_IContactManager_SetMeContact
 ms.topic: method

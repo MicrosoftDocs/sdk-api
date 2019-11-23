@@ -1,12 +1,12 @@
 ---
 UID: NS:wmsdkidl._WMWriterStatisticsEx
 title: WM_WRITER_STATISTICS_EX (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The WM_WRITER_STATISTICS_EX structure is used by IWMWriterAdvanced3::GetStatisticsEx to obtain extended writer statistics.
 old-location: wmformat\wm_writer_statistics_ex.htm
 tech.root: wmformat
 ms.assetid: f98a5934-968e-4c74-9fd2-f824ad77692c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WM_WRITER_STATISTICS_EX, WM_WRITER_STATISTICS_EX structure [windows Media Format], wmformat.wm_writer_statistics_ex, wmsdkidl/WM_WRITER_STATISTICS_EX
 ms.topic: struct

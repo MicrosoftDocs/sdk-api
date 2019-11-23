@@ -1,12 +1,12 @@
 ---
 UID: NF:objbase.CreateDataCache
 title: CreateDataCache function (objbase.h)
-author: windows-sdk-content
+
 description: Retrieves a pointer to a new instance of an OLE-provided implementation of a data cache.
 old-location: com\createdatacache.htm
 tech.root: com
 ms.assetid: 8a64675b-1337-4555-b9a6-e19f9b987ba2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateDataCache, CreateDataCache function [COM], _ole_CreateDataCache, com.createdatacache, objbase/CreateDataCache
 ms.topic: function

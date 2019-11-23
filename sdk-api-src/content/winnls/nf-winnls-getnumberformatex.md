@@ -1,12 +1,12 @@
 ---
 UID: NF:winnls.GetNumberFormatEx
 title: GetNumberFormatEx function (winnls.h)
-author: windows-sdk-content
+
 description: Formats a number string as a number string customized for a locale specified by name.Note  The application should call this function in preference to GetNumberFormat if designed to run only on Windows Vista and later. Note  This function can format data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\getnumberformatex.htm
 tech.root: Intl
 ms.assetid: 7874bc6e-1db2-44be-aa7a-7c716d23f7a4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNumberFormatEx, GetNumberFormatEx function [Internationalization for Windows Applications], _win32_GetNumberFormatEx, intl.getnumberformatex, winnls/GetNumberFormatEx
 ms.topic: function

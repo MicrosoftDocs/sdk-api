@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._PUBKEY
 title: DHPUBKEY (wincrypt.h)
-author: windows-sdk-content
+
 description: Contains information specific to the particular Diffie-Hellman public key contained in the key BLOB.
 old-location: security\dhpubkey.htm
 tech.root: SecCrypto
 ms.assetid: 12fb2e81-796d-4501-91b5-ee572a3293bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DHPUBKEY, DHPUBKEY structure [Security], DSSPUBKEY, KEAPUBKEY, TEKPUBKEY, _PUBKEY, _crypto2_dhpubkey, security.dhpubkey, wincrypt/DHPUBKEY
 ms.topic: struct

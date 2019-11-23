@@ -1,12 +1,12 @@
 ---
 UID: NE:uiribbon.UI_OWNERSHIP
 title: UI_OWNERSHIP (uiribbon.h)
-author: windows-sdk-content
+
 description: Specifies values that identify the ownership conditions under which an image is created by the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_ui_ownership.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_ownership.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UI_OWNERSHIP, UI_OWNERSHIP enumeration [Windows Ribbon], UI_OWNERSHIP_COPY, UI_OWNERSHIP_TRANSFER, scenicintent_UI_OWNERSHIP, uiribbon/UI_OWNERSHIP, uiribbon/UI_OWNERSHIP_COPY, uiribbon/UI_OWNERSHIP_TRANSFER, windowsribbon.windowsribbon_ui_ownership
 ms.topic: enum

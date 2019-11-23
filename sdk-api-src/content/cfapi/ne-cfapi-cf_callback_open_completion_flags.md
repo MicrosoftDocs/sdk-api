@@ -1,12 +1,12 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_OPEN_COMPLETION_FLAGS
 title: CF_CALLBACK_OPEN_COMPLETION_FLAGS (cfapi.h)
-author: windows-sdk-content
+
 description: Callback flags for notifying a sync provider that a placeholder was successfully opened for read/write/delete access.
 old-location: cloudapi\cf_callback_open_completion_flags.htm
 tech.root: cfApi
 ms.assetid: FF7EA010-B90A-46F8-A373-5C128B31FE70
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_OPEN_COMPLETION_FLAGS, CF_CALLBACK_OPEN_COMPLETION_FLAGS enumeration, CF_CALLBACK_OPEN_COMPLETION_FLAG_NONE, CF_CALLBACK_OPEN_COMPLETION_FLAG_PLACEHOLDER_UNKNOWN, CF_CALLBACK_OPEN_COMPLETION_FLAG_PLACEHOLDER_UNSUPPORTED, cfapi/CF_CALLBACK_OPEN_COMPLETION_FLAGS, cfapi/CF_CALLBACK_OPEN_COMPLETION_FLAG_NONE, cfapi/CF_CALLBACK_OPEN_COMPLETION_FLAG_PLACEHOLDER_UNKNOWN, cfapi/CF_CALLBACK_OPEN_COMPLETION_FLAG_PLACEHOLDER_UNSUPPORTED, cloudApi.cf_callback_open_completion_flags
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.SetSlideshow
 title: IDesktopWallpaper::SetSlideshow (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Specifies the images to use for the desktop wallpaper slideshow.
 old-location: shell\IDesktopWallpaper_SetSlideshow.htm
 tech.root: shell
 ms.assetid: 0E4743A0-75AB-456a-BAAE-8EC4C0D14E6C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetSlideshow method, IDesktopWallpaper.SetSlideshow, IDesktopWallpaper::SetSlideshow, SetSlideshow, SetSlideshow method [Windows Shell], SetSlideshow method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetSlideshow, shobjidl_core/IDesktopWallpaper::SetSlideshow
 ms.topic: method

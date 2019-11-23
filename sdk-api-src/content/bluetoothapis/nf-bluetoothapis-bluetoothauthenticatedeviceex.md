@@ -1,12 +1,12 @@
 ---
 UID: NF:bluetoothapis.BluetoothAuthenticateDeviceEx
 title: BluetoothAuthenticateDeviceEx function (bluetoothapis.h)
-author: windows-sdk-content
+
 description: The BluetoothAuthenticateDeviceEx function sends an authentication request to a remote Bluetooth device.
 old-location: bluetooth\bluetoothauthenticatedeviceex.htm
 tech.root: bluetooth
 ms.assetid: 948bf14c-9661-4fe9-b082-009afd867baf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BluetoothAuthenticateDeviceEx, BluetoothAuthenticateDeviceEx function [Bluetooth], bluetooth.bluetoothauthenticatedeviceex, bluetoothapis/BluetoothAuthenticateDeviceEx
 ms.topic: function

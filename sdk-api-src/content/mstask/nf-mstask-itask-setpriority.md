@@ -1,12 +1,12 @@
 ---
 UID: NF:mstask.ITask.SetPriority
 title: ITask::SetPriority (mstask.h)
-author: windows-sdk-content
+
 description: This method sets the priority for the task.
 old-location: taskschd\itask_setpriority.htm
 tech.root: taskschd
 ms.assetid: f72e5fb8-761e-41bd-be64-b886ebc2c1e5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITask interface [Task Scheduler],SetPriority method, ITask.SetPriority, ITask::SetPriority, SetPriority, SetPriority method [Task Scheduler], SetPriority method [Task Scheduler],ITask interface, _msb_itask_setpriority, mstask/ITask::SetPriority, taskschd.itask_setpriority
 ms.topic: method

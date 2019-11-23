@@ -1,12 +1,12 @@
 ---
 UID: NN:infotech.IITPropList
 title: IITPropList (infotech.h)
-author: windows-sdk-content
+
 description: Use this interface to set properties for build objects such as word wheels and indexes. Call these methods in the document build process to define properties for all build objects.
 old-location: htmlhelp\iitproplist.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistinterface.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IITPropList, IITPropList interface [HTML Help Workshop], IITPropList interface [HTML Help Workshop],described, htmlhelp.iitproplist, infotech/IITPropList, refIITPropListInterface
 ms.topic: interface

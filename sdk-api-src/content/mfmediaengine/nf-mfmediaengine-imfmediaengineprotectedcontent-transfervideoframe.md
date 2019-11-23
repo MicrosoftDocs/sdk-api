@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.TransferVideoFrame
 title: IMFMediaEngineProtectedContent::TransferVideoFrame (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Copies a protected video frame to a DXGI surface.
 old-location: mf\imfmediaengineprotectedcontent_transfervideoframe.htm
 tech.root: medfound
 ms.assetid: 3A5C6908-65F4-4E7A-AD71-BBD1C2A4ACE3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],TransferVideoFrame method, IMFMediaEngineProtectedContent.TransferVideoFrame, IMFMediaEngineProtectedContent::TransferVideoFrame, TransferVideoFrame, TransferVideoFrame method [Media Foundation], TransferVideoFrame method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_transfervideoframe, mfmediaengine/IMFMediaEngineProtectedContent::TransferVideoFrame
 ms.topic: method

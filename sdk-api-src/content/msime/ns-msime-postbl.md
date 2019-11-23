@@ -1,12 +1,12 @@
 ---
 UID: NS:msime._POSTBL
 title: POSTBL (msime.h)
-author: windows-sdk-content
+
 description: An entry in the public POS (Part of Speech) table.
 old-location: intl\postbl.htm
 tech.root: Intl
 ms.assetid: CA6A4E71-651A-44CA-B47D-79888A36BB12
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: POSTBL, POSTBL structure [Internationalization for Windows Applications], PPOSTBL, PPOSTBL structure pointer [Internationalization for Windows Applications], intl.postbl, msime/POSTBL, msime/PPOSTBL
 ms.topic: struct

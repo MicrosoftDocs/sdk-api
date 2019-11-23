@@ -1,12 +1,12 @@
 ---
 UID: NE:sensorsapi.MagnetometerAccuracy
 title: MagnetometerAccuracy (sensorsapi.h)
-author: windows-sdk-content
+
 description: Specifies the accuracy of the magnetometer.
 old-location: winsensors\magnetometeraccuracy.htm
 tech.root: SensorsAPI
 ms.assetid: DBD06A2E-35AB-4692-8475-98B803C2202B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Approximate, High, MagnetometerAccuracy, MagnetometerAccuracy enumeration [WinSensors], Unknown, Unreliable, sensorsapi/Approximate, sensorsapi/High, sensorsapi/MagnetometerAccuracy, sensorsapi/Unknown, sensorsapi/Unreliable, winsensors.magnetometeraccuracy
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_DISCARD_ENROLLMENT_FN
 title: PIBIO_ENGINE_DISCARD_ENROLLMENT_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Deletes intermediate enrollment state information from the pipeline.
 old-location: secbiomet\engineadapterdiscardenrollment.htm
 tech.root: SecBioMet
 ms.assetid: 305540bc-e0c6-460a-a00b-c295b3d6db93
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterDiscardEnrollment, EngineAdapterDiscardEnrollment callback function [Windows Biometric Framework API], PIBIO_ENGINE_DISCARD_ENROLLMENT_FN, PIBIO_ENGINE_DISCARD_ENROLLMENT_FN callback, secbiomet.engineadapterdiscardenrollment, winbio_adapter/EngineAdapterDiscardEnrollment
 ms.topic: callback

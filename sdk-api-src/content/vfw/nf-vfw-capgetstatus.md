@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.capGetStatus
 title: capGetStatus macro (vfw.h)
-author: windows-sdk-content
+
 description: The capGetStatus macro retrieves the status of the capture window. You can use this macro or explicitly call the WM_CAP_GET_STATUS message.
 old-location: multimedia\capgetstatus.htm
 tech.root: Multimedia
 ms.assetid: 5c974707-b6ca-4177-a262-6838d308fb0a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_capGetStatus, capGetStatus, capGetStatus macro [Windows Multimedia], multimedia.capgetstatus, vfw/capGetStatus"
 ms.topic: macro

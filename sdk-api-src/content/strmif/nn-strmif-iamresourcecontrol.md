@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IAMResourceControl
 title: IAMResourceControl (strmif.h)
-author: windows-sdk-content
+
 description: The IAMResourceControl interface opens and holds an audio device resource before the device is actually needed, so that playback can be guaranteed or the application can learn in advance that a device is not available.The following filters implement this interface:Audio Capture filter.DirectSound Renderer filter.Audio Renderer (WaveOut) filter.
 old-location: dshow\iamresourcecontrol.htm
 tech.root: DirectShow
 ms.assetid: 9b0b6b46-bf61-44c2-981a-44df4d7c6dfb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMResourceControl, IAMResourceControl interface [DirectShow], IAMResourceControl interface [DirectShow],described, IAMResourceControlInterface, dshow.iamresourcecontrol, strmif/IAMResourceControl
 ms.topic: interface

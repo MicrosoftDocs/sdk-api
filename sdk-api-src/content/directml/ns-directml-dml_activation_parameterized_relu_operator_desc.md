@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_ACTIVATION_PARAMETERIZED_RELU_OPERATOR_DESC
 title: DML_ACTIVATION_PARAMETERIZED_RELU_OPERATOR_DESC
-author: windows-sdk-content
+
 description: Describes a DirectML operator that performs a parameterized rectified linear unit (ReLU) activation function on every element in the input, f(x) = if x &gt;= 0 then x else slope * x.
 old-location: direct3d12\dml_activation_parameterized_relu_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: E30AF01B-8711-4A9A-A9B7-BDB20FDBF9B4
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_PARAMETERIZED_RELU_OPERATOR_DESC, DML_ACTIVATION_PARAMETERIZED_RELU_OPERATOR_DESC structure, direct3d12.dml_activation_parameterized_relu_operator_desc, directml/DML_ACTIVATION_PARAMETERIZED_RELU_OPERATOR_DESC
 ms.topic: struct

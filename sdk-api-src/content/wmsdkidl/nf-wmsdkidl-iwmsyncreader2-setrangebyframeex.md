@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.SetRangeByFrameEx
 title: IWMSyncReader2::SetRangeByFrameEx (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The SetRangeByFrameEx method configures the synchronous reader to read a portion of the file specified by a starting video frame number and a number of frames to read. This method also retrieves the presentation time of the requested frame number.
 old-location: wmformat\iwmsyncreader2_setrangebyframeex.htm
 tech.root: wmformat
 ms.assetid: 8a21529f-3645-4fe5-900e-19032d601ff4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader2 interface [windows Media Format],SetRangeByFrameEx method, IWMSyncReader2.SetRangeByFrameEx, IWMSyncReader2::SetRangeByFrameEx, IWMSyncReader2SetRangeByFrameEx, SetRangeByFrameEx, SetRangeByFrameEx method [windows Media Format], SetRangeByFrameEx method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setrangebyframeex, wmsdkidl/IWMSyncReader2::SetRangeByFrameEx
 ms.topic: method

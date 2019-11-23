@@ -1,12 +1,12 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetSyncPoint
 title: IAMMediaTypeSample::SetSyncPoint (amstream.h)
-author: windows-sdk-content
+
 description: Note  This interface is deprecated. New applications should not use it. The SetSyncPoint method specifies whether the beginning of this sample is a synchronization point.
 old-location: dshow\iammediatypesample_setsyncpoint.htm
 tech.root: DirectShow
 ms.assetid: d2ff9b33-c49c-4715-b580-f05670a0f405
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetSyncPoint method, IAMMediaTypeSample.SetSyncPoint, IAMMediaTypeSample::SetSyncPoint, IAMMediaTypeSampleSetSyncPoint, SetSyncPoint, SetSyncPoint method [DirectShow], SetSyncPoint method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetSyncPoint, dshow.iammediatypesample_setsyncpoint
 ms.topic: method

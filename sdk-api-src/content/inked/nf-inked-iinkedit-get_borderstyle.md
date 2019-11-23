@@ -1,12 +1,12 @@
 ---
 UID: NF:inked.IInkEdit.get_BorderStyle
 title: IInkEdit::get_BorderStyle (inked.h)
-author: windows-sdk-content
+
 description: Gets or sets a value that determines whether the InkEdit control has a border.
 old-location: tablet\inkedit_borderstyle.htm
 tech.root: tablet
 ms.assetid: 89d42f9c-6354-4159-9717-23c6484b10af
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BorderStyle property [Tablet PC], BorderStyle property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],BorderStyle property, IInkEdit.BorderStyle, IInkEdit.get_BorderStyle, IInkEdit::BorderStyle, IInkEdit::get_BorderStyle, IInkEdit::put_BorderStyle, InkEdit.get_BorderStyle, InkEdit.put_BorderStyle, get_BorderStyle, inked/IInkEdit::BorderStyle, inked/IInkEdit::get_BorderStyle, inked/IInkEdit::put_BorderStyle, put_BorderStyle, rtfFixedSingle, rtfNoBorder, tablet.inkedit_borderstyle
 ms.topic: method

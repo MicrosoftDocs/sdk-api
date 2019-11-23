@@ -1,12 +1,12 @@
 ---
 UID: NF:mmc.IExtendControlbar.SetControlbar
 title: IExtendControlbar::SetControlbar (mmc.h)
-author: windows-sdk-content
+
 description: The IExtendControlbar::SetControlbar method attaches or detaches a control bar.
 old-location: mmc\iextendcontrolbar_setcontrolbar.htm
 tech.root: mmc
 ms.assetid: 5088eff2-b7a0-4c16-a33c-3a82bc2e72af
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IExtendControlbar interface [MMC],SetControlbar method, IExtendControlbar.SetControlbar, IExtendControlbar::SetControlbar, SetControlbar, SetControlbar method [MMC], SetControlbar method [MMC],IExtendControlbar interface, _slate_iextendcontrolbar_setcontrolbar, mmc.iextendcontrolbar_setcontrolbar, mmc/IExtendControlbar::SetControlbar
 ms.topic: method

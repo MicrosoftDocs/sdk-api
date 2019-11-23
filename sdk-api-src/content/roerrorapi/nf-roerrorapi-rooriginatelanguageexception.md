@@ -1,12 +1,12 @@
 ---
 UID: NF:roerrorapi.RoOriginateLanguageException
 title: RoOriginateLanguageException function
-author: windows-sdk-content
+
 description: Reports an error, an informative string, and an error object to an attached debugger.
 old-location: winrt\rooriginatelanguageexception.htm
 tech.root: WinRT
 ms.assetid: 573A9209-31EF-4FD4-A504-16795BA42337
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: RoOriginateLanguageException, RoOriginateLanguageException function [Windows Runtime], roerrorapi/RoOriginateLanguageException, winrt.rooriginatelanguageexception
 ms.prod: windows-hardware

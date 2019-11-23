@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.IRegisteredTaskCollection.get_Item
 title: IRegisteredTaskCollection::get_Item (taskschd.h)
-author: windows-sdk-content
+
 description: Gets the specified registered task from the collection.
 old-location: taskschd\iregisteredtaskcollection_item.htm
 tech.root: taskschd
 ms.assetid: 4cdb4dbe-e4b4-4520-a58f-7613a980af8f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTaskCollection interface [Task Scheduler],Item property, IRegisteredTaskCollection.Item, IRegisteredTaskCollection.get_Item, IRegisteredTaskCollection::Item, IRegisteredTaskCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],IRegisteredTaskCollection interface, get_Item, taskschd.iregisteredtaskcollection_item, taskschd/IRegisteredTaskCollection::Item, taskschd/IRegisteredTaskCollection::get_Item
 ms.topic: method

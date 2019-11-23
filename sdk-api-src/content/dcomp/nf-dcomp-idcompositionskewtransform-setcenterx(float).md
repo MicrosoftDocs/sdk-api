@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetCenterX(float)
 title: IDCompositionSkewTransform::SetCenterX (dcomp.h)
-author: windows-sdk-content
+
 description: Changes the value of the CenterX property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setcenterx_float.htm
 tech.root: directcomp
 ms.assetid: 706A9DDF-ED32-4694-9FF6-580F7AFAB09F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetCenterX method, IDCompositionSkewTransform.SetCenterX, IDCompositionSkewTransform::SetCenterX, IDCompositionSkewTransform::SetCenterX(float), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetCenterX, directcomp.idcompositionskewtransform_setcenterx_float
 ms.topic: method

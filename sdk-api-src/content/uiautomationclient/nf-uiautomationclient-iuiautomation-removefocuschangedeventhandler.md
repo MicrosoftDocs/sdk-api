@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RemoveFocusChangedEventHandler
 title: IUIAutomation::RemoveFocusChangedEventHandler (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Removes a focus-changed event handler.
 old-location: winauto\uiauto_IUIAutomation_RemoveFocusChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 96913631-76e0-405a-888d-ac7f6485a18e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemoveFocusChangedEventHandler method, IUIAutomation.RemoveFocusChangedEventHandler, IUIAutomation::RemoveFocusChangedEventHandler, RemoveFocusChangedEventHandler, RemoveFocusChangedEventHandler method [Windows Accessibility], RemoveFocusChangedEventHandler method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemoveFocusChangedEventHandler, uiauto_IUIAutomation_RemoveFocusChangedEventHandler, uiautomationclient/IUIAutomation::RemoveFocusChangedEventHandler, winauto.uiauto_IUIAutomation_RemoveFocusChangedEventHandler
 ms.topic: method

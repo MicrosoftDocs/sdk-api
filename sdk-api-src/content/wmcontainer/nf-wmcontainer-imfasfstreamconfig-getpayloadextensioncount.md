@@ -1,12 +1,12 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.GetPayloadExtensionCount
 title: IMFASFStreamConfig::GetPayloadExtensionCount (wmcontainer.h)
-author: windows-sdk-content
+
 description: Retrieves the number of payload extensions that are configured for the stream.
 old-location: mf\imfasfstreamconfig_getpayloadextensioncount.htm
 tech.root: medfound
 ms.assetid: 3b1cb5a9-e39c-4f16-abc1-45ab516a4b80
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 3b1cb5a9-e39c-4f16-abc1-45ab516a4b80, GetPayloadExtensionCount, GetPayloadExtensionCount method [Media Foundation], GetPayloadExtensionCount method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetPayloadExtensionCount method, IMFASFStreamConfig.GetPayloadExtensionCount, IMFASFStreamConfig::GetPayloadExtensionCount, mf.imfasfstreamconfig_getpayloadextensioncount, wmcontainer/IMFASFStreamConfig::GetPayloadExtensionCount
 ms.topic: method

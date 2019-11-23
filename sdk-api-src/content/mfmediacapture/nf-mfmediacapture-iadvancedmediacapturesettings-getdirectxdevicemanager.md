@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediacapture.IAdvancedMediaCaptureSettings.GetDirectxDeviceManager
 title: IAdvancedMediaCaptureSettings::GetDirectxDeviceManager (mfmediacapture.h)
-author: windows-sdk-content
+
 description: Gets the DirectX device manager.
 old-location: mf\iadvancedmediacapturesettings_getdirectxdevicemanager.htm
 tech.root: medfound
 ms.assetid: 3fd6ead4-bc37-4ac9-bbdd-e7e2fbbcbcde
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDirectxDeviceManager, GetDirectxDeviceManager method [Media Foundation], GetDirectxDeviceManager method [Media Foundation],IAdvancedMediaCaptureSettings interface, IAdvancedMediaCaptureSettings interface [Media Foundation],GetDirectxDeviceManager method, IAdvancedMediaCaptureSettings.GetDirectxDeviceManager, IAdvancedMediaCaptureSettings::GetDirectxDeviceManager, mf.iadvancedmediacapturesettings_getdirectxdevicemanager, mfmediacapture/IAdvancedMediaCaptureSettings::GetDirectxDeviceManager
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_11
 title: DEFCONTEXTMENU (shlobj_core.h)
-author: windows-sdk-content
+
 description: Contains context menu information used by SHCreateDefaultContextMenu.
 old-location: shell\DEFCONTEXTMENU.htm
 tech.root: shell
 ms.assetid: 007861f6-1e66-4c5f-a459-3cfbe9f8cec2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DEFCONTEXTMENU, DEFCONTEXTMENU structure [Windows Shell], _shell_DEFCONTEXTMENU, shell.DEFCONTEXTMENU, shlobj_core/DEFCONTEXTMENU
 ms.topic: struct

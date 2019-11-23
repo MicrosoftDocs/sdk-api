@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565(uint16_t)
 title: XMU565::XMU565(uint16_t) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMU565 from a uint16_t variable containing component data in a packed format.
 old-location: dxmath\xmu565_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.#ctor(uint16_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(uint16_t), XMU565::XMU565, XMU565::XMU565(uint16_t), dxmath.xmu565_ctor_2
 ms.topic: method

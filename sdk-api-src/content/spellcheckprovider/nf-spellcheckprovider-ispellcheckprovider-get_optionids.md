@@ -1,12 +1,12 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.get_OptionIds
 title: ISpellCheckProvider::get_OptionIds (spellcheckprovider.h)
-author: windows-sdk-content
+
 description: Gets all of the declared option identifiers recognized by the spell checker.
 old-location: intl\ispellcheckprovider_optionids.htm
 tech.root: Intl
 ms.assetid: E776D178-D5F0-4761-8A0C-7108C36AE3B1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],OptionIds property, ISpellCheckProvider.OptionIds, ISpellCheckProvider.get_OptionIds, ISpellCheckProvider::OptionIds, ISpellCheckProvider::get_OptionIds, OptionIds property [Internationalization for Windows Applications], OptionIds property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_OptionIds, intl.ispellcheckprovider_optionids, spellcheckprovider/ISpellCheckProvider::OptionIds, spellcheckprovider/ISpellCheckProvider::get_OptionIds
 ms.topic: method

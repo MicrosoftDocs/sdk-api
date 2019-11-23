@@ -1,12 +1,12 @@
 ---
 UID: NF:mscat.CryptCATGetAttrInfo
 title: CryptCATGetAttrInfo function (mscat.h)
-author: windows-sdk-content
+
 description: Retrieves information about an attribute of a member of a catalog.
 old-location: security\cryptcatgetattrinfo.htm
 tech.root: SecCrypto
 ms.assetid: e36966ea-741e-4380-85cd-5a3c9db38e6d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CryptCATGetAttrInfo, CryptCATGetAttrInfo function [Security], mscat/CryptCATGetAttrInfo, security.cryptcatgetattrinfo
 ms.topic: function

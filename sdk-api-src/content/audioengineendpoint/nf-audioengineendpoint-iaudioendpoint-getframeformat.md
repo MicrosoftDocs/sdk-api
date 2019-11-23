@@ -1,12 +1,12 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpoint.GetFrameFormat
 title: IAudioEndpoint::GetFrameFormat (audioengineendpoint.h)
-author: windows-sdk-content
+
 description: Retrieves the format of the audio endpoint.
 old-location: termserv\iaudioendpoint_getframeformat.htm
 tech.root: TermServ
 ms.assetid: fb34ef19-4155-461e-a8d7-0a903e9d7c72
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFrameFormat, GetFrameFormat method [Remote Desktop Services], GetFrameFormat method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetFrameFormat method, IAudioEndpoint.GetFrameFormat, IAudioEndpoint::GetFrameFormat, audioengineendpoint/IAudioEndpoint::GetFrameFormat, termserv.iaudioendpoint_getframeformat
 ms.topic: method

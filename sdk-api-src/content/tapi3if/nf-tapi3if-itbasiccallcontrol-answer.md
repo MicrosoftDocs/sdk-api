@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Answer
 title: ITBasicCallControl::Answer (tapi3if.h)
-author: windows-sdk-content
+
 description: The Answer method answers an incoming call. This method can succeed only if the call state is CS_OFFERING.
 old-location: tapi3\itbasiccallcontrol_answer.htm
 tech.root: Tapi
 ms.assetid: 81928cf7-082e-44e1-a631-a50a1f01ecec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Answer, Answer method [TAPI 2.2], Answer method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Answer method, ITBasicCallControl.Answer, ITBasicCallControl::Answer, _tapi3_itbasiccallcontrol_answer, tapi3.itbasiccallcontrol_answer, tapi3if/ITBasicCallControl::Answer
 ms.topic: method

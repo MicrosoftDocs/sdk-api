@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IEnumShellItems.Skip
 title: IEnumShellItems::Skip (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Skips a given number of IShellItem interfaces in the enumeration. Used when retrieving interfaces.
 old-location: shell\IEnumShellItems_Skip.htm
 tech.root: shell
 ms.assetid: 5359c9d2-715a-4949-8f40-a35d04423dba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumShellItems interface [Windows Shell],Skip method, IEnumShellItems.Skip, IEnumShellItems::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumShellItems interface, _shell_IEnumShellItems_Skip, shell.IEnumShellItems_Skip, shobjidl_core/IEnumShellItems::Skip
 ms.topic: method

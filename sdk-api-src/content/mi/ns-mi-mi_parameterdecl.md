@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_ParameterDecl
 title: MI_ParameterDecl (mi.h)
-author: windows-sdk-content
+
 description: Represents CIM method parameters.
 old-location: wmi_v2\mi_parameterdecl.htm
 tech.root: wmi_v2
 ms.assetid: 09ad6ea4-09ae-428b-9df9-414043044d6a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_PROPERTY, MI_ParameterDecl, MI_ParameterDecl structure [Windows Management Infrastructure (MI)], mi/MI_ParameterDecl, wmi._mi_parameterdecl, wmi_v2.mi_parameterdecl
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetFuncIndexOfMemId
 title: ITypeInfo2::GetFuncIndexOfMemId (oaidl.h)
-author: windows-sdk-content
+
 description: Binds to a specific member based on a known DISPID, where the member name is not known (for example, when binding to a default member).
 old-location: automat\itypeinfo2_getfuncindexofmemid.htm
 tech.root: automat
 ms.assetid: dad5fd34-9322-46aa-9ae3-d5ff9d1639b1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFuncIndexOfMemId, GetFuncIndexOfMemId method [Automation], GetFuncIndexOfMemId method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetFuncIndexOfMemId method, ITypeInfo2.GetFuncIndexOfMemId, ITypeInfo2::GetFuncIndexOfMemId, _oa96_ITypeInfo2_GetFuncIndexOfMemId, automat.itypeinfo2_getfuncindexofmemid, oaidl/ITypeInfo2::GetFuncIndexOfMemId
 ms.topic: method

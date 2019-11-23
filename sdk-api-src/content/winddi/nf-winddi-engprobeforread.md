@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.EngProbeForRead
 title: EngProbeForRead function (winddi.h)
-author: windows-sdk-content
+
 description: The EngProbeForRead function probes a structure for read accessibility.
 old-location: display\engprobeforread.htm
 tech.root: display
 ms.assetid: 7c64c9a8-45e6-4afa-a358-457c04a333d7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngProbeForRead, EngProbeForRead function [Display Devices], display.engprobeforread, gdifncs_35c5929d-d559-42ea-9925-b00bc7af551e.xml, winddi/EngProbeForRead
 ms.topic: function

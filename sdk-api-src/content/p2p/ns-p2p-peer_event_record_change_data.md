@@ -1,12 +1,12 @@
 ---
 UID: NS:p2p.peer_event_record_change_data_tag
 title: PEER_EVENT_RECORD_CHANGE_DATA (p2p.h)
-author: windows-sdk-content
+
 description: Points to the PEER_EVENT_RECORD_CHANGE_DATA structure if one of the following peer events is triggered.
 old-location: p2p\peer_event_record_change_data.htm
 tech.root: P2PSdk
 ms.assetid: 01404fff-3488-43aa-bc59-3e08ff925ea5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PPEER_EVENT_RECORD_CHANGE_DATA, PEER_EVENT_RECORD_CHANGE_DATA, PEER_EVENT_RECORD_CHANGE_DATA structure [Peer Networking], PPEER_EVENT_RECORD_CHANGE_DATA, PPEER_EVENT_RECORD_CHANGE_DATA structure pointer [Peer Networking], p2p.peer_event_record_change_data, p2p/PPEER_EVENT_RECORD_CHANGE_DATA, p2p/peer_event_record_change_data_tag"
 ms.topic: struct

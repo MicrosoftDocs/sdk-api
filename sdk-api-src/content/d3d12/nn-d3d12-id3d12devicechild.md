@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d12.ID3D12DeviceChild
 title: ID3D12DeviceChild (d3d12.h)
-author: windows-sdk-content
+
 description: An interface from which other core interfaces inherit from, including (but not limited to) ID3D12PipelineLibrary, ID3D12CommandList, ID3D12Pageable, and ID3D12RootSignature. It provides a method to get back to the device object it was created against.
 old-location: direct3d12\id3d12devicechild.htm
 tech.root: direct3d12
 ms.assetid: AED60281-A6E4-4AAD-A106-6CA6E9BAEB9A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12DeviceChild, ID3D12DeviceChild interface, ID3D12DeviceChild interface,described, d3d12/ID3D12DeviceChild, direct3d12.id3d12devicechild
 ms.topic: interface

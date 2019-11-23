@@ -1,12 +1,12 @@
 ---
 UID: NS:iphlpapi.NET_ADDRESS_INFO_
 title: NET_ADDRESS_INFO (iphlpapi.h)
-author: windows-sdk-content
+
 description: Contains IP address information returned by the ParseNetworkString function.
 old-location: iphlp\net_address_info.htm
 tech.root: IpHlp
 ms.assetid: 1a59cc13-a3fc-4489-aafd-444a96d9a339
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PNET_ADDRESS_INFO, NET_ADDRESS_INFO, NET_ADDRESS_INFO structure [IP Helper], NET_ADDRESS_INFO_, PNET_ADDRESS_INFO, PNET_ADDRESS_INFO structure pointer [IP Helper], iphlp.net_address_info, iphlpapi/NET_ADDRESS_INFO, iphlpapi/PNET_ADDRESS_INFO"
 ms.topic: struct

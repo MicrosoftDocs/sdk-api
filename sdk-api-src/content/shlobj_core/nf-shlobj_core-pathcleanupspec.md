@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.PathCleanupSpec
 title: PathCleanupSpec function (shlobj_core.h)
-author: windows-sdk-content
+
 description: PathCleanupSpec may be altered or unavailable.
 old-location: shell\PathCleanupSpec.htm
 tech.root: shell
 ms.assetid: 593fd2b7-44ae-4309-a185-97e42f3cc0fa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathCleanupSpec, PathCleanupSpec function [Windows Shell], _win32_PathCleanupSpec, shell.PathCleanupSpec, shlobj_core/PathCleanupSpec
 ms.topic: function

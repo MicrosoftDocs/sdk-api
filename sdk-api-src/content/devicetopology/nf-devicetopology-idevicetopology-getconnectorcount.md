@@ -1,12 +1,12 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetConnectorCount
 title: IDeviceTopology::GetConnectorCount (devicetopology.h)
-author: windows-sdk-content
+
 description: The GetConnectorCount method gets the number of connectors in the device-topology object.
 old-location: coreaudio\idevicetopology_getconnectorcount.htm
 tech.root: CoreAudio
 ms.assetid: 0b7f3b14-4c99-497b-a00e-a24535a621b7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetConnectorCount, GetConnectorCount method [Core Audio], GetConnectorCount method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetConnectorCount method, IDeviceTopology.GetConnectorCount, IDeviceTopology::GetConnectorCount, IDeviceTopologyGetConnectorCount, coreaudio.idevicetopology_getconnectorcount, devicetopology/IDeviceTopology::GetConnectorCount
 ms.topic: method

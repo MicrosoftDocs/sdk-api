@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetAlphaYIntercept(float)
 title: IDCompositionLinearTransferEffect::SetAlphaYIntercept (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the Y-intercept of the linear function for the alpha channel.
 old-location: directcomp\idcompositionlineartransfereffect_setalphayintercept.htm
 tech.root: directcomp
 ms.assetid: D234752E-E69D-4D64-A052-720BC4424BAE
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaYIntercept method, IDCompositionLinearTransferEffect.SetAlphaYIntercept, IDCompositionLinearTransferEffect::SetAlphaYIntercept, IDCompositionLinearTransferEffect::SetAlphaYIntercept(float), SetAlphaYIntercept, SetAlphaYIntercept method [DirectComposition], SetAlphaYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaYIntercept, directcomp.idcompositionlineartransfereffect_setalphayintercept
 ms.topic: method

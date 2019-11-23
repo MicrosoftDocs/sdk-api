@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetPointCount
 title: GraphicsPath::GetPointCount (gdipluspath.h)
-author: windows-sdk-content
+
 description: The GraphicsPath::GetPointCount method gets the number of points in this path's array of data points. This is the same as the number of types in the path's array of point types.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPointCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getpointcount.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPointCount, GetPointCount method [GDI+], GetPointCount method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetPointCount method, GraphicsPath.GetPointCount, GraphicsPath::GetPointCount, _gdiplus_CLASS_GraphicsPath_GetPointCount_, gdiplus._gdiplus_CLASS_GraphicsPath_GetPointCount_
 ms.topic: method

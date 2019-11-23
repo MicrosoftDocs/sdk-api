@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IProgressItem.get_BlockCount
 title: IProgressItem::get_BlockCount (imapi2fs.h)
-author: windows-sdk-content
+
 description: Retrieves the number of blocks in the progress item.
 old-location: imapi\iprogressitem_get_blockcount.htm
 tech.root: imapi
 ms.assetid: 6960fecb-f202-4a10-9abb-fc945217a314
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IProgressItem interface [IMAPI],get_BlockCount method, IProgressItem.get_BlockCount, IProgressItem::get_BlockCount, get_BlockCount, get_BlockCount method [IMAPI], get_BlockCount method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_blockcount, imapi2fs/IProgressItem::get_BlockCount
 ms.topic: method

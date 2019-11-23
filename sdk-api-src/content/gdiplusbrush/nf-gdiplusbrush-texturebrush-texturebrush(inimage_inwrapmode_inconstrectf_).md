@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush(IN Image,IN WrapMode,IN const RectF &)
 title: TextureBrush::TextureBrush(IN Image,IN WrapMode,IN const RectF &) (gdiplusbrush.h)
-author: windows-sdk-content
+
 description: Creates a TextureBrush object based on an image, a wrap mode, and a defining rectangle.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_RectF_dstRect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors\texturebrush_10imageimage_wrapmodewrapmode_rectfampds.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+],TextureBrush constructor, TextureBrush constructor [GDI+], TextureBrush constructor [GDI+],TextureBrush class, TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN WrapMode,IN const RectF &), TextureBrush.TextureBrush(Image*,wrapMode,const RectF&), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN WrapMode,IN const RectF &), _gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_RectF_dstRect_, gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_RectF_dstRect_
 ms.topic: method

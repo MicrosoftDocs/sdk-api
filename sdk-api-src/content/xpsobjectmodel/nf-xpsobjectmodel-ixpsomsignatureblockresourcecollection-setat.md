@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.SetAt
 title: IXpsOMSignatureBlockResourceCollection::SetAt (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Replaces an IXpsOMSignatureBlockResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_setat.htm
 tech.root: printdocs
 ms.assetid: c1f88493-0f81-4aac-b6d6-049d10934254
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMSignatureBlockResourceCollection.SetAt, IXpsOMSignatureBlockResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_setat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::SetAt
 ms.topic: method

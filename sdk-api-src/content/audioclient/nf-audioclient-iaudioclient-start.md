@@ -1,12 +1,12 @@
 ---
 UID: NF:audioclient.IAudioClient.Start
 title: IAudioClient::Start (audioclient.h)
-author: windows-sdk-content
+
 description: The Start method starts the audio stream.
 old-location: coreaudio\iaudioclient_start.htm
 tech.root: CoreAudio
 ms.assetid: 706f9833-7f06-4bdc-96d5-6872f6effcb9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioClient interface [Core Audio],Start method, IAudioClient.Start, IAudioClient::Start, IAudioClientStart, Start, Start method [Core Audio], Start method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Start, coreaudio.iaudioclient_start
 ms.topic: method

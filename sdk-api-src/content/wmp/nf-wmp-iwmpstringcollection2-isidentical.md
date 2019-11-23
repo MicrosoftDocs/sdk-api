@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPStringCollection2.isIdentical
 title: IWMPStringCollection2::isIdentical (wmp.h)
-author: windows-sdk-content
+
 description: The isIdentical method retrieves a value indicating whether the supplied object is the same as the current one.
 old-location: wmp\iwmpstringcollection2_isidentical.htm
 tech.root: WMP
 ms.assetid: 549fdee8-7cd4-4ceb-8ed1-0de467d6c348
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],isIdentical method, IWMPStringCollection2.isIdentical, IWMPStringCollection2::isIdentical, IWMPStringCollection2isIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_isidentical, wmp/IWMPStringCollection2::isIdentical
 ms.topic: method

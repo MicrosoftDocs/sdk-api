@@ -1,12 +1,12 @@
 ---
 UID: NF:securitybaseapi.AdjustTokenPrivileges
 title: AdjustTokenPrivileges function (securitybaseapi.h)
-author: windows-sdk-content
+
 description: Enables or disables privileges in the specified access token. Enabling or disabling privileges in an access token requires TOKEN_ADJUST_PRIVILEGES access.
 old-location: security\adjusttokenprivileges.htm
 tech.root: SecAuthZ
 ms.assetid: 8e3f70cd-814e-4aab-8f48-0ca482beef2e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AdjustTokenPrivileges, AdjustTokenPrivileges function [Security], None, SE_PRIVILEGE_ENABLED, SE_PRIVILEGE_REMOVED, _win32_adjusttokenprivileges, security.adjusttokenprivileges, securitybaseapi/AdjustTokenPrivileges
 ms.topic: function

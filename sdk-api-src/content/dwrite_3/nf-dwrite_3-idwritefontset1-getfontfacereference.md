@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet1.GetFontFaceReference
 title: IDWriteFontSet1::GetFontFaceReference
-author: windows-sdk-content
+
 description: Retrieves the font face reference of a single item.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFontFaceReference method, IDWriteFontSet1.GetFontFaceReference, IDWriteFontSet1::GetFontFaceReference, GetFontFaceReference, GetFontFaceReference method [Direct Write], GetFontFaceReference method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfontfacereference, dwrite_3/IDWriteFontSet1::GetFontFaceReference
 ms.topic: method

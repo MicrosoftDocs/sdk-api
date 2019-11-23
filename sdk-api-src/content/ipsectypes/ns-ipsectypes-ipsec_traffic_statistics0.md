@@ -1,12 +1,12 @@
 ---
 UID: NS:ipsectypes.IPSEC_TRAFFIC_STATISTICS0_
 title: IPSEC_TRAFFIC_STATISTICS0 (ipsectypes.h)
-author: windows-sdk-content
+
 description: Stores IPsec traffic statistics.
 old-location: fwp\ipsec_traffic_statistics0_struct.htm
 tech.root: fwp
 ms.assetid: 70f67966-0ced-49a7-9d27-6976ee0bd89c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TRAFFIC_STATISTICS0, IPSEC_TRAFFIC_STATISTICS0 structure [Filtering], fwp.ipsec_traffic_statistics0_struct, ipsectypes/IPSEC_TRAFFIC_STATISTICS0
 ms.topic: struct

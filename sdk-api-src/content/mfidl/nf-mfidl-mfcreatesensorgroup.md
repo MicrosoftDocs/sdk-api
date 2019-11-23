@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.MFCreateSensorGroup
 title: MFCreateSensorGroup function (mfidl.h)
-author: windows-sdk-content
+
 description: Creates an instance of the IMFSensorGroup interface based on the provided symbolic link name.
 old-location: mf\mfcreatesensorgroup.htm
 tech.root: medfound
 ms.assetid: A1DDA62D-D668-4292-9DFF-09B17A78A54E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorGroup, MFCreateSensorGroup function [Media Foundation], mf.mfcreatesensorgroup, mfidl/MFCreateSensorGroup
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.NetworkIsolationEnumerateAppContainerRules
 title: NetworkIsolationEnumerateAppContainerRules function (netfw.h)
-author: windows-sdk-content
+
 description: Enumerates all of the rules related to app containers.
 old-location: ics\networkisolationenumerateappcontainerrules.htm
 tech.root: ics
 ms.assetid: 53c9cd2c-06da-41ba-bbd8-bd695fb7fabf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationEnumerateAppContainerRules, NetworkIsolationEnumerateAppContainerRules function [ICS/ICF], ics.networkisolationenumerateappcontainerrules, netfw/NetworkIsolationEnumerateAppContainerRules
 ms.topic: function

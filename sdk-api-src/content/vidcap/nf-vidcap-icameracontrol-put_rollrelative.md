@@ -1,12 +1,12 @@
 ---
 UID: NF:vidcap.ICameraControl.put_RollRelative
 title: ICameraControl::put_RollRelative (vidcap.h)
-author: windows-sdk-content
+
 description: The put_RollRelative method sets the camera's relative roll. The relative roll is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_put_rollrelative.htm
 tech.root: DirectShow
 ms.assetid: b0dbfd1c-493f-4f35-88ab-cd3868a56370
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_RollRelative method, ICameraControl.put_RollRelative, ICameraControl::put_RollRelative, ICameraControlput_RollRelative, dshow.icameracontrol_put_rollrelative, put_RollRelative, put_RollRelative method [DirectShow], put_RollRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_RollRelative
 ms.topic: method

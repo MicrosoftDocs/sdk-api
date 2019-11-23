@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_SET_DRIVE_LAYOUT
 title: IOCTL_DISK_SET_DRIVE_LAYOUT
-author: windows-sdk-content
+
 description: Partitions a disk as specified by drive layout and partition information data.
 old-location: fs\ioctl_disk_set_drive_layout.htm
 tech.root: FileIO
 ms.assetid: 8cace6a5-666a-4d35-a557-6bf0564dbe58
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_SET_DRIVE_LAYOUT, IOCTL_DISK_SET_DRIVE_LAYOUT control, IOCTL_DISK_SET_DRIVE_LAYOUT control code [Files], _win32_ioctl_disk_set_drive_layout, base.ioctl_disk_set_drive_layout, fs.ioctl_disk_set_drive_layout, winioctl/IOCTL_DISK_SET_DRIVE_LAYOUT
 ms.topic: ioctl

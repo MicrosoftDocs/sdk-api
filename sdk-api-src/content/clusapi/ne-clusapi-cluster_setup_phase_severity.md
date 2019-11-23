@@ -1,12 +1,12 @@
 ---
 UID: NE:clusapi._CLUSTER_SETUP_PHASE_SEVERITY
 title: CLUSTER_SETUP_PHASE_SEVERITY (clusapi.h)
-author: windows-sdk-content
+
 description: Describes the severity of the current phase of the cluster setup process.
 old-location: mscs\cluster_setup_phase_severity.htm
 tech.root: MsCS
 ms.assetid: a355dc8d-73f1-476b-a06f-24f011af4ace
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_SETUP_PHASE_SEVERITY, CLUSTER_SETUP_PHASE_SEVERITY enumeration [Failover Cluster], ClusterSetupPhaseFatal, ClusterSetupPhaseInformational, ClusterSetupPhaseWarning, clusapi/CLUSTER_SETUP_PHASE_SEVERITY, clusapi/ClusterSetupPhaseFatal, clusapi/ClusterSetupPhaseInformational, clusapi/ClusterSetupPhaseWarning, mscs.cluster_setup_phase_severity
 ms.topic: enum

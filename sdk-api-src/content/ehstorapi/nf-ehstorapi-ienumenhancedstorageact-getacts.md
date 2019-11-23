@@ -1,12 +1,12 @@
 ---
 UID: NF:ehstorapi.IEnumEnhancedStorageACT.GetACTs
 title: IEnumEnhancedStorageACT::GetACTs (ehstorapi.h)
-author: windows-sdk-content
+
 description: Returns an enumeration of all the Addressable Command Targets (ACT) currently connected to the system. If at least one ACT is present, the Enhanced Storage API allocates an array of 1 or more IEnumEnhancedStorageACT pointers.
 old-location: enstor\ienumenhancedstorageact_getacts.htm
 tech.root: enstor
 ms.assetid: 139bb8ed-faca-4fe7-ab6f-63c71d25a711
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetACTs, GetACTs method [Enhanced Storage], GetACTs method [Enhanced Storage],IEnumEnhancedStorageACT interface, IEnumEnhancedStorageACT interface [Enhanced Storage],GetACTs method, IEnumEnhancedStorageACT.GetACTs, IEnumEnhancedStorageACT::GetACTs, ehstorapi/IEnumEnhancedStorageACT::GetACTs, enstor.ienumenhancedstorageact_getacts
 ms.topic: method

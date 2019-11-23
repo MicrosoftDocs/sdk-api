@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.CreateUrlCacheEntryA
 title: CreateUrlCacheEntryA function (wininet.h)
-author: windows-sdk-content
+
 description: Creates a local file name for saving the cache entry based on the specified URL and the file name extension.
 old-location: wininet\createurlcacheentry.htm
 tech.root: wininet
 ms.assetid: 9a58cf05-2306-4a0f-876d-85f5e91c5a2b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateUrlCacheEntry, CreateUrlCacheEntry function [WinINet], CreateUrlCacheEntryA, CreateUrlCacheEntryW, _inet_createurlcacheentry_function, wininet.createurlcacheentry, wininet/CreateUrlCacheEntry, wininet/CreateUrlCacheEntryA, wininet/CreateUrlCacheEntryW
 ms.topic: function

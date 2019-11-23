@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12Resource.WriteToSubresource
 title: ID3D12Resource::WriteToSubresource (d3d12.h)
-author: windows-sdk-content
+
 description: Uses the CPU to copy data into a subresource, enabling the CPU to modify the contents of most textures with undefined layouts.
 old-location: direct3d12\id3d12resource_writetosubresource.htm
 tech.root: direct3d12
 ms.assetid: 8781E2FE-8D82-41F5-B541-A96DA11CA290
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12Resource interface,WriteToSubresource method, ID3D12Resource.WriteToSubresource, ID3D12Resource::WriteToSubresource, WriteToSubresource, WriteToSubresource method, WriteToSubresource method,ID3D12Resource interface, d3d12/ID3D12Resource::WriteToSubresource, direct3d12.id3d12resource_writetosubresource
 ms.topic: method

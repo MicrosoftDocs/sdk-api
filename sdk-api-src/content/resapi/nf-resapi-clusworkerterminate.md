@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ClusWorkerTerminate
 title: ClusWorkerTerminate
-author: windows-sdk-content
+
 description: Waits for a worker thread to terminate up to the specified timeout.
 ms.date: 07/01/2019
 tech.root: MsCS

@@ -1,12 +1,12 @@
 ---
 UID: NF:debugapi.OutputDebugStringA
 title: OutputDebugStringA function (debugapi.h)
-author: windows-sdk-content
+
 description: Sends a string to the debugger for display.
 old-location: base\outputdebugstring.htm
 tech.root: Debug
 ms.assetid: ca23d9a9-65b7-4a36-bd09-857a6997f482
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OutputDebugString, OutputDebugString function, OutputDebugStringA, OutputDebugStringW, _win32_outputdebugstring, base.outputdebugstring, debugapi/OutputDebugString, debugapi/OutputDebugStringA, debugapi/OutputDebugStringW
 ms.topic: function

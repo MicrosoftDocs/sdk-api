@@ -1,12 +1,12 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Cleanup
 title: INetDiagHelper::Cleanup (ndhelper.h)
-author: windows-sdk-content
+
 description: Allows the Helper Class Extension to clean up resources following a diagnosis or repair operation.
 old-location: ndf\inetdiaghelpe_cleanup.htm
 tech.root: NDF
 ms.assetid: d50d3415-8fa7-404c-8030-8ea7a59820e4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Cleanup, Cleanup method [NDF], Cleanup method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],Cleanup method, INetDiagHelper.Cleanup, INetDiagHelper::Cleanup, ndf.inetdiaghelpe_cleanup, ndhelper/INetDiagHelper::Cleanup
 ms.topic: method

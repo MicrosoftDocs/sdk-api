@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.ImagehlpApiVersion
 title: ImagehlpApiVersion function (dbghelp.h)
-author: windows-sdk-content
+
 description: Retrieves the version information of the DbgHelp library installed on the system.
 old-location: base\imagehlpapiversion.htm
 tech.root: Debug
 ms.assetid: 0ad9a047-f2ae-4fbe-8a85-9817a616ef73
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImagehlpApiVersion, ImagehlpApiVersion function, _win32_imagehlpapiversion, base.imagehlpapiversion, dbghelp/ImagehlpApiVersion
 ms.topic: function

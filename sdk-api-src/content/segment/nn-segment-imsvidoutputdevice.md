@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidOutputDevice
 title: IMSVidOutputDevice (segment.h)
-author: windows-sdk-content
+
 description: The IMSVidOutputDevice interface represents an output device. This interface derives from the IMSVidDevice interface but adds no methods to it. It exists to support polymorphism.
 old-location: mstv\imsvidoutputdevice.htm
 tech.root: mstv
 ms.assetid: c2e5ebac-cb10-4567-83f7-f8f4e3b4f009
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidOutputDevice, IMSVidOutputDevice interface [Microsoft TV Technologies], IMSVidOutputDevice interface [Microsoft TV Technologies],described, IMSVidOutputDeviceInterface, mstv.imsvidoutputdevice, segment/IMSVidOutputDevice
 ms.topic: interface

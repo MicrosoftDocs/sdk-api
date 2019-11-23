@@ -1,12 +1,12 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderConfigUIInfos.Skip
 title: IEnumSyncProviderConfigUIInfos::Skip (syncregistration.h)
-author: windows-sdk-content
+
 description: Skips the specified number of ISyncProviderConfigUIInfo objects.
 old-location: winsync\ienumsyncproviderconfiguiinfos_skip.htm
 tech.root: winsync
 ms.assetid: 7ecd6cce-77af-423a-9b95-80b1d7ec9d2f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Skip method, IEnumSyncProviderConfigUIInfos.Skip, IEnumSyncProviderConfigUIInfos::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Skip, winsync.ienumsyncproviderconfiguiinfos_skip
 ms.topic: method

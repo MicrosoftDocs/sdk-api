@@ -1,12 +1,12 @@
 ---
 UID: NN:functiondiscoveryprovider.IProviderProperties
 title: IProviderProperties (functiondiscoveryprovider.h)
-author: windows-sdk-content
+
 description: Is optionally implemented by discovery providers to directly create and manage their own property store.
 old-location: ncd\iproviderproperties.htm
 tech.root: FunDisc
 ms.assetid: d6d3d1d1-d2fb-409c-be37-3cd286e325a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IProviderProperties, IProviderProperties interface, IProviderProperties interface,described, functiondiscoveryprovider/IProviderProperties, ncd.iproviderproperties
 ms.topic: interface

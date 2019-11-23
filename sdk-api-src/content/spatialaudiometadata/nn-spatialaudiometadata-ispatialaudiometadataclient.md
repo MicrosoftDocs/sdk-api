@@ -1,12 +1,12 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataClient
 title: ISpatialAudioMetadataClient (spatialaudiometadata.h)
-author: windows-sdk-content
+
 description: Provides a class factory for creating ISpatialAudioMetadataItems, ISpatialAudioMetadataWriter, ISpatialAudioMetadataReader, and ISpatialAudioMetadataCopier objects.
 old-location: coreaudio\ispatialaudiometadataclient.htm
 tech.root: CoreAudio
 ms.assetid: 42EDD4D2-3DAA-4F8F-A71C-7EDFEBBCB3FB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataClient, ISpatialAudioMetadataClient interface [Core Audio], ISpatialAudioMetadataClient interface [Core Audio],described, coreaudio.ispatialaudiometadataclient, spatialaudiometadata/ISpatialAudioMetadataClient
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerPnrpUpdateRegistration
 title: PeerPnrpUpdateRegistration function (p2p.h)
-author: windows-sdk-content
+
 description: Updates the PNRP registration information for a name.
 old-location: p2p\peerpnrpupdateregistration.htm
 tech.root: P2PSdk
 ms.assetid: 628aa553-4a55-452b-bcca-4bb763fa6440
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpUpdateRegistration, PeerPnrpUpdateRegistration function [Peer Networking], p2p.peerpnrpupdateregistration, p2p/PeerPnrpUpdateRegistration
 ms.topic: function

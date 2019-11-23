@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.Save
 title: IFaxOutboundRoutingRule::Save (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutboundRoutingRule::Save method saves the FaxOutboundRoutingRule object data.
 old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qn9.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRule interface [Fax Service],Save method, IFaxOutboundRoutingRule.Save, IFaxOutboundRoutingRule::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxOutboundRoutingRule interface, _mfax_faxoutboundroutingrule.save, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_save_cpp, fax._mfax_faxoutboundroutingrule_save, faxcomex/IFaxOutboundRoutingRule::Save
 ms.topic: method

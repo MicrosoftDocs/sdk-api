@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpcsdk.DhcpDeRegisterParamChange
 title: DhcpDeRegisterParamChange function (dhcpcsdk.h)
-author: windows-sdk-content
+
 description: The DhcpDeRegisterParamChange function releases resources associated with previously registered event notifications, and closes the associated event handle.
 old-location: dhcp\dhcpderegisterparamchange.htm
 tech.root: DHCP
 ms.assetid: a3fa7c45-cad3-43be-a6c1-fffe6d025d95
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpDeRegisterParamChange, DhcpDeRegisterParamChange function [DHCP], _dhcp_dhcpderegisterparamchange, dhcp.dhcpderegisterparamchange, dhcpcsdk/DhcpDeRegisterParamChange
 ms.topic: function

@@ -1,7 +1,7 @@
 ---
 UID: TP:ual
 ms.assetid: 064ae0f9-7282-39cf-be9e-a2768a182496
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

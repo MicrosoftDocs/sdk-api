@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFEndUnregisterWorkQueueWithMMCSS
 title: MFEndUnregisterWorkQueueWithMMCSS function (mfapi.h)
-author: windows-sdk-content
+
 description: Completes an asynchronous request to unregister a work queue from a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\mfendunregisterworkqueuewithmmcss.htm
 tech.root: medfound
 ms.assetid: eca38d5d-9ca3-442e-80ca-96d8927178a1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFEndUnregisterWorkQueueWithMMCSS, MFEndUnregisterWorkQueueWithMMCSS function [Media Foundation], eca38d5d-9ca3-442e-80ca-96d8927178a1, mf.mfendunregisterworkqueuewithmmcss, mfapi/MFEndUnregisterWorkQueueWithMMCSS
 ms.topic: function

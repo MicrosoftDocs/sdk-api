@@ -1,12 +1,12 @@
 ---
 UID: NF:wdspxe.PxeDhcpAppendOptionRaw
 title: PxeDhcpAppendOptionRaw function (wdspxe.h)
-author: windows-sdk-content
+
 description: Appends a DHCP option to the reply packet.
 old-location: wds\pxedhcpappendoptionraw.htm
 tech.root: wds
 ms.assetid: f6525a06-a3b0-4989-8132-fa8f1ad2fec3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpAppendOptionRaw, PxeDhcpAppendOptionRaw function [Windows Deployment Services], wds.pxedhcpappendoptionraw, wdspxe/PxeDhcpAppendOptionRaw
 ms.topic: function

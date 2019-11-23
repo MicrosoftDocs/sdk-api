@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IRunningObjectTable.Revoke
 title: IRunningObjectTable::Revoke (objidl.h)
-author: windows-sdk-content
+
 description: Removes an entry from the running object table (ROT) that was previously registered by a call to IRunningObjectTable::Register.
 old-location: com\irunningobjecttable_revoke.htm
 tech.root: com
 ms.assetid: d3d83966-035d-4077-a770-cb62c8011132
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable interface [COM],Revoke method, IRunningObjectTable.Revoke, IRunningObjectTable::Revoke, Revoke, Revoke method [COM], Revoke method [COM],IRunningObjectTable interface, _com_irunningobjecttable_revoke, com.irunningobjecttable_revoke, objidl/IRunningObjectTable::Revoke
 ms.topic: method

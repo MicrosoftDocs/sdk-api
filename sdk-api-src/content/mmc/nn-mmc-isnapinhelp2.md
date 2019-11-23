@@ -1,12 +1,12 @@
 ---
 UID: NN:mmc.ISnapinHelp2
 title: ISnapinHelp2 (mmc.h)
-author: windows-sdk-content
+
 description: Allows snap-ins to add HTML Help support.
 old-location: mmc\isnapinhelp2.htm
 tech.root: mmc
 ms.assetid: 6e86a22b-03b0-4ca6-a4e2-96ea365dabdf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISnapinHelp2, ISnapinHelp2 interface [MMC], ISnapinHelp2 interface [MMC],described, _slate_isnapinhelp2, mmc.isnapinhelp2, mmc/ISnapinHelp2
 ms.topic: interface

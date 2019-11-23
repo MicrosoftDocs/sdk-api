@@ -1,12 +1,12 @@
 ---
 UID: NS:directxmath.XMINT2
 title: XMINT2 (directxmath.h)
-author: windows-sdk-content
+
 description: A 2D vector where each component is a signed integer.
 old-location: dxmath\xmint2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMINT2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMINT2, XMINT2 structure [DirectX Math Support APIs], directxmath/XMINT2, dxmath.xmint2
 ms.topic: struct

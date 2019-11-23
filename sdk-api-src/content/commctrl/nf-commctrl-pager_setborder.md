@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.Pager_SetBorder
 title: Pager_SetBorder macro (commctrl.h)
-author: windows-sdk-content
+
 description: Sets the current border size for the pager control. You can use this macro or send the PGM_SETBORDER message explicitly.
 old-location: controls\Pager_SetBorder.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setborder.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Pager_SetBorder, Pager_SetBorder macro [Windows Controls], _win32_Pager_SetBorder, _win32_Pager_SetBorder_cpp, commctrl/Pager_SetBorder, controls.Pager_SetBorder, controls._win32_Pager_SetBorder
 ms.topic: macro

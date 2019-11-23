@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoGetStandardMarshal
 title: CoGetStandardMarshal function (combaseapi.h)
-author: windows-sdk-content
+
 description: Creates a default, or standard, marshaling object in either the client process or the server process, depending on the caller, and returns a pointer to that object's IMarshal implementation.
 old-location: com\cogetstandardmarshal.htm
 tech.root: com
 ms.assetid: 0cb74adc-e192-4ae5-9267-02c79e301681
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoGetStandardMarshal, CoGetStandardMarshal function [COM], _com_CoGetStandardMarshal, com.cogetstandardmarshal, combaseapi/CoGetStandardMarshal
 ms.topic: function

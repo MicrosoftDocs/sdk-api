@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_CHANNEL_PROPERTIES
 title: WS_CHANNEL_PROPERTIES (webservices.h)
-author: windows-sdk-content
+
 description: Specifies a set of WS_CHANNEL_PROPERTY structures.
 old-location: wsw\ws_channel_properties.htm
 tech.root: wsw
 ms.assetid: a28eddde-2b95-4655-962b-1d04b7a2c5fe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_PROPERTIES, WS_CHANNEL_PROPERTIES structure [Web Services for Windows], webservices/WS_CHANNEL_PROPERTIES, wsw.ws_channel_properties
 ms.topic: struct

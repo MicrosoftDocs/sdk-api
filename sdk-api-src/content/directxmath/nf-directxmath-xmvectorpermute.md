@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorPermute
 title: XMVectorPermute function (directxmath.h)
-author: windows-sdk-content
+
 description: Permutes the components of two vectors to create a new vector.
 old-location: dxmath\xmvectorpermute.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorPermute(XMVECTOR,XMVECTOR,unit32_t,unit32_t,unit32_t,unit32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorPermute, XMVectorPermute, XMVectorPermute method [DirectX Math Support APIs], dxmath.xmvectorpermute
 ms.topic: function

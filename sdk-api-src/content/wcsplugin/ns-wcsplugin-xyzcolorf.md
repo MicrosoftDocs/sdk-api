@@ -1,12 +1,12 @@
 ---
 UID: NS:wcsplugin._XYZColorF
 title: XYZColorF (wcsplugin.h)
-author: windows-sdk-content
+
 description: TBD.
 old-location: wcs\xyzcolorf.htm
 tech.root: WCS
 ms.assetid: 841c0d86-c27a-4a64-b956-02abc435e108
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XYZColorF, XYZColorF structure [Windows Color System], wcs.xyzcolorf, wcsplugin/XYZColorF
 ms.topic: struct

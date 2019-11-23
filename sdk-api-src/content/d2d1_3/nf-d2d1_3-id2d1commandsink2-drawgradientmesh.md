@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_3.ID2D1CommandSink2.DrawGradientMesh
 title: ID2D1CommandSink2::DrawGradientMesh (d2d1_3.h)
-author: windows-sdk-content
+
 description: Renders a given gradient mesh to the target.
 old-location: direct2d\id2d1commandsink2_drawgradientmesh.htm
 tech.root: Direct2D
 ms.assetid: 19adf39c-5eec-aa77-9022-1b69ef924679
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawGradientMesh, DrawGradientMesh method [Direct2D], DrawGradientMesh method [Direct2D],ID2D1CommandSink2 interface, ID2D1CommandSink2 interface [Direct2D],DrawGradientMesh method, ID2D1CommandSink2.DrawGradientMesh, ID2D1CommandSink2::DrawGradientMesh, d2d1_3/ID2D1CommandSink2::DrawGradientMesh, direct2d.id2d1commandsink2_drawgradientmesh
 ms.topic: method

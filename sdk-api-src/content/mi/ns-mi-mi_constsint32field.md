@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_ConstSint32Field
 title: MI_ConstSint32Field (mi.h)
-author: windows-sdk-content
+
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constsint32field.htm
 tech.root: wmi_v2
 ms.assetid: 374b74f2-2366-4be8-8a8a-e6fcaf094400
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_ConstSint32Field, MI_ConstSint32Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstSint32Field, wmi._mi_constsint32field, wmi_v2.mi_constsint32field
 ms.topic: struct

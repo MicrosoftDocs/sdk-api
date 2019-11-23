@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._MEM_ADDRESS_REQUIREMENTS
 title: MEM_ADDRESS_REQUIREMENTS (winnt.h)
-author: windows-sdk-content
+
 description: Specifies a lowest and highest base address and alignment as part of an extended parameter to a function that manages virtual memory.
 old-location: base\mem_address_requirements.htm
 tech.root: Memory
 ms.assetid: 1CAB4942-F0D2-4A60-9472-4EDF2FC9FA7A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PMEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS structure, PMEM_ADDRESS_REQUIREMENTS, PMEM_ADDRESS_REQUIREMENTS structure pointer, base.mem_address_requirements, winnt/MEM_ADDRESS_REQUIREMENTS, winnt/PMEM_ADDRESS_REQUIREMENTS"
 ms.topic: struct

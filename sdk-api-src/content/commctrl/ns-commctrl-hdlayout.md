@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl._HD_LAYOUT
 title: HDLAYOUT (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information used to set the size and position of a header control. HDLAYOUT is used with the HDM_LAYOUT message. This structure supersedes the HD_LAYOUT structure.
 old-location: controls\HDLAYOUT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\hdlayout.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPHDLAYOUT, HDLAYOUT, HDLAYOUT structure [Windows Controls], LPHDLAYOUT, LPHDLAYOUT structure pointer [Windows Controls], _win32_HDLAYOUT, _win32_HDLAYOUT_cpp, commctrl/HDLAYOUT, commctrl/LPHDLAYOUT, controls.HDLAYOUT, controls._win32_HDLAYOUT"
 ms.topic: struct

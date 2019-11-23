@@ -1,12 +1,12 @@
 ---
 UID: NE:isysmon.__MIDL___MIDL_itf_sysmon_0000_0000_0002
 title: SysmonDataType (isysmon.h)
-author: windows-sdk-content
+
 description: Determines the type of data to return from a given data point on the graph.
 old-location: sysmon\sysmondatatype.htm
 tech.root: SysMon
 ms.assetid: 5855fffc-1113-4047-b55a-601e45a08a5e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SysmonDataType, SysmonDataType enumeration [SysMon], base.sysmondatatype, isysmon/SysmonDataType, isysmon/sysmonDataAvg, isysmon/sysmonDataCount, isysmon/sysmonDataMax, isysmon/sysmonDataMin, isysmon/sysmonDataTime, sysmon.sysmondatatype, sysmonDataAvg, sysmonDataCount, sysmonDataMax, sysmonDataMin, sysmonDataTime
 ms.topic: enum

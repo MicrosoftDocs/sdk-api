@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IGlobalInterfaceTable.GetInterfaceFromGlobal
 title: IGlobalInterfaceTable::GetInterfaceFromGlobal (objidlbase.h)
-author: windows-sdk-content
+
 description: Retrieves a pointer to an interface on an object that is usable by the calling apartment. This interface must be currently registered in the global interface table.
 old-location: com\iglobalinterfacetable_getinterfacefromglobal.htm
 tech.root: com
 ms.assetid: 3b37184d-c4e8-47b2-8f3f-008d3ea00759
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceFromGlobal, GetInterfaceFromGlobal method [COM], GetInterfaceFromGlobal method [COM],IGlobalInterfaceTable interface, IGlobalInterfaceTable interface [COM],GetInterfaceFromGlobal method, IGlobalInterfaceTable.GetInterfaceFromGlobal, IGlobalInterfaceTable::GetInterfaceFromGlobal, _com_iglobalinterfacetable_getinterfacefromglobal, com.iglobalinterfacetable_getinterfacefromglobal, objidlbase/IGlobalInterfaceTable::GetInterfaceFromGlobal
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:mediaobj._DMO_OUTPUT_DATA_BUFFER
 title: DMO_OUTPUT_DATA_BUFFER (mediaobj.h)
-author: windows-sdk-content
+
 description: The DMO_OUTPUT_DATA_BUFFER structure describes an output buffer used by a Microsoft DirectX Media Object (DMO).
 old-location: dshow\dmo_output_data_buffer.htm
 tech.root: DirectShow
 ms.assetid: 87fa2000-8dab-4f30-940a-14fb6699f616
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PDMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_BUFFER structure [DirectShow], DMO_OUTPUT_DATA_BUFFERStructure, PDMO_OUTPUT_DATA_BUFFER, PDMO_OUTPUT_DATA_BUFFER structure pointer [DirectShow], dshow.dmo_output_data_buffer, mediaobj/DMO_OUTPUT_DATA_BUFFER, mediaobj/PDMO_OUTPUT_DATA_BUFFER"
 ms.topic: struct

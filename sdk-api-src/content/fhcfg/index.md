@@ -1,7 +1,7 @@
 ---
 UID: NA:fhcfg
 ms.assetid: c4428648-2da6-3eab-beae-9c81995dff38
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

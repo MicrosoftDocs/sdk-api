@@ -1,12 +1,12 @@
 ---
 UID: NS:shlobj.tagAASHELLMENUITEM
 title: AASHELLMENUITEM (shlobj.h)
-author: windows-sdk-content
+
 description: Contains information about a menu item.
 old-location: shell\AASHELLMENUITEM_str.htm
 tech.root: shell
 ms.assetid: 9d5ccbae-cc56-446f-be67-9623247d5045
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPAASHELLMENUITEM, AASHELLMENUITEM, AASHELLMENUITEM structure [Windows Shell], LPAASHELLMENUITEM, LPAASHELLMENUITEM structure pointer [Windows Shell], _win32_AASHELLMENUITEM_str, shell.AASHELLMENUITEM_str, shlobj/AASHELLMENUITEM, shlobj/LPAASHELLMENUITEM"
 ms.topic: struct

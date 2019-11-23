@@ -1,12 +1,12 @@
 ---
 UID: NF:propsys.PSCoerceToCanonicalValue
 title: PSCoerceToCanonicalValue function (propsys.h)
-author: windows-sdk-content
+
 description: Converts the value of a property to the canonical value, according to the property description.
 old-location: properties\PSCoerceToCanonicalValue.htm
 tech.root: properties
 ms.assetid: 8225dd01-47cc-451e-b6a6-c16ddf62ca20
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSCoerceToCanonicalValue, PSCoerceToCanonicalValue function [Windows Properties], _shell_PSCoerceToCanonicalValue, properties.PSCoerceToCanonicalValue, propsys/PSCoerceToCanonicalValue, shell.PSCoerceToCanonicalValue
 ms.topic: function

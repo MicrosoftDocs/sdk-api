@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpcsdk.DhcpRequestParams
 title: DhcpRequestParams function (dhcpcsdk.h)
-author: windows-sdk-content
+
 description: The DhcpRequestParams function enables callers to synchronously, or synchronously and persistently obtain DHCP data from a DHCP server.
 old-location: dhcp\dhcprequestparams.htm
 tech.root: DHCP
 ms.assetid: 5fcbd1d9-8170-4c2b-ac98-6c04107c46e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DHCPCAPI_REQUEST_PERSISTENT, DHCPCAPI_REQUEST_SYNCHRONOUS, DhcpRequestParams, DhcpRequestParams function [DHCP], _dhcp_dhcprequestparams, dhcp.dhcprequestparams, dhcpcsdk/DhcpRequestParams
 ms.topic: function

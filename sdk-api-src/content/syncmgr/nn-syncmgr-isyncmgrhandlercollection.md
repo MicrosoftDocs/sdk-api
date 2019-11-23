@@ -1,12 +1,12 @@
 ---
 UID: NN:syncmgr.ISyncMgrHandlerCollection
 title: ISyncMgrHandlerCollection (syncmgr.h)
-author: windows-sdk-content
+
 description: Exposes methods that provide an enumerator of sync handler IDs and instantiate those sync handlers.
 old-location: shell\ISyncMgrHandlerCollection.htm
 tech.root: shell
 ms.assetid: 24514602-42c0-41ef-be33-fce03e7f091a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrHandlerCollection, ISyncMgrHandlerCollection interface [Windows Shell], ISyncMgrHandlerCollection interface [Windows Shell],described, _shell_ISyncMgrHandlerCollection, shell.ISyncMgrHandlerCollection, syncmgr/ISyncMgrHandlerCollection
 ms.topic: interface

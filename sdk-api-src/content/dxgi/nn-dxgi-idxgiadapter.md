@@ -1,12 +1,12 @@
 ---
 UID: NN:dxgi.IDXGIAdapter
 title: IDXGIAdapter (dxgi.h)
-author: windows-sdk-content
+
 description: The IDXGIAdapter interface represents a display subsystem (including one or more GPUs, DACs and video memory).
 old-location: direct3ddxgi\idxgiadapter.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 5f145307-fa6f-0182-45d3-5fa9da029cf2, IDXGIAdapter, IDXGIAdapter interface [DXGI], IDXGIAdapter interface [DXGI],described, direct3ddxgi.idxgiadapter, dxgi/IDXGIAdapter
 ms.topic: interface

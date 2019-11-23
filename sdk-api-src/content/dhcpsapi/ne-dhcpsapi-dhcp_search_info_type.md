@@ -1,12 +1,12 @@
 ---
 UID: NE:dhcpsapi._DHCP_CLIENT_SEARCH_TYPE
 title: DHCP_SEARCH_INFO_TYPE (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Defines the set of possible attributes used to search DHCP client information records.
 old-location: dhcp\dhcp_search_info_type.htm
 tech.root: DHCP
 ms.assetid: b635ea03-689c-4471-bff2-72fceec78440
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SEARCH_INFO_TYPE, DHCP_SEARCH_INFO_TYPE, DHCP_SEARCH_INFO_TYPE enumeration [DHCP], DhcpClientHardwareAddress, DhcpClientIpAddress, DhcpClientName, LPDHCP_SEARCH_INFO_TYPE, LPDHCP_SEARCH_INFO_TYPE enumeration pointer [DHCP], dhcp.dhcp_search_info_type, dhcpsapi/DHCP_SEARCH_INFO_TYPE, dhcpsapi/DhcpClientHardwareAddress, dhcpsapi/DhcpClientIpAddress, dhcpsapi/DhcpClientName, dhcpsapi/LPDHCP_SEARCH_INFO_TYPE'
 ms.topic: enum

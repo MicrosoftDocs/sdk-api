@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetCenterX(IDCompositionAnimation)
 title: IDCompositionRotateTransform3D::SetCenterX(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Animates the value of the CenterX property of a 3D rotation transform. The CenterX property specifies the x-coordinate of the point about which the rotation is performed. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setcenterx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: F6421969-EE66-4A28-9236-697DE4D4EC5C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetCenterX method, IDCompositionRotateTransform3D.SetCenterX, IDCompositionRotateTransform3D.SetCenterX(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterX, IDCompositionRotateTransform3D::SetCenterX(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterX(IDCompositionAnimation*), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetCenterX, directcomp.idcompositionrotatetransform3d_setcenterx_idcompositionanimation
 ms.topic: method

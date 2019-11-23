@@ -1,12 +1,12 @@
 ---
 UID: NF:propidlbase.IEnumSTATPROPSETSTG.Next
 title: IEnumSTATPROPSETSTG::Next (propidlbase.h)
-author: windows-sdk-content
+
 description: Retrieves a specified number of STATPROPSETSTG structures that follow subsequently in the enumeration sequence.
 old-location: stg\ienumstatpropsetstg_next.htm
 tech.root: Stg
 ms.assetid: 3af3c518-3db4-4436-b1c1-86587ce8fbf3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSETSTG interface [Structured Storage],Next method, IEnumSTATPROPSETSTG.Next, IEnumSTATPROPSETSTG::Next, Next, Next method [Structured Storage], Next method [Structured Storage],IEnumSTATPROPSETSTG interface, propidlbase/IEnumSTATPROPSETSTG::Next, stg.ienumstatpropsetstg_next
 ms.topic: method

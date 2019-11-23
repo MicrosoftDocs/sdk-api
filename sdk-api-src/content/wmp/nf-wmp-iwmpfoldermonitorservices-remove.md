@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.remove
 title: IWMPFolderMonitorServices::remove (wmp.h)
-author: windows-sdk-content
+
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The remove method removes a folder from the list of monitored folders.
 old-location: wmp\iwmpfoldermonitorservices_remove.htm
 tech.root: WMP
 ms.assetid: 4f075c31-dd09-4d35-88fa-b93a373ad2d0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],remove method, IWMPFolderMonitorServices.remove, IWMPFolderMonitorServices::remove, IWMPFolderMonitorServicesremove, remove, remove method [Windows Media Player], remove method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_remove, wmp/IWMPFolderMonitorServices::remove
 ms.topic: method

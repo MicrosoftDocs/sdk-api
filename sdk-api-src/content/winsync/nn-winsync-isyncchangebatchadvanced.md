@@ -1,12 +1,12 @@
 ---
 UID: NN:winsync.ISyncChangeBatchAdvanced
 title: ISyncChangeBatchAdvanced (winsync.h)
-author: windows-sdk-content
+
 description: Represents additional information about a set of changes.
 old-location: winsync\isyncchangebatchadvanced.htm
 tech.root: winsync
 ms.assetid: b78bc885-ed4e-4c83-ad1b-043c5b226337
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchAdvanced, ISyncChangeBatchAdvanced interface [Windows Sync], ISyncChangeBatchAdvanced interface [Windows Sync],described, winsync.isyncchangebatchadvanced, winsync/ISyncChangeBatchAdvanced
 ms.topic: interface

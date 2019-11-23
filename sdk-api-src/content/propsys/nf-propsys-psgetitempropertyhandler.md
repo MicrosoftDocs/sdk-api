@@ -1,12 +1,12 @@
 ---
 UID: NF:propsys.PSGetItemPropertyHandler
 title: PSGetItemPropertyHandler function (propsys.h)
-author: windows-sdk-content
+
 description: Retrieves a property handler for a Shell item.
 old-location: properties\PSGetItemPropertyHandler.htm
 tech.root: properties
 ms.assetid: 7b7fd260-c863-41f7-8594-4ee435090228
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSGetItemPropertyHandler, PSGetItemPropertyHandler function [Windows Properties], _shell_PSGetItemPropertyHandler, properties.PSGetItemPropertyHandler, propsys/PSGetItemPropertyHandler, shell.PSGetItemPropertyHandler
 ms.topic: function

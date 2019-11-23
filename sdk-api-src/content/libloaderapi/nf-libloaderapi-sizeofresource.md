@@ -1,12 +1,12 @@
 ---
 UID: NF:libloaderapi.SizeofResource
 title: SizeofResource function (libloaderapi.h)
-author: windows-sdk-content
+
 description: Retrieves the size, in bytes, of the specified resource.
 old-location: menurc\sizeofresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\sizeofresource.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SizeofResource, SizeofResource function [Menus and Other Resources], _win32_SizeofResource, _win32_sizeofresource_cpp, libloaderapi/SizeofResource, menurc.sizeofresource, winui._win32_sizeofresource
 ms.topic: function

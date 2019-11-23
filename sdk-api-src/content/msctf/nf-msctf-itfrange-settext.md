@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfRange.SetText
 title: ITfRange::SetText (msctf.h)
-author: windows-sdk-content
+
 description: The ITfRange::SetText method replaces the content covered by the range of text.
 old-location: tsf\itfrange_settext.htm
 tech.root: TSF
 ms.assetid: 797d96a1-0250-4e8d-a4bd-31152fd6eca7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],SetText method, ITfRange.SetText, ITfRange::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITfRange interface, _tsf_itfrange_settext_ref, msctf/ITfRange::SetText, tsf.itfrange_settext
 ms.topic: method

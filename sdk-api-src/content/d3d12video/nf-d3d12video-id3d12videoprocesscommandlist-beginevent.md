@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.BeginEvent
 title: ID3D12VideoProcessCommandList::BeginEvent
-author: windows-sdk-content
+
 description: For internal use only. Not intended to be called directly.
 tech.root: mf
 ms.assetid: 4993454e-904d-4de8-9bc7-41b1b9ba77ea
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

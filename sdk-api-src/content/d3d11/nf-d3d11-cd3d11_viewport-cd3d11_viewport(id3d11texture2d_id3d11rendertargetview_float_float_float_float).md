@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.CD3D11_VIEWPORT.CD3D11_VIEWPORT(ID3D11Texture2D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT,FLOAT)
 title: CD3D11_VIEWPORT::CD3D11_VIEWPORT(ID3D11Texture2D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT,FLOAT) (d3d11.h)
-author: windows-sdk-content
+
 description: Instantiates a new instance of a CD3D11_VIEWPORT structure that is initialized with 2D texture values.
 old-location: 
 tech.root: direct3d11
 ms.assetid: F65883C8-C1CA-4A5C-9E74-F6193D53C09F
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: CD3D11_VIEWPORT, CD3D11_VIEWPORT interface [Direct3D 11],CD3D11_VIEWPORT method, CD3D11_VIEWPORT method [Direct3D 11], CD3D11_VIEWPORT method [Direct3D 11],CD3D11_VIEWPORT interface, CD3D11_VIEWPORT.CD3D11_VIEWPORT, CD3D11_VIEWPORT.CD3D11_VIEWPORT(ID3D11Texture2D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT,FLOAT), CD3D11_VIEWPORT::CD3D11_VIEWPORT, CD3D11_VIEWPORT::CD3D11_VIEWPORT(ID3D11Texture2D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT,FLOAT), CD3D11_VIEWPORT::CD3D11_VIEWPORT(const D3D11_VIEWPORT&), d3d11/CD3D11_VIEWPORT::CD3D11_VIEWPORT, direct3d11.cd3d11_viewport_cd3d11_viewport_d3d11_viewport_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:uiautomationcoreapi.UiaAsyncContentLoadedEventArgs
 title: UiaAsyncContentLoadedEventArgs (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Note  This structure is deprecated.  Contains information about an event raised when content is being asynchronously loaded by a UI element.
 old-location: winauto\uiauto_UiaAsyncContentLoadedEventArgsStruct.htm
 tech.root: WinAuto
 ms.assetid: 070b79f2-8ed7-4bb3-85ce-a946b7cf0e6e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UiaAsyncContentLoadedEventArgs, UiaAsyncContentLoadedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaAsyncContentLoadedEventArgsStruct, uiauto_UiaAsyncContentLoadedEventArgsStruct, uiautomationcoreapi/UiaAsyncContentLoadedEventArgs, winauto.uiauto_UiaAsyncContentLoadedEventArgsStruct
 ms.topic: struct

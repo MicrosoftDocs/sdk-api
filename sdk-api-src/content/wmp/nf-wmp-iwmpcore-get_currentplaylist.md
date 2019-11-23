@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPCore.get_currentPlaylist
 title: IWMPCore::get_currentPlaylist (wmp.h)
-author: windows-sdk-content
+
 description: The get_currentPlaylist method retrieves a pointer to an IWMPPlaylist interface corresponding to the current playlist.
 old-location: wmp\iwmpcore_get_currentplaylist.htm
 tech.root: WMP
 ms.assetid: bb923325-67d2-4d73-b7ec-49e9b52cabba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_currentPlaylist method, IWMPCore.get_currentPlaylist, IWMPCore::get_currentPlaylist, IWMPCoreget_currentPlaylist, IWMPPlayer4.get_currentPlaylist, get_currentPlaylist, get_currentPlaylist method [Windows Media Player], get_currentPlaylist method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_currentplaylist, wmp/IWMPCore::get_currentPlaylist
 ms.topic: method

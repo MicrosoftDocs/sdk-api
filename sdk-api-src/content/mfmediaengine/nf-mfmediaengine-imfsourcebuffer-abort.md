@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.Abort
 title: IMFSourceBuffer::Abort (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Aborts the processing of the current media segment.
 old-location: mf\imfsourcebuffer_abort.htm
 tech.root: medfound
 ms.assetid: 31253d0d-c53f-47bd-823a-fc564cb63b78
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [Media Foundation], Abort method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],Abort method, IMFSourceBuffer.Abort, IMFSourceBuffer::Abort, mf.imfsourcebuffer_abort, mfmediaengine/IMFSourceBuffer::Abort
 ms.topic: method

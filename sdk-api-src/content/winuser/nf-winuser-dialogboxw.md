@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.DialogBoxW
 title: DialogBoxW macro (winuser.h)
-author: windows-sdk-content
+
 description: Creates a modal dialog box from a dialog box template resource. DialogBox does not return control until the specified callback function terminates the modal dialog box by calling the EndDialog function.
 old-location: dlgbox\dialogbox.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogbox.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DialogBox, DialogBox function [Dialog Boxes], DialogBoxA, DialogBoxW, _win32_DialogBox, _win32_dialogbox_cpp, dlgbox.dialogbox, winui._win32_dialogbox, winuser/DialogBox, winuser/DialogBoxA, winuser/DialogBoxW
 ms.topic: macro

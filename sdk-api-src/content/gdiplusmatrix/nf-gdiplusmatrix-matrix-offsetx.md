@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.OffsetX
 title: Matrix::OffsetX (gdiplusmatrix.h)
-author: windows-sdk-content
+
 description: The Matrix::OffsetX method gets the horizontal translation value of this matrix, which is the element in row 3, column 1.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_OffsetX_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\offsetx.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],OffsetX method, Matrix.OffsetX, Matrix::OffsetX, OffsetX, OffsetX method [GDI+], OffsetX method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_OffsetX_, gdiplus._gdiplus_CLASS_Matrix_OffsetX_
 ms.topic: method

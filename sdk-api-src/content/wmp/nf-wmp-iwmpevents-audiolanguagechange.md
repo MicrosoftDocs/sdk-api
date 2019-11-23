@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPEvents.AudioLanguageChange
 title: IWMPEvents::AudioLanguageChange (wmp.h)
-author: windows-sdk-content
+
 description: The AudioLanguageChange event occurs when the current audio language changes.
 old-location: wmp\iwmpevents_iwmpevents__audiolanguagechange.htm
 tech.root: WMP
 ms.assetid: c1dbe76f-5cc0-4c12-98bb-2586ee8773d5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AudioLanguageChange, AudioLanguageChange method [Windows Media Player], AudioLanguageChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],AudioLanguageChange method, IWMPEvents.AudioLanguageChange, IWMPEvents::AudioLanguageChange, IWMPEventsAudioLanguageChange, wmp.iwmpevents_iwmpevents__audiolanguagechange, wmp/IWMPEvents::AudioLanguageChange
 ms.topic: method

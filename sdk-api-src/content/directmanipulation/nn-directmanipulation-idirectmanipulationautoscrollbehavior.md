@@ -1,12 +1,12 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationAutoScrollBehavior
 title: IDirectManipulationAutoScrollBehavior (directmanipulation.h)
-author: windows-sdk-content
+
 description: Represents the auto-scroll animation behavior of content as it approaches the boundary of a given axis or axes.
 old-location: directmanipulation\idirectmanipulationautoscrollbehavior.htm
 tech.root: directmanipulation
 ms.assetid: 6E847EE2-231C-4B09-955A-F546CC790E3C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationAutoScrollBehavior, IDirectManipulationAutoScrollBehavior interface [Direct Manipulation], IDirectManipulationAutoScrollBehavior interface [Direct Manipulation],described, directmanipulation.idirectmanipulationautoscrollbehavior, directmanipulation/IDirectManipulationAutoScrollBehavior
 ms.topic: interface

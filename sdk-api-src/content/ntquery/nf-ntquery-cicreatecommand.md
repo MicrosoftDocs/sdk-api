@@ -1,12 +1,12 @@
 ---
 UID: NF:ntquery.CICreateCommand
 title: CICreateCommand function (ntquery.h)
-author: windows-sdk-content
+
 description: Creates a Command object.
 old-location: indexsrv\cicreatecommand.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_3sys.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CICreateCommand, CICreateCommand function [Indexing Service], _idxs_CICreateCommand, indexsrv.cicreatecommand, ntquery/CICreateCommand
 ms.topic: function

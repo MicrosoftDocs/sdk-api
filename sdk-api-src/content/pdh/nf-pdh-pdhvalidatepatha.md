@@ -1,12 +1,12 @@
 ---
 UID: NF:pdh.PdhValidatePathA
 title: PdhValidatePathA function (pdh.h)
-author: windows-sdk-content
+
 description: Validates that the counter is present on the computer specified in the counter path.
 old-location: perf\pdhvalidatepath.htm
 tech.root: perfctrs
 ms.assetid: 9248e63c-2672-466f-85f5-46f26e31dc75
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PdhValidatePath, PdhValidatePath function [Perf], PdhValidatePathA, PdhValidatePathW, _win32_pdhvalidatepath, base.pdhvalidatepath, pdh/PdhValidatePath, pdh/PdhValidatePathA, pdh/PdhValidatePathW, perf.pdhvalidatepath
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMCopyCaptureFileProgress.Progress
 title: IAMCopyCaptureFileProgress::Progress (strmif.h)
-author: windows-sdk-content
+
 description: The Progress method is called periodically by the ICaptureGraphBuilder2::CopyCaptureFile method while it copies the file.
 old-location: dshow\iamcopycapturefileprogress_progress.htm
 tech.root: DirectShow
 ms.assetid: 6908627e-51de-4206-bdb2-b3aaedf9478f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMCopyCaptureFileProgress interface [DirectShow],Progress method, IAMCopyCaptureFileProgress.Progress, IAMCopyCaptureFileProgress::Progress, IAMCopyCaptureFileProgressProgress, Progress, Progress method [DirectShow], Progress method [DirectShow],IAMCopyCaptureFileProgress interface, dshow.iamcopycapturefileprogress_progress, strmif/IAMCopyCaptureFileProgress::Progress
 ms.topic: method

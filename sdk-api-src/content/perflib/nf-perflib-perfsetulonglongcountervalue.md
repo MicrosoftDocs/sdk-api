@@ -1,12 +1,12 @@
 ---
 UID: NF:perflib.PerfSetULongLongCounterValue
 title: PerfSetULongLongCounterValue function (perflib.h)
-author: windows-sdk-content
+
 description: Updates the value of a counter whose value is an 8-byte unsigned integer. Providers use this function.
 old-location: perf\perfsetulonglongcountervalue.htm
 tech.root: perfctrs
 ms.assetid: c38f9efc-7ea8-4841-9a31-a88d4f87369c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PerfSetULongLongCounterValue, PerfSetULongLongCounterValue function [Perf], base.perfsetulonglongcountervalue, perf.perfsetulonglongcountervalue, perflib/PerfSetULongLongCounterValue
 ms.topic: function

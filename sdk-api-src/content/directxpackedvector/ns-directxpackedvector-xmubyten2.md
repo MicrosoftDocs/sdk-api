@@ -1,12 +1,12 @@
 ---
 UID: NS:directxpackedvector.XMUBYTEN2
 title: XMUBYTEN2 (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A 2D vector for storing unsigned, normalized values as signed 8-bits (1 byte) integers.
 old-location: dxmath\xmubyten2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUBYTEN2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMUBYTEN2, XMUBYTEN2 structure [DirectX Math Support APIs], directxpackedvector/XMUBYTEN2, dxmath.xmubyten2
 ms.topic: struct

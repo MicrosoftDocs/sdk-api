@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_DESCRIPTOR_RANGE
 title: D3D12_DESCRIPTOR_RANGE (d3d12.h)
-author: windows-sdk-content
+
 description: Describes a descriptor range.
 old-location: direct3d12\d3d12_descriptor_range.htm
 tech.root: direct3d12
 ms.assetid: 6F1C4D05-3E08-4353-B5B9-4C4270FC1403
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_DESCRIPTOR_RANGE, D3D12_DESCRIPTOR_RANGE structure, d3d12/D3D12_DESCRIPTOR_RANGE, direct3d12.d3d12_descriptor_range
 ms.topic: struct

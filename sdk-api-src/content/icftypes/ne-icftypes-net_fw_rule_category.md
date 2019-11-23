@@ -1,12 +1,12 @@
 ---
 UID: NE:icftypes.NET_FW_RULE_CATEGORY_
 title: NET_FW_RULE_CATEGORY (icftypes.h)
-author: windows-sdk-content
+
 description: The firewall rule category.
 old-location: ics\net_fw_rule_category.htm
 tech.root: ics
 ms.assetid: 87dcdd8a-a7c5-4a0c-8b05-716262b82f96
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NET_FW_RULE_CATEGORY, NET_FW_RULE_CATEGORY enumeration [ICS/ICF], NET_FW_RULE_CATEGORY_BOOT, NET_FW_RULE_CATEGORY_CONSEC, NET_FW_RULE_CATEGORY_FIREWALL, NET_FW_RULE_CATEGORY_MAX, NET_FW_RULE_CATEGORY_STEALTH, icftypes/NET_FW_RULE_CATEGORY, icftypes/NET_FW_RULE_CATEGORY_BOOT, icftypes/NET_FW_RULE_CATEGORY_CONSEC, icftypes/NET_FW_RULE_CATEGORY_FIREWALL, icftypes/NET_FW_RULE_CATEGORY_MAX, icftypes/NET_FW_RULE_CATEGORY_STEALTH, ics.net_fw_rule_category
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:ws2spi.WPUQueryBlockingCallback
 title: WPUQueryBlockingCallback function (ws2spi.h)
-author: windows-sdk-content
+
 description: The WPUQueryBlockingCallback function returns a pointer to a callback function the service provider should invoke periodically while servicing blocking operations.
 old-location: winsock\wpuqueryblockingcallback_2.htm
 tech.root: WinSock
 ms.assetid: 08e6215c-536f-4ab2-9d34-096b919ef0be
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WPUQueryBlockingCallback, WPUQueryBlockingCallback function [Winsock], _win32_wpuqueryblockingcallback_2, winsock.wpuqueryblockingcallback_2, ws2spi/WPUQueryBlockingCallback
 ms.topic: function

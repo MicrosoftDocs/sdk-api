@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspen.Pen.GetWidth
 title: Pen::GetWidth (gdipluspen.h)
-author: windows-sdk-content
+
 description: The Pen::GetWidth method gets the width currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetWidth_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getwidth_36.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetWidth, GetWidth method [GDI+], GetWidth method [GDI+],Pen class, Pen class [GDI+],GetWidth method, Pen.GetWidth, Pen::GetWidth, _gdiplus_CLASS_Pen_GetWidth_, gdiplus._gdiplus_CLASS_Pen_GetWidth_
 ms.topic: method

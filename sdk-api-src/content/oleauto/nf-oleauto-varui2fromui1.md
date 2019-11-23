@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarUI2FromUI1
 title: VarUI2FromUI1 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts an unsigned char value to an unsigned short value.
 old-location: automat\varui2fromui1.htm
 tech.root: automat
 ms.assetid: 16fc3ed5-2f55-446c-a77e-ebd0f77d745d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarUI2FromUI1, VarUI2FromUI1 function [Automation], _oa96_VarUI2FromUI1, automat.varui2fromui1, oleauto/VarUI2FromUI1
 ms.topic: function

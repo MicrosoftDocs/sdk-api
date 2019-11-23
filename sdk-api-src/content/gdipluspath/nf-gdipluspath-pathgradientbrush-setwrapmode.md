@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetWrapMode
 title: PathGradientBrush::SetWrapMode (gdipluspath.h)
-author: windows-sdk-content
+
 description: The PathGradientBrush::SetWrapMode method sets the wrap mode of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetWrapMode_wrapMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setwrapmode_12wrapmode.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetWrapMode method, PathGradientBrush.SetWrapMode, PathGradientBrush::SetWrapMode, SetWrapMode, SetWrapMode method [GDI+], SetWrapMode method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetWrapMode_wrapMode_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetWrapMode_wrapMode_
 ms.topic: method

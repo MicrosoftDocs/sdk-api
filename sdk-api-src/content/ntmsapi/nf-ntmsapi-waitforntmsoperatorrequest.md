@@ -1,12 +1,12 @@
 ---
 UID: NF:ntmsapi.WaitForNtmsOperatorRequest
 title: WaitForNtmsOperatorRequest function (ntmsapi.h)
-author: windows-sdk-content
+
 description: The WaitForNtmsOperatorRequest function waits for the specified RSM operator request.
 old-location: fs\waitforntmsoperatorrequest.htm
 tech.root: Rsm
 ms.assetid: abc78047-a6d7-4e98-baec-5e4ba394c64f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WaitForNtmsOperatorRequest, WaitForNtmsOperatorRequest function [Files], _zaw_waitforntmsoperatorrequest, base.waitforntmsoperatorrequest, fs.waitforntmsoperatorrequest, ntmsapi/WaitForNtmsOperatorRequest
 ms.topic: function

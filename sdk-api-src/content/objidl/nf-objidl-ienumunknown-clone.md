@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IEnumUnknown.Clone
 title: IEnumUnknown::Clone (objidl.h)
-author: windows-sdk-content
+
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumunknown_clone.htm
 tech.root: com
 ms.assetid: 278d2947-efa5-43c4-a950-cf39876423ba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumUnknown interface, IEnumUnknown interface [COM],Clone method, IEnumUnknown.Clone, IEnumUnknown::Clone, _com_ienumunknown_clone, com.ienumunknown_clone, objidlbase/IEnumUnknown::Clone
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTGetServices
 title: BluetoothGATTGetServices function (bluetoothleapis.h)
-author: windows-sdk-content
+
 description: The BluetoothGATTGetServices function gets all the primary services available for a server.
 old-location: bltooth\bluetoothgattgetservices.htm
 tech.root: bltooth
 ms.assetid: 8EF8B582-FFAE-4C87-8E94-7EFDD2CD2706
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetServices, BluetoothGATTGetServices function [Bluetooth Devices], bltooth.bluetoothgattgetservices, bluetoothleapis/BluetoothGATTGetServices
 ms.topic: function

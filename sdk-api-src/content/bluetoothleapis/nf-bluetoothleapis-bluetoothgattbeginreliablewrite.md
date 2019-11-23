@@ -1,12 +1,12 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTBeginReliableWrite
 title: BluetoothGATTBeginReliableWrite function (bluetoothleapis.h)
-author: windows-sdk-content
+
 description: The BluetoothGATTBeginReliableWrite function specifies that reliable writes are about to begin.
 old-location: bltooth\bluetoothgattbeginreliablewrite.htm
 tech.root: bltooth
 ms.assetid: D053FD0C-3088-4C56-A4EA-F41079FAAF20
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTBeginReliableWrite, BluetoothGATTBeginReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattbeginreliablewrite, bluetoothleapis/BluetoothGATTBeginReliableWrite
 ms.topic: function

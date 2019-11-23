@@ -1,12 +1,12 @@
 ---
 UID: NS:ncrypt.NCryptKeyName
 title: NCryptKeyName (ncrypt.h)
-author: windows-sdk-content
+
 description: Used to contain information about a CNG key.
 old-location: security\ncryptkeyname_struct.htm
 tech.root: SecCNG
 ms.assetid: 9d9ebbb7-c491-49b0-9686-e37085929271
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCryptKeyName, NCryptKeyName structure [Security], ncrypt/NCryptKeyName, security.ncryptkeyname_struct
 ms.topic: struct

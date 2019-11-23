@@ -1,12 +1,12 @@
 ---
 UID: NF:userenv.GetProfilesDirectoryW
 title: GetProfilesDirectoryW function (userenv.h)
-author: windows-sdk-content
+
 description: Retrieves the path to the root directory where user profiles are stored.
 old-location: shell\GetProfilesDirectory.htm
 tech.root: shell
 ms.assetid: e21411fa-f7e1-4944-93ce-7d9314d79fbf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetProfilesDirectory, GetProfilesDirectory function [Windows Shell], GetProfilesDirectoryA, GetProfilesDirectoryW, _shell_GetProfilesDirectory, shell.GetProfilesDirectory, userenv/GetProfilesDirectory, userenv/GetProfilesDirectoryA, userenv/GetProfilesDirectoryW
 ms.topic: function

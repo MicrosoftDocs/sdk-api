@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorFalseInt
 title: XMVectorFalseInt function (directxmath.h)
-author: windows-sdk-content
+
 description: Returns the zero (false) vector.
 old-location: dxmath\xmvectorfalseint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorFalseInt
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorFalseInt, XMVectorFalseInt, XMVectorFalseInt method [DirectX Math Support APIs], dxmath.xmvectorfalseint
 ms.topic: function

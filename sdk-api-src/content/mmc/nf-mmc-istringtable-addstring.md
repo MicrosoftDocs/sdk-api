@@ -1,12 +1,12 @@
 ---
 UID: NF:mmc.IStringTable.AddString
 title: IStringTable::AddString (mmc.h)
-author: windows-sdk-content
+
 description: Enables a snap-in to add a string to the snap-in's string table.
 old-location: mmc\istringtable_addstring.htm
 tech.root: mmc
 ms.assetid: fd4672fb-89d1-4542-b917-58c01290c928
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddString, AddString method [MMC], AddString method [MMC],IStringTable interface, IStringTable interface [MMC],AddString method, IStringTable.AddString, IStringTable::AddString, _slate_istringtable_addstring, mmc.istringtable_addstring, mmc/IStringTable::AddString
 ms.topic: method

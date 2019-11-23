@@ -1,12 +1,12 @@
 ---
 UID: NF:dmoreg.DMOUnregister
 title: DMOUnregister function (dmoreg.h)
-author: windows-sdk-content
+
 description: The DMOUnregister function unregisters a DMO.
 old-location: dshow\dmounregister.htm
 tech.root: DirectShow
 ms.assetid: 7f65789d-7654-4da2-a572-e07c1e81b4ae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DMOUnregister, DMOUnregister function [DirectShow], dmoreg/DMOUnregister, dshow.dmounregister
 ms.topic: function

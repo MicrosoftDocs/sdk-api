@@ -1,12 +1,12 @@
 ---
 UID: NF:perflib.PerfDeleteInstance
 title: PerfDeleteInstance function (perflib.h)
-author: windows-sdk-content
+
 description: Deletes an instance of the counter set created by the PerfCreateInstance function.
 old-location: perf\perfdeleteinstance.htm
 tech.root: perfctrs
 ms.assetid: 8266e58c-c0a3-42dd-9f06-0d04dccfcf7c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PerfDeleteInstance, PerfDeleteInstance function [Perf], base.perfdeleteinstance, perf.perfdeleteinstance, perflib/PerfDeleteInstance
 ms.topic: function

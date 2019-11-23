@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_DECODER_CONFIG
 title: D3D11_VIDEO_DECODER_CONFIG (d3d11.h)
-author: windows-sdk-content
+
 description: Describes the configuration of a Microsoft Direct3D 11 decoder device for DirectX Video Acceleration (DXVA).
 old-location: mf\d3d11_video_decoder_config.htm
 tech.root: medfound
 ms.assetid: AB963FAD-F16C-47F6-8C78-FF4C234FBC60
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_CONFIG, D3D11_VIDEO_DECODER_CONFIG structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_CONFIG, mf.d3d11_video_decoder_config
 ms.topic: struct

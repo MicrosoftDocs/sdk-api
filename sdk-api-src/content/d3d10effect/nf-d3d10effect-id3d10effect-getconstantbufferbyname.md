@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetConstantBufferByName
 title: ID3D10Effect::GetConstantBufferByName (d3d10effect.h)
-author: windows-sdk-content
+
 description: Get a constant buffer by name.
 old-location: direct3d10\id3d10effect_getconstantbufferbyname.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getconstantbufferbyname.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetConstantBufferByName, GetConstantBufferByName method [Direct3D 10], GetConstantBufferByName method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetConstantBufferByName method, ID3D10Effect.GetConstantBufferByName, ID3D10Effect::GetConstantBufferByName, d3d10effect/ID3D10Effect::GetConstantBufferByName, direct3d10.id3d10effect_getconstantbufferbyname, ee9f35f2-1d6f-f921-a7a3-825ac2b49866
 ms.topic: method

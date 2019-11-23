@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IMtsEventInfo.get_EventID
 title: IMtsEventInfo::get_EventID (comsvcs.h)
-author: windows-sdk-content
+
 description: Retrieves the event identifier of the object.
 old-location: cos\imtseventinfo_get_eventid.htm
 tech.root: cossdk
 ms.assetid: 20695360-ed0d-4d8b-8c3b-42adc42e87b3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_EventID method, IMtsEventInfo.get_EventID, IMtsEventInfo::get_EventID, _dtc_IMtsEventInfo_EventID, comsvcs/IMtsEventInfo::get_EventID, cos.imtseventinfo_get_eventid, get_EventID, get_EventID method [COM+], get_EventID method [COM+],IMtsEventInfo interface
 ms.topic: method

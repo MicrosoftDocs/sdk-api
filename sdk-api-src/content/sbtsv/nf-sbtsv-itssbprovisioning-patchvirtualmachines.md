@@ -1,12 +1,12 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.PatchVirtualMachines
 title: ITsSbProvisioning::PatchVirtualMachines (sbtsv.h)
-author: windows-sdk-content
+
 description: Patches a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_patchvirtualmachines.htm
 tech.root: TermServ
 ms.assetid: 99afcba2-5567-47fa-9752-80394f145176
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioning interface [Remote Desktop Services],PatchVirtualMachines method, ITsSbProvisioning.PatchVirtualMachines, ITsSbProvisioning::PatchVirtualMachines, PatchVirtualMachines, PatchVirtualMachines method [Remote Desktop Services], PatchVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, sbtsv/ITsSbProvisioning::PatchVirtualMachines, termserv.itssbprovisioning_patchvirtualmachines
 ms.topic: method

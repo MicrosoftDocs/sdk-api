@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndGetSource
 title: MCIWndGetSource macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndGetSource macro retrieves the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can use this macro or explicitly send the MCIWNDM_GET_SOURCE message.
 old-location: multimedia\mciwndgetsource.htm
 tech.root: Multimedia
 ms.assetid: 3ac01055-7d17-499f-af2e-e50fc08e5520
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetSource, MCIWndGetSource macro [Windows Multimedia], _win32_MCIWndGetSource, multimedia.mciwndgetsource, vfw/MCIWndGetSource
 ms.topic: macro

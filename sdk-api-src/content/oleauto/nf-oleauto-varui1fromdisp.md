@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarUI1FromDisp
 title: VarUI1FromDisp function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts the default property of an IDispatch instance to an unsigned char value.
 old-location: automat\varui1fromdisp.htm
 tech.root: automat
 ms.assetid: 2bc73f66-ce91-47b1-950a-0ad226dcbf36
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarUI1FromDisp, VarUI1FromDisp function [Automation], _oa96_VarUI1FromDisp, automat.varui1fromdisp, oleauto/VarUI1FromDisp
 ms.topic: function

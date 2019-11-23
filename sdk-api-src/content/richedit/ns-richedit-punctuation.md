@@ -1,12 +1,12 @@
 ---
 UID: NS:richedit._punctuation
 title: PUNCTUATION (richedit.h)
-author: windows-sdk-content
+
 description: Contains information about the punctuation used in a rich edit control.
 old-location: controls\PUNCTUATION.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\punctuation.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PUNCTUATION, PUNCTUATION structure [Windows Controls], _win32_PUNCTUATION_str, _win32_PUNCTUATION_str_cpp, controls.PUNCTUATION, controls._win32_PUNCTUATION_str, richedit/PUNCTUATION
 ms.topic: struct

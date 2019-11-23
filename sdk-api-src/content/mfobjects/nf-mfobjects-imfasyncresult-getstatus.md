@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetStatus
 title: IMFAsyncResult::GetStatus (mfobjects.h)
-author: windows-sdk-content
+
 description: Returns the status of the asynchronous operation.
 old-location: mf\imfasyncresult_getstatus.htm
 tech.root: medfound
 ms.assetid: ad99f3dd-4885-42e8-8f4e-060d522dde7b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Media Foundation], GetStatus method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetStatus method, IMFAsyncResult.GetStatus, IMFAsyncResult::GetStatus, ad99f3dd-4885-42e8-8f4e-060d522dde7b, mf.imfasyncresult_getstatus, mfobjects/IMFAsyncResult::GetStatus
 ms.topic: method

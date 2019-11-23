@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzApplication.CreateScope
 title: IAzApplication::CreateScope (azroles.h)
-author: windows-sdk-content
+
 description: Creates an IAzScope object with the specified name.
 old-location: security\iazapplication_createscope.htm
 tech.root: SecAuthZ
 ms.assetid: 6d5044d8-0b6a-4681-a8eb-e93f50fbdf36
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],CreateScope method, CreateScope, CreateScope method [Security], CreateScope method [Security],AzApplication object, CreateScope method [Security],IAzApplication interface, IAzApplication interface [Security],CreateScope method, IAzApplication.CreateScope, IAzApplication::CreateScope, azroles/IAzApplication::CreateScope, security.iazapplication_createscope
 ms.topic: method

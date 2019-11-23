@@ -1,9 +1,9 @@
 ---
 UID: NE:d3d12.D3D12_LIFETIME_STATE
 title: D3D12_LIFETIME_STATE
-author: windows-sdk-content
+
 description: Defines constants that specify the lifetime state of a lifetime-tracked object.
-ms.author: windowssdkdev
+
 ms.date: 10/30/2019
 ms.keywords: D3D12_LIFETIME_STATE
 ms.topic: language-reference

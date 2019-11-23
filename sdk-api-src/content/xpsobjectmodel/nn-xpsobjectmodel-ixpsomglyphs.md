@@ -1,12 +1,12 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGlyphs
 title: IXpsOMGlyphs (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Describes the text that appears on a page.
 old-location: xps\ixpsomglyphs.htm
 tech.root: printdocs
 ms.assetid: 6d2cda65-c719-46f2-97c9-8aee7b5f84b9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], IXpsOMGlyphs interface [XPS Documents and Packaging],described, xps.ixpsomglyphs, xpsobjectmodel/IXpsOMGlyphs
 ms.topic: interface

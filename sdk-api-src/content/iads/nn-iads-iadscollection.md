@@ -1,12 +1,12 @@
 ---
 UID: NN:iads.IADsCollection
 title: IADsCollection (iads.h)
-author: windows-sdk-content
+
 description: The IADsCollection interface is a dual interface that enables its hosting ADSI object to define and manage an arbitrary set of named data elements for a directory service.
 old-location: adsi\iadscollection.htm
 tech.root: adsi
 ms.assetid: 4552552b-c008-439a-95bf-eaf9ffd28b5f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsCollection, IADsCollection interface [ADSI], IADsCollection interface [ADSI],described, _ds_iadscollection, adsi.iadscollection, iads/IADsCollection
 ms.topic: interface

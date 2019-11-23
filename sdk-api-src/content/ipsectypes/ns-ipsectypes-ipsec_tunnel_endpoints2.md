@@ -1,12 +1,12 @@
 ---
 UID: NS:ipsectypes.IPSEC_TUNNEL_ENDPOINTS2_
 title: IPSEC_TUNNEL_ENDPOINTS2 (ipsectypes.h)
-author: windows-sdk-content
+
 description: Is used to store end points of a tunnel mode SA.
 old-location: fwp\ipsec_tunnel_endpoints2.htm
 tech.root: fwp
 ms.assetid: 091daec1-2c35-4d24-89be-fcdb0354b674
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TUNNEL_ENDPOINTS2, IPSEC_TUNNEL_ENDPOINTS2 structure [Filtering], fwp.ipsec_tunnel_endpoints2, ipsectypes/IPSEC_TUNNEL_ENDPOINTS2
 ms.topic: struct

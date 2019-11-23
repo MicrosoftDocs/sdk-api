@@ -1,12 +1,12 @@
 ---
 UID: NF:wincrypt.CryptDecodeMessage
 title: CryptDecodeMessage function (wincrypt.h)
-author: windows-sdk-content
+
 description: Decodes, decrypts, and verifies a cryptographic message.
 old-location: security\cryptdecodemessage.htm
 tech.root: SecCrypto
 ms.assetid: 25ffd058-8f75-4ba5-b075-e3efc09f5d9d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CryptDecodeMessage, CryptDecodeMessage function [Security], _crypto2_cryptdecodemessage, security.cryptdecodemessage, wincrypt/CryptDecodeMessage
 ms.topic: function

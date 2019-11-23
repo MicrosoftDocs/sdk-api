@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference1.GetFontAxisValues
 title: IDWriteFontFaceReference1::GetFontAxisValues
-author: windows-sdk-content
+
 description: Retrieves the list of font axis values specified by the reference.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontFaceReference1 interface [Direct Write],GetFontAxisValues method, IDWriteFontFaceReference1.GetFontAxisValues, IDWriteFontFaceReference1::GetFontAxisValues, GetFontAxisValues, GetFontAxisValues method [Direct Write], GetFontAxisValues method [Direct Write],IDWriteFontFaceReference1 interface, directwrite.idwritefontfacereference1_getfontaxisvalues, dwrite_3/IDWriteFontFaceReference1::GetFontAxisValues
 ms.topic: method

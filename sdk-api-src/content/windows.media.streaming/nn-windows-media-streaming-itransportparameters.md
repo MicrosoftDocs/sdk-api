@@ -1,12 +1,12 @@
 ---
 UID: NN:windows.media.streaming.ITransportParameters
 title: ITransportParameters (windows.media.streaming.h)
-author: windows-sdk-content
+
 description: Encapsulates the methods needed to provide information about the current transport-related settings of the DMR. These settings include the current transport state and information about what methods can currently be invoked on the DMR.
 old-location: mediastreaming\itransportparameters.htm
 tech.root: mediastreaming
 ms.assetid: 4D104C4E-18EE-418F-8D99-3E766A5478F6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITransportParameters, ITransportParameters interface [Media Streaming API], ITransportParameters interface [Media Streaming API],described, mediastreaming.itransportparameters, windows/ITransportParameters
 ms.topic: interface

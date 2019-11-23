@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetGreenSlope(IDCompositionAnimation)
 title: IDCompositionLinearTransferEffect::SetGreenSlope(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the slope of the linear function for the green channel.
 old-location: directcomp\idcompositionlineartransfereffect_setgreenslope_2.htm
 tech.root: directcomp
 ms.assetid: BAB60C7E-D2FA-4148-A1F6-5937D3AE746B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetGreenSlope method, IDCompositionLinearTransferEffect.SetGreenSlope, IDCompositionLinearTransferEffect.SetGreenSlope(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetGreenSlope, IDCompositionLinearTransferEffect::SetGreenSlope(IDCompositionAnimation), SetGreenSlope, SetGreenSlope method [DirectComposition], SetGreenSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetGreenSlope, directcomp.idcompositionlineartransfereffect_setgreenslope_2
 ms.topic: method

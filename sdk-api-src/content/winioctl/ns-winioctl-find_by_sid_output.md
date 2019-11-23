@@ -1,12 +1,12 @@
 ---
 UID: NS:winioctl.__unnamed_struct_13
 title: FIND_BY_SID_OUTPUT
-author: windows-sdk-content
+
 description: Represents a file name.
 old-location: fs\find_by_sid_output.htm
 tech.root: FileIO
 ms.assetid: fc616f88-c8c9-43de-8b17-2b8c38e5cdbb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PFIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT structure [Files], PFIND_BY_SID_OUTPUT, PFIND_BY_SID_OUTPUT structure pointer [Files], base.find_by_sid_output, fs.find_by_sid_output, winioctl/FIND_BY_SID_OUTPUT, winioctl/PFIND_BY_SID_OUTPUT"
 ms.topic: struct

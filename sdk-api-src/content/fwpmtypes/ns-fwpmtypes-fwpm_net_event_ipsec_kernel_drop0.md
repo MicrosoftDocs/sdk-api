@@ -1,12 +1,12 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_IPSEC_KERNEL_DROP0_
 title: FWPM_NET_EVENT_IPSEC_KERNEL_DROP0 (fwpmtypes.h)
-author: windows-sdk-content
+
 description: Contains information that describes an IPsec kernel drop event.
 old-location: fwp\fwpm_net_event_ipsec_kernel_drop0.htm
 tech.root: fwp
 ms.assetid: ef970199-3603-4012-9033-afa4a7301fea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_IPSEC_KERNEL_DROP0, FWPM_NET_EVENT_IPSEC_KERNEL_DROP0 structure [Filtering], fwp.fwpm_net_event_ipsec_kernel_drop0, fwpmtypes/FWPM_NET_EVENT_IPSEC_KERNEL_DROP0
 ms.topic: struct

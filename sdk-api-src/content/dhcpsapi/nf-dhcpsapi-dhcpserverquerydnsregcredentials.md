@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpServerQueryDnsRegCredentials
 title: DhcpServerQueryDnsRegCredentials function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Retrieves the current Domain Name System (DNS) credentials used by the DHCP server for client dynamic DNS registration.
 old-location: dhcp\dhcpserverquerydnsregcredentials.htm
 tech.root: DHCP
 ms.assetid: 773cbfef-1dc5-4d44-9997-591acbfb3783
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpServerQueryDnsRegCredentials, DhcpServerQueryDnsRegCredentials function [DHCP], dhcp.dhcpserverquerydnsregcredentials, dhcpsapi/DhcpServerQueryDnsRegCredentials
 ms.topic: function

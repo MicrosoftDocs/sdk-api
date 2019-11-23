@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IEnumWbemClassObject.Skip
 title: IEnumWbemClassObject::Skip (wbemcli.h)
-author: windows-sdk-content
+
 description: You can use the IEnumWbemClassObject::Skip method to move the current position in an enumeration ahead by a specified number of objects. Also, this affects subsequent calls to NextAsync, but it does not affect pending deliveries begun with NextAsync.
 old-location: wmi\ienumwbemclassobject_skip.htm
 tech.root: WmiSdk
 ms.assetid: 9579086c-cd45-4b3c-bd43-de0b89745b02
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Skip method, IEnumWbemClassObject.Skip, IEnumWbemClassObject::Skip, Skip, Skip method [Windows Management Instrumentation], Skip method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_skip, wbemcli/IEnumWbemClassObject::Skip, wmi.ienumwbemclassobject_skip
 ms.topic: method

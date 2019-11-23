@@ -1,12 +1,12 @@
 ---
 UID: NF:shdeprecated.ITravelLog.UpdateExternal
 title: ITravelLog::UpdateExternal (shdeprecated.h)
-author: windows-sdk-content
+
 description: Deprecated. Updates an entry that originated out of the current procedure through IHlinkFrame.
 old-location: shell\ITravelLog_UpdateExternal.htm
 tech.root: shell
 ms.assetid: 2fda446d-8652-455b-9233-aa02f2a85e7f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITravelLog interface [Windows Shell],UpdateExternal method, ITravelLog.UpdateExternal, ITravelLog::UpdateExternal, UpdateExternal, UpdateExternal method [Windows Shell], UpdateExternal method [Windows Shell],ITravelLog interface, shdeprecated/ITravelLog::UpdateExternal, shell.ITravelLog_UpdateExternal, zone_ITravelLog_UpdateExternal
 ms.topic: method

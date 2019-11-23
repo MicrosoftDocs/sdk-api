@@ -1,12 +1,12 @@
 ---
 UID: NF:callobj.ICallFrame.Marshal
 title: ICallFrame::Marshal (callobj.h)
-author: windows-sdk-content
+
 description: Marshals the call frame by turning its reachable data into a flat buffer without disturbing the frame.
 old-location: com\icallframe_marshal.htm
 tech.root: com
 ms.assetid: cab40c31-1f89-4da9-a1e0-ef946b34665c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICallFrame interface [COM],Marshal method, ICallFrame.Marshal, ICallFrame::Marshal, Marshal, Marshal method [COM], Marshal method [COM],ICallFrame interface, _com_icallframe_marshal, callobj/ICallFrame::Marshal, com.icallframe_marshal
 ms.topic: method

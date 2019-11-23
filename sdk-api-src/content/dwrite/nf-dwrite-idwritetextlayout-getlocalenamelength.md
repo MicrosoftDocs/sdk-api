@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetLocaleNameLength
 title: IDWriteTextLayout::GetLocaleNameLength (dwrite.h)
-author: windows-sdk-content
+
 description: Gets the length of the locale name of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetLocaleNameLength.htm
 tech.root: DirectWrite
 ms.assetid: 65d05939-ed51-45e9-a556-71a8cf52b196
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLocaleNameLength, GetLocaleNameLength method [Direct Write], GetLocaleNameLength method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetLocaleNameLength method, IDWriteTextLayout.GetLocaleNameLength, IDWriteTextLayout::GetLocaleNameLength, directwrite.IDWriteTextLayout_GetLocaleNameLength, dwrite/IDWriteTextLayout::GetLocaleNameLength
 ms.topic: method

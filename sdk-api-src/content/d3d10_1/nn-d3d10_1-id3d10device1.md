@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d10_1.ID3D10Device1
 title: ID3D10Device1 (d3d10_1.h)
-author: windows-sdk-content
+
 description: The device interface represents a virtual adapter for Direct3D 10.1; it is used to perform rendering and create Direct3D resources.
 old-location: direct3d10\id3d10device1.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device1.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device1, ID3D10Device1 interface [Direct3D 10], ID3D10Device1 interface [Direct3D 10],described, a168edcd-989a-13da-7972-09b5d5e9210a, d3d10_1/ID3D10Device1, direct3d10.id3d10device1
 ms.topic: interface

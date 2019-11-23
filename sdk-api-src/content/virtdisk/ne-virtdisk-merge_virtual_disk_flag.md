@@ -1,12 +1,12 @@
 ---
 UID: NE:virtdisk._MERGE_VIRTUAL_DISK_FLAG
 title: MERGE_VIRTUAL_DISK_FLAG (virtdisk.h)
-author: windows-sdk-content
+
 description: Contains virtual hard disk (VHD) merge request flags.
 old-location: vhd\merge_virtual_disk_flag.htm
 tech.root: VStor
 ms.assetid: a7f7701d-a9d9-4bc9-8d3c-a1a14222abc2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MERGE_VIRTUAL_DISK_FLAG, MERGE_VIRTUAL_DISK_FLAG enumeration [VHD], MERGE_VIRTUAL_DISK_FLAG_NONE, vdssys/MERGE_VIRTUAL_DISK_FLAG, vdssys/MERGE_VIRTUAL_DISK_FLAG_NONE, vhd.merge_virtual_disk_flag, virtdisk/MERGE_VIRTUAL_DISK_FLAG, virtdisk/MERGE_VIRTUAL_DISK_FLAG_NONE
 ms.topic: enum

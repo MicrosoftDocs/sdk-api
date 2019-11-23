@@ -1,12 +1,12 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceWebControl
 title: IPortableDeviceWebControl (portabledeviceapi.h)
-author: windows-sdk-content
+
 description: Represents a factory that can instantiate a WPD Automation Device object in a Windows Store app.
 old-location: wpdauto\iportabledevicewebcontrol.htm
 tech.root: wpdauto
 ms.assetid: 0ec81d6a-3671-4c4e-b650-f251fa99f7ea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceWebControl, IPortableDeviceWebControl interface [WPD Automation], IPortableDeviceWebControl interface [WPD Automation],described, portabledeviceapi/IPortableDeviceWebControl, wpdauto.iportabledevicewebcontrol
 ms.topic: interface

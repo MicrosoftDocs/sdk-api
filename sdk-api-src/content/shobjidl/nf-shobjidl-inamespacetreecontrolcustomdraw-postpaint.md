@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlCustomDraw.PostPaint
 title: INameSpaceTreeControlCustomDraw::PostPaint (shobjidl.h)
-author: windows-sdk-content
+
 description: Called after the namespace tree control is drawn.
 old-location: shell\INameSpaceTreeControlCustomDraw_PostPaint.htm
 tech.root: shell
 ms.assetid: fe8cedc8-166d-4802-9d01-7c3991181618
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlCustomDraw interface [Windows Shell],PostPaint method, INameSpaceTreeControlCustomDraw.PostPaint, INameSpaceTreeControlCustomDraw::PostPaint, PostPaint, PostPaint method [Windows Shell], PostPaint method [Windows Shell],INameSpaceTreeControlCustomDraw interface, _shell_INameSpaceTreeControlCustomDraw_PostPaint, shell.INameSpaceTreeControlCustomDraw_PostPaint, shobjidl/INameSpaceTreeControlCustomDraw::PostPaint
 ms.topic: method

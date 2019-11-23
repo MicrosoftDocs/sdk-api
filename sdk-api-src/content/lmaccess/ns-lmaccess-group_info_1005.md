@@ -1,12 +1,12 @@
 ---
 UID: NS:lmaccess._GROUP_INFO_1005
 title: GROUP_INFO_1005 (lmaccess.h)
-author: windows-sdk-content
+
 description: The GROUP_INFO_1005 structure contains the resource attributes associated with a global group.
 old-location: netmgmt\group_info_1005_str.htm
 tech.root: NetMgmt
 ms.assetid: bd93820a-e019-45f4-88c7-011a517955ad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPGROUP_INFO_1005, *PGROUP_INFO_1005, GROUP_INFO_1005, GROUP_INFO_1005 structure [Network Management], LPGROUP_INFO_1005, LPGROUP_INFO_1005 structure pointer [Network Management], PGROUP_INFO_1005, PGROUP_INFO_1005 structure pointer [Network Management], _win32_group_info_1005_str, lmaccess/GROUP_INFO_1005, lmaccess/LPGROUP_INFO_1005, lmaccess/PGROUP_INFO_1005, netmgmt.group_info_1005_str'
 ms.topic: struct

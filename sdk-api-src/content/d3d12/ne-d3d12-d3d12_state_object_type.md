@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d12.D3D12_STATE_OBJECT_TYPE
 title: D3D12_STATE_OBJECT_TYPE (d3d12.h)
-author: windows-sdk-content
+
 description: Specifies the type of a state object. Use with D3D12_STATE_OBJECT_DESC.
 old-location: direct3d12\d3d12_state_object_type.htm
 tech.root: direct3d12
 ms.assetid: 57E5BAE4-C6FF-4801-91A3-8C4189149B5F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_STATE_OBJECT_TYPE, D3D12_STATE_OBJECT_TYPE enumeration, D3D12_STATE_OBJECT_TYPE_COLLECTION, D3D12_STATE_OBJECT_TYPE_RAYTRACING_PIPELINE, d3d12/D3D12_STATE_OBJECT_TYPE, d3d12/D3D12_STATE_OBJECT_TYPE_COLLECTION, d3d12/D3D12_STATE_OBJECT_TYPE_RAYTRACING_PIPELINE, direct3d12.d3d12_state_object_type
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NN:wmcodecdsp.ITocEntry
 title: ITocEntry (wmcodecdsp.h)
-author: windows-sdk-content
+
 description: The ITocEntry interface represents an individual entry in a table of contents. It provides methods for setting and retrieving descriptive information for the entry.
 old-location: mf\itocentry.htm
 tech.root: medfound
 ms.assetid: 82a1a390-50b1-4699-9baa-60cea322ce7c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITocEntry, ITocEntry interface [Media Foundation], ITocEntry interface [Media Foundation],described, codecapi.itocentry, mf.itocentry, wmcodecdsp/ITocEntry
 ms.topic: interface

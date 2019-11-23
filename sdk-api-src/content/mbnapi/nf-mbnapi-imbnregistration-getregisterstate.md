@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRegisterState
 title: IMbnRegistration::GetRegisterState (mbnapi.h)
-author: windows-sdk-content
+
 description: Gets the registration state.
 old-location: mbn\imbnregistration_getregisterstate.htm
 tech.root: mbn
 ms.assetid: 19488f2e-0cec-4e87-a32a-274e82cd8766
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRegisterState, GetRegisterState method [Microsoft Broadband Networks], GetRegisterState method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRegisterState method, IMbnRegistration.GetRegisterState, IMbnRegistration::GetRegisterState, mbn.imbnregistration_getregisterstate, mbnapi/IMbnRegistration::GetRegisterState
 ms.topic: method

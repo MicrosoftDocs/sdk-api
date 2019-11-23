@@ -1,12 +1,12 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy2.get_TftpMaximumBlockSize
 title: IWdsTransportServicePolicy2::get_TftpMaximumBlockSize (wdstptmgmt.h)
-author: windows-sdk-content
+
 description: Receives a value for the maximum block size used by the TFTP server. The value enables a WDS client computer to configure the maximum block size.
 old-location: wds\iwdstransportservicepolicy2_tftpmaximumblocksize.htm
 tech.root: wds
 ms.assetid: F1976D40-86A9-4E86-80DD-897AE03A2A0A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy2 interface [Windows Deployment Services],TftpMaximumBlockSize property, IWdsTransportServicePolicy2.TftpMaximumBlockSize, IWdsTransportServicePolicy2.get_TftpMaximumBlockSize, IWdsTransportServicePolicy2::TftpMaximumBlockSize, IWdsTransportServicePolicy2::get_TftpMaximumBlockSize, IWdsTransportServicePolicy2::put_TftpMaximumBlockSize, TftpMaximumBlockSize property [Windows Deployment Services], TftpMaximumBlockSize property [Windows Deployment Services],IWdsTransportServicePolicy2 interface, get_TftpMaximumBlockSize, wds.iwdstransportservicepolicy2_tftpmaximumblocksize, wdstptmgmt/IWdsTransportServicePolicy2::TftpMaximumBlockSize, wdstptmgmt/IWdsTransportServicePolicy2::get_TftpMaximumBlockSize, wdstptmgmt/IWdsTransportServicePolicy2::put_TftpMaximumBlockSize
 ms.topic: method

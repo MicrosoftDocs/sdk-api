@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.GetDefaultDestinationName
 title: ITransferSource::GetDefaultDestinationName (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Gets the default name for a Shell item.
 old-location: shell\ITransferSource_GetDefaultDestinationName.htm
 tech.root: shell
 ms.assetid: a99d9622-b205-4a8a-9840-879f655463a5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDefaultDestinationName, GetDefaultDestinationName method [Windows Shell], GetDefaultDestinationName method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],GetDefaultDestinationName method, ITransferSource.GetDefaultDestinationName, ITransferSource::GetDefaultDestinationName, _shell_ITransferSource_GetDefaultDestinationName, shell.ITransferSource_GetDefaultDestinationName, shobjidl_core/ITransferSource::GetDefaultDestinationName
 ms.topic: method

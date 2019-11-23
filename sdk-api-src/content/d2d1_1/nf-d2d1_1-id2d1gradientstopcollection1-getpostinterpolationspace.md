@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1.ID2D1GradientStopCollection1.GetPostInterpolationSpace
 title: ID2D1GradientStopCollection1::GetPostInterpolationSpace (d2d1_1.h)
-author: windows-sdk-content
+
 description: Gets the color space after interpolation has occurred.
 old-location: direct2d\id2d1gradientstopcollection1_getpostinterpolationspace.htm
 tech.root: Direct2D
 ms.assetid: fb579d25-f38c-4f26-a29b-c6875cbabb3b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPostInterpolationSpace, GetPostInterpolationSpace method [Direct2D], GetPostInterpolationSpace method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetPostInterpolationSpace method, ID2D1GradientStopCollection1.GetPostInterpolationSpace, ID2D1GradientStopCollection1::GetPostInterpolationSpace, d2d1_1/ID2D1GradientStopCollection1::GetPostInterpolationSpace, direct2d.id2d1gradientstopcollection1_getpostinterpolationspace
 ms.topic: method

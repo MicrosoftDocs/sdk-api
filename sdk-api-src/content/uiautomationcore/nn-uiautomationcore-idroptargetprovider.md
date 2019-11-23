@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationcore.IDropTargetProvider
 title: IDropTargetProvider (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Enables a Microsoft UI Automation element to describe itself as an element that can receive a drop of a dragged element as part of a UI Automation drag-and-drop operation.
 old-location: winauto\uiauto_idroptargetprovider.htm
 tech.root: WinAuto
 ms.assetid: ECCDC429-4829-46E0-AE77-270024E2DA48
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDropTargetProvider, IDropTargetProvider interface [Windows Accessibility], IDropTargetProvider interface [Windows Accessibility],described, uiautomationcore/IDropTargetProvider, winauto.uiauto_idroptargetprovider
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NN:vidcap.IVideoProcAmp
 title: IVideoProcAmp (vidcap.h)
-author: windows-sdk-content
+
 description: The IVideoProcAmp interface controls the image adjustment (ProcAmp) settings on a capture device.This interface may be exposed by one or more nodes in a capture filter.
 old-location: dshow\ivideoprocamp.htm
 tech.root: DirectShow
 ms.assetid: efaef34a-688a-4c7d-b8ee-e0f52468e355
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], IVideoProcAmp interface [DirectShow],described, IVideoProcAmpInterface, dshow.ivideoprocamp, vidcap/IVideoProcAmp
 ms.topic: interface

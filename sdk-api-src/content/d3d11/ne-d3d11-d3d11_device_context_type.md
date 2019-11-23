@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d11.D3D11_DEVICE_CONTEXT_TYPE
 title: D3D11_DEVICE_CONTEXT_TYPE (d3d11.h)
-author: windows-sdk-content
+
 description: Device context options.
 old-location: direct3d11\d3d11_device_context_type.htm
 tech.root: direct3d11
 ms.assetid: 1c2e6ed9-63d5-4ea0-bd98-7604c0ee7021
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 04cb26d8-2f58-6bc4-0362-f5112e175882, D3D11_DEVICE_CONTEXT_DEFERRED, D3D11_DEVICE_CONTEXT_IMMEDIATE, D3D11_DEVICE_CONTEXT_TYPE, D3D11_DEVICE_CONTEXT_TYPE enumeration [Direct3D 11], d3d11/D3D11_DEVICE_CONTEXT_DEFERRED, d3d11/D3D11_DEVICE_CONTEXT_IMMEDIATE, d3d11/D3D11_DEVICE_CONTEXT_TYPE, direct3d11.d3d11_device_context_type
 ms.topic: enum

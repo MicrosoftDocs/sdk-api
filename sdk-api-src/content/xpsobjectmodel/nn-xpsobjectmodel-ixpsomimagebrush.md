@@ -1,12 +1,12 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMImageBrush
 title: IXpsOMImageBrush (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: A brush that uses a raster image as a source.
 old-location: xps\ixpsomimagebrush.htm
 tech.root: printdocs
 ms.assetid: f5478582-466b-496e-b7f3-42fb8caa6814
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageBrush, IXpsOMImageBrush interface [XPS Documents and Packaging], IXpsOMImageBrush interface [XPS Documents and Packaging],described, xps.ixpsomimagebrush, xpsobjectmodel/IXpsOMImageBrush
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NN:mbnapi.IMbnRegistrationEvents
 title: IMbnRegistrationEvents (mbnapi.h)
-author: windows-sdk-content
+
 description: Notification interface used to indicate when registration events have occurred.
 old-location: mbn\imbnregistrationevents.htm
 tech.root: mbn
 ms.assetid: f3b60a93-3b57-4c2c-9114-912ca47f16b2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnRegistrationEvents, IMbnRegistrationEvents interface [Microsoft Broadband Networks], IMbnRegistrationEvents interface [Microsoft Broadband Networks],described, mbn.imbnregistrationevents, mbnapi/IMbnRegistrationEvents
 ms.topic: interface

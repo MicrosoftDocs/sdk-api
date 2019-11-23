@@ -1,12 +1,12 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeManager.get_Item
 title: IRDPSRAPIAttendeeManager::get_Item (rdpencomapi.h)
-author: windows-sdk-content
+
 description: An item in the attendee collection.
 old-location: rdp\irdpsrapiattendeemanager_item.htm
 tech.root: rdp
 ms.assetid: 963f795a-3da4-45d0-b609-8fcc2d6e5700
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendeeManager interface [RDP],Item property, IRDPSRAPIAttendeeManager.Item, IRDPSRAPIAttendeeManager.get_Item, IRDPSRAPIAttendeeManager::Item, IRDPSRAPIAttendeeManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIAttendeeManager interface, Item property [RDP],RDPSRAPIAttendeeManager object, RDPSRAPIAttendeeManager object [RDP],Item property, get_Item, rdp.irdpsrapiattendeemanager_item, rdpencomapi/IRDPSRAPIAttendeeManager::Item, rdpencomapi/IRDPSRAPIAttendeeManager::get_Item
 ms.topic: method

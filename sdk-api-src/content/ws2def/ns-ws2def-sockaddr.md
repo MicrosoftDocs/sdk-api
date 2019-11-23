@@ -1,12 +1,12 @@
 ---
 UID: NS:ws2def.sockaddr
 title: SOCKADDR (ws2def.h)
-author: windows-sdk-content
+
 description: The SOCKADDR structure is a generic structure that specifies a transport address.
 old-location: netvista\sockaddr.htm
 tech.root: NetVista
 ms.assetid: af5ad9ae-3987-4f16-a8a6-14e3e3d0fa6a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPSOCKADDR, *PSOCKADDR, PSOCKADDR, PSOCKADDR structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR, SOCKADDR structure [Network Drivers Starting with Windows Vista], netvista.sockaddr, ws2def/PSOCKADDR, ws2def/SOCKADDR, wskref_4198a308-7f9c-4c7c-ba32-8f11e65e2349.xml"
 ms.topic: struct

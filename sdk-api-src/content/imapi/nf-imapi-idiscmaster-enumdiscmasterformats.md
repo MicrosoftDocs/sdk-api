@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi.IDiscMaster.EnumDiscMasterFormats
 title: IDiscMaster::EnumDiscMasterFormats (imapi.h)
-author: windows-sdk-content
+
 description: Retrieves an enumerator for all disc mastering formats supported by this disc master object. A disc master format specifies the structure of the content in a staged image file (data/audio) and the interface that manages the staged image.
 old-location: imapi\idiscmaster_enumdiscmasterformats.htm
 tech.root: imapi
 ms.assetid: 7190dbf6-6458-4228-a892-428183ea2742
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumDiscMasterFormats, EnumDiscMasterFormats method [IMAPI], EnumDiscMasterFormats method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],EnumDiscMasterFormats method, IDiscMaster.EnumDiscMasterFormats, IDiscMaster::EnumDiscMasterFormats, _win32_idiscmaster_enumdiscmasterformats, base.idiscmaster_enumdiscmasterformats, imapi.idiscmaster_enumdiscmasterformats, imapi/IDiscMaster::EnumDiscMasterFormats
 ms.topic: method

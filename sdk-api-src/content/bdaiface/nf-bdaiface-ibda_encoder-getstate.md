@@ -1,12 +1,12 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.GetState
 title: IBDA_Encoder::GetState (bdaiface.h)
-author: windows-sdk-content
+
 description: Queries the current state of the Encoder Service.
 old-location: mstv\ibda_encoder_getstate.htm
 tech.root: mstv
 ms.assetid: f3fdb3cc-2d7a-4fc3-b33c-feb1524479ec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [Microsoft TV Technologies], GetState method [Microsoft TV Technologies],IBDA_Encoder interface, IBDA_Encoder interface [Microsoft TV Technologies],GetState method, IBDA_Encoder.GetState, IBDA_Encoder::GetState, PBDA_Encoder_BitrateMode_Average, PBDA_Encoder_BitrateMode_Constant, PBDA_Encoder_BitrateMode_Variable, bdaiface/IBDA_Encoder::GetState, mstv.ibda_encoder_getstate
 ms.topic: method

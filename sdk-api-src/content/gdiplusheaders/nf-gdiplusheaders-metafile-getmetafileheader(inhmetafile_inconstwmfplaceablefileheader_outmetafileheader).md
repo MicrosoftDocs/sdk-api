@@ -3,7 +3,7 @@ UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(IN HMETAFILE,IN const WmfPlace
 title: Metafile::GetMetafileHeader
 description: The Metafile::GetMetafileHeader method gets the metafile header of this metafile.
 ms.assetid: 5d12078c-4492-4bd1-a68b-8ff06dede784
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: Metafile::GetMetafileHeader
 ms.topic: language-reference

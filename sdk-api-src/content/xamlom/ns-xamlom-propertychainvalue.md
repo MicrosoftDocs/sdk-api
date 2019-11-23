@@ -1,12 +1,12 @@
 ---
 UID: NS:xamlom.PropertyChainValue
 title: PropertyChainValue (xamlom.h)
-author: windows-sdk-content
+
 description: Represents a property defined on an element.
 old-location: xaml_diagnostics\propertychainvalue.htm
 tech.root: xaml_diagnostics
 ms.assetid: 111D10AB-2C16-4D21-A716-968C810B928F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PPropertyChainValue, PPropertyChainValue structure pointer, PropertyChainValue, PropertyChainValue structure, xaml_diagnostics.propertychainvalue, xamlom/PPropertyChainValue, xamlom/PropertyChainValue
 ms.topic: struct

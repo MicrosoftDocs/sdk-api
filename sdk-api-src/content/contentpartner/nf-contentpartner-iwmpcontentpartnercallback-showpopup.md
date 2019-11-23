@@ -1,12 +1,12 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.ShowPopup
 title: IWMPContentPartnerCallback::ShowPopup (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_showpopup.htm
 tech.root: WMP
 ms.assetid: 93b2938c-e3e7-4c9f-92b1-a0b37ed573e6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],ShowPopup method, IWMPContentPartnerCallback.ShowPopup, IWMPContentPartnerCallback::ShowPopup, IWMPContentPartnerCallbackShowPopup, ShowPopup, ShowPopup method [Windows Media Player], ShowPopup method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::ShowPopup, wmp.iwmpcontentpartnercallback_showpopup
 ms.topic: method

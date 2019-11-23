@@ -1,12 +1,12 @@
 ---
 UID: NN:msxml6.IXMLHTTPRequest2
 title: IXMLHTTPRequest2 (msxml6.h)
-author: windows-sdk-content
+
 description: Provides the methods and properties needed to configure and send HTTP requests and use callbacks to receive notifications during HTTP response processing. Note  This interface is supported on Windows Phone 8.1.  .
 old-location: ixhr2\ixmlhttprequest2.htm
 tech.root: ixhr2
 ms.assetid: BBC11C4A-AECF-4D6D-8275-3E852E309908
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2, IXMLHTTPRequest2 interface [XMLHttpRequest2], IXMLHTTPRequest2 interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest2, msxml6/IXMLHTTPRequest2
 ms.topic: interface

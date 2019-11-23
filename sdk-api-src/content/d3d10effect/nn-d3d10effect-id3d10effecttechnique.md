@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectTechnique
 title: ID3D10EffectTechnique (d3d10effect.h)
-author: windows-sdk-content
+
 description: An ID3D10EffectTechnique interface is a collection of passes.
 old-location: direct3d10\id3d10effecttechnique.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttechnique.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 46580a58-26ee-e999-0d60-9585dc422459, ID3D10EffectTechnique, ID3D10EffectTechnique interface [Direct3D 10], ID3D10EffectTechnique interface [Direct3D 10],described, d3d10effect/ID3D10EffectTechnique, direct3d10.id3d10effecttechnique
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPushSink.Disconnect
 title: IWMWriterPushSink::Disconnect (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The Disconnect method disconnects the push sink from the server.
 old-location: wmformat\iwmwriterpushsink_disconnect.htm
 tech.root: wmformat
 ms.assetid: 37e8badb-139a-45bf-84bc-bb071d128847
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [windows Media Format], Disconnect method [windows Media Format],IWMWriterPushSink interface, IWMWriterPushSink interface [windows Media Format],Disconnect method, IWMWriterPushSink.Disconnect, IWMWriterPushSink::Disconnect, IWMWriterPushSinkDisconnect, wmformat.iwmwriterpushsink_disconnect, wmsdkidl/IWMWriterPushSink::Disconnect
 ms.topic: method

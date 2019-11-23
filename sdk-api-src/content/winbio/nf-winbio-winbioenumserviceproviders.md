@@ -1,12 +1,12 @@
 ---
 UID: NF:winbio.WinBioEnumServiceProviders
 title: WinBioEnumServiceProviders function (winbio.h)
-author: windows-sdk-content
+
 description: Retrieves information about installed biometric service providers. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioenumserviceproviders.htm
 tech.root: SecBioMet
 ms.assetid: 2424eae8-4fc6-43f4-97a1-3340870396cc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WinBioEnumServiceProviders, WinBioEnumServiceProviders function [Windows Biometric Framework API], secbiomet.winbioenumserviceproviders, winbio/WinBioEnumServiceProviders
 ms.topic: function

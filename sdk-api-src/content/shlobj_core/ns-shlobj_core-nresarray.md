@@ -1,12 +1,12 @@
 ---
 UID: NS:shlobj_core._NRESARRAY
 title: NRESARRAY (shlobj_core.h)
-author: windows-sdk-content
+
 description: Defines the CF_NETRESOURCE clipboard format.
 old-location: shell\NRESARRAY.htm
 tech.root: shell
 ms.assetid: 261338c2-8fb4-4d10-8392-f9f6254a30ed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPNRESARRAY, LPNRESARRAY, LPNRESARRAY structure pointer [Windows Shell], NRESARRAY, NRESARRAY structure [Windows Shell], _NRESARRAY, _win32_NRESARRAY, shell.NRESARRAY, shlobj_core/LPNRESARRAY, shlobj_core/NRESARRAY"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPStringCollection.item
 title: IWMPStringCollection::item (wmp.h)
-author: windows-sdk-content
+
 description: The item method retrieves the string at the given index.
 old-location: wmp\iwmpstringcollection_item.htm
 tech.root: WMP
 ms.assetid: 05e7fd0c-1226-4680-a9aa-543111fd2bdf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection interface [Windows Media Player],item method, IWMPStringCollection.item, IWMPStringCollection::item, IWMPStringCollectionitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPStringCollection interface, wmp.iwmpstringcollection_item, wmp/IWMPStringCollection::item
 ms.topic: method

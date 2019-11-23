@@ -1,12 +1,12 @@
 ---
 UID: NF:ddeml.DdeCreateDataHandle
 title: DdeCreateDataHandle function (ddeml.h)
-author: windows-sdk-content
+
 description: Creates a Dynamic Data Exchange (DDE) object and fills the object with data from the specified buffer. A DDE application uses this function during transactions that involve passing data to the partner application.
 old-location: dataxchg\ddecreatedatahandle.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddecreatedatahandle.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DdeCreateDataHandle, DdeCreateDataHandle function [Data Exchange], _win32_DdeCreateDataHandle, _win32_ddecreatedatahandle_cpp, dataxchg.ddecreatedatahandle, ddeml/DdeCreateDataHandle, winui._win32_ddecreatedatahandle
 ms.topic: function

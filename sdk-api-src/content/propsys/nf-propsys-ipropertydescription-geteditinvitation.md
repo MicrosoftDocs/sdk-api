@@ -1,12 +1,12 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetEditInvitation
 title: IPropertyDescription::GetEditInvitation (propsys.h)
-author: windows-sdk-content
+
 description: Gets the text used in edit controls hosted in various dialog boxes.
 old-location: properties\IPropertyDescription_GetEditInvitation.htm
 tech.root: properties
 ms.assetid: 4b7ce948-6501-4220-aa44-e7422e70d9e5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEditInvitation, GetEditInvitation method [Windows Properties], GetEditInvitation method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetEditInvitation method, IPropertyDescription.GetEditInvitation, IPropertyDescription::GetEditInvitation, properties.IPropertyDescription_GetEditInvitation, propsys/IPropertyDescription::GetEditInvitation, shell.IPropertyDescription_GetEditInvitation, shell_IPropertyDescription_GetEditInvitation
 ms.topic: method

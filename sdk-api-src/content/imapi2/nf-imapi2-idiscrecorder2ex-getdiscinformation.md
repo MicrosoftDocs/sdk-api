@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetDiscInformation
 title: IDiscRecorder2Ex::GetDiscInformation (imapi2.h)
-author: windows-sdk-content
+
 description: Retrieves the disc information from the media.
 old-location: imapi\idiscrecorder2ex_getdiscinformation.htm
 tech.root: imapi
 ms.assetid: 4f2888cb-3f9e-4dc3-ba9a-c13a0a46f731
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDiscInformation, GetDiscInformation method [IMAPI], GetDiscInformation method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetDiscInformation method, IDiscRecorder2Ex.GetDiscInformation, IDiscRecorder2Ex::GetDiscInformation, imapi.idiscrecorder2ex_getdiscinformation, imapi2/IDiscRecorder2Ex::GetDiscInformation
 ms.topic: method

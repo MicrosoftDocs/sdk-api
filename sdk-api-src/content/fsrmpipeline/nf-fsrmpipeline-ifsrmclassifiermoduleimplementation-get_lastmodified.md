@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.get_LastModified
 title: IFsrmClassifierModuleImplementation::get_LastModified (fsrmpipeline.h)
-author: windows-sdk-content
+
 description: The last time the classifier's internal rules were modified as a 64-bit FILETIME value.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_lastmodified.htm
 tech.root: fsrm
 ms.assetid: edda630a-947d-4c81-b4d5-c02b3ba02f10
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FsrmAlwaysModified, FsrmNeverModified, IFsrmClassifierModuleImplementation interface [File Server Resource Manager],LastModified property, IFsrmClassifierModuleImplementation.LastModified, IFsrmClassifierModuleImplementation.get_LastModified, IFsrmClassifierModuleImplementation::LastModified, IFsrmClassifierModuleImplementation::get_LastModified, LastModified property [File Server Resource Manager], LastModified property [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, fs.ifsrmclassifiermoduleimplementation_lastmodified, fsrm.ifsrmclassifiermoduleimplementation_lastmodified, fsrmpipeline/IFsrmClassifierModuleImplementation::LastModified, fsrmpipeline/IFsrmClassifierModuleImplementation::get_LastModified, get_LastModified
 ms.topic: method

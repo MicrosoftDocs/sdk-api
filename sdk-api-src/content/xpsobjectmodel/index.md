@@ -1,7 +1,7 @@
 ---
 UID: NA:xpsobjectmodel
 ms.assetid: 8039e8f6-0ae2-3116-aec3-24bd39cea383
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

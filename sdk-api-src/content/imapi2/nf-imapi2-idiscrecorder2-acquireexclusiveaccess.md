@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.AcquireExclusiveAccess
 title: IDiscRecorder2::AcquireExclusiveAccess (imapi2.h)
-author: windows-sdk-content
+
 description: Acquires exclusive access to the device.
 old-location: imapi\idiscrecorder2_acquireexclusiveaccess.htm
 tech.root: imapi
 ms.assetid: 58cb5efa-74bc-4444-aa05-be41a6c63b3a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AcquireExclusiveAccess, AcquireExclusiveAccess method [IMAPI], AcquireExclusiveAccess method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],AcquireExclusiveAccess method, IDiscRecorder2.AcquireExclusiveAccess, IDiscRecorder2::AcquireExclusiveAccess, imapi.idiscrecorder2_acquireexclusiveaccess, imapi2/IDiscRecorder2::AcquireExclusiveAccess
 ms.topic: method

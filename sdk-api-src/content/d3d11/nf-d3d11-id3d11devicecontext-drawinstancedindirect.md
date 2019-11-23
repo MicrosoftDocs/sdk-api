@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DrawInstancedIndirect
 title: ID3D11DeviceContext::DrawInstancedIndirect (d3d11.h)
-author: windows-sdk-content
+
 description: Draw instanced, GPU-generated primitives.
 old-location: direct3d11\id3d11devicecontext_drawinstancedindirect.htm
 tech.root: direct3d11
 ms.assetid: f40c662d-7cdc-4592-b8d5-72aad0b4dd53
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 2014c761-6e9c-961c-13a0-087ea9f94a6a, DrawInstancedIndirect, DrawInstancedIndirect method [Direct3D 11], DrawInstancedIndirect method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawInstancedIndirect method, ID3D11DeviceContext.DrawInstancedIndirect, ID3D11DeviceContext::DrawInstancedIndirect, d3d11/ID3D11DeviceContext::DrawInstancedIndirect, direct3d11.id3d11devicecontext_drawinstancedindirect
 ms.topic: method

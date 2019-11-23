@@ -1,12 +1,12 @@
 ---
 UID: NF:pdh.PdhSetCounterScaleFactor
 title: PdhSetCounterScaleFactor function (pdh.h)
-author: windows-sdk-content
+
 description: Sets the scale factor that is applied to the calculated value of the specified counter when you request the formatted counter value. If the PDH_FMT_NOSCALE flag is set, then this scale factor is ignored.
 old-location: perf\pdhsetcounterscalefactor.htm
 tech.root: perfctrs
 ms.assetid: 6db99e03-0b03-4c1c-b82a-2982b52746db
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PdhSetCounterScaleFactor, PdhSetCounterScaleFactor function [Perf], _win32_pdhsetcounterscalefactor, base.pdhsetcounterscalefactor, pdh/PdhSetCounterScaleFactor, perf.pdhsetcounterscalefactor
 ms.topic: function

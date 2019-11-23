@@ -1,12 +1,12 @@
 ---
 UID: NS:cfgmgr32.Mem_Des_s
 title: MEM_DES (cfgmgr32.h)
-author: windows-sdk-content
+
 description: The MEM_DES structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
 old-location: devinst\mem_des.htm
 tech.root: devinst
 ms.assetid: 1a9ee8f2-fabe-4351-b11e-93f46e190d66
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PMEM_DES, MEM_DES, MEM_DES structure [Device and Driver Installation], PMEM_DES, PMEM_DES structure pointer [Device and Driver Installation], cfgmgr32/MEM_DES, cfgmgr32/PMEM_DES, cfgmgrst_cdbb69b5-e18f-4721-bb66-c6160d959f10.xml, devinst.mem_des"
 ms.topic: struct

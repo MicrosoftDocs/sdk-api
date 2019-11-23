@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.IPsecDospStateEnum0
 title: IPsecDospStateEnum0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Returns the next page of results from the IPsec DoS Protection state enumerator. Each IPsec DoS Protection state entry corresponds to a flow that has successfully passed the IPsec DoS Protection authentication checks.
 old-location: fwp\ipsecdospstateenum0.htm
 tech.root: fwp
 ms.assetid: d69e323b-249b-4b90-8754-2c910fbc2fc4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPsecDospStateEnum0, IPsecDospStateEnum0 function [Filtering], fwp.ipsecdospstateenum0, fwpmu/IPsecDospStateEnum0
 ms.topic: function

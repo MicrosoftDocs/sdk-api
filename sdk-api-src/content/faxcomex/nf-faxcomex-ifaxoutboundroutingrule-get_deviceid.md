@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.get_DeviceId
 title: IFaxOutboundRoutingRule::get_DeviceId (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutboundRoutingRule::get_DeviceId property specifies the device ID if the outbound routing rule points to a single fax device.
 old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_deviceid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6pwk.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IFaxOutboundRoutingRule interface, IFaxOutboundRoutingRule interface [Fax Service],DeviceId property, IFaxOutboundRoutingRule.DeviceId, IFaxOutboundRoutingRule.get_DeviceId, IFaxOutboundRoutingRule.put_DeviceId, IFaxOutboundRoutingRule::DeviceId, IFaxOutboundRoutingRule::get_DeviceId, IFaxOutboundRoutingRule::put_DeviceId, _mfax_faxoutboundroutingrule.deviceid, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_deviceid_cpp, fax._mfax_faxoutboundroutingrule_deviceid, faxcomex/IFaxOutboundRoutingRule::DeviceId, faxcomex/IFaxOutboundRoutingRule::get_DeviceId, faxcomex/IFaxOutboundRoutingRule::put_DeviceId, get_DeviceId
 ms.topic: method

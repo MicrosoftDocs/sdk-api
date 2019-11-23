@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMatrixRotationRollPitchYawFromVector
 title: XMMatrixRotationRollPitchYawFromVector function (directxmath.h)
-author: windows-sdk-content
+
 description: Builds a rotation matrix based on a vector containing the Euler angles (pitch, yaw, and roll).
 old-location: dxmath\xmmatrixrotationrollpitchyawfromvector.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationRollPitchYawFromVector(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixRotationRollPitchYawFromVector, XMMatrixRotationRollPitchYawFromVector, XMMatrixRotationRollPitchYawFromVector method [DirectX Math Support APIs], dxmath.xmmatrixrotationrollpitchyawfromvector
 ms.topic: function

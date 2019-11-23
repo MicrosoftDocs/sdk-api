@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IFilterChain.RemoveChain
 title: IFilterChain::RemoveChain (strmif.h)
-author: windows-sdk-content
+
 description: The RemoveChain method removes every filter in a filter chain from the filter graph.
 old-location: dshow\ifilterchain_removechain.htm
 tech.root: DirectShow
 ms.assetid: a47d2087-5f06-4fce-b573-16935370a34c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFilterChain interface [DirectShow],RemoveChain method, IFilterChain.RemoveChain, IFilterChain::RemoveChain, IFilterChainRemoveChain, RemoveChain, RemoveChain method [DirectShow], RemoveChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_removechain, strmif/IFilterChain::RemoveChain
 ms.topic: method

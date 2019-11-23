@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionGaussianBlurEffect
 title: IDCompositionGaussianBlurEffect (dcomp.h)
-author: windows-sdk-content
+
 description: "."
 old-location: directcomp\idcompositiongaussianblureffect.htm
 tech.root: directcomp
 ms.assetid: CFE79B69-75EC-4E22-BC3E-C82601AE1213
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionGaussianBlurEffect, IDCompositionGaussianBlurEffect interface [DirectComposition], IDCompositionGaussianBlurEffect interface [DirectComposition],described, dcomp/IDCompositionGaussianBlurEffect, directcomp.idcompositiongaussianblureffect
 ms.topic: interface

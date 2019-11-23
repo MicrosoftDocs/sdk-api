@@ -1,12 +1,12 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_ATTRIBUTES
 title: KEYBOARD_ATTRIBUTES (ntddkbd.h)
-author: windows-sdk-content
+
 description: KEYBOARD_ATTRIBUTES specifies the attributes of a keyboard.
 old-location: hid\keyboard_attributes.htm
 tech.root: hid
 ms.assetid: 060e93de-b84e-4755-a5f8-cbc52d900310
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PKEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES structure [Human Input Devices], PKEYBOARD_ATTRIBUTES, PKEYBOARD_ATTRIBUTES structure pointer [Human Input Devices], hid.keyboard_attributes, kref_430bedf0-40bc-4d93-b382-3fe4c69fcbb5.xml, ntddkbd/KEYBOARD_ATTRIBUTES, ntddkbd/PKEYBOARD_ATTRIBUTES'
 ms.topic: struct

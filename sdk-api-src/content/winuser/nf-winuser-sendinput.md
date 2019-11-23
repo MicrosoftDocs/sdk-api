@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.SendInput
 title: SendInput function (winuser.h)
-author: windows-sdk-content
+
 description: Synthesizes keystrokes, mouse motions, and button clicks.
 old-location: inputdev\sendinput.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\sendinput.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SendInput, SendInput function [Keyboard and Mouse Input], _win32_SendInput, _win32_sendinput_cpp, inputdev.sendinput, winui._win32_sendinput, winuser/SendInput
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winnt.RtlCaptureStackBackTrace
 title: RtlCaptureStackBackTrace function (winnt.h)
-author: windows-sdk-content
+
 description: The RtlCaptureStackBackTrace routine captures a stack back trace by walking up the stack and recording the information for each frame.
 old-location: ifsk\rtlcapturestackbacktrace.htm
 tech.root: ifsk
 ms.assetid: e4ad1eac-1788-4dfe-9444-f40e0de156c4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CaptureStackBackTrace, RtlCaptureStackBackTrace, RtlCaptureStackBackTrace routine [Installable File System Drivers], ifsk.rtlcapturestackbacktrace, rtlref_c329ad74-ebb1-478d-a0d2-fd2ae2c8da2a.xml, winnt/CaptureStackBackTrace, winnt/RtlCaptureStackBackTrace
 ms.topic: function

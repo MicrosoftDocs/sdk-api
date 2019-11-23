@@ -1,12 +1,12 @@
 ---
 UID: NC:mapi.MAPISAVEMAIL
 title: MAPISAVEMAIL (mapi.h)
-author: windows-sdk-content
+
 description: The MAPISaveMail function saves a message into the message store.
 old-location: mapi\mapisavemail.htm
 tech.root: WindowsMAPI
 ms.assetid: 995bf2cd-6ee6-46a3-a6d9-f28dc42e0e78
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MAPISaveMail, MAPISaveMail callback, MAPISaveMail callback function, MAPI_LOGON_UI, MAPI_LONG_MSGID, MAPI_NEW_SESSION, mapi.mapisavemail, mapi/MAPISaveMail
 ms.topic: callback

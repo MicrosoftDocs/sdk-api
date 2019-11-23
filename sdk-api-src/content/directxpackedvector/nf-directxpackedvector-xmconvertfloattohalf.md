@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMConvertFloatToHalf
 title: XMConvertFloatToHalf function (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Converts a single-precision floating-point value to a half-precision floating-point value.
 old-location: dxmath\xmconvertfloattohalf.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertFloatToHalf(float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMConvertFloatToHalf, XMConvertFloatToHalf, XMConvertFloatToHalf method [DirectX Math Support APIs], dxmath.xmconvertfloattohalf
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Metafile.EmfToWmfBits
 title: Metafile::EmfToWmfBits (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: Converts an enhanced-format metafile to a Windows Metafile Format (WMF) metafile and stores the converted records in a specified buffer.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_EmfToWmfBits_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\emftowmfbits.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EmfToWmfBits, EmfToWmfBits method [GDI+], EmfToWmfBits method [GDI+],Metafile class, Metafile class [GDI+],EmfToWmfBits method, Metafile.EmfToWmfBits, Metafile::EmfToWmfBits, _gdiplus_CLASS_Metafile_EmfToWmfBits_, gdiplus._gdiplus_CLASS_Metafile_EmfToWmfBits_
 ms.topic: method

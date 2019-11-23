@@ -1,12 +1,12 @@
 ---
 UID: NN:msaatext.IAccClientDocMgr
 title: IAccClientDocMgr (msaatext.h)
-author: windows-sdk-content
+
 description: Exposes methods for client applications to retrieve documents.
 old-location: winauto\iaccclientdocmgr.htm
 tech.root: WinAuto
 ms.assetid: 29d9c39c-0067-4ec4-b49c-13a174ff8722
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAccClientDocMgr, IAccClientDocMgr interface [Windows Accessibility], IAccClientDocMgr interface [Windows Accessibility],described, msaa.iaccclientdocmgr, msaatext/IAccClientDocMgr, winauto.iaccclientdocmgr
 ms.topic: interface

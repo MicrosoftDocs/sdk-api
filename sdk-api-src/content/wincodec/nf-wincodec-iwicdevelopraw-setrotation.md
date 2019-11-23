@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetRotation
 title: IWICDevelopRaw::SetRotation (wincodec.h)
-author: windows-sdk-content
+
 description: Sets the desired rotation angle.
 old-location: wic\_wic_codec_iwicdevelopraw_setrotation.htm
 tech.root: wic
 ms.assetid: 1eba6004-d22e-4168-9207-358c072c3a17
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetRotation method, IWICDevelopRaw.SetRotation, IWICDevelopRaw::SetRotation, SetRotation, SetRotation method [Windows Imaging Component], SetRotation method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setrotation, wic._wic_codec_iwicdevelopraw_setrotation, wincodec/IWICDevelopRaw::SetRotation
 ms.topic: method

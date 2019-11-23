@@ -1,12 +1,12 @@
 ---
 UID: NF:wdsbp.WdsBpInitialize
 title: WdsBpInitialize function (wdsbp.h)
-author: windows-sdk-content
+
 description: Constructs options for the WDS network boot program.
 old-location: wds\wdsbpinitialize.htm
 tech.root: wds
 ms.assetid: a77cbdf5-9025-4e98-8edd-1b9bae8493e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCPV6, WDSBP_PK_TYPE_WDSNBP, WdsBpInitialize, WdsBpInitialize function [Windows Deployment Services], wds.wdsbpinitialize, wdsbp/WdsBpInitialize
 ms.topic: function

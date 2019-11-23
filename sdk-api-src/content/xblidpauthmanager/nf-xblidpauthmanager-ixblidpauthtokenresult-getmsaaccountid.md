@@ -1,12 +1,12 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetMsaAccountId
 title: IXblIdpAuthTokenResult::GetMsaAccountId (xblidpauthmanager.h)
-author: windows-sdk-content
+
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getmsaaccountid.htm
 tech.root: xblidp
 ms.assetid: B26FFEF8-64B0-4F4B-9260-A97850893610
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMsaAccountId, GetMsaAccountId method, GetMsaAccountId method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMsaAccountId method, IXblIdpAuthTokenResult.GetMsaAccountId, IXblIdpAuthTokenResult::GetMsaAccountId, xblidp.ixblidpauthtokenresult_getmsaaccountid, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaAccountId
 ms.topic: method

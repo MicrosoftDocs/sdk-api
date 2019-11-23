@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_DefaultAction
 title: ILegacyIAccessibleProvider::get_DefaultAction (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Contains a description of the default action for this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_DefaultAction.htm
 tech.root: WinAuto
 ms.assetid: 10965fa1-1344-42d3-8466-d86bbad1f30d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DefaultAction property [Windows Accessibility], DefaultAction property [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],DefaultAction property, ILegacyIAccessibleProvider.DefaultAction, ILegacyIAccessibleProvider.get_DefaultAction, ILegacyIAccessibleProvider::DefaultAction, ILegacyIAccessibleProvider::get_DefaultAction, get_DefaultAction, uiauto.uiauto_ILegacyIAccessibleProvider_DefaultAction, uiauto_ILegacyIAccessibleProvider_DefaultAction, uiautomationcore/ILegacyIAccessibleProvider::DefaultAction, uiautomationcore/ILegacyIAccessibleProvider::get_DefaultAction, winauto.uiauto_ILegacyIAccessibleProvider_DefaultAction
 ms.topic: method

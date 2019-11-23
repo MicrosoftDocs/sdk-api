@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.media.core.interop.IVideoFrameNative.GetDevice
 title: IVideoFrameNative::core (windows.media.core.interop.h)
-author: windows-sdk-content
+
 description: This method returns a device associated with the video data.
 old-location: winrt\ivideoframenative_getdevice.htm
 tech.root: WinRT
 ms.assetid: 9A61159B-C383-4770-AD8F-9F69F720E3E2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method [Windows Runtime], GetDevice method [Windows Runtime],IVideoFrameNative interface, IVideoFrameNative interface [Windows Runtime],GetDevice method, IVideoFrameNative.GetDevice, IVideoFrameNative.core, IVideoFrameNative::GetDevice, IVideoFrameNative::core, windows/IVideoFrameNative::GetDevice, winrt.ivideoframenative_getdevice
 ms.topic: method

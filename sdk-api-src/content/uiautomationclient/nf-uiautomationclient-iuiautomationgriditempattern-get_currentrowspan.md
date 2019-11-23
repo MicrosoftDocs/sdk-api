@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CurrentRowSpan
 title: IUIAutomationGridItemPattern::get_CurrentRowSpan (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the number of rows spanned by the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CurrentRowSpan.htm
 tech.root: WinAuto
 ms.assetid: 3153a62e-59d6-4efc-9bdf-2076a3baa9ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CurrentRowSpan property [Windows Accessibility], CurrentRowSpan property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CurrentRowSpan property, IUIAutomationGridItemPattern.CurrentRowSpan, IUIAutomationGridItemPattern.get_CurrentRowSpan, IUIAutomationGridItemPattern::CurrentRowSpan, IUIAutomationGridItemPattern::get_CurrentRowSpan, get_CurrentRowSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentRowSpan, uiauto_IUIAutomationGridItemPattern_CurrentRowSpan, uiautomationclient/IUIAutomationGridItemPattern::CurrentRowSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentRowSpan, winauto.uiauto_IUIAutomationGridItemPattern_CurrentRowSpan
 ms.topic: method

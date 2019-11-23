@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.DecoderExtension
 title: ID3D11VideoContext::DecoderExtension (d3d11.h)
-author: windows-sdk-content
+
 description: Performs an extended function for decoding.
 old-location: mf\id3d11videocontext_decoderextension.htm
 tech.root: medfound
 ms.assetid: B96FD793-C82A-4752-8F59-3CC9B86D1C2D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DecoderExtension, DecoderExtension method [Media Foundation], DecoderExtension method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecoderExtension method, ID3D11VideoContext.DecoderExtension, ID3D11VideoContext::DecoderExtension, d3d11/ID3D11VideoContext::DecoderExtension, mf.id3d11videocontext_decoderextension
 ms.topic: method

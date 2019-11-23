@@ -1,12 +1,12 @@
 ---
 UID: NN:rtscom.IStylusSyncPlugin
 title: IStylusSyncPlugin (rtscom.h)
-author: windows-sdk-content
+
 description: Represents a synchronous plug-in that can be added to the RealTimeStylus Class object's synchronous plug-in collection.
 old-location: tablet\istylussyncplugin.htm
 tech.root: tablet
 ms.assetid: e3e02d5a-a004-49de-b2d8-86ccfc120481
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IStylusSyncPlugin, IStylusSyncPlugin interface [Tablet PC], IStylusSyncPlugin interface [Tablet PC],described, e3e02d5a-a004-49de-b2d8-86ccfc120481, rtscom/IStylusSyncPlugin, tablet.istylussyncplugin
 ms.topic: interface

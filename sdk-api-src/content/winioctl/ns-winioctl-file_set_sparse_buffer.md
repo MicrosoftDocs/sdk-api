@@ -1,12 +1,12 @@
 ---
 UID: NS:winioctl._FILE_SET_SPARSE_BUFFER
 title: FILE_SET_SPARSE_BUFFER
-author: windows-sdk-content
+
 description: Specifies the sparse state to be set.
 old-location: fs\file_set_sparse_buffer.htm
 tech.root: FileIO
 ms.assetid: f9c24156-bcd6-423e-b055-18651f4e185e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PFILE_SET_SPARSE_BUFFER, FILE_SET_SPARSE_BUFFER, FILE_SET_SPARSE_BUFFER structure [Files], PFILE_SET_SPARSE_BUFFER, PFILE_SET_SPARSE_BUFFER structure pointer [Files], fs.file_set_sparse_buffer, winioctl/FILE_SET_SPARSE_BUFFER, winioctl/PFILE_SET_SPARSE_BUFFER"
 ms.topic: struct

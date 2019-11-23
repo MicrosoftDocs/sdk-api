@@ -1,12 +1,12 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.QueryLangID
 title: ITfFnLMProcessor::QueryLangID (ctffunc.h)
-author: windows-sdk-content
+
 description: ITfFnLMProcessor::QueryLangID method
 old-location: tsf\itffnlmprocessor_querylangid.htm
 tech.root: TSF
 ms.assetid: 2d645c1b-9ee6-47c4-8bbd-173e416f5688
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],QueryLangID method, ITfFnLMProcessor.QueryLangID, ITfFnLMProcessor::QueryLangID, QueryLangID, QueryLangID method [Text Services Framework], QueryLangID method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_querylangid_ref, ctffunc/ITfFnLMProcessor::QueryLangID, tsf.itffnlmprocessor_querylangid
 ms.topic: method

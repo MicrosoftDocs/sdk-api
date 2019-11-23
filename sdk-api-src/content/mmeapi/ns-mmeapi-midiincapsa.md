@@ -1,12 +1,12 @@
 ---
 UID: NS:mmeapi.tagMIDIINCAPSA
 title: MIDIINCAPSA (mmeapi.h)
-author: windows-sdk-content
+
 description: The MIDIINCAPS structure describes the capabilities of a MIDI input device.
 old-location: multimedia\midiincaps.htm
 tech.root: Multimedia
 ms.assetid: 358f0d4e-afdd-4a20-9572-ebb6e0000780
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPMIDIINCAPSA, *NPMIDIINCAPSA, *PMIDIINCAPSA, MIDIINCAPS, MIDIINCAPS structure [Windows Multimedia], MIDIINCAPSA, _win32_MIDIINCAPS_str, midiincaps_tag, mmeapi/MIDIINCAPS, multimedia.midiincaps, tagMIDIINCAPSA, tagMIDIINCAPSW"
 ms.topic: struct

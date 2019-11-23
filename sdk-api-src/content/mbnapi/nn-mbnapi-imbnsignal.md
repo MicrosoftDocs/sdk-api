@@ -1,12 +1,12 @@
 ---
 UID: NN:mbnapi.IMbnSignal
 title: IMbnSignal (mbnapi.h)
-author: windows-sdk-content
+
 description: Get radio signal quality of a Mobile Broadband connection.
 old-location: mbn\imbnsignal.htm
 tech.root: mbn
 ms.assetid: 2b60d078-ccbd-4cc5-addf-e6e95832b3a1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnSignal, IMbnSignal interface [Microsoft Broadband Networks], IMbnSignal interface [Microsoft Broadband Networks],described, mbn.imbnsignal, mbnapi/IMbnSignal
 ms.topic: interface

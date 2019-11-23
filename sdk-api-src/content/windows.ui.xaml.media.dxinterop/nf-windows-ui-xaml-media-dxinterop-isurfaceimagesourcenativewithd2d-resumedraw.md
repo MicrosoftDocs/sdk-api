@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNativeWithD2D.ResumeDraw
 title: ISurfaceImageSourceNativeWithD2D::xaml (windows.ui.xaml.media.dxinterop.h)
-author: windows-sdk-content
+
 description: Resume the drawing operation.
 old-location: winrt\isurfaceimagesourcenativewithd2d_resumedraw.htm
 tech.root: WinRT
 ms.assetid: 0A1FD29B-6340-49F5-BBF3-2E621FB16925
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],ResumeDraw method, ISurfaceImageSourceNativeWithD2D.ResumeDraw, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::ResumeDraw, ISurfaceImageSourceNativeWithD2D::xaml, ResumeDraw, ResumeDraw method [Windows Runtime], ResumeDraw method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, windows/ISurfaceImageSourceNativeWithD2D::ResumeDraw, winrt.isurfaceimagesourcenativewithd2d_resumedraw
 ms.topic: method

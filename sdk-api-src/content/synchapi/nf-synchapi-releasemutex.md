@@ -1,12 +1,12 @@
 ---
 UID: NF:synchapi.ReleaseMutex
 title: ReleaseMutex function (synchapi.h)
-author: windows-sdk-content
+
 description: Releases ownership of the specified mutex object.
 old-location: base\releasemutex.htm
 tech.root: Sync
 ms.assetid: c3e4daa8-92de-455c-847c-ea59225b3aa2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ReleaseMutex, ReleaseMutex function, _win32_releasemutex, base.releasemutex, synchapi/ReleaseMutex, winbase/ReleaseMutex
 ms.topic: function

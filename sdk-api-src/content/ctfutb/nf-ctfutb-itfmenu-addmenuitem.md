@@ -1,12 +1,12 @@
 ---
 UID: NF:ctfutb.ITfMenu.AddMenuItem
 title: ITfMenu::AddMenuItem (ctfutb.h)
-author: windows-sdk-content
+
 description: ITfMenu::AddMenuItem method
 old-location: tsf\itfmenu_addmenuitem.htm
 tech.root: TSF
 ms.assetid: c00048d1-d7c1-4ea3-a132-5f5aa570148f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddMenuItem, AddMenuItem method [Text Services Framework], AddMenuItem method [Text Services Framework],ITfMenu interface, ITfMenu interface [Text Services Framework],AddMenuItem method, ITfMenu.AddMenuItem, ITfMenu::AddMenuItem, _tsf_itfmenu_addmenuitem_ref, ctfutb/ITfMenu::AddMenuItem, tsf.itfmenu_addmenuitem
 ms.topic: method

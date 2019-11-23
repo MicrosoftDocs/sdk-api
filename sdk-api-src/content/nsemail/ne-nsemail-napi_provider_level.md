@@ -1,12 +1,12 @@
 ---
 UID: NE:nsemail.napi_provider_level_tag
 title: NAPI_PROVIDER_LEVEL (nsemail.h)
-author: windows-sdk-content
+
 description: Specifies the provider authority level of a NS_EMAIL namespace provider for a given domain.
 old-location: winsock\napi_provider_level.htm
 tech.root: WinSock
 ms.assetid: 70b5fcde-657b-4f27-b55b-5f5ac3373344
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NAPI_PROVIDER_LEVEL, NAPI_PROVIDER_LEVEL enumeration [Winsock], ProviderLevel_None, ProviderLevel_Primary, ProviderLevel_Secondary, nsemail/NAPI_PROVIDER_LEVEL, nsemail/ProviderLevel_None, nsemail/ProviderLevel_Primary, nsemail/ProviderLevel_Secondary, winsock.napi_provider_level
 ms.topic: enum

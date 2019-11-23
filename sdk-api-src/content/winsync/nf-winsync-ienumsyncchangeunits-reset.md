@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IEnumSyncChangeUnits.Reset
 title: IEnumSyncChangeUnits::Reset (winsync.h)
-author: windows-sdk-content
+
 description: Resets the enumerator to the beginning of the list.
 old-location: winsync\ienumsyncchangeunits_reset.htm
 tech.root: winsync
 ms.assetid: 7d9bd900-dda3-4deb-ab38-484842873dea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Reset method, IEnumSyncChangeUnits.Reset, IEnumSyncChangeUnits::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_reset, winsync/IEnumSyncChangeUnits::Reset
 ms.topic: method

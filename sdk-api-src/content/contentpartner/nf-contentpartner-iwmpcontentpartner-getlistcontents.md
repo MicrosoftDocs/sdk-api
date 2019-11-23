@@ -1,12 +1,12 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetListContents
 title: IWMPContentPartner::GetListContents (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetListContents method initiates the retrieval of a dynamic list.
 old-location: wmp\iwmpcontentpartner_getlistcontents.htm
 tech.root: WMP
 ms.assetid: a48935ea-8275-4b68-a1ab-006a23c455ad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetListContents, GetListContents method [Windows Media Player], GetListContents method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetListContents method, IWMPContentPartner.GetListContents, IWMPContentPartner::GetListContents, IWMPContentPartnerGetListContents, contentpartner/IWMPContentPartner::GetListContents, wmp.iwmpcontentpartner_getlistcontents
 ms.topic: method

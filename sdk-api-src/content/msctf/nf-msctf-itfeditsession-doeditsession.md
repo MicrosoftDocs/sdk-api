@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfEditSession.DoEditSession
 title: ITfEditSession::DoEditSession (msctf.h)
-author: windows-sdk-content
+
 description: ITfEditSession::DoEditSession method
 old-location: tsf\itfeditsession_doeditsession.htm
 tech.root: TSF
 ms.assetid: f89b2676-9a69-492f-be8a-96e4436d594c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DoEditSession, DoEditSession method [Text Services Framework], DoEditSession method [Text Services Framework],ITfEditSession interface, ITfEditSession interface [Text Services Framework],DoEditSession method, ITfEditSession.DoEditSession, ITfEditSession::DoEditSession, _tsf_itfeditsession_doeditsession_ref, msctf/ITfEditSession::DoEditSession, tsf.itfeditsession_doeditsession
 ms.topic: method

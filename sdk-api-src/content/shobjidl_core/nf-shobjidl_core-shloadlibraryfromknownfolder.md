@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.SHLoadLibraryFromKnownFolder
 title: SHLoadLibraryFromKnownFolder function (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Creates and loads an IShellLibrary object for a specified known folder ID.
 old-location: shell\SHLoadLibraryFromKnownFolder.htm
 tech.root: shell
 ms.assetid: 9486252b-9aaf-4daf-b307-5a5adddfaa99
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHLoadLibraryFromKnownFolder, SHLoadLibraryFromKnownFolder function [Windows Shell], _shell_SHLoadLibraryFromKnownFolder, shell.SHLoadLibraryFromKnownFolder, shobjidl_core/SHLoadLibraryFromKnownFolder
 ms.topic: function

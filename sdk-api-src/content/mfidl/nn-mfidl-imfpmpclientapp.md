@@ -1,12 +1,12 @@
 ---
 UID: NN:mfidl.IMFPMPClientApp
 title: IMFPMPClientApp (mfidl.h)
-author: windows-sdk-content
+
 description: Provides a mechanism for a media source to implement content protection functionality in a Windows Store apps.
 old-location: mf\imfpmpclientapp.htm
 tech.root: medfound
 ms.assetid: 03cd9e3c-65ac-40ad-802d-e36127dbd61f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFPMPClientApp, IMFPMPClientApp interface [Media Foundation], IMFPMPClientApp interface [Media Foundation],described, mf.imfpmpclientapp, mfidl/IMFPMPClientApp
 ms.topic: interface

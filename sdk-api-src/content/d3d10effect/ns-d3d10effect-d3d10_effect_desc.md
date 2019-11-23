@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d10effect._D3D10_EFFECT_DESC
 title: D3D10_EFFECT_DESC (d3d10effect.h)
-author: windows-sdk-content
+
 description: Describes an effect.
 old-location: direct3d10\d3d10_effect_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_effect_desc.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 1f8c640b-441a-ed00-b882-58a32c647df9, D3D10_EFFECT_DESC, D3D10_EFFECT_DESC structure [Direct3D 10], d3d10effect/D3D10_EFFECT_DESC, direct3d10.d3d10_effect_desc
 ms.topic: struct

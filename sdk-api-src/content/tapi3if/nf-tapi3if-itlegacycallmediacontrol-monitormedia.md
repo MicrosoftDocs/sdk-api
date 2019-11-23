@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl.MonitorMedia
 title: ITLegacyCallMediaControl::MonitorMedia (tapi3if.h)
-author: windows-sdk-content
+
 description: The MonitorMedia method sets monitoring for a given media type on the current call.
 old-location: tapi3\itlegacycallmediacontrol_monitormedia.htm
 tech.root: Tapi
 ms.assetid: 82efd729-fbbf-449f-a347-24bceada140c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITLegacyCallMediaControl interface [TAPI 2.2],MonitorMedia method, ITLegacyCallMediaControl.MonitorMedia, ITLegacyCallMediaControl::MonitorMedia, MonitorMedia, MonitorMedia method [TAPI 2.2], MonitorMedia method [TAPI 2.2],ITLegacyCallMediaControl interface, _tapi3_itlegacycallmediacontrol_monitormedia, tapi3.itlegacycallmediacontrol_monitormedia, tapi3if/ITLegacyCallMediaControl::MonitorMedia
 ms.topic: method

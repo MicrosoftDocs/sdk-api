@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d10.D3D10_QUERY_DATA_SO_STATISTICS
 title: D3D10_QUERY_DATA_SO_STATISTICS (d3d10.h)
-author: windows-sdk-content
+
 description: Query information about the amount of data streamed out to the stream-output buffers in between ID3D10Asynchronous::Begin and ID3D10Asynchronous::End.
 old-location: direct3d10\d3d10_query_data_so_statistics.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_data_so_statistics.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D10_QUERY_DATA_SO_STATISTICS, D3D10_QUERY_DATA_SO_STATISTICS structure [Direct3D 10], cf410b92-83dc-df50-69b8-4970b24d4f1c, d3d10/D3D10_QUERY_DATA_SO_STATISTICS, direct3d10.d3d10_query_data_so_statistics
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectInteriorOutputConnector.GetOutputConnector
 title: IMILBitmapEffectInteriorOutputConnector::GetOutputConnector (mileffects.h)
-author: windows-sdk-content
+
 description: Gets the IMILBitmapEffectOutputConnector associated with the interior output connector.
 old-location: wibe\_wibe_imilbitmapeffectinterioroutputconnector_getoutputconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinterioroutputconnector\getoutputconnector.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetOutputConnector, GetOutputConnector method [WPF Bitmap Effects], GetOutputConnector method [WPF Bitmap Effects],IMILBitmapEffectInteriorOutputConnector interface, IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects],GetOutputConnector method, IMILBitmapEffectInteriorOutputConnector.GetOutputConnector, IMILBitmapEffectInteriorOutputConnector::GetOutputConnector, _wibe_imilbitmapeffectinterioroutputconnector_getoutputconnector, mileffects/IMILBitmapEffectInteriorOutputConnector::GetOutputConnector, wibe._wibe_imilbitmapeffectinterioroutputconnector_getoutputconnector
 ms.topic: method

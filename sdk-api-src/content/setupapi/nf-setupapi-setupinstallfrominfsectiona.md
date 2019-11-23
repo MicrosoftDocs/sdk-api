@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupInstallFromInfSectionA
 title: SetupInstallFromInfSectionA function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section.
 old-location: setup\setupinstallfrominfsection.htm
 tech.root: SetupApi
 ms.assetid: bd1ee91a-b58b-4f08-9181-42fbe9d763f9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetupInstallFromInfSection, SetupInstallFromInfSection function [Setup API], SetupInstallFromInfSectionA, SetupInstallFromInfSectionW, _setupapi_setupinstallfrominfsection, setup.setupinstallfrominfsection, setupapi/SetupInstallFromInfSection, setupapi/SetupInstallFromInfSectionA, setupapi/SetupInstallFromInfSectionW
 ms.topic: function

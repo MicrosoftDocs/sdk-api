@@ -1,12 +1,12 @@
 ---
 UID: NS:tapi.linecallstatus_tag
 title: LINECALLSTATUS (tapi.h)
-author: windows-sdk-content
+
 description: The LINECALLSTATUS structure describes the current status of a call.
 old-location: tapi2\linecallstatus_str.htm
 tech.root: Tapi
 ms.assetid: f056bea6-aeb0-4c18-8e3b-c1c6fd907f62
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPLINECALLSTATUS, LINECALLSTATE_BUSY, LINECALLSTATE_CONNECTED, LINECALLSTATE_DIALTONE, LINECALLSTATE_DISCONNECTED, LINECALLSTATE_OFFERING, LINECALLSTATE_SPECIALINFO, LINECALLSTATUS, LINECALLSTATUS structure [TAPI 2.2], LPLINECALLSTATUS, LPLINECALLSTATUS structure pointer [TAPI 2.2], _tapi2_linecallstatus_str, tapi/LINECALLSTATUS, tapi/LPLINECALLSTATUS, tapi2.linecallstatus_str"
 ms.topic: struct

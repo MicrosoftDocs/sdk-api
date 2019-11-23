@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlock.GetPartName
 title: IXpsSignatureBlock::GetPartName (xpsdigitalsignature.h)
-author: windows-sdk-content
+
 description: Gets a pointer to the IOpcPartUri interface that contains the URI of the SignatureDefinitions part.
 old-location: xps\ixpssignatureblock_getpartname.htm
 tech.root: printdocs
 ms.assetid: 43dbb5f5-d69b-435e-8ace-54615796871d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPartName, GetPartName method [XPS Documents and Packaging], GetPartName method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetPartName method, IXpsSignatureBlock.GetPartName, IXpsSignatureBlock::GetPartName, xps.ixpssignatureblock_getpartname, xpsdigitalsignature/IXpsSignatureBlock::GetPartName
 ms.topic: method

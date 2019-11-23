@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetLanguageCode
 title: ICaptionServiceDescriptor::GetLanguageCode (atscpsipparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icaptionservicedescriptor_getlanguagecode.htm
 tech.root: mstv
 ms.assetid: 4b3b31dd-83cc-4067-a46f-929e1a75087a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetLanguageCode method, ICaptionServiceDescriptor.GetLanguageCode, ICaptionServiceDescriptor::GetLanguageCode, ICaptionServiceDescriptorGetLanguageCode, atscpsipparser/ICaptionServiceDescriptor::GetLanguageCode, mstv.icaptionservicedescriptor_getlanguagecode
 ms.topic: method

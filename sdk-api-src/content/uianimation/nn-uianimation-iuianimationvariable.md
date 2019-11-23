@@ -1,12 +1,12 @@
 ---
 UID: NN:uianimation.IUIAnimationVariable
 title: IUIAnimationVariable (uianimation.h)
-author: windows-sdk-content
+
 description: Defines an animation variable, which represents a visual element that can be animated.
 old-location: uianimation\iuianimationvariable.htm
 tech.root: UIAnimation
 ms.assetid: 1632e62d-6e82-4841-8823-f6b60efc4298
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable, IUIAnimationVariable interface [Windows Animation], IUIAnimationVariable interface [Windows Animation],described, uianimation.iuianimationvariable, uianimation/IUIAnimationVariable
 ms.topic: interface

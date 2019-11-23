@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagTVDISPINFOEXA
 title: NMTVDISPINFOEXA (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information pertaining to extended TreeView notification information.
 old-location: controls\NMTVDISPINFOEX.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvdispinfoex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTVDISPINFOEXA, LPNMTVDISPINFOEX, LPNMTVDISPINFOEX structure pointer [Windows Controls], NMTVDISPINFOEX, NMTVDISPINFOEX structure [Windows Controls], NMTVDISPINFOEXA, NMTVDISPINFOEXW, _shell_NMTVDISPINFOEX, _shell_NMTVDISPINFOEX_cpp, commctrl/LPNMTVDISPINFOEX, commctrl/NMTVDISPINFOEX, commctrl/NMTVDISPINFOEXA, commctrl/NMTVDISPINFOEXW, controls.NMTVDISPINFOEX, controls._shell_NMTVDISPINFOEX'
 ms.topic: struct

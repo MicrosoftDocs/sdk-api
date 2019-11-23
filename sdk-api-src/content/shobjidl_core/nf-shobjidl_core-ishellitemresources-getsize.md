@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.GetSize
 title: IShellItemResources::GetSize (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Gets the source size.
 old-location: shell\IShellItemResources_GetSize.htm
 tech.root: shell
 ms.assetid: 03e5f9cf-ad5d-487d-bdef-75255a0d1620
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Windows Shell], GetSize method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetSize method, IShellItemResources.GetSize, IShellItemResources::GetSize, _shell_IShellItemResources_GetSize, shell.IShellItemResources_GetSize, shobjidl_core/IShellItemResources::GetSize
 ms.topic: method

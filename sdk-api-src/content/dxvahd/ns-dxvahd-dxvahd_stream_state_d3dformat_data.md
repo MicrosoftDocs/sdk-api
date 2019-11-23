@@ -1,12 +1,12 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_D3DFORMAT_DATA
 title: DXVAHD_STREAM_STATE_D3DFORMAT_DATA (dxvahd.h)
-author: windows-sdk-content
+
 description: Specifies the format for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_stream_state_d3dformat_data.htm
 tech.root: medfound
 ms.assetid: a1ba825b-0574-4657-8a10-447a3caf8149
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_D3DFORMAT_DATA, DXVAHD_STREAM_STATE_D3DFORMAT_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_D3DFORMAT_DATA, mf.dxvahd_stream_state_d3dformat_data
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetClassLongPtrA
 title: GetClassLongPtrA function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the specified value from the WNDCLASSEX structure associated with the specified window.
 old-location: winmsg\getclasslongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclasslongptr.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GCLP_HBRBACKGROUND, GCLP_HCURSOR, GCLP_HICON, GCLP_HICONSM, GCLP_HMODULE, GCLP_MENUNAME, GCLP_WNDPROC, GCL_CBCLSEXTRA, GCL_CBWNDEXTRA, GCL_STYLE, GCW_ATOM, GetClassLongPtr, GetClassLongPtr function [Windows and Messages], GetClassLongPtrA, GetClassLongPtrW, _win32_GetClassLongPtr, _win32_getclasslongptr_cpp, winmsg.getclasslongptr, winui._win32_getclasslongptr, winuser/GetClassLongPtr, winuser/GetClassLongPtrA, winuser/GetClassLongPtrW
 ms.topic: function

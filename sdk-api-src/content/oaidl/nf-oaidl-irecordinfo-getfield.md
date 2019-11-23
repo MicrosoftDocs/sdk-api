@@ -1,12 +1,12 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetField
 title: IRecordInfo::GetField (oaidl.h)
-author: windows-sdk-content
+
 description: Returns a pointer to the VARIANT containing the value of a given field name.
 old-location: automat\irecordinfo_getfield.htm
 tech.root: automat
 ms.assetid: 6765371c-209a-4794-bff8-83560171affb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetField, GetField method [Automation], GetField method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetField method, IRecordInfo.GetField, IRecordInfo::GetField, _oa96_IRecordInfo_GetField, automat.irecordinfo_getfield, oaidl/IRecordInfo::GetField
 ms.topic: method

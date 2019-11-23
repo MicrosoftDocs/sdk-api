@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.GetPropByIndex
 title: IWMBackupRestoreProps::GetPropByIndex (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetPropByIndex method retrieves the name and value of a property by index.
 old-location: wmformat\iwmbackuprestoreprops_getpropbyindex.htm
 tech.root: wmformat
 ms.assetid: 96376e63-3c36-4bea-8cd2-362bb1ba054f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPropByIndex, GetPropByIndex method [windows Media Format], GetPropByIndex method [windows Media Format],IWMBackupRestoreProps interface, IWMBackupRestoreProps interface [windows Media Format],GetPropByIndex method, IWMBackupRestoreProps.GetPropByIndex, IWMBackupRestoreProps::GetPropByIndex, IWMBackupRestorePropsGetPropByIndex, wmformat.iwmbackuprestoreprops_getpropbyindex, wmsdkidl/IWMBackupRestoreProps::GetPropByIndex
 ms.topic: method

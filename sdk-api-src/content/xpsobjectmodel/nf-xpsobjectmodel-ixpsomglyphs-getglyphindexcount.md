@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphIndexCount
 title: IXpsOMGlyphs::GetGlyphIndexCount (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the number of Glyph indices.
 old-location: xps\ixpsomglyphs_getglyphindexcount.htm
 tech.root: printdocs
 ms.assetid: ae37e602-4a47-4234-a8d7-c757f3498308
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGlyphIndexCount, GetGlyphIndexCount method [XPS Documents and Packaging], GetGlyphIndexCount method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphIndexCount method, IXpsOMGlyphs.GetGlyphIndexCount, IXpsOMGlyphs::GetGlyphIndexCount, xps.ixpsomglyphs_getglyphindexcount, xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndexCount
 ms.topic: method

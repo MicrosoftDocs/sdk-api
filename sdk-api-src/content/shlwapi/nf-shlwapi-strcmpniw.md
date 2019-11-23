@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.StrCmpNIW
 title: StrCmpNIW function (shlwapi.h)
-author: windows-sdk-content
+
 description: Compares a specified number of characters from the beginning of two strings to determine if they are the same. The comparison is not case-sensitive. The StrNCmpI macro differs from this function in name only.
 old-location: shell\StrCmpNI.htm
 tech.root: shell
 ms.assetid: c6657bd5-21b6-457c-9ed0-45e44b2571ba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: StrCmpNI, StrCmpNI function [Windows Shell], StrCmpNIA, StrCmpNIW, _win32_StrCmpNI, shell.StrCmpNI, shlwapi/StrCmpNI, shlwapi/StrCmpNIA, shlwapi/StrCmpNIW
 ms.topic: function

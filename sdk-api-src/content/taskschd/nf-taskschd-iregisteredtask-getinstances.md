@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.IRegisteredTask.GetInstances
 title: IRegisteredTask::GetInstances (taskschd.h)
-author: windows-sdk-content
+
 description: Returns all instances of the currently running registered task.
 old-location: taskschd\iregisteredtask_getinstances.htm
 tech.root: taskschd
 ms.assetid: 4634851e-e868-4915-a7da-32a39f405974
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInstances, GetInstances method [Task Scheduler], GetInstances method [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],GetInstances method, IRegisteredTask.GetInstances, IRegisteredTask::GetInstances, taskschd.iregisteredtask_getinstances, taskschd/IRegisteredTask::GetInstances
 ms.topic: method

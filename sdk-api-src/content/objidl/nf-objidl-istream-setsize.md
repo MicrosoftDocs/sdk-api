@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IStream.SetSize
 title: IStream::SetSize (objidl.h)
-author: windows-sdk-content
+
 description: Changes the size of the stream object.
 old-location: stg\istream_setsize.htm
 tech.root: Stg
 ms.assetid: 05627db5-067b-4a1a-a7ed-c83314f8bd8d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IStream interface [Structured Storage],SetSize method, IStream.SetSize, IStream::SetSize, SetSize, SetSize method [Structured Storage], SetSize method [Structured Storage],IStream interface, _stg_istream_setsize, objidl/IStream::SetSize, stg.istream_setsize
 ms.topic: method

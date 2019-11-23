@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPStringCollection2.getItemInfo
 title: IWMPStringCollection2::getItemInfo (wmp.h)
-author: windows-sdk-content
+
 description: The getItemInfo method retrieves the string corresponding to the specified string collection item index and name.
 old-location: wmp\iwmpstringcollection2_getiteminfo.htm
 tech.root: WMP
 ms.assetid: 1915d71f-aca3-4943-a4da-ed8f2fa3f46d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],getItemInfo method, IWMPStringCollection2.getItemInfo, IWMPStringCollection2::getItemInfo, IWMPStringCollection2getItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_getiteminfo, wmp/IWMPStringCollection2::getItemInfo
 ms.topic: method

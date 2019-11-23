@@ -1,12 +1,12 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.UpdateVideo
 title: IMFPMediaPlayer::UpdateVideo (mfplay.h)
-author: windows-sdk-content
+
 description: Updates the video frame.
 old-location: mf\imfpmediaplayer_updatevideo.htm
 tech.root: medfound
 ms.assetid: de583e74-b31b-407e-af4b-c36649e1ca84
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],UpdateVideo method, IMFPMediaPlayer.UpdateVideo, IMFPMediaPlayer::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_updatevideo, mfplay/IMFPMediaPlayer::UpdateVideo
 ms.topic: method

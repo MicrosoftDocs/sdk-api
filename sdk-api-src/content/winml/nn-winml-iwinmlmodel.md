@@ -1,12 +1,12 @@
 ---
 UID: NN:winml.IWinMLModel
 title: IWinMLModel (winml.h)
-author: windows-sdk-content
+
 description: Represents a Windows Machine Learning model with corresponding metadata; includes model descriptions (name, author, versioning, etc.), as well as expected inputs and outputs.
 old-location: machinelearning\iwinmlmodel.htm
 tech.root: MachineLearning
 ms.assetid: 604ABFCC-9CA0-409D-A3FF-D5C59758462E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWinMLModel, IWinMLModel interface, IWinMLModel interface,described, MachineLearning.iwinmlmodel, winml/IWinMLModel
 ms.topic: interface

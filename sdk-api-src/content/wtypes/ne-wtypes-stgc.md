@@ -1,12 +1,12 @@
 ---
 UID: NE:wtypes.tagSTGC
 title: STGC (wtypes.h)
-author: windows-sdk-content
+
 description: Specify the conditions for performing the commit operation in the IStorage::Commit and IStream::Commit methods.
 old-location: stg\stgc.htm
 tech.root: Stg
 ms.assetid: f37260c0-d03d-4ead-a342-d2454ce8b1ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: STGC, STGC enumeration [Structured Storage], STGC_CONSOLIDATE, STGC_DANGEROUSLYCOMMITMERELYTODISKCACHE, STGC_DEFAULT, STGC_ONLYIFCURRENT, STGC_OVERWRITE, _stg_stgc, stg.stgc, wtypes/STGC, wtypes/STGC_CONSOLIDATE, wtypes/STGC_DANGEROUSLYCOMMITMERELYTODISKCACHE, wtypes/STGC_DEFAULT, wtypes/STGC_ONLYIFCURRENT, wtypes/STGC_OVERWRITE
 ms.topic: enum

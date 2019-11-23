@@ -1,12 +1,12 @@
 ---
 UID: NE:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0032
 title: MPEG_REQUEST_TYPE (mpeg2structs.h)
-author: windows-sdk-content
+
 description: The MPEG_REQUEST_TYPE enumeration type specifies a request for MPEG-2 data.
 old-location: mstv\mpeg_request_type.htm
 tech.root: mstv
 ms.assetid: d1811cd5-3dda-48d1-a3b3-e4189e2622bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MPEG_REQUEST_TYPE, MPEG_REQUEST_TYPE enumeration [Microsoft TV Technologies], MPEG_RQST_GET_PES_STREAM, MPEG_RQST_GET_SECTION, MPEG_RQST_GET_SECTIONS_STREAM, MPEG_RQST_GET_SECTION_ASYNC, MPEG_RQST_GET_TABLE, MPEG_RQST_GET_TABLE_ASYNC, MPEG_RQST_GET_TS_STREAM, MPEG_RQST_START_MPE_STREAM, MPEG_RQST_UNKNOWN, mpeg2structs/MPEG_REQUEST_TYPE, mpeg2structs/MPEG_RQST_GET_PES_STREAM, mpeg2structs/MPEG_RQST_GET_SECTION, mpeg2structs/MPEG_RQST_GET_SECTIONS_STREAM, mpeg2structs/MPEG_RQST_GET_SECTION_ASYNC, mpeg2structs/MPEG_RQST_GET_TABLE, mpeg2structs/MPEG_RQST_GET_TABLE_ASYNC, mpeg2structs/MPEG_RQST_GET_TS_STREAM, mpeg2structs/MPEG_RQST_START_MPE_STREAM, mpeg2structs/MPEG_RQST_UNKNOWN, mstv.mpeg_request_type
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NL:gdipluseffects.BrightnessContrast
 title: BrightnessContrast (gdipluseffects.h)
-author: windows-sdk-content
+
 description: The BrightnessContrast class enables you to change the brightness and contrast of a bitmap.
 old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrast.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BrightnessContrast, BrightnessContrast class [GDI+], BrightnessContrast class [GDI+],described, _gdiplus_CLASS_BrightnessContrast_Class, gdiplus._gdiplus_CLASS_BrightnessContrast_Class, gdipluseffects/BrightnessContrast
 ms.topic: class

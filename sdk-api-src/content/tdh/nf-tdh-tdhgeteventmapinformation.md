@@ -1,12 +1,12 @@
 ---
 UID: NF:tdh.TdhGetEventMapInformation
 title: TdhGetEventMapInformation function (tdh.h)
-author: windows-sdk-content
+
 description: Retrieves information about the event map contained in the event.
 old-location: etw\tdhgeteventmapinformation_func.htm
 tech.root: ETW
 ms.assetid: 2625b65c-7f9e-4a87-85c6-d16857ef4987
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TdhGetEventMapInformation, TdhGetEventMapInformation function [ETW], etw.tdhgeteventmapinformation_func, tdh.tdhgeteventmapinformation_func, tdh/TdhGetEventMapInformation
 ms.topic: function

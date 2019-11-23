@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionScaleTransform
 title: IDCompositionScaleTransform (dcomp.h)
-author: windows-sdk-content
+
 description: Represents a 2D transformation that affects the scale of a visual along the x-axis and y-axis. The coordinate system is scaled from the specified center point.
 old-location: directcomp\idcompositionscaletransform.htm
 tech.root: directcomp
 ms.assetid: 8e59c484-b7c5-446a-a5d6-e00371e2c08a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform, IDCompositionScaleTransform interface [DirectComposition], IDCompositionScaleTransform interface [DirectComposition],described, dcomp/IDCompositionScaleTransform, directcomp.idcompositionscaletransform
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:icmpapi.IcmpCreateFile
 title: IcmpCreateFile function (icmpapi.h)
-author: windows-sdk-content
+
 description: The IcmpCreateFile function opens a handle on which IPv4 ICMP echo requests can be issued.
 old-location: iphlp\icmpcreatefile.htm
 tech.root: IpHlp
 ms.assetid: b435b38b-df86-4991-9772-c712c9ea606f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IcmpCreateFile, IcmpCreateFile function [IP Helper], _iphlp_icmpcreatefile, icmpapi/IcmpCreateFile, iphlp.icmpcreatefile
 ms.topic: function

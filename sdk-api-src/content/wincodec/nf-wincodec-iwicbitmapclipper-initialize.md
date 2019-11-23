@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICBitmapClipper.Initialize
 title: IWICBitmapClipper::Initialize (wincodec.h)
-author: windows-sdk-content
+
 description: Initializes the bitmap clipper with the provided parameters.
 old-location: wic\_wic_codec_iwicbitmapclipper_initialize.htm
 tech.root: wic
 ms.assetid: a0b8a572-d947-4d57-9214-d39085a78b6e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapClipper interface [Windows Imaging Component],Initialize method, IWICBitmapClipper.Initialize, IWICBitmapClipper::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapClipper interface, _wic_codec_iwicbitmapclipper_initialize, wic._wic_codec_iwicbitmapclipper_initialize, wincodec/IWICBitmapClipper::Initialize
 ms.topic: method

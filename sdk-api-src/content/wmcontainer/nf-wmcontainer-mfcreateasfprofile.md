@@ -1,12 +1,12 @@
 ---
 UID: NF:wmcontainer.MFCreateASFProfile
 title: MFCreateASFProfile function (wmcontainer.h)
-author: windows-sdk-content
+
 description: Creates the ASF profile object.
 old-location: mf\mfcreateasfprofile.htm
 tech.root: medfound
 ms.assetid: fa57fac7-a191-4d5b-89be-319af7b3e09c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFProfile, MFCreateASFProfile function [Media Foundation], fa57fac7-a191-4d5b-89be-319af7b3e09c, mf.mfcreateasfprofile, wmcontainer/MFCreateASFProfile
 ms.topic: function

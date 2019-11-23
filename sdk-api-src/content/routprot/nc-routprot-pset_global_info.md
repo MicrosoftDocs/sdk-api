@@ -1,12 +1,12 @@
 ---
 UID: NC:routprot.PSET_GLOBAL_INFO
 title: PSET_GLOBAL_INFO (routprot.h)
-author: windows-sdk-content
+
 description: The SetGlobalInfo function sets the global (as opposed to interface-specific) configuration information kept by the routing protocol. The format of this information is specific to the routing protocol.
 old-location: rras\setglobalinfo.htm
 tech.root: RRAS
 ms.assetid: fd977a71-bfa7-40e4-9afc-4824989f857f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSET_GLOBAL_INFO, PSET_GLOBAL_INFO callback, PSET_GLOBAL_INFO callback function [RAS], SetGlobalInfo, _mpr_setglobalinfo, routprot/PSET_GLOBAL_INFO, rras.setglobalinfo
 ms.topic: callback

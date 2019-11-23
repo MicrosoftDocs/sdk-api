@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IAMTimecodeDisplay
 title: IAMTimecodeDisplay (strmif.h)
-author: windows-sdk-content
+
 description: The IAMTimecodeDisplay interface controls an external SMPTE/MIDI timecode display device.DirectShow currently does not provide any filters that implement this interface.
 old-location: dshow\iamtimecodedisplay.htm
 tech.root: DirectShow
 ms.assetid: 2edfc260-5bb6-475d-b8af-252e7c7a8552
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeDisplay, IAMTimecodeDisplay interface [DirectShow], IAMTimecodeDisplay interface [DirectShow],described, IAMTimecodeDisplayInterface, dshow.iamtimecodedisplay, strmif/IAMTimecodeDisplay
 ms.topic: interface

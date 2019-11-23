@@ -1,12 +1,12 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.EnumerateTargets
 title: ITsSbResourcePluginStore::EnumerateTargets (sbtsv.h)
-author: windows-sdk-content
+
 description: Returns an array that contains the specified targets that are present in the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_enumeratetargets.htm
 tech.root: TermServ
 ms.assetid: bb05847a-e7fb-481b-ad84-9f6dc15f9be0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumerateTargets, EnumerateTargets method [Remote Desktop Services], EnumerateTargets method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateTargets method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateTargets method, ITsSbResourcePluginStore.EnumerateTargets, ITsSbResourcePluginStore::EnumerateTargets, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateTargets method, ITsSbResourcePluginStoreEx::EnumerateTargets, sbtsv/ITsSbResourcePluginStore::EnumerateTargets, sbtsv/ITsSbResourcePluginStoreEx::EnumerateTargets, termserv.itssbresourcepluginstore_enumeratetargets
 ms.topic: method

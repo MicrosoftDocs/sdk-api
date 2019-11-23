@@ -1,12 +1,12 @@
 ---
 UID: NF:recapis.AdviseInkChange
 title: AdviseInkChange function (recapis.h)
-author: windows-sdk-content
+
 description: Stops the recognizer from processing ink because a stroke has been added or deleted.
 old-location: tablet\adviseinkchange.htm
 tech.root: tablet
 ms.assetid: 326bbbff-4adc-46ae-aab3-626b55fecf0c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 326bbbff-4adc-46ae-aab3-626b55fecf0c, AdviseInkChange, AdviseInkChange function [Tablet PC], recapis/AdviseInkChange, tablet.adviseinkchange
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:ole2.OleNoteObjectVisible
 title: OleNoteObjectVisible function (ole2.h)
-author: windows-sdk-content
+
 description: Increments or decrements an external reference that keeps an object in the running state.
 old-location: com\olenoteobjectvisible.htm
 tech.root: com
 ms.assetid: f140f068-3115-4389-b67b-6d41d12f7525
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleNoteObjectVisible, OleNoteObjectVisible function [COM], _ole_OleNoteObjectVisible, com.olenoteobjectvisible, ole2/OleNoteObjectVisible
 ms.topic: function

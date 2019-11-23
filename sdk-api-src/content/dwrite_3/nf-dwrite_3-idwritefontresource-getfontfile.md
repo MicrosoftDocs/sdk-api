@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetFontFile
 title: IDWriteFontResource::GetFontFile
-author: windows-sdk-content
+
 description: Retrieves the font file of the resource.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontFile method, IDWriteFontResource.GetFontFile, IDWriteFontResource::GetFontFile, GetFontFile, GetFontFile method [Direct Write], GetFontFile method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontfile, dwrite_3/IDWriteFontResource::GetFontFile
 ms.topic: method

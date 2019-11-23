@@ -1,12 +1,12 @@
 ---
 UID: NF:relogger.ITraceEvent.SetProviderId
 title: ITraceEvent::SetProviderId (relogger.h)
-author: windows-sdk-content
+
 description: Sets the GUID for the provider which traced an event.
 old-location: etw\ievent_setproviderid.htm
 tech.root: ETW
 ms.assetid: dc61ff9e-2af9-4428-82df-84635313ddc6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetProviderId method, ITraceEvent.SetProviderId, ITraceEvent::SetProviderId, SetProviderId, SetProviderId method [ETW], SetProviderId method [ETW],ITraceEvent interface, etw.ievent_setproviderid, relogger/ITraceEvent::SetProviderId
 ms.topic: method

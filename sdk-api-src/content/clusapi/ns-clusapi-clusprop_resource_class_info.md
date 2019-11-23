@@ -1,12 +1,12 @@
 ---
 UID: NS:clusapi.CLUSPROP_RESOURCE_CLASS_INFO
 title: CLUSPROP_RESOURCE_CLASS_INFO (clusapi.h)
-author: windows-sdk-content
+
 description: Describes information relating to a resource class.
 old-location: mscs\clusprop_resource_class_info.htm
 tech.root: MsCS
 ms.assetid: 449f297e-6207-446e-ac80-03145c44d671
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSPROP_RESOURCE_CLASS_INFO, CLUSPROP_RESOURCE_CLASS_INFO, CLUSPROP_RESOURCE_CLASS_INFO structure [Failover Cluster], PCLUSPROP_RESOURCE_CLASS_INFO, PCLUSPROP_RESOURCE_CLASS_INFO structure pointer [Failover Cluster], _wolf_clusprop_resource_class_info, clusapi/CLUSPROP_RESOURCE_CLASS_INFO, clusapi/PCLUSPROP_RESOURCE_CLASS_INFO, mscs.clusprop_resource_class_info"
 ms.topic: struct

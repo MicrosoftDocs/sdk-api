@@ -1,12 +1,12 @@
 ---
 UID: NN:gpmgmt.IGPMStarterGPOCollection
 title: IGPMStarterGPOCollection (gpmgmt.h)
-author: windows-sdk-content
+
 description: The IGPMStarterGPOCollection interface contains methods that enable applications to access a collection of Group Policy Objects (GPOs) when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmstartergpocollection.htm
 tech.root: gpmc
 ms.assetid: b650b1c6-0597-468a-afdc-a21d61f1a8a0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GPMStarterGPOCollection, IGPMStarterGPOCollection, IGPMStarterGPOCollection interface [GPMC], IGPMStarterGPOCollection interface [GPMC],described, gpmc.igpmstartergpocollection, gpmgmt/IGPMStarterGPOCollection
 ms.topic: interface

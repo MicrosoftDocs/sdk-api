@@ -1,12 +1,12 @@
 ---
 UID: NF:wsman.WSManPluginAuthzOperationComplete
 title: WSManPluginAuthzOperationComplete function (wsman.h)
-author: windows-sdk-content
+
 description: Reports either a successful or failed authorization for a user operation.
 old-location: winrm\wsmanpluginauthzoperationcomplete.htm
 tech.root: winrm
 ms.assetid: 1b9590ac-45d7-4eed-9477-05500c8bc1ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSManPluginAuthzOperationComplete, WSManPluginAuthzOperationComplete function [Windows Remote Management], winrm.wsmanpluginauthzoperationcomplete, wsman/WSManPluginAuthzOperationComplete
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.GetImage
 title: TextureBrush::GetImage (gdiplusbrush.h)
-author: windows-sdk-content
+
 description: The TextureBrush::GetImage method gets a pointer to the Image object that is defined by this texture brush.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_GetImage_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\getimage.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetImage, GetImage method [GDI+], GetImage method [GDI+],TextureBrush class, TextureBrush class [GDI+],GetImage method, TextureBrush.GetImage, TextureBrush::GetImage, _gdiplus_CLASS_TextureBrush_GetImage_, gdiplus._gdiplus_CLASS_TextureBrush_GetImage_
 ms.topic: method

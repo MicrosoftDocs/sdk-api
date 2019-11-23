@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMINT3.XMINT3(const XMINT3 &)
 title: XMINT3::XMINT3(const XMINT3 &) (directxmath.h)
-author: windows-sdk-content
+
 description: A constructor for XMINT3.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: XMINT3, XMINT3 constructor [DirectX Math Support APIs], XMINT3 constructor [DirectX Math Support APIs],XMINT3 structure, XMINT3 structure [DirectX Math Support APIs],XMINT3 constructor, XMINT3.XMINT3, XMINT3.XMINT3(), XMINT3.XMINT3(const XMINT3 &), XMINT3::XMINT3, XMINT3::XMINT3(const XMINT3 &), dxmath.xmint3_ctor_1
 ms.topic: method

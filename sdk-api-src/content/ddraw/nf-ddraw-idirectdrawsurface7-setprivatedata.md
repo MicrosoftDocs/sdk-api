@@ -1,12 +1,12 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetPrivateData
 title: IDirectDrawSurface7::SetPrivateData (ddraw.h)
-author: windows-sdk-content
+
 description: Associates data with the surface that is intended for use by the application, not by DirectDraw. Data is passed by value, and multiple sets of data can be associated with a single surface.
 old-location: directdraw\idirectdrawsurface7_setprivatedata.htm
 tech.root: directdraw
 ms.assetid: 822e4533-9073-4590-844e-8830110e4e33
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "(none), DDSPD_IUNKNOWNPOINTER, DDSPD_VOLATILE, IDirectDrawSurface7 interface [DirectDraw],SetPrivateData method, IDirectDrawSurface7.SetPrivateData, IDirectDrawSurface7::SetPrivateData, SetPrivateData, SetPrivateData method [DirectDraw], SetPrivateData method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetPrivateData, directdraw.idirectdrawsurface7_setprivatedata"
 ms.topic: method

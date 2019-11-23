@@ -1,12 +1,12 @@
 ---
 UID: NS:rectypes.tagRECO_ATTRS
 title: RECO_ATTRS (rectypes.h)
-author: windows-sdk-content
+
 description: Retrieves the attributes of a recognizer or specifies which attributes to use when you search for an installed recognizer.
 old-location: tablet\reco_attrs.htm
 tech.root: tablet
 ms.assetid: 5ebbb47f-1a11-4e97-8e45-29dbe07fe86d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 5ebbb47f-1a11-4e97-8e45-29dbe07fe86d, RECO_ATTRS, RECO_ATTRS structure [Tablet PC], rectypes/RECO_ATTRS, tablet.reco_attrs
 ms.topic: struct

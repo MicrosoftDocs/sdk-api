@@ -1,12 +1,12 @@
 ---
 UID: NC:mswsock.LPFN_RIORECEIVEEX
 title: LPFN_RIORECEIVEEX
-author: windows-sdk-content
+
 description: Receives network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket with additional options for use with the Winsock registered I/O extensions.
 old-location: 
 tech.root: WinSock
 ms.assetid: 74C006D0-EE13-4518-8ACC-C0CFD44D09A3
-ms.author: windowssdkdev
+
 ms.date: 01/30/19
 ms.keywords: LPFN_RIORECEIVEEX
 ms.topic: language-reference

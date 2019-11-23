@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdControl.SetRoot
 title: IDvdControl::SetRoot (strmif.h)
-author: windows-sdk-content
+
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the root directory containing the DVD-Video volume.
 old-location: dshow\idvdcontrol_setroot.htm
 tech.root: DirectShow
 ms.assetid: 3068edc0-c052-4f44-9f62-453320af20a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],SetRoot method, IDvdControl.SetRoot, IDvdControl::SetRoot, IDvdControlSetRoot, SetRoot, SetRoot method [DirectShow], SetRoot method [DirectShow],IDvdControl interface, dshow.idvdcontrol_setroot, strmif/IDvdControl::SetRoot
 ms.topic: method

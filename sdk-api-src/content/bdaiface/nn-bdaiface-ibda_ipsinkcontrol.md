@@ -1,12 +1,12 @@
 ---
 UID: NN:bdaiface.IBDA_IPSinkControl
 title: IBDA_IPSinkControl (bdaiface.h)
-author: windows-sdk-content
+
 description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems.
 old-location: mstv\ibda_ipsinkcontrol.htm
 tech.root: mstv
 ms.assetid: 3665c06e-0e9f-4a8a-bb72-eb0c402ce7c9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPSinkControl, IBDA_IPSinkControl interface [Microsoft TV Technologies], IBDA_IPSinkControl interface [Microsoft TV Technologies],described, IBDA_IPSinkControlInterface, bdaiface/IBDA_IPSinkControl, mstv.ibda_ipsinkcontrol
 ms.topic: interface

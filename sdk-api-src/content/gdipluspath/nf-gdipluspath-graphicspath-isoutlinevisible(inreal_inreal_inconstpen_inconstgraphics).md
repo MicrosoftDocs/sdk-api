@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.IsOutlineVisible(IN REAL,IN REAL,IN const Pen,IN const Graphics)
 title: GraphicsPath::IsOutlineVisible(IN REAL,IN REAL,IN const Pen,IN const Graphics) (gdipluspath.h)
-author: windows-sdk-content
+
 description: The GraphicsPath::IsOutlineVisible method determines whether a specified point touches the outline of this path when the path is drawn by a specified Graphics object and a specified pen.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsOutlineVisible_REAL_x_REAL_y_Pen_pen_Graphics_g_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisoutlinevisiblemethods\isoutlinevisible_100realx_realy_penpen_graphicsg.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],IsOutlineVisible method, GraphicsPath.IsOutlineVisible, GraphicsPath.IsOutlineVisible(IN REAL,IN REAL,IN const Pen,IN const Graphics), GraphicsPath.IsOutlineVisible(REAL,REAL,const Pen*,const Graphics*), GraphicsPath::IsOutlineVisible, GraphicsPath::IsOutlineVisible(IN REAL,IN REAL,IN const Pen,IN const Graphics), IsOutlineVisible, IsOutlineVisible method [GDI+], IsOutlineVisible method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_IsOutlineVisible_REAL_x_REAL_y_Pen_pen_Graphics_g_, gdiplus._gdiplus_CLASS_GraphicsPath_IsOutlineVisible_REAL_x_REAL_y_Pen_pen_Graphics_g_
 ms.topic: method

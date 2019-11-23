@@ -1,12 +1,12 @@
 ---
 UID: NS:winbase._DCB
 title: DCB (winbase.h)
-author: windows-sdk-content
+
 description: Defines the control setting for a serial communications device.
 old-location: base\dcb_str.htm
 tech.root: devio
 ms.assetid: 9dccd2c6-44b7-4609-a2b9-9815430bf3c7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPDCB, CBR_110, CBR_115200, CBR_1200, CBR_128000, CBR_14400, CBR_19200, CBR_2400, CBR_256000, CBR_300, CBR_38400, CBR_4800, CBR_57600, CBR_600, CBR_9600, DCB, DCB structure, DTR_CONTROL_DISABLE, DTR_CONTROL_ENABLE, DTR_CONTROL_HANDSHAKE, EVENPARITY, LPDCB, LPDCB structure pointer, MARKPARITY, NOPARITY, ODDPARITY, ONE5STOPBITS, ONESTOPBIT, RTS_CONTROL_DISABLE, RTS_CONTROL_ENABLE, RTS_CONTROL_HANDSHAKE, RTS_CONTROL_TOGGLE, SPACEPARITY, TWOSTOPBITS, _DCB, _win32_dcb_str, base.dcb_str, winbase/DCB, winbase/LPDCB"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.RegisterEventCallbackInterface
 title: IWiaDevMgr::RegisterEventCallbackInterface (wia_xp.h)
-author: windows-sdk-content
+
 description: The IWiaDevMgr::RegisterEventCallbackInterface method registers a running application Windows Image Acquisition (WIA) event notification.
 old-location: wia\_wia_IWiaDevMgr_RegisterEventCallbackInterface.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\registereventcallbackinterface.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWiaDevMgr interface [WIA],RegisterEventCallbackInterface method, IWiaDevMgr.RegisterEventCallbackInterface, IWiaDevMgr::RegisterEventCallbackInterface, RegisterEventCallbackInterface, RegisterEventCallbackInterface method [WIA], RegisterEventCallbackInterface method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_RegisterEventCallbackInterface, wia._wia_IWiaDevMgr_RegisterEventCallbackInterface, wia_xp/IWiaDevMgr::RegisterEventCallbackInterface
 ms.topic: method

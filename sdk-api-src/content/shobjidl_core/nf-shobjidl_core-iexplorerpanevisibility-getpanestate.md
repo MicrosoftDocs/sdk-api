@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IExplorerPaneVisibility.GetPaneState
 title: IExplorerPaneVisibility::GetPaneState (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Gets the visibility state of the given Windows Explorer pane.
 old-location: shell\IExplorerPaneVisibility_GetPaneState.htm
 tech.root: shell
 ms.assetid: 6c051cdc-b7f9-48dc-ba32-38f0f1ee5fda
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EP_AdvQueryPane, EP_Commands, EP_Commands_Organize, EP_Commands_View, EP_DetailsPane, EP_NavPane, EP_PreviewPane, EP_QueryPane, EP_Ribbon, EP_StatusBar, GetPaneState, GetPaneState method [Windows Shell], GetPaneState method [Windows Shell],IExplorerPaneVisibility interface, IExplorerPaneVisibility interface [Windows Shell],GetPaneState method, IExplorerPaneVisibility.GetPaneState, IExplorerPaneVisibility::GetPaneState, _shell_IExplorerPaneVisibility_GetPaneState, shell.IExplorerPaneVisibility_GetPaneState, shobjidl_core/IExplorerPaneVisibility::GetPaneState
 ms.topic: method

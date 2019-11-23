@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.RemoveMenusSB
 title: IShellBrowser::RemoveMenusSB (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Permits the container to remove any of its menu elements from the in-place composite menu and to free all associated resources.
 old-location: shell\IShellBrowser_RemoveMenusSB.htm
 tech.root: shell
 ms.assetid: aa96ac59-62cd-4010-8a0f-b743527f61da
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellBrowser interface [Windows Shell],RemoveMenusSB method, IShellBrowser.RemoveMenusSB, IShellBrowser::RemoveMenusSB, RemoveMenusSB, RemoveMenusSB method [Windows Shell], RemoveMenusSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_RemoveMenusSB, shell.IShellBrowser_RemoveMenusSB, shobjidl_core/IShellBrowser::RemoveMenusSB
 ms.topic: method

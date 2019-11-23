@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetRetrievalFilterStackSize
 title: IDXGIInfoQueue::GetRetrievalFilterStackSize (dxgidebug.h)
-author: windows-sdk-content
+
 description: Gets the size of the retrieval-filter stack in bytes.
 old-location: direct3ddxgi\idxgiinfoqueue_getretrievalfilterstacksize.htm
 tech.root: direct3ddxgi
 ms.assetid: E5173EC8-483D-4A90-BDF0-7A7D115A0CF9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method [DXGI], GetRetrievalFilterStackSize method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetRetrievalFilterStackSize method, IDXGIInfoQueue.GetRetrievalFilterStackSize, IDXGIInfoQueue::GetRetrievalFilterStackSize, direct3ddxgi.idxgiinfoqueue_getretrievalfilterstacksize, dxgidebug/IDXGIInfoQueue::GetRetrievalFilterStackSize
 ms.topic: method

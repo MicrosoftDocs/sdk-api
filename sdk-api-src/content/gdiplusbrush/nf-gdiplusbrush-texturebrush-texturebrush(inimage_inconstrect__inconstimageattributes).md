@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush(IN Image,IN const Rect &,IN const ImageAttributes)
 title: TextureBrush::TextureBrush(IN Image,IN const Rect &,IN const ImageAttributes) (gdiplusbrush.h)
-author: windows-sdk-content
+
 description: Creates a TextureBrush object based on an image, a defining rectangle, and a set of image properties.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_Rect_dstRect_ImageAttributes_imageAttributes_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors\texturebrush_25imageimage_rectampdstrect_imageattribu.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+],TextureBrush constructor, TextureBrush constructor [GDI+], TextureBrush constructor [GDI+],TextureBrush class, TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN const Rect &,IN const ImageAttributes), TextureBrush.TextureBrush(Image*,Rect&,ImageAttributes*), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN const Rect &,IN const ImageAttributes), _gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_Rect_dstRect_ImageAttributes_imageAttributes_, gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_Rect_dstRect_ImageAttributes_imageAttributes_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.CheckMenuItem
 title: CheckMenuItem function (winuser.h)
-author: windows-sdk-content
+
 description: Sets the state of the specified menu item's check-mark attribute to either selected or clear.
 old-location: menurc\checkmenuitem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\checkmenuitem.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CheckMenuItem, CheckMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_UNCHECKED, _win32_CheckMenuItem, _win32_checkmenuitem_cpp, menurc.checkmenuitem, winui._win32_checkmenuitem, winuser/CheckMenuItem
 ms.topic: function

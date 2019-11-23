@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.SetIsClosed
 title: IXpsOMGeometryFigure::SetIsClosed (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Sets a value that indicates whether the figure is closed.
 old-location: xps\ixpsomgeometryfigure_setisclosed.htm
 tech.root: printdocs
 ms.assetid: 2c839d2d-8887-464e-8052-b9092a41eeb3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetIsClosed method, IXpsOMGeometryFigure.SetIsClosed, IXpsOMGeometryFigure::SetIsClosed, SetIsClosed, SetIsClosed method [XPS Documents and Packaging], SetIsClosed method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, TRUE, xps.ixpsomgeometryfigure_setisclosed, xpsobjectmodel/IXpsOMGeometryFigure::SetIsClosed
 ms.topic: method

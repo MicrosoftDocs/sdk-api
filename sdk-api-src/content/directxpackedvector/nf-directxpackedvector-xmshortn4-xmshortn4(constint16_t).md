@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMSHORTN4.XMSHORTN4(const int16_t)
 title: XMSHORTN4::XMSHORTN4(const int16_t) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMSHORTN4 from a four element int16_t array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: c9210140-2e89-4269-95a7-c43341606660
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMSHORTN4, XMSHORTN4 constructor [DirectX Math Support APIs], XMSHORTN4 constructor [DirectX Math Support APIs],XMSHORTN4 structure, XMSHORTN4 structure [DirectX Math Support APIs],XMSHORTN4 constructor, XMSHORTN4.XMSHORTN4, XMSHORTN4.XMSHORTN4(), XMSHORTN4.XMSHORTN4(const int16_t), XMSHORTN4::XMSHORTN4, XMSHORTN4::XMSHORTN4(const int16_t), dxmath.xmshortn4_ctor_1
 ms.topic: method

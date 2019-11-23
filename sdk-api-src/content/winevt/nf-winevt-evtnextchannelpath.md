@@ -1,12 +1,12 @@
 ---
 UID: NF:winevt.EvtNextChannelPath
 title: EvtNextChannelPath function (winevt.h)
-author: windows-sdk-content
+
 description: Gets a channel name from the enumerator.
 old-location: wes\evtnextchannelpath.htm
 tech.root: wes
 ms.assetid: 51fd2449-8a89-4a18-99c3-b974c2c998ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EvtNextChannelPath, EvtNextChannelPath function [EventLog], wes.evtnextchannelpath, winevt/EvtNextChannelPath
 ms.topic: function

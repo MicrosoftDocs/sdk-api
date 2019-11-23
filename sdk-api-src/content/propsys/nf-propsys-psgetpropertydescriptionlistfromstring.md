@@ -1,12 +1,12 @@
 ---
 UID: NF:propsys.PSGetPropertyDescriptionListFromString
 title: PSGetPropertyDescriptionListFromString function (propsys.h)
-author: windows-sdk-content
+
 description: Gets an instance of a property description list interface for a specified property list.
 old-location: properties\PSGetPropertyDescriptionListFromString.htm
 tech.root: properties
 ms.assetid: 348253ed-46ac-4643-bbf8-2d286ae97f07
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSGetPropertyDescriptionListFromString, PSGetPropertyDescriptionListFromString function [Windows Properties], properties.PSGetPropertyDescriptionListFromString, propsys/PSGetPropertyDescriptionListFromString, shell.PSGetPropertyDescriptionListFromString, shell_PSGetPropertyDescriptionListFromString
 ms.topic: function

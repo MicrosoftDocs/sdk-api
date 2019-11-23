@@ -1,12 +1,12 @@
 ---
 UID: NS:wdstci._WDS_TRANSPORTCLIENT_REQUEST
 title: WDS_TRANSPORTCLIENT_REQUEST (wdstci.h)
-author: windows-sdk-content
+
 description: This structure is used by the WdsTransportClientStartSession function.
 old-location: wds\wds_transportclient_request.htm
 tech.root: wds
 ms.assetid: efa1ea12-5234-474b-a859-cd074290e375
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PWDS_TRANSPORTCLIENT_REQUEST, PWDS_TRANSPORTCLIENT_REQUEST, PWDS_TRANSPORTCLIENT_REQUEST structure pointer [Windows Deployment Services], WDS_TRANSPORTCLIENT_AUTH, WDS_TRANSPORTCLIENT_NO_AUTH, WDS_TRANSPORTCLIENT_PROTOCOL_MULTICAST, WDS_TRANSPORTCLIENT_REQUEST, WDS_TRANSPORTCLIENT_REQUEST structure [Windows Deployment Services], WDS_TRANSPORT_CLIENT_CURRENT_API_VERSION, wds.wds_transportclient_request, wdstci/PWDS_TRANSPORTCLIENT_REQUEST, wdstci/WDS_TRANSPORTCLIENT_REQUEST"
 ms.topic: struct

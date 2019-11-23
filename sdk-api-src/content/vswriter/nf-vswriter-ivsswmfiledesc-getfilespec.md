@@ -1,12 +1,12 @@
 ---
 UID: NF:vswriter.IVssWMFiledesc.GetFilespec
 title: IVssWMFiledesc::GetFilespec (vswriter.h)
-author: windows-sdk-content
+
 description: The GetFilespec method returns the file specification used to obtain the list of files that the current IVssWMFiledesc object is a member of.
 old-location: base\ivsswmfiledesc_getfilespec.htm
 tech.root: VSS
 ms.assetid: 9661d22b-5c82-412d-966d-83605c568e22
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFilespec, GetFilespec method [VSS], GetFilespec method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetFilespec method, IVssWMFiledesc.GetFilespec, IVssWMFiledesc::GetFilespec, _win32_ivsswmfiledesc_getfilespec, base.ivsswmfiledesc_getfilespec, vswriter/IVssWMFiledesc::GetFilespec
 ms.topic: method

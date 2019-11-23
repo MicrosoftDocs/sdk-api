@@ -1,12 +1,12 @@
 ---
 UID: NE:msxml6._XHR_CERT_ERROR_FLAG
 title: XHR_CERT_ERROR_FLAG (msxml6.h)
-author: windows-sdk-content
+
 description: Defines flags that indicate server certificate errors during SSL negotiation with the server by handling the OnServerCertificateReceived method on the IXMLHTTPRequest3Callback interface.
 old-location: ixhr2\xhr_cert_error_flag.htm
 tech.root: ixhr2
 ms.assetid: fb7ddd8a-aa00-4ca8-9516-f16e2b8df7b4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XHR_CERT_ERROR_ALL_SERVER_ERRORS, XHR_CERT_ERROR_CERT_CN_INVALID, XHR_CERT_ERROR_CERT_DATE_INVALID, XHR_CERT_ERROR_FLAG, XHR_CERT_ERROR_FLAG enumeration [XMLHttpRequest2], XHR_CERT_ERROR_REVOCATION_FAILED, XHR_CERT_ERROR_UNKNOWN_CA, ixhr2.xhr_cert_error_flag, msxml6/XHR_CERT_ERROR_ALL_SERVER_ERRORS, msxml6/XHR_CERT_ERROR_CERT_CN_INVALID, msxml6/XHR_CERT_ERROR_CERT_DATE_INVALID, msxml6/XHR_CERT_ERROR_FLAG, msxml6/XHR_CERT_ERROR_REVOCATION_FAILED, msxml6/XHR_CERT_ERROR_UNKNOWN_CA
 ms.topic: enum

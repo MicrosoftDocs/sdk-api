@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetClip
 title: Graphics::GetClip (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::GetClip method gets the clipping region of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetClip_region_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getclip.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClip, GetClip method [GDI+], GetClip method [GDI+],Graphics class, Graphics class [GDI+],GetClip method, Graphics.GetClip, Graphics::GetClip, _gdiplus_CLASS_Graphics_GetClip_region_, gdiplus._gdiplus_CLASS_Graphics_GetClip_region_
 ms.topic: method

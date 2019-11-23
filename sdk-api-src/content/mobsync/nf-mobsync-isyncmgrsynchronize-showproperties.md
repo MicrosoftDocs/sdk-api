@@ -1,12 +1,12 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.ShowProperties
 title: ISyncMgrSynchronize::ShowProperties (mobsync.h)
-author: windows-sdk-content
+
 description: Called by the synchronization manager when a user selects an item in the choice dialog box, and then clicks the Properties button.
 old-location: shell\syncmgr_isyncmgrsynchronize_showproperties.htm
 tech.root: shell
 ms.assetid: 5587cc8a-b359-483e-98ba-82f1bbe058d8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],ShowProperties method, ISyncMgrSynchronize.ShowProperties, ISyncMgrSynchronize::ShowProperties, ShowProperties, ShowProperties method [Windows Shell], ShowProperties method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::ShowProperties, shell.syncmgr_isyncmgrsynchronize_showproperties, syncmgr.isyncmgrsynchronize_showproperties
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_PacketDescription
 title: IInkStrokeDisp::get_PacketDescription (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets an array of globally unique identifiers (GUIDs) that describes the types of packet data stored in the IInkStrokeDisp object.
 old-location: tablet\iinkstrokedisp_packetdescription.htm
 tech.root: tablet
 ms.assetid: c81f14e2-d97f-42cd-8498-240f8d39f9bc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInkStrokeDisp interface [Tablet PC],PacketDescription property, IInkStrokeDisp.PacketDescription, IInkStrokeDisp.get_PacketDescription, IInkStrokeDisp::PacketDescription, IInkStrokeDisp::get_PacketDescription, PacketDescription property [Tablet PC], PacketDescription property [Tablet PC],IInkStrokeDisp interface, c81f14e2-d97f-42cd-8498-240f8d39f9bc, get_PacketDescription, msinkaut/IInkStrokeDisp::PacketDescription, msinkaut/IInkStrokeDisp::get_PacketDescription, tablet.iinkstrokedisp_packetdescription
 ms.topic: method

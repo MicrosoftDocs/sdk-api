@@ -1,12 +1,12 @@
 ---
 UID: NF:authz.AuthzInitializeObjectAccessAuditEvent2
 title: AuthzInitializeObjectAccessAuditEvent2 function (authz.h)
-author: windows-sdk-content
+
 description: Allocates and initializes an AUTHZ_AUDIT_EVENT_HANDLE handle for use with the AuthzAccessCheck function.
 old-location: security\authzinitializeobjectaccessauditevent2.htm
 tech.root: SecAuthZ
 ms.assetid: c65bb799-0158-496a-b428-0331c4474b74
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_NO_ALLOC_STRINGS, AUTHZ_NO_FAILURE_AUDIT, AUTHZ_NO_SUCCESS_AUDIT, AuthzInitializeObjectAccessAuditEvent2, AuthzInitializeObjectAccessAuditEvent2 function [Security], authz/AuthzInitializeObjectAccessAuditEvent2, security.authzinitializeobjectaccessauditevent2
 ms.topic: function

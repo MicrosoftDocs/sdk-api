@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.PropVariantToInt16
 title: PropVariantToInt16 function (propvarutil.h)
-author: windows-sdk-content
+
 description: Extracts an Int16 property value of a PROPVARIANT structure.
 old-location: properties\PropVariantToInt16.htm
 tech.root: properties
 ms.assetid: 32070620-bae2-4465-8b11-b88adb6cb365
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt16, PropVariantToInt16 function [Windows Properties], properties.PropVariantToInt16, propvarutil/PropVariantToInt16, shell.PropVariantToInt16, shell_PropVariantToInt16
 ms.topic: function

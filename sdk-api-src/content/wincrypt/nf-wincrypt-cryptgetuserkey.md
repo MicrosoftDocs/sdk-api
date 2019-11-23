@@ -1,12 +1,12 @@
 ---
 UID: NF:wincrypt.CryptGetUserKey
 title: CryptGetUserKey function (wincrypt.h)
-author: windows-sdk-content
+
 description: Retrieves a handle of one of a user's two public/private key pairs.
 old-location: security\cryptgetuserkey.htm
 tech.root: SecCrypto
 ms.assetid: d9166b98-e5f1-4e5c-b6f1-2a086b102e0f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CryptGetUserKey, CryptGetUserKey function [Security], _crypto2_cryptgetuserkey, security.cryptgetuserkey, wincrypt/CryptGetUserKey
 ms.topic: function

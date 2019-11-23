@@ -1,12 +1,12 @@
 ---
 UID: NS:wsdtypes._WSD_HELLO
 title: WSD_HELLO (wsdtypes.h)
-author: windows-sdk-content
+
 description: Represents a Hello message.
 old-location: ncd\wsd_hello_struct.htm
 tech.root: WsdApi
 ms.assetid: 71fad98a-d115-4350-b3aa-3f3927b2c24d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSD_HELLO, WSD_HELLO structure, ncd.wsd_hello_struct, wsdtypes/WSD_HELLO
 ms.topic: struct

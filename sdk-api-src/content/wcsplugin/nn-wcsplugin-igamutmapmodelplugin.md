@@ -1,12 +1,12 @@
 ---
 UID: NN:wcsplugin.IGamutMapModelPlugIn
 title: IGamutMapModelPlugIn (wcsplugin.h)
-author: windows-sdk-content
+
 description: Describes the methods that are defined for the IGamutMapModelPlugIn Component Object Model (COM) interface.
 old-location: wcs\igamutmapmodelplugin.htm
 tech.root: WCS
 ms.assetid: 794eb94c-fdb3-42b3-8320-b13bf51324d1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGamutMapModelPlugIn, IGamutMapModelPlugIn interface [Windows Color System], IGamutMapModelPlugIn interface [Windows Color System],described, _color_IGamutMapModelPlugIn, wcs.igamutmapmodelplugin, wcsplugin/IGamutMapModelPlugIn
 ms.topic: interface

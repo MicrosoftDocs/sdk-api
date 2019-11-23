@@ -1,12 +1,12 @@
 ---
 UID: NS:usbuser._USB_CLOSE_RAW_DEVICE_PARAMETERS
 title: USB_CLOSE_RAW_DEVICE_PARAMETERS (usbuser.h)
-author: windows-sdk-content
+
 description: This structure is not supported. The USB_CLOSE_RAW_DEVICE_PARAMETERS structure is used with the IOCTL_USB_USER_REQUEST I/O control request to close raw access to devices on the bus.
 old-location: buses\usb_close_raw_device_parameters.htm
 tech.root: usbref
 ms.assetid: 00da48bb-4ebe-43b8-85fc-54ce3b183750
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PUSB_CLOSE_RAW_DEVICE_PARAMETERS, PUSB_CLOSE_RAW_DEVICE_PARAMETERS, PUSB_CLOSE_RAW_DEVICE_PARAMETERS structure pointer [Buses], USB_CLOSE_RAW_DEVICE_PARAMETERS, USB_CLOSE_RAW_DEVICE_PARAMETERS structure [Buses], buses.usb_close_raw_device_parameters, usbstrct_aad6430d-1587-4aca-827a-15e391dc0361.xml, usbuser/PUSB_CLOSE_RAW_DEVICE_PARAMETERS, usbuser/USB_CLOSE_RAW_DEVICE_PARAMETERS"
 ms.topic: struct

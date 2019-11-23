@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectRenderTargetViewVariable.GetRenderTargetArray
 title: ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray (d3d10effect.h)
-author: windows-sdk-content
+
 description: Get an array of render-targets.
 old-location: direct3d10\id3d10effectrendertargetviewvariable_getrendertargetarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrendertargetviewvariable_getrendertargetarray.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 55cfc9f6-d447-4ae4-5a22-e5d490eec17f, GetRenderTargetArray, GetRenderTargetArray method [Direct3D 10], GetRenderTargetArray method [Direct3D 10],ID3D10EffectRenderTargetViewVariable interface, ID3D10EffectRenderTargetViewVariable interface [Direct3D 10],GetRenderTargetArray method, ID3D10EffectRenderTargetViewVariable.GetRenderTargetArray, ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray, d3d10effect/ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray, direct3d10.id3d10effectrendertargetviewvariable_getrendertargetarray
 ms.topic: method

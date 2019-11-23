@@ -1,12 +1,12 @@
 ---
 UID: NS:directxpackedvector.XMFLOAT3SE
 title: XMFLOAT3SE (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Describes a 3D vector of three floating-point components with 9 bit mantissas, each sharing the same 5-bit exponent.
 old-location: dxmath\xmfloat3se.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3SE
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3SE, XMFLOAT3SE structure [DirectX Math Support APIs], directxpackedvector/XMFLOAT3SE, dxmath.xmfloat3se
 ms.topic: struct

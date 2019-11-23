@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoTestCancel
 title: CoTestCancel function (combaseapi.h)
-author: windows-sdk-content
+
 description: Determines whether the call being executed on the server has been canceled by the client.
 old-location: com\cotestcancel.htm
 tech.root: com
 ms.assetid: 9432621a-be31-4b8b-83b6-069539ba06b4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoTestCancel, CoTestCancel function [COM], _com_CoTestCancel, com.cotestcancel, combaseapi/CoTestCancel
 ms.topic: function

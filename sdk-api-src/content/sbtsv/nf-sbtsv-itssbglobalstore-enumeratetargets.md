@@ -1,12 +1,12 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.EnumerateTargets
 title: ITsSbGlobalStore::EnumerateTargets (sbtsv.h)
-author: windows-sdk-content
+
 description: Returns an array that contains the specified targets present in the global store.
 old-location: termserv\itssbglobalstore_enumeratetargets.htm
 tech.root: TermServ
 ms.assetid: 939d967f-6846-4ef2-9943-a171eac6cb21
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumerateTargets, EnumerateTargets method [Remote Desktop Services], EnumerateTargets method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],EnumerateTargets method, ITsSbGlobalStore.EnumerateTargets, ITsSbGlobalStore::EnumerateTargets, sbtsv/ITsSbGlobalStore::EnumerateTargets, termserv.itssbglobalstore_enumeratetargets
 ms.topic: method

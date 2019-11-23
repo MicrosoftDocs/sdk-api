@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICspInformations.Clear
 title: ICspInformations::Clear (certenroll.h)
-author: windows-sdk-content
+
 description: Removes all ICspInformation objects from the collection.
 old-location: security\icspinformations_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: 54afd0aa-24b4-4987-bab3-bccbaef6e08f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICspInformations interface, ICspInformations interface [Security],Clear method, ICspInformations.Clear, ICspInformations::Clear, certenroll/ICspInformations::Clear, security.icspinformations_clear_method
 ms.topic: method

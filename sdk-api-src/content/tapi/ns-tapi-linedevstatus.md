@@ -1,12 +1,12 @@
 ---
 UID: NS:tapi.linedevstatus_tag
 title: LINEDEVSTATUS (tapi.h)
-author: windows-sdk-content
+
 description: The LINEDEVSTATUS structure describes the current status of a line device. The lineGetLineDevStatus function and the TSPI_lineGetLineDevStatus function return the LINEDEVSTATUS structure.
 old-location: tapi2\linedevstatus_str.htm
 tech.root: Tapi
 ms.assetid: 3d565e99-eb90-47ca-9fb9-295236f566fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEDEVSTATUS, LINEDEVSTATUS, LINEDEVSTATUS structure [TAPI 2.2], LPLINEDEVSTATUS, LPLINEDEVSTATUS structure pointer [TAPI 2.2], _tapi2_linedevstatus_str, tapi/LINEDEVSTATUS, tapi/LPLINEDEVSTATUS, tapi2.linedevstatus_str"
 ms.topic: struct

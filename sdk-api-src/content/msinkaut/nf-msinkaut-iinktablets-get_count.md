@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkTablets.get_Count
 title: IInkTablets::get_Count (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\inktablets_count.htm
 tech.root: tablet
 ms.assetid: 6224871c-044e-478a-9635-6b2874bdcf45
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkTablets interface, IInkTablets interface [Tablet PC],Count property, IInkTablets.Count, IInkTablets.get_Count, IInkTablets::Count, IInkTablets::get_Count, InkTablets.get_Count, get_Count, msinkaut/IInkTablets::Count, msinkaut/IInkTablets::get_Count, tablet.inktablets_count
 ms.topic: method

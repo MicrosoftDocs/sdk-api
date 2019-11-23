@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfContext.GetSelection
 title: ITfContext::GetSelection (msctf.h)
-author: windows-sdk-content
+
 description: ITfContext::GetSelection method
 old-location: tsf\itfcontext_getselection.htm
 tech.root: TSF
 ms.assetid: 08b67fd5-aebe-49f7-af78-6f49c8f47f64
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetSelection method, ITfContext.GetSelection, ITfContext::GetSelection, _tsf_itfcontext_getselection_ref, msctf/ITfContext::GetSelection, tsf.itfcontext_getselection
 ms.topic: method

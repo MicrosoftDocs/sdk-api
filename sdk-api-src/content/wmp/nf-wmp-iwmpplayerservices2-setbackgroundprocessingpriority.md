@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPPlayerServices2.setBackgroundProcessingPriority
 title: IWMPPlayerServices2::setBackgroundProcessingPriority (wmp.h)
-author: windows-sdk-content
+
 description: The setBackgroundProcessingPriority method specifies a priority level for general background processing tasks.
 old-location: wmp\iwmpplayerservices2_setbackgroundprocessingpriority.htm
 tech.root: WMP
 ms.assetid: 1e3536d2-006b-4019-a9c5-c460135cf555
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerServices2 interface [Windows Media Player],setBackgroundProcessingPriority method, IWMPPlayerServices2.setBackgroundProcessingPriority, IWMPPlayerServices2::setBackgroundProcessingPriority, IWMPPlayerServices2setBackgroundProcessingPriority, setBackgroundProcessingPriority, setBackgroundProcessingPriority method [Windows Media Player], setBackgroundProcessingPriority method [Windows Media Player],IWMPPlayerServices2 interface, wmp.iwmpplayerservices2_setbackgroundprocessingpriority, wmp/IWMPPlayerServices2::setBackgroundProcessingPriority
 ms.topic: method

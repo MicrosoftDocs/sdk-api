@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.GetTextCharset
 title: GetTextCharset function (wingdi.h)
-author: windows-sdk-content
+
 description: Retrieves a character set identifier for the font that is currently selected into a specified device context.
 old-location: intl\gettextcharset.htm
 tech.root: Intl
 ms.assetid: 11040353-a2ea-42fe-aa89-3438ffc1fea6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTextCharset, GetTextCharset function [Internationalization for Windows Applications], _win32_GetTextCharset, intl.gettextcharset, wingdi/GetTextCharset
 ms.topic: function

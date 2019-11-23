@@ -1,12 +1,12 @@
 ---
 UID: NF:rend.ITRendezvous.EnumerateDefaultDirectories
 title: ITRendezvous::EnumerateDefaultDirectories (rend.h)
-author: windows-sdk-content
+
 description: The EnumerateDefaultDirectories method enumerates all configured default directories. This method is similar to get_DefaultDirectories but is designed for C/C++.
 old-location: tapi3\itrendezvous_enumeratedefaultdirectories.htm
 tech.root: Tapi
 ms.assetid: fe89a370-32ed-4519-bb98-9d9ea7615eb7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumerateDefaultDirectories, EnumerateDefaultDirectories method [TAPI 2.2], EnumerateDefaultDirectories method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],EnumerateDefaultDirectories method, ITRendezvous.EnumerateDefaultDirectories, ITRendezvous::EnumerateDefaultDirectories, _tapi3_itrendezvous_enumeratedefaultdirectories, rend/ITRendezvous::EnumerateDefaultDirectories, tapi3.itrendezvous_enumeratedefaultdirectories
 ms.topic: method

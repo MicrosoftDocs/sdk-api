@@ -1,12 +1,12 @@
 ---
 UID: NE:winnt._HARDWARE_COUNTER_TYPE
 title: HARDWARE_COUNTER_TYPE (winnt.h)
-author: windows-sdk-content
+
 description: Defines the types of hardware counters being profiled.
 old-location: hcp\hardware_counter_type.htm
 tech.root: hcp
 ms.assetid: 250dd9f1-b409-4b17-bb84-bf7eba14d36e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE enumeration [Hardware Counter Profiling], MaxHardwareCounterType, PMCCounter, hcp.hardware_counter_type, winnt/HARDWARE_COUNTER_TYPE, winnt/MaxHardwareCounterType, winnt/PMCCounter'
 ms.topic: enum

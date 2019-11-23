@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IWbemObjectTextSrc.GetText
 title: IWbemObjectTextSrc::GetText (wbemcli.h)
-author: windows-sdk-content
+
 description: The IWbemObjectTextSrc::GetText method creates a textual representation of an IWbemClassObject object; for example, an XML representation.
 old-location: wmi\iwbemobjecttextsrc_gettext.htm
 tech.root: WmiSdk
 ms.assetid: d4c36d19-cf28-43d3-a60a-50970d66bc17
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ExcludeSystemProperties, GetText, GetText method [Windows Management Instrumentation], GetText method [Windows Management Instrumentation],IWbemObjectTextSrc interface, IWbemObjectTextSrc interface [Windows Management Instrumentation],GetText method, IWbemObjectTextSrc.GetText, IWbemObjectTextSrc::GetText, IncludeClassOrigin, IncludeQualifiers, LocalOnly, PathLevel, WMI_OBJ_TEXT_CIM_DTD_2_0, WMI_OBJ_TEXT_LAST, WMI_OBJ_TEXT_WMI_DTD_2_0, WMI_OBJ_TEXT_WMI_EXT1, WMI_OBJ_TEXT_WMI_EXT10, WMI_OBJ_TEXT_WMI_EXT2, WMI_OBJ_TEXT_WMI_EXT3, WMI_OBJ_TEXT_WMI_EXT4, WMI_OBJ_TEXT_WMI_EXT5, WMI_OBJ_TEXT_WMI_EXT6, WMI_OBJ_TEXT_WMI_EXT7, WMI_OBJ_TEXT_WMI_EXT8, WMI_OBJ_TEXT_WMI_EXT9, _hmm_iwbemobjecttextsrc_gettext, wbemcli/IWbemObjectTextSrc::GetText, wmi.iwbemobjecttextsrc_gettext
 ms.topic: method

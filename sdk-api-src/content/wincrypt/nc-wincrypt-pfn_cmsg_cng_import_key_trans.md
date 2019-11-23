@@ -1,12 +1,12 @@
 ---
 UID: NC:wincrypt.PFN_CMSG_CNG_IMPORT_KEY_TRANS
 title: PFN_CMSG_CNG_IMPORT_KEY_TRANS (wincrypt.h)
-author: windows-sdk-content
+
 description: Imports and decrypts a content encryption key (CEK) that is intended for a key transport recipient.
 old-location: security\pfn_cmsg_cng_import_key_trans.htm
 tech.root: SecCrypto
 ms.assetid: e03d86e3-4ace-4425-8aae-e3b4721cb9cc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_CNG_IMPORT_KEY_TRANS, PFN_CMSG_CNG_IMPORT_KEY_TRANS callback, PFN_CMSG_CNG_IMPORT_KEY_TRANS callback function [Security], security.pfn_cmsg_cng_import_key_trans, wincrypt/PFN_CMSG_CNG_IMPORT_KEY_TRANS
 ms.topic: callback

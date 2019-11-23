@@ -1,12 +1,12 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetTargetProperty
 title: ITsSbResourcePluginStore::SetTargetProperty (sbtsv.h)
-author: windows-sdk-content
+
 description: Sets the value of a property of a target.
 old-location: termserv\itssbresourcepluginstore_settargetproperty.htm
 tech.root: TermServ
 ms.assetid: 11d03b69-a7d0-4930-ba9c-a9373706580c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetTargetProperty method, ITsSbResourcePluginStore.SetTargetProperty, ITsSbResourcePluginStore::SetTargetProperty, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SetTargetProperty method, ITsSbResourcePluginStoreEx::SetTargetProperty, SetTargetProperty, SetTargetProperty method [Remote Desktop Services], SetTargetProperty method [Remote Desktop Services],ITsSbResourcePluginStore interface, SetTargetProperty method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SetTargetProperty, sbtsv/ITsSbResourcePluginStoreEx::SetTargetProperty, termserv.itssbresourcepluginstore_settargetproperty
 ms.topic: method

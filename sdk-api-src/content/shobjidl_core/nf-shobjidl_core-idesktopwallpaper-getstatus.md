@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetStatus
 title: IDesktopWallpaper::GetStatus (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Gets the current status of the slideshow.
 old-location: shell\IDesktopWallpaper_GetStatus.htm
 tech.root: shell
 ms.assetid: 19F2776E-0B5F-45c9-962A-08BFC0273066
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DSS_DISABLED_BY_REMOTE_SESSION, DSS_ENABLED, DSS_SLIDESHOW, GetStatus, GetStatus method [Windows Shell], GetStatus method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetStatus method, IDesktopWallpaper.GetStatus, IDesktopWallpaper::GetStatus, shell.IDesktopWallpaper_GetStatus, shobjidl_core/IDesktopWallpaper::GetStatus
 ms.topic: method

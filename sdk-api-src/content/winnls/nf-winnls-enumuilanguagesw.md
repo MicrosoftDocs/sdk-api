@@ -1,12 +1,12 @@
 ---
 UID: NF:winnls.EnumUILanguagesW
 title: EnumUILanguagesW function (winnls.h)
-author: windows-sdk-content
+
 description: Enumerates the user interface languages that are available on the operating system and calls the callback function with every language in the list.
 old-location: intl\enumuilanguages.htm
 tech.root: Intl
 ms.assetid: f97df853-fc40-4529-b8a5-27069863a9b9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumUILanguages, EnumUILanguages function [Internationalization for Windows Applications], EnumUILanguagesA, EnumUILanguagesW, MUI_ALL_INSTALLED_LANGUAGES, MUI_GROUP_POLICY, MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_LICENSED_LANGUAGES, _win32_EnumUILanguages, intl.enumuilanguages, winnls/EnumUILanguages, winnls/EnumUILanguagesA, winnls/EnumUILanguagesW
 ms.topic: function

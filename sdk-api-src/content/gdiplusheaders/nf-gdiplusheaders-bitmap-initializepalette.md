@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.InitializePalette
 title: Bitmap::InitializePalette (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Bitmap::InitializePalette method initializes a standard, optimal, or custom color palette.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_InitializePalette_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapgethistogrammethods\initializepalette.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],InitializePalette method, Bitmap.InitializePalette, Bitmap::InitializePalette, InitializePalette, InitializePalette method [GDI+], InitializePalette method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_InitializePalette_, gdiplus._gdiplus_CLASS_Bitmap_InitializePalette_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:dxgi1_5._DXGI_OFFER_RESOURCE_FLAGS
 title: DXGI_OFFER_RESOURCE_FLAGS (dxgi1_5.h)
-author: windows-sdk-content
+
 description: Specifies flags for the OfferResources1 method.
 old-location: direct3ddxgi\dxgi_offer_resource_flags.htm
 tech.root: direct3ddxgi
 ms.assetid: 55107136-60C0-49E9-8DD1-24878E67FCBB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DXGI_OFFER_RESOURCE_FLAGS, DXGI_OFFER_RESOURCE_FLAGS enumeration [DXGI], DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT, direct3ddxgi.dxgi_offer_resource_flags, dxgi1_5/DXGI_OFFER_RESOURCE_FLAGS, dxgi1_5/DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT
 ms.topic: enum

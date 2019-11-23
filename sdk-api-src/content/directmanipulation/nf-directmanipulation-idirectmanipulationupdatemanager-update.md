@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateManager.Update
 title: IDirectManipulationUpdateManager::Update (directmanipulation.h)
-author: windows-sdk-content
+
 description: Updates Direct Manipulation at the current time.
 old-location: directmanipulation\idirectmanipulationupdatemanager_update.htm
 tech.root: directmanipulation
 ms.assetid: dffa747c-933a-4b61-9f15-e175d9338774
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationUpdateManager interface [Direct Manipulation],Update method, IDirectManipulationUpdateManager.Update, IDirectManipulationUpdateManager::Update, Update, Update method [Direct Manipulation], Update method [Direct Manipulation],IDirectManipulationUpdateManager interface, directmanipulation.idirectmanipulationupdatemanager_update, directmanipulation/IDirectManipulationUpdateManager::Update
 ms.topic: method

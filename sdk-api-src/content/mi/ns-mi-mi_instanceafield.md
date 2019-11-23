@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_InstanceAField
 title: MI_InstanceAField (mi.h)
-author: windows-sdk-content
+
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_instanceafield.htm
 tech.root: wmi_v2
 ms.assetid: 5d882665-a243-492b-a200-77ce2d8d1440
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_InstanceAField, MI_InstanceAField structure [Windows Management Infrastructure (MI)], mi/MI_InstanceAField, wmi._mi_instanceafield, wmi_v2.mi_instanceafield
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_PROPERTIES1 &,const D2D1_BRUSH_PROPERTIES &,ID2D1BitmapBrush1)
 title: ID2D1DeviceContext::CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_PROPERTIES1 &,const D2D1_BRUSH_PROPERTIES &,ID2D1BitmapBrush1) (d2d1_1.h)
-author: windows-sdk-content
+
 description: Creates a bitmap brush, the input image is a Direct2D bitmap object.
 old-location: direct2d\id2d1devicecontext_createbitmapbrush.htm
 tech.root: Direct2D
 ms.assetid: E6385DBD-1A3B-4504-9987-35258E90DBC7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapBrush, CreateBitmapBrush method [Direct2D], CreateBitmapBrush method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmapBrush method, ID2D1DeviceContext.CreateBitmapBrush, ID2D1DeviceContext.CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_PROPERTIES1 &,const D2D1_BRUSH_PROPERTIES &,ID2D1BitmapBrush1), ID2D1DeviceContext::CreateBitmapBrush, ID2D1DeviceContext::CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_PROPERTIES1 &,const D2D1_BRUSH_PROPERTIES &,ID2D1BitmapBrush1), d2d1_1/ID2D1DeviceContext::CreateBitmapBrush, direct2d.id2d1devicecontext_createbitmapbrush
 ms.topic: method

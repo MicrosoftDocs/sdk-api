@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ResUtilFreeParameterBlock
 title: ResUtilFreeParameterBlock function (resapi.h)
-author: windows-sdk-content
+
 description: Deallocates memory that has been allocated for a parameter block by ResUtilDupParameterBlock.
 old-location: mscs\resutilfreeparameterblock.htm
 tech.root: MsCS
 ms.assetid: 2e884794-dbb7-47a8-8843-e9c030ce515d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FREE_PARAMETER_BLOCK, PRESUTIL_FREE_PARAMETER_BLOCK function [Failover Cluster], ResUtilFreeParameterBlock, ResUtilFreeParameterBlock function [Failover Cluster], _wolf_resutilfreeparameterblock, mscs.resutilfreeparameterblock, resapi/PRESUTIL_FREE_PARAMETER_BLOCK, resapi/ResUtilFreeParameterBlock
 ms.topic: function

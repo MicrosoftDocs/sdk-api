@@ -1,12 +1,12 @@
 ---
 UID: NF:iads.IDirectorySearch.ExecuteSearch
 title: IDirectorySearch::ExecuteSearch (iads.h)
-author: windows-sdk-content
+
 description: The IDirectorySearch::ExecuteSearch method executes a search and passes the results to the caller.
 old-location: adsi\idirectorysearch_executesearch.htm
 tech.root: adsi
 ms.assetid: 7514b372-1a7a-4a42-a814-af70a727c477
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ExecuteSearch, ExecuteSearch method [ADSI], ExecuteSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],ExecuteSearch method, IDirectorySearch.ExecuteSearch, IDirectorySearch::ExecuteSearch, _ds_idirectorysearch_executesearch, adsi.idirectorysearch__executesearch, adsi.idirectorysearch_executesearch, iads/IDirectorySearch::ExecuteSearch
 ms.topic: method

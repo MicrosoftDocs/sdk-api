@@ -1,12 +1,12 @@
 ---
 UID: NF:slpublic.SLLoadApplicationPolicies
 title: SLLoadApplicationPolicies function (slpublic.h)
-author: windows-sdk-content
+
 description: Loads the application policies set with the SLPersistApplicationPolicies function for use by the SLGetApplicationPolicy function.
 old-location: security\slloadapplicationpolicies.htm
 tech.root: SecSLApi
 ms.assetid: a0852c0c-3d7d-4cca-a30b-b413c653b284
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SLLoadApplicationPolicies, SLLoadApplicationPolicies function [Security], security.slloadapplicationpolicies, slpublic/SLLoadApplicationPolicies
 ms.topic: function

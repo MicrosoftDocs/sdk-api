@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetNamedWhitePoint
 title: IWICDevelopRaw::SetNamedWhitePoint (wincodec.h)
-author: windows-sdk-content
+
 description: Sets the named white point of the raw file.
 old-location: wic\_wic_codec_iwicdevelopraw_setnamedwhitepoint.htm
 tech.root: wic
 ms.assetid: eb83233d-7967-4160-bebf-2b06378f77ab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetNamedWhitePoint method, IWICDevelopRaw.SetNamedWhitePoint, IWICDevelopRaw::SetNamedWhitePoint, SetNamedWhitePoint, SetNamedWhitePoint method [Windows Imaging Component], SetNamedWhitePoint method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setnamedwhitepoint, wic._wic_codec_iwicdevelopraw_setnamedwhitepoint, wincodec/IWICDevelopRaw::SetNamedWhitePoint
 ms.topic: method

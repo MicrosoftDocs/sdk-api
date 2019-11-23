@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.GetCount
 title: IXpsOMPageReferenceCollection::GetCount (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the number of IXpsOMPageReference interface pointers in the collection.
 old-location: xps\ixpsompagereferencecollection_getcount.htm
 tech.root: printdocs
 ms.assetid: 7728930a-408d-445f-9b0d-9043912d4e72
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMPageReferenceCollection.GetCount, IXpsOMPageReferenceCollection::GetCount, xps.ixpsompagereferencecollection_getcount, xpsobjectmodel/IXpsOMPageReferenceCollection::GetCount
 ms.topic: method

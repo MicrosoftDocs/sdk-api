@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_OPERATOR_DESC
 title: DML_OPERATOR_DESC
-author: windows-sdk-content
+
 description: A generic container for an operator description. You construct DirectML operators using the parameters specified in this struct. See IDMLDevice::CreateOperator for additional details.
 old-location: direct3d12\dml_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: F6D00361-9C08-497E-BA6B-3500376966CB
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_OPERATOR_DESC, DML_OPERATOR_DESC structure, direct3d12.dml_operator_desc, directml/DML_OPERATOR_DESC
 ms.topic: struct

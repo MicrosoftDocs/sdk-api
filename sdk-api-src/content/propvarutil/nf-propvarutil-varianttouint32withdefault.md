@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.VariantToUInt32WithDefault
 title: VariantToUInt32WithDefault function (propvarutil.h)
-author: windows-sdk-content
+
 description: Extracts an unsigned Int32 property value of a variant structure. If no value currently exists, then the specified default value is returned.
 old-location: properties\VariantToUInt32WithDefault.htm
 tech.root: properties
 ms.assetid: 02ec869b-154e-436a-a9b7-57eff4e958aa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VariantToUInt32WithDefault, VariantToUInt32WithDefault function [Windows Properties], _shell_VariantToUInt32WithDefault, properties.VariantToUInt32WithDefault, propvarutil/VariantToUInt32WithDefault, shell.VariantToUInt32WithDefault
 ms.topic: function

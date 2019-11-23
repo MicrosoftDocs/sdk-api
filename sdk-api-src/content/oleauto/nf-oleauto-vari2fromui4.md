@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarI2FromUI4
 title: VarI2FromUI4 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts an unsigned long value to a short value.
 old-location: automat\vari2fromui4.htm
 tech.root: automat
 ms.assetid: 8a71f30d-7ebd-4e52-8aff-fedbd1f5c3fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarI2FromUI4, VarI2FromUI4 function [Automation], _oa96_VarI2FromUI4, automat.vari2fromui4, oleauto/VarI2FromUI4
 ms.topic: function

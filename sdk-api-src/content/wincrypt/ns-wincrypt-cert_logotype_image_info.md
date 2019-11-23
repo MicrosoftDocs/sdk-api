@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CERT_LOGOTYPE_IMAGE_INFO
 title: CERT_LOGOTYPE_IMAGE_INFO (wincrypt.h)
-author: windows-sdk-content
+
 description: Contains more detailed information about an image logotype.
 old-location: security\cert_logotype_image_info.htm
 tech.root: SecCrypto
 ms.assetid: d7116e54-dbf2-457e-8d33-1c0fd5641fe7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_LOGOTYPE_IMAGE_INFO, CERT_LOGOTYPE_BITS_IMAGE_RESOLUTION_CHOICE, CERT_LOGOTYPE_COLOR_IMAGE_INFO_CHOICE, CERT_LOGOTYPE_GRAY_SCALE_IMAGE_INFO_CHOICE, CERT_LOGOTYPE_IMAGE_INFO, CERT_LOGOTYPE_IMAGE_INFO structure [Security], CERT_LOGOTYPE_NO_IMAGE_RESOLUTION_CHOICE, CERT_LOGOTYPE_TABLE_SIZE_IMAGE_RESOLUTION_CHOICE, PCERT_LOGOTYPE_IMAGE_INFO, PCERT_LOGOTYPE_IMAGE_INFO structure pointer [Security], security.cert_logotype_image_info, wincrypt/CERT_LOGOTYPE_IMAGE_INFO, wincrypt/PCERT_LOGOTYPE_IMAGE_INFO'
 ms.topic: struct

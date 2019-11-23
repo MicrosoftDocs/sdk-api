@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.InitCommonControls
 title: InitCommonControls function (commctrl.h)
-author: windows-sdk-content
+
 description: Registers and initializes certain common control window classes. This function is obsolete. New applications should use the InitCommonControlsEx function.
 old-location: controls\InitCommonControls.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrols.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InitCommonControls, InitCommonControls function [Windows Controls], _win32_InitCommonControls, _win32_InitCommonControls_cpp, commctrl/InitCommonControls, controls.InitCommonControls, controls._win32_InitCommonControls
 ms.topic: function

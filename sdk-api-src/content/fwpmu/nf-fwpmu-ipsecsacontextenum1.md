@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.IPsecSaContextEnum1
 title: IPsecSaContextEnum1 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Returns the next page of results from the IPsec security association (SA) context enumerator.
 old-location: fwp\ipsecsacontextenum1.htm
 tech.root: fwp
 ms.assetid: 941db3ea-8b3c-47fd-9264-3e76a3d13e87
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextEnum1, IPsecSaContextEnum1 function [Filtering], fwp.ipsecsacontextenum1, fwpmu/IPsecSaContextEnum1
 ms.topic: function

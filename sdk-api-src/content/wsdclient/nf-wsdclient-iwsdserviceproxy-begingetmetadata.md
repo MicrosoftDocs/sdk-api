@@ -1,12 +1,12 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.BeginGetMetadata
 title: IWSDServiceProxy::BeginGetMetadata (wsdclient.h)
-author: windows-sdk-content
+
 description: Initiates an asynchronous metadata exchange request with the remote service.
 old-location: ncd\iwsdserviceproxy_begingetmetadata.htm
 tech.root: WsdApi
 ms.assetid: bcc0bcaf-76fb-4dca-b946-2826809a53a1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BeginGetMetadata, BeginGetMetadata method, BeginGetMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,BeginGetMetadata method, IWSDServiceProxy.BeginGetMetadata, IWSDServiceProxy::BeginGetMetadata, ncd.iwsdserviceproxy_begingetmetadata, wsdclient/IWSDServiceProxy::BeginGetMetadata
 ms.topic: method

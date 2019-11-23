@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_ExtendedModes
 title: ITraceDataCollector::put_ExtendedModes (pla.h)
-author: windows-sdk-content
+
 description: Retrieves or sets the extended log file modes.
 old-location: pla\itracedatacollector_extendedmodes.htm
 tech.root: PLA
 ms.assetid: c9f20dd2-4411-4069-8455-9095939581e8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ExtendedModes property [PLA], ExtendedModes property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],ExtendedModes property, ITraceDataCollector.ExtendedModes, ITraceDataCollector.put_ExtendedModes, ITraceDataCollector::ExtendedModes, ITraceDataCollector::get_ExtendedModes, ITraceDataCollector::put_ExtendedModes, base.itracedatacollector_extendedmodes, pla.itracedatacollector_extendedmodes, pla/ITraceDataCollector::ExtendedModes, pla/ITraceDataCollector::get_ExtendedModes, pla/ITraceDataCollector::put_ExtendedModes, put_ExtendedModes
 ms.topic: method

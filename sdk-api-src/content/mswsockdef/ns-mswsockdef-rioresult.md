@@ -1,12 +1,12 @@
 ---
 UID: NS:mswsockdef._RIORESULT
 title: RIORESULT (mswsockdef.h)
-author: windows-sdk-content
+
 description: Contains data used to indicate request completion results used with the Winsock registered I/O extensions.
 old-location: winsock\rioresult.htm
 tech.root: WinSock
 ms.assetid: D56D67C4-B455-4F59-8996-CF158DDA3AC2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PRIORESULT, PRIORESULT, PRIORESULT structure pointer [Winsock], RIORESULT, RIORESULT structure [Winsock], mswsockdef/PRIORESULT, mswsockdef/RIORESULT, winsock.rioresult"
 ms.topic: struct

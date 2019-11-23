@@ -1,12 +1,12 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.DownloadTrackComplete
 title: IWMPContentPartner::DownloadTrackComplete (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_downloadtrackcomplete.htm
 tech.root: WMP
 ms.assetid: 9614e266-259c-411f-93cf-9be87c930b16
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DownloadTrackComplete, DownloadTrackComplete method [Windows Media Player], DownloadTrackComplete method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],DownloadTrackComplete method, IWMPContentPartner.DownloadTrackComplete, IWMPContentPartner::DownloadTrackComplete, IWMPContentPartnerDownloadTrackComplete, contentpartner/IWMPContentPartner::DownloadTrackComplete, wmp.iwmpcontentpartner_downloadtrackcomplete
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:winbio.WinBioFree
 title: WinBioFree function (winbio.h)
-author: windows-sdk-content
+
 description: Releases memory allocated for the client application by an earlier call to a Windows Biometric Framework API function. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiofree.htm
 tech.root: SecBioMet
 ms.assetid: b570fc6c-a08e-4485-a621-20f59bd63d40
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WinBioFree, WinBioFree function [Windows Biometric Framework API], secbiomet.winbiofree, winbio/WinBioFree
 ms.topic: function

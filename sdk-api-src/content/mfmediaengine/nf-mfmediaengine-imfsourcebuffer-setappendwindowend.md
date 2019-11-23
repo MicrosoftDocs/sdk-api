@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.SetAppendWindowEnd
 title: IMFSourceBuffer::SetAppendWindowEnd (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Sets the timestamp for the end of the append window.
 old-location: mf\imfsourcebuffer_setappendwindowend.htm
 tech.root: medfound
 ms.assetid: 80cae375-b3f4-4947-98dd-26338d4a0486
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBuffer interface [Media Foundation],SetAppendWindowEnd method, IMFSourceBuffer.SetAppendWindowEnd, IMFSourceBuffer::SetAppendWindowEnd, SetAppendWindowEnd, SetAppendWindowEnd method [Media Foundation], SetAppendWindowEnd method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_setappendwindowend, mfmediaengine/IMFSourceBuffer::SetAppendWindowEnd
 ms.topic: method

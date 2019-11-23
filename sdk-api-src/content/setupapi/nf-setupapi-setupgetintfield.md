@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupGetIntField
 title: SetupGetIntField function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupGetIntField function retrieves an integer value from the specified field of a line in an INF file.
 old-location: setup\setupgetintfield.htm
 tech.root: SetupApi
 ms.assetid: 4c77052a-46ef-4154-82c0-5ec447861bcf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetupGetIntField, SetupGetIntField function [Setup API], _setupapi_setupgetintfield, setup.setupgetintfield, setupapi/SetupGetIntField
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IBaseFilter.FindPin
 title: IBaseFilter::FindPin (strmif.h)
-author: windows-sdk-content
+
 description: The FindPin method retrieves the pin with the specified identifier.
 old-location: dshow\ibasefilter_findpin.htm
 tech.root: DirectShow
 ms.assetid: 0bdefaeb-f631-4b79-9965-c1c570e0ff80
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FindPin, FindPin method [DirectShow], FindPin method [DirectShow],IBaseFilter interface, IBaseFilter interface [DirectShow],FindPin method, IBaseFilter.FindPin, IBaseFilter::FindPin, IBaseFilterFindPin, dshow.ibasefilter_findpin, strmif/IBaseFilter::FindPin
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:mbnapi.IMbnRadioEvents
 title: IMbnRadioEvents (mbnapi.h)
-author: windows-sdk-content
+
 description: Notification interface used to indicate a change in the radio state as well as the completion of a programatic change in the state .
 old-location: mbn\imbnradioevents.htm
 tech.root: mbn
 ms.assetid: f02fa823-c1ca-4867-981d-cb3107f7291b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnRadioEvents, IMbnRadioEvents interface [Microsoft Broadband Networks], IMbnRadioEvents interface [Microsoft Broadband Networks],described, mbn.imbnradioevents, mbnapi/IMbnRadioEvents
 ms.topic: interface

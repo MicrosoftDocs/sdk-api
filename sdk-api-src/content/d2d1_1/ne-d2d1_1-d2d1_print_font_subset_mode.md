@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1_1.D2D1_PRINT_FONT_SUBSET_MODE
 title: D2D1_PRINT_FONT_SUBSET_MODE (d2d1_1.h)
-author: windows-sdk-content
+
 description: Defines when font resources should be subset during printing.
 old-location: direct2d\d2d1_cprint_font_subset_mode.htm
 tech.root: Direct2D
 ms.assetid: B8361117-6018-48EE-AD3D-2A37F6B71293
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_PRINT_FONT_SUBSET_DEFAULT, D2D1_PRINT_FONT_SUBSET_EACHPAGE, D2D1_PRINT_FONT_SUBSET_MODE, D2D1_PRINT_FONT_SUBSET_MODE enumeration [Direct2D], D2D1_PRINT_FONT_SUBSET_NONE, d2d1_1/D2D1_PRINT_FONT_SUBSET_DEFAULT, d2d1_1/D2D1_PRINT_FONT_SUBSET_EACHPAGE, d2d1_1/D2D1_PRINT_FONT_SUBSET_MODE, d2d1_1/D2D1_PRINT_FONT_SUBSET_NONE, direct2d.d2d1_cprint_font_subset_mode
 ms.topic: enum

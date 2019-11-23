@@ -3,7 +3,7 @@ UID: NF:gdiplusheaders.Region.Intersect(IN const Rect &)
 title: Region::Intersect
 description: The Region::Intersect method updates a region intersects the specified rectangle's interior.
 ms.assetid: 875832ae-7dca-4830-bfdb-6d36fb33f717
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: Region::Intersect
 ms.topic: language-reference

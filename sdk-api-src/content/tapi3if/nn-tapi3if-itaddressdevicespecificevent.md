@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3if.ITAddressDeviceSpecificEvent
 title: ITAddressDeviceSpecificEvent (tapi3if.h)
-author: windows-sdk-content
+
 description: The ITAddressDeviceSpecificEvent exposes methods that allow an application to retrieve information about a device-specific event.
 old-location: tapi3\itaddressdevicespecificevent.htm
 tech.root: Tapi
 ms.assetid: 8590e9b1-2bbf-47e5-96de-8765a475a972
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITAddressDeviceSpecificEvent, ITAddressDeviceSpecificEvent interface [TAPI 2.2], ITAddressDeviceSpecificEvent interface [TAPI 2.2],described, _tapi3_itaddressdevicespecificevent, tapi3.itaddressdevicespecificevent, tapi3if/ITAddressDeviceSpecificEvent
 ms.topic: interface

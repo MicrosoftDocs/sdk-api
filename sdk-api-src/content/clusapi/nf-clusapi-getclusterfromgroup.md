@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.GetClusterFromGroup
 title: GetClusterFromGroup function (clusapi.h)
-author: windows-sdk-content
+
 description: Returns a handle to the cluster associated with a group.
 old-location: mscs\getclusterfromgroup.htm
 tech.root: MsCS
 ms.assetid: 43e1a74f-3320-4b1a-a946-6485d380dda1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClusterFromGroup, GetClusterFromGroup function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_GROUP, PCLUSAPI_GET_CLUSTER_FROM_GROUP function [Failover Cluster], _wolf_getclusterfromgroup, clusapi/GetClusterFromGroup, clusapi/PCLUSAPI_GET_CLUSTER_FROM_GROUP, mscs.getclusterfromgroup
 ms.topic: function

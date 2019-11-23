@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmIsIME
 title: ImmIsIME function (immdev.h)
-author: windows-sdk-content
+
 description: Determines if the specified input locale has an IME.
 old-location: intl\immisime.htm
 tech.root: Intl
 ms.assetid: 87bd38ce-c82c-4a65-8157-fcd69bc79566
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImmIsIME, ImmIsIME function [Internationalization for Windows Applications], _win32_ImmIsIME, imm/ImmIsIME, intl.immisime
 ms.topic: function

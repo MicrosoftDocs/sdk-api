@@ -1,12 +1,12 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordCopy
 title: IRecordInfo::RecordCopy (oaidl.h)
-author: windows-sdk-content
+
 description: Copies an existing record into the passed in buffer.
 old-location: automat\irecordinfo_recordcopy.htm
 tech.root: automat
 ms.assetid: 0e5a57a2-06d1-47b3-8e3c-c8718b550bcb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],RecordCopy method, IRecordInfo.RecordCopy, IRecordInfo::RecordCopy, RecordCopy, RecordCopy method [Automation], RecordCopy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordCopy, automat.irecordinfo_recordcopy, oaidl/IRecordInfo::RecordCopy
 ms.topic: method

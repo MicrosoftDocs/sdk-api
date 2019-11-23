@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcndr.NdrOleAllocate
 title: NdrOleAllocate function (rpcndr.h)
-author: windows-sdk-content
+
 description: The NdrOleAllocate function is used by RPC to allocate memory for an object interface. This function is a wrapper for the CoTaskMemAlloc function.
 old-location: rpc\ndroleallocate.htm
 tech.root: Rpc
 ms.assetid: 87bfc8ae-62e6-477f-98a7-caf907589b89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NdrOleAllocate, NdrOleAllocate function [RPC], rpc.ndroleallocate, rpcndr/NdrOleAllocate
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.CreatePen
 title: CreatePen function (wingdi.h)
-author: windows-sdk-content
+
 description: The CreatePen function creates a logical pen that has the specified style, width, and color. The pen can subsequently be selected into a device context and used to draw lines and curves.
 old-location: gdi\createpen.htm
 tech.root: gdi
 ms.assetid: 882facd2-7e06-48f6-82e4-f20e4d5adc92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreatePen, CreatePen function [Windows GDI], PS_DASH, PS_DASHDOT, PS_DASHDOTDOT, PS_DOT, PS_INSIDEFRAME, PS_NULL, PS_SOLID, _win32_CreatePen, gdi.createpen, wingdi/CreatePen
 ms.topic: function

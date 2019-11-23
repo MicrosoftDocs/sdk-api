@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Intersects
 title: BoundingSphere::Intersects
-author: windows-sdk-content
+
 description: Tests the BoundingSphere for intersection with a BoundingSphere.
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::Intersects

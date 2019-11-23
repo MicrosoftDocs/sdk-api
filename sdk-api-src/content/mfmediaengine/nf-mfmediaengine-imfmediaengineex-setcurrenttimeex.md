@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetCurrentTimeEx
 title: IMFMediaEngineEx::SetCurrentTimeEx (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Seeks to a new playback position using the specified MF_MEDIA_ENGINE_SEEK_MODE.
 old-location: mf\imfmediaengineex_setcurrenttimeex.htm
 tech.root: medfound
 ms.assetid: ee594f0c-af49-44c2-8c68-16120f76c5e1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetCurrentTimeEx method, IMFMediaEngineEx.SetCurrentTimeEx, IMFMediaEngineEx::SetCurrentTimeEx, SetCurrentTimeEx, SetCurrentTimeEx method [Media Foundation], SetCurrentTimeEx method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setcurrenttimeex, mfmediaengine/IMFMediaEngineEx::SetCurrentTimeEx
 ms.topic: method

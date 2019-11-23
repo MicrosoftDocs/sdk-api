@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IEnumVdsObject
 title: IEnumVdsObject (vds.h)
-author: windows-sdk-content
+
 description: Enumerates through a set of VDS objects of a given type. Objects can be providers, subsystems, controllers, LUNs, LUN plexes, drives, disk packs, disks, volumes, or volume plexes.
 old-location: base\ienumvdsobject.htm
 tech.root: VDS
 ms.assetid: 08379071-b3cc-495a-bc8e-ad6cfacd432c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumVdsObject, IEnumVdsObject interface [VDS], IEnumVdsObject interface [VDS],described, base.ienumvdsobject, vds/IEnumVdsObject, vdshwprv/IEnumVdsObject
 ms.topic: interface

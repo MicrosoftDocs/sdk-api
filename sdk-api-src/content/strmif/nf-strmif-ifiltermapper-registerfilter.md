@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IFilterMapper.RegisterFilter
 title: IFilterMapper::RegisterFilter (strmif.h)
-author: windows-sdk-content
+
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Adds a filter to the registry; the filter can then be enumerated.
 old-location: dshow\ifiltermapper_registerfilter.htm
 tech.root: DirectShow
 ms.assetid: e21da510-f4e6-417e-978d-bb53bf78cf94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper interface [DirectShow],RegisterFilter method, IFilterMapper.RegisterFilter, IFilterMapper::RegisterFilter, IFilterMapperRegisterFilter, RegisterFilter, RegisterFilter method [DirectShow], RegisterFilter method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerfilter, strmif/IFilterMapper::RegisterFilter
 ms.topic: method

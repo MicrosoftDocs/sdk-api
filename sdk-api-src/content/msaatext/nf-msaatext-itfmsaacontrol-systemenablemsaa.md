@@ -1,12 +1,12 @@
 ---
 UID: NF:msaatext.ITfMSAAControl.SystemEnableMSAA
 title: ITfMSAAControl::SystemEnableMSAA (msaatext.h)
-author: windows-sdk-content
+
 description: ITfMSAAControl::SystemEnableMSAA method
 old-location: tsf\itfmsaacontrol_systemenablemsaa.htm
 tech.root: TSF
 ms.assetid: fec3aa3f-3554-4c21-9557-a12388d97a94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfMSAAControl interface [Text Services Framework],SystemEnableMSAA method, ITfMSAAControl.SystemEnableMSAA, ITfMSAAControl::SystemEnableMSAA, SystemEnableMSAA, SystemEnableMSAA method [Text Services Framework], SystemEnableMSAA method [Text Services Framework],ITfMSAAControl interface, msaatext/ITfMSAAControl::SystemEnableMSAA, tsf.itfmsaacontrol_systemenablemsaa
 ms.topic: method

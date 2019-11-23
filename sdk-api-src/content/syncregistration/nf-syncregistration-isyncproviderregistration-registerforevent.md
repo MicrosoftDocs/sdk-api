@@ -1,12 +1,12 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.RegisterForEvent
 title: ISyncProviderRegistration::RegisterForEvent (syncregistration.h)
-author: windows-sdk-content
+
 description: Registers the user to receive notification of the arrival of new registration events that oocur when changes are made to the registration store.
 old-location: winsync\isyncproviderregistration_registerforevent.htm
 tech.root: winsync
 ms.assetid: b636a3b4-2ac2-4400-b8ed-4430f598db7b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],RegisterForEvent method, ISyncProviderRegistration.RegisterForEvent, ISyncProviderRegistration::RegisterForEvent, RegisterForEvent, RegisterForEvent method [Windows Sync], RegisterForEvent method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::RegisterForEvent, winsync.isyncproviderregistration_registerforevent
 ms.topic: method

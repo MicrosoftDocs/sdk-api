@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IShellView.UIActivate
 title: IShellView::UIActivate (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Called when the activation state of the view window is changed by an event that is not caused by the Shell view itself. For example, if the TAB key is pressed when the tree has the focus, the view should be given the focus.
 old-location: shell\IShellView_UIActivate.htm
 tech.root: shell
 ms.assetid: 169881de-d073-4864-beb2-4e030b855e8f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellView interface [Windows Shell],UIActivate method, IShellView.UIActivate, IShellView::UIActivate, SVUIA_ACTIVATE_FOCUS, SVUIA_ACTIVATE_NOFOCUS, SVUIA_DEACTIVATE, SVUIA_INPLACEACTIVATE, UIActivate, UIActivate method [Windows Shell], UIActivate method [Windows Shell],IShellView interface, _win32_IShellView_UIActivate, shell.IShellView_UIActivate, shobjidl_core/IShellView::UIActivate
 ms.topic: method

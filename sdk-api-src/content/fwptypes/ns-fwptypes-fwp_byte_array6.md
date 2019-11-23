@@ -1,12 +1,12 @@
 ---
 UID: NS:fwptypes.FWP_BYTE_ARRAY6_
 title: FWP_BYTE_ARRAY6 (fwptypes.h)
-author: windows-sdk-content
+
 description: Stores an array of exactly 6 bytes. Reserved.
 old-location: fwp\fwp_byte_array6.htm
 tech.root: fwp
 ms.assetid: 395b5c1c-988b-4d85-9b31-c1f84e02a90c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FWP_BYTE_ARRAY6, FWP_BYTE_ARRAY6 structure [Filtering], fwp.fwp_byte_array6, fwptypes/FWP_BYTE_ARRAY6
 ms.topic: struct

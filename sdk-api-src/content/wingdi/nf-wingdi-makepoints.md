@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.MAKEPOINTS
 title: MAKEPOINTS macro (wingdi.h)
-author: windows-sdk-content
+
 description: The MAKEPOINTS macro converts a value that contains the x- and y-coordinates of a point into a POINTS structure.
 old-location: gdi\makepoints.htm
 tech.root: gdi
 ms.assetid: 1f84cfd0-2836-4c20-9408-17e0d57742be
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MAKEPOINTS, MAKEPOINTS macro [Windows GDI], _win32_MAKEPOINTS, gdi.makepoints, wingdi/MAKEPOINTS
 ms.topic: macro

@@ -1,12 +1,12 @@
 ---
 UID: NN:wmdmlog.IWMDMLogger
 title: IWMDMLogger (wmdmlog.h)
-author: windows-sdk-content
+
 description: The IWMDMLogger interface is used by Windows Media Device Manager applications and service providers to log entries in a common log file.
 old-location: wmdm\iwmdmlogger.htm
 tech.root: WMDM
 ms.assetid: bededb91-f343-455b-a3ef-548e6f961933
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDMLogger, IWMDMLogger interface [windows Media Device Manager], IWMDMLogger interface [windows Media Device Manager],described, IWMDMLoggerInterface, wmdm.iwmdmlogger, wmdmlog/IWMDMLogger
 ms.topic: interface

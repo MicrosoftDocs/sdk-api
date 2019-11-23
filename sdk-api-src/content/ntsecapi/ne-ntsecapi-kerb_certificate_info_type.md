@@ -1,12 +1,12 @@
 ---
 UID: NE:ntsecapi._KERB_CERTIFICATE_INFO_TYPE
 title: KERB_CERTIFICATE_INFO_TYPE (ntsecapi.h)
-author: windows-sdk-content
+
 description: Specifies the type of certificate information that is provided.
 old-location: security\kerb_certificate_info_type.htm
 tech.root: SecAuthN
 ms.assetid: B6BAF09D-D284-4287-B760-32E4D5A9F091
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_CERTIFICATE_INFO_TYPE, CertHashInfo, KERB_CERTIFICATE_INFO_TYPE, KERB_CERTIFICATE_INFO_TYPE enumeration [Security], ntsecapi/CertHashInfo, ntsecapi/KERB_CERTIFICATE_INFO_TYPE, security.kerb_certificate_info_type'
 ms.topic: enum

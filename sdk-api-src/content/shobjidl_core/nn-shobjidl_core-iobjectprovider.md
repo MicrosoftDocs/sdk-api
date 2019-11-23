@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IObjectProvider
 title: IObjectProvider (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Exposes a method to discover objects that are named with a GUID from another object. Unlike QueryService this interface will not delegate its functionality on to other objects.
 old-location: shell\IObjectProvider.htm
 tech.root: shell
 ms.assetid: 477991e5-0882-475c-9178-c3add695dc2c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IObjectProvider, IObjectProvider interface [Windows Shell], IObjectProvider interface [Windows Shell],described, _shell_IObjectProvider, shell.IObjectProvider, shobjidl_core/IObjectProvider
 ms.topic: interface

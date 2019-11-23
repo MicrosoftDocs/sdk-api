@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._MESSAGE_RESOURCE_DATA
 title: MESSAGE_RESOURCE_DATA (winnt.h)
-author: windows-sdk-content
+
 description: Contains information about formatted text for display as an error message or in a message box in a message table resource.
 old-location: menurc\message_resource_data.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcestructures\message_resource_data.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PMESSAGE_RESOURCE_DATA, MESSAGE_RESOURCE_DATA, MESSAGE_RESOURCE_DATA structure [Menus and Other Resources], PMESSAGE_RESOURCE_DATA, PMESSAGE_RESOURCE_DATA structure pointer [Menus and Other Resources], _win32_MESSAGE_RESOURCE_DATA_str, _win32_message_resource_data_str_cpp, menurc.message_resource_data, winnt/MESSAGE_RESOURCE_DATA, winnt/PMESSAGE_RESOURCE_DATA, winui._win32_message_resource_data_str'
 ms.topic: struct

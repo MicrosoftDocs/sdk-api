@@ -1,12 +1,12 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Context
 title: ITsSbTaskInfo::get_Context (sbtsv.h)
-author: windows-sdk-content
+
 description: Retrieves the context bytes associated with the task.
 old-location: termserv\itssbtaskinfo_context.htm
 tech.root: TermServ
 ms.assetid: ce55ce2a-957f-4b50-b632-42079277102b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Context property [Remote Desktop Services], Context property [Remote Desktop Services],ITsSbTaskInfo interface, ITsSbTaskInfo interface [Remote Desktop Services],Context property, ITsSbTaskInfo.Context, ITsSbTaskInfo.get_Context, ITsSbTaskInfo::Context, ITsSbTaskInfo::get_Context, get_Context, sbtsv/ITsSbTaskInfo::Context, sbtsv/ITsSbTaskInfo::get_Context, termserv.itssbtaskinfo_context
 ms.topic: method

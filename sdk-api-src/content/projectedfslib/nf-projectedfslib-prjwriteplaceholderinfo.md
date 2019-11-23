@@ -1,12 +1,12 @@
 ---
 UID: NF:projectedfslib.PrjWritePlaceholderInfo
 title: PrjWritePlaceholderInfo function (projectedfslib.h)
-author: windows-sdk-content
+
 description: Sends file or directory metadata to ProjFS.
 old-location: projfs\prjwriteplaceholderinfo.htm
 tech.root: ProjFS
 ms.assetid: EAEA2D05-2FCF-46A7-AEBD-9CF085D868E1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PrjWritePlaceholderInfo, PrjWritePlaceholderInfo function, ProjFS.prjwriteplaceholderinfo, projectedfslib/PrjWritePlaceholderInfo
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winver.VerLanguageNameW
 title: VerLanguageNameW function (winver.h)
-author: windows-sdk-content
+
 description: Retrieves a description string for the language associated with a specified binary Microsoft language identifier.
 old-location: menurc\verlanguagename.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verlanguagename.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VerLanguageName, VerLanguageName function [Menus and Other Resources], VerLanguageNameA, VerLanguageNameW, _win32_VerLanguageName, _win32_verlanguagename_cpp, menurc.verlanguagename, winui._win32_verlanguagename, winver/VerLanguageName, winver/VerLanguageNameA, winver/VerLanguageNameW
 ms.topic: function

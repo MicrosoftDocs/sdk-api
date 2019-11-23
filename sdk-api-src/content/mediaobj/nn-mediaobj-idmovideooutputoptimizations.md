@@ -1,12 +1,12 @@
 ---
 UID: NN:mediaobj.IDMOVideoOutputOptimizations
 title: IDMOVideoOutputOptimizations (mediaobj.h)
-author: windows-sdk-content
+
 description: The IDMOVideoOutputOptimizations interface supports video optimizations on a Microsoft DirectX Media Object (DMO).
 old-location: dshow\idmovideooutputoptimizations.htm
 tech.root: DirectShow
 ms.assetid: 1e87d0e1-68be-4f86-aae2-cff3edfa573b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDMOVideoOutputOptimizations, IDMOVideoOutputOptimizations interface [DirectShow], IDMOVideoOutputOptimizations interface [DirectShow],described, IDMOVideoOutputOptimizationsInterface, dshow.idmovideooutputoptimizations, mediaobj/IDMOVideoOutputOptimizations
 ms.topic: interface

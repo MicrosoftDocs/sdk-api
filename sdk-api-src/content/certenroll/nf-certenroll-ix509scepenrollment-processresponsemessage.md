@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.ProcessResponseMessage
 title: IX509SCEPEnrollment::ProcessResponseMessage (certenroll.h)
-author: windows-sdk-content
+
 description: Process a response message and return the disposition of the message.
 old-location: security\ix509scepenrollment_processresponsemessage.htm
 tech.root: seccertenroll
 ms.assetid: 4254fdf3-473f-4f22-a08f-13481fd9f779
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],ProcessResponseMessage method, IX509SCEPEnrollment.ProcessResponseMessage, IX509SCEPEnrollment::ProcessResponseMessage, ProcessResponseMessage, ProcessResponseMessage method [Security], ProcessResponseMessage method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::ProcessResponseMessage, security.ix509scepenrollment_processresponsemessage
 ms.topic: method

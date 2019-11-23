@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.ResolveQueryData
 title: ID3D12VideoProcessCommandList::ResolveQueryData
-author: windows-sdk-content
+
 description: Extracts data from a query.
 tech.root: mf
 ms.assetid: a30beb4e-98e3-4644-843d-c206eb4ef138
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

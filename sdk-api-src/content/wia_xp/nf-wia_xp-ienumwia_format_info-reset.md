@@ -1,12 +1,12 @@
 ---
 UID: NF:wia_xp.IEnumWIA_FORMAT_INFO.Reset
 title: IEnumWIA_FORMAT_INFO::Reset (wia_xp.h)
-author: windows-sdk-content
+
 description: The IEnumWIA_FORMAT_INFO::Reset method sets the enumeration back to the first WIA_FORMAT_INFO structure.
 old-location: wia\_wia_IEnumWIA_FORMAT_INFO_Reset.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_format_info\reset.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_FORMAT_INFO interface [WIA],Reset method, IEnumWIA_FORMAT_INFO.Reset, IEnumWIA_FORMAT_INFO::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWIA_FORMAT_INFO interface, _wia_IEnumWIA_FORMAT_INFO_Reset, wia._wia_IEnumWIA_FORMAT_INFO_Reset, wia_xp/IEnumWIA_FORMAT_INFO::Reset
 ms.topic: method

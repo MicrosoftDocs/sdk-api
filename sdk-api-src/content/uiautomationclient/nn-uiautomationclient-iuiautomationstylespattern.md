@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationStylesPattern
 title: IUIAutomationStylesPattern (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Enables Microsoft UI Automation clients to retrieve the visual styles associated with an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern.htm
 tech.root: WinAuto
 ms.assetid: 83529CFD-46D2-45A7-9B0D-F00FF43D911B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationStylesPattern, IUIAutomationStylesPattern interface [Windows Accessibility], IUIAutomationStylesPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationStylesPattern, winauto.uiauto_IUIAutomationStylesPattern
 ms.topic: interface

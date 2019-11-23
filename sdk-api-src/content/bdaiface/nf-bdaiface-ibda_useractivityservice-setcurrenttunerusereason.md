@@ -1,12 +1,12 @@
 ---
 UID: NF:bdaiface.IBDA_UserActivityService.SetCurrentTunerUseReason
 title: IBDA_UserActivityService::SetCurrentTunerUseReason (bdaiface.h)
-author: windows-sdk-content
+
 description: Specifies the current tuner use reason for a Media Sink Device (MSD) in a Protected Broadcast Driver Architecture (PBDA) media graph.
 old-location: mstv\ibda_useractivityservice_setcurrenttunerusereason.htm
 tech.root: mstv
 ms.assetid: 248a0b01-02be-49b3-88ff-3b830d77e08d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBDA_UserActivityService interface [Microsoft TV Technologies],SetCurrentTunerUseReason method, IBDA_UserActivityService.SetCurrentTunerUseReason, IBDA_UserActivityService::SetCurrentTunerUseReason, SetCurrentTunerUseReason, SetCurrentTunerUseReason method [Microsoft TV Technologies], SetCurrentTunerUseReason method [Microsoft TV Technologies],IBDA_UserActivityService interface, bdaiface/IBDA_UserActivityService::SetCurrentTunerUseReason, mstv.ibda_useractivityservice_setcurrenttunerusereason
 ms.topic: method

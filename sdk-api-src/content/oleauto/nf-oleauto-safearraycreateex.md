@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.SafeArrayCreateEx
 title: SafeArrayCreateEx function (oleauto.h)
-author: windows-sdk-content
+
 description: Creates and returns a safe array descriptor from the specified VARTYPE, number of dimensions and bounds.
 old-location: automat\safearraycreateex.htm
 tech.root: automat
 ms.assetid: 63117428-6676-4fb5-a0ae-7e3b22546d77
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SafeArrayCreateEx, SafeArrayCreateEx function [Automation], _oa96_SafeArrayCreateEx, automat.safearraycreateex, oleauto/SafeArrayCreateEx
 ms.topic: function

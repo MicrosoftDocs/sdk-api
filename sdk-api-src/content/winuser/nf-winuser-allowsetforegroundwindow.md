@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.AllowSetForegroundWindow
 title: AllowSetForegroundWindow function (winuser.h)
-author: windows-sdk-content
+
 description: Enables the specified process to set the foreground window using the SetForegroundWindow function. The calling process must already be able to set the foreground window. For more information, see Remarks later in this topic.
 old-location: winmsg\allowsetforegroundwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\allowsetforegroundwindow.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AllowSetForegroundWindow, AllowSetForegroundWindow function [Windows and Messages], _win32_AllowSetForegroundWindow, _win32_allowsetforegroundwindow_cpp, winmsg.allowsetforegroundwindow, winui._win32_allowsetforegroundwindow, winuser/AllowSetForegroundWindow
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:appxpackaging.IAppxFactory
 title: IAppxFactory (appxpackaging.h)
-author: windows-sdk-content
+
 description: Creates objects for reading and writing app packages.
 old-location: appxpkg\iappxfactory.htm
 tech.root: appxpkg
 ms.assetid: 4EA79D44-7C26-4B65-81A1-394E1E540F34
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAppxFactory, IAppxFactory interface [App packaging and management], IAppxFactory interface [App packaging and management],described, appxpackaging/IAppxFactory, appxpkg.iappxfactory
 ms.topic: interface

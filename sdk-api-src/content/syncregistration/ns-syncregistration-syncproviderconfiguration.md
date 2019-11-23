@@ -1,12 +1,12 @@
 ---
 UID: NS:syncregistration._SyncProviderConfiguration
 title: SyncProviderConfiguration (syncregistration.h)
-author: windows-sdk-content
+
 description: Represents the information for a synchronization provider configuration.
 old-location: winsync\syncproviderconfiguration.htm
 tech.root: winsync
 ms.assetid: 2b8c9a94-4e11-4904-a6aa-da0433d5b237
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SyncProviderConfiguration, SyncProviderConfiguration structure [Windows Sync], syncregistration/SyncProviderConfiguration, winsync.syncproviderconfiguration
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetRedTableValue(UINT,float)
 title: IDCompositionTableTransferEffect::SetRedTableValue(UINT,float) (dcomp.h)
-author: windows-sdk-content
+
 description: Sets a value in the red table.
 old-location: directcomp\idcompositiontabletransfereffect_setredtablevalue.htm
 tech.root: directcomp
 ms.assetid: 18FF3F25-3640-4779-AF23-265AF12C4BE1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetRedTableValue method, IDCompositionTableTransferEffect.SetRedTableValue, IDCompositionTableTransferEffect.SetRedTableValue(UINT,float), IDCompositionTableTransferEffect::SetRedTableValue, IDCompositionTableTransferEffect::SetRedTableValue(UINT,float), SetRedTableValue, SetRedTableValue method [DirectComposition], SetRedTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetRedTableValue, directcomp.idcompositiontabletransfereffect_setredtablevalue
 ms.topic: method

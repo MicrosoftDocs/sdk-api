@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.ITransferMediumItem
 title: ITransferMediumItem (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Used by a copy engine to get the item on which to call QueryInterface to return a pointer to interface ITransferDestination or interface ITransferSource. These interfaces can be queried and enumerated for copy, move, or delete operations.
 old-location: shell\ITransferMediumItem.htm
 tech.root: shell
 ms.assetid: 28b4397c-dcb1-4c81-b6a3-d6abd7f7ad24
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITransferMediumItem, ITransferMediumItem interface [Windows Shell], ITransferMediumItem interface [Windows Shell],described, _shell_ITransferMediumItem, shell.ITransferMediumItem, shobjidl_core/ITransferMediumItem
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMProximityDetection
 title: IWMProximityDetection (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMProximityDetection interface validates a playback device for receiving media data.
 old-location: wmformat\iwmproximitydetection.htm
 tech.root: wmformat
 ms.assetid: 0897ad8f-8e06-4de9-840e-1588e0e20c54
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMProximityDetection, IWMProximityDetection interface [windows Media Format], IWMProximityDetection interface [windows Media Format],described, IWMProximityDetectionInterface, wmformat.iwmproximitydetection, wmsdkidl/IWMProximityDetection
 ms.topic: interface

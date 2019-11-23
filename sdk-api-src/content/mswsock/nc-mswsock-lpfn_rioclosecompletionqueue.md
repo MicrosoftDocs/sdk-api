@@ -1,12 +1,12 @@
 ---
 UID: NC:mswsock.LPFN_RIOCLOSECOMPLETIONQUEUE
 title: LPFN_RIOCLOSECOMPLETIONQUEUE
-author: windows-sdk-content
+
 description: Closes an existing completion queue used for I/O completion notification by send and receive requests with the Winsock registered I/O extensions.
 old-location: 
 tech.root: WinSock
 ms.assetid: A5700ACD-3F4B-4AFF-8BA1-6AC59402E06C
-ms.author: windowssdkdev
+
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOCLOSECOMPLETIONQUEUE
 ms.topic: language-reference

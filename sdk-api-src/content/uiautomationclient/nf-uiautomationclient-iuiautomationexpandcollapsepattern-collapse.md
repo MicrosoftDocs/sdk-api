@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationExpandCollapsePattern.Collapse
 title: IUIAutomationExpandCollapsePattern::Collapse (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Hides all child nodes, controls, or content of the element.
 old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_Collapse.htm
 tech.root: WinAuto
 ms.assetid: 9337d2dd-08db-4af7-ad65-e113811dd7ba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Collapse, Collapse method [Windows Accessibility], Collapse method [Windows Accessibility],IUIAutomationExpandCollapsePattern interface, IUIAutomationExpandCollapsePattern interface [Windows Accessibility],Collapse method, IUIAutomationExpandCollapsePattern.Collapse, IUIAutomationExpandCollapsePattern::Collapse, uiauto.uiauto_IUIAutomationExpandCollapsePattern_Collapse, uiauto_IUIAutomationExpandCollapsePattern_Collapse, uiautomationclient/IUIAutomationExpandCollapsePattern::Collapse, winauto.uiauto_IUIAutomationExpandCollapsePattern_Collapse
 ms.topic: method

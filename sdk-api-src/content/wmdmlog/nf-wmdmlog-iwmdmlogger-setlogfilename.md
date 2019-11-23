@@ -1,12 +1,12 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.SetLogFileName
 title: IWMDMLogger::SetLogFileName (wmdmlog.h)
-author: windows-sdk-content
+
 description: The SetLogFileName method sets the full path to the current log file. All subsequent log entries will be placed in this file.
 old-location: wmdm\iwmdmlogger_setlogfilename.htm
 tech.root: WMDM
 ms.assetid: 9ceecf17-01b4-4461-9ca7-229704c5916c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],SetLogFileName method, IWMDMLogger.SetLogFileName, IWMDMLogger::SetLogFileName, IWMDMLoggerSetLogFileName, SetLogFileName, SetLogFileName method [windows Media Device Manager], SetLogFileName method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_setlogfilename, wmdmlog/IWMDMLogger::SetLogFileName
 ms.topic: method

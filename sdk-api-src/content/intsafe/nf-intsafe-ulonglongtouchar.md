@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.ULongLongToUChar
 title: ULongLongToUChar function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type ULONGLONG to a value of type UCHAR.
 old-location: shell\ULongLongToUChar.htm
 tech.root: shell
 ms.assetid: 0cf22d19-db44-4307-9fbc-6d814c21c06d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ULongLongToUChar, ULongLongToUChar function [Windows Shell], intsafe/ULongLongToUChar, shell.ULongLongToUChar
 ms.topic: function

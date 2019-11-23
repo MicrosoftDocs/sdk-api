@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocator.PrepareSurface
 title: IVMRSurfaceAllocator::PrepareSurface (strmif.h)
-author: windows-sdk-content
+
 description: The PrepareSurface method prepares the DirectDraw surface to have the next video frame decoded into it.
 old-location: dshow\ivmrsurfaceallocator_preparesurface.htm
 tech.root: DirectShow
 ms.assetid: 5978bd6e-1aee-4e5e-9d28-f60e20b5b3e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocator interface [DirectShow],PrepareSurface method, IVMRSurfaceAllocator.PrepareSurface, IVMRSurfaceAllocator::PrepareSurface, IVMRSurfaceAllocatorPrepareSurface, PrepareSurface, PrepareSurface method [DirectShow], PrepareSurface method [DirectShow],IVMRSurfaceAllocator interface, dshow.ivmrsurfaceallocator_preparesurface, strmif/IVMRSurfaceAllocator::PrepareSurface
 ms.topic: method

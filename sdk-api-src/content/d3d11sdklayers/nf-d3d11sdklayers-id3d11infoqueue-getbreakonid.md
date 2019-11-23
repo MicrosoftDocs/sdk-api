@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetBreakOnID
 title: ID3D11InfoQueue::GetBreakOnID (d3d11sdklayers.h)
-author: windows-sdk-content
+
 description: Get a message identifier to break on when a message with that identifier passes through the storage filter.
 old-location: direct3d11\id3d11infoqueue_getbreakonid.htm
 tech.root: direct3d11
 ms.assetid: 0efccfd5-55ec-4151-81ca-fe826f44adaa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBreakOnID, GetBreakOnID method [Direct3D 11], GetBreakOnID method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetBreakOnID method, ID3D11InfoQueue.GetBreakOnID, ID3D11InfoQueue::GetBreakOnID, d3d11sdklayers/ID3D11InfoQueue::GetBreakOnID, dd404ca7-c714-15ae-464b-cc6080192960, direct3d11.id3d11infoqueue_getbreakonid
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:xenroll.ICEnroll.get_RootStoreName
 title: ICEnroll::get_RootStoreName (xenroll.h)
-author: windows-sdk-content
+
 description: Sets or retrieves the name of the root store where all intrinsically trusted, self-signed root certificates are kept.
 old-location: security\icenroll4_rootstorename.htm
 tech.root: SecCrypto
 ms.assetid: 5b686ade-e8ee-4c59-ab90-05088f575acd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],RootStoreName property, ICEnroll interface [Security],RootStoreName property, ICEnroll.RootStoreName, ICEnroll.get_RootStoreName, ICEnroll2 interface [Security],RootStoreName property, ICEnroll2.RootStoreName, ICEnroll2::get_RootStoreName, ICEnroll2::put_RootStoreName, ICEnroll3 interface [Security],RootStoreName property, ICEnroll3.RootStoreName, ICEnroll3::get_RootStoreName, ICEnroll3::put_RootStoreName, ICEnroll4 interface [Security],RootStoreName property, ICEnroll4.RootStoreName, ICEnroll4::RootStoreName, ICEnroll4::get_RootStoreName, ICEnroll4::put_RootStoreName, ICEnroll::get_RootStoreName, ICEnroll::put_RootStoreName, RootStoreName property [Security], RootStoreName property [Security],CEnroll object, RootStoreName property [Security],ICEnroll interface, RootStoreName property [Security],ICEnroll2 interface, RootStoreName property [Security],ICEnroll3 interface, RootStoreName property [Security],ICEnroll4 interface, get_RootStoreName, security.icenroll4_rootstorename, xenroll/ICEnroll2::RootStoreName, xenroll/ICEnroll2::get_RootStoreName, xenroll/ICEnroll2::put_RootStoreName, xenroll/ICEnroll3::RootStoreName, xenroll/ICEnroll3::get_RootStoreName, xenroll/ICEnroll3::put_RootStoreName, xenroll/ICEnroll4::RootStoreName, xenroll/ICEnroll4::get_RootStoreName, xenroll/ICEnroll4::put_RootStoreName, xenroll/ICEnroll::RootStoreName, xenroll/ICEnroll::get_RootStoreName, xenroll/ICEnroll::put_RootStoreName
 ms.topic: method

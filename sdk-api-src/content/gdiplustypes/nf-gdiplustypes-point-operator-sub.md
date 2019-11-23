@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplustypes.Point.operator-sub
 title: Point::operator-sub (gdiplustypes.h)
-author: windows-sdk-content
+
 description: The Point::operator- method subtracts the X and Y data members of two Point objects.
 old-location: gdiplus\_gdiplus_CLASS_Point_operator_opminus_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointmethods\operator_52point.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Point class [GDI+],operator- method, Point.operator-, Point.operator-(const Point&), Point.operator-sub, Point::operator-, Point::operator-sub, _gdiplus_CLASS_Point_operator_opminus_point_, gdiplus._gdiplus_CLASS_Point_operator_opminus_point_, operator-, operator- method [GDI+], operator- method [GDI+],Point class
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidFilePlayback2
 title: IMSVidFilePlayback2 (segment.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.
 old-location: mstv\imsvidfileplayback2.htm
 tech.root: mstv
 ms.assetid: 5779d5f8-74b1-4318-9fda-1dae3bf4a3f5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidFilePlayback2, IMSVidFilePlayback2 interface [Microsoft TV Technologies], IMSVidFilePlayback2 interface [Microsoft TV Technologies],described, IMSVidFilePlayback2Interface, mstv.imsvidfileplayback2, segment/IMSVidFilePlayback2
 ms.topic: interface

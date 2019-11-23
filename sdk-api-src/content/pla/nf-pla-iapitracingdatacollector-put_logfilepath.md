@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.put_LogFilePath
 title: IApiTracingDataCollector::put_LogFilePath (pla.h)
-author: windows-sdk-content
+
 description: Retrieves or sets the name of the log file that contains the API trace data.
 old-location: pla\iapitracingdatacollector_logfilepath.htm
 tech.root: PLA
 ms.assetid: 17e876d5-c1d2-4ab8-9f9e-40d66528e57d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IApiTracingDataCollector interface [PLA],LogFilePath property, IApiTracingDataCollector.LogFilePath, IApiTracingDataCollector.put_LogFilePath, IApiTracingDataCollector::LogFilePath, IApiTracingDataCollector::get_LogFilePath, IApiTracingDataCollector::put_LogFilePath, LogFilePath property [PLA], LogFilePath property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_logfilepath, pla.iapitracingdatacollector_logfilepath, pla/IApiTracingDataCollector::LogFilePath, pla/IApiTracingDataCollector::get_LogFilePath, pla/IApiTracingDataCollector::put_LogFilePath, put_LogFilePath
 ms.topic: method

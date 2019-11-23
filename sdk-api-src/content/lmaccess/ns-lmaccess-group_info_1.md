@@ -1,12 +1,12 @@
 ---
 UID: NS:lmaccess._GROUP_INFO_1
 title: GROUP_INFO_1 (lmaccess.h)
-author: windows-sdk-content
+
 description: The GROUP_INFO_1 structure contains a global group name and a comment to associate with the group.
 old-location: netmgmt\group_info_1_str.htm
 tech.root: NetMgmt
 ms.assetid: 0b42a438-64fd-4f37-98b8-77e10c09548c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPGROUP_INFO_1, *PGROUP_INFO_1, GROUP_INFO_1, GROUP_INFO_1 structure [Network Management], LPGROUP_INFO_1, LPGROUP_INFO_1 structure pointer [Network Management], PGROUP_INFO_1, PGROUP_INFO_1 structure pointer [Network Management], _win32_group_info_1_str, lmaccess/GROUP_INFO_1, lmaccess/LPGROUP_INFO_1, lmaccess/PGROUP_INFO_1, netmgmt.group_info_1_str"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcFactory.ReadPackageFromStream
 title: IOpcFactory::ReadPackageFromStream (msopc.h)
-author: windows-sdk-content
+
 description: Deserializes package data from a stream and creates a package object to represent the package being read.
 old-location: opc\iopcfactory_readpackagefromstream.htm
 tech.root: OPC
 ms.assetid: 227a2724-c2b3-4f12-8d30-1ff1eca59c83
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOpcFactory interface [Open Packaging Conventions],ReadPackageFromStream method, IOpcFactory.ReadPackageFromStream, IOpcFactory::ReadPackageFromStream, ReadPackageFromStream, ReadPackageFromStream method [Open Packaging Conventions], ReadPackageFromStream method [Open Packaging Conventions],IOpcFactory interface, msopc/IOpcFactory::ReadPackageFromStream, opc.iopcfactory_readpackagefromstream
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxDoc.Send
 title: IFaxDoc::Send (faxcom.h)
-author: windows-sdk-content
+
 description: The Send method transmits the document specified by the FileName property of a FaxDoc object. The method can send the fax to the fax number specified by the FaxNumber property.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_send_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8o2s.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],Send method, IFaxDoc.Send, IFaxDoc::Send, Send, Send method [Fax Service], Send method [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_send, fax._mfax_ifaxdoc_mfax_ifaxdoc_send_cpp, fax._mfax_ifaxdoc_send, faxcom/IFaxDoc::Send
 ms.topic: method

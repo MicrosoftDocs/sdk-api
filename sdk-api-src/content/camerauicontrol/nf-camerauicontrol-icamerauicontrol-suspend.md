@@ -1,12 +1,12 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.Suspend
 title: ICameraUIControl::Suspend (camerauicontrol.h)
-author: windows-sdk-content
+
 description: Simulates suspend of the user interface control.
 old-location: winprog\icamerauicontrol_suspend.htm
 tech.root: DevNotes
 ms.assetid: 864333e6-b17f-4225-9302-4335556d0164
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControl interface [Windows API],Suspend method, ICameraUIControl.Suspend, ICameraUIControl::Suspend, Suspend, Suspend method [Windows API], Suspend method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::Suspend, winprog.icamerauicontrol_suspend
 ms.topic: method

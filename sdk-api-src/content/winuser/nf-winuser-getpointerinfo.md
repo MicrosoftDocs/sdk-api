@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetPointerInfo
 title: GetPointerInfo function (winuser.h)
-author: windows-sdk-content
+
 description: Gets the information for the specified pointer associated with the current message.
 old-location: inputmsg\getpointerinfo.htm
 tech.root: InputMsg
 ms.assetid: 75faea24-91cd-448b-b67a-19fe530f1800
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPointerInfo, GetPointerInfo function [Input Messages and Notifications], inputmsg.getpointerinfo, winuser/GetPointerInfo
 ms.topic: function

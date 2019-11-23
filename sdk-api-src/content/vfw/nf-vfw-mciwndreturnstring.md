@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndReturnString
 title: MCIWndReturnString macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndReturnString macro retrieves the reply to the most recent MCI string command sent to an MCI device. Information in the reply is supplied as a null-terminated string. You can use this macro or explicitly send the MCIWNDM_RETURNSTRING message.
 old-location: multimedia\mciwndreturnstring.htm
 tech.root: Multimedia
 ms.assetid: 8e7d54ec-882b-4896-a493-3ed61aec6184
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndReturnString, MCIWndReturnString macro [Windows Multimedia], _win32_MCIWndReturnString, multimedia.mciwndreturnstring, vfw/MCIWndReturnString
 ms.topic: macro

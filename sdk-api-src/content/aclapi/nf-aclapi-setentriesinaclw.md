@@ -1,12 +1,12 @@
 ---
 UID: NF:aclapi.SetEntriesInAclW
 title: SetEntriesInAclW function (aclapi.h)
-author: windows-sdk-content
+
 description: Creates a new access control list (ACL) by merging new access control or audit control information into an existing ACL structure.
 old-location: security\setentriesinacl.htm
 tech.root: SecAuthZ
 ms.assetid: 05960fc1-1ad2-4c19-a65c-62259af5e18c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetEntriesInAcl, SetEntriesInAcl function [Security], SetEntriesInAclA, SetEntriesInAclW, _win32_setentriesinacl, aclapi/SetEntriesInAcl, aclapi/SetEntriesInAclA, aclapi/SetEntriesInAclW, security.setentriesinacl
 ms.topic: function

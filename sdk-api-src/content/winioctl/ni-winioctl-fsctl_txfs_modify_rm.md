@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_TXFS_MODIFY_RM
 title: FSCTL_TXFS_MODIFY_RM
-author: windows-sdk-content
+
 description: Sets the log mode and log parameter information for a secondary resource manager (RM).
 old-location: fs\fsctl_txfs_modify_rm.htm
 tech.root: FileIO
 ms.assetid: 29054321-a805-4a4e-90fb-a5b8e2858da0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_MODIFY_RM, FSCTL_TXFS_MODIFY_RM control, FSCTL_TXFS_MODIFY_RM control code [Files], base.fsctl_txfs_set_rm_information, fs.fsctl_txfs_modify_rm, fs.fsctl_txfs_set_rm_information, winioctl/FSCTL_TXFS_MODIFY_RM
 ms.topic: ioctl

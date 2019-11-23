@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1_1.ID2D1StrokeStyle1
 title: ID2D1StrokeStyle1 (d2d1_1.h)
-author: windows-sdk-content
+
 description: Describes the caps, miter limit, line join, and dash information for a stroke.
 old-location: direct2d\id2d1strokestyle1.htm
 tech.root: Direct2D
 ms.assetid: 7afaa6f8-8e25-42ec-9afb-a5342bba11d0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1StrokeStyle1, ID2D1StrokeStyle1 interface [Direct2D], ID2D1StrokeStyle1 interface [Direct2D],described, d2d1_1/ID2D1StrokeStyle1, direct2d.id2d1strokestyle1
 ms.topic: interface

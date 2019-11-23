@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzOperations.get_Count
 title: IAzOperations::get_Count (azroles.h)
-author: windows-sdk-content
+
 description: Retrieves the number of IAzOperation objects in the collection.
 old-location: security\iazoperations_count.htm
 tech.root: SecAuthZ
 ms.assetid: 665fdf1f-4606-4cfc-b33b-6bae4ce3b6c9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AzOperations object [Security],Count property, Count property [Security], Count property [Security],AzOperations object, Count property [Security],IAzOperations interface, IAzOperations interface [Security],Count property, IAzOperations.Count, IAzOperations.get_Count, IAzOperations::Count, IAzOperations::get_Count, azroles/IAzOperations::Count, azroles/IAzOperations::get_Count, get_Count, security.iazoperations_count
 ms.topic: method

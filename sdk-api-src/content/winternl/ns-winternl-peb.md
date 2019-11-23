@@ -1,12 +1,12 @@
 ---
 UID: NS:winternl._PEB
 title: PEB (winternl.h)
-author: windows-sdk-content
+
 description: Contains process information.
 old-location: base\peb.htm
 tech.root: ProcThread
 ms.assetid: 836a6b82-d3e8-4de6-808d-5476dfb51356
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PPEB, PEB, PEB structure, PPEB, PPEB structure pointer, base.peb, winternl/PEB, winternl/PPEB'
 ms.topic: struct

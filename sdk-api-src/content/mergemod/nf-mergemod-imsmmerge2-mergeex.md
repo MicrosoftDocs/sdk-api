@@ -1,12 +1,12 @@
 ---
 UID: NF:mergemod.IMsmMerge2.MergeEx
 title: IMsmMerge2::MergeEx (mergemod.h)
-author: windows-sdk-content
+
 description: The MergeEx method executes a merge of the current database and current module.
 old-location: setup\imsmmerge2_mergeex.htm
 tech.root: Msi
 ms.assetid: fdfd950f-cba9-4b87-ae07-c3d3b127f69d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge2 interface,MergeEx method, IMsmMerge2.MergeEx, IMsmMerge2::MergeEx, MergeEx, MergeEx method, MergeEx method,IMsmMerge2 interface, _msi_mergeex_function, mergemod/IMsmMerge2::MergeEx, setup.imsmmerge2_mergeex
 ms.topic: method

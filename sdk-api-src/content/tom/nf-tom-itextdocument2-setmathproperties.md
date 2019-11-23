@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextDocument2.SetMathProperties
 title: ITextDocument2::SetMathProperties (tom.h)
-author: windows-sdk-content
+
 description: Specifies the math properties to use for the document.
 old-location: controls\itextdocument2_setmathproperties.htm
 tech.root: Controls
 ms.assetid: a688354b-b231-44fc-9cfb-32c8e8b1361f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetMathProperties method, ITextDocument2.SetMathProperties, ITextDocument2::SetMathProperties, SetMathProperties, SetMathProperties method [Windows Controls], SetMathProperties method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setmathproperties, tom/ITextDocument2::SetMathProperties
 ms.topic: method

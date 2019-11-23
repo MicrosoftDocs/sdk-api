@@ -1,12 +1,12 @@
 ---
 UID: NF:winevt.EvtSubscribe
 title: EvtSubscribe function (winevt.h)
-author: windows-sdk-content
+
 description: Creates a subscription that will receive current and future events from a channel or log file that match the specified query criteria.
 old-location: wes\evtsubscribe.htm
 tech.root: wes
 ms.assetid: e7c4c5f9-2a5a-4004-8f19-13eb61c4346b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EvtSubscribe, EvtSubscribe function [EventLog], wes.evtsubscribe, winevt/EvtSubscribe
 ms.topic: function

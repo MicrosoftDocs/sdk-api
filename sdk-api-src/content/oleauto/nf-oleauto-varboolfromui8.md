@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarBoolFromUI8
 title: VarBoolFromUI8 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts an 8-byte unsigned integer value to a Boolean value.
 old-location: automat\varboolfromui8.htm
 tech.root: automat
 ms.assetid: 4a5861b0-cc39-46de-ae39-f34a179bb9d0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarBoolFromUI8, VarBoolFromUI8 function [Automation], _oa96_VarBoolFromUI8, automat.varboolfromui8, oleauto/VarBoolFromUI8
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationPrimitiveInterpolation.AddCubic
 title: IUIAnimationPrimitiveInterpolation::AddCubic (uianimation.h)
-author: windows-sdk-content
+
 description: Adds a cubic polynomial segment that describes the shape of a transition curve to the animation function.
 old-location: uianimation\iuianimationprimitiveinterpolation_addcubic.htm
 tech.root: UIAnimation
 ms.assetid: 98738F6A-364E-491F-BCA3-F8B74B036D89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddCubic, AddCubic method [Windows Animation], AddCubic method [Windows Animation],IUIAnimationPrimitiveInterpolation interface, IUIAnimationPrimitiveInterpolation interface [Windows Animation],AddCubic method, IUIAnimationPrimitiveInterpolation.AddCubic, IUIAnimationPrimitiveInterpolation::AddCubic, uianimation.iuianimationprimitiveinterpolation_addcubic, uianimation/IUIAnimationPrimitiveInterpolation::AddCubic
 ms.topic: method

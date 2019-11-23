@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.IESRequestTunerEvent.GetEstimatedTime
 title: IESRequestTunerEvent::GetEstimatedTime (tuner.h)
-author: windows-sdk-content
+
 description: Gets a value indicating the amount of time that a device estimates it needs exclusive access to a tuner and its Conditional Access Services (CAS).
 old-location: mstv\iesrequesttunerevent_getestimatedtime.htm
 tech.root: mstv
 ms.assetid: 9968c1b1-5a4d-45a1-a083-afdbcc616f6d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEstimatedTime, GetEstimatedTime method [Microsoft TV Technologies], GetEstimatedTime method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetEstimatedTime method, IESRequestTunerEvent.GetEstimatedTime, IESRequestTunerEvent::GetEstimatedTime, mstv.iesrequesttunerevent_getestimatedtime, tuner/IESRequestTunerEvent::GetEstimatedTime
 ms.topic: method

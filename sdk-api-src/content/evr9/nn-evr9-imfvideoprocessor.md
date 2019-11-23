@@ -1,12 +1,12 @@
 ---
 UID: NN:evr9.IMFVideoProcessor
 title: IMFVideoProcessor (evr9.h)
-author: windows-sdk-content
+
 description: Controls video processing in the Enhanced Video Renderer (EVR).
 old-location: mf\imfvideoprocessor.htm
 tech.root: medfound
 ms.assetid: 0a63c4f8-eb32-4f0c-b69b-0c16243f2f21
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0a63c4f8-eb32-4f0c-b69b-0c16243f2f21, IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], IMFVideoProcessor interface [Media Foundation],described, evr9/IMFVideoProcessor, mf.imfvideoprocessor
 ms.topic: interface

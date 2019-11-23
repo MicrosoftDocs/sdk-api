@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetVersion
 title: IAppxManifestPackageId::GetVersion (appxpackaging.h)
-author: windows-sdk-content
+
 description: Gets the version of the package as defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid_getversion.htm
 tech.root: appxpkg
 ms.assetid: 85684359-9244-4130-BF0F-56DDB6427345
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [App packaging and management], GetVersion method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetVersion method, IAppxManifestPackageId.GetVersion, IAppxManifestPackageId::GetVersion, appxpackaging/IAppxManifestPackageId::GetVersion, appxpkg.iappxmanifestpackageid_getversion
 ms.topic: method

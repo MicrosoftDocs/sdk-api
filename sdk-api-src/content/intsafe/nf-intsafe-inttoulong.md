@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.IntToULong
 title: IntToULong function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type INT to a value of type ULONG.
 old-location: shell\IntToULong.htm
 tech.root: shell
 ms.assetid: 060915cf-d7a2-48ef-b2b6-303f2cc86c94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IntToDWord, IntToULong, IntToULong function [Windows Shell], _shell_IntToULong, intsafe/IntToULong, shell.IntToULong
 ms.topic: function

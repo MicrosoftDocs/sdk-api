@@ -1,12 +1,12 @@
 ---
 UID: NF:cscobj.IOfflineFilesProgress.Begin
 title: IOfflineFilesProgress::Begin (cscobj.h)
-author: windows-sdk-content
+
 description: Reports that an operation has begun.
 old-location: of\iofflinefilesprogress_begin.htm
 tech.root: offlinefiles
 ms.assetid: d3fe6abf-fc0c-4bba-9c9f-5d0e77c27b43
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Offline Files], Begin method [Offline Files],IOfflineFilesProgress interface, IOfflineFilesProgress interface [Offline Files],Begin method, IOfflineFilesProgress.Begin, IOfflineFilesProgress::Begin, cscobj/IOfflineFilesProgress::Begin, of.iofflinefilesprogress_begin
 ms.topic: method

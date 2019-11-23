@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetRegisteredRawInputDevices
 title: GetRegisteredRawInputDevices function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the information about the raw input devices for the current application.
 old-location: inputdev\getregisteredrawinputdevices.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\getregisteredrawinputdevices.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRegisteredRawInputDevices, GetRegisteredRawInputDevices function [Keyboard and Mouse Input], _win32_GetRegisteredRawInputDevices, _win32_getregisteredrawinputdevices_cpp, inputdev.getregisteredrawinputdevices, winui._win32_getregisteredrawinputdevices, winuser/GetRegisteredRawInputDevices
 ms.topic: function

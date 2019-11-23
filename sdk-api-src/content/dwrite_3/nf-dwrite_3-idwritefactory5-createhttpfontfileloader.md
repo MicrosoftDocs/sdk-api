@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory5.CreateHttpFontFileLoader
 title: IDWriteFactory5::CreateHttpFontFileLoader (dwrite_3.h)
-author: windows-sdk-content
+
 description: Creates a remote font file loader that can create font file references from HTTP or HTTPS URLs. The caller is responsible for registering and unregistering the loader.
 old-location: directwrite\idwritefactory5_createhttpfontfileloader.htm
 tech.root: DirectWrite
 ms.assetid: 7C8D581E-489D-48BE-8B3F-278E1C246BBA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateHttpFontFileLoader, CreateHttpFontFileLoader method [Direct Write], CreateHttpFontFileLoader method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],CreateHttpFontFileLoader method, IDWriteFactory5.CreateHttpFontFileLoader, IDWriteFactory5::CreateHttpFontFileLoader, directwrite.idwritefactory5_createhttpfontfileloader, dwrite_3/IDWriteFactory5::CreateHttpFontFileLoader
 ms.topic: method

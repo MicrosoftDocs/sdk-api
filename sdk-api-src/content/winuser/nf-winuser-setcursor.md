@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.SetCursor
 title: SetCursor function (winuser.h)
-author: windows-sdk-content
+
 description: Sets the cursor shape.
 old-location: menurc\setcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setcursor.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetCursor, SetCursor function [Menus and Other Resources], _win32_SetCursor, _win32_setcursor_cpp, menurc.setcursor, winui._win32_setcursor, winuser/SetCursor
 ms.topic: function

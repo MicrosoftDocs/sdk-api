@@ -1,12 +1,12 @@
 ---
 UID: NS:nb30._FIND_NAME_HEADER
 title: FIND_NAME_HEADER (nb30.h)
-author: windows-sdk-content
+
 description: The FIND_NAME_HEADER structure contains information about a network name. This structure is followed by as many FIND_NAME_BUFFER structures as are required to describe the name.
 old-location: netbios\find_name_header.htm
 tech.root: NetBIOS
 ms.assetid: 66b0cf77-3c25-4b00-9e9b-abc0442e3831
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PFIND_NAME_HEADER, FIND_NAME_HEADER, FIND_NAME_HEADER structure [NetBIOS], PFIND_NAME_HEADER, PFIND_NAME_HEADER structure pointer [NetBIOS], nb30/FIND_NAME_HEADER, nb30/PFIND_NAME_HEADER, netbios.find_name_header'
 ms.topic: struct

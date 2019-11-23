@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionFactory2.CreateTransition
 title: IUIAnimationTransitionFactory2::CreateTransition (uianimation.h)
-author: windows-sdk-content
+
 description: Creates a transition from a custom interpolator for a given dimension.
 old-location: uianimation\iuianimationtransitionfactory2_createtransition.htm
 tech.root: UIAnimation
 ms.assetid: CFF79A6B-B2C1-4B48-8F1E-70ED2CBC567A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateTransition, CreateTransition method [Windows Animation], CreateTransition method [Windows Animation],IUIAnimationTransitionFactory2 interface, IUIAnimationTransitionFactory2 interface [Windows Animation],CreateTransition method, IUIAnimationTransitionFactory2.CreateTransition, IUIAnimationTransitionFactory2::CreateTransition, uianimation.iuianimationtransitionfactory2_createtransition, uianimation/IUIAnimationTransitionFactory2::CreateTransition
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:msctf.ITfDisplayAttributeMgr
 title: ITfDisplayAttributeMgr (msctf.h)
-author: windows-sdk-content
+
 description: The ITfDisplayAttributeMgr interface is implemented by the TSF manager and used by an application to obtain and enumerate display attributes. Individual display attributes are accessed through the ITfDisplayAttributeInfo interface.
 old-location: tsf\itfdisplayattributemgr.htm
 tech.root: TSF
 ms.assetid: 4a1f9a13-54a1-4294-9635-80eef8bcd8d5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeMgr, ITfDisplayAttributeMgr interface [Text Services Framework], ITfDisplayAttributeMgr interface [Text Services Framework],described, _tsf_itfdisplayattributemgr_ref, msctf/ITfDisplayAttributeMgr, tsf.itfdisplayattributemgr
 ms.topic: interface

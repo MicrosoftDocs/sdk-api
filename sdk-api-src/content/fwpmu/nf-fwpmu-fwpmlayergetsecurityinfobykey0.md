@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmLayerGetSecurityInfoByKey0
 title: FwpmLayerGetSecurityInfoByKey0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Retrieves a copy of the security descriptor for a layer object.
 old-location: fwp\fwpmlayergetsecurityinfobykey0_func.htm
 tech.root: fwp
 ms.assetid: 04e948be-c9e8-49b4-ac08-0ee488b54922
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmLayerGetSecurityInfoByKey0, FwpmLayerGetSecurityInfoByKey0 function [Filtering], fwp.fwpmlayergetsecurityinfobykey0_func, fwpmu/FwpmLayerGetSecurityInfoByKey0
 ms.topic: function

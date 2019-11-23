@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.ChoosePixelFormat
 title: ChoosePixelFormat function (wingdi.h)
-author: windows-sdk-content
+
 description: The ChoosePixelFormat function attempts to match an appropriate pixel format supported by a device context to a given pixel format specification.
 old-location: opengl\choosepixelformat.htm
 tech.root: OpenGL
 ms.assetid: 17bd0a2c-5257-4ae3-80f4-a5ad536169fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ChoosePixelFormat, ChoosePixelFormat function [OpenGL], _ogl_ChoosePixelFormat, opengl.choosepixelformat, wingdi/ChoosePixelFormat
 ms.topic: function

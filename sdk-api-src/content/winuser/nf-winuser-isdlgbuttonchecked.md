@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.IsDlgButtonChecked
 title: IsDlgButtonChecked function (winuser.h)
-author: windows-sdk-content
+
 description: The IsDlgButtonChecked function determines whether a button control is checked or whether a three-state button control is checked, unchecked, or indeterminate.
 old-location: controls\IsDlgButtonChecked.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\isdlgbuttonchecked.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsDlgButtonChecked, IsDlgButtonChecked function [Windows Controls], _win32_IsDlgButtonChecked, _win32_IsDlgButtonChecked_cpp, controls.IsDlgButtonChecked, controls._win32_IsDlgButtonChecked, winuser/IsDlgButtonChecked
 ms.topic: function

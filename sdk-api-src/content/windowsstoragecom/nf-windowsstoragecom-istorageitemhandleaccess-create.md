@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsstoragecom.IStorageItemHandleAccess.Create
 title: IStorageItemHandleAccess::Create (windowsstoragecom.h)
-author: windows-sdk-content
+
 description: Creates a handle to a file.
 old-location: winrt\istorageitemhandleaccess_create.htm
 tech.root: WinRT
 ms.assetid: 2BBF5CFE-0212-4133-BA19-DEA322ED5569
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Windows Runtime], Create method [Windows Runtime],IStorageItemHandleAccess interface, IStorageItemHandleAccess interface [Windows Runtime],Create method, IStorageItemHandleAccess.Create, IStorageItemHandleAccess::Create, windowsstoragecom/IStorageItemHandleAccess::Create, winrt.istorageitemhandleaccess_create
 ms.topic: method

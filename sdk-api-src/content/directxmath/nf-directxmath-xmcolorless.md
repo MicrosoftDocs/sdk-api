@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMColorLess
 title: XMColorLess function (directxmath.h)
-author: windows-sdk-content
+
 description: Tests whether all the components of the first color are less than the corresponding components of the second color.
 old-location: dxmath\xmcolorless.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorLess(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorLess, XMColorLess, XMColorLess method [DirectX Math Support APIs], dxmath.xmcolorless
 ms.topic: function

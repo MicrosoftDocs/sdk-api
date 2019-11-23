@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrConflict.Next
 title: IEnumSyncMgrConflict::Next (syncmgr.h)
-author: windows-sdk-content
+
 description: Gets the next batch of conflicts from the conflicts store.
 old-location: shell\IEnumSyncMgrConflict_Next.htm
 tech.root: shell
 ms.assetid: 486fba93-cdd1-49fd-96a8-cf56d1775a7c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrConflict interface [Windows Shell],Next method, IEnumSyncMgrConflict.Next, IEnumSyncMgrConflict::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumSyncMgrConflict interface, _shell_IEnumSyncMgrConflict_Next, shell.IEnumSyncMgrConflict_Next, syncmgr/IEnumSyncMgrConflict::Next
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.GetSystemDEPPolicy
 title: GetSystemDEPPolicy function (winbase.h)
-author: windows-sdk-content
+
 description: Gets the data execution prevention (DEP) policy setting for the system.
 old-location: base\getsystemdeppolicy.htm
 tech.root: Memory
 ms.assetid: 82cb1d4e-c0e5-4601-aa55-9171a106c286
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSystemDEPPolicy, GetSystemDEPPolicy function, base.getsystemdeppolicy, winbase/GetSystemDEPPolicy
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:naptypes.tagIsolationInfoEx
 title: IsolationInfoEx (naptypes.h)
-author: windows-sdk-content
+
 description: Defines the extended isolation status of the machine or the connection.
 old-location: nap\isolationinfoex.htm
 tech.root: NAP
 ms.assetid: 7b361429-015f-4ecc-8569-3075b5b7b85d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsolationInfoEx, IsolationInfoEx structure [NAP], nap.isolationinfoex, naptypes/IsolationInfoEx
 ms.topic: struct

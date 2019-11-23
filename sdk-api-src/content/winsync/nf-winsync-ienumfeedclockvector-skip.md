@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IEnumFeedClockVector.Skip
 title: IEnumFeedClockVector::Skip (winsync.h)
-author: windows-sdk-content
+
 description: Skips the specified number of clock vector elements.
 old-location: winsync\ienumfeedclockvector_skip.htm
 tech.root: winsync
 ms.assetid: eabe3389-2c1f-4b0e-a062-24bbe3fa87f9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Skip method, IEnumFeedClockVector.Skip, IEnumFeedClockVector::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_skip, winsync/IEnumFeedClockVector::Skip
 ms.topic: method

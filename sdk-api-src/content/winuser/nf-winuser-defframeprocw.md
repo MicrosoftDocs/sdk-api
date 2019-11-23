@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.DefFrameProcW
 title: DefFrameProcW function (winuser.h)
-author: windows-sdk-content
+
 description: Provides default processing for any window messages that the window procedure of a multiple-document interface (MDI) frame window does not process.
 old-location: winmsg\defframeproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\defframeproc.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DefFrameProc, DefFrameProc function [Windows and Messages], DefFrameProcA, DefFrameProcW, _win32_DefFrameProc, _win32_defframeproc_cpp, winmsg.defframeproc, winui._win32_defframeproc, winuser/DefFrameProc, winuser/DefFrameProcA, winuser/DefFrameProcW
 ms.topic: function

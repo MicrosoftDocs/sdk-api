@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.LookupAccountSidW
 title: LookupAccountSidW function (winbase.h)
-author: windows-sdk-content
+
 description: Accepts a security identifier (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
 old-location: security\lookupaccountsid.htm
 tech.root: SecAuthZ
 ms.assetid: b8a44ffc-86e1-4f79-ad51-8340da9eaefd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LookupAccountSid, LookupAccountSid function [Security], LookupAccountSidA, LookupAccountSidW, _win32_lookupaccountsid, security.lookupaccountsid, winbase/LookupAccountSid, winbase/LookupAccountSidA, winbase/LookupAccountSidW
 ms.topic: function

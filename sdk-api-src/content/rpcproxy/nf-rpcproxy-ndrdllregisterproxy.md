@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcproxy.NdrDllRegisterProxy
 title: NdrDllRegisterProxy function (rpcproxy.h)
-author: windows-sdk-content
+
 description: The NdrDllRegisterProxy function creates a registry entry for the interfaces contained in the proxy DLL.
 old-location: rpc\ndrdllregisterproxy.htm
 tech.root: Rpc
 ms.assetid: 555a9e8b-c720-4bd5-872c-1af317511858
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NdrDllRegisterProxy, NdrDllRegisterProxy function [RPC], rpc.ndrdllregisterproxy, rpcproxy/NdrDllRegisterProxy
 ms.topic: function

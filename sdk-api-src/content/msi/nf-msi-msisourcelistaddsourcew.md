@@ -1,12 +1,12 @@
 ---
 UID: NF:msi.MsiSourceListAddSourceW
 title: MsiSourceListAddSourceW function (msi.h)
-author: windows-sdk-content
+
 description: Adds to the list of valid network sources that contain the specified type of sources for a product or patch in a specified user context.
 old-location: setup\msisourcelistaddsource.htm
 tech.root: Msi
 ms.assetid: 5f01a49a-38ae-4a53-967a-38aad1aa01f4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MsiSourceListAddSource, MsiSourceListAddSource function, MsiSourceListAddSourceA, MsiSourceListAddSourceW, _msi_msisourcelistaddsource, msi/MsiSourceListAddSource, msi/MsiSourceListAddSourceA, msi/MsiSourceListAddSourceW, setup.msisourcelistaddsource
 ms.topic: function

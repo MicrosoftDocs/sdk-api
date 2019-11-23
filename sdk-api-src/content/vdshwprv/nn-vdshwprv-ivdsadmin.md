@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsAdmin
 title: IVdsAdmin (vdshwprv.h)
-author: windows-sdk-content
+
 description: Registers providers with VDS.
 old-location: base\ivdsadmin.htm
 tech.root: VDS
 ms.assetid: 693ee0c0-9f86-4f78-9724-f3a3420463c9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsAdmin, IVdsAdmin interface [VDS], IVdsAdmin interface [VDS],described, base.ivdsadmin, vdshwprv/IVdsAdmin
 ms.topic: interface

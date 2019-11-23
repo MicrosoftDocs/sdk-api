@@ -1,12 +1,12 @@
 ---
 UID: NN:msopc.IOpcPart
 title: IOpcPart (msopc.h)
-author: windows-sdk-content
+
 description: Represents a part that contains data and is not a Relationships part.
 old-location: opc\iopcpart.htm
 tech.root: OPC
 ms.assetid: e6a40f30-03d1-4c93-a5e0-563b4c6588b4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOpcPart, IOpcPart interface [Open Packaging Conventions], IOpcPart interface [Open Packaging Conventions],described, msopc/IOpcPart, opc.iopcpart
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NS:wsman._WSMAN_FILTER
 title: WSMAN_FILTER (wsman.h)
-author: windows-sdk-content
+
 description: WSMAN_FILTER is reserved for future use.
 old-location: winrm\wsman_filter.htm
 tech.root: winrm
 ms.assetid: d99c11a8-e91f-428f-98b1-d3116d027691
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSMAN_FILTER, WSMAN_FILTER structure [Windows Remote Management], winrm.wsman_filter, wsman/WSMAN_FILTER
 ms.topic: struct

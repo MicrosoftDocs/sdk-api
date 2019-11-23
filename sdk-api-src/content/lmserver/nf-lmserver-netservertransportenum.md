@@ -1,12 +1,12 @@
 ---
 UID: NF:lmserver.NetServerTransportEnum
 title: NetServerTransportEnum function (lmserver.h)
-author: windows-sdk-content
+
 description: The NetServerTransportEnum function supplies information about transport protocols that are managed by the server.
 old-location: netmgmt\netservertransportenum.htm
 tech.root: NetMgmt
 ms.assetid: db42ac44-d70d-4b89-882a-6ac83fd611fd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetServerTransportEnum, NetServerTransportEnum function [Network Management], _win32_netservertransportenum, lmserver/NetServerTransportEnum, netmgmt.netservertransportenum
 ms.topic: function

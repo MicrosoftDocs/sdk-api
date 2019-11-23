@@ -1,12 +1,12 @@
 ---
 UID: NF:bcrypt.BCryptSecretAgreement
 title: BCryptSecretAgreement function (bcrypt.h)
-author: windows-sdk-content
+
 description: Creates a secret agreement value from a private and a public key.
 old-location: security\bcryptsecretagreement.htm
 tech.root: SecCNG
 ms.assetid: 96863d81-3643-4962-8abf-db1cc2acde07
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BCryptSecretAgreement, BCryptSecretAgreement function [Security], bcrypt/BCryptSecretAgreement, security.bcryptsecretagreement
 ms.topic: function

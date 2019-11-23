@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.CreateClusterGroup
 title: CreateClusterGroup function (clusapi.h)
-author: windows-sdk-content
+
 description: Adds a group to a cluster and returns a handle to the newly added group.
 old-location: mscs\createclustergroup.htm
 tech.root: MsCS
 ms.assetid: 7011640e-87d0-4f2b-971c-9e86c77db13e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateClusterGroup, CreateClusterGroup function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUP, PCLUSAPI_CREATE_CLUSTER_GROUP function [Failover Cluster], _wolf_createclustergroup, clusapi/CreateClusterGroup, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP, mscs.createclustergroup
 ms.topic: function

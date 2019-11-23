@@ -1,12 +1,12 @@
 ---
 UID: NF:winstring.WindowsPromoteStringBuffer
 title: WindowsPromoteStringBuffer function (winstring.h)
-author: windows-sdk-content
+
 description: Creates an HSTRING from the specified HSTRING_BUFFER.
 old-location: winrt\windowspromotestringbuffer.htm
 tech.root: WinRT
 ms.assetid: ac5261fd-2d31-4c65-84f2-4c6b4c3566bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WindowsPromoteStringBuffer, WindowsPromoteStringBuffer function [Windows Runtime], winrt.windowspromotestringbuffer, winstring/WindowsPromoteStringBuffer
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:sspi.SspiEncodeStringsAsAuthIdentity
 title: SspiEncodeStringsAsAuthIdentity function (sspi.h)
-author: windows-sdk-content
+
 description: Encodes a set of three credential strings as an authentication identity structure.
 old-location: security\sspiencodestringsasauthidentity.htm
 tech.root: SecAuthN
 ms.assetid: 0aea2f00-fcf1-4c4e-a22f-a669dd4fb294
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SspiEncodeStringsAsAuthIdentity, SspiEncodeStringsAsAuthIdentity function [Security], security.sspiencodestringsasauthidentity, sspi/SspiEncodeStringsAsAuthIdentity
 ms.topic: function

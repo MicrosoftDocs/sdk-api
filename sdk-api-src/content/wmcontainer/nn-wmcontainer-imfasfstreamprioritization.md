@@ -1,12 +1,12 @@
 ---
 UID: NN:wmcontainer.IMFASFStreamPrioritization
 title: IMFASFStreamPrioritization (wmcontainer.h)
-author: windows-sdk-content
+
 description: Not implemented.
 old-location: mf\imfasfstreamprioritization.htm
 tech.root: medfound
 ms.assetid: 6eb79c52-dc81-406c-9000-d25ad380e6b2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 6eb79c52-dc81-406c-9000-d25ad380e6b2, IMFASFStreamPrioritization, IMFASFStreamPrioritization interface [Media Foundation], IMFASFStreamPrioritization interface [Media Foundation],described, mf.imfasfstreamprioritization, wmcontainer/IMFASFStreamPrioritization
 ms.topic: interface

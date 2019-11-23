@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IHandlerActivationHost.BeforeCoCreateInstance
 title: IHandlerActivationHost::BeforeCoCreateInstance (shobjidl_core.h)
-author: windows-sdk-content
+
 description: "."
 old-location: shell\IHandlerActivationHost_BeforeCoCreateInstance.htm
 tech.root: shell
 ms.assetid: 6ec3f90a-4b65-4cbc-a777-a338c97f1acf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BeforeCoCreateInstance, BeforeCoCreateInstance method [Windows Shell], BeforeCoCreateInstance method [Windows Shell],IHandlerActivationHost interface, IHandlerActivationHost interface [Windows Shell],BeforeCoCreateInstance method, IHandlerActivationHost.BeforeCoCreateInstance, IHandlerActivationHost::BeforeCoCreateInstance, shell.IHandlerActivationHost_BeforeCoCreateInstance, shobjidl_core/IHandlerActivationHost::BeforeCoCreateInstance
 ms.topic: method

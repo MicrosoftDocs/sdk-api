@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d12.D3D12_CULL_MODE
 title: D3D12_CULL_MODE (d3d12.h)
-author: windows-sdk-content
+
 description: Specifies triangles facing a particular direction are not drawn.
 old-location: direct3d12\d3d12_cull_mode.htm
 tech.root: direct3d12
 ms.assetid: C605D9C3-6188-4307-81C0-753D2043EF4E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_CULL_MODE, D3D12_CULL_MODE enumeration, D3D12_CULL_MODE_BACK, D3D12_CULL_MODE_FRONT, D3D12_CULL_MODE_NONE, d3d12/D3D12_CULL_MODE, d3d12/D3D12_CULL_MODE_BACK, d3d12/D3D12_CULL_MODE_FRONT, d3d12/D3D12_CULL_MODE_NONE, direct3d12.d3d12_cull_mode
 ms.topic: enum

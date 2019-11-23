@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiSetSelectedDriverW
 title: SetupDiSetSelectedDriverW function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupDiSetSelectedDriver function sets, or resets, the selected driver for a device information element or the selected class driver for a device information set.
 old-location: devinst\setupdisetselecteddriver.htm
 tech.root: devinst
 ms.assetid: 791df876-9037-405b-b899-eea2b577d923
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetSelectedDriver, SetupDiSetSelectedDriver function [Device and Driver Installation], SetupDiSetSelectedDriverA, SetupDiSetSelectedDriverW, devinst.setupdisetselecteddriver, di-rtns_823d52e2-7c55-4c52-bccc-809135f28251.xml, setupapi/SetupDiSetSelectedDriver
 ms.topic: function

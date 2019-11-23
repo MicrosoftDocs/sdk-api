@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusimagecodec.GetImageDecodersSize
 title: GetImageDecodersSize function (gdiplusimagecodec.h)
-author: windows-sdk-content
+
 description: The GetImageDecodersSize function gets the number of available image decoders and the total size of the array of ImageCodecInfo objects that is returned by the GetImageDecoders function.
 old-location: gdiplus\_gdiplus_FUNC_GetImageDecodersSize_numDecoders_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getimagedecoderssize.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetImageDecodersSize, GetImageDecodersSize function [GDI+], _gdiplus_FUNC_GetImageDecodersSize_numDecoders_size_, gdiplus._gdiplus_FUNC_GetImageDecodersSize_numDecoders_size_, gdiplusimagecodec/GetImageDecodersSize
 ms.topic: function

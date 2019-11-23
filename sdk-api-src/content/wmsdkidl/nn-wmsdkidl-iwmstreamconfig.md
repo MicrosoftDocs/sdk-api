@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMStreamConfig
 title: IWMStreamConfig (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMStreamConfig interface is the primary interface of a stream configuration object.
 old-location: wmformat\iwmstreamconfig.htm
 tech.root: wmformat
 ms.assetid: e013996a-95b6-4cd3-9fb5-75dbce821eef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig, IWMStreamConfig interface [windows Media Format], IWMStreamConfig interface [windows Media Format],described, IWMStreamConfigInterface, wmformat.iwmstreamconfig, wmsdkidl/IWMStreamConfig
 ms.topic: interface

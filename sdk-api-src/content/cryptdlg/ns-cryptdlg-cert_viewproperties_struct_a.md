@@ -1,12 +1,12 @@
 ---
 UID: NS:cryptdlg.tagCERT_VIEWPROPERTIES_STRUCT_A
 title: CERT_VIEWPROPERTIES_STRUCT_A (cryptdlg.h)
-author: windows-sdk-content
+
 description: The CERT_VIEWPROPERTIES_STRUCT structure defines information used when the CertViewProperties function is called to display a certificate's properties.
 old-location: security\cert_viewproperties_struct.htm
 tech.root: SecCrypto
 ms.assetid: 3d18526b-1052-4f0c-999b-881a74a94549
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_VIEWPROPERTIES_STRUCT_A, CERT_VIEWPROPERTIES_STRUCT, CERT_VIEWPROPERTIES_STRUCT structure [Security], CERT_VIEWPROPERTIES_STRUCT_A, CM_ADD_CERT_STORES, CM_ENABLEHOOK, CM_ENABLETEMPLATE, CM_HIDE_ADVANCEPAGE, CM_HIDE_DETAILPAGE, CM_HIDE_TRUSTPAGE, CM_NO_EDITTRUST, CM_NO_NAMECHANGE, CM_SHOW_HELP, CM_SHOW_HELPICON, PCERT_VIEWPROPERTIES_STRUCT, PCERT_VIEWPROPERTIES_STRUCT structure pointer [Security], cryptdlg/CERT_VIEWPROPERTIES_STRUCT, cryptdlg/PCERT_VIEWPROPERTIES_STRUCT, security.cert_viewproperties_struct"
 ms.topic: struct

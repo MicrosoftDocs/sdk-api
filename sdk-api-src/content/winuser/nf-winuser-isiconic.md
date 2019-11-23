@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.IsIconic
 title: IsIconic function (winuser.h)
-author: windows-sdk-content
+
 description: Determines whether the specified window is minimized (iconic).
 old-location: winmsg\isiconic.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\isiconic.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsIconic, IsIconic function [Windows and Messages], _win32_IsIconic, _win32_isiconic_cpp, winmsg.isiconic, winui._win32_isiconic, winuser/IsIconic
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.IATSC_EIT.GetRecordStartTime
 title: IATSC_EIT::GetRecordStartTime (atscpsipparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_eit_getrecordstarttime.htm
 tech.root: mstv
 ms.assetid: c403e86c-0579-47a2-ba87-0d2aec2e186c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRecordStartTime, GetRecordStartTime method [Microsoft TV Technologies], GetRecordStartTime method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordStartTime method, IATSC_EIT.GetRecordStartTime, IATSC_EIT::GetRecordStartTime, IATSC_EITGetRecordStartTime, atscpsipparser/IATSC_EIT::GetRecordStartTime, mstv.iatsc_eit_getrecordstarttime
 ms.topic: method

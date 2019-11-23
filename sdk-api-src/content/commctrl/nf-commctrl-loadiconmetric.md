@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.LoadIconMetric
 title: LoadIconMetric function (commctrl.h)
-author: windows-sdk-content
+
 description: Loads a specified icon resource with a client-specified system metric.
 old-location: controls\LoadIconMetric.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\loadiconmetric.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LIM_LARGE, LIM_SMALL, LoadIconMetric, LoadIconMetric function [Windows Controls], _shell_LoadIconMetric, _shell_LoadIconMetric_cpp, commctrl/LoadIconMetric, controls.LoadIconMetric, controls._shell_LoadIconMetric
 ms.topic: function

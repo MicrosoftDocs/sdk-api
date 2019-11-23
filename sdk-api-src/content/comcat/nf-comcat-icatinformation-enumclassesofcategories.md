@@ -1,12 +1,12 @@
 ---
 UID: NF:comcat.ICatInformation.EnumClassesOfCategories
 title: ICatInformation::EnumClassesOfCategories (comcat.h)
-author: windows-sdk-content
+
 description: Retrieves an enumerator for the classes that implement one or more specified category identifiers.
 old-location: com\icatinformation_enumclassesofcategories.htm
 tech.root: com
 ms.assetid: 13d470ff-77e6-4a17-b2c9-c53676e21fba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumClassesOfCategories, EnumClassesOfCategories method [COM], EnumClassesOfCategories method [COM],ICatInformation interface, ICatInformation interface [COM],EnumClassesOfCategories method, ICatInformation.EnumClassesOfCategories, ICatInformation::EnumClassesOfCategories, _com_icatinformation_enumclassesofcategories, com.icatinformation_enumclassesofcategories, comcat/ICatInformation::EnumClassesOfCategories
 ms.topic: method

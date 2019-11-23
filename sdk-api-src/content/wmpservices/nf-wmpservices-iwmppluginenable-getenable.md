@@ -1,12 +1,12 @@
 ---
 UID: NF:wmpservices.IWMPPluginEnable.GetEnable
 title: IWMPPluginEnable::GetEnable (wmpservices.h)
-author: windows-sdk-content
+
 description: The IWMPPluginEnable::GetEnable method returns a value indicating whether Windows Media Player has enabled the plug-in.
 old-location: wmp\iwmppluginenable_getenable.htm
 tech.root: WMP
 ms.assetid: 29a08f6e-17a7-4bff-9aea-d5586d2b55b3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEnable, GetEnable method [Windows Media Player], GetEnable method [Windows Media Player],IWMPPluginEnable interface, IWMPPluginEnable interface [Windows Media Player],GetEnable method, IWMPPluginEnable.GetEnable, IWMPPluginEnable::GetEnable, IWMPPluginEnableGetEnableDSP, wmp.iwmppluginenable_getenable, wmpservices/IWMPPluginEnable::GetEnable
 ms.topic: method

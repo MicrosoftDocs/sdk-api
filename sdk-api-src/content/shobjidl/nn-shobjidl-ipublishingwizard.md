@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl.IPublishingWizard
 title: IPublishingWizard (shobjidl.h)
-author: windows-sdk-content
+
 description: Exposes methods for working with the Online Print Wizard, the Web Publishing Wizard, and the Add Network Place Wizard. In Windows Vista, IPublishingWizard no longer supports the Web Publishing Wizard or Online Print Wizard.
 old-location: shell\IPublishingWizard.htm
 tech.root: shell
 ms.assetid: 634dcc04-e2ed-4cde-bb4d-d2e8bcf5ab94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPublishingWizard, IPublishingWizard interface [Windows Shell], IPublishingWizard interface [Windows Shell],described, _shell_IPublishingWizard, shell.IPublishingWizard, shobjidl/IPublishingWizard
 ms.topic: interface

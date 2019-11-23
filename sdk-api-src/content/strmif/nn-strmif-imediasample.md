@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IMediaSample
 title: IMediaSample (strmif.h)
-author: windows-sdk-content
+
 description: The IMediaSample interface sets and retrieves properties on media samples.
 old-location: dshow\imediasample.htm
 tech.root: DirectShow
 ms.assetid: 883e5e3b-db91-4806-96cc-c6f8cddfcca6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMediaSample, IMediaSample interface [DirectShow], IMediaSample interface [DirectShow],described, IMediaSampleInterface, dshow.imediasample, strmif/IMediaSample
 ms.topic: interface

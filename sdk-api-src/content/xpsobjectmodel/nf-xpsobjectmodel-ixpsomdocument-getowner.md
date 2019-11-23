@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetOwner
 title: IXpsOMDocument::GetOwner (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets a pointer to the IXpsOMDocumentSequence interface that contains the document.
 old-location: xps\ixpsomdocument_getowner.htm
 tech.root: printdocs
 ms.assetid: ae465c16-9756-4c5d-9601-3087ced9c1f0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetOwner method, IXpsOMDocument.GetOwner, IXpsOMDocument::GetOwner, xps.ixpsomdocument_getowner, xpsobjectmodel/IXpsOMDocument::GetOwner
 ms.topic: method

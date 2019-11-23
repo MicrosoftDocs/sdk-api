@@ -1,12 +1,12 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMembers
 title: IMetaDataImport::EnumMembers (rometadataapi.h)
-author: windows-sdk-content
+
 description: Enumerates MemberDef tokens representing members of the specified type.
 old-location: winrt\imetadataimport_enummembers.htm
 tech.root: WinRT
 ms.assetid: cb1e90fe-e5c8-4f6d-b38a-ae7f46cb34e9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumMembers, EnumMembers method [Windows Runtime], EnumMembers method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMembers method, IMetaDataImport.EnumMembers, IMetaDataImport::EnumMembers, rometadataapi/IMetaDataImport::EnumMembers, winrt.imetadataimport_enummembers
 ms.topic: method

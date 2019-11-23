@@ -1,12 +1,12 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_23
 title: IntServTspecBody (lpmapi.h)
-author: windows-sdk-content
+
 description: The IntServTspecBody structure contains information for an RSVP Tspec.
 old-location: qos\intservtspecbody.htm
 tech.root: QOS
 ms.assetid: c4244dba-237a-437b-94b7-fd814edb3506
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IntServTspecBody, IntServTspecBody structure [QOS], lpmapi/IntServTspecBody, qos.intservtspecbody
 ms.topic: struct

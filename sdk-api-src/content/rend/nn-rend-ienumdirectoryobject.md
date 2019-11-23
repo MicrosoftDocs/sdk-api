@@ -1,12 +1,12 @@
 ---
 UID: NN:rend.IEnumDirectoryObject
 title: IEnumDirectoryObject (rend.h)
-author: windows-sdk-content
+
 description: The IEnumDirectoryObject interface provides COM-standard enumeration methods for the ITDirectoryObject interface. The ITDirectory::EnumerateDirectoryObjects method returns a pointer to IEnumDirectoryObject.
 old-location: tapi3\ienumdirectoryobject.htm
 tech.root: Tapi
 ms.assetid: 328183cd-a80b-4f1f-9e5e-9f466a4e4b43
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumDirectoryObject, IEnumDirectoryObject interface [TAPI 2.2], IEnumDirectoryObject interface [TAPI 2.2],described, _tapi3_ienumdirectoryobject, rend/IEnumDirectoryObject, tapi3.ienumdirectoryobject
 ms.topic: interface

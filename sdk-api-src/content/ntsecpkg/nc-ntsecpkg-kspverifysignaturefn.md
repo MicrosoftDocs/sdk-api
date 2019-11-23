@@ -1,12 +1,12 @@
 ---
 UID: NC:ntsecpkg.KspVerifySignatureFn
 title: KspVerifySignatureFn (ntsecpkg.h)
-author: windows-sdk-content
+
 description: Verifies that the message received is correct according to the signature.
 old-location: security\spverifysignature.htm
 tech.root: SecAuthN
 ms.assetid: 62a74a1d-c7e6-4722-af57-997a5ff553ee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: KspVerifySignatureFn, KspVerifySignatureFn callback, SpVerifySignature, SpVerifySignature callback function [Security], _ssp_spverifysignature, ntsecpkg/SpVerifySignature, security.spverifysignature
 ms.topic: callback

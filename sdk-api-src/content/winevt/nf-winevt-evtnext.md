@@ -1,12 +1,12 @@
 ---
 UID: NF:winevt.EvtNext
 title: EvtNext function (winevt.h)
-author: windows-sdk-content
+
 description: Gets the next event from the query or subscription results.
 old-location: wes\evtnext.htm
 tech.root: wes
 ms.assetid: 46d40734-f022-4775-aa4f-13f4069c43c8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EvtNext, EvtNext function [EventLog], wes.evtnext, winevt/EvtNext
 ms.topic: function

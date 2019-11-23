@@ -1,12 +1,12 @@
 ---
 UID: NS:lsalookup._LSA_STRING
 title: LSA_STRING (lsalookup.h)
-author: windows-sdk-content
+
 description: Used by Local Security Authority (LSA) functions to specify an ANSI string.
 old-location: security\lsa_string.htm
 tech.root: SecAuthN
 ms.assetid: 4ae4160f-bcad-41d9-8239-91da44702b76
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PLSA_STRING, LSA_STRING, LSA_STRING structure [Security], PLSA_STRING, PLSA_STRING structure pointer [Security], _lsa_lsa_string, lsalookup/LSA_STRING, lsalookup/PLSA_STRING, security.lsa_string"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsx.ListBox_AddString
 title: ListBox_AddString macro (windowsx.h)
-author: windows-sdk-content
+
 description: Adds a string to a list box.
 old-location: controls\ListBox_AddString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_addstring.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ListBox_AddString, ListBox_AddString macro [Windows Controls], _win32_ListBox_AddString, _win32_ListBox_AddString_cpp, controls.ListBox_AddString, controls._win32_ListBox_AddString, windowsx/ListBox_AddString
 ms.topic: macro

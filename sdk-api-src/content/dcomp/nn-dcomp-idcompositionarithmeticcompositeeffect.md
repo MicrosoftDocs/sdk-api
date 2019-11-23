@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionArithmeticCompositeEffect
 title: IDCompositionArithmeticCompositeEffect (dcomp.h)
-author: windows-sdk-content
+
 description: The arithmetic composite effect is used to combine 2 images using a weighted sum of pixels from the input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect.htm
 tech.root: directcomp
 ms.assetid: 06430DD6-B6BF-4F55-A99C-13860B800444
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect, IDCompositionArithmeticCompositeEffect interface [DirectComposition], IDCompositionArithmeticCompositeEffect interface [DirectComposition],described, dcomp/IDCompositionArithmeticCompositeEffect, directcomp.idcompositionarithmeticcompositeeffect
 ms.topic: interface

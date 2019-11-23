@@ -1,12 +1,12 @@
 ---
 UID: NF:peerdist.PeerDistServerOpenContentInformationEx
 title: PeerDistServerOpenContentInformationEx function (peerdist.h)
-author: windows-sdk-content
+
 description: PeerDistServerOpenContentInformationEx function opens a PEERDIST_CONTENTINFO_HANDLE. The client uses the handle to retrieve content information.
 old-location: p2p\peerdistserveropencontentinformationex.htm
 tech.root: P2PSdk
 ms.assetid: cba9a9e8-2397-4c78-925f-ee5d817d1ee4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerOpenContentInformationEx, PeerDistServerOpenContentInformationEx function [Peer Networking], p2p.peerdistserveropencontentinformationex, peerdist/PeerDistServerOpenContentInformationEx
 ms.topic: function

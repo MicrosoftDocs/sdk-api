@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10effect.D3D10StateBlockMaskGetSetting
 title: D3D10StateBlockMaskGetSetting function (d3d10effect.h)
-author: windows-sdk-content
+
 description: Get an element in a state-block mask; determine if an element is allowed by the mask for capturing and applying.
 old-location: direct3d10\d3d10stateblockmaskgetsetting.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskgetsetting.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 6309c42d-db39-eb28-25e5-ba740c57a969, D3D10StateBlockMaskGetSetting, D3D10StateBlockMaskGetSetting function [Direct3D 10], d3d10effect/D3D10StateBlockMaskGetSetting, direct3d10.d3d10stateblockmaskgetsetting
 ms.topic: function

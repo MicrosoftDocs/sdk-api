@@ -1,12 +1,12 @@
 ---
 UID: NF:peninputpanel.IHandwrittenTextInsertion.InsertRecognitionResultsArray
 title: IHandwrittenTextInsertion::InsertRecognitionResultsArray (peninputpanel.h)
-author: windows-sdk-content
+
 description: Insert recognition results array.
 old-location: tablet\ihandwrittentextinsertion_insertrecognitionresultsarray.htm
 tech.root: tablet
 ms.assetid: c3566d1c-e4fb-4f0d-9beb-0b5e5db66985
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IHandWrittenTextInsertion interface [Tablet PC],InsertRecognitionResultsArray method, IHandWrittenTextInsertion::InsertRecognitionResultsArray, IHandwrittenTextInsertion.InsertRecognitionResultsArray, IHandwrittenTextInsertion::InsertRecognitionResultsArray, InsertRecognitionResultsArray, InsertRecognitionResultsArray method [Tablet PC], InsertRecognitionResultsArray method [Tablet PC],IHandWrittenTextInsertion interface, c3566d1c-e4fb-4f0d-9beb-0b5e5db66985, peninputpanel/IHandWrittenTextInsertion::InsertRecognitionResultsArray, tablet.ihandwrittentextinsertion_insertrecognitionresultsarray
 ms.topic: method

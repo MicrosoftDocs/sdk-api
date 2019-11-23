@@ -1,12 +1,12 @@
 ---
 UID: NF:rtmv2.RtmCreateRouteList
 title: RtmCreateRouteList function (rtmv2.h)
-author: windows-sdk-content
+
 description: The RtmCreateRouteList function creates a list in which the caller can keep a copy of the routes it owns.
 old-location: rras\rtmcreateroutelist.htm
 tech.root: RRAS
 ms.assetid: 6fa732a8-6c2f-4034-ab13-d64845fab14c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RtmCreateRouteList, RtmCreateRouteList function [RAS], _rtmv2ref_rtmcreateroutelist, rras.rtmcreateroutelist, rtmv2/RtmCreateRouteList
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfFunctionProvider.GetType
 title: ITfFunctionProvider::GetType (msctf.h)
-author: windows-sdk-content
+
 description: ITfFunctionProvider::GetType method
 old-location: tsf\itffunctionprovider_gettype.htm
 tech.root: TSF
 ms.assetid: fff9ad62-f777-423c-a59d-ebd7d99da6a9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Text Services Framework], GetType method [Text Services Framework],ITfFunctionProvider interface, ITfFunctionProvider interface [Text Services Framework],GetType method, ITfFunctionProvider.GetType, ITfFunctionProvider::GetType, _tsf_itffunctionprovider_gettype_ref, msctf/ITfFunctionProvider::GetType, tsf.itffunctionprovider_gettype
 ms.topic: method

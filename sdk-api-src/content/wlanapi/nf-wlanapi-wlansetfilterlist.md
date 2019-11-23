@@ -1,12 +1,12 @@
 ---
 UID: NF:wlanapi.WlanSetFilterList
 title: WlanSetFilterList function (wlanapi.h)
-author: windows-sdk-content
+
 description: Sets the permit/deny list.
 old-location: nwifi\wlansetfilterlist.htm
 tech.root: NativeWiFi
 ms.assetid: 697682c9-cb26-42d6-86b5-d7adebcedc68
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WlanSetFilterList, WlanSetFilterList function [NativeWIFI], nwifi.wlansetfilterlist, wlanapi/WlanSetFilterList
 ms.topic: function

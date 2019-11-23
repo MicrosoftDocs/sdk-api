@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_DisplayName
 title: ITraceDataProvider::get_DisplayName (pla.h)
-author: windows-sdk-content
+
 description: Retrieves or sets the display name of the provider.
 old-location: pla\itracedataprovider_displayname.htm
 tech.root: PLA
 ms.assetid: 1a162b71-d4e3-4259-9980-bf40766983b1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DisplayName property [PLA], DisplayName property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],DisplayName property, ITraceDataProvider.DisplayName, ITraceDataProvider.get_DisplayName, ITraceDataProvider::DisplayName, ITraceDataProvider::get_DisplayName, ITraceDataProvider::put_DisplayName, base.itracedataprovider_displayname, get_DisplayName, pla.itracedataprovider_displayname, pla/ITraceDataProvider::DisplayName, pla/ITraceDataProvider::get_DisplayName, pla/ITraceDataProvider::put_DisplayName
 ms.topic: method

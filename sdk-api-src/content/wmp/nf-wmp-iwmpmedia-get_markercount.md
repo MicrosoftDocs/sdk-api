@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPMedia.get_markerCount
 title: IWMPMedia::get_markerCount (wmp.h)
-author: windows-sdk-content
+
 description: The get_markerCount method retrieves the number of markers in the media item.
 old-location: wmp\iwmpmedia_get_markercount.htm
 tech.root: WMP
 ms.assetid: e97c8d26-fa6a-4791-a698-b742eaf980eb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],get_markerCount method, IWMPMedia.get_markerCount, IWMPMedia2 interface [Windows Media Player],get_markerCount method, IWMPMedia2::get_markerCount, IWMPMedia3 interface [Windows Media Player],get_markerCount method, IWMPMedia3::get_markerCount, IWMPMedia::get_markerCount, IWMPMediaget_markerCount, get_markerCount, get_markerCount method [Windows Media Player], get_markerCount method [Windows Media Player],IWMPMedia interface, get_markerCount method [Windows Media Player],IWMPMedia2 interface, get_markerCount method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_markercount, wmp/IWMPMedia2::get_markerCount, wmp/IWMPMedia3::get_markerCount, wmp/IWMPMedia::get_markerCount
 ms.topic: method

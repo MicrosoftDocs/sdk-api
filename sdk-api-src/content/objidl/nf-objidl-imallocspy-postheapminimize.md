@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IMallocSpy.PostHeapMinimize
 title: IMallocSpy::PostHeapMinimize (objidl.h)
-author: windows-sdk-content
+
 description: Performs operations required after calling IMalloc::HeapMinimize.
 old-location: com\imallocspy_postheapminimize.htm
 tech.root: com
 ms.assetid: 9d51c34e-6ed1-493d-8999-e67c4a60f6b6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PostHeapMinimize method, IMallocSpy.PostHeapMinimize, IMallocSpy::PostHeapMinimize, PostHeapMinimize, PostHeapMinimize method [COM], PostHeapMinimize method [COM],IMallocSpy interface, _com_imallocspy_postheapminimize, com.imallocspy_postheapminimize, objidl/IMallocSpy::PostHeapMinimize
 ms.topic: method

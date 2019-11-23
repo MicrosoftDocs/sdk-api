@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.IPsecGetStatistics1
 title: IPsecGetStatistics1 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Retrieves Internet Protocol Security (IPsec) statistics.
 old-location: fwp\ipsecgetstatistics1_func.htm
 tech.root: fwp
 ms.assetid: cb95167c-224f-4c78-a0a2-8268f766aa05
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPsecGetStatistics1, IPsecGetStatistics1 function [Filtering], fwp.ipsecgetstatistics1_func, fwpmu/IPsecGetStatistics1
 ms.topic: function

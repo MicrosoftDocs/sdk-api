@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.AssocQueryStringByKeyA
 title: AssocQueryStringByKeyA function (shlwapi.h)
-author: windows-sdk-content
+
 description: Searches for and retrieves a file association-related string from the registry starting from a specified key.
 old-location: shell\AssocQueryStringByKey.htm
 tech.root: shell
 ms.assetid: 6816f7fe-9a70-4c5f-bd45-d1ca96d4ebd0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AssocQueryStringByKey, AssocQueryStringByKey function [Windows Shell], AssocQueryStringByKeyA, AssocQueryStringByKeyW, _win32_AssocQueryStringByKey, shell.AssocQueryStringByKey, shlwapi/AssocQueryStringByKey, shlwapi/AssocQueryStringByKeyA, shlwapi/AssocQueryStringByKeyW
 ms.topic: function

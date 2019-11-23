@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgPaint
 title: ID2D1SvgPaint (d2d1svg.h)
-author: windows-sdk-content
+
 description: Interface describing an SVG fill or stroke value.
 old-location: direct2d\id2d1svgpaint.htm
 tech.root: Direct2D
 ms.assetid: 80FE02F1-D83B-4AA1-94F1-B754106CB19D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPaint, ID2D1SvgPaint interface [Direct2D], ID2D1SvgPaint interface [Direct2D],described, d2d1svg/ID2D1SvgPaint, direct2d.id2d1svgpaint
 ms.topic: interface

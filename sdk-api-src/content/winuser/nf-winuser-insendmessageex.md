@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.InSendMessageEx
 title: InSendMessageEx function (winuser.h)
-author: windows-sdk-content
+
 description: Determines whether the current window procedure is processing a message that was sent from another thread (in the same process or a different process).
 old-location: winmsg\insendmessageex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\insendmessageex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InSendMessageEx, InSendMessageEx function [Windows and Messages], _win32_InSendMessageEx, _win32_insendmessageex_cpp, winmsg.insendmessageex, winui._win32_insendmessageex, winuser/InSendMessageEx
 ms.topic: function

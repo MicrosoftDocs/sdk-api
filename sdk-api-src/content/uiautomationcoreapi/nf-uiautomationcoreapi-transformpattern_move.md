@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.TransformPattern_Move
 title: TransformPattern_Move function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Moves an element to a specified location on the screen.
 old-location: winauto\uiauto_TransformPattern_MoveConPat.htm
 tech.root: WinAuto
 ms.assetid: 283bf97f-b5fd-438c-b923-9aca97a69e1b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TransformPattern_Move, TransformPattern_Move function [Windows Accessibility], uiauto.uiauto_TransformPattern_MoveConPat, uiauto_TransformPattern_MoveConPat, uiautomationcoreapi/TransformPattern_Move, winauto.uiauto_TransformPattern_MoveConPat
 ms.topic: function

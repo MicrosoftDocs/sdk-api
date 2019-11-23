@@ -1,12 +1,12 @@
 ---
 UID: NN:taskschd.IIdleSettings
 title: IIdleSettings (taskschd.h)
-author: windows-sdk-content
+
 description: Specifies how the Task Scheduler performs tasks when the computer is in an idle condition.
 old-location: taskschd\iidlesettings.htm
 tech.root: taskschd
 ms.assetid: a6bd9278-b9ac-4eb3-957a-5191cee12a6f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IIdleSettings, IIdleSettings interface [Task Scheduler], IIdleSettings interface [Task Scheduler],described, taskschd.iidlesettings, taskschd/IIdleSettings
 ms.topic: interface

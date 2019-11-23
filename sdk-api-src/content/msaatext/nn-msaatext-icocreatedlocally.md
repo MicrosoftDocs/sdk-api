@@ -1,12 +1,12 @@
 ---
 UID: NN:msaatext.ICoCreatedLocally
 title: ICoCreatedLocally (msaatext.h)
-author: windows-sdk-content
+
 description: Exposes a method to return information about a local object.
 old-location: winauto\icocreatedlocally.htm
 tech.root: WinAuto
 ms.assetid: 118b77c7-cde3-4672-aea0-670fd3a9a4cb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICoCreatedLocally, ICoCreatedLocally interface [Windows Accessibility], ICoCreatedLocally interface [Windows Accessibility],described, msaa.icocreatedlocally, msaatext/ICoCreatedLocally, winauto.icocreatedlocally
 ms.topic: interface

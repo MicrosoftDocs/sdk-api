@@ -1,12 +1,12 @@
 ---
 UID: NF:ntmsapi.InjectNtmsCleaner
 title: InjectNtmsCleaner function (ntmsapi.h)
-author: windows-sdk-content
+
 description: The InjectNtmsCleaner function allows a cleaner cartridge to be inserted into the specified library unit.
 old-location: fs\injectntmscleaner.htm
 tech.root: Rsm
 ms.assetid: 973441cb-2ec4-4a8d-8e75-3c6d01552a59
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InjectNtmsCleaner, InjectNtmsCleaner function [Files], NTMS_INJECT_START, NTMS_INJECT_STOP, _zaw_injectntmscleaner, base.injectntmscleaner, fs.injectntmscleaner, ntmsapi/InjectNtmsCleaner
 ms.topic: function

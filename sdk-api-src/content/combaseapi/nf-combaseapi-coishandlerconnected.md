@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoIsHandlerConnected
 title: CoIsHandlerConnected function (combaseapi.h)
-author: windows-sdk-content
+
 description: Determines whether a remote object is connected to the corresponding in-process object.
 old-location: com\coishandlerconnected.htm
 tech.root: com
 ms.assetid: f58bdec6-3709-439d-9867-0022a069c53d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoIsHandlerConnected, CoIsHandlerConnected function [COM], _com_CoIsHandlerConnected, com.coishandlerconnected, combaseapi/CoIsHandlerConnected
 ms.topic: function

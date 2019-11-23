@@ -1,12 +1,12 @@
 ---
 UID: NF:msdrm.DRMGetInfo
 title: DRMGetInfo function (msdrm.h)
-author: windows-sdk-content
+
 description: Retrieves information about encrypting or decrypting objects.
 old-location: rm\drmgetinfo.htm
 tech.root: AdRms_Sdk
 ms.assetid: 6cb1275a-c0e4-48df-a389-76add74bdabd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DRMGetInfo, DRMGetInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetInfo, rm.drmgetinfo
 ms.topic: function

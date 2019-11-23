@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactory.CreateProvider
 title: IUIAutomationProxyFactory::CreateProvider (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Creates a proxy object that provides Microsoft UI Automation support for a UI element.
 old-location: winauto\uiauto_IUIAutomationProxyFactory_CreateProvider.htm
 tech.root: WinAuto
 ms.assetid: c7ac43d3-443f-42cf-98d5-e558034c9d40
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateProvider, CreateProvider method [Windows Accessibility], CreateProvider method [Windows Accessibility],IUIAutomationProxyFactory interface, IUIAutomationProxyFactory interface [Windows Accessibility],CreateProvider method, IUIAutomationProxyFactory.CreateProvider, IUIAutomationProxyFactory::CreateProvider, uiauto.uiauto_IUIAutomationProxyFactory_CreateProvider, uiauto_IUIAutomationProxyFactory_CreateProvider, uiautomationclient/IUIAutomationProxyFactory::CreateProvider, winauto.uiauto_IUIAutomationProxyFactory_CreateProvider
 ms.topic: method

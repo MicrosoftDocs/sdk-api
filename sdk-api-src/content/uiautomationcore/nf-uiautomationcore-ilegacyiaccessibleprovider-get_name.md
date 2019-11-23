@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_Name
 title: ILegacyIAccessibleProvider::get_Name (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Specifies the name of this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Name.htm
 tech.root: WinAuto
 ms.assetid: ec5c4ca5-e40c-4ea4-9765-25b09f7f16d8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],Name property, ILegacyIAccessibleProvider.Name, ILegacyIAccessibleProvider.get_Name, ILegacyIAccessibleProvider::Name, ILegacyIAccessibleProvider::get_Name, Name property [Windows Accessibility], Name property [Windows Accessibility],ILegacyIAccessibleProvider interface, get_Name, uiauto.uiauto_ILegacyIAccessibleProvider_Name, uiauto_ILegacyIAccessibleProvider_Name, uiautomationcore/ILegacyIAccessibleProvider::Name, uiautomationcore/ILegacyIAccessibleProvider::get_Name, winauto.uiauto_ILegacyIAccessibleProvider_Name
 ms.topic: method

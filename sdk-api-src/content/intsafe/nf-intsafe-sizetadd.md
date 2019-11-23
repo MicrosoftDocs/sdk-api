@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.SizeTAdd
 title: SizeTAdd function (intsafe.h)
-author: windows-sdk-content
+
 description: Adds two values of type size_t.
 old-location: shell\SizeTAdd.htm
 tech.root: shell
 ms.assetid: 1cabc944-0819-4a24-ab61-6d5375ba1573
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SizeTAdd, SizeTAdd function [Windows Shell], _shell_SizeTAdd, intsafe/SizeTAdd, shell.SizeTAdd
 ms.topic: function

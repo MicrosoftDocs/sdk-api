@@ -1,12 +1,12 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextFormattedText
 title: IMFTimedTextFormattedText (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Represents a block of formatted timed-text.
 old-location: mf\imftimedtextformattedtext.htm
 tech.root: medfound
 ms.assetid: 98327CA2-21C4-481F-B979-12C31AA1E7B2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextFormattedText, IMFTimedTextFormattedText interface [Media Foundation], IMFTimedTextFormattedText interface [Media Foundation],described, mf.imftimedtextformattedtext, mfmediaengine/IMFTimedTextFormattedText
 ms.topic: interface

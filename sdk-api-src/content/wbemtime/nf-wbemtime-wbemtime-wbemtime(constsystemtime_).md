@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemtime.WBEMTime.WBEMTime(const SYSTEMTIME &)
 title: WBEMTime::WBEMTime(const SYSTEMTIME &) (wbemtime.h)
-author: windows-sdk-content
+
 description: The WBEMTime overload class constructor takes a SYSTEMTIME parameter.
 old-location: wmi\wbemtime_wbemtime_const_systemtime__.htm
 tech.root: WmiSdk
 ms.assetid: 02bc92e3-17cd-4102-bbaa-cc3216b426ff
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "??0WBEMTime@@QAE@ABU_SYSTEMTIME@@@Z, ??0WBEMTime@@QEAA@AEBU_SYSTEMTIME@@@Z, WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const SYSTEMTIME &), WBEMTime::WBEMTime, WBEMTime::WBEMTime(const SYSTEMTIME &), WBEMTime::WBEMTime(const SYSTEMTIME&), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_const_systemtime__"
 ms.topic: method

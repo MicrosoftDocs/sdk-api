@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.CloseClusterNode
 title: CloseClusterNode function (clusapi.h)
-author: windows-sdk-content
+
 description: Closes a node handle.
 old-location: mscs\closeclusternode.htm
 tech.root: MsCS
 ms.assetid: e2d90b7e-d181-48b6-a891-b885c24a15ea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CloseClusterNode, CloseClusterNode function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_NODE, PCLUSAPI_CLOSE_CLUSTER_NODE function [Failover Cluster], _wolf_closeclusternode, clusapi/CloseClusterNode, clusapi/PCLUSAPI_CLOSE_CLUSTER_NODE, mscs.closeclusternode
 ms.topic: function

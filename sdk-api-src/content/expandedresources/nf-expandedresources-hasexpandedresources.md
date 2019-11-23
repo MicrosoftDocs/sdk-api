@@ -1,12 +1,12 @@
 ---
 UID: NF:expandedresources.HasExpandedResources
 title: HasExpandedResources function (expandedresources.h)
-author: windows-sdk-content
+
 description: Gets the current resource state (that is, whether the app is running in Game Mode or shared mode).
 old-location: gamemode\hasexpandedresources.htm
 tech.root: gamemode
 ms.assetid: E0434DBD-4C1A-4675-94A3-4954BCC67CD5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HasExpandedResources, HasExpandedResources function, expandedresources/HasExpandedResources, gamemode.hasexpandedresources
 ms.topic: function

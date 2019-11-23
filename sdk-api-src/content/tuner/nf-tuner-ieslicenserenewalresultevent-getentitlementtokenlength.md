@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetEntitlementTokenLength
 title: IESLicenseRenewalResultEvent::GetEntitlementTokenLength (tuner.h)
-author: windows-sdk-content
+
 description: Gets the length of the entitlement token in a protected-content license from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent_getentitlementtokenlength.htm
 tech.root: mstv
 ms.assetid: e1c8f12c-c2f1-48c1-90fc-051ac87863d5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEntitlementTokenLength, GetEntitlementTokenLength method [DirectShow], GetEntitlementTokenLength method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetEntitlementTokenLength method, IESLicenseRenewalResultEvent.GetEntitlementTokenLength, IESLicenseRenewalResultEvent::GetEntitlementTokenLength, mstv.ieslicenserenewalresultevent_getentitlementtokenlength, tuner/IESLicenseRenewalResultEvent::GetEntitlementTokenLength
 ms.topic: method

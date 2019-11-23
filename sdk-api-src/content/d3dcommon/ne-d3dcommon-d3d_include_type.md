@@ -1,12 +1,12 @@
 ---
 UID: NE:d3dcommon._D3D_INCLUDE_TYPE
 title: D3D_INCLUDE_TYPE (d3dcommon.h)
-author: windows-sdk-content
+
 description: Values that indicate the location of a shader
 old-location: direct3d11\d3d_include_type.htm
 tech.root: direct3d11
 ms.assetid: 98f0b0dd-9ff8-4321-a9ea-2deabc9529f2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D10_INCLUDE_LOCAL, D3D10_INCLUDE_SYSTEM, D3D_INCLUDE_FORCE_DWORD, D3D_INCLUDE_LOCAL, D3D_INCLUDE_SYSTEM, D3D_INCLUDE_TYPE, D3D_INCLUDE_TYPE enumeration [Direct3D 11], d3dcommon/D3D10_INCLUDE_LOCAL, d3dcommon/D3D10_INCLUDE_SYSTEM, d3dcommon/D3D_INCLUDE_FORCE_DWORD, d3dcommon/D3D_INCLUDE_LOCAL, d3dcommon/D3D_INCLUDE_SYSTEM, d3dcommon/D3D_INCLUDE_TYPE, direct3d11.d3d_include_type
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NN:mediaobj.IEnumDMO
 title: IEnumDMO (mediaobj.h)
-author: windows-sdk-content
+
 description: The IEnumDMO interface provides methods for enumerating Microsoft DirectX Media Objects (DMOs). It is based on the OLE enumeration interfaces. For more information, see the IEnumXXXX topic in the Platform SDK.
 old-location: dshow\ienumdmo.htm
 tech.root: DirectShow
 ms.assetid: 221248f2-5c8f-442e-a6ad-e0372ddc1aae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumDMO, IEnumDMO interface [DirectShow], IEnumDMO interface [DirectShow],described, IEnumDMOInterface, dshow.ienumdmo, mediaobj/IEnumDMO
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.ChangeClusterResourceGroup
 title: ChangeClusterResourceGroup function (clusapi.h)
-author: windows-sdk-content
+
 description: Moves a resource from one group to another.
 old-location: mscs\changeclusterresourcegroup.htm
 tech.root: MsCS
 ms.assetid: 99720615-ad5d-4d9a-a6ae-8ba1cd2499f2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ChangeClusterResourceGroup, ChangeClusterResourceGroup function [Failover Cluster], PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP function [Failover Cluster], _wolf_changeclusterresourcegroup, clusapi/ChangeClusterResourceGroup, clusapi/PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, mscs.changeclusterresourcegroup
 ms.topic: function

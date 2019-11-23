@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_OriginalScheduledTime
 title: IFaxOutgoingJob::get_OriginalScheduledTime (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutgoingJob::get_OriginalScheduledTime property specifies the time that the fax job was originally scheduled for transmission.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_originalscheduledtime_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9jmt.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],OriginalScheduledTime property, IFaxOutgoingJob.OriginalScheduledTime, IFaxOutgoingJob.get_OriginalScheduledTime, IFaxOutgoingJob::OriginalScheduledTime, IFaxOutgoingJob::get_OriginalScheduledTime, OriginalScheduledTime property [Fax Service], OriginalScheduledTime property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.originalscheduledtime, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_originalscheduledtime_cpp, fax._mfax_faxoutgoingjob_originalscheduledtime, faxcomex/IFaxOutgoingJob::OriginalScheduledTime, faxcomex/IFaxOutgoingJob::get_OriginalScheduledTime, get_OriginalScheduledTime
 ms.topic: method

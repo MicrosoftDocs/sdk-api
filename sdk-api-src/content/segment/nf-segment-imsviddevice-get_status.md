@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidDevice.get_Status
 title: IMSVidDevice::get_Status (segment.h)
-author: windows-sdk-content
+
 description: The get_Status method retrieves status information about the device.
 old-location: mstv\imsviddevice_get_status.htm
 tech.root: mstv
 ms.assetid: b11df7f3-d227-4c74-89a3-90716b3b3a12
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Status method, IMSVidDevice.get_Status, IMSVidDevice::get_Status, IMSVidDeviceget_Status, get_Status, get_Status method [Microsoft TV Technologies], get_Status method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_status, segment/IMSVidDevice::get_Status
 ms.topic: method

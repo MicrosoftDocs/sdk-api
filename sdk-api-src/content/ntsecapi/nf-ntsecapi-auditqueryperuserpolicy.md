@@ -1,12 +1,12 @@
 ---
 UID: NF:ntsecapi.AuditQueryPerUserPolicy
 title: AuditQueryPerUserPolicy function (ntsecapi.h)
-author: windows-sdk-content
+
 description: Retrieves per-user audit policy in one or more audit-policy subcategories for the specified principal.
 old-location: security\auditqueryperuserpolicy_func.htm
 tech.root: SecAuthZ
 ms.assetid: 7d4790de-ebd6-4840-b532-7158b8d80db2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AuditQueryPerUserPolicy, AuditQueryPerUserPolicy function [Security], ntsecapi/AuditQueryPerUserPolicy, security.auditqueryperuserpolicy_func
 ms.topic: function

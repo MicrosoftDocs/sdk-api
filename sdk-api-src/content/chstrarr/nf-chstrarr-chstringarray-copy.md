@@ -1,12 +1,12 @@
 ---
 UID: NF:chstrarr.CHStringArray.Copy
 title: CHStringArray::Copy (chstrarr.h)
-author: windows-sdk-content
+
 description: The Copy method overwrites the elements of the given array with the elements of another array.
 old-location: wmi\chstringarray_copy.htm
 tech.root: WmiSdk
 ms.assetid: 9598340f-c315-4c93-bc8a-2b7c1eaf5a35
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],Copy method, CHStringArray.Copy, CHStringArray::Copy, Copy, Copy method [Windows Management Instrumentation], Copy method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_copy, chstrarr/CHStringArray::Copy, wmi.chstringarray_copy
 ms.topic: method

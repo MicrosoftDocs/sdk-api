@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IMultisessionRandomWrite.get_TotalSectorsOnMedia
 title: IMultisessionRandomWrite::get_TotalSectorsOnMedia (imapi2.h)
-author: windows-sdk-content
+
 description: Retrieves the total number of sectors on the media.
 old-location: imapi\imultisessionrandomwrite_get_totalsectorsonmedia.htm
 tech.root: imapi
 ms.assetid: 22afe893-dc8b-42dc-bbb5-78ed245d300b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMultisessionRandomWrite interface [IMAPI],get_TotalSectorsOnMedia method, IMultisessionRandomWrite.get_TotalSectorsOnMedia, IMultisessionRandomWrite::get_TotalSectorsOnMedia, get_TotalSectorsOnMedia, get_TotalSectorsOnMedia method [IMAPI], get_TotalSectorsOnMedia method [IMAPI],IMultisessionRandomWrite interface, imapi.imultisessionrandomwrite_get_totalsectorsonmedia, imapi2/IMultisessionRandomWrite::get_TotalSectorsOnMedia
 ms.topic: method

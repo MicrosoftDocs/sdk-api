@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFConvertColorInfoFromDXVA
 title: MFConvertColorInfoFromDXVA function (mfapi.h)
-author: windows-sdk-content
+
 description: Sets the extended color information in a MFVIDEOFORMAT structure.
 old-location: mf\mfconvertcolorinfofromdxva.htm
 tech.root: medfound
 ms.assetid: b16874cc-1eb3-43dd-bd4c-3ea77be10bd2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFConvertColorInfoFromDXVA, MFConvertColorInfoFromDXVA function [Media Foundation], b16874cc-1eb3-43dd-bd4c-3ea77be10bd2, mf.mfconvertcolorinfofromdxva, mfapi/MFConvertColorInfoFromDXVA
 ms.topic: function

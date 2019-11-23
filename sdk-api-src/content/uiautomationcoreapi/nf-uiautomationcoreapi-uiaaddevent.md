@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.UiaAddEvent
 title: UiaAddEvent function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Adds a listener for events on a node in the UI Automation tree.
 old-location: winauto\uiauto_UiaAddEventClientEvent.htm
 tech.root: WinAuto
 ms.assetid: 6d53c864-2791-4693-84dd-c7c1d8262b1f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UiaAddEvent, UiaAddEvent function [Windows Accessibility], uiauto.uiauto_UiaAddEventClientEvent, uiauto_UiaAddEventClientEvent, uiautomationcoreapi/UiaAddEvent, winauto.uiauto_UiaAddEventClientEvent
 ms.topic: function

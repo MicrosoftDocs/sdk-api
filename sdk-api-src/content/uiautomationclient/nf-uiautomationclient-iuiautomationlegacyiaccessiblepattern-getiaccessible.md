@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.GetIAccessible
 title: IUIAutomationLegacyIAccessiblePattern::GetIAccessible (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves an IAccessible object that corresponds to the Microsoft UI Automation element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible.htm
 tech.root: WinAuto
 ms.assetid: 58ce3005-dfac-4ffe-b874-69a2f994e7a6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetIAccessible, GetIAccessible method [Windows Accessibility], GetIAccessible method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],GetIAccessible method, IUIAutomationLegacyIAccessiblePattern.GetIAccessible, IUIAutomationLegacyIAccessiblePattern::GetIAccessible, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible, uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::GetIAccessible, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible
 ms.topic: method

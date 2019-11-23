@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo2.GetNumericRepresentation
 title: IWICPixelFormatInfo2::GetNumericRepresentation (wincodec.h)
-author: windows-sdk-content
+
 description: IWICPixelFormatInfo2::GetNumericRepresentation method
 old-location: wic\_wic_codec_iwicpixelformatinfo2_getnumericrepresentation.htm
 tech.root: wic
 ms.assetid: b987e5b9-33a4-485f-9c7a-1fcb907b5424
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNumericRepresentation, GetNumericRepresentation method [Windows Imaging Component], GetNumericRepresentation method [Windows Imaging Component],IWICPixelFormatInfo2 interface, IWICPixelFormatInfo2 interface [Windows Imaging Component],GetNumericRepresentation method, IWICPixelFormatInfo2.GetNumericRepresentation, IWICPixelFormatInfo2::GetNumericRepresentation, _wic_codec_iwicpixelformatinfo2_getnumericrepresentation, wic._wic_codec_iwicpixelformatinfo2_getnumericrepresentation, wincodec/IWICPixelFormatInfo2::GetNumericRepresentation
 ms.topic: method

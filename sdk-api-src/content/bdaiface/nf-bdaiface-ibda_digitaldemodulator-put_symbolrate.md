@@ -1,12 +1,12 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_SymbolRate
 title: IBDA_DigitalDemodulator::put_SymbolRate (bdaiface.h)
-author: windows-sdk-content
+
 description: The put_SymbolRate method specifies the symbol rate for the signal.
 old-location: mstv\ibda_digitaldemodulator_put_symbolrate.htm
 tech.root: mstv
 ms.assetid: ec37e7a5-d2e8-468a-8b5b-d1a1fa538bfe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_SymbolRate method, IBDA_DigitalDemodulator.put_SymbolRate, IBDA_DigitalDemodulator::put_SymbolRate, IBDA_DigitalDemodulatorput_SymbolRate, bdaiface/IBDA_DigitalDemodulator::put_SymbolRate, mstv.ibda_digitaldemodulator_put_symbolrate, put_SymbolRate, put_SymbolRate method [Microsoft TV Technologies], put_SymbolRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.topic: method

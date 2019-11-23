@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace5.GetFontAxisValues
 title: IDWriteFontFace5::GetFontAxisValues
-author: windows-sdk-content
+
 description: Retrieves the list of axis values used by the font.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace5 interface [Direct Write],GetFontAxisValues method, IDWriteFontFace5.GetFontAxisValues, IDWriteFontFace5::GetFontAxisValues, GetFontAxisValues, GetFontAxisValues method [Direct Write], GetFontAxisValues method [Direct Write],IDWriteFontFace5 interface, directwrite.idwritefontface5_getfontaxisvalues, dwrite_3/IDWriteFontFace5::GetFontAxisValues
 ms.topic: method

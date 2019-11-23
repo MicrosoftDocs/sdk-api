@@ -1,12 +1,12 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_RF_BANDS
 title: WCN_VALUE_TYPE_RF_BANDS (wcntypes.h)
-author: windows-sdk-content
+
 description: WCN_VALUE_TYPE_RF_BANDS enumeration defines the possible radio frequency bands on which an enrollee can send Discovery requests.
 old-location: wcn\wcn_value_type_rf_bands.htm
 tech.root: wcn
 ms.assetid: cf744dc0-dcf7-4ad3-82f0-2ade186ba608
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WCN_VALUE_RB_24GHZ, WCN_VALUE_RB_50GHZ, WCN_VALUE_TYPE_RF_BANDS, WCN_VALUE_TYPE_RF_BANDS enumeration [Windows Connect Now], wcn.wcn_value_type_rf_bands, wcntypes/WCN_VALUE_RB_24GHZ, wcntypes/WCN_VALUE_RB_50GHZ, wcntypes/WCN_VALUE_TYPE_RF_BANDS
 ms.topic: enum

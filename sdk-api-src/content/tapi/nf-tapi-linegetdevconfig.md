@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetDevConfig
 title: lineGetDevConfig function (tapi.h)
-author: windows-sdk-content
+
 description: The lineGetDevConfig function returns an &#0034;opaque&#0034; data structure object, the contents of which are specific to the line (service provider) and device class.
 old-location: tapi2\linegetdevconfig.htm
 tech.root: Tapi
 ms.assetid: 39ff5ddb-142e-4f11-9395-e2c3a3ac7d19
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetdevconfig, lineGetDevConfig, lineGetDevConfig function [TAPI 2.2], lineGetDevConfigA, lineGetDevConfigW, tapi/lineGetDevConfig, tapi/lineGetDevConfigA, tapi/lineGetDevConfigW, tapi2.linegetdevconfig"
 ms.topic: function

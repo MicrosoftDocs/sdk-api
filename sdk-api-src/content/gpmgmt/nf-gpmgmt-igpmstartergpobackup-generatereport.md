@@ -1,12 +1,12 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackup.GenerateReport
 title: IGPMStarterGPOBackup::GenerateReport (gpmgmt.h)
-author: windows-sdk-content
+
 description: The GenerateReport method gets the report for the backup GPO.
 old-location: gpmc\igpmstartergpobackup_generatereport.htm
 tech.root: gpmc
 ms.assetid: ce0dd44f-dfd9-4e7c-9854-9decbc25ec54
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMStarterGPOBackup interface, IGPMStarterGPOBackup interface [GPMC],GenerateReport method, IGPMStarterGPOBackup.GenerateReport, IGPMStarterGPOBackup::GenerateReport, gpmc.igpmstartergpobackup_generatereport, gpmgmt/IGPMStarterGPOBackup::GenerateReport
 ms.topic: method

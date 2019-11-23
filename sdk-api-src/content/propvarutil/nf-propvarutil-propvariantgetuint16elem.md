@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.PropVariantGetUInt16Elem
 title: PropVariantGetUInt16Elem function (propvarutil.h)
-author: windows-sdk-content
+
 description: Extracts a single unsigned Int16 element from a PROPVARIANT structure of type VT_U12, VT_VECTOR | VT_U12, or VT_ARRAY | VT_U12.
 old-location: properties\PropVariantGetUInt16Elem.htm
 tech.root: properties
 ms.assetid: da50e35b-f17f-4de6-b2e7-5a885e2149e5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetUInt16Elem, PropVariantGetUInt16Elem function [Windows Properties], _shell_PropVariantGetUInt16Elem, properties.PropVariantGetUInt16Elem, propvarutil/PropVariantGetUInt16Elem, shell.PropVariantGetUInt16Elem
 ms.topic: function

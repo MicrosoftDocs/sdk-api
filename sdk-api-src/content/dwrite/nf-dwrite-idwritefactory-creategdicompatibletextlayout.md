@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateGdiCompatibleTextLayout
 title: IDWriteFactory::CreateGdiCompatibleTextLayout (dwrite.h)
-author: windows-sdk-content
+
 description: Takes a string, format, and associated constraints, and produces an object representing the result, formatted for a particular display resolution and measuring mode.
 old-location: directwrite\IDWriteFactory_CreateDisplayTextLayout.htm
 tech.root: DirectWrite
 ms.assetid: f9205ce6-1586-461a-9c48-3f3f25780dd0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateGdiCompatibleTextLayout, CreateGdiCompatibleTextLayout method [Direct Write], CreateGdiCompatibleTextLayout method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateGdiCompatibleTextLayout method, IDWriteFactory.CreateGdiCompatibleTextLayout, IDWriteFactory::CreateGdiCompatibleTextLayout, directwrite.IDWriteFactory_CreateDisplayTextLayout, dwrite/IDWriteFactory::CreateGdiCompatibleTextLayout
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:aclapi.SetNamedSecurityInfoW
 title: SetNamedSecurityInfoW function (aclapi.h)
-author: windows-sdk-content
+
 description: Sets specified security information in the security descriptor of a specified object.
 old-location: security\setnamedsecurityinfo.htm
 tech.root: SecAuthZ
 ms.assetid: 70fbba50-2576-4857-a955-119fb12bf7b6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetNamedSecurityInfo, SetNamedSecurityInfo function [Security], SetNamedSecurityInfoA, SetNamedSecurityInfoW, _win32_setnamedsecurityinfo, aclapi/SetNamedSecurityInfo, aclapi/SetNamedSecurityInfoA, aclapi/SetNamedSecurityInfoW, security.setnamedsecurityinfo
 ms.topic: function

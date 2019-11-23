@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.BeginPrepareVariants
 title: ICrmCompensatorVariants::BeginPrepareVariants (comsvcs.h)
-author: windows-sdk-content
+
 description: Notifies the CRM Compensator of the prepare phase of the transaction completion and that records are about to be delivered.
 old-location: cos\icrmcompensatorvariants_beginpreparevariants.htm
 tech.root: cossdk
 ms.assetid: f0cbfc39-2a29-4b1f-8d6e-87d0b1c68582
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BeginPrepareVariants, BeginPrepareVariants method [COM+], BeginPrepareVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],BeginPrepareVariants method, ICrmCompensatorVariants.BeginPrepareVariants, ICrmCompensatorVariants::BeginPrepareVariants, _dtc_ICrmCompensatorVariants_BeginPrepareVariants, comsvcs/ICrmCompensatorVariants::BeginPrepareVariants, cos.icrmcompensatorvariants_beginpreparevariants
 ms.topic: method

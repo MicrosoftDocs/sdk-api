@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetTextLanguageCode
 title: IIsdbDownloadContentDescriptor::GetTextLanguageCode (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the three-character ISO 639 language code from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_gettextlanguagecode.htm
 tech.root: mstv
 ms.assetid: 023e2b6f-0f38-4550-a839-29c254970219
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTextLanguageCode, GetTextLanguageCode method [Microsoft TV Technologies], GetTextLanguageCode method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetTextLanguageCode method, IIsdbDownloadContentDescriptor.GetTextLanguageCode, IIsdbDownloadContentDescriptor::GetTextLanguageCode, dvbsiparser/IIsdbDownloadContentDescriptor::GetTextLanguageCode, mstv.iisdbdownloadcontentdescriptor_gettextlanguagecode
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:windows.media.streaming.IDeviceController
 title: IDeviceController (windows.media.streaming.h)
-author: windows-sdk-content
+
 description: Encapsulates the methods and events needed to retrieve a list of cached Digital Media Renderers (DMRs) and/or Digital Media Servers (DMSs), or to asynchronously find the DMRs and/or DMSs that are currently on the network.
 old-location: mediastreaming\idevicecontroller.htm
 tech.root: mediastreaming
 ms.assetid: 18989598-86C5-4BD7-B8F4-27496897DFBA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDeviceController, IDeviceController interface [Media Streaming API], IDeviceController interface [Media Streaming API],described, mediastreaming.idevicecontroller, windows/IDeviceController
 ms.topic: interface

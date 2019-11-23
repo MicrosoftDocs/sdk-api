@@ -1,12 +1,12 @@
 ---
 UID: NN:pla.IAlertDataCollector
 title: IAlertDataCollector (pla.h)
-author: windows-sdk-content
+
 description: Monitors performance counters and performs actions each time a counter value crosses the specified threshold.To create the alert data collector, call the IDataCollectorCollection::CreateDataCollector or IDataCollectorCollection::CreateDataCollectorFromXml method. For details on the XML that you pass to CreateDataCollectorFromXml, see Remarks.
 old-location: pla\ialertdatacollector.htm
 tech.root: PLA
 ms.assetid: 61907979-fa4a-45da-96c5-7cd12021fbb7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAlertDataCollector, IAlertDataCollector interface [PLA], IAlertDataCollector interface [PLA],described, base.ialertdatacollector, pla.ialertdatacollector, pla/IAlertDataCollector
 ms.topic: interface

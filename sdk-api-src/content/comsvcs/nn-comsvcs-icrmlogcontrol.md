@@ -1,12 +1,12 @@
 ---
 UID: NN:comsvcs.ICrmLogControl
 title: ICrmLogControl (comsvcs.h)
-author: windows-sdk-content
+
 description: Is the means by which the CRM Worker and CRM Compensator write records to the log and make them durable.
 old-location: cos\icrmlogcontrol.htm
 tech.root: cossdk
 ms.assetid: 3309ed58-8161-46f3-93bc-afc0c9bc8d50
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICrmLogControl, ICrmLogControl interface [COM+], ICrmLogControl interface [COM+],described, _dtc_ICrmLogControl_Interface, comsvcs/ICrmLogControl, cos.icrmlogcontrol
 ms.topic: interface

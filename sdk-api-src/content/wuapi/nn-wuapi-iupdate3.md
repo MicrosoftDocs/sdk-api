@@ -1,12 +1,12 @@
 ---
 UID: NN:wuapi.IUpdate3
 title: IUpdate3 (wuapi.h)
-author: windows-sdk-content
+
 description: Contains the properties and methods that are available to an update.
 old-location: wua\iupdate3.htm
 tech.root: Wua_Sdk
 ms.assetid: 61b06451-0252-4dbe-8a19-e7260620377d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUpdate3, IUpdate3 interface [Windows Update Agent], IUpdate3 interface [Windows Update Agent],described, wua.iupdate3, wuapi/IUpdate3
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:avrt.AvRtCreateThreadOrderingGroupExW
 title: AvRtCreateThreadOrderingGroupExW function (avrt.h)
-author: windows-sdk-content
+
 description: Creates a thread ordering group and associates the server thread with a task.
 old-location: base\avrtcreatethreadorderinggroupex.htm
 tech.root: ProcThread
 ms.assetid: b1ada400-54d9-4238-8d22-97eaa55dcd50
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AvRtCreateThreadOrderingGroupEx, AvRtCreateThreadOrderingGroupEx function, AvRtCreateThreadOrderingGroupExA, AvRtCreateThreadOrderingGroupExW, avrt/AvRtCreateThreadOrderingGroupEx, avrt/AvRtCreateThreadOrderingGroupExA, avrt/AvRtCreateThreadOrderingGroupExW, base.avrtcreatethreadorderinggroupex
 ms.topic: function

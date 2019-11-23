@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiGetActualSectionToInstallA
 title: SetupDiGetActualSectionToInstallA function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupDiGetActualSectionToInstall function retrieves the appropriate INF DDInstall section to use when installing a device from a device INF file on a local computer.
 old-location: devinst\setupdigetactualsectiontoinstall.htm
 tech.root: devinst
 ms.assetid: ccb5e1a4-e6c3-48e5-ac25-b9b5504a03d7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetActualSectionToInstall, SetupDiGetActualSectionToInstall function [Device and Driver Installation], SetupDiGetActualSectionToInstallA, SetupDiGetActualSectionToInstallW, devinst.setupdigetactualsectiontoinstall, di-rtns_fce32f02-ef7f-4a51-a559-5f0da3738906.xml, setupapi/SetupDiGetActualSectionToInstall
 ms.topic: function

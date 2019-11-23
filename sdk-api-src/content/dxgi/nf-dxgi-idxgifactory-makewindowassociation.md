@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgi.IDXGIFactory.MakeWindowAssociation
 title: IDXGIFactory::MakeWindowAssociation (dxgi.h)
-author: windows-sdk-content
+
 description: Allows DXGI to monitor an application's message queue for the alt-enter key sequence (which causes the application to switch from windowed to full screen or vice versa).
 old-location: direct3ddxgi\idxgifactory_makewindowassociation.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_makewindowassociation.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory interface [DXGI],MakeWindowAssociation method, IDXGIFactory.MakeWindowAssociation, IDXGIFactory::MakeWindowAssociation, MakeWindowAssociation, MakeWindowAssociation method [DXGI], MakeWindowAssociation method [DXGI],IDXGIFactory interface, cae30f32-d52e-b4d6-69fc-2b5a2a52afef, direct3ddxgi.idxgifactory_makewindowassociation, dxgi/IDXGIFactory::MakeWindowAssociation
 ms.topic: method

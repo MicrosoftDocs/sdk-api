@@ -1,12 +1,12 @@
 ---
 UID: NF:magnification.MagGetWindowFilterList
 title: MagGetWindowFilterList function (magnification.h)
-author: windows-sdk-content
+
 description: Retrieves the list of windows that are magnified or excluded from magnification.
 old-location: magapi\magapi_MagGetWindowFilterList.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetwindowfilterlist.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MagGetWindowFilterList, MagGetWindowFilterList function [Magnification API], magapi.magapi_MagGetWindowFilterList, magapi_MagGetWindowFilterList, magnification/MagGetWindowFilterList
 ms.topic: function

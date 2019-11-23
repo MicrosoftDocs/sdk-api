@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_3.ID2D1ImageSourceFromWic.GetSource
 title: ID2D1ImageSourceFromWic::GetSource (d2d1_3.h)
-author: windows-sdk-content
+
 description: Retrieves the underlying bitmap image source from the Windows Imaging Component (WIC).
 old-location: direct2d\id2d1imagesourcefromwic_getsource.htm
 tech.root: Direct2D
 ms.assetid: B7E2FD7F-1427-46D9-B638-6A0FF86042B4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSource, GetSource method [Direct2D], GetSource method [Direct2D],ID2D1ImageSourceFromWic interface, ID2D1ImageSourceFromWic interface [Direct2D],GetSource method, ID2D1ImageSourceFromWic.GetSource, ID2D1ImageSourceFromWic::GetSource, d2d1_3/ID2D1ImageSourceFromWic::GetSource, direct2d.id2d1imagesourcefromwic_getsource
 ms.topic: method

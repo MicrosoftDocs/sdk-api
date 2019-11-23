@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.ICDrawStart
 title: ICDrawStart macro (vfw.h)
-author: windows-sdk-content
+
 description: The ICDrawStart macro notifies a rendering driver to start its internal clock for the timing of drawing frames. You can use this macro or explicitly call the ICM_DRAW_START message.
 old-location: multimedia\icdrawstart.htm
 tech.root: Multimedia
 ms.assetid: 00db96a3-d7e4-42eb-929a-c967ac8380d1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICDrawStart, ICDrawStart macro [Windows Multimedia], _win32_ICDrawStart, multimedia.icdrawstart, vfw/ICDrawStart
 ms.topic: macro

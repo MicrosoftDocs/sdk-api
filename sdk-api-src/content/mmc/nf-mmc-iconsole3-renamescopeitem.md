@@ -1,12 +1,12 @@
 ---
 UID: NF:mmc.IConsole3.RenameScopeItem
 title: IConsole3::RenameScopeItem (mmc.h)
-author: windows-sdk-content
+
 description: The RenameScopeItem method programmatically puts the specified scope item in rename mode. Subsequently, the user can manually enter the new name.
 old-location: mmc\iconsole3_renamescopeitem.htm
 tech.root: mmc
 ms.assetid: ebbdc395-e94f-4e86-965c-59bf7a49bbeb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IConsole3 interface [MMC],RenameScopeItem method, IConsole3.RenameScopeItem, IConsole3::RenameScopeItem, RenameScopeItem, RenameScopeItem method [MMC], RenameScopeItem method [MMC],IConsole3 interface, _slate_iconsole3_renamescopeitem, mmc.iconsole3_renamescopeitem, mmc/IConsole3::RenameScopeItem
 ms.topic: method

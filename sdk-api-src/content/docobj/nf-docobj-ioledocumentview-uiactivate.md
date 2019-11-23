@@ -1,12 +1,12 @@
 ---
 UID: NF:docobj.IOleDocumentView.UIActivate
 title: IOleDocumentView::UIActivate (docobj.h)
-author: windows-sdk-content
+
 description: Activates or deactivates a document view's user interface elements, such as menus, toolbars, and accelerators.
 old-location: com\ioledocumentview_uiactivate.htm
 tech.root: com
 ms.assetid: df92366c-89b3-44b3-bea0-1b6deb321fe4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],UIActivate method, IOleDocumentView.UIActivate, IOleDocumentView::UIActivate, UIActivate, UIActivate method [COM], UIActivate method [COM],IOleDocumentView interface, _ole_ioledocumentview_uiactivate, com.ioledocumentview_uiactivate, docobj/IOleDocumentView::UIActivate
 ms.topic: method

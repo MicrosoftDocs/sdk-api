@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndSetPalette
 title: MCIWndSetPalette macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndSetPalette macro sends a palette handle to the MCI device associated with the MCIWnd window. You can use this macro or explicitly send the MCIWNDM_SETPALETTE message.
 old-location: multimedia\mciwndsetpalette.htm
 tech.root: Multimedia
 ms.assetid: dba9370b-2412-47b2-a140-bc787a448024
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetPalette, MCIWndSetPalette macro [Windows Multimedia], _win32_MCIWndSetPalette, multimedia.mciwndsetpalette, vfw/MCIWndSetPalette
 ms.topic: macro

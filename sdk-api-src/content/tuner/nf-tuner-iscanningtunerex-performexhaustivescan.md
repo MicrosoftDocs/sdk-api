@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.IScanningTunerEx.PerformExhaustiveScan
 title: IScanningTunerEx::PerformExhaustiveScan (tuner.h)
-author: windows-sdk-content
+
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_performexhaustivescan.htm
 tech.root: mstv
 ms.assetid: 35ed1b43-020e-4baa-9f15-eb316d9a137b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],PerformExhaustiveScan method, IScanningTunerEx.PerformExhaustiveScan, IScanningTunerEx::PerformExhaustiveScan, IScanningTunerExPerformExhaustiveScan, PerformExhaustiveScan, PerformExhaustiveScan method [Microsoft TV Technologies], PerformExhaustiveScan method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_performexhaustivescan, tuner/IScanningTunerEx::PerformExhaustiveScan
 ms.topic: method

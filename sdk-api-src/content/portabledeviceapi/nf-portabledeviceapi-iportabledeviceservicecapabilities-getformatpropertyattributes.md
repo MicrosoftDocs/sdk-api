@@ -1,12 +1,12 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetFormatPropertyAttributes
 title: IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes (portabledeviceapi.h)
-author: windows-sdk-content
+
 description: Retrieves the attributes of a format property.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getformatpropertyattributes.htm
 tech.root: wpd_sdk
 ms.assetid: a4120cfd-500d-47dd-87e9-418a32722332
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFormatPropertyAttributes, GetFormatPropertyAttributes method [Windows Portable Devices SDK], GetFormatPropertyAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetFormatPropertyAttributes method, IPortableDeviceServiceCapabilities.GetFormatPropertyAttributes, IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes, wpdsdk.iportabledeviceservicecapabilities_getformatpropertyattributes
 ms.topic: method

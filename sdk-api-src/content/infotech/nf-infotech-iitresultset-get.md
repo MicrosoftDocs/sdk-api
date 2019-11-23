@@ -1,12 +1,12 @@
 ---
 UID: NF:infotech.IITResultSet.Get
 title: IITResultSet::Get (infotech.h)
-author: windows-sdk-content
+
 description: Gets the property in the specified row and column and fills the given property object.
 old-location: htmlhelp\iitresultset_get.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetget.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [HTML Help Workshop], Get method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Get method, IITResultSet.Get, IITResultSet::Get, htmlhelp.iitresultset_get, infotech/IITResultSet::Get, refIITResultSetGet
 ms.topic: method

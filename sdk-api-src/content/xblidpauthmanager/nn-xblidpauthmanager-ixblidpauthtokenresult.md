@@ -1,12 +1,12 @@
 ---
 UID: NN:xblidpauthmanager.IXblIdpAuthTokenResult
 title: IXblIdpAuthTokenResult (xblidpauthmanager.h)
-author: windows-sdk-content
+
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult.htm
 tech.root: xblidp
 ms.assetid: F3E2F3FD-0258-4AB9-B86E-5B12AD8ECA52
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,described, xblidp.ixblidpauthtokenresult, xblidpauthmanager/IXblIdpAuthTokenResult
 ms.topic: interface

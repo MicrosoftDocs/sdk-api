@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.ReleaseDC
 title: ReleaseDC function (winuser.h)
-author: windows-sdk-content
+
 description: The ReleaseDC function releases a device context (DC), freeing it for use by other applications. The effect of the ReleaseDC function depends on the type of DC. It frees only common and window DCs. It has no effect on class or private DCs.
 old-location: gdi\releasedc.htm
 tech.root: gdi
 ms.assetid: c4f48f1e-4a37-4330-908e-2ac5c65e1a1d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ReleaseDC, ReleaseDC function [Windows GDI], _win32_ReleaseDC, gdi.releasedc, winuser/ReleaseDC
 ms.topic: function

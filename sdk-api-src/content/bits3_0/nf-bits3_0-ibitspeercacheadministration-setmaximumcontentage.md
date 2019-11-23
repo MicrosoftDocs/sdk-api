@@ -1,12 +1,12 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.SetMaximumContentAge
 title: IBitsPeerCacheAdministration::SetMaximumContentAge (bits3_0.h)
-author: windows-sdk-content
+
 description: Specifies when files are removed from the cache based on age.
 old-location: bits\ibitspeercacheadministration_setmaximumcontentage.htm
 tech.root: Bits
 ms.assetid: 815d9e48-f1f0-4c40-a277-d78db9d6ace1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBitsPeerCacheAdministration interface [BITS],SetMaximumContentAge method, IBitsPeerCacheAdministration.SetMaximumContentAge, IBitsPeerCacheAdministration::SetMaximumContentAge, SetMaximumContentAge, SetMaximumContentAge method [BITS], SetMaximumContentAge method [BITS],IBitsPeerCacheAdministration interface, bits.ibitspeercacheadministration_setmaximumcontentage, bits3_0/IBitsPeerCacheAdministration::SetMaximumContentAge
 ms.topic: method

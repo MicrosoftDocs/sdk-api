@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.AddThreshold
 title: IFsrmQuotaBase::AddThreshold (fsrmquota.h)
-author: windows-sdk-content
+
 description: Adds a threshold to the quota object.
 old-location: fsrm\ifsrmquotabase_addthreshold.htm
 tech.root: fsrm
 ms.assetid: 9571e169-01a3-4b72-bc84-2f9b2609a6e2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddThreshold, AddThreshold method [File Server Resource Manager], AddThreshold method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],AddThreshold method, IFsrmQuotaBase.AddThreshold, IFsrmQuotaBase::AddThreshold, fs.ifsrmquotabase_addthreshold, fsrm.ifsrmquotabase_addthreshold, fsrmquota/IFsrmQuotaBase::AddThreshold
 ms.topic: method

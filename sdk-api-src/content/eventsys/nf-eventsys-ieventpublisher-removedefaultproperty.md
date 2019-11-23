@@ -1,12 +1,12 @@
 ---
 UID: NF:eventsys.IEventPublisher.RemoveDefaultProperty
 title: IEventPublisher::RemoveDefaultProperty (eventsys.h)
-author: windows-sdk-content
+
 description: Removes a named property and its value from the property bag associated with the event publisher object.
 old-location: com\ieventpublisher_removedefaultproperty.htm
 tech.root: com
 ms.assetid: da691bac-e940-431d-acef-8c29f4a25c70
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEventPublisher interface [COM],RemoveDefaultProperty method, IEventPublisher.RemoveDefaultProperty, IEventPublisher::RemoveDefaultProperty, RemoveDefaultProperty, RemoveDefaultProperty method [COM], RemoveDefaultProperty method [COM],IEventPublisher interface, _com_ieventpublisher_removedefaultproperty, com.ieventpublisher_removedefaultproperty, eventsys/IEventPublisher::RemoveDefaultProperty
 ms.topic: method

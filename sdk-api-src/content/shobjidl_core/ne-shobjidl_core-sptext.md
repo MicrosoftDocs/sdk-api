@@ -1,12 +1,12 @@
 ---
 UID: NE:shobjidl_core._SPTEXT
 title: SPTEXT (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Specifies the type of descriptive text being provided to an IActionProgress interface.
 old-location: shell\SPTEXT.htm
 tech.root: shell
 ms.assetid: 3d33cb3a-5949-446c-97ec-7ac4f4b1f675
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SPTEXT, SPTEXT enumeration [Windows Shell], SPTEXT_ACTIONDESCRIPTION, SPTEXT_ACTIONDETAIL, shell.SPTEXT, shell_SPTEXT, shobjidl_core/SPTEXT, shobjidl_core/SPTEXT_ACTIONDESCRIPTION, shobjidl_core/SPTEXT_ACTIONDETAIL
 ms.topic: enum

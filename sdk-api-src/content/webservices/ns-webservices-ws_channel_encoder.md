@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_CHANNEL_ENCODER
 title: WS_CHANNEL_ENCODER (webservices.h)
-author: windows-sdk-content
+
 description: A structure that is used to specify a set of callbacks that can transform the content type and encoded bytes of a sent message.
 old-location: wsw\ws_channel_encoder.htm
 tech.root: wsw
 ms.assetid: 94ff7082-5cc7-46f3-8eec-d38565bbdb23
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_ENCODER, WS_CHANNEL_ENCODER structure [Web Services for Windows], webservices/WS_CHANNEL_ENCODER, wsw.ws_channel_encoder
 ms.topic: struct

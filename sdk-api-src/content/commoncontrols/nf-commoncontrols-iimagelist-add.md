@@ -1,12 +1,12 @@
 ---
 UID: NF:commoncontrols.IImageList.Add
 title: IImageList::Add (commoncontrols.h)
-author: windows-sdk-content
+
 description: Adds an image or images to an image list.
 old-location: controls\IImageList_Add.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\add.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Windows Controls], Add method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Add method, IImageList.Add, IImageList::Add, comctl_IImageList_Add, comctl_IImageList_Add_cpp, commoncontrols/IImageList::Add, controls.IImageList_Add, controls.comctl_IImageList_Add
 ms.topic: method

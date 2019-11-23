@@ -1,12 +1,12 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserUnmarshal64
 title: LPSAFEARRAY_UserUnmarshal64 function (wia_xp.h)
-author: windows-sdk-content
+
 description: Unmarshals a SAFEARRAY object from the RPC buffer.
 old-location: automat\lpsafearray_userunmarshal64.htm
 tech.root: automat
 ms.assetid: 19B52C54-0905-446C-A8D9-C98153931708
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserUnmarshal64, LPSAFEARRAY_UserUnmarshal64 function [Automation], automat.lpsafearray_userunmarshal64, wia_xp/LPSAFEARRAY_UserUnmarshal64
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreNewItem
 title: IFileOperationProgressSink::PreNewItem (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Performs caller-implemented actions before the process to create a new item begins.
 old-location: shell\IFileOperationProgressSink_PreNewItem.htm
 tech.root: shell
 ms.assetid: ea6223e1-a574-4e4b-a264-384f33579c6d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreNewItem method, IFileOperationProgressSink.PreNewItem, IFileOperationProgressSink::PreNewItem, PreNewItem, PreNewItem method [Windows Shell], PreNewItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreNewItem, shell.IFileOperationProgressSink_PreNewItem, shobjidl_core/IFileOperationProgressSink::PreNewItem
 ms.topic: method

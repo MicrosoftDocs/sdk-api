@@ -1,12 +1,12 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.SetCurrentMediaType
 title: IMFSourceReader::SetCurrentMediaType (mfreadwrite.h)
-author: windows-sdk-content
+
 description: Sets the media type for a stream.
 old-location: mf\imfsourcereader_setcurrentmediatype.htm
 tech.root: medfound
 ms.assetid: 54caec4d-1393-487b-94ee-78563b2b4645
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReader interface [Media Foundation],SetCurrentMediaType method, IMFSourceReader.SetCurrentMediaType, IMFSourceReader::SetCurrentMediaType, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, SetCurrentMediaType, SetCurrentMediaType method [Media Foundation], SetCurrentMediaType method [Media Foundation],IMFSourceReader interface, mf.imfsourcereader_setcurrentmediatype, mfreadwrite/IMFSourceReader::SetCurrentMediaType
 ms.topic: method

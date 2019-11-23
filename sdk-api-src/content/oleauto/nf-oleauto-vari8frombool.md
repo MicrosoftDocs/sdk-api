@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarI8FromBool
 title: VarI8FromBool function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a Boolean value to an 8-byte integer value.
 old-location: automat\vari8frombool.htm
 tech.root: automat
 ms.assetid: 5de56332-2e1c-444d-af14-3d217cd4494a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarI8FromBool, VarI8FromBool function [Automation], _oa96_VarI8FromBool, automat.vari8frombool, oleauto/VarI8FromBool
 ms.topic: function

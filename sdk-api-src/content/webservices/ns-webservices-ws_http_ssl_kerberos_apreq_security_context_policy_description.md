@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_HTTP_SSL_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION
 title: WS_HTTP_SSL_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: Describes the policy specifying security context message binding over http channel binding, with SSL transport security. The bootstrap channel uses http channel binding with SSL transport security and KERBEROS AP_REQ message security.
 old-location: wsw\ws_http_ssl_kerberos_apreq_security_context_policy_description.htm
 tech.root: wsw
 ms.assetid: 2e228694-cfb1-48c5-a2c5-a0e57ad71724
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_SSL_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION, WS_HTTP_SSL_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_HTTP_SSL_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION, wsw.ws_http_ssl_kerberos_apreq_security_context_policy_description
 ms.topic: struct

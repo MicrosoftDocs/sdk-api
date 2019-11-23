@@ -1,12 +1,12 @@
 ---
 UID: NF:winsafer.SaferGetPolicyInformation
 title: SaferGetPolicyInformation function (winsafer.h)
-author: windows-sdk-content
+
 description: Gets information about a policy.
 old-location: security\safergetpolicyinformation.htm
 tech.root: SecMgmt
 ms.assetid: 1c69d3c1-87e6-42cd-9acb-4c3d06801401
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SAFER_SCOPEID_MACHINE, SAFER_SCOPEID_USER, SaferGetPolicyInformation, SaferGetPolicyInformation function [Security], SaferPolicyDefaultLevel, SaferPolicyEnableTransparentEnforcement, SaferPolicyEvaluateUserScope, SaferPolicyLevelList, SaferPolicyScopeFlags, _mnp_safergetpolicyinformation, security.safergetpolicyinformation, winsafer/SaferGetPolicyInformation
 ms.topic: function

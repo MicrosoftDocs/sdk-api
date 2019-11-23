@@ -1,12 +1,12 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.GetImageDlg
 title: IWiaDevMgr::GetImageDlg (wia_xp.h)
-author: windows-sdk-content
+
 description: The IWiaDevMgr::GetImageDlg method displays one or more dialog boxes that enable a user to acquire an image from a Windows Image Acquisition (WIA) device and write the image to a specified file.
 old-location: wia\_wia_IWiaDevMgr_GetImageDlg.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\getimagedlg.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetImageDlg, GetImageDlg method [WIA], GetImageDlg method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],GetImageDlg method, IWiaDevMgr.GetImageDlg, IWiaDevMgr::GetImageDlg, _wia_IWiaDevMgr_GetImageDlg, wia._wia_IWiaDevMgr_GetImageDlg, wia_xp/IWiaDevMgr::GetImageDlg
 ms.topic: method

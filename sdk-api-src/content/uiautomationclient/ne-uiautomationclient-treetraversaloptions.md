@@ -1,12 +1,12 @@
 ---
 UID: NE:uiautomationclient.TreeTraversalOptions
 title: TreeTraversalOptions (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Defines values that can be used to customize tree navigation order.
 old-location: winauto\uiauto_TreeTraversalOptions.htm
 tech.root: WinAuto
 ms.assetid: BB1A65F5-797A-4240-9082-041068A87709
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TreeTraversalOptions, TreeTraversalOptions enumeration [Windows Accessibility], TreeTraversalOptions_Default, TreeTraversalOptions_LastToFirstOrder, TreeTraversalOptions_PostOrder, uiautomationclient/TreeTraversalOptions, uiautomationclient/TreeTraversalOptions_Default, uiautomationclient/TreeTraversalOptions_LastToFirstOrder, uiautomationclient/TreeTraversalOptions_PostOrder, winauto.uiauto_TreeTraversalOptions
 ms.topic: enum

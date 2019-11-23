@@ -1,12 +1,12 @@
 ---
 UID: NF:cluadmex.IGetClusterDataInfo.GetClusterHandle
 title: IGetClusterDataInfo::GetClusterHandle (cluadmex.h)
-author: windows-sdk-content
+
 description: Returns a handle to the cluster.
 old-location: mscs\igetclusterdatainfo_getclusterhandle.htm
 tech.root: MsCS
 ms.assetid: 5623552e-ab06-4e18-88dc-e297c6af8a63
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClusterHandle, GetClusterHandle method [Failover Cluster], GetClusterHandle method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetClusterHandle method, IGetClusterDataInfo.GetClusterHandle, IGetClusterDataInfo::GetClusterHandle, _wolf_igetclusterdatainfo_getclusterhandle, cluadmex/IGetClusterDataInfo::GetClusterHandle, mscs.igetclusterdatainfo_getclusterhandle
 ms.topic: method

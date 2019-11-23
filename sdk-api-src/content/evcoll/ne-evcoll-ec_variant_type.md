@@ -1,12 +1,12 @@
 ---
 UID: NE:evcoll._EC_VARIANT_TYPE
 title: EC_VARIANT_TYPE (evcoll.h)
-author: windows-sdk-content
+
 description: The EC_VARIANT_TYPE enumeration defines the values that specify the data types that are used in the Windows Event Collector functions.
 old-location: wec\ec_variant_type.htm
 tech.root: WEC
 ms.assetid: 55457e18-e63d-4ebc-be46-d1834b6d62d3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EC_VARIANT_TYPE, EC_VARIANT_TYPE enumeration, EcVarObjectArrayPropertyHandle, EcVarTypeBoolean, EcVarTypeDateTime, EcVarTypeNull, EcVarTypeString, EcVarTypeUInt32, evcoll/EC_VARIANT_TYPE, evcoll/EcVarObjectArrayPropertyHandle, evcoll/EcVarTypeBoolean, evcoll/EcVarTypeDateTime, evcoll/EcVarTypeNull, evcoll/EcVarTypeString, evcoll/EcVarTypeUInt32, wec.ec_variant_type, wes.ec_variant_type
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NN:d3dcommon.ID3DInclude
 title: ID3DInclude (d3dcommon.h)
-author: windows-sdk-content
+
 description: ID3DInclude is an include interface that the user implements to allow an application to call user-overridable methods for opening and closing shader #include files.
 old-location: direct3d11\id3dinclude.htm
 tech.root: direct3d11
 ms.assetid: 2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3DInclude, ID3DInclude interface [Direct3D 11], ID3DInclude interface [Direct3D 11],described, d3dcommon/ID3DInclude, direct3d11.id3dinclude
 ms.topic: interface

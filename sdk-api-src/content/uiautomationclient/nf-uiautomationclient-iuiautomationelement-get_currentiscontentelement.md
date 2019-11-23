@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsContentElement
 title: IUIAutomationElement::get_CurrentIsContentElement (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Indicates whether the element is a content element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsContentElement.htm
 tech.root: WinAuto
 ms.assetid: 9fc8aada-cb6e-497e-b915-a22117788012
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CurrentIsContentElement property [Windows Accessibility], CurrentIsContentElement property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsContentElement property, IUIAutomationElement.CurrentIsContentElement, IUIAutomationElement.get_CurrentIsContentElement, IUIAutomationElement::CurrentIsContentElement, IUIAutomationElement::get_CurrentIsContentElement, get_CurrentIsContentElement, uiauto.uiauto_IUIAutomationElement_CurrentIsContentElement, uiauto_IUIAutomationElement_CurrentIsContentElement, uiautomationclient/IUIAutomationElement::CurrentIsContentElement, uiautomationclient/IUIAutomationElement::get_CurrentIsContentElement, winauto.uiauto_IUIAutomationElement_CurrentIsContentElement
 ms.topic: method

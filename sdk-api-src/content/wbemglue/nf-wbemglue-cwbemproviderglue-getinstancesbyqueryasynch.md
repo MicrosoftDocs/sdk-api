@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetInstancesByQueryAsynch
 title: CWbemProviderGlue::GetInstancesByQueryAsynch (wbemglue.h)
-author: windows-sdk-content
+
 description: The GetInstancesByQueryAsynch method retrieves a list of instances supported by a particular provider, and that match a particular query. This method allows the provider to respond asynchronously by returning one instance at a time.
 old-location: wmi\cwbemproviderglue_getinstancesbyqueryasynch.htm
 tech.root: WmiSdk
 ms.assetid: 51eccecb-5b92-4e06-89eb-552d97074629
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetInstancesByQueryAsynch method, CWbemProviderGlue.GetInstancesByQueryAsynch, CWbemProviderGlue::GetInstancesByQueryAsynch, GetInstancesByQueryAsynch, GetInstancesByQueryAsynch method [Windows Management Instrumentation], GetInstancesByQueryAsynch method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancesbyqueryasynch, wbemglue/CWbemProviderGlue::GetInstancesByQueryAsynch, wmi.cwbemproviderglue_getinstancesbyqueryasynch
 ms.topic: method

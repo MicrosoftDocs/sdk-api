@@ -1,12 +1,12 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPropertyDefinition
 title: IFsrmPropertyDefinition (fsrmpipeline.h)
-author: windows-sdk-content
+
 description: Defines a property that you want to use to classify files.
 old-location: fsrm\ifsrmpropertydefinition.htm
 tech.root: fsrm
 ms.assetid: b85d5df0-a99a-48d2-9bad-3b8c86abea91
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinition, IFsrmPropertyDefinition interface [File Server Resource Manager], IFsrmPropertyDefinition interface [File Server Resource Manager],described, fs.ifsrmpropertydefinition, fsrm.ifsrmpropertydefinition, fsrm/IFsrmPropertyDefinition
 ms.topic: interface

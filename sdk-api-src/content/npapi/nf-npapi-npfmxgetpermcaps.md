@@ -1,12 +1,12 @@
 ---
 UID: NF:npapi.NPFMXGetPermCaps
 title: NPFMXGetPermCaps function (npapi.h)
-author: windows-sdk-content
+
 description: Retrieves the capabilities of the permission editor. The return value is a bitmask that indicates which of the Security menu items in File Manager are to be enabled.
 old-location: security\npfmxgetpermcaps.htm
 tech.root: SecAuthN
 ms.assetid: 1df2c1d4-ce70-494d-98e4-cda553403215
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NPFMXGetPermCaps, NPFMXGetPermCaps function [Security], _mnp_npfmxgetpermcaps, npapi/NPFMXGetPermCaps, security.npfmxgetpermcaps
 ms.topic: function

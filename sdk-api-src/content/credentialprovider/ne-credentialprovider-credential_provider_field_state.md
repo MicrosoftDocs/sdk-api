@@ -1,12 +1,12 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_FIELD_STATE
 title: CREDENTIAL_PROVIDER_FIELD_STATE (credentialprovider.h)
-author: windows-sdk-content
+
 description: Specifies the state of a single field in the Credential UI.
 old-location: shell\CREDENTIAL_PROVIDER_FIELD_STATE.htm
 tech.root: shell
 ms.assetid: 4cc7858c-483b-4fac-96ba-8962bc362422
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CPFS_DISPLAY_IN_BOTH, CPFS_DISPLAY_IN_DESELECTED_TILE, CPFS_DISPLAY_IN_SELECTED_TILE, CPFS_HIDDEN, CREDENTIAL_PROVIDER_FIELD_STATE, CREDENTIAL_PROVIDER_FIELD_STATE enumeration [Windows Shell], credentialprovider/CPFS_DISPLAY_IN_BOTH, credentialprovider/CPFS_DISPLAY_IN_DESELECTED_TILE, credentialprovider/CPFS_DISPLAY_IN_SELECTED_TILE, credentialprovider/CPFS_HIDDEN, credentialprovider/CREDENTIAL_PROVIDER_FIELD_STATE, shell.CREDENTIAL_PROVIDER_FIELD_STATE, shell_CREDENTIAL_PROVIDER_FIELD_STATE
 ms.topic: enum

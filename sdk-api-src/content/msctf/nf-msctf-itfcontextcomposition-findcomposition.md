@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfContextComposition.FindComposition
 title: ITfContextComposition::FindComposition (msctf.h)
-author: windows-sdk-content
+
 description: ITfContextComposition::FindComposition method
 old-location: tsf\itfcontextcomposition_findcomposition.htm
 tech.root: TSF
 ms.assetid: f5a7bd54-3b8f-44fd-ae6e-1415cc69c49e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FindComposition, FindComposition method [Text Services Framework], FindComposition method [Text Services Framework],ITfContextComposition interface, ITfContextComposition interface [Text Services Framework],FindComposition method, ITfContextComposition.FindComposition, ITfContextComposition::FindComposition, _tsf_itfcontextcomposition_findcomposition_ref, msctf/ITfContextComposition::FindComposition, tsf.itfcontextcomposition_findcomposition
 ms.topic: method

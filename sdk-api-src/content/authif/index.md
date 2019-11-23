@@ -1,7 +1,7 @@
 ---
 UID: NA:authif
 ms.assetid: 8eca223c-8778-3929-be13-32b86e797ece
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

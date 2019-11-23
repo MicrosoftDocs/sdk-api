@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.EqualRgn
 title: EqualRgn function (wingdi.h)
-author: windows-sdk-content
+
 description: The EqualRgn function checks the two specified regions to determine whether they are identical. The function considers two regions identical if they are equal in size and shape.
 old-location: gdi\equalrgn.htm
 tech.root: gdi
 ms.assetid: c7829998-78f4-4334-bf34-92aad12555f5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EqualRgn, EqualRgn function [Windows GDI], _win32_EqualRgn, gdi.equalrgn, wingdi/EqualRgn
 ms.topic: function

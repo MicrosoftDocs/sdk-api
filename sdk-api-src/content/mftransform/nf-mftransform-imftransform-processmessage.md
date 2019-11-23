@@ -1,12 +1,12 @@
 ---
 UID: NF:mftransform.IMFTransform.ProcessMessage
 title: IMFTransform::ProcessMessage (mftransform.h)
-author: windows-sdk-content
+
 description: Sends a message to the Media Foundation transform (MFT).
 old-location: mf\imftransform_processmessage.htm
 tech.root: medfound
 ms.assetid: a6dc67e5-8473-444a-8463-24f411e59565
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessMessage method, IMFTransform.ProcessMessage, IMFTransform::ProcessMessage, ProcessMessage, ProcessMessage method [Media Foundation], ProcessMessage method [Media Foundation],IMFTransform interface, a6dc67e5-8473-444a-8463-24f411e59565, mf.imftransform_processmessage, mftransform/IMFTransform::ProcessMessage
 ms.topic: method

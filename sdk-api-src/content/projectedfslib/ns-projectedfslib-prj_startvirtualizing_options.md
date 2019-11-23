@@ -1,12 +1,12 @@
 ---
 UID: NS:projectedfslib.PRJ_STARTVIRTUALIZING_OPTIONS
 title: PRJ_STARTVIRTUALIZING_OPTIONS (projectedfslib.h)
-author: windows-sdk-content
+
 description: Options to provide when starting a virtualization instance.
 old-location: projfs\prj_startvirtualizing_options.htm
 tech.root: ProjFS
 ms.assetid: 5FF20B04-29A6-4310-ACD6-35E189B87C9E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRJ_STARTVIRTUALIZING_OPTIONS, PRJ_STARTVIRTUALIZING_OPTIONS structure, ProjFS.prj_startvirtualizing_options, projectedfslib/PRJ_STARTVIRTUALIZING_OPTIONS
 ms.topic: struct

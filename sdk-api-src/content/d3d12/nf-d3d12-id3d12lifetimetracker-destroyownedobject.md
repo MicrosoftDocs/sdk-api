@@ -1,10 +1,10 @@
 ---
 UID: NF:d3d12.ID3D12LifetimeTracker.DestroyOwnedObject
 title: ID3D12LifetimeTracker::DestroyOwnedObject
-author: windows-sdk-content
+
 description: Destroys a lifetime-tracked object.
 tech.root: direct3d12
-ms.author: windowssdkdev
+
 ms.date: 10/30/2019
 ms.keywords: ID3D12LifetimeTracker::DestroyOwnedObject
 ms.topic: language-reference

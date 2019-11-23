@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.ResourceBarrier
 title: ID3D12VideoDecodeCommandList::ResourceBarrier
-author: windows-sdk-content
+
 description: Notifies the driver that it needs to synchronize multiple accesses to resources.
 tech.root: mf
 ms.assetid: 248590b2-f064-4566-9aea-c1b6b3db1f70
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

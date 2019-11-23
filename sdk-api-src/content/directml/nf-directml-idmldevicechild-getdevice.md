@@ -1,12 +1,12 @@
 ---
 UID: NF:directml.IDMLDeviceChild.GetDevice
 title: IDMLDeviceChild::GetDevice
-author: windows-sdk-content
+
 description: Retrieves the DirectML device that was used to create this object.
 old-location: direct3d12\idmldevicechild_getdevice.htm
 tech.root: direct3d12
 ms.assetid: 9839C889-D6F7-401A-A335-B2F63C8F30D8
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: GetDevice, GetDevice method, GetDevice method,IDMLDeviceChild interface, IDMLDeviceChild interface,GetDevice method, IDMLDeviceChild.GetDevice, IDMLDeviceChild::GetDevice, direct3d12.idmldevicechild_getdevice, directml/IDMLDeviceChild::GetDevice
 ms.topic: method

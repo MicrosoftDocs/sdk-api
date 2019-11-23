@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.PathYetAnotherMakeUniqueName
 title: PathYetAnotherMakeUniqueName function (shlobj_core.h)
-author: windows-sdk-content
+
 description: Creates a unique filename based on an existing filename.
 old-location: shell\PathYetAnotherMakeUniqueName.htm
 tech.root: shell
 ms.assetid: 1f76ecfa-6f2f-4dde-b05e-4252c92660d9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathYetAnotherMakeUniqueName, PathYetAnotherMakeUniqueName function [Windows Shell], _win32_PathYetAnotherMakeUniqueName, shell.PathYetAnotherMakeUniqueName, shlobj_core/PathYetAnotherMakeUniqueName
 ms.topic: function

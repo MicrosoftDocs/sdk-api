@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IFillLockBytes.SetFillSize
 title: IFillLockBytes::SetFillSize (objidl.h)
-author: windows-sdk-content
+
 description: The SetFillSize method sets the expected size of the byte array.
 old-location: stg\ifilllockbytes_setfillsize.htm
 tech.root: Stg
 ms.assetid: 1336079e-02d2-4799-a58f-d097ec80c03b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFillLockBytes interface [Structured Storage],SetFillSize method, IFillLockBytes.SetFillSize, IFillLockBytes::SetFillSize, SetFillSize, SetFillSize method [Structured Storage], SetFillSize method [Structured Storage],IFillLockBytes interface, _stg_ifilllockbytes_setfillsize, objidl/IFillLockBytes::SetFillSize, stg.ifilllockbytes_setfillsize
 ms.topic: method

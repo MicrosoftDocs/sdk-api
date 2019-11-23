@@ -1,12 +1,12 @@
 ---
 UID: NF:msi.MsiGetProductInfoW
 title: MsiGetProductInfoW function (msi.h)
-author: windows-sdk-content
+
 description: The MsiGetProductInfo function returns product information for published and installed products.
 old-location: setup\msigetproductinfo.htm
 tech.root: Msi
 ms.assetid: 336a68d6-5239-4313-b6c7-8091907a0e35
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_HELPLINK, INSTALLPROPERTY_HELPTELEPHONE, INSTALLPROPERTY_INSTALLDATE, INSTALLPROPERTY_INSTALLEDLANGUAGE, INSTALLPROPERTY_INSTALLEDPRODUCTNAME, INSTALLPROPERTY_INSTALLLOCATION, INSTALLPROPERTY_INSTALLSOURCE, INSTALLPROPERTY_LOCALPACKAGE, INSTALLPROPERTY_PUBLISHER, INSTALLPROPERTY_URLINFOABOUT, INSTALLPROPERTY_URLUPDATEINFO, INSTALLPROPERTY_VERSIONMAJOR, INSTALLPROPERTY_VERSIONMINOR, INSTALLPROPERTY_VERSIONSTRING, MsiGetProductInfo, MsiGetProductInfo function, MsiGetProductInfoA, MsiGetProductInfoW, _msi_msigetproductinfo, msi/MsiGetProductInfo, msi/MsiGetProductInfoA, msi/MsiGetProductInfoW, setup.msigetproductinfo
 ms.topic: function

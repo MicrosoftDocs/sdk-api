@@ -1,7 +1,7 @@
 ---
 UID: NA:ddraw
 ms.assetid: 791ec678-12e0-360d-a622-58aff61d0b8a
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

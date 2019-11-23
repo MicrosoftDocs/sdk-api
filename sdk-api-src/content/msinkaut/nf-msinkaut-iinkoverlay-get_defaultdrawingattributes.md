@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_DefaultDrawingAttributes
 title: IInkOverlay::get_DefaultDrawingAttributes (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets or sets the default drawing attributes to use when drawing and displaying ink.
 old-location: tablet\inkoverlay_defaultdrawingattributes.htm
 tech.root: tablet
 ms.assetid: 8fdcb920-ed52-4a1b-be47-bfe9e57d93f4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DefaultDrawingAttributes property [Tablet PC], DefaultDrawingAttributes property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],DefaultDrawingAttributes property, IInkOverlay.DefaultDrawingAttributes, IInkOverlay.get_DefaultDrawingAttributes, IInkOverlay::DefaultDrawingAttributes, IInkOverlay::get_DefaultDrawingAttributes, IInkOverlay::put_DefaultDrawingAttributes, InkOverlay.get_DefaultDrawingAttributes, InkOverlay.put_DefaultDrawingAttributes, get_DefaultDrawingAttributes, msinkaut/IInkOverlay::DefaultDrawingAttributes, msinkaut/IInkOverlay::get_DefaultDrawingAttributes, msinkaut/IInkOverlay::put_DefaultDrawingAttributes, putref_DefaultDrawingAttributes, tablet.inkoverlay_defaultdrawingattributes
 ms.topic: method

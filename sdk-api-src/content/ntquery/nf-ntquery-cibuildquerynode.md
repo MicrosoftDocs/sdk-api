@@ -1,12 +1,12 @@
 ---
 UID: NF:ntquery.CIBuildQueryNode
 title: CIBuildQueryNode function (ntquery.h)
-author: windows-sdk-content
+
 description: Builds one node of a query restriction tree for a Command object.
 old-location: indexsrv\cibuildquerynode.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0c11.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CIBuildQueryNode, CIBuildQueryNode function [Indexing Service], _idxs_CIBuildQueryNode, indexsrv.cibuildquerynode, ntquery/CIBuildQueryNode
 ms.topic: function

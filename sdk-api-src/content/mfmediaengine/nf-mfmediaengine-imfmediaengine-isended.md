@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.IsEnded
 title: IMFMediaEngine::IsEnded (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Queries whether playback has ended.
 old-location: mf\imfmediaengine_isended.htm
 tech.root: medfound
 ms.assetid: 0760707C-B25E-44FF-9263-6B59BF43A98E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],IsEnded method, IMFMediaEngine.IsEnded, IMFMediaEngine::IsEnded, IsEnded, IsEnded method [Media Foundation], IsEnded method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_isended, mfmediaengine/IMFMediaEngine::IsEnded
 ms.topic: method

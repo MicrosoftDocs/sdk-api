@@ -1,7 +1,7 @@
 ---
 UID: TP:dwm
 ms.assetid: ffe04284-f2a5-3f9e-9fca-a858703230a8
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

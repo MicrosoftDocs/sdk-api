@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_ERROR_PROPERTY
 title: WS_ERROR_PROPERTY (webservices.h)
-author: windows-sdk-content
+
 description: Specifies an error specific setting.
 old-location: wsw\ws_error_property.htm
 tech.root: wsw
 ms.assetid: 463b634f-bb15-494d-8061-c4fa0b97b990
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_ERROR_PROPERTY, WS_ERROR_PROPERTY structure [Web Services for Windows], webservices/WS_ERROR_PROPERTY, wsw.ws_error_property
 ms.topic: struct

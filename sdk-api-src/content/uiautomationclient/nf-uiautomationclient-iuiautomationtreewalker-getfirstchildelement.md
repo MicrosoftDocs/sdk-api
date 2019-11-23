@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetFirstChildElement
 title: IUIAutomationTreeWalker::GetFirstChildElement (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the first child element of the specified UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetFirstChild.htm
 tech.root: WinAuto
 ms.assetid: 2f1df27c-664b-451a-8a1f-e4dbc70b1845
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFirstChildElement, GetFirstChildElement method [Windows Accessibility], GetFirstChildElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetFirstChildElement method, IUIAutomationTreeWalker.GetFirstChildElement, IUIAutomationTreeWalker::GetFirstChildElement, uiauto.uiauto_IUIAutomationTreeWalker_GetFirstChild, uiauto_IUIAutomationTreeWalker_GetFirstChild, uiautomationclient/IUIAutomationTreeWalker::GetFirstChildElement, winauto.uiauto_IUIAutomationTreeWalker_GetFirstChild
 ms.topic: method

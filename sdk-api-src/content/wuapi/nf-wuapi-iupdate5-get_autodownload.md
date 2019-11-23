@@ -1,12 +1,12 @@
 ---
 UID: NF:wuapi.IUpdate5.get_AutoDownload
 title: IUpdate5::get_AutoDownload (wuapi.h)
-author: windows-sdk-content
+
 description: Gets a value indicating the automatic download mode of update.
 old-location: wua\iupdate5_autodownload.htm
 tech.root: Wua_Sdk
 ms.assetid: b8819ba8-7333-488c-b337-0a51f995d942
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AutoDownload property [Windows Update Agent], AutoDownload property [Windows Update Agent],IUpdate5 interface, IUpdate5 interface [Windows Update Agent],AutoDownload property, IUpdate5.AutoDownload, IUpdate5.get_AutoDownload, IUpdate5::AutoDownload, IUpdate5::get_AutoDownload, get_AutoDownload, wua.iupdate5_autodownload, wuapi/IUpdate5::AutoDownload, wuapi/IUpdate5::get_AutoDownload
 ms.topic: method

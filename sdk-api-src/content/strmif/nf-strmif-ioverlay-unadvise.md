@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IOverlay.Unadvise
 title: IOverlay::Unadvise (strmif.h)
-author: windows-sdk-content
+
 description: The Unadvise method terminates the advise link established with the IOverlayNotify interface.
 old-location: dshow\ioverlay_unadvise.htm
 tech.root: DirectShow
 ms.assetid: da987152-d5cd-42c5-848a-6d70ad25ca33
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOverlay interface [DirectShow],Unadvise method, IOverlay.Unadvise, IOverlay::Unadvise, IOverlayUnadvise, Unadvise, Unadvise method [DirectShow], Unadvise method [DirectShow],IOverlay interface, dshow.ioverlay_unadvise, strmif/IOverlay::Unadvise
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:filehc.CacheRichCreateFile
 title: CacheRichCreateFile function (filehc.h)
-author: windows-sdk-content
+
 description: Creates a file in the cache or finds an existing file and allows properties to be added to it in the cache.
 old-location: winprog\_cacherichcreatefile.htm
 tech.root: DevNotes
 ms.assetid: 89b0adcd-0084-4538-b162-661ddae53dc8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CacheRichCreateFile, CacheRichCreateFile function [Windows API], filehc/CacheRichCreateFile, winprog._cacherichcreatefile
 ms.topic: function

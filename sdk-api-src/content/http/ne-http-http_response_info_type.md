@@ -1,12 +1,12 @@
 ---
 UID: NE:http._HTTP_RESPONSE_INFO_TYPE
 title: HTTP_RESPONSE_INFO_TYPE (http.h)
-author: windows-sdk-content
+
 description: The HTTP_RESPONSE_INFO_TYPE enumeration defines the type of information contained in the HTTP_RESPONSE_INFO structure.This enumeration is used in the HTTP_RESPONSE_INFO structure.
 old-location: http\http_response_info_type.htm
 tech.root: http
 ms.assetid: 2f85e8dd-1693-4a54-a38f-9b70b2a46361
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_RESPONSE_INFO_TYPE, *PHTTP_RESPONSE_INFO_TYPE enumeration [HTTP], HTTP_RESPONSE_INFO_TYPE, HTTP_RESPONSE_INFO_TYPE enumeration [HTTP], HttpResponseInfoTypeAuthenticationProperty, HttpResponseInfoTypeChannelBind, HttpResponseInfoTypeMultipleKnownHeaders, HttpResponseInfoTypeQosProperty, PHTTP_RESPONSE_INFO_TYPE, http.http_response_info_type, http/*PHTTP_RESPONSE_INFO_TYPE, http/HTTP_RESPONSE_INFO_TYPE, http/HttpResponseInfoTypeAuthenticationProperty, http/HttpResponseInfoTypeChannelBind, http/HttpResponseInfoTypeMultipleKnownHeaders, http/HttpResponseInfoTypeQosProperty'
 ms.topic: enum

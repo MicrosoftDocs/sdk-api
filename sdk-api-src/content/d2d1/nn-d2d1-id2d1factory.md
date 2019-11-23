@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1.ID2D1Factory
 title: ID2D1Factory (d2d1.h)
-author: windows-sdk-content
+
 description: Creates Direct2D resources.
 old-location: direct2d\ID2D1Factory.htm
 tech.root: Direct2D
 ms.assetid: cef6115c-98e8-49e6-b419-271b43ce2938
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1Factory, ID2D1Factory interface [Direct2D], ID2D1Factory interface [Direct2D],described, d2d1/ID2D1Factory, direct2d.ID2D1Factory
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NC:certenroll.ImportPFXToProviderFreeData
 title: ImportPFXToProviderFreeData (certenroll.h)
-author: windows-sdk-content
+
 description: Frees PFX certificate context(s).
 old-location: security\fnimportpfxtoproviderfreedata.htm
 tech.root: SecCrypto
 ms.assetid: F3A28405-8D6E-4930-946B-FB7D9B6518B9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "ImportPFXToProviderFreeData, (FNIMPORTPFXTOPROVIDERFREEDATA), (FNIMPORTPFXTOPROVIDERFREEDATA) callback function [Security], FNIMPORTPFXTOPROVIDERFREEDATA callback, certenroll/(FNIMPORTPFXTOPROVIDERFREEDATA), fnimportpfxtoproviderfreedata, security.fnimportpfxtoproviderfreedata, wincrypt/(FNIMPORTPFXTOPROVIDERFREEDATA)"
 ms.topic: callback

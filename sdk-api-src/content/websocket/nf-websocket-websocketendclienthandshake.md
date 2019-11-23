@@ -1,12 +1,12 @@
 ---
 UID: NF:websocket.WebSocketEndClientHandshake
 title: WebSocketEndClientHandshake function (websocket.h)
-author: windows-sdk-content
+
 description: Completes the client-side handshake.
 old-location: websock\websocketendclienthandshake.htm
 tech.root: WebSock
 ms.assetid: 07f2b2b8-1997-4ac7-b498-56d1e1fba9ef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WebSocketEndClientHandshake, WebSocketEndClientHandshake function [Websocket Protocol Component API], websock.websocketendclienthandshake, websocket/WebSocketEndClientHandshake
 ms.topic: function

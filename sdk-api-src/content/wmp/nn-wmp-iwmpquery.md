@@ -1,12 +1,12 @@
 ---
 UID: NN:wmp.IWMPQuery
 title: IWMPQuery (wmp.h)
-author: windows-sdk-content
+
 description: The IWMPQuery interface represents a compound query.
 old-location: wmp\iwmpquery.htm
 tech.root: WMP
 ms.assetid: f1f3c46f-4756-49b4-ad4f-a9097ff787f8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPQuery, IWMPQuery interface [Windows Media Player], IWMPQuery interface [Windows Media Player],described, IWMPQueryInterface, wmp.iwmpquery, wmp/IWMPQuery
 ms.topic: interface

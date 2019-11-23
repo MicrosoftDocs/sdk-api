@@ -1,12 +1,12 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_INITIALIZE_PACKAGE
 title: LSA_AP_INITIALIZE_PACKAGE (ntsecpkg.h)
-author: windows-sdk-content
+
 description: Called once by the Local Security Authority (LSA) during system initialization to provide the authentication package a chance to initialize itself.
 old-location: security\lsaapinitializepackage.htm
 tech.root: SecAuthN
 ms.assetid: 1fed5a5e-5dc1-4b59-aa28-bd1395a27742
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LSA_AP_INITIALIZE_PACKAGE, LSA_AP_INITIALIZE_PACKAGE callback, LsaApInitializePackage, LsaApInitializePackage callback function [Security], _lsa_lsaapinitializepackage, ntsecpkg/LsaApInitializePackage, security.lsaapinitializepackage
 ms.topic: callback

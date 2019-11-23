@@ -1,12 +1,12 @@
 ---
 UID: NF:ktmw32.OpenEnlistment
 title: OpenEnlistment function (ktmw32.h)
-author: windows-sdk-content
+
 description: Opens an existing enlistment object, and returns a handle to the enlistment.
 old-location: fs\openenlistment.htm
 tech.root: ktm
 ms.assetid: 2c403e22-3feb-415a-b65b-572802764548
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OpenEnlistment, OpenEnlistment function [Files], fs.openenlistment, ktmw32/OpenEnlistment
 ms.topic: function

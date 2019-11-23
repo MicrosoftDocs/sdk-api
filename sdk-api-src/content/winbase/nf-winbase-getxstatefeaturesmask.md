@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.GetXStateFeaturesMask
 title: GetXStateFeaturesMask function (winbase.h)
-author: windows-sdk-content
+
 description: Returns the mask of XState features set within a CONTEXT structure.
 old-location: base\getxstatefeaturesmask.htm
 tech.root: Debug
 ms.assetid: D9A8D0B6-21E3-46B7-AB88-CE2FF4025A17
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetXStateFeaturesMask, GetXStateFeaturesMask function, base.getxstatefeaturesmask, winbase/GetXStateFeaturesMask
 ms.topic: function

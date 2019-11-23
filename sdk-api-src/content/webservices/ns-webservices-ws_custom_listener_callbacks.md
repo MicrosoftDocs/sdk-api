@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_CUSTOM_LISTENER_CALLBACKS
 title: WS_CUSTOM_LISTENER_CALLBACKS (webservices.h)
-author: windows-sdk-content
+
 description: A structure that is used to specify a set of callbacks that form the implementation of a custom listener.
 old-location: wsw\ws_custom_listener_callbacks.htm
 tech.root: wsw
 ms.assetid: b0be530f-5eff-4daa-90be-f9be648dfad7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_CUSTOM_LISTENER_CALLBACKS, WS_CUSTOM_LISTENER_CALLBACKS structure [Web Services for Windows], webservices/WS_CUSTOM_LISTENER_CALLBACKS, wsw.ws_custom_listener_callbacks
 ms.topic: struct

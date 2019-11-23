@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.IEnumSearchScopeRules.Next
 title: IEnumSearchScopeRules::Next (searchapi.h)
-author: windows-sdk-content
+
 description: Retrieves the specified number of ISearchScopeRule elements.
 old-location: search\_search_IEnumSearchScopeRules_Next.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\next.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchScopeRules interface [search],Next method, IEnumSearchScopeRules.Next, IEnumSearchScopeRules::Next, Next, Next method [search], Next method [search],IEnumSearchScopeRules interface, _search_IEnumSearchScopeRules_Next, search._search_IEnumSearchScopeRules_Next, searchapi/IEnumSearchScopeRules::Next
 ms.topic: method

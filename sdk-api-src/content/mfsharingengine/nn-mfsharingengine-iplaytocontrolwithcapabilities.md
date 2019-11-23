@@ -1,12 +1,12 @@
 ---
 UID: NN:mfsharingengine.IPlayToControlWithCapabilities
 title: IPlayToControlWithCapabilities (mfsharingengine.h)
-author: windows-sdk-content
+
 description: Provides functionality for the IPlayToSource to determine the capabilities of the content.
 old-location: mf\iplaytocontrolwithcapabilities.htm
 tech.root: medfound
 ms.assetid: d670f320-30b5-4712-9192-d0976b65dd65
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPlayToControlWithCapabilities, IPlayToControlWithCapabilities interface [Media Foundation], IPlayToControlWithCapabilities interface [Media Foundation],described, mf.iplaytocontrolwithcapabilities, mfsharingengine/IPlayToControlWithCapabilities
 ms.topic: interface

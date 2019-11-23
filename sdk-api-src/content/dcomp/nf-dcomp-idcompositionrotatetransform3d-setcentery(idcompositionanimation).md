@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetCenterY(IDCompositionAnimation)
 title: IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Animates the value of the CenterY property of a 3D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setcentery_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 051E01E0-1A1B-4724-A8F2-F12F2EC27C4C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetCenterY method, IDCompositionRotateTransform3D.SetCenterY, IDCompositionRotateTransform3D.SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterY, IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation*), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetCenterY, directcomp.idcompositionrotatetransform3d_setcentery_idcompositionanimation
 ms.topic: method

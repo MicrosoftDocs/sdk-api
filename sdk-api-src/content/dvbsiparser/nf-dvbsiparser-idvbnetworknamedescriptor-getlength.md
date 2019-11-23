@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbNetworkNameDescriptor.GetLength
 title: IDvbNetworkNameDescriptor::GetLength (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the body length of a Digital Video Broadcast (DVB) network name descriptor.
 old-location: mstv\idvbnetworknamedescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 22841428-c223-4385-97c3-bd1819468866
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbNetworkNameDescriptor interface, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbNetworkNameDescriptor.GetLength, IDvbNetworkNameDescriptor::GetLength, dvbsiparser/IDvbNetworkNameDescriptor::GetLength, mstv.idvbnetworknamedescriptor_getlength
 ms.topic: method

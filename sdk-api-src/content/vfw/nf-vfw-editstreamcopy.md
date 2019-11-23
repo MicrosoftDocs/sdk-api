@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.EditStreamCopy
 title: EditStreamCopy function (vfw.h)
-author: windows-sdk-content
+
 description: The EditStreamCopy function copies an editable stream (or a portion of it) into a temporary stream.
 old-location: multimedia\editstreamcopy.htm
 tech.root: Multimedia
 ms.assetid: c1548359-42ed-4d13-b72d-e7269a7c3482
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EditStreamCopy, EditStreamCopy function [Windows Multimedia], _win32_EditStreamCopy, multimedia.editstreamcopy, vfw/EditStreamCopy
 ms.topic: function

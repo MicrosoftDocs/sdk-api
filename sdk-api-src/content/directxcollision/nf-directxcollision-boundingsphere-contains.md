@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Contains
 title: BoundingSphere::Contains
-author: windows-sdk-content
+
 description: Tests whether the BoundingSphere contains a specified point.
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::Contains

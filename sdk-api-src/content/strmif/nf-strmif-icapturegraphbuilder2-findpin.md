@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.FindPin
 title: ICaptureGraphBuilder2::FindPin (strmif.h)
-author: windows-sdk-content
+
 description: The FindPin method retrieves a particular pin on a filter, or determines whether a given pin matches the specified criteria.
 old-location: dshow\icapturegraphbuilder2_findpin.htm
 tech.root: DirectShow
 ms.assetid: f74e55d4-2d51-47a9-aca8-dd4e616a6253
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FindPin, FindPin method [DirectShow], FindPin method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],FindPin method, ICaptureGraphBuilder2.FindPin, ICaptureGraphBuilder2::FindPin, ICaptureGraphBuilder2FindPin, dshow.icapturegraphbuilder2_findpin, strmif/ICaptureGraphBuilder2::FindPin
 ms.topic: method

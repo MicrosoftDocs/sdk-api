@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetKeyboardLayout
 title: GetKeyboardLayout function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the active input locale identifier (formerly called the keyboard layout).
 old-location: inputdev\getkeyboardlayout.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeyboardlayout.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetKeyboardLayout, GetKeyboardLayout function [Keyboard and Mouse Input], _win32_GetKeyboardLayout, _win32_getkeyboardlayout_cpp, inputdev.getkeyboardlayout, winui._win32_getkeyboardlayout, winuser/GetKeyboardLayout
 ms.topic: function

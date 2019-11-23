@@ -1,12 +1,12 @@
 ---
 UID: NN:iads.IADsObjectOptions
 title: IADsObjectOptions (iads.h)
-author: windows-sdk-content
+
 description: Provides a direct mechanism to specify and obtain provider-specific options for manipulating an ADSI object.
 old-location: adsi\iadsobjectoptions.htm
 tech.root: adsi
 ms.assetid: 1884efe5-86f5-4579-a25e-2ff9c9a6ec2a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsObjectOptions, IADsObjectOptions interface [ADSI], IADsObjectOptions interface [ADSI],described, _ds_iadsobjectoptions, adsi.iadsobjectoptions, iads/IADsObjectOptions
 ms.topic: interface

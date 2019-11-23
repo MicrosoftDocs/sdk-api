@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.Intersects~r1
 title: Intersects
-author: windows-sdk-content
+
 description: Test whether two triangles intersect.
 ms.date: 04/22/19
 ms.keywords: Intersects

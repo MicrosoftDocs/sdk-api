@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetTagNameLength
 title: ID2D1SvgElement::GetTagNameLength (d2d1svg.h)
-author: windows-sdk-content
+
 description: Gets the string length of the tag name.
 old-location: direct2d\id2d1svgelement_gettagnamelength.htm
 tech.root: Direct2D
 ms.assetid: FD73B8E6-4490-4BF2-9A65-6661DB3594E1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTagNameLength, GetTagNameLength method [Direct2D], GetTagNameLength method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetTagNameLength method, ID2D1SvgElement.GetTagNameLength, ID2D1SvgElement::GetTagNameLength, d2d1svg/ID2D1SvgElement::GetTagNameLength, direct2d.id2d1svgelement_gettagnamelength
 ms.topic: method

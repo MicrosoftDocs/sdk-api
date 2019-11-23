@@ -1,12 +1,12 @@
 ---
 UID: NE:vdslun._VDS_INTERCONNECT_ADDRESS_TYPE
 title: VDS_INTERCONNECT_ADDRESS_TYPE (vdslun.h)
-author: windows-sdk-content
+
 description: Defines the set of the valid address types of a physical interconnect.
 old-location: base\vds_interconnect_address_type.htm
 tech.root: VDS
 ms.assetid: 20d75585-a80c-49bc-9f9c-5aae8e5f2c21
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VDS_IA_FCFS, VDS_IA_FCPH, VDS_IA_FCPH3, VDS_IA_MAC, VDS_IA_SCSI, VDS_IA_UNKNOWN, VDS_INTERCONNECT_ADDRESS_TYPE, VDS_INTERCONNECT_ADDRESS_TYPE enumeration [VDS], base.vds_interconnect_address_type, vdslun/VDS_IA_FCFS, vdslun/VDS_IA_FCPH, vdslun/VDS_IA_FCPH3, vdslun/VDS_IA_MAC, vdslun/VDS_IA_SCSI, vdslun/VDS_IA_UNKNOWN, vdslun/VDS_INTERCONNECT_ADDRESS_TYPE
 ms.topic: enum

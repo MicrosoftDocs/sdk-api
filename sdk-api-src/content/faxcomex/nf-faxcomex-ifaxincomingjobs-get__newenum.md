@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJobs.get__NewEnum
 title: IFaxIncomingJobs::get__NewEnum (faxcomex.h)
-author: windows-sdk-content
+
 description: The get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the FaxIncomingJobs collection.
 old-location: fax\_mfax_ifaxincomingjobs_get__newenum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1zfx.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJobs interface [Fax Service],get__NewEnum method, IFaxIncomingJobs.get__NewEnum, IFaxIncomingJobs::get__NewEnum, _mfax_ifaxincomingjobs_get__newenum, fax._mfax_ifaxincomingjobs_get__newenum, faxcomex/IFaxIncomingJobs::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxIncomingJobs interface
 ms.topic: method

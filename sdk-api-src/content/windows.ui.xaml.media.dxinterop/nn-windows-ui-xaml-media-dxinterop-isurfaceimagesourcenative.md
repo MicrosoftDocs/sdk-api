@@ -1,12 +1,12 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNative
 title: ISurfaceImageSourceNative (windows.ui.xaml.media.dxinterop.h)
-author: windows-sdk-content
+
 description: Provides the implementation of a shared fixed-size surface for Direct2D drawing.
 old-location: winrt\isurfaceimagesourcenative.htm
 tech.root: WinRT
 ms.assetid: 55122048-FA3B-494F-8BD3-97D2C36E4579
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceNative, ISurfaceImageSourceNative interface [Windows Runtime], ISurfaceImageSourceNative interface [Windows Runtime],described, windows/ISurfaceImageSourceNative, winrt.isurfaceimagesourcenative
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.midiDisconnect
 title: midiDisconnect function (mmeapi.h)
-author: windows-sdk-content
+
 description: The midiDisconnect function disconnects a MIDI input device from a MIDI thru or output device, or disconnects a MIDI thru device from a MIDI output device.
 old-location: multimedia\mididisconnect.htm
 tech.root: Multimedia
 ms.assetid: bf6ea7d0-eb0a-429f-8029-d283808fb85e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiDisconnect, midiDisconnect, midiDisconnect function [Windows Multimedia], mmeapi/midiDisconnect, multimedia.mididisconnect"
 ms.topic: function

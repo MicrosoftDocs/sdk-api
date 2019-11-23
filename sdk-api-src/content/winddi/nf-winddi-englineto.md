@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.EngLineTo
 title: EngLineTo function (winddi.h)
-author: windows-sdk-content
+
 description: The EngLineTo function draws a single, solid, integer-only cosmetic line.
 old-location: display\englineto.htm
 tech.root: display
 ms.assetid: 989ac941-496e-4433-a871-f541fdced45f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngLineTo, EngLineTo function [Display Devices], display.englineto, gdifncs_7f51ef7a-df4c-4482-a411-101dff0711d7.xml, winddi/EngLineTo
 ms.topic: function

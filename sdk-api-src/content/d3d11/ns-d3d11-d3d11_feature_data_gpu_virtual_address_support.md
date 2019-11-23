@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT
 title: D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT (d3d11.h)
-author: windows-sdk-content
+
 description: Describes feature data GPU virtual address support, including maximum address bits per resource and per process.
 old-location: direct3d11\d3d11_feature_data_gpu_virtual_address_support.htm
 tech.root: direct3d11
 ms.assetid: 662D9B07-755C-430D-84C6-B1E8876E26B5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT, D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT, direct3d11.d3d11_feature_data_gpu_virtual_address_support
 ms.topic: struct

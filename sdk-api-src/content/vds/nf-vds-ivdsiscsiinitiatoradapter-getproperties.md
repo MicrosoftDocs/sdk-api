@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorAdapter.GetProperties
 title: IVdsIscsiInitiatorAdapter::GetProperties (vds.h)
-author: windows-sdk-content
+
 description: Returns the properties of an initiator adapter.
 old-location: base\ivdsiscsiinitiatoradapter_getproperties.htm
 tech.root: VDS
 ms.assetid: 9442e182-bc2e-47dd-9ddc-aa1a618a5563
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiInitiatorAdapter interface, IVdsIscsiInitiatorAdapter interface [VDS],GetProperties method, IVdsIscsiInitiatorAdapter.GetProperties, IVdsIscsiInitiatorAdapter::GetProperties, base.ivdsiscsiinitiatoradapter_getproperties, vds/IVdsIscsiInitiatorAdapter::GetProperties
 ms.topic: method

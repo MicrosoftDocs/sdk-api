@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.IShellIconOverlayManager.LoadNonloadedOverlayIdentifiers
 title: IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers (shlobj_core.h)
-author: windows-sdk-content
+
 description: Loads any registered overlay identifiers, or handlers, that are not currently loaded.
 old-location: shell\IShellIconOverlayManager_LoadNonloadedOverlayIdentifiers.htm
 tech.root: shell
 ms.assetid: bd6003b5-551d-41cc-8ca6-13ab245ed6fd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlayManager interface [Windows Shell],LoadNonloadedOverlayIdentifiers method, IShellIconOverlayManager.LoadNonloadedOverlayIdentifiers, IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers, LoadNonloadedOverlayIdentifiers, LoadNonloadedOverlayIdentifiers method [Windows Shell], LoadNonloadedOverlayIdentifiers method [Windows Shell],IShellIconOverlayManager interface, _win32_IShellIconOverlayManager_LoadNonloadedOverlayIdentifiers, shell.IShellIconOverlayManager_LoadNonloadedOverlayIdentifiers, shlobj_core/IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.GetWinEventsForAutomationEvent
 title: IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the list of WinEvents that are mapped to a specific Microsoft UI Automation event. If an element represented by this proxy raises one the listed WinEvents, the proxy handles it.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent.htm
 tech.root: WinAuto
 ms.assetid: f8daa90f-9fad-48c7-8f22-e8c673fca330
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetWinEventsForAutomationEvent, GetWinEventsForAutomationEvent method [Windows Accessibility], GetWinEventsForAutomationEvent method [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, IUIAutomationProxyFactoryEntry interface [Windows Accessibility],GetWinEventsForAutomationEvent method, IUIAutomationProxyFactoryEntry.GetWinEventsForAutomationEvent, IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent, uiauto.uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent, uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent, uiautomationclient/IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent, winauto.uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent
 ms.topic: method

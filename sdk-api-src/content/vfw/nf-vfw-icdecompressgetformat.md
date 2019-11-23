@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.ICDecompressGetFormat
 title: ICDecompressGetFormat macro (vfw.h)
-author: windows-sdk-content
+
 description: The ICDecompressGetFormat macro requests the output format of the decompressed data from a video decompression driver. You can use this macro or explicitly call the ICM_DECOMPRESS_GET_FORMAT message.
 old-location: multimedia\icdecompressgetformat.htm
 tech.root: Multimedia
 ms.assetid: c45ff664-03f0-4cda-9ffd-fb7ea2656e43
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICDecompressGetFormat, ICDecompressGetFormat macro [Windows Multimedia], _win32_ICDecompressGetFormat, multimedia.icdecompressgetformat, vfw/ICDecompressGetFormat
 ms.topic: macro

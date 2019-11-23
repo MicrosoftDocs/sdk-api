@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.RegisterClassExW
 title: RegisterClassExW function (winuser.h)
-author: windows-sdk-content
+
 description: Registers a window class for subsequent use in calls to the CreateWindow or CreateWindowEx function.
 old-location: winmsg\registerclassex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\registerclassex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RegisterClassEx, RegisterClassEx function [Windows and Messages], RegisterClassExA, RegisterClassExW, _win32_RegisterClassEx, _win32_registerclassex_cpp, winmsg.registerclassex, winui._win32_registerclassex, winuser/RegisterClassEx, winuser/RegisterClassExA, winuser/RegisterClassExW
 ms.topic: function

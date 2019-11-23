@@ -1,12 +1,12 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.GetActiveItem
 title: ICameraUIControl::GetActiveItem (camerauicontrol.h)
-author: windows-sdk-content
+
 description: Gets the active captured item.
 old-location: winprog\icamerauicontrol_getactiveitem.htm
 tech.root: DevNotes
 ms.assetid: 9ef05929-7292-4833-95e7-d420abb6cd43
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetActiveItem, GetActiveItem method [Windows API], GetActiveItem method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],GetActiveItem method, ICameraUIControl.GetActiveItem, ICameraUIControl::GetActiveItem, camerauicontrol/ICameraUIControl::GetActiveItem, winprog.icamerauicontrol_getactiveitem
 ms.topic: method

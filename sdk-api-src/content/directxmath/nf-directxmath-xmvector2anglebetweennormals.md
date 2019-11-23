@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector2AngleBetweenNormals
 title: XMVector2AngleBetweenNormals function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the radian angle between two normalized 2D vectors.
 old-location: dxmath\xmvector2anglebetweennormals.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2AngleBetweenNormals(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2AngleBetweenNormals, XMVector2AngleBetweenNormals, XMVector2AngleBetweenNormals method [DirectX Math Support APIs], dxmath.xmvector2anglebetweennormals
 ms.topic: function

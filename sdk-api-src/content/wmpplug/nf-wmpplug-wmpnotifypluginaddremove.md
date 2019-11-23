@@ -1,12 +1,12 @@
 ---
 UID: NF:wmpplug.WMPNotifyPluginAddRemove
 title: WMPNotifyPluginAddRemove function (wmpplug.h)
-author: windows-sdk-content
+
 description: The WMPNotifyPluginAddRemove function notifies Windows Media Player that a plug-in has been installed or uninstalled.
 old-location: wmp\wmpnotifypluginaddremove.htm
 tech.root: WMP
 ms.assetid: e367011a-2151-4324-90da-304dd7f989ab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WMPNotifyPluginAddRemove, WMPNotifyPluginAddRemove function [Windows Media Player], wmp.wmpnotifypluginaddremove, wmpplug/WMPNotifyPluginAddRemove
 ms.topic: function

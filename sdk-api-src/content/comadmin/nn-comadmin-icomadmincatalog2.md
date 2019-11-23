@@ -1,12 +1,12 @@
 ---
 UID: NN:comadmin.ICOMAdminCatalog2
 title: ICOMAdminCatalog2 (comadmin.h)
-author: windows-sdk-content
+
 description: An extension of the ICOMAdminCatalog interface.
 old-location: cos\icomadmincatalog2.htm
 tech.root: cossdk
 ms.assetid: ffca611d-dacc-47be-9101-9de76ecc8393
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], ICOMAdminCatalog2 interface [COM+],described, comadmin/ICOMAdminCatalog2, cos.icomadmincatalog2
 ms.topic: interface

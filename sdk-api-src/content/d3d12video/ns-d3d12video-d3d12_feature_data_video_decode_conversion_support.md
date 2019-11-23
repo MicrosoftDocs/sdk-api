@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT
 title: D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT
-author: windows-sdk-content
+
 description:  Retrieves the list of supported profiles.
 tech.root: mf
 ms.assetid: 916f29f6-8bb5-4ac8-94a4-5cea6bdf353b
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

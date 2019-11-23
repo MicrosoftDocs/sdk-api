@@ -1,12 +1,12 @@
 ---
 UID: NF:directml.IDMLDevice.CreateCommandRecorder
 title: IDMLDevice::CreateCommandRecorder
-author: windows-sdk-content
+
 description: Creates a DirectML command recorder.
 old-location: direct3d12\idmldevice_createcommandrecorder.htm
 tech.root: direct3d12
 ms.assetid: 95A70E8B-6C39-422B-91A6-1660E7E05D4C
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: CreateCommandRecorder, CreateCommandRecorder method, CreateCommandRecorder method,IDMLDevice interface, IDMLDevice interface,CreateCommandRecorder method, IDMLDevice.CreateCommandRecorder, IDMLDevice::CreateCommandRecorder, direct3d12.idmldevice_createcommandrecorder, directml/IDMLDevice::CreateCommandRecorder
 ms.topic: method

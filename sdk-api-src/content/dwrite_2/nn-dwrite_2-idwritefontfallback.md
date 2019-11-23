@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_2.IDWriteFontFallback
 title: IDWriteFontFallback (dwrite_2.h)
-author: windows-sdk-content
+
 description: Allows you to access fallback fonts from the font list.
 old-location: directwrite\idwritefontfallback.htm
 tech.root: DirectWrite
 ms.assetid: CBC4100A-756B-429E-8368-D5D018A2B0AC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFallback, IDWriteFontFallback interface [Direct Write], IDWriteFontFallback interface [Direct Write],described, directwrite.idwritefontfallback, dwrite_2/IDWriteFontFallback
 ms.topic: interface

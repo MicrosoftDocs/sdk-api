@@ -1,12 +1,12 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTGetCharacteristicValue
 title: BluetoothGATTGetCharacteristicValue function (bluetoothleapis.h)
-author: windows-sdk-content
+
 description: Gets the value of the specified characteristic.
 old-location: bltooth\bluetoothgattgetcharacteristicvalue.htm
 tech.root: bltooth
 ms.assetid: 8C89FCE9-8DCA-4A38-AF67-A46FDDCC9A60
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetCharacteristicValue, BluetoothGATTGetCharacteristicValue function [Bluetooth Devices], bltooth.bluetoothgattgetcharacteristicvalue, bluetoothleapis/BluetoothGATTGetCharacteristicValue
 ms.topic: function

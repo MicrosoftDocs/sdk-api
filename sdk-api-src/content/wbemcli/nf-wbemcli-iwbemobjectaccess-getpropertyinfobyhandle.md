@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.GetPropertyInfoByHandle
 title: IWbemObjectAccess::GetPropertyInfoByHandle (wbemcli.h)
-author: windows-sdk-content
+
 description: The GetPropertyInfoByHandle method returns the name and data type of the property that is associated with a property handle.
 old-location: wmi\iwbemobjectaccess_getpropertyinfobyhandle.htm
 tech.root: WmiSdk
 ms.assetid: a29157a8-50da-485d-a2b1-bf9645ba9963
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPropertyInfoByHandle, GetPropertyInfoByHandle method [Windows Management Instrumentation], GetPropertyInfoByHandle method [Windows Management Instrumentation],IWbemObjectAccess interface, IWbemObjectAccess interface [Windows Management Instrumentation],GetPropertyInfoByHandle method, IWbemObjectAccess.GetPropertyInfoByHandle, IWbemObjectAccess::GetPropertyInfoByHandle, _hmm_iwbemobjectaccess_getpropertyinfobyhandle, wbemcli/IWbemObjectAccess::GetPropertyInfoByHandle, wmi.iwbemobjectaccess_getpropertyinfobyhandle
 ms.topic: method

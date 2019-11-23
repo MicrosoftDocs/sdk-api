@@ -1,12 +1,12 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.Reset
 title: IAudioProcessingObject::Reset (audioenginebaseapo.h)
-author: windows-sdk-content
+
 description: The Reset method resets the APO to its original state. This method does not cause any changes in the connection objects that are attached to the input or the output of the APO.
 old-location: audio\iaudioprocessingobject_reset.htm
 tech.root: audio
 ms.assetid: 9d8c13cb-012e-4b5e-a1fd-1c2e5b9200b8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioProcessingObject interface [Audio Devices],Reset method, IAudioProcessingObject.Reset, IAudioProcessingObject::Reset, Reset, Reset method [Audio Devices], Reset method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_reset, audio_syseffects_r_1df1a787-30e1-4eda-adde-a0b4a813ac9b.xml, audioenginebaseapo/IAudioProcessingObject::Reset
 ms.topic: method

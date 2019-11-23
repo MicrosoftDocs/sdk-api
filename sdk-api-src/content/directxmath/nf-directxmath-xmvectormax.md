@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorMax
 title: XMVectorMax function (directxmath.h)
-author: windows-sdk-content
+
 description: Makes a per-component comparison between two vectors, and returns a vector containing the largest components.
 old-location: dxmath\xmvectormax.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorMax(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorMax, XMVectorMax, XMVectorMax method [DirectX Math Support APIs], dxmath.xmvectormax
 ms.topic: function

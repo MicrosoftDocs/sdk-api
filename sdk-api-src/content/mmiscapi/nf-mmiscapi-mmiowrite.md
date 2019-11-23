@@ -1,12 +1,12 @@
 ---
 UID: NF:mmiscapi.mmioWrite
 title: mmioWrite function (mmiscapi.h)
-author: windows-sdk-content
+
 description: The mmioWrite function writes a specified number of bytes to a file opened by using the mmioOpen function.
 old-location: multimedia\mmiowrite.htm
 tech.root: Multimedia
 ms.assetid: e47d00ba-ad29-4a23-8a7c-604bedac10e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_mmioWrite, mmioWrite, mmioWrite function [Windows Multimedia], mmsystem/mmioWrite, multimedia.mmiowrite"
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IClientSecurity.QueryBlanket
 title: IClientSecurity::QueryBlanket (objidlbase.h)
-author: windows-sdk-content
+
 description: Retrieves authentication information the client uses to make calls on the specified proxy.
 old-location: com\iclientsecurity_queryblanket.htm
 tech.root: com
 ms.assetid: 8761bb58-9f28-4fe6-bf24-2687608ec5e8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IClientSecurity interface [COM],QueryBlanket method, IClientSecurity.QueryBlanket, IClientSecurity::QueryBlanket, QueryBlanket, QueryBlanket method [COM], QueryBlanket method [COM],IClientSecurity interface, _com_iclientsecurity_queryblanket, com.iclientsecurity_queryblanket, objidlbase/IClientSecurity::QueryBlanket
 ms.topic: method

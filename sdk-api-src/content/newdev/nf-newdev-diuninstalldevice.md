@@ -1,12 +1,12 @@
 ---
 UID: NF:newdev.DiUninstallDevice
 title: DiUninstallDevice function (newdev.h)
-author: windows-sdk-content
+
 description: The DiUninstallDevice function uninstalls a device and removes its device node (devnode) from the system.
 old-location: devinst\diuninstalldevice.htm
 tech.root: devinst
 ms.assetid: 317b24bd-01a8-41ff-9aac-78690574eade
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DiUninstallDevice, DiUninstallDevice function [Device and Driver Installation], devinst.diuninstalldevice, di-rtns_361ca427-6e65-497e-a9c0-8723e4aaa8c6.xml, newdev/DiUninstallDevice
 ms.topic: function

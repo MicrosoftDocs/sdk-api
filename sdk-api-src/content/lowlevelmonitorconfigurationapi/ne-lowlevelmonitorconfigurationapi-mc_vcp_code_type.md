@@ -1,12 +1,12 @@
 ---
 UID: NE:lowlevelmonitorconfigurationapi._MC_VCP_CODE_TYPE
 title: MC_VCP_CODE_TYPE (lowlevelmonitorconfigurationapi.h)
-author: windows-sdk-content
+
 description: Describes a Virtual Control Panel (VCP) code type.
 old-location: monitor\mc_vcp_code_type.htm
 tech.root: Monitor
 ms.assetid: 2ccfd6d0-7885-45b7-b44f-edefa320b881
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPMC_VCP_CODE_TYPE, LPMC_VCP_CODE_TYPE, LPMC_VCP_CODE_TYPE enumeration pointer [Monitor Configuration], MC_MOMENTARY, MC_SET_PARAMETER, MC_VCP_CODE_TYPE, MC_VCP_CODE_TYPE , MC_VCP_CODE_TYPE enumeration [Monitor Configuration], lowlevelmonitorconfigurationapi/LPMC_VCP_CODE_TYPE, lowlevelmonitorconfigurationapi/MC_MOMENTARY, lowlevelmonitorconfigurationapi/MC_SET_PARAMETER, lowlevelmonitorconfigurationapi/MC_VCP_CODE_TYPE, monitor.mc_vcp_code_type"
 ms.topic: enum

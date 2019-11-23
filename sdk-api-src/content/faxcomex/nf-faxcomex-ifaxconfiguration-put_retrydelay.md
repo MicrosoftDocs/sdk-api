@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_RetryDelay
 title: IFaxConfiguration::put_RetryDelay (faxcomex.h)
-author: windows-sdk-content
+
 description: Sets or retrieves a value that indicates the length of time the fax service should wait before retrying a failed fax transmission.
 old-location: fax\_mfax_IFaxConfiguration_RetryDelay.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\retrydelay.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],RetryDelay property, IFaxConfiguration.RetryDelay, IFaxConfiguration.put_RetryDelay, IFaxConfiguration::RetryDelay, IFaxConfiguration::get_RetryDelay, IFaxConfiguration::put_RetryDelay, RetryDelay property [Fax Service], RetryDelay property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_RetryDelay, fax._mfax_IFaxConfiguration_RetryDelay, faxcomex/IFaxConfiguration::RetryDelay, faxcomex/IFaxConfiguration::get_RetryDelay, faxcomex/IFaxConfiguration::put_RetryDelay, put_RetryDelay
 ms.topic: method

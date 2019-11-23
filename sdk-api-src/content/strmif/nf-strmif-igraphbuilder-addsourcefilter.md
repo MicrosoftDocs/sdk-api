@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IGraphBuilder.AddSourceFilter
 title: IGraphBuilder::AddSourceFilter (strmif.h)
-author: windows-sdk-content
+
 description: The AddSourceFilter method adds a source filter for a specified file to the filter graph.
 old-location: dshow\igraphbuilder_addsourcefilter.htm
 tech.root: DirectShow
 ms.assetid: ed4d7fc6-558b-474f-ae8d-58aa8479b4d2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddSourceFilter, AddSourceFilter method [DirectShow], AddSourceFilter method [DirectShow],IGraphBuilder interface, IGraphBuilder interface [DirectShow],AddSourceFilter method, IGraphBuilder.AddSourceFilter, IGraphBuilder::AddSourceFilter, IGraphBuilderAddSourceFilter, dshow.igraphbuilder_addsourcefilter, strmif/IGraphBuilder::AddSourceFilter
 ms.topic: method

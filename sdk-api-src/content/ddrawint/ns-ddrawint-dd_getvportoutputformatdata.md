@@ -1,12 +1,12 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTOUTPUTFORMATDATA
 title: DD_GETVPORTOUTPUTFORMATDATA (ddrawint.h)
-author: windows-sdk-content
+
 description: The DD_GETVPORTOUTPUTFORMATDATA structure contains the information required for the driver to return all of the output formats that the video port extensions (VPE) object supports for a given input format.
 old-location: display\dd_getvportoutputformatdata.htm
 tech.root: display
 ms.assetid: 3033a4e9-3f94-4702-9db8-098a358ab1c2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PDD_GETVPORTOUTPUTFORMATDATA, DD_GETVPORTOUTPUTFORMATDATA, DD_GETVPORTOUTPUTFORMATDATA structure [Display Devices], ddrawint/DD_GETVPORTOUTPUTFORMATDATA, ddstrcts_c8b41b3c-cb15-46d2-aa72-f59301276ffe.xml, display.dd_getvportoutputformatdata'
 ms.topic: struct

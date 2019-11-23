@@ -1,12 +1,12 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Skip
 title: IEnumBitsPeers::Skip (bits3_0.h)
-author: windows-sdk-content
+
 description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 old-location: bits\ienumbitspeers_skip.htm
 tech.root: Bits
 ms.assetid: 23a9b424-11a3-4cbf-a867-93026f0725cc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Skip method, IEnumBitsPeers.Skip, IEnumBitsPeers::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_skip, bits3_0/IEnumBitsPeers::Skip
 ms.topic: method

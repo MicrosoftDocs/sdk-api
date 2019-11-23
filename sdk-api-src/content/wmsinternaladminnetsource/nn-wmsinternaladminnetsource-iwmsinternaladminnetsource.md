@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsinternaladminnetsource.IWMSInternalAdminNetSource
 title: IWMSInternalAdminNetSource (wmsinternaladminnetsource.h)
-author: windows-sdk-content
+
 description: The IWMSInternalAdminNetSource interface manages cached passwords and finds proxy servers.To obtain a pointer to an instance of this interface, call the QueryInterface method of the IDispatch interface retrieved by INSNetSourceCreator::GetNetSourceAdminInterface.
 old-location: wmformat\iwmsinternaladminnetsource.htm
 tech.root: wmformat
 ms.assetid: 0fbdad85-d94a-4598-bb25-f733df33692a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], IWMSInternalAdminNetSource interface [windows Media Format],described, IWMSInternalAdminNetSourceInterface, wmformat.iwmsinternaladminnetsource, wmsinternaladminnetsource/IWMSInternalAdminNetSource
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-equal-equal-to
 title: WBEMTimeSpan::operator-equal-equal-to (wbemtime.h)
-author: windows-sdk-content
+
 description: Compares two WBEMTimeSpan objects using an equal comparison operator.
 old-location: wmi\wbemtimespan_comparison_operators_equal.htm
 tech.root: WmiSdk
 ms.assetid: 5bb59bb2-fe3a-448d-9ace-f2d082787bbc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator== method, WBEMTimeSpan.operator-equal-equal-to, WBEMTimeSpan.operator==, WBEMTimeSpan::operator-equal-equal-to, WBEMTimeSpan::operator==, _hmm_wbemtimespan_comparison_operators, operator==, operator== method [Windows Management Instrumentation], operator== method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator==, wmi.wbemtimespan_comparison_operators, wmi.wbemtimespan_comparison_operators_equal
 ms.topic: method

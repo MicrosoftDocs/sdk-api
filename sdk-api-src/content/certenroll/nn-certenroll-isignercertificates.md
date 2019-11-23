@@ -1,12 +1,12 @@
 ---
 UID: NN:certenroll.ISignerCertificates
 title: ISignerCertificates (certenroll.h)
-author: windows-sdk-content
+
 description: The ISignerCertificates interface defines the following methods and properties to manage a collection of ISignerCertificate objects.
 old-location: security\isignercertificates.htm
 tech.root: seccertenroll
 ms.assetid: 420d6550-514a-4fea-987b-6deecbc9b717
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificates, ISignerCertificates interface [Security], ISignerCertificates interface [Security],described, certenroll/ISignerCertificates, security.isignercertificates
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.EngCreateClip
 title: EngCreateClip function (winddi.h)
-author: windows-sdk-content
+
 description: The EngCreateClip function creates a CLIPOBJ structure that the driver uses in callbacks.
 old-location: display\engcreateclip.htm
 tech.root: display
 ms.assetid: 719b006f-1eb0-41c6-8b88-c8241a394abe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngCreateClip, EngCreateClip function [Display Devices], display.engcreateclip, gdifncs_e1faed88-1f89-49c2-871e-097e56db1a10.xml, winddi/EngCreateClip
 ms.topic: function

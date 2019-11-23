@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetNumber
 title: MI_OperationOptions_SetNumber function (mi.h)
-author: windows-sdk-content
+
 description: Sets a custom number option value.
 old-location: wmi_v2\mi_operationoptions_setnumber.htm
 tech.root: wmi_v2
 ms.assetid: 2f357a9c-7e61-4f78-b4cc-2dd0a8259c3d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_SetNumber, MI_OperationOptions_SetNumber function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetNumber, wmi_v2.mi_operationoptions_setnumber
 ms.topic: function

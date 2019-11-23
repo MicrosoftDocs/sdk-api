@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IMDSPStorage2.CreateStorage2
 title: IMDSPStorage2::CreateStorage2 (mswmdm.h)
-author: windows-sdk-content
+
 description: The CreateStorage2 method creates a new storage with the specified name and returns a pointer to the IMDSPStorage interface on the newly created storage.
 old-location: wmdm\imdspstorage2_createstorage2.htm
 tech.root: WMDM
 ms.assetid: f79f4bf5-948e-4201-a9bc-edde4dd333ea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateStorage2, CreateStorage2 method [windows Media Device Manager], CreateStorage2 method [windows Media Device Manager],IMDSPStorage2 interface, IMDSPStorage2 interface [windows Media Device Manager],CreateStorage2 method, IMDSPStorage2.CreateStorage2, IMDSPStorage2::CreateStorage2, IMDSPStorage2CreateStorage2, mswmdm/IMDSPStorage2::CreateStorage2, wmdm.imdspstorage2_createstorage2
 ms.topic: method

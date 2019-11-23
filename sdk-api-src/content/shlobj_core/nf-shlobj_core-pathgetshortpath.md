@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.PathGetShortPath
 title: PathGetShortPath function (shlobj_core.h)
-author: windows-sdk-content
+
 description: PathGetShortPath may be altered or unavailable.
 old-location: shell\PathGetShortPath.htm
 tech.root: shell
 ms.assetid: f374a575-3fbf-4bed-aa76-76ed81e01d60
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathGetShortPath, PathGetShortPath function [Windows Shell], _win32_PathGetShortPath, shell.PathGetShortPath, shlobj_core/PathGetShortPath
 ms.topic: function

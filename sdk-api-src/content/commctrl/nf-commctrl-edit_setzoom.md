@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.Edit_SetZoom
 title: Edit_SetZoom macro (commctrl.h)
-author: windows-sdk-content
+
 description: Sets the current zoom ratio of an edit control (the zoom ratio is always between 1/64 and 64). You can use this macro or send the EM_SETZOOM message explicitly.
 old-location: controls\edit_setzoom.htm
 tech.root: Controls
 ms.assetid: 228EE5A0-AFAE-4485-8942-EB9BB6C12D54
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Edit_SetZoom, Edit_SetZoom macro [Windows Controls], commctrl/Edit_SetZoom, controls.edit_setzoom
 ms.topic: macro

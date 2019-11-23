@@ -1,12 +1,12 @@
 ---
 UID: NF:mmc.IToolbar.AddButtons
 title: IToolbar::AddButtons (mmc.h)
-author: windows-sdk-content
+
 description: Enables a snap-in to add an array of buttons to the toolbar.
 old-location: mmc\itoolbar_addbuttons.htm
 tech.root: mmc
 ms.assetid: 9d37d0bc-d7c3-4d23-8dd4-c5a6c4af15ee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddButtons, AddButtons method [MMC], AddButtons method [MMC],IToolbar interface, IToolbar interface [MMC],AddButtons method, IToolbar.AddButtons, IToolbar::AddButtons, _slate_itoolbar_addbuttons, mmc.itoolbar_addbuttons, mmc/IToolbar::AddButtons
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.LoadImageA
 title: LoadImageA function (winuser.h)
-author: windows-sdk-content
+
 description: Loads an icon, cursor, animated cursor, or bitmap.
 old-location: menurc\loadimage.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadimage.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_CREATEDIBSECTION, LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_LOADFROMFILE, LR_LOADMAP3DCOLORS, LR_LOADTRANSPARENT, LR_MONOCHROME, LR_SHARED, LR_VGACOLOR, LoadImage, LoadImage function [Menus and Other Resources], LoadImageA, LoadImageW, _win32_LoadImage, _win32_loadimage_cpp, menurc.loadimage, winui._win32_loadimage, winuser/LoadImage, winuser/LoadImageA, winuser/LoadImageW
 ms.topic: function

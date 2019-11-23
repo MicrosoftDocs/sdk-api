@@ -1,12 +1,12 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumInterfaceImpls
 title: IMetaDataImport::EnumInterfaceImpls (rometadataapi.h)
-author: windows-sdk-content
+
 description: Enumerates MethodDef tokens representing interface implementations.
 old-location: winrt\imetadataimport_enuminterfaceimpls.htm
 tech.root: WinRT
 ms.assetid: 37f3eada-7719-4303-a9c7-57ee396a5dc5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumInterfaceImpls, EnumInterfaceImpls method [Windows Runtime], EnumInterfaceImpls method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumInterfaceImpls method, IMetaDataImport.EnumInterfaceImpls, IMetaDataImport::EnumInterfaceImpls, rometadataapi/IMetaDataImport::EnumInterfaceImpls, winrt.imetadataimport_enuminterfaceimpls
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.RestoreClusterDatabase
 title: RestoreClusterDatabase function (clusapi.h)
-author: windows-sdk-content
+
 description: Restores the cluster database and restarts the Cluster service on the node from which the function is called. This node is called the restoring node.
 old-location: mscs\restoreclusterdatabase.htm
 tech.root: MsCS
 ms.assetid: a0524363-c5dc-449a-aaf6-9bcd9522c9eb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RestoreClusterDatabase, RestoreClusterDatabase function [Failover Cluster], _wolf_restoreclusterdatabase, clusapi/RestoreClusterDatabase, mscs.restoreclusterdatabase
 ms.topic: function

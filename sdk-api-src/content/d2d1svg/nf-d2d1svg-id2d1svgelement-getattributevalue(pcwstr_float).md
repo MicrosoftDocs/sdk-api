@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,FLOAT)
 title: ID2D1SvgElement::GetAttributeValue(PCWSTR,FLOAT) (d2d1svg.h)
-author: windows-sdk-content
+
 description: Gets an attribute of this element as a float.
 old-location: direct2d\id2d1svgelement_getattributevalue_4.htm
 tech.root: Direct2D
 ms.assetid: 7933DA62-42B1-4A41-8015-562661455F1F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Direct2D], GetAttributeValue method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValue method, ID2D1SvgElement.GetAttributeValue, ID2D1SvgElement.GetAttributeValue(PCWSTR,FLOAT), ID2D1SvgElement::GetAttributeValue, ID2D1SvgElement::GetAttributeValue(PCWSTR,FLOAT), d2d1svg/ID2D1SvgElement::GetAttributeValue, direct2d.id2d1svgelement_getattributevalue_4
 ms.topic: method

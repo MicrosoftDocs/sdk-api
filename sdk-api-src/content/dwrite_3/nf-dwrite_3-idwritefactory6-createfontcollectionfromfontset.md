@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory6.CreateFontCollectionFromFontSet
 title: IDWriteFactory6::CreateFontCollectionFromFontSet
-author: windows-sdk-content
+
 description: From a font set, create a collection of fonts grouped into families.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontCollectionFromFontSet method, IDWriteFactory6.CreateFontCollectionFromFontSet, IDWriteFactory6::CreateFontCollectionFromFontSet, CreateFontCollectionFromFontSet, CreateFontCollectionFromFontSet method [Direct Write], CreateFontCollectionFromFontSet method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontcollectionfromfontset, dwrite_3/IDWriteFactory6::CreateFontCollectionFromFontSet
 ms.topic: method

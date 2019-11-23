@@ -1,12 +1,12 @@
 ---
 UID: NE:mftransform._MFT_PROCESS_OUTPUT_STATUS
 title: _MFT_PROCESS_OUTPUT_STATUS (mftransform.h)
-author: windows-sdk-content
+
 description: Indicates the status of a call to IMFTransform::ProcessOutput.
 old-location: mf\_mft_process_output_status.htm
 tech.root: medfound
 ms.assetid: 80804b33-1dac-41f8-8446-8f929bf9b931
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 80804b33-1dac-41f8-8446-8f929bf9b931, MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS, _MFT_PROCESS_OUTPUT_STATUS, _MFT_PROCESS_OUTPUT_STATUS enumeration [Media Foundation], mf._mft_process_output_status, mftransform/MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS, mftransform/_MFT_PROCESS_OUTPUT_STATUS
 ms.topic: enum

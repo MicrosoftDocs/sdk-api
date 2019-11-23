@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorSet.Create
 title: IOpcRelationshipSelectorSet::Create (msopc.h)
-author: windows-sdk-content
+
 description: Creates an IOpcRelationshipSelector interface pointer to represent how a subset of relationships are selected to be signed, and adds the new pointer to the set.
 old-location: opc\iopcrelationshipselectorset_create.htm
 tech.root: OPC
 ms.assetid: 801d1924-c75c-47b5-99fe-9d97ea8dfee1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcRelationshipSelectorSet interface, IOpcRelationshipSelectorSet interface [Open Packaging Conventions],Create method, IOpcRelationshipSelectorSet.Create, IOpcRelationshipSelectorSet::Create, msopc/IOpcRelationshipSelectorSet::Create, opc.iopcrelationshipselectorset_create
 ms.topic: method

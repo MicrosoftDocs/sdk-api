@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMStoreXDecN4
 title: XMStoreXDecN4 function (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Stores an XMVECTOR in an XMXDECN4.
 old-location: dxmath\xmstorexdecn4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreXDecN4(XMXDECN4@,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreXDecN4, XMStoreXDecN4, XMStoreXDecN4 method [DirectX Math Support APIs], dxmath.xmstorexdecn4
 ms.topic: function

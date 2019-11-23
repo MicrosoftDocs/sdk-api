@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT
 title: D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT
-author: windows-sdk-content
+
 description: Retrieves support information for video decoding.
 tech.root: mf
 ms.assetid: 2a7019a1-e3a8-49ca-b094-12e1f45b43e3
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

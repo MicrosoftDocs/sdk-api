@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarUI1FromDate
 title: VarUI1FromDate function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a date value to an unsigned char value.
 old-location: automat\varui1fromdate.htm
 tech.root: automat
 ms.assetid: 0085fef8-183d-4754-b831-30ee26f9c37d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarUI1FromDate, VarUI1FromDate function [Automation], _oa96_VarUI1FromDate, automat.varui1fromdate, oleauto/VarUI1FromDate
 ms.topic: function

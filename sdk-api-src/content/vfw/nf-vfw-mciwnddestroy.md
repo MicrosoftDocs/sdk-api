@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndDestroy
 title: MCIWndDestroy macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndDestroy macro closes an MCI device or file associated with an MCIWnd window and destroys the window. You can use this macro or explicitly send the WM_CLOSE message.
 old-location: multimedia\mciwnddestroy.htm
 tech.root: Multimedia
 ms.assetid: 26e11fd1-99fd-4afa-8879-096a40acecce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndDestroy, MCIWndDestroy macro [Windows Multimedia], _win32_MCIWndDestroy, multimedia.mciwnddestroy, vfw/MCIWndDestroy
 ms.topic: macro

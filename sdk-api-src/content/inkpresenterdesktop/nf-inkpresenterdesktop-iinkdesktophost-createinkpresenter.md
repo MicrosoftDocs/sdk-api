@@ -1,12 +1,12 @@
 ---
 UID: NF:inkpresenterdesktop.IInkDesktopHost.CreateInkPresenter
 title: IInkDesktopHost::CreateInkPresenter (inkpresenterdesktop.h)
-author: windows-sdk-content
+
 description: Creates an IInkPresenterDesktop object on an application thread.
 old-location: input_ink\iinkdesktophost_createinkpresenter.htm
 tech.root: input_ink
 ms.assetid: 17480bbd-7d4f-4ba9-9d54-80f440104055
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateInkPresenter, CreateInkPresenter method, CreateInkPresenter method,IInkDesktopHost interface, IInkDesktopHost interface,CreateInkPresenter method, IInkDesktopHost.CreateInkPresenter, IInkDesktopHost::CreateInkPresenter, InkPresenterDesktop.iinkdesktophost_createinkpresenter, inkpresenterdesktop/IInkDesktopHost::CreateInkPresenter, input_ink.iinkdesktophost_createinkpresenter
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFGetContentProtectionSystemCLSID
 title: MFGetContentProtectionSystemCLSID function (mfapi.h)
-author: windows-sdk-content
+
 description: Gets the class identifier for a content protection system.
 old-location: mf\mfgetcontentprotectionsystemclsid.htm
 tech.root: medfound
 ms.assetid: 03E1AF8D-69C7-4988-A699-0BD71ED635AF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFGetContentProtectionSystemCLSID, MFGetContentProtectionSystemCLSID function [Media Foundation], mf.mfgetcontentprotectionsystemclsid, mfapi/MFGetContentProtectionSystemCLSID
 ms.topic: function

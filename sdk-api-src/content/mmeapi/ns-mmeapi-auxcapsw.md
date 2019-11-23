@@ -1,12 +1,12 @@
 ---
 UID: NS:mmeapi.tagAUXCAPSW
 title: AUXCAPSW (mmeapi.h)
-author: windows-sdk-content
+
 description: The AUXCAPS structure describes the capabilities of an auxiliary output device.
 old-location: multimedia\auxcaps.htm
 tech.root: Multimedia
 ms.assetid: 5b94a468-88b2-40a4-b28d-49f262e62749
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPAUXCAPSW, *NPAUXCAPSW, *PAUXCAPSW, AUXCAPS, AUXCAPS structure [Windows Multimedia], AUXCAPSA, AUXCAPSW, AUXCAPS_AUXIN, AUXCAPS_CDAUDIO, AUXCAPS_LRVOLUME, AUXCAPS_VOLUME, _win32_AUXCAPS_str, auxcaps_tag, mmeapi/AUXCAPS, multimedia.auxcaps"
 ms.topic: struct

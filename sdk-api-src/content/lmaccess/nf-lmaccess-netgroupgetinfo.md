@@ -1,12 +1,12 @@
 ---
 UID: NF:lmaccess.NetGroupGetInfo
 title: NetGroupGetInfo function (lmaccess.h)
-author: windows-sdk-content
+
 description: The NetGroupGetInfo function retrieves information about a particular global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupgetinfo.htm
 tech.root: NetMgmt
 ms.assetid: f9957c15-9a49-4b53-ae31-efd6a03417a6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetGroupGetInfo, NetGroupGetInfo function [Network Management], _win32_netgroupgetinfo, lmaccess/NetGroupGetInfo, netmgmt.netgroupgetinfo
 ms.topic: function

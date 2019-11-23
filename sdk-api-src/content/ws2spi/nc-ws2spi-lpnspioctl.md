@@ -1,12 +1,12 @@
 ---
 UID: NC:ws2spi.LPNSPIOCTL
 title: LPNSPIOCTL (ws2spi.h)
-author: windows-sdk-content
+
 description: Sends an IOCTL to a namespace service provider.
 old-location: winsock\nspioctl.htm
 tech.root: WinSock
 ms.assetid: 061969f5-dbb5-47d7-820d-5af6fe6a0c62
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LPNSPIOCTL, NSPIoctl, NSPIoctl function [Winsock], SIO_NSP_NOTIFY_CHANGE, winsock.nspioctl, ws2spi/NSPIoctl
 ms.topic: callback

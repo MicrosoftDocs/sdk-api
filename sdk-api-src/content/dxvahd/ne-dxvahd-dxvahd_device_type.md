@@ -1,12 +1,12 @@
 ---
 UID: NE:dxvahd._DXVAHD_DEVICE_TYPE
 title: DXVAHD_DEVICE_TYPE (dxvahd.h)
-author: windows-sdk-content
+
 description: Specifies the type of Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_device_type.htm
 tech.root: medfound
 ms.assetid: c472f2c6-214d-4bb0-ba9d-8dd04ff2a646
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_DEVICE_TYPE, DXVAHD_DEVICE_TYPE enumeration [Media Foundation], DXVAHD_DEVICE_TYPE_HARDWARE, DXVAHD_DEVICE_TYPE_OTHER, DXVAHD_DEVICE_TYPE_REFERENCE, DXVAHD_DEVICE_TYPE_SOFTWARE, dxvahd/DXVAHD_DEVICE_TYPE, dxvahd/DXVAHD_DEVICE_TYPE_HARDWARE, dxvahd/DXVAHD_DEVICE_TYPE_OTHER, dxvahd/DXVAHD_DEVICE_TYPE_REFERENCE, dxvahd/DXVAHD_DEVICE_TYPE_SOFTWARE, mf.dxvahd_device_type
 ms.topic: enum

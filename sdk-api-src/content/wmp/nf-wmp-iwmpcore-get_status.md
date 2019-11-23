@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPCore.get_status
 title: IWMPCore::get_status (wmp.h)
-author: windows-sdk-content
+
 description: The get_status method retrieves the status of Windows Media Player.
 old-location: wmp\iwmpcore_get_status.htm
 tech.root: WMP
 ms.assetid: ee11cb36-4dd2-4fe4-84fd-b3fc11b13ae0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_status method, IWMPCore.get_status, IWMPCore::get_status, IWMPCoreget_status, get_status, get_status method [Windows Media Player], get_status method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_status, wmp/IWMPCore::get_status
 ms.topic: method

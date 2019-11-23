@@ -1,12 +1,12 @@
 ---
 UID: NS:evntrace.EVENT_INSTANCE_INFO
 title: EVENT_INSTANCE_INFO (evntrace.h)
-author: windows-sdk-content
+
 description: The EVENT_INSTANCE_INFO structure maps a unique transaction identifier to a registered event trace class.
 old-location: etw\event_instance_info.htm
 tech.root: ETW
 ms.assetid: 83a3802c-b992-43a2-a98a-bdee2ecfef24
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PEVENT_INSTANCE_INFO, EVENT_INSTANCE_INFO, EVENT_INSTANCE_INFO structure [ETW], PEVENT_INSTANCE_INFO, PEVENT_INSTANCE_INFO structure pointer [ETW], _evt_event_instance_info, base.event_instance_info, etw.event_instance_info, evntrace/EVENT_INSTANCE_INFO, evntrace/PEVENT_INSTANCE_INFO"
 ms.topic: struct

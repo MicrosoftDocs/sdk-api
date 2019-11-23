@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcndr.NdrClientCall
 title: NdrClientCall function (rpcndr.h)
-author: windows-sdk-content
+
 description: The NdrClientCall function is the client-side entry point for the /Oicf mode stub.
 old-location: rpc\ndrclientcall.htm
 tech.root: Rpc
 ms.assetid: c7bf480a-a9c7-4d67-a7b6-cba6352b4600
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NdrClientCall, NdrClientCall function [RPC], rpc.ndrclientcall, rpcndr/NdrClientCall
 ms.topic: function

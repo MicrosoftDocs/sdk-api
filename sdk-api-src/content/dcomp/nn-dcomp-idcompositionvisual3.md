@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionVisual3
 title: IDCompositionVisual3 (dcomp.h)
-author: windows-sdk-content
+
 description: Represents one DirectComposition visual in a visual tree.
 old-location: directcomp\idcompositionvisual3.htm
 tech.root: directcomp
 ms.assetid: c7bf4e6f-119b-2122-1103-d6ab240121c9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3, IDCompositionVisual3 interface [DirectComposition], IDCompositionVisual3 interface [DirectComposition],described, dcomp/IDCompositionVisual3, directcomp.idcompositionvisual3
 ms.topic: interface

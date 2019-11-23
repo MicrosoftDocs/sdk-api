@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUBYTE4.XMUBYTE4(XMUBYTE4 &&)
 title: XMUBYTE4::XMUBYTE4(XMUBYTE4 &&) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Default constructor for XMUBYTE4.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMUBYTE4, XMUBYTE4 constructor [DirectX Math Support APIs], XMUBYTE4 constructor [DirectX Math Support APIs],XMUBYTE4 structure, XMUBYTE4 structure [DirectX Math Support APIs],XMUBYTE4 constructor, XMUBYTE4.XMUBYTE4, XMUBYTE4.XMUBYTE4(), XMUBYTE4.XMUBYTE4(XMUBYTE4 &&), XMUBYTE4::XMUBYTE4, XMUBYTE4::XMUBYTE4(XMUBYTE4 &&), dxmath.xmubyte4_ctor_1
 ms.topic: method

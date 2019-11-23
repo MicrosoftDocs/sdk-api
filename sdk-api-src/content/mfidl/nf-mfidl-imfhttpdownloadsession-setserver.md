@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadSession.SetServer
 title: IMFHttpDownloadSession::SetServer (mfidl.h)
-author: windows-sdk-content
+
 description: Called by Microsoft Media Foundation to specify parameters common to all requests created by this instance of IMFHttpDownloadSession.
 old-location: mf\imfhttpdownloadsession_setserver.htm
 tech.root: medfound
 ms.assetid: 408D4863-D95F-4BBD-9F0B-9796ED08A256
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadSession interface [Media Foundation],SetServer method, IMFHttpDownloadSession.SetServer, IMFHttpDownloadSession::SetServer, SetServer, SetServer method [Media Foundation], SetServer method [Media Foundation],IMFHttpDownloadSession interface, mf.imfhttpdownloadsession_setserver, mfidl/IMFHttpDownloadSession::SetServer
 ms.topic: method

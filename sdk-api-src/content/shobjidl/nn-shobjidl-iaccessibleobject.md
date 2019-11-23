@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl.IAccessibleObject
 title: IAccessibleObject (shobjidl.h)
-author: windows-sdk-content
+
 description: Exposes a method that can be used by an accessibility application.
 old-location: shell\IAccessibleObject.htm
 tech.root: shell
 ms.assetid: bac49a2d-4357-4607-a89d-d2ed4abf89bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAccessibleObject, IAccessibleObject interface [Windows Shell], IAccessibleObject interface [Windows Shell],described, _shell_IAccessibleObject, shell.IAccessibleObject, shobjidl/IAccessibleObject
 ms.topic: interface

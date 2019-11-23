@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IEnumIDList
 title: IEnumIDList (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Exposes a standard set of methods used to enumerate the pointers to item identifier lists (PIDLs) of the items in a Shell folder.
 old-location: shell\IEnumIDList.htm
 tech.root: shell
 ms.assetid: b6f139d3-c54c-4350-9d8b-cd534909a488
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumIDList, IEnumIDList interface [Windows Shell], IEnumIDList interface [Windows Shell],described, _win32_IEnumIDList, shell.IEnumIDList, shobjidl_core/IEnumIDList
 ms.topic: interface

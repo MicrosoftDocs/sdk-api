@@ -1,12 +1,12 @@
 ---
 UID: NS:advpub._StrEntryW
 title: STRENTRYW (advpub.h)
-author: windows-sdk-content
+
 description: Represents a registry string replacement.
 old-location: winprog\_strentryw.htm
 tech.root: DevNotes
 ms.assetid: 0EA85285-B5CC-4DC2-ADB7-4888316634C3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPSTRENTRYW, LPSTRENTRYW, LPSTRENTRYW structure pointer [Windows API], STRENTRY, STRENTRYW, STRENTRYW structure [Windows API], _StrEntryW, _StrEntryW structure [Windows API], advpub/LPSTRENTRYW, advpub/_StrEntryW, winprog._strentryw"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.IScheduleCollection.AddRange
 title: IScheduleCollection::AddRange (pla.h)
-author: windows-sdk-content
+
 description: Adds one or more schedules to the collection.
 old-location: pla\ischedulecollection_addrange.htm
 tech.root: PLA
 ms.assetid: a1398bb5-d8a9-49c0-802c-2945428a3e0a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],AddRange method, IScheduleCollection.AddRange, IScheduleCollection::AddRange, base.ischedulecollection_addrange, pla.ischedulecollection_addrange, pla/IScheduleCollection::AddRange
 ms.topic: method

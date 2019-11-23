@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.DestroyResourceS
 title: IDispenserDriver::DestroyResourceS (comsvcs.h)
-author: windows-sdk-content
+
 description: Destroys a resource (string resource version).
 old-location: cos\idispenserdriver_destroyresources.htm
 tech.root: cossdk
 ms.assetid: 0c7fe9ca-8a27-4459-a95d-084d717d3a65
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DestroyResourceS, DestroyResourceS method [COM+], DestroyResourceS method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],DestroyResourceS method, IDispenserDriver.DestroyResourceS, IDispenserDriver::DestroyResourceS, _dtc_IDispenserDriver_DestroyResourceS, comsvcs/IDispenserDriver::DestroyResourceS, cos.idispenserdriver_destroyresources
 ms.topic: method

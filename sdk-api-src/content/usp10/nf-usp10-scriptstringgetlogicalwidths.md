@@ -1,12 +1,12 @@
 ---
 UID: NF:usp10.ScriptStringGetLogicalWidths
 title: ScriptStringGetLogicalWidths function (usp10.h)
-author: windows-sdk-content
+
 description: Converts visual widths into logical widths.
 old-location: intl\scriptstringgetlogicalwidths.htm
 tech.root: Intl
 ms.assetid: 8d9a13c7-bb28-4ed3-9335-f99c50d96f6f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ScriptStringGetLogicalWidths, ScriptStringGetLogicalWidths function [Internationalization for Windows Applications], _win32_ScriptStringGetLogicalWidths, intl.scriptstringgetlogicalwidths, usp10/ScriptStringGetLogicalWidths
 ms.topic: function

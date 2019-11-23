@@ -1,12 +1,12 @@
 ---
 UID: NF:micaut.IMathInputControl.GetPosition
 title: IMathInputControl::GetPosition (micaut.h)
-author: windows-sdk-content
+
 description: Retrieves the position and size of the control.
 old-location: tablet\imathinputcontrol_getposition.htm
 tech.root: tablet
 ms.assetid: 4928f92d-7150-434c-abe4-d65a48ce1a56
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Tablet PC], GetPosition method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetPosition method, IMathInputControl.GetPosition, IMathInputControl::GetPosition, micaut/IMathInputControl::GetPosition, tablet.imathinputcontrol_getposition
 ms.topic: method

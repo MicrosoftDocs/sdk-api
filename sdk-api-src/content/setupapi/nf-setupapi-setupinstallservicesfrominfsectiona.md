@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupInstallServicesFromInfSectionA
 title: SetupInstallServicesFromInfSectionA function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupInstallServicesFromInfSection function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file.
 old-location: setup\setupinstallservicesfrominfsection.htm
 tech.root: SetupApi
 ms.assetid: 25a937d3-29f4-46e8-91e5-e956fbe647d7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SPSVCINST_CLOBBER_SECURITY, SPSVCINST_DELETEEVENTLOGENTRY, SPSVCINST_NOCLOBBER_DEPENDENCIES, SPSVCINST_NOCLOBBER_DESCRIPTION, SPSVCINST_NOCLOBBER_DISPLAYNAME, SPSVCINST_NOCLOBBER_ERRORCONTROL, SPSVCINST_NOCLOBBER_LOADORDERGROUP, SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES, SPSVCINST_NOCLOBBER_STARTTYPE, SPSVCINST_STARTSERVICE, SPSVCINST_STOPSERVICE, SPSVCINST_TAGTOFRONT, SetupInstallServicesFromInfSection, SetupInstallServicesFromInfSection function [Setup API], SetupInstallServicesFromInfSectionA, SetupInstallServicesFromInfSectionW, _setupapi_setupinstallservicesfrominfsection, setup.setupinstallservicesfrominfsection, setupapi/SetupInstallServicesFromInfSection, setupapi/SetupInstallServicesFromInfSectionA, setupapi/SetupInstallServicesFromInfSectionW
 ms.topic: function

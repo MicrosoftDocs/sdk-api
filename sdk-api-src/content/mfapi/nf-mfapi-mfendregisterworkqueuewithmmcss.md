@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFEndRegisterWorkQueueWithMMCSS
 title: MFEndRegisterWorkQueueWithMMCSS function (mfapi.h)
-author: windows-sdk-content
+
 description: Completes an asynchronous request to associate a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\mfendregisterworkqueuewithmmcss.htm
 tech.root: medfound
 ms.assetid: 42d71e1a-a538-45d3-bbf4-1835db15bff9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 42d71e1a-a538-45d3-bbf4-1835db15bff9, MFEndRegisterWorkQueueWithMMCSS, MFEndRegisterWorkQueueWithMMCSS function [Media Foundation], mf.mfendregisterworkqueuewithmmcss, mfapi/MFEndRegisterWorkQueueWithMMCSS
 ms.topic: function

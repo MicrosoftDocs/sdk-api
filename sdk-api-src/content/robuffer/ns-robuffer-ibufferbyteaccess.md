@@ -1,12 +1,12 @@
 ---
 UID: NS:robuffer.IBufferByteAccess
 title: IBufferByteAccess
-author: windows-sdk-content
+
 description: Represents a buffer as an array of bytes.
 old-location: winrt\ibufferbyteaccess_buffer.htm
 tech.root: WinRT
 ms.assetid: 51E69696-CE8A-4390-8134-EE5C5F3C729B
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: IBufferByteAccess interface [Windows Runtime]
 ms.topic: method

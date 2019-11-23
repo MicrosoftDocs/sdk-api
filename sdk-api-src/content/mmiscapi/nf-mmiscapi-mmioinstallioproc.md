@@ -1,12 +1,12 @@
 ---
 UID: NF:mmiscapi.mmioInstallIOProc
 title: mmioInstallIOProc function (mmiscapi.h)
-author: windows-sdk-content
+
 description: The mmioInstallIOProc function installs or removes a custom I/O procedure. This function also locates an installed I/O procedure, using its corresponding four-character code.
 old-location: multimedia\mmioinstallioproc.htm
 tech.root: Multimedia
 ms.assetid: 235b5014-ad6e-4b9e-a063-99022cbcdb5d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_mmioInstallIOProc, mmioInstallIOProc, mmioInstallIOProc function [Windows Multimedia], mmioInstallIOProcA, mmioInstallIOProcW, mmsystem/mmioInstallIOProc, mmsystem/mmioInstallIOProcA, mmsystem/mmioInstallIOProcW, multimedia.mmioinstallioproc"
 ms.topic: function

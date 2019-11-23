@@ -1,7 +1,7 @@
 ---
 UID: NA:workspaceruntimeclientext
 ms.assetid: b2046158-b6ab-3e73-9823-dffa9d37a3db
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

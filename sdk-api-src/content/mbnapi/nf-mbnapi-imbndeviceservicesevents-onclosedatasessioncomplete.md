@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnCloseDataSessionComplete
 title: IMbnDeviceServicesEvents::OnCloseDataSessionComplete (mbnapi.h)
-author: windows-sdk-content
+
 description: Notification method indicating that a device service session CloseDataSession request has completed.
 old-location: mbn\imbndeviceservicesevents_onclosedatasessioncomplete.htm
 tech.root: mbn
 ms.assetid: 003D87F7-CFFD-47A3-8DAA-0CF9F64E2CF6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnCloseDataSessionComplete method, IMbnDeviceServicesEvents.OnCloseDataSessionComplete, IMbnDeviceServicesEvents::OnCloseDataSessionComplete, OnCloseDataSessionComplete, OnCloseDataSessionComplete method [Microsoft Broadband Networks], OnCloseDataSessionComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onclosedatasessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnCloseDataSessionComplete
 ms.topic: method

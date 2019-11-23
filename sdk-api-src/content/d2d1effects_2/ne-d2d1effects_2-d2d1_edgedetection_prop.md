@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1effects_2.D2D1_EDGEDETECTION_PROP
 title: D2D1_EDGEDETECTION_PROP (d2d1effects_2.h)
-author: windows-sdk-content
+
 description: Identifiers for properties of the Edge Detection effect.
 old-location: direct2d\d2d1_edgedetection_prop.htm
 tech.root: Direct2D
 ms.assetid: F3B94BDC-120E-4B44-9AA8-595AAEFD1F61
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_EDGEDETECTION_PROP, D2D1_EDGEDETECTION_PROP enumeration [Direct2D], D2D1_EDGEDETECTION_PROP_ALPHA_MODE, D2D1_EDGEDETECTION_PROP_BLUR_RADIUS, D2D1_EDGEDETECTION_PROP_MODE, D2D1_EDGEDETECTION_PROP_OVERLAY_EDGES, D2D1_EDGEDETECTION_PROP_STRENGTH, d2d1effects_2/D2D1_EDGEDETECTION_PROP, d2d1effects_2/D2D1_EDGEDETECTION_PROP_ALPHA_MODE, d2d1effects_2/D2D1_EDGEDETECTION_PROP_BLUR_RADIUS, d2d1effects_2/D2D1_EDGEDETECTION_PROP_MODE, d2d1effects_2/D2D1_EDGEDETECTION_PROP_OVERLAY_EDGES, d2d1effects_2/D2D1_EDGEDETECTION_PROP_STRENGTH, direct2d.d2d1_edgedetection_prop
 ms.topic: enum

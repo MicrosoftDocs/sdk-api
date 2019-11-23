@@ -1,12 +1,12 @@
 ---
 UID: NF:cfgmgr32.CM_Locate_DevNodeW
 title: CM_Locate_DevNodeW function (cfgmgr32.h)
-author: windows-sdk-content
+
 description: The CM_Locate_DevNode function obtains a device instance handle to the device node that is associated with a specified device instance ID on the local machine.
 old-location: devinst\cm_locate_devnode.htm
 tech.root: devinst
 ms.assetid: b0bb2510-44be-4598-96ea-9b8fdcc7f7c6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CM_Locate_DevNode, CM_Locate_DevNode function [Device and Driver Installation], CM_Locate_DevNodeA, CM_Locate_DevNodeW, cfgmgr32/CM_Locate_DevNode, cfgmgr32/CM_Locate_DevNodeA, cfgmgr32/CM_Locate_DevNodeW, cfgmgrfn_70e99ef3-9630-4088-8fcb-f6c7123f2cb5.xml, devinst.cm_locate_devnode
 ms.topic: function

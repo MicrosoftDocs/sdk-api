@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.Remove
 title: ICspAlgorithms::Remove (certenroll.h)
-author: windows-sdk-content
+
 description: Removes an ICspAlgorithm object from the collection by index number.
 old-location: security\icspalgorithms_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: 9116ca78-3b99-4b9a-97af-d01077e201f7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithms interface [Security],Remove method, ICspAlgorithms.Remove, ICspAlgorithms::Remove, Remove, Remove method [Security], Remove method [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::Remove, security.icspalgorithms_remove_method
 ms.topic: method

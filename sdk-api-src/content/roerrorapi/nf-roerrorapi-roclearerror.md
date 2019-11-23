@@ -1,12 +1,12 @@
 ---
 UID: NF:roerrorapi.RoClearError
 title: RoClearError function
-author: windows-sdk-content
+
 description: Removes existing error information from the current thread environment block (TEB).
 old-location: winrt\roclearerror.htm
 tech.root: WinRT
 ms.assetid: 082B26B2-3B17-45E3-8D4B-0E27777EDFF6
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: RoClearError, RoClearError function [Windows Runtime], roerrorapi/RoClearError, winrt.roclearerror
 ms.prod: windows-hardware

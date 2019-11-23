@@ -1,12 +1,12 @@
 ---
 UID: NF:identitystore.IIdentityStore.GetCount
 title: IIdentityStore::GetCount (identitystore.h)
-author: windows-sdk-content
+
 description: Gets the number of identity providers registered on the system.
 old-location: security\iidentitystore_getcount.htm
 tech.root: SecAuthN
 ms.assetid: f7f30ab9-f55d-44fa-9098-c6bf865125f8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Security], GetCount method [Security],IIdentityStore interface, IIdentityStore interface [Security],GetCount method, IIdentityStore.GetCount, IIdentityStore::GetCount, identitystore/IIdentityStore::GetCount, security.iidentitystore_getcount
 ms.topic: method

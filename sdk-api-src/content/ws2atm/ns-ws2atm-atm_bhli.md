@@ -1,12 +1,12 @@
 ---
 UID: NS:ws2atm.__unnamed_struct_2
 title: ATM_BHLI (ws2atm.h)
-author: windows-sdk-content
+
 description: The ATM_BHLI structure is used to identify B-HLI information for an associated ATM socket.
 old-location: winsock\atm_bhli_2.htm
 tech.root: WinSock
 ms.assetid: a7e09a8e-5990-4493-bd73-016363b57427
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ATM_BHLI, ATM_BHLI structure [Winsock], ATM_BHLI_IE, _win32_atm_bhli_2, winsock.atm_bhli_2, ws2atm/ATM_BHLI
 ms.topic: struct

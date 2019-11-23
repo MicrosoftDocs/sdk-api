@@ -1,12 +1,12 @@
 ---
 UID: NS:richedit._findtextexa
 title: FINDTEXTEXA (richedit.h)
-author: windows-sdk-content
+
 description: Contains information about text to search for in a rich edit control. This structure is used with the EM_FINDTEXTEX message.
 old-location: controls\FINDTEXTEX.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\findtextex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FINDTEXTEX, FINDTEXTEX structure [Windows Controls], FINDTEXTEXA, FINDTEXTEXW, _win32_FINDTEXTEX_str, _win32_FINDTEXTEX_str_cpp, controls.FINDTEXTEX, controls._win32_FINDTEXTEX_str, richedit/FINDTEXTEX, richedit/FINDTEXTEXA, richedit/FINDTEXTEXW
 ms.topic: struct

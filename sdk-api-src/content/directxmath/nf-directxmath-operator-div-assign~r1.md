@@ -3,7 +3,7 @@ UID: NF:directxmath.operator-div-assign~r1
 title: operator/=
 description: Divides an XMVECTOR instance by a floating point value and returns a reference to the updated instance.
 ms.assetid: 57149f16-e419-4a7c-a460-d347c0dbcd76
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: operator/=
 ms.topic: language-reference

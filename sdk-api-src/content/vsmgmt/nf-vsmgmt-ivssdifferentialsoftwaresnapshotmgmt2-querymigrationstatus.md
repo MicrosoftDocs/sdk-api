@@ -1,12 +1,12 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus
 title: IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus (vsmgmt.h)
-author: windows-sdk-content
+
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_querymigrationstatus.htm
 tech.root: VSS
 ms.assetid: c2410f49-7f92-4e32-947d-d85ffdf854f6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,QueryMigrationStatus method, IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus, IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus, QueryMigrationStatus, QueryMigrationStatus method, QueryMigrationStatus method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_querymigrationstatus, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.SHValidateUNC
 title: SHValidateUNC function (shlobj_core.h)
-author: windows-sdk-content
+
 description: SHValidateUNC may be altered or unavailable.
 old-location: shell\SHValidateUNC.htm
 tech.root: shell
 ms.assetid: 42394650-5571-4165-84f1-19a26fb4a1b8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHValidateUNC, SHValidateUNC function [Windows Shell], VALIDATEUNC_CONNECT, VALIDATEUNC_NOUI, VALIDATEUNC_PERSIST, VALIDATEUNC_PRINT, VALIDATEUNC_VALID, _win32_SHValidateUNC, shell.SHValidateUNC, shlobj_core/SHValidateUNC
 ms.topic: function

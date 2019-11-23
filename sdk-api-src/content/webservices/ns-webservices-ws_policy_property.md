@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_POLICY_PROPERTY
 title: WS_POLICY_PROPERTY (webservices.h)
-author: windows-sdk-content
+
 description: Specifies a policy object setting.
 old-location: wsw\ws_policy_property.htm
 tech.root: wsw
 ms.assetid: a897eb6c-d527-46ec-a710-252679001185
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_POLICY_PROPERTY, WS_POLICY_PROPERTY structure [Web Services for Windows], webservices/WS_POLICY_PROPERTY, wsw.ws_policy_property
 ms.topic: struct

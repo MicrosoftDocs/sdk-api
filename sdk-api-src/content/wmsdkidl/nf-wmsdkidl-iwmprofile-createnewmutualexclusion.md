@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.CreateNewMutualExclusion
 title: IWMProfile::CreateNewMutualExclusion (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The CreateNewMutualExclusion method creates a mutual exclusion object. Mutual exclusion objects are used to specify a set of streams, only one of which can be output at a time.
 old-location: wmformat\iwmprofile_createnewmutualexclusion.htm
 tech.root: wmformat
 ms.assetid: fcf3a549-5ae1-459a-95b9-923570f59a4a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateNewMutualExclusion, CreateNewMutualExclusion method [windows Media Format], CreateNewMutualExclusion method [windows Media Format],IWMProfile interface, CreateNewMutualExclusion method [windows Media Format],IWMProfile2 interface, CreateNewMutualExclusion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile.CreateNewMutualExclusion, IWMProfile2 interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile2::CreateNewMutualExclusion, IWMProfile3 interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile3::CreateNewMutualExclusion, IWMProfile::CreateNewMutualExclusion, IWMProfileCreateNewMutualExclusion, wmformat.iwmprofile_createnewmutualexclusion, wmsdkidl/IWMProfile2::CreateNewMutualExclusion, wmsdkidl/IWMProfile3::CreateNewMutualExclusion, wmsdkidl/IWMProfile::CreateNewMutualExclusion
 ms.topic: method

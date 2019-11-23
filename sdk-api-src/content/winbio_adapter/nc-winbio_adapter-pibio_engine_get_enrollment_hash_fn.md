@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN
 title: PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Retrieves the hash of the completed enrollment template in the pipeline.
 old-location: secbiomet\engineadaptergetenrollmenthash.htm
 tech.root: SecBioMet
 ms.assetid: 3a6984a1-0391-4e26-ad92-c07dc066acdb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterGetEnrollmentHash, EngineAdapterGetEnrollmentHash callback function [Windows Biometric Framework API], PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN, PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN callback, secbiomet.engineadaptergetenrollmenthash, winbio_adapter/EngineAdapterGetEnrollmentHash
 ms.topic: callback

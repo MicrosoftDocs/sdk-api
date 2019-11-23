@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj.SHCreateQueryCancelAutoPlayMoniker
 title: SHCreateQueryCancelAutoPlayMoniker function (shlobj.h)
-author: windows-sdk-content
+
 description: Deprecated. Creates a QueryCancelAutoPlay class moniker, which can then be used to register the IQueryCancelAutoPlay handler in the running object table (ROT).
 old-location: shell\SHCreateQueryCancelAutoPlayMoniker.htm
 tech.root: shell
 ms.assetid: 560a2b30-66f4-4b0f-9d46-ae714491c376
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHCreateQueryCancelAutoPlayMoniker, SHCreateQueryCancelAutoPlayMoniker function [Windows Shell], _shell_SHCreateQueryCancelAutoPlayMoniker, shell.SHCreateQueryCancelAutoPlayMoniker, shlobj/SHCreateQueryCancelAutoPlayMoniker
 ms.topic: function

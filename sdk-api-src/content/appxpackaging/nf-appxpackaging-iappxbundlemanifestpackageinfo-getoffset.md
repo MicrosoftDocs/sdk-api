@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetOffset
 title: IAppxBundleManifestPackageInfo::GetOffset (appxpackaging.h)
-author: windows-sdk-content
+
 description: Retrieves the offset of the package relative to the beginning of the bundle.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getoffset.htm
 tech.root: appxpkg
 ms.assetid: A55DB4B6-2EA0-4392-B05A-FEE091913573
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetOffset, GetOffset method [App packaging and management], GetOffset method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetOffset method, IAppxBundleManifestPackageInfo.GetOffset, IAppxBundleManifestPackageInfo::GetOffset, appxpackaging/IAppxBundleManifestPackageInfo::GetOffset, appxpkg.iappxbundlemanifestpackageinfo_getoffset
 ms.topic: method

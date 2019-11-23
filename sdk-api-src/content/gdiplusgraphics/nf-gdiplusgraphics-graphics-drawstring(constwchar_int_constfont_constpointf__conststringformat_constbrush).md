@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawString(const WCHAR,INT,const Font,const PointF &,const StringFormat,const Brush)
 title: Graphics::DrawString(const WCHAR,INT,const Font,const PointF &,const StringFormat,const Brush) (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::DrawString method draws a string based on a font, a string origin, and a format.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawString_string_length_font_origin_stringFormat_brush_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawstringmethods\drawstring_83string_length_font_origin_stringformat.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawString, DrawString method [GDI+], DrawString method [GDI+],Graphics class, Graphics class [GDI+],DrawString method, Graphics.DrawString, Graphics.DrawString(const WCHAR*,INT,const Font*,const PointF&,const StringFormat*,const Brush*), Graphics.DrawString(const WCHAR,INT,const Font,const PointF &,const StringFormat,const Brush), Graphics::DrawString, Graphics::DrawString(const WCHAR,INT,const Font,const PointF &,const StringFormat,const Brush), _gdiplus_CLASS_Graphics_DrawString_string_length_font_origin_stringFormat_brush_, gdiplus._gdiplus_CLASS_Graphics_DrawString_string_length_font_origin_stringFormat_brush_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:ntdsapi._DS_REPL_OBJ_META_DATA_2
 title: DS_REPL_OBJ_META_DATA_2 (ntdsapi.h)
-author: windows-sdk-content
+
 description: The DS_REPL_OBJ_META_DATA_2 structure contains an array of DS_REPL_ATTR_META_DATA_2 structures, which in turn contain replication state data for the attributes (past and present) for a given object, as returned by the DsReplicaGetInfo2 function.
 old-location: ad\ds_repl_obj_meta_data_2.htm
 tech.root: ad
 ms.assetid: 2aed753f-432c-4de8-a6be-aa79833f002f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_OBJ_META_DATA_2, DS_REPL_OBJ_META_DATA_2 structure [Active Directory], ad.ds_repl_obj_meta_data_2, ntdsapi/DS_REPL_OBJ_META_DATA_2
 ms.topic: struct

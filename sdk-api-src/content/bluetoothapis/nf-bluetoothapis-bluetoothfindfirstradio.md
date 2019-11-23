@@ -1,12 +1,12 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindFirstRadio
 title: BluetoothFindFirstRadio function (bluetoothapis.h)
-author: windows-sdk-content
+
 description: The BluetoothFindFirstRadio function begins the enumeration of local Bluetooth radios.
 old-location: bluetooth\bluetoothfindfirstradio.htm
 tech.root: bluetooth
 ms.assetid: f31bb18b-c129-417f-ab87-cf114a2e094f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BluetoothFindFirstRadio, BluetoothFindFirstRadio function [Bluetooth], bluetooth.bluetoothfindfirstradio, bluetoothapis/BluetoothFindFirstRadio
 ms.topic: function

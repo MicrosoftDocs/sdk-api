@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionGaussianBlurEffect.SetStandardDeviation(IDCompositionAnimation)
 title: IDCompositionGaussianBlurEffect::SetStandardDeviation(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the amount of blur to be applied to the image.
 old-location: directcomp\idcompositiongaussianblureffect_setstandarddeviation_2.htm
 tech.root: directcomp
 ms.assetid: EBDB097C-4B79-4E38-A09E-48FAFE6E5553
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionGaussianBlurEffect interface [DirectComposition],SetStandardDeviation method, IDCompositionGaussianBlurEffect.SetStandardDeviation, IDCompositionGaussianBlurEffect.SetStandardDeviation(IDCompositionAnimation), IDCompositionGaussianBlurEffect::SetStandardDeviation, IDCompositionGaussianBlurEffect::SetStandardDeviation(IDCompositionAnimation), SetStandardDeviation, SetStandardDeviation method [DirectComposition], SetStandardDeviation method [DirectComposition],IDCompositionGaussianBlurEffect interface, dcomp/IDCompositionGaussianBlurEffect::SetStandardDeviation, directcomp.idcompositiongaussianblureffect_setstandarddeviation_2
 ms.topic: method

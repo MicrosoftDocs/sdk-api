@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSSetShaderResources
 title: ID3D10Device::GSSetShaderResources (d3d10.h)
-author: windows-sdk-content
+
 description: Bind an array of shader resources to the geometry shader stage.
 old-location: direct3d10\id3d10device_gssetshaderresources.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gssetshaderresources.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GSSetShaderResources, GSSetShaderResources method [Direct3D 10], GSSetShaderResources method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSSetShaderResources method, ID3D10Device.GSSetShaderResources, ID3D10Device::GSSetShaderResources, ae1befd7-901e-0bc8-c1d4-e5f83866bff2, d3d10/ID3D10Device::GSSetShaderResources, direct3d10.id3d10device_gssetshaderresources
 ms.topic: method

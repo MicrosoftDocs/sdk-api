@@ -1,12 +1,12 @@
 ---
 UID: NF:wiavideo.IWiaVideo.CreateVideoByWiaDevID
 title: IWiaVideo::CreateVideoByWiaDevID (wiavideo.h)
-author: windows-sdk-content
+
 description: The IWiaVideo::CreateVideoByWiaDevID method creates a connection to a streaming video device from its WIA_DIP_DEV_ID property.
 old-location: wia\_wia_IWiaVideo_CreateVideoByWiaDevID.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobywiadevid.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateVideoByWiaDevID, CreateVideoByWiaDevID method [WIA], CreateVideoByWiaDevID method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],CreateVideoByWiaDevID method, IWiaVideo.CreateVideoByWiaDevID, IWiaVideo::CreateVideoByWiaDevID, _wia_IWiaVideo_CreateVideoByWiaDevID, wia._wia_IWiaVideo_CreateVideoByWiaDevID, wiavideo/IWiaVideo::CreateVideoByWiaDevID
 ms.topic: method

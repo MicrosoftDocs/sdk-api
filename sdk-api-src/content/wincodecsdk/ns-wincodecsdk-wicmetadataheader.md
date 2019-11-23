@@ -1,12 +1,12 @@
 ---
 UID: NS:wincodecsdk.WICMetadataHeader
 title: WICMetadataHeader (wincodecsdk.h)
-author: windows-sdk-content
+
 description: Represents metadata header.
 old-location: wic\_wic_codec_wicmetadataheader.htm
 tech.root: wic
 ms.assetid: f643b163-55b2-4691-a4eb-fc162949e936
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WICMetadataHeader, WICMetadataHeader structure [Windows Imaging Component], _wic_codec_wicmetadataheader, wic._wic_codec_wicmetadataheader, wincodecsdk/WICMetadataHeader
 ms.topic: struct

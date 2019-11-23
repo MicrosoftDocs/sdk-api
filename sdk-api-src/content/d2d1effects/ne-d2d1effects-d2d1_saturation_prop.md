@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1effects.D2D1_SATURATION_PROP
 title: D2D1_SATURATION_PROP (d2d1effects.h)
-author: windows-sdk-content
+
 description: Identifiers for properties of the Saturation effect.
 old-location: direct2d\d2d1_saturation_prop.htm
 tech.root: Direct2D
 ms.assetid: 69F237FD-F9EE-4C6B-B6E1-673FE815FC6D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_SATURATION_PROP, D2D1_SATURATION_PROP enumeration [Direct2D], D2D1_SATURATION_PROP_SATURATION, d2d1effects/D2D1_SATURATION_PROP, d2d1effects/D2D1_SATURATION_PROP_SATURATION, direct2d.d2d1_saturation_prop
 ms.topic: enum

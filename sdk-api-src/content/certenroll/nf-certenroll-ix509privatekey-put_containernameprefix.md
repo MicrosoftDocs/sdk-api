@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_ContainerNamePrefix
 title: IX509PrivateKey::put_ContainerNamePrefix (certenroll.h)
-author: windows-sdk-content
+
 description: Specifies or retrieves a prefix added to the name of the key container.
 old-location: security\ix509privatekey_containernameprefix.htm
 tech.root: seccertenroll
 ms.assetid: af5a30dd-4707-4b38-bf6b-b971d854d5b0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ContainerNamePrefix property [Security], ContainerNamePrefix property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],ContainerNamePrefix property, IX509PrivateKey.ContainerNamePrefix, IX509PrivateKey.put_ContainerNamePrefix, IX509PrivateKey::ContainerNamePrefix, IX509PrivateKey::get_ContainerNamePrefix, IX509PrivateKey::put_ContainerNamePrefix, certenroll/IX509PrivateKey::ContainerNamePrefix, certenroll/IX509PrivateKey::get_ContainerNamePrefix, certenroll/IX509PrivateKey::put_ContainerNamePrefix, put_ContainerNamePrefix, security.ix509privatekey_containernameprefix
 ms.topic: method

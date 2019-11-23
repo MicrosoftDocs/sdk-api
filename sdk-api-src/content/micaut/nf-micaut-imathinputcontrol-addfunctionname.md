@@ -1,12 +1,12 @@
 ---
 UID: NF:micaut.IMathInputControl.AddFunctionName
 title: IMathInputControl::AddFunctionName (micaut.h)
-author: windows-sdk-content
+
 description: Adds a new function-name definition to the list of custom math functions that the recognizer accepts.
 old-location: tablet\imathinputcontrol_addfunctionname.htm
 tech.root: tablet
 ms.assetid: eb1c9172-b520-4f6e-ae15-52634aa30007
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddFunctionName, AddFunctionName method [Tablet PC], AddFunctionName method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],AddFunctionName method, IMathInputControl.AddFunctionName, IMathInputControl::AddFunctionName, micaut/IMathInputControl::AddFunctionName, tablet.imathinputcontrol_addfunctionname
 ms.topic: method

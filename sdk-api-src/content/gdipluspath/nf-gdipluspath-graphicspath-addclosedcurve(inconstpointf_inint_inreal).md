@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddClosedCurve(IN const PointF,IN INT,IN REAL)
 title: GraphicsPath::AddClosedCurve(IN const PointF,IN INT,IN REAL) (gdipluspath.h)
-author: windows-sdk-content
+
 description: The GraphicsPath::AddClosedCurve method adds a closed cardinal spline to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddClosedCurve_PointF_points_INT_count_REAL_tension_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddclosedcurvemethods\addclosedcurve_75pointfpoints_intcount_realtension.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddClosedCurve, AddClosedCurve method [GDI+], AddClosedCurve method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddClosedCurve method, GraphicsPath.AddClosedCurve, GraphicsPath.AddClosedCurve(IN const PointF,IN INT,IN REAL), GraphicsPath.AddClosedCurve(const PointF*,INT,REAL), GraphicsPath::AddClosedCurve, GraphicsPath::AddClosedCurve(IN const PointF,IN INT,IN REAL), _gdiplus_CLASS_GraphicsPath_AddClosedCurve_PointF_points_INT_count_REAL_tension_, gdiplus._gdiplus_CLASS_GraphicsPath_AddClosedCurve_PointF_points_INT_count_REAL_tension_
 ms.topic: method

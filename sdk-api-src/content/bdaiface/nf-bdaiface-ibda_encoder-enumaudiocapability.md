@@ -1,12 +1,12 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.EnumAudioCapability
 title: IBDA_Encoder::EnumAudioCapability (bdaiface.h)
-author: windows-sdk-content
+
 description: Gets one of the audio formats supported by the device.
 old-location: mstv\ibda_encoder_enumaudiocapability.htm
 tech.root: mstv
 ms.assetid: 5dcc8f5e-c8bc-4443-bb07-0eb48bb72738
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumAudioCapability, EnumAudioCapability method [Microsoft TV Technologies], EnumAudioCapability method [Microsoft TV Technologies],IBDA_Encoder interface, IBDA_Encoder interface [Microsoft TV Technologies],EnumAudioCapability method, IBDA_Encoder.EnumAudioCapability, IBDA_Encoder::EnumAudioCapability, PBDA_Encoder_Audio_AlgorithmType_AC3, PBDA_Encoder_Audio_AlgorithmType_MPEG1LayerII, bdaiface/IBDA_Encoder::EnumAudioCapability, mstv.ibda_encoder_enumaudiocapability
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:midles.MesEncodeFixedBufferHandleCreate
 title: MesEncodeFixedBufferHandleCreate function (midles.h)
-author: windows-sdk-content
+
 description: The MesEncodeFixedBufferHandleCreate function creates an encoding handle and then initializes it for a fixed buffer style of serialization.
 old-location: rpc\mesencodefixedbufferhandlecreate.htm
 tech.root: Rpc
 ms.assetid: 7700e0f6-0f30-415c-9873-983ec6c249b2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MesEncodeFixedBufferHandleCreate, MesEncodeFixedBufferHandleCreate function [RPC], _rpc_mesencodefixedbufferhandlecreate, midles/MesEncodeFixedBufferHandleCreate, rpc.mesencodefixedbufferhandlecreate
 ms.topic: function

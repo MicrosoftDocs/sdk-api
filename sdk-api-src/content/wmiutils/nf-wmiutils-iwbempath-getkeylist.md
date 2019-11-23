@@ -1,12 +1,12 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetKeyList
 title: IWbemPath::GetKeyList (wmiutils.h)
-author: windows-sdk-content
+
 description: Retrieves an IWbemPathKeyList pointer so that the individual key may be accessed.
 old-location: wmi\iwbempath_getkeylist.htm
 tech.root: WmiSdk
 ms.assetid: bf62727f-6ce7-4c7a-b757-c36d8cf64652
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetKeyList, GetKeyList method [Windows Management Instrumentation], GetKeyList method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetKeyList method, IWbemPath.GetKeyList, IWbemPath::GetKeyList, _hmm_iwbempath_getkeylist, wmi.iwbempath_getkeylist, wmiutils/IWbemPath::GetKeyList
 ms.topic: method

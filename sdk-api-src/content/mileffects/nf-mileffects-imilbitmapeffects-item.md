@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffects.Item
 title: IMILBitmapEffects::Item (mileffects.h)
-author: windows-sdk-content
+
 description: Retrieves the effect at the given index.
 old-location: wibe\_wibe_imilbitmapeffects_item.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\item.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],Item method, IMILBitmapEffects.Item, IMILBitmapEffects::Item, Item, Item method [WPF Bitmap Effects], Item method [WPF Bitmap Effects],IMILBitmapEffects interface, _wibe_imilbitmapeffects_item, mileffects/IMILBitmapEffects::Item, wibe._wibe_imilbitmapeffects_item
 ms.topic: method

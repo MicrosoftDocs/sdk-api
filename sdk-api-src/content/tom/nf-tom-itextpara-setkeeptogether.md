@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextPara.SetKeepTogether
 title: ITextPara::SetKeepTogether (tom.h)
-author: windows-sdk-content
+
 description: Controls whether page breaks are allowed within a paragraph in a range.
 old-location: controls\ITextPara_SetKeepTogether.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setkeeptogether.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetKeepTogether method, ITextPara.SetKeepTogether, ITextPara::SetKeepTogether, SetKeepTogether, SetKeepTogether method [Windows Controls], SetKeepTogether method [Windows Controls],ITextPara interface, _win32_ITextPara_SetKeepTogether, _win32_ITextPara_SetKeepTogether_cpp, controls.ITextPara_SetKeepTogether, controls._win32_ITextPara_SetKeepTogether, tom/ITextPara::SetKeepTogether
 ms.topic: method

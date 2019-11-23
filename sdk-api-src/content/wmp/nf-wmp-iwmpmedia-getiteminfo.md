@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPMedia.getItemInfo
 title: IWMPMedia::getItemInfo (wmp.h)
-author: windows-sdk-content
+
 description: The getItemInfo method retrieves the value of the specified attribute for the media item.
 old-location: wmp\iwmpmedia_getiteminfo.htm
 tech.root: WMP
 ms.assetid: ee964f68-d44c-4e66-908b-09070a96d96f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],getItemInfo method, IWMPMedia.getItemInfo, IWMPMedia2 interface [Windows Media Player],getItemInfo method, IWMPMedia2::getItemInfo, IWMPMedia3 interface [Windows Media Player],getItemInfo method, IWMPMedia3::getItemInfo, IWMPMedia::getItemInfo, IWMPMediagetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPMedia interface, getItemInfo method [Windows Media Player],IWMPMedia2 interface, getItemInfo method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getiteminfo, wmp/IWMPMedia2::getItemInfo, wmp/IWMPMedia3::getItemInfo, wmp/IWMPMedia::getItemInfo
 ms.topic: method

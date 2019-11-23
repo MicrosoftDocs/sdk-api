@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsWriteCharsUtf8
 title: WsWriteCharsUtf8 function (webservices.h)
-author: windows-sdk-content
+
 description: Writes a series of characters encoded as UTF-8 to an element or attribute.
 old-location: wsw\wswritecharsutf8.htm
 tech.root: wsw
 ms.assetid: 53cdaf22-21ed-4e5a-8034-d5a4725b9da3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsWriteCharsUtf8, WsWriteCharsUtf8 function [Web Services for Windows], webservices/WsWriteCharsUtf8, wsw.wswritecharsutf8
 ms.topic: function

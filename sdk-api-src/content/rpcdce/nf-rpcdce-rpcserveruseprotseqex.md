@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcServerUseProtseqEx
 title: RpcServerUseProtseqEx function (rpcdce.h)
-author: windows-sdk-content
+
 description: The RpcServerUseProtseqEx function tells the RPC run-time library to use the specified protocol sequence for receiving remote procedure calls.
 old-location: rpc\rpcserveruseprotseqex.htm
 tech.root: Rpc
 ms.assetid: a8cedfe9-9c16-4c35-9cc4-5ccaa9e130a8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseProtseqEx, RpcServerUseProtseqEx function [RPC], RpcServerUseProtseqExA, RpcServerUseProtseqExW, _rpc_rpcserveruseprotseqex, rpc.rpcserveruseprotseqex, rpcdce/RpcServerUseProtseqEx, rpcdce/RpcServerUseProtseqExA, rpcdce/RpcServerUseProtseqExW
 ms.topic: function

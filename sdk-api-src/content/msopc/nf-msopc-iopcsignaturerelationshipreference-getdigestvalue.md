@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetDigestValue
 title: IOpcSignatureRelationshipReference::GetDigestValue (msopc.h)
-author: windows-sdk-content
+
 description: Gets the digest value calculated for the selected relationships when they are signed.
 old-location: opc\iopcsignaturerelationshipreference_getdigestvalue.htm
 tech.root: OPC
 ms.assetid: 3c1f3e73-45fc-4325-bc7a-db9241385c4e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDigestValue, GetDigestValue method [Open Packaging Conventions], GetDigestValue method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetDigestValue method, IOpcSignatureRelationshipReference.GetDigestValue, IOpcSignatureRelationshipReference::GetDigestValue, msopc/IOpcSignatureRelationshipReference::GetDigestValue, opc.iopcsignaturerelationshipreference_getdigestvalue
 ms.topic: method

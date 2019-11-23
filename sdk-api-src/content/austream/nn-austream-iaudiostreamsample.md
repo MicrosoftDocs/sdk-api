@@ -1,12 +1,12 @@
 ---
 UID: NN:austream.IAudioStreamSample
 title: IAudioStreamSample (austream.h)
-author: windows-sdk-content
+
 description: Note  This interface is deprecated.
 old-location: dshow\iaudiostreamsample.htm
 tech.root: DirectShow
 ms.assetid: 53deec43-30ca-472e-9a82-750049686d2a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioStreamSample, IAudioStreamSample interface [DirectShow], IAudioStreamSample interface [DirectShow],described, IAudioStreamSampleInterface, austream/IAudioStreamSample, dshow.iaudiostreamsample
 ms.topic: interface

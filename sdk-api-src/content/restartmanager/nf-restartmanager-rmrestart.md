@@ -1,12 +1,12 @@
 ---
 UID: NF:restartmanager.RmRestart
 title: RmRestart function (restartmanager.h)
-author: windows-sdk-content
+
 description: Restarts applications and services that have been shut down by the RmShutdown function and that have been registered to be restarted using the RegisterApplicationRestart function.
 old-location: rstmgr\rmrestart.htm
 tech.root: rstmgr
 ms.assetid: e0939b31-0233-40d2-96cf-bbabe9488a12
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RmRestart, RmRestart function [Restart Mgr], restartmanager/RmRestart, rstmgr.rmrestart
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.GetPartitionID
 title: ICOMAdminCatalog2::GetPartitionID (comadmin.h)
-author: windows-sdk-content
+
 description: Retrieves the partition identifier for the specified COM+ application.
 old-location: cos\icomadmincatalog2_getpartitionid.htm
 tech.root: cossdk
 ms.assetid: 12fa83e1-b2d2-48c3-a002-ac2f8043b54a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPartitionID, GetPartitionID method [COM+], GetPartitionID method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetPartitionID method, ICOMAdminCatalog2.GetPartitionID, ICOMAdminCatalog2::GetPartitionID, _cos_icomadmincatalog2_GetPartitionID, comadmin/ICOMAdminCatalog2::GetPartitionID, cos.icomadmincatalog2_getpartitionid
 ms.topic: method

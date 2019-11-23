@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace5.GetFontResource
 title: IDWriteFontFace5::GetFontResource
-author: windows-sdk-content
+
 description: Retrieves the underlying font resource for this font face.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace5 interface [Direct Write],GetFontResource method, IDWriteFontFace5.GetFontResource, IDWriteFontFace5::GetFontResource, GetFontResource, GetFontResource method [Direct Write], GetFontResource method [Direct Write],IDWriteFontFace5 interface, directwrite.idwritefontface5_getfontresource, dwrite_3/IDWriteFontFace5::GetFontResource
 ms.topic: method

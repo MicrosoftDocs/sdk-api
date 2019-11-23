@@ -1,12 +1,12 @@
 ---
 UID: NN:wia_xp.IEnumWiaItem
 title: IEnumWiaItem (wia_xp.h)
-author: windows-sdk-content
+
 description: The IEnumWiaItem interface is used by applications to enumerate IWiaItem objects in the tree's current folder.
 old-location: wia\_wia_IEnumWiaItem.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\ienumwiaitem.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumWiaItem, IEnumWiaItem interface [WIA], IEnumWiaItem interface [WIA],described, _wia_IEnumWiaItem, wia._wia_IEnumWiaItem, wia_xp/IEnumWiaItem
 ms.topic: interface

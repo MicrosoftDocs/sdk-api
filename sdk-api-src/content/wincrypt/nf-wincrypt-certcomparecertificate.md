@@ -1,12 +1,12 @@
 ---
 UID: NF:wincrypt.CertCompareCertificate
 title: CertCompareCertificate function (wincrypt.h)
-author: windows-sdk-content
+
 description: Determines whether two certificates are identical by comparing the issuer name and serial number of the certificates.
 old-location: security\certcomparecertificate.htm
 tech.root: SecCrypto
 ms.assetid: b485fa81-b927-4f0c-bde1-075f36c76d9a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CertCompareCertificate, CertCompareCertificate function [Security], _crypto2_certcomparecertificate, security.certcomparecertificate, wincrypt/CertCompareCertificate
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:oledlg.OleUIChangeIconA
 title: OleUIChangeIconA function (oledlg.h)
-author: windows-sdk-content
+
 description: Invokes the standard Change Icon dialog box, which allows the user to select an icon from an icon file, executable, or DLL.
 old-location: com\oleuichangeicon.htm
 tech.root: com
 ms.assetid: 899aadbe-d3d7-42e2-b9c0-09efeb378bda
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleUIChangeIcon, OleUIChangeIcon function [COM], OleUIChangeIconA, OleUIChangeIconW, _ole_OleUIChangeIcon, com.oleuichangeicon, oledlg/OleUIChangeIcon, oledlg/OleUIChangeIconA, oledlg/OleUIChangeIconW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.SysAllocString
 title: SysAllocString function (oleauto.h)
-author: windows-sdk-content
+
 description: Allocates a new string and copies the passed string into it.
 old-location: automat\sysallocstring.htm
 tech.root: automat
 ms.assetid: 9e0437a2-9b4a-4576-88b0-5cb9d08ca29b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SysAllocString, SysAllocString function [Automation], _oa96_SysAllocString, automat.sysallocstring, oleauto/SysAllocString
 ms.topic: function

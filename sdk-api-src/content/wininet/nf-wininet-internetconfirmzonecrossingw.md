@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.InternetConfirmZoneCrossingW
 title: InternetConfirmZoneCrossingW function (wininet.h)
-author: windows-sdk-content
+
 description: Checks for changes between secure and nonsecure URLs. Always inform the user when a change occurs in security between two URLs. Typically, an application should allow the user to acknowledge the change through interaction with a dialog box.
 old-location: wininet\internetconfirmzonecrossing.htm
 tech.root: wininet
 ms.assetid: e14f58df-5457-4a17-919c-6a25691c2ee1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InternetConfirmZoneCrossing, InternetConfirmZoneCrossing function [WinINet], InternetConfirmZoneCrossingA, InternetConfirmZoneCrossingW, _inet_internetconfirmzonecrossing_function, wininet.internetconfirmzonecrossing, wininet/InternetConfirmZoneCrossing, wininet/InternetConfirmZoneCrossingA, wininet/InternetConfirmZoneCrossingW
 ms.topic: function

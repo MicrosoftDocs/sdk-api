@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.SetMinSeek
 title: IMSVidStreamBufferSink3::SetMinSeek (segment.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_setminseek.htm
 tech.root: mstv
 ms.assetid: 2f7a7323-c9da-47f9-95e2-dd13fc023373
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],SetMinSeek method, IMSVidStreamBufferSink3.SetMinSeek, IMSVidStreamBufferSink3::SetMinSeek, IMSVidStreamBufferSink3SetMinSeek, SetMinSeek, SetMinSeek method [Microsoft TV Technologies], SetMinSeek method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_setminseek, segment/IMSVidStreamBufferSink3::SetMinSeek
 ms.topic: method

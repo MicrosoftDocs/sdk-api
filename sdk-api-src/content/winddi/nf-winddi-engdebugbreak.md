@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.EngDebugBreak
 title: EngDebugBreak function (winddi.h)
-author: windows-sdk-content
+
 description: The EngDebugBreak function causes a breakpoint in the current process to occur.
 old-location: display\engdebugbreak.htm
 tech.root: display
 ms.assetid: 068529cc-f614-426b-9593-bd153f5d5541
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngDebugBreak, EngDebugBreak function [Display Devices], display.engdebugbreak, gdifncs_d6a74791-c6aa-4bf0-9f8b-8a52587a660f.xml, winddi/EngDebugBreak
 ms.topic: function

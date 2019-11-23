@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GenerateUnusedLookupKey
 title: IXpsOMPage::GenerateUnusedLookupKey (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Generates a unique name that can be used as a lookup key by a resource in a resource dictionary.
 old-location: xps\ixpsompage_generateunusedlookupkey.htm
 tech.root: printdocs
 ms.assetid: 79599ede-fd81-4d1a-b71b-ac5742e384ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GenerateUnusedLookupKey, GenerateUnusedLookupKey method [XPS Documents and Packaging], GenerateUnusedLookupKey method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GenerateUnusedLookupKey method, IXpsOMPage.GenerateUnusedLookupKey, IXpsOMPage::GenerateUnusedLookupKey, xps.ixpsompage_generateunusedlookupkey, xpsobjectmodel/IXpsOMPage::GenerateUnusedLookupKey
 ms.topic: method

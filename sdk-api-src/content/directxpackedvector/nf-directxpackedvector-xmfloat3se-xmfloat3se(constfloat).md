@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3SE.XMFLOAT3SE(const float)
 title: XMFLOAT3SE::XMFLOAT3SE(const float) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMFLOAT3SE from a three element float array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: d5e56b5a-c54f-4957-885c-4c4f0b7af71b
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMFLOAT3SE, XMFLOAT3SE constructor [DirectX Math Support APIs], XMFLOAT3SE constructor [DirectX Math Support APIs],XMFLOAT3SE structure, XMFLOAT3SE structure [DirectX Math Support APIs],XMFLOAT3SE constructor, XMFLOAT3SE.XMFLOAT3SE, XMFLOAT3SE.XMFLOAT3SE(), XMFLOAT3SE.XMFLOAT3SE(const float), XMFLOAT3SE::XMFLOAT3SE, XMFLOAT3SE::XMFLOAT3SE(const float), dxmath.xmfloat3se_ctor_1
 ms.topic: method

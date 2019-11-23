@@ -1,12 +1,12 @@
 ---
 UID: NF:adsprop.ADsPropCheckIfWritable
 title: ADsPropCheckIfWritable function (adsprop.h)
-author: windows-sdk-content
+
 description: The ADsPropCheckIfWritable function determines if an attribute can be written.
 old-location: ad\adspropcheckifwritable.htm
 tech.root: ad
 ms.assetid: ec0c3a70-58ad-4d92-85dc-63090b1fce94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ADsPropCheckIfWritable, ADsPropCheckIfWritable function [Active Directory], _glines_adspropcheckifwritable, ad.adspropcheckifwritable, adsprop/ADsPropCheckIfWritable
 ms.topic: function

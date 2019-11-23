@@ -1,12 +1,12 @@
 ---
 UID: NN:comsvcs.IPlaybackControl
 title: IPlaybackControl (comsvcs.h)
-author: windows-sdk-content
+
 description: Enables participation in the abnormal handling of server-side playback errors and client-side failures of the Message Queuing delivery mechanism.
 old-location: cos\iplaybackcontrol.htm
 tech.root: cossdk
 ms.assetid: 3a528e92-37ac-4108-b52a-557a90da4a47
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPlaybackControl, IPlaybackControl interface [COM+], IPlaybackControl interface [COM+],described, _cos_IPlaybackControl, comsvcs/IPlaybackControl, cos.iplaybackcontrol
 ms.topic: interface

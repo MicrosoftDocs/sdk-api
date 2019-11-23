@@ -1,12 +1,12 @@
 ---
 UID: NF:eventsys.IEventPublisher.PutDefaultProperty
 title: IEventPublisher::PutDefaultProperty (eventsys.h)
-author: windows-sdk-content
+
 description: Writes a named property and its value to the property bag associated with the event publisher.
 old-location: com\ieventpublisher_putdefaultproperty.htm
 tech.root: com
 ms.assetid: 418f1c16-1b21-4023-b0fc-6e9082b8264e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEventPublisher interface [COM],PutDefaultProperty method, IEventPublisher.PutDefaultProperty, IEventPublisher::PutDefaultProperty, PutDefaultProperty, PutDefaultProperty method [COM], PutDefaultProperty method [COM],IEventPublisher interface, _com_ieventpublisher_putdefaultproperty, com.ieventpublisher_putdefaultproperty, eventsys/IEventPublisher::PutDefaultProperty
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:mswmdm.ISCPSecureQuery2
 title: ISCPSecureQuery2 (mswmdm.h)
-author: windows-sdk-content
+
 description: The ISCPSecureQuery2 interface extends ISCPSecureQuery through functionality that determines whether the secure content provider is responsible for the content, and if so, providing a URL for updating revoked components and determining which components have been revoked.
 old-location: wmdm\iscpsecurequery2.htm
 tech.root: WMDM
 ms.assetid: fe5ae201-355d-4402-8d57-a721aecfdbde
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureQuery2, ISCPSecureQuery2 interface [windows Media Device Manager], ISCPSecureQuery2 interface [windows Media Device Manager],described, ISCPSecureQuery2Interface, mswmdm/ISCPSecureQuery2, wmdm.iscpsecurequery2
 ms.topic: interface

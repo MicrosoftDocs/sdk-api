@@ -1,12 +1,12 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO
 title: CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO (cryptuiapi.h)
-author: windows-sdk-content
+
 description: Contains information about the certificate store used by the digital signature wizard.
 old-location: security\cryptui_wiz_digital_sign_store_info.htm
 tech.root: SecCrypto
 ms.assetid: d3ffbf1c-e8c2-44ab-84d2-d32350d04407
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO structure [Security], PCCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, PCCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, cryptuiapi/PCCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, security.cryptui_wiz_digital_sign_store_info"
 ms.topic: struct

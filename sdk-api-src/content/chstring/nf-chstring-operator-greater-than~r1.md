@@ -3,7 +3,7 @@ UID: NF:chstring.operator-greater-than~r1
 title: operator>
 description: 
 ms.assetid: 7d364aef-c962-4dc1-b5bc-f6e7a4e2f0c8
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: operator>
 ms.topic: language-reference

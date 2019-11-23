@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d11_3.D3D11_FENCE_FLAG
 title: D3D11_FENCE_FLAG (d3d11_3.h)
-author: windows-sdk-content
+
 description: Specifies fence options.
 old-location: direct3d11\d3d11_fence_flag.htm
 tech.root: direct3d11
 ms.assetid: 745B72A2-628C-477E-8534-336E73B5268A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_FENCE_FLAG, D3D11_FENCE_FLAG enumeration [Direct3D 11], D3D11_FENCE_FLAG_NONE, D3D11_FENCE_FLAG_SHARED, D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER, d3d11_3/D3D11_FENCE_FLAG, d3d11_3/D3D11_FENCE_FLAG_NONE, d3d11_3/D3D11_FENCE_FLAG_SHARED, d3d11_3/D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER, direct3d11.d3d11_fence_flag
 ms.topic: enum

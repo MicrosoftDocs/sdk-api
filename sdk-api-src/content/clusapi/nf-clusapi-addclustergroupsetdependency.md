@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.AddClusterGroupSetDependency
 title: AddClusterGroupSetDependency function (clusapi.h)
-author: windows-sdk-content
+
 description: Adds a dependency between two cluster groupsets.
 old-location: mscs\addclustergroupcollectiondependency.htm
 tech.root: MsCS
 ms.assetid: dab8cef1-475b-4d92-8f3f-e828d62bcd17
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddClusterGroupSetDependency, AddClusterGroupSetDependency function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY function [Failover Cluster], clusapi/AddClusterGroupSetDependency, clusapi/PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY, mscs.addclustergroupcollectiondependency
 ms.topic: function

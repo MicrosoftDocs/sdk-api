@@ -1,12 +1,12 @@
 ---
 UID: NF:wmprealestate.IWMPVideoRenderConfig.put_presenterActivate
 title: IWMPVideoRenderConfig::put_presenterActivate (wmprealestate.h)
-author: windows-sdk-content
+
 description: The put_presenterActivate method provides Windows Media Player with an activation object for a custom video presenter.
 old-location: wmp\iwmpvideorenderconfig_put_presenteractivate.htm
 tech.root: WMP
 ms.assetid: a052aecc-b37f-4999-b484-80ee3e2392ba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPVideoRenderConfig interface [Windows Media Player],put_presenterActivate method, IWMPVideoRenderConfig.put_presenterActivate, IWMPVideoRenderConfig::put_presenterActivate, IWMPVideoRenderConfigput_presenterActivate, put_presenterActivate, put_presenterActivate method [Windows Media Player], put_presenterActivate method [Windows Media Player],IWMPVideoRenderConfig interface, wmp.iwmpvideorenderconfig_put_presenteractivate, wmprealestate/IWMPVideoRenderConfig::put_presenterActivate
 ms.topic: method

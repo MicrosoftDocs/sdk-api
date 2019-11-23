@@ -1,12 +1,12 @@
 ---
 UID: NS:oaidl.tagDISPPARAMS
 title: DISPPARAMS (oaidl.h)
-author: windows-sdk-content
+
 description: Contains the arguments passed to a method or property.
 old-location: automat\dispparams.htm
 tech.root: automat
 ms.assetid: a16e5a21-766e-4287-b039-13429aa78f8b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DISPPARAMS, DISPPARAMS structure [Automation], _oa96_DISPPARAMS, automat.dispparams, oaidl/DISPPARAMS
 ms.topic: struct

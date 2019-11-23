@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.IComponentTypes.get_Item
 title: IComponentTypes::get_Item (tuner.h)
-author: windows-sdk-content
+
 description: The get_Item method retrieves the IComponentType interface pointer at the specified index number.
 old-location: mstv\icomponenttypes_get_item.htm
 tech.root: mstv
 ms.assetid: be2e6f1b-a9af-4c19-ae25-a096ceee96fc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IComponentTypes interface [Microsoft TV Technologies],get_Item method, IComponentTypes.get_Item, IComponentTypes::get_Item, IComponentTypesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IComponentTypes interface, mstv.icomponenttypes_get_item, tuner/IComponentTypes::get_Item
 ms.topic: method

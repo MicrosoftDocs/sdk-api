@@ -1,12 +1,12 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelOpenEx
 title: WTSVirtualChannelOpenEx function (wtsapi32.h)
-author: windows-sdk-content
+
 description: Creates a virtual channel in a manner similar to WTSVirtualChannelOpen.
 old-location: termserv\wtsvirtualchannelopenex.htm
 tech.root: TermServ
 ms.assetid: 5694c4b6-3d0f-4a48-8d15-1e404cbb6164
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelOpenEx, WTSVirtualChannelOpenEx function [Remote Desktop Services], WTS_CHANNEL_OPTION_DYNAMIC_NO_COMPRESS, WTS_CHANNEL_OPTION_DYNAMIC_PRI_HIGH, WTS_CHANNEL_OPTION_DYNAMIC_PRI_LOW (default), WTS_CHANNEL_OPTION_DYNAMIC_PRI_MED, WTS_CHANNEL_OPTION_DYNAMIC_PRI_REAL, termserv.wtsvirtualchannelopenex, wtsapi32/WTSVirtualChannelOpenEx
 ms.topic: function

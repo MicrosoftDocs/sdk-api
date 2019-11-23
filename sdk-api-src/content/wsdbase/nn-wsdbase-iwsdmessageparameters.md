@@ -1,12 +1,12 @@
 ---
 UID: NN:wsdbase.IWSDMessageParameters
 title: IWSDMessageParameters (wsdbase.h)
-author: windows-sdk-content
+
 description: Use this interface to communicate message specific information up and down the protocol stack.
 old-location: ncd\iwsdmessageparameters.htm
 tech.root: WsdApi
 ms.assetid: fb659a5e-1f55-47a6-b22d-660975d8c0fd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSDMessageParameters, IWSDMessageParameters interface, IWSDMessageParameters interface,described, ncd.iwsdmessageparameters, wsdbase/IWSDMessageParameters
 ms.topic: interface

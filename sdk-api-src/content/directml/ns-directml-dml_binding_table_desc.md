@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_BINDING_TABLE_DESC
 title: DML_BINDING_TABLE_DESC
-author: windows-sdk-content
+
 description: Specifies parameters to IDMLDevice::CreateBindingTable and IDMLBindingTable::Reset.
 old-location: direct3d12\dml_binding_table_desc.htm
 tech.root: direct3d12
 ms.assetid: 4ABA8CBB-C298-4F98-8156-CD81F83BB657
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_BINDING_TABLE_DESC, DML_BINDING_TABLE_DESC structure, direct3d12.dml_binding_table_desc, directml/DML_BINDING_TABLE_DESC
 ms.topic: struct

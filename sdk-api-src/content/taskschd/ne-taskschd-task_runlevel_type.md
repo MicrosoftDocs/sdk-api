@@ -1,12 +1,12 @@
 ---
 UID: NE:taskschd._TASK_RUNLEVEL
 title: TASK_RUNLEVEL_TYPE (taskschd.h)
-author: windows-sdk-content
+
 description: Defines LUA elevation flags that specify with what privilege level the task will be run.
 old-location: taskschd\task_runlevel_type.htm
 tech.root: taskschd
 ms.assetid: 27e8e4c2-6898-4785-a311-b7fbbf7e0108
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TASK_RUNLEVEL_HIGHEST, TASK_RUNLEVEL_LUA, TASK_RUNLEVEL_TYPE, TASK_RUNLEVEL_TYPE enumeration [Task Scheduler], taskschd.task_runlevel_type, taskschd/TASK_RUNLEVEL_HIGHEST, taskschd/TASK_RUNLEVEL_LUA, taskschd/TASK_RUNLEVEL_TYPE
 ms.topic: enum

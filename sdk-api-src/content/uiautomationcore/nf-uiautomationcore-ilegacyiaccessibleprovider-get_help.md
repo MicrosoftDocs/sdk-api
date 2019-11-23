@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_Help
 title: ILegacyIAccessibleProvider::get_Help (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Specifies a string that contains help information for this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Help.htm
 tech.root: WinAuto
 ms.assetid: 7b92f95b-9a75-4f24-b6ed-34ababfbbaa9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Help property [Windows Accessibility], Help property [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],Help property, ILegacyIAccessibleProvider.Help, ILegacyIAccessibleProvider.get_Help, ILegacyIAccessibleProvider::Help, ILegacyIAccessibleProvider::get_Help, get_Help, uiauto.uiauto_ILegacyIAccessibleProvider_Help, uiauto_ILegacyIAccessibleProvider_Help, uiautomationcore/ILegacyIAccessibleProvider::Help, uiautomationcore/ILegacyIAccessibleProvider::get_Help, winauto.uiauto_ILegacyIAccessibleProvider_Help
 ms.topic: method

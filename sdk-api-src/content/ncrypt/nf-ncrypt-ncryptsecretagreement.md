@@ -1,12 +1,12 @@
 ---
 UID: NF:ncrypt.NCryptSecretAgreement
 title: NCryptSecretAgreement function (ncrypt.h)
-author: windows-sdk-content
+
 description: Creates a secret agreement value from a private and a public key.
 old-location: security\ncryptsecretagreement.htm
 tech.root: SecCNG
 ms.assetid: b5bf3eac-1fae-43e2-84b6-e8e5e255d7c5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptSecretAgreement, NCryptSecretAgreement function [Security], ncrypt/NCryptSecretAgreement, security.ncryptsecretagreement
 ms.topic: function

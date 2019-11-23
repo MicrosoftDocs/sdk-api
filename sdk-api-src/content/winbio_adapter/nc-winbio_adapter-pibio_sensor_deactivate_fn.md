@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_DEACTIVATE_FN
 title: PIBIO_SENSOR_DEACTIVATE_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Gives the Sensor Adapter the chance to perform any work needed to put the sensor component into an idle state.
 old-location: secbiomet\sensoradapterdeactivate.htm
 tech.root: SecBioMet
 ms.assetid: 2F10401B-5C0B-4376-AB4D-696FD1BEA079
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_DEACTIVATE_FN, PIBIO_SENSOR_DEACTIVATE_FN callback, SensorAdapterDeactivate, SensorAdapterDeactivate callback function [Windows Biometric Framework API], secbiomet.sensoradapterdeactivate, winbio_adapter/SensorAdapterDeactivate
 ms.topic: callback

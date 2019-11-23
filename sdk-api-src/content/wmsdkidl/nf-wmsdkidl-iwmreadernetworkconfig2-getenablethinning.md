@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetEnableThinning
 title: IWMReaderNetworkConfig2::GetEnableThinning (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetEnableThinning method ascertains whether Intelligent Streaming is enabled. Intelligent Streaming is the communication between the reader and the streaming server that enables the server to change the content sent based on available bandwidth.
 old-location: wmformat\iwmreadernetworkconfig2_getenablethinning.htm
 tech.root: wmformat
 ms.assetid: 3ad43406-56db-48db-96a7-419b6719dbd4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEnableThinning, GetEnableThinning method [windows Media Format], GetEnableThinning method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableThinning method, IWMReaderNetworkConfig2.GetEnableThinning, IWMReaderNetworkConfig2::GetEnableThinning, IWMReaderNetworkConfig2GetEnableThinning, wmformat.iwmreadernetworkconfig2_getenablethinning, wmsdkidl/IWMReaderNetworkConfig2::GetEnableThinning
 ms.topic: method

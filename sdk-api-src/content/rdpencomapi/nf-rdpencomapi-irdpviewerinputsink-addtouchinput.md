@@ -1,12 +1,12 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.AddTouchInput
 title: IRDPViewerInputSink::AddTouchInput (rdpencomapi.h)
-author: windows-sdk-content
+
 description: Accepts a description of a touch input.
 old-location: rdp\irdpviewerinputsink_addtouchinput.htm
 tech.root: rdp
 ms.assetid: 5DD220B8-505E-43AE-9438-F1D553AABB0B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddTouchInput, AddTouchInput method [RDP], AddTouchInput method [RDP],IRDPViewerInputSink interface, IRDPViewerInputSink interface [RDP],AddTouchInput method, IRDPViewerInputSink.AddTouchInput, IRDPViewerInputSink::AddTouchInput, rdp.irdpviewerinputsink_addtouchinput, rdpencomapi/IRDPViewerInputSink::AddTouchInput
 ms.topic: method

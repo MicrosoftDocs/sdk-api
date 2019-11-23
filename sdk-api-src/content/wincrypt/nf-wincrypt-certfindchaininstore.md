@@ -1,12 +1,12 @@
 ---
 UID: NF:wincrypt.CertFindChainInStore
 title: CertFindChainInStore function (wincrypt.h)
-author: windows-sdk-content
+
 description: Finds the first or next certificate in a store that meets the specified criteria.
 old-location: security\certfindchaininstore.htm
 tech.root: SecCrypto
 ms.assetid: 698cece8-71a8-4bfa-8ee6-8035a6dcbe05
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CERT_CHAIN_FIND_BY_ISSUER, CERT_CHAIN_FIND_BY_ISSUER_CACHE_ONLY_FLAG, CERT_CHAIN_FIND_BY_ISSUER_CACHE_ONLY_URL_FLAG, CERT_CHAIN_FIND_BY_ISSUER_COMPARE_KEY_FLAG, CERT_CHAIN_FIND_BY_ISSUER_COMPLEX_CHAIN_FLAG, CERT_CHAIN_FIND_BY_ISSUER_LOCAL_MACHINE_FLAG, CERT_CHAIN_FIND_BY_ISSUER_NO_KEY_FLAG, CertFindChainInStore, CertFindChainInStore function [Security], X509_ASN_ENCODING, _crypto2_certfindchaininstore, security.certfindchaininstore, wincrypt/CertFindChainInStore
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.GetMaxQueuedRequests
 title: IThreadPoolKnobs::GetMaxQueuedRequests (comsvcs.h)
-author: windows-sdk-content
+
 description: Retrieves the maximum number of asynchronous execution requests that can be simultaneously queued.
 old-location: cos\ithreadpoolknobs_getmaxqueuedrequests.htm
 tech.root: cossdk
 ms.assetid: 349e6635-5ba6-4b8e-b321-8ffd87cd762c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMaxQueuedRequests, GetMaxQueuedRequests method [COM+], GetMaxQueuedRequests method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetMaxQueuedRequests method, IThreadPoolKnobs.GetMaxQueuedRequests, IThreadPoolKnobs::GetMaxQueuedRequests, _cos_IThreadPoolKnobs_GetMaxQueuedRequests, comsvcs/IThreadPoolKnobs::GetMaxQueuedRequests, cos.ithreadpoolknobs_getmaxqueuedrequests
 ms.topic: method

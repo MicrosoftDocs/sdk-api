@@ -1,12 +1,12 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_LoadBalanceResult
 title: ITsSbClientConnection::get_LoadBalanceResult (sbtsv.h)
-author: windows-sdk-content
+
 description: Retrieves a value that indicates the name of the target computer returned by load balancing.
 old-location: termserv\itssbclientconnection_loadbalanceresult.htm
 tech.root: TermServ
 ms.assetid: fdcd094c-d50b-4cdd-8164-23c24bb7017b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],LoadBalanceResult property, ITsSbClientConnection.LoadBalanceResult, ITsSbClientConnection.get_LoadBalanceResult, ITsSbClientConnection::LoadBalanceResult, ITsSbClientConnection::get_LoadBalanceResult, LoadBalanceResult property [Remote Desktop Services], LoadBalanceResult property [Remote Desktop Services],ITsSbClientConnection interface, get_LoadBalanceResult, sbtsv/ITsSbClientConnection::LoadBalanceResult, sbtsv/ITsSbClientConnection::get_LoadBalanceResult, termserv.itssbclientconnection_loadbalanceresult
 ms.topic: method

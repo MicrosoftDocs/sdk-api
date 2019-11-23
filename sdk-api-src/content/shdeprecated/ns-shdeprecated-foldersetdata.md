@@ -1,12 +1,12 @@
 ---
 UID: NS:shdeprecated.tagFolderSetData
 title: FOLDERSETDATA (shdeprecated.h)
-author: windows-sdk-content
+
 description: Deprecated. Data used in IBrowserService2::GetFolderSetData.
 old-location: shell\FOLDERSETDATA.htm
 tech.root: shell
 ms.assetid: eb47cd77-5788-4130-8d9c-cc84582e5d8e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPFOLDERSETDATA, FOLDERSETDATA, FOLDERSETDATA structure [Windows Shell], LPFOLDERSETDATA, LPFOLDERSETDATA structure pointer [Windows Shell], VIEW_PRIORITY_CACHEHIT, VIEW_PRIORITY_CACHEMISS, VIEW_PRIORITY_DESPERATE, VIEW_PRIORITY_INHERIT, VIEW_PRIORITY_NONE, VIEW_PRIORITY_RESTRICTED, VIEW_PRIORITY_SHELLEXT, VIEW_PRIORITY_SHELLEXT_ASBACKUP, VIEW_PRIORITY_STALECACHEHIT, VIEW_PRIORITY_USEASDEFAULT, _shell_FOLDERSETDATA, shdeprecated/FOLDERSETDATA, shdeprecated/LPFOLDERSETDATA, shell.FOLDERSETDATA"
 ms.topic: struct

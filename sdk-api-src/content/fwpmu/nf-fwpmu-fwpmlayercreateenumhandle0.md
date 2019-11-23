@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmLayerCreateEnumHandle0
 title: FwpmLayerCreateEnumHandle0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Creates a handle used to enumerate a set of layer objects.
 old-location: fwp\fwpmlayercreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 94738168-9f02-420a-96cd-b7c3f6418c6f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmLayerCreateEnumHandle0, FwpmLayerCreateEnumHandle0 function [Filtering], fwp.fwpmlayercreateenumhandle0_func, fwpmu/FwpmLayerCreateEnumHandle0
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite.IDWriteFontFace
 title: IDWriteFontFace
-author: windows-sdk-content
+
 description: This interface exposes various font data such as metrics, names, and glyph outlines. It contains font face type, appropriate file references, and face identification data.
 old-location: directwrite\IDWriteFontFace.htm
 tech.root: DirectWrite
 ms.assetid: 1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8
-ms.author: windowssdkdev
+
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace, IDWriteFontFace interface [Direct Write], IDWriteFontFace interface [Direct Write],described, directwrite.IDWriteFontFace, dwrite/IDWriteFontFace
 ms.topic: interface

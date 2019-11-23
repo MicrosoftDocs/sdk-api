@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFGetTimerPeriodicity
 title: MFGetTimerPeriodicity function (mfapi.h)
-author: windows-sdk-content
+
 description: Retrieves the timer interval for the MFAddPeriodicCallback function.
 old-location: mf\mfgettimerperiodicity.htm
 tech.root: medfound
 ms.assetid: 19d7ae7e-7ae3-474d-8111-3b60b9adb918
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 19d7ae7e-7ae3-474d-8111-3b60b9adb918, MFGetTimerPeriodicity, MFGetTimerPeriodicity function [Media Foundation], mf.mfgettimerperiodicity, mfapi/MFGetTimerPeriodicity
 ms.topic: function

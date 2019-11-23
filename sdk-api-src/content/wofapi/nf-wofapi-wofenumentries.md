@@ -1,12 +1,12 @@
 ---
 UID: NF:wofapi.WofEnumEntries
 title: WofEnumEntries function (wofapi.h)
-author: windows-sdk-content
+
 description: Enumerates all the data sources from a specified provider for a specified volume.
 old-location: fs\wofenumentries.htm
 tech.root: FileIO
 ms.assetid: D6BCBFC1-C916-43E3-BB6A-E8EB6467850B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WofEnumEntries, WofEnumEntries function [Files], fs.wofenumentries, wofapi/WofEnumEntries
 ms.topic: function

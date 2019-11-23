@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.SaveBinary
 title: ISchemaProvider::SaveBinary (structuredquery.h)
-author: windows-sdk-content
+
 description: Saves the loaded schema as a schema binary at a specified path.
 old-location: search\_search_ISchemaProvider_SaveBinary.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\savebinary.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISchemaProvider interface [search],SaveBinary method, ISchemaProvider.SaveBinary, ISchemaProvider::SaveBinary, SaveBinary, SaveBinary method [search], SaveBinary method [search],ISchemaProvider interface, _search_ISchemaProvider_SaveBinary, search._search_ISchemaProvider_SaveBinary, structuredquery/ISchemaProvider::SaveBinary
 ms.topic: method

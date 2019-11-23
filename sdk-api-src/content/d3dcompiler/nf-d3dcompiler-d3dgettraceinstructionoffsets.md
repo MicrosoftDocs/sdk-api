@@ -1,12 +1,12 @@
 ---
 UID: NF:d3dcompiler.D3DGetTraceInstructionOffsets
 title: D3DGetTraceInstructionOffsets function (d3dcompiler.h)
-author: windows-sdk-content
+
 description: Retrieves the byte offsets for instructions within a section of shader code.
 old-location: direct3dhlsl\d3dgettraceinstructionoffsets.htm
 tech.root: direct3dhlsl
 ms.assetid: 9E27C70C-C266-48A6-81C7-E9A5E430B48B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3DGetTraceInstructionOffsets, D3DGetTraceInstructionOffsets function [HLSL], d3dcompiler/D3DGetTraceInstructionOffsets, direct3dhlsl.d3dgettraceinstructionoffsets
 ms.topic: function

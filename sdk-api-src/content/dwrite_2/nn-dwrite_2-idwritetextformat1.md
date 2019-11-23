@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_2.IDWriteTextFormat1
 title: IDWriteTextFormat1 (dwrite_2.h)
-author: windows-sdk-content
+
 description: Describes the font and paragraph properties used to format text, and it describes locale information.
 old-location: directwrite\idwritetextformat1.htm
 tech.root: DirectWrite
 ms.assetid: 15295A17-E542-4071-AE38-02014A1235D5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat1, IDWriteTextFormat1 interface [Direct Write], IDWriteTextFormat1 interface [Direct Write],described, directwrite.idwritetextformat1, dwrite_2/IDWriteTextFormat1
 ms.topic: interface

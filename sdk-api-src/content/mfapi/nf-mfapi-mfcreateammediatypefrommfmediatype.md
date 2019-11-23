@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFCreateAMMediaTypeFromMFMediaType
 title: MFCreateAMMediaTypeFromMFMediaType function (mfapi.h)
-author: windows-sdk-content
+
 description: Creates a DirectShow AM_MEDIA_TYPE structure from a Media Foundation media type.
 old-location: mf\mfcreateammediatypefrommfmediatype.htm
 tech.root: medfound
 ms.assetid: 53b191d4-89b3-4b16-8f89-50f256689e85
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 53b191d4-89b3-4b16-8f89-50f256689e85, MFCreateAMMediaTypeFromMFMediaType, MFCreateAMMediaTypeFromMFMediaType function [Media Foundation], mf.mfcreateammediatypefrommfmediatype, mfapi/MFCreateAMMediaTypeFromMFMediaType
 ms.topic: function

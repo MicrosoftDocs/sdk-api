@@ -1,12 +1,12 @@
 ---
 UID: NF:processthreadsapi.GetThreadInformation
 title: GetThreadInformation function (processthreadsapi.h)
-author: windows-sdk-content
+
 description: Retrieves information about the specified thread.
 old-location: base\getthreadinformation.htm
 tech.root: ProcThread
 ms.assetid: b7996647-78ab-4f32-bcf6-41aa87d13bb8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetThreadInformation, GetThreadInformation function, base.getthreadinformation, processthreadsapi/GetThreadInformation
 ms.topic: function

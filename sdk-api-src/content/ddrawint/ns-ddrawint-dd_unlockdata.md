@@ -1,12 +1,12 @@
 ---
 UID: NS:ddrawint._DD_UNLOCKDATA
 title: DD_UNLOCKDATA (ddrawint.h)
-author: windows-sdk-content
+
 description: The DD_UNLOCKDATA structure contains information necessary to do an unlock as defined by Microsoft DirectDraw parameter structures.
 old-location: display\dd_unlockdata.htm
 tech.root: display
 ms.assetid: 4642f596-376f-4f63-bf6e-916112ce1ec9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PDD_UNLOCKDATA, DD_UNLOCKDATA, DD_UNLOCKDATA structure [Display Devices], ddrawint/DD_UNLOCKDATA, ddstrcts_1784fe3c-5a41-4428-ac94-06226857ae9a.xml, display.dd_unlockdata'
 ms.topic: struct

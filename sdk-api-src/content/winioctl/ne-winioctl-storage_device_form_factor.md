@@ -1,12 +1,12 @@
 ---
 UID: NE:winioctl._STORAGE_DEVICE_FORM_FACTOR
 title: STORAGE_DEVICE_FORM_FACTOR
-author: windows-sdk-content
+
 description: Specifies the form factor of a device.
 old-location: fs\storage_device_form_factor.htm
 tech.root: FileIO
 ms.assetid: B8FCDC58-D599-4EEE-8096-818345FCD75F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_DEVICE_FORM_FACTOR, FormFactor1_8, FormFactor1_8Less, FormFactor2_5, FormFactor3_5, FormFactorDimm, FormFactorEmbedded, FormFactorM_2, FormFactorMemoryCard, FormFactorPCIeBoard, FormFactorUnknown, FormFactormSata, PSTORAGE_DEVICE_FORM_FACTOR, PSTORAGE_DEVICE_FORM_FACTOR enumeration pointer [Files], STORAGE_DEVICE_FORM_FACTOR, _STORAGE_DEVICE_FORM_FACTOR, _STORAGE_DEVICE_FORM_FACTOR enumeration [Files], fs.storage_device_form_factor, winioctl/FormFactor1_8, winioctl/FormFactor1_8Less, winioctl/FormFactor2_5, winioctl/FormFactor3_5, winioctl/FormFactorDimm, winioctl/FormFactorEmbedded, winioctl/FormFactorM_2, winioctl/FormFactorMemoryCard, winioctl/FormFactorPCIeBoard, winioctl/FormFactorUnknown, winioctl/FormFactormSata, winioctl/PSTORAGE_DEVICE_FORM_FACTOR, winioctl/_STORAGE_DEVICE_FORM_FACTOR"
 ms.topic: enum

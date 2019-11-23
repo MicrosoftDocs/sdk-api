@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzApplication.AddPolicyAdministratorName
 title: IAzApplication::AddPolicyAdministratorName (azroles.h)
-author: windows-sdk-content
+
 description: Adds the specified account name to the list of principals that act as policy administrators.
 old-location: security\iazapplication_addpolicyadministratorname.htm
 tech.root: SecAuthZ
 ms.assetid: cc5f74c6-e1b6-4924-b5c1-2d3600ce37ef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddPolicyAdministratorName, AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security],AzApplication object, AddPolicyAdministratorName method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyAdministratorName method, IAzApplication interface [Security],AddPolicyAdministratorName method, IAzApplication.AddPolicyAdministratorName, IAzApplication::AddPolicyAdministratorName, azroles/IAzApplication::AddPolicyAdministratorName, security.iazapplication_addpolicyadministratorname
 ms.topic: method

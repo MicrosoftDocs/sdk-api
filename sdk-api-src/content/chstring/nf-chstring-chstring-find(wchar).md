@@ -3,7 +3,7 @@ UID: NF:chstring.CHString.Find(WCHAR)
 title: CHString::Find
 description: 
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: CHString::Find
 ms.topic: language-reference

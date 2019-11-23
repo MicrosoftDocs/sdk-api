@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetMovcInstructionCount
 title: ID3D11ShaderReflection::GetMovcInstructionCount (d3d11shader.h)
-author: windows-sdk-content
+
 description: Gets the number of Movc instructions.
 old-location: direct3d11\id3d11shaderreflection_getmovcinstructioncount.htm
 tech.root: direct3d11
 ms.assetid: b732d024-cc94-4292-ad11-e51b5d9328ff
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 4a4263fb-7b28-3da9-343c-0bc8a788f788, GetMovcInstructionCount, GetMovcInstructionCount method [Direct3D 11], GetMovcInstructionCount method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetMovcInstructionCount method, ID3D11ShaderReflection.GetMovcInstructionCount, ID3D11ShaderReflection::GetMovcInstructionCount, d3d11shader/ID3D11ShaderReflection::GetMovcInstructionCount, direct3d11.id3d11shaderreflection_getmovcinstructioncount
 ms.topic: method

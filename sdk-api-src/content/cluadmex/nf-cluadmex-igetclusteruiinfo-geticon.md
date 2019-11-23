@@ -1,12 +1,12 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetIcon
 title: IGetClusterUIInfo::GetIcon (cluadmex.h)
-author: windows-sdk-content
+
 description: Returns a handle to the icon to use in the upper-left corner of property and wizard pages.
 old-location: mscs\igetclusteruiinfo_geticon.htm
 tech.root: MsCS
 ms.assetid: b4572178-6225-4a22-8b45-7e8abbaa9759
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetIcon, GetIcon method [Failover Cluster], GetIcon method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetIcon method, IGetClusterUIInfo.GetIcon, IGetClusterUIInfo::GetIcon, _wolf_igetclusteruiinfo_geticon, cluadmex/IGetClusterUIInfo::GetIcon, mscs.igetclusteruiinfo_geticon
 ms.topic: method

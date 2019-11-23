@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPPlayer2.put_stretchToFit
 title: IWMPPlayer2::put_stretchToFit (wmp.h)
-author: windows-sdk-content
+
 description: The put_stretchToFit method specifies a value indicating whether video displayed by the Windows Media Player control automatically sizes to fit the video window when the video window is larger than the dimensions of the video image.
 old-location: wmp\iwmpplayer2_put_stretchtofit.htm
 tech.root: WMP
 ms.assetid: 1da60976-5f84-4dc7-8186-32f6d3bb9165
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer2 interface [Windows Media Player],put_stretchToFit method, IWMPPlayer2.put_stretchToFit, IWMPPlayer2::put_stretchToFit, IWMPPlayer2put_stretchToFit, put_stretchToFit, put_stretchToFit method [Windows Media Player], put_stretchToFit method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_put_stretchtofit, wmp/IWMPPlayer2::put_stretchToFit
 ms.topic: method

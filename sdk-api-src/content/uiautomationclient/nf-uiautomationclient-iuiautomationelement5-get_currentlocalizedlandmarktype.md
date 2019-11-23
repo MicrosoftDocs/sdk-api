@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement5.get_CurrentLocalizedLandmarkType
 title: IUIAutomationElement5::get_CurrentLocalizedLandmarkType (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Gets a string containing the current localized landmark type for the automation element.
 old-location: winauto\uiauto_IUIAutomationElement5_CurrentLocalizedLandmarkType.htm
 tech.root: WinAuto
 ms.assetid: ECC73B82-D723-4020-B4AC-BFDB9A5C0F37
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CurrentLocalizedLandmarkType property [Windows Accessibility], CurrentLocalizedLandmarkType property [Windows Accessibility],IUIAutomationElement5 interface, IUIAutomationElement5 interface [Windows Accessibility],CurrentLocalizedLandmarkType property, IUIAutomationElement5.CurrentLocalizedLandmarkType, IUIAutomationElement5.get_CurrentLocalizedLandmarkType, IUIAutomationElement5::CurrentLocalizedLandmarkType, IUIAutomationElement5::get_CurrentLocalizedLandmarkType, get_CurrentLocalizedLandmarkType, uiautomationclient/IUIAutomationElement5::CurrentLocalizedLandmarkType, uiautomationclient/IUIAutomationElement5::get_CurrentLocalizedLandmarkType, winauto.uiauto_IUIAutomationElement5_CurrentLocalizedLandmarkType
 ms.topic: method

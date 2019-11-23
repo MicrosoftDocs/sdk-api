@@ -1,12 +1,12 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.CreateLeaseInfoFromVariant
 title: IMcastAddressAllocation::CreateLeaseInfoFromVariant (mdhcp.h)
-author: windows-sdk-content
+
 description: The CreateLeaseInfoFromVariant method creates a lease information object for a subsequent call to RenewAddress or ReleaseAddress. This method is similar to CreateLeaseInfo but is used by Automation client languages such as Visual Basic.
 old-location: tapi3\imcastaddressallocation_createleaseinfofromvariant.htm
 tech.root: Tapi
 ms.assetid: e6390b21-348a-4bb9-8d21-3c585672199d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateLeaseInfoFromVariant, CreateLeaseInfoFromVariant method [TAPI 2.2], CreateLeaseInfoFromVariant method [TAPI 2.2],IMcastAddressAllocation interface, IMcastAddressAllocation interface [TAPI 2.2],CreateLeaseInfoFromVariant method, IMcastAddressAllocation.CreateLeaseInfoFromVariant, IMcastAddressAllocation::CreateLeaseInfoFromVariant, _tapi3_imcastaddressallocation_createleaseinfofromvariant, mdhcp/IMcastAddressAllocation::CreateLeaseInfoFromVariant, tapi3.imcastaddressallocation_createleaseinfofromvariant
 ms.topic: method

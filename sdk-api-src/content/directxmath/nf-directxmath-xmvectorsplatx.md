@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorSplatX
 title: XMVectorSplatX function (directxmath.h)
-author: windows-sdk-content
+
 description: Replicates the x component of a vector to all of the components.
 old-location: dxmath\xmvectorsplatx.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSplatX(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatX, XMVectorSplatX, XMVectorSplatX method [DirectX Math Support APIs], dxmath.xmvectorsplatx
 ms.topic: function

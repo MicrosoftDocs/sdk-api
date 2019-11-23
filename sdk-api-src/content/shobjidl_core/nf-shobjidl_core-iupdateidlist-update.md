@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IUpdateIDList.Update
 title: IUpdateIDList::Update (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Updates the provided child ITEMIDLIST based on the parameters specified by the provided IBindCtx.
 old-location: shell\IUpdateIDList_Update.htm
 tech.root: shell
 ms.assetid: 29f38464-bd16-4ee9-92b2-6697a3851f55
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUpdateIDList interface [Windows Shell],Update method, IUpdateIDList.Update, IUpdateIDList::Update, Update, Update method [Windows Shell], Update method [Windows Shell],IUpdateIDList interface, _shell_IUpdateIDList_Update, shell.IUpdateIDList_Update, shobjidl_core/IUpdateIDList::Update
 ms.topic: method

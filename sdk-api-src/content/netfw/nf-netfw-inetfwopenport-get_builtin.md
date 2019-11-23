@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_BuiltIn
 title: INetFwOpenPort::get_BuiltIn (netfw.h)
-author: windows-sdk-content
+
 description: Indicates whether the port is defined by the system.
 old-location: ics\inetfwopenport_builtin.htm
 tech.root: ics
 ms.assetid: 7260b9f2-2cbe-4b71-8c99-1d1c30870ae1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BuiltIn property [ICS/ICF], BuiltIn property [ICS/ICF],INetFwOpenPort interface, INetFwOpenPort interface [ICS/ICF],BuiltIn property, INetFwOpenPort.BuiltIn, INetFwOpenPort.get_BuiltIn, INetFwOpenPort::BuiltIn, INetFwOpenPort::get_BuiltIn, get_BuiltIn, ics.inetfwopenport_builtin, netfw/INetFwOpenPort::BuiltIn, netfw/INetFwOpenPort::get_BuiltIn
 ms.topic: method

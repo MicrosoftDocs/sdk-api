@@ -1,12 +1,12 @@
 ---
 UID: NF:securitybaseapi.AddAuditAccessObjectAce
 title: AddAuditAccessObjectAce function (securitybaseapi.h)
-author: windows-sdk-content
+
 description: Adds a system-audit access control entry (ACE) to the end of a system access control list (SACL).
 old-location: security\addauditaccessobjectace.htm
 tech.root: SecAuthZ
 ms.assetid: be852a0c-9d96-4b29-b5f9-d9c41d838c12
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddAuditAccessObjectAce, AddAuditAccessObjectAce function [Security], CONTAINER_INHERIT_ACE, FAILED_ACCESS_ACE_FLAG, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SUCCESSFUL_ACCESS_ACE_FLAG, _win32_addauditaccessobjectace, security.addauditaccessobjectace, securitybaseapi/AddAuditAccessObjectAce
 ms.topic: function

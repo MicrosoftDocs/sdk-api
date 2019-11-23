@@ -1,12 +1,12 @@
 ---
 UID: NL:gdipluseffects.Blur
 title: Blur (gdipluseffects.h)
-author: windows-sdk-content
+
 description: The Blur class enables you to apply a Gaussian blur effect to a bitmap and specify the nature of the blur.
 old-location: gdiplus\_gdiplus_CLASS_Blur_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blur.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Blur, Blur class [GDI+], Blur class [GDI+],described, _gdiplus_CLASS_Blur_Class, gdiplus._gdiplus_CLASS_Blur_Class, gdipluseffects/Blur
 ms.topic: class

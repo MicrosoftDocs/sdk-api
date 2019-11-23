@@ -1,12 +1,12 @@
 ---
 UID: NF:wdspxe.PxeTrace
 title: PxeTrace function (wdspxe.h)
-author: windows-sdk-content
+
 description: Adds a trace entry to the PXE log.
 old-location: wds\pxetrace.htm
 tech.root: wds
 ms.assetid: 220f15bf-f33a-4706-a52d-f11c40f49ac0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PXE_TRACE_ERROR, PXE_TRACE_FATAL, PXE_TRACE_INFO, PXE_TRACE_VERBOSE, PXE_TRACE_WARNING, PxeTrace, PxeTrace function [Windows Deployment Services], wds.pxetrace, wdspxe/PxeTrace
 ms.topic: function

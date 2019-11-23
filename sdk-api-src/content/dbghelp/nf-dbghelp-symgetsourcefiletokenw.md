@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymGetSourceFileTokenW
 title: SymGetSourceFileTokenW function (dbghelp.h)
-author: windows-sdk-content
+
 description: Retrieves token for the specified source file from the source server.
 old-location: base\symgetsourcefiletoken.htm
 tech.root: Debug
 ms.assetid: 7a8c7d68-421e-41fd-8cab-750c44a5f028
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SymGetSourceFileToken, SymGetSourceFileToken function, SymGetSourceFileTokenW, base.symgetsourcefiletoken, dbghelp/SymGetSourceFileToken, dbghelp/SymGetSourceFileTokenW
 ms.topic: function

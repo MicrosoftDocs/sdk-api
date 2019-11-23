@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_Branding
 title: IFaxConfiguration::put_Branding (faxcomex.h)
-author: windows-sdk-content
+
 description: Sets or retrieves a value that indicates whether the fax server generates a branding mark on outgoing faxes.
 old-location: fax\_mfax_IFaxConfiguration_Branding.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\branding.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],Branding property, IFaxConfiguration.Branding, IFaxConfiguration.put_Branding, IFaxConfiguration::Branding, IFaxConfiguration::get_Branding, IFaxConfiguration::put_Branding, _mfax_IFaxConfiguration_Branding, fax._mfax_IFaxConfiguration_Branding, faxcomex/IFaxConfiguration::Branding, faxcomex/IFaxConfiguration::get_Branding, faxcomex/IFaxConfiguration::put_Branding, put_Branding
 ms.topic: method

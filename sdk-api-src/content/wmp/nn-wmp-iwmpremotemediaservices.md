@@ -1,12 +1,12 @@
 ---
 UID: NN:wmp.IWMPRemoteMediaServices
 title: IWMPRemoteMediaServices (wmp.h)
-author: windows-sdk-content
+
 description: The IWMPRemoteMediaServices interface includes methods that provide services to Windows Media Player from a program that hosts the Player control. These methods are designed to be used with C++, and some methods can only be used with remoting.
 old-location: wmp\iwmpremotemediaservices.htm
 tech.root: WMP
 ms.assetid: 594a614a-8da1-4ef0-a6af-01284fb48ef7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], IWMPRemoteMediaServices interface [Windows Media Player],described, IWMPRemoteMediaServicesInterface, wmp.iwmpremotemediaservices, wmp/IWMPRemoteMediaServices
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsFreeError
 title: WsFreeError function (webservices.h)
-author: windows-sdk-content
+
 description: Releases the memory resource associated with an Error object created using WsCreateError. This releases the object and its constituent information.
 old-location: wsw\wsfreeerror.htm
 tech.root: wsw
 ms.assetid: 61da7bc2-b805-4379-a6b2-1e92374be1a0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsFreeError, WsFreeError function [Web Services for Windows], webservices/WsFreeError, wsw.wsfreeerror
 ms.topic: function

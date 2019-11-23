@@ -1,12 +1,12 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpoolIo
 title: CreateThreadpoolIo function (threadpoolapiset.h)
-author: windows-sdk-content
+
 description: Creates a new I/O completion object.
 old-location: base\createthreadpoolio.htm
 tech.root: ProcThread
 ms.assetid: 621f4747-50fa-4538-bd6a-dbe4dbb05dd1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateThreadpoolIo, CreateThreadpoolIo function, base.createthreadpoolio, threadpoolapiset/CreateThreadpoolIo, winbase/CreateThreadpoolIo
 ms.topic: function

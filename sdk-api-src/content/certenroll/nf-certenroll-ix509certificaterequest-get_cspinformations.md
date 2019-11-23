@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_CspInformations
 title: IX509CertificateRequest::get_CspInformations (certenroll.h)
-author: windows-sdk-content
+
 description: Specifies and retrieves a collection of cryptographic providers available for use by the request object.
 old-location: security\ix509certificaterequest_cspinformations_property.htm
 tech.root: seccertenroll
 ms.assetid: 7be532ab-0ab0-4c22-b274-c925fd5827d5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CspInformations property [Security], CspInformations property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],CspInformations property, IX509CertificateRequest.CspInformations, IX509CertificateRequest.get_CspInformations, IX509CertificateRequest::CspInformations, IX509CertificateRequest::get_CspInformations, IX509CertificateRequest::put_CspInformations, certenroll/IX509CertificateRequest::CspInformations, certenroll/IX509CertificateRequest::get_CspInformations, certenroll/IX509CertificateRequest::put_CspInformations, get_CspInformations, security.ix509certificaterequest_cspinformations_property
 ms.topic: method

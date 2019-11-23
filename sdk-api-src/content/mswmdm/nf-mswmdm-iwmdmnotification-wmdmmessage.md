@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IWMDMNotification.WMDMMessage
 title: IWMDMNotification::WMDMMessage (mswmdm.h)
-author: windows-sdk-content
+
 description: The WMDMMessage method is a callback method implemented by a client, and called by Windows Media Device Manager when a Plug and Play compliant device or storage medium is connected or removed.
 old-location: wmdm\iwmdmnotification_wmdmmessage.htm
 tech.root: WMDM
 ms.assetid: e178db6b-2493-442e-95d1-04609b7726fe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDMNotification interface [windows Media Device Manager],WMDMMessage method, IWMDMNotification.WMDMMessage, IWMDMNotification::WMDMMessage, IWMDMNotificationWMDMMessage, WMDMMessage, WMDMMessage method [windows Media Device Manager], WMDMMessage method [windows Media Device Manager],IWMDMNotification interface, mswmdm/IWMDMNotification::WMDMMessage, wmdm.iwmdmnotification_wmdmmessage
 ms.topic: method

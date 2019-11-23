@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.DiscardResource
 title: ID3D12VideoProcessCommandList::DiscardResource
-author: windows-sdk-content
+
 description: Indicates that the current contents of a resource can be discarded.
 tech.root: mf
 ms.assetid: ee2e1ce5-e6ab-4e49-9177-2ff98dca420e
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

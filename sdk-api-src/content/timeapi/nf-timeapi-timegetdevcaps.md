@@ -1,12 +1,12 @@
 ---
 UID: NF:timeapi.timeGetDevCaps
 title: timeGetDevCaps function (timeapi.h)
-author: windows-sdk-content
+
 description: The timeGetDevCaps function queries the timer device to determine its resolution.
 old-location: multimedia\timegetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: 7b5a9675-1152-4c9e-bc79-fe9afa5c563c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_timeGetDevCaps, mmsystem/timeGetDevCaps, multimedia.timegetdevcaps, timeGetDevCaps, timeGetDevCaps function [Windows Multimedia], timeapi/timeGetDevCaps"
 ms.topic: function

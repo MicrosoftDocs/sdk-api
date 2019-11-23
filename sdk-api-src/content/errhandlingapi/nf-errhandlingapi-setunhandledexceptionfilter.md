@@ -1,12 +1,12 @@
 ---
 UID: NF:errhandlingapi.SetUnhandledExceptionFilter
 title: SetUnhandledExceptionFilter function (errhandlingapi.h)
-author: windows-sdk-content
+
 description: Enables an application to supersede the top-level exception handler of each thread of a process.
 old-location: base\setunhandledexceptionfilter.htm
 tech.root: Debug
 ms.assetid: 1c3bfdda-8049-4c3f-8ee6-0ee5c77b50ae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EXCEPTION_CONTINUE_EXECUTION, EXCEPTION_CONTINUE_SEARCH, EXCEPTION_EXECUTE_HANDLER, SetUnhandledExceptionFilter, SetUnhandledExceptionFilter function, _win32_setunhandledexceptionfilter, base.setunhandledexceptionfilter, errhandlingapi/SetUnhandledExceptionFilter
 ms.topic: function

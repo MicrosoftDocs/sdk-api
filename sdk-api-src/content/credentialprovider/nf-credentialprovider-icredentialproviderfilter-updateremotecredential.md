@@ -1,12 +1,12 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderFilter.UpdateRemoteCredential
 title: ICredentialProviderFilter::UpdateRemoteCredential (credentialprovider.h)
-author: windows-sdk-content
+
 description: Updates a credential from a remote session.
 old-location: shell\ICredentialProviderFilter_UpdateRemoteCredential.htm
 tech.root: shell
 ms.assetid: d0730f67-e4f1-42b2-823a-75b08a5c952e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderFilter interface [Windows Shell],UpdateRemoteCredential method, ICredentialProviderFilter.UpdateRemoteCredential, ICredentialProviderFilter::UpdateRemoteCredential, UpdateRemoteCredential, UpdateRemoteCredential method [Windows Shell], UpdateRemoteCredential method [Windows Shell],ICredentialProviderFilter interface, _shell_ICredentialProviderFilter_UpdateRemoteCredential, credentialprovider/ICredentialProviderFilter::UpdateRemoteCredential, shell.ICredentialProviderFilter_UpdateRemoteCredential
 ms.topic: method

@@ -3,7 +3,7 @@ UID: NF:gdiplusheaders.Region.GetBounds(OUT Rect,IN const Graphics)
 title: Region::GetBounds
 description: The Region::GetBounds method gets a rectangle that encloses this region.
 ms.assetid: fdbecca4-be04-4162-a930-19e94c69c7e2
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: Region::GetBounds
 ms.topic: language-reference

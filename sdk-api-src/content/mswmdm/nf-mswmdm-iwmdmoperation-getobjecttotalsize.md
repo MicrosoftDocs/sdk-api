@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.GetObjectTotalSize
 title: IWMDMOperation::GetObjectTotalSize (mswmdm.h)
-author: windows-sdk-content
+
 description: Windows Media Device Manager calls GetObjectTotalSize before a file is written to the device in order to retrieve the total size of the object, in bytes.
 old-location: wmdm\iwmdmoperation_getobjecttotalsize.htm
 tech.root: WMDM
 ms.assetid: 50ab01f9-0f38-485e-b7d9-98bc95948427
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetObjectTotalSize, GetObjectTotalSize method [windows Media Device Manager], GetObjectTotalSize method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],GetObjectTotalSize method, IWMDMOperation.GetObjectTotalSize, IWMDMOperation::GetObjectTotalSize, IWMDMOperationGetObjectTotalSize, mswmdm/IWMDMOperation::GetObjectTotalSize, wmdm.iwmdmoperation_getobjecttotalsize
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-greater-than
 title: WBEMTimeSpan::operator-greater-than (wbemtime.h)
-author: windows-sdk-content
+
 description: Compares two WBEMTimeSpan objects using a greater than comparison operator.
 old-location: wmi\wbemtimespan_comparison_operators_greaterthan.htm
 tech.root: WmiSdk
 ms.assetid: 579e0041-0e33-4367-923d-15b59eee4cae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "??OWBEMTimeSpan@@QBEHABV0@@Z, WBEMTimeSpan interface [Windows Management Instrumentation],operator> method, WBEMTimeSpan.operator-greater-than, WBEMTimeSpan.operator>, WBEMTimeSpan::operator-greater-than, WBEMTimeSpan::operator>, operator>, operator> method [Windows Management Instrumentation], operator> method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator>, wmi.wbemtimespan_comparison_operators_greaterthan"
 ms.topic: method

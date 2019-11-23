@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT
 title: D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT (d3d11.h)
-author: windows-sdk-content
+
 description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION command.
 old-location: mf\d3d11_authenticated_configure_crypto_session_input.htm
 tech.root: medfound
 ms.assetid: 62DCE279-B0B6-4536-A14E-71F5B1BAA9ED
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT, D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT, mf.d3d11_authenticated_configure_crypto_session_input
 ms.topic: struct

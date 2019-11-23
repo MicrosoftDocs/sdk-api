@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_3.ID2D1Device4.CreateDeviceContext
 title: ID2D1Device4::CreateDeviceContext (d2d1_3.h)
-author: windows-sdk-content
+
 description: Creates a new ID2D1DeviceContext4 from this Direct2D device.
 old-location: direct2d\id2d1device4_createdevicecontext.htm
 tech.root: Direct2D
 ms.assetid: 06F097C4-E417-48EA-A480-62E96C4A1CE6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateDeviceContext, CreateDeviceContext method [Direct2D], CreateDeviceContext method [Direct2D],ID2D1Device4 interface, ID2D1Device4 interface [Direct2D],CreateDeviceContext method, ID2D1Device4.CreateDeviceContext, ID2D1Device4::CreateDeviceContext, d2d1_3/ID2D1Device4::CreateDeviceContext, direct2d.id2d1device4_createdevicecontext
 ms.topic: method

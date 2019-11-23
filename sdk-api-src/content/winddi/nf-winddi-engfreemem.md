@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.EngFreeMem
 title: EngFreeMem macro (winddi.h)
-author: windows-sdk-content
+
 description: The EngFreeMem function deallocates a block of system memory.
 old-location: display\engfreemem.htm
 tech.root: display
 ms.assetid: 04428d7e-4150-4e68-a660-0a9e246c82ae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngFreeMem, EngFreeMem function [Display Devices], display.engfreemem, gdifncs_4479237b-46a6-40a1-a9ad-dd1cd0a4c4bb.xml, winddi/EngFreeMem
 ms.topic: macro

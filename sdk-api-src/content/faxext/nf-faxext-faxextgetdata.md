@@ -1,12 +1,12 @@
 ---
 UID: NF:faxext.FaxExtGetData
 title: FaxExtGetData function (faxext.h)
-author: windows-sdk-content
+
 description: The FaxExtGetData callback function retrieves configuration data for a specific device and GUID.
 old-location: fax\_mfax_faxextgetdata.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_4s0x.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DEV_ID_SRC_FAX, DEV_ID_SRC_TAPI, FaxExtGetData, FaxExtGetData function [Fax Service], _mfax_faxextgetdata, fax._mfax_faxextgetdata, faxext/FaxExtGetData
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetString
 title: IMetaDataTables::GetString (rometadataapi.h)
-author: windows-sdk-content
+
 description: Gets the string at the specified index from the table column in the current reference scope.
 old-location: winrt\imetadatatables_getstring.htm
 tech.root: WinRT
 ms.assetid: 35b79dac-39c7-4ca2-8608-e7ea64d4574c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Windows Runtime], GetString method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetString method, IMetaDataTables.GetString, IMetaDataTables::GetString, rometadataapi/IMetaDataTables::GetString, winrt.imetadatatables_getstring
 ms.topic: method

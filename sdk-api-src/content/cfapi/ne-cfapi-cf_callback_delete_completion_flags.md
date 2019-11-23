@@ -1,12 +1,12 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_DELETE_COMPLETION_FLAGS
 title: CF_CALLBACK_DELETE_COMPLETION_FLAGS (cfapi.h)
-author: windows-sdk-content
+
 description: Callback flags for notifying a sync provider that a placeholder was successfully deleted.
 old-location: cloudapi\cf_callback_delete_completion_flags.htm
 tech.root: cfApi
 ms.assetid: 33971B32-C97B-4C79-B6ED-B2E1C20B912A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_DELETE_COMPLETION_FLAGS, CF_CALLBACK_DELETE_COMPLETION_FLAGS enumeration, CF_CALLBACK_DELETE_COMPLETION_FLAG_NONE, cfapi/CF_CALLBACK_DELETE_COMPLETION_FLAGS, cfapi/CF_CALLBACK_DELETE_COMPLETION_FLAG_NONE, cloudApi.cf_callback_delete_completion_flags
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetChangeUnitExceptions
 title: ISyncKnowledge::GetChangeUnitExceptions (winsync.h)
-author: windows-sdk-content
+
 description: Gets an object that can enumerate the IChangeUnitException objects that are stored in the knowledge.
 old-location: winsync\isyncknowledge_getchangeunitexceptions.htm
 tech.root: winsync
 ms.assetid: f8d12e76-82f3-4291-8c95-757d4838639e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitExceptions, GetChangeUnitExceptions method [Windows Sync], GetChangeUnitExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetChangeUnitExceptions method, ISyncKnowledge.GetChangeUnitExceptions, ISyncKnowledge::GetChangeUnitExceptions, winsync.isyncknowledge_getchangeunitexceptions, winsync/ISyncKnowledge::GetChangeUnitExceptions
 ms.topic: method

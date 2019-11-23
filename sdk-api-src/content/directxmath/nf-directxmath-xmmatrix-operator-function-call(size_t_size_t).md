@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMATRIX.operator-function-call(size_t,size_t)
 title: XMMATRIX::operator-function-call(size_t,size_t)
-author: windows-sdk-content
+
 description: Returns a reference to a matrix element of an instance XMMATRIX as specified by row and column arguments.
 old-location: dxmath\xmmatrix_operator_parens_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.operator ()(size_t,size_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMMATRIX structure [DirectX Math Support APIs],operator () method, XMMATRIX.operator ()(size_t,size_t), XMMATRIX.operator (size_t,size_t), XMMATRIX.operator(), XMMATRIX.operator-function-call(size_t,size_t), XMMATRIX::operator(), XMMATRIX::operator-function-call(size_t,size_t), dxmath.xmmatrix_operator_parens_1, operator () method [DirectX Math Support APIs], operator () method [DirectX Math Support APIs],XMMATRIX structure, operator()
 ms.topic: method

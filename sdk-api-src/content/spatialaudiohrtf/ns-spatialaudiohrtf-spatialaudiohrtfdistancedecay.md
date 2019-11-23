@@ -1,12 +1,12 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDistanceDecay
 title: SpatialAudioHrtfDistanceDecay (spatialaudiohrtf.h)
-author: windows-sdk-content
+
 description: Represents the decay model that is applied over distance from the position of an ISpatialAudioObjectForHrtf to the position of the listener.
 old-location: coreaudio\spatialaudiohrtfdistancedecay.htm
 tech.root: CoreAudio
 ms.assetid: 2EBAE322-2A5F-4610-B64F-F1B8CE2DFD2D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfDistanceDecay, SpatialAudioHrtfDistanceDecay union [Core Audio], coreaudio.spatialaudiohrtfdistancedecay, spatialaudiohrtf/SpatialAudioHrtfDistanceDecay
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NS:directxpackedvector.XMBYTE4
 title: XMBYTE4 (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A 4D vector where each component is a signed integer, 8-bits (1 byte) in length.
 old-location: dxmath\xmbyte4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMBYTE4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMBYTE4, XMBYTE4 structure [DirectX Math Support APIs], directxpackedvector/XMBYTE4, dxmath.xmbyte4
 ms.topic: struct

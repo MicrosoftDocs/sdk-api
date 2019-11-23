@@ -1,12 +1,12 @@
 ---
 UID: NF:winbio.WinBioSetCredential
 title: WinBioSetCredential function (winbio.h)
-author: windows-sdk-content
+
 description: Saves a biometric logon credential for the current user. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiosetcredential.htm
 tech.root: SecBioMet
 ms.assetid: c35dd874-c545-418a-b08c-82f9e13e93fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WINBIO_PASSWORD_GENERIC, WINBIO_PASSWORD_PACKED, WINBIO_PASSWORD_PROTECTED, WinBioSetCredential, WinBioSetCredential function [Windows Biometric Framework API], secbiomet.winbiosetcredential, winbio/WinBioSetCredential
 ms.topic: function

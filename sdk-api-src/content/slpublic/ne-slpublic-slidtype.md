@@ -1,12 +1,12 @@
 ---
 UID: NE:slpublic._tagSLIDTYPE
 title: SLIDTYPE (slpublic.h)
-author: windows-sdk-content
+
 description: Represents the type of Software Licensing ID.
 old-location: security\slidtype.htm
 tech.root: SecSLApi
 ms.assetid: 8267203c-959e-4626-bac1-8336de392d19
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SLIDTYPE, SLIDTYPE enumeration [Security], SL_ID_ALL_LICENSES, SL_ID_ALL_LICENSE_FILES, SL_ID_APPLICATION, SL_ID_LAST, SL_ID_LICENSE, SL_ID_LICENSE_FILE, SL_ID_PKEY, SL_ID_PRODUCT_SKU, security.slidtype, slpublic/SLIDTYPE, slpublic/SL_ID_ALL_LICENSES, slpublic/SL_ID_ALL_LICENSE_FILES, slpublic/SL_ID_APPLICATION, slpublic/SL_ID_LAST, slpublic/SL_ID_LICENSE, slpublic/SL_ID_LICENSE_FILE, slpublic/SL_ID_PKEY, slpublic/SL_ID_PRODUCT_SKU
 ms.topic: enum

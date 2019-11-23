@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.CD3D11_RASTERIZER_DESC.~CD3D11_RASTERIZER_DESC
 title: CD3D11_RASTERIZER_DESC::~CD3D11_RASTERIZER_DESC (d3d11.h)
-author: windows-sdk-content
+
 description: Destroys an instance of a CD3D11_RASTERIZER_DESC structure.
 old-location: direct3d11\cd3d11_rasterizer_desc__cd3d11_rasterizer_desc__destructor.htm
 tech.root: direct3d11
 ms.assetid: 62E30263-6D64-49FE-B815-085ACF420F04
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RASTERIZER_DESC interface [Direct3D 11],~CD3D11_RASTERIZER_DESC destructor, CD3D11_RASTERIZER_DESC.~CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC::~CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC::~CD3D11_RASTERIZER_DESC(), d3d11/CD3D11_RASTERIZER_DESC::~CD3D11_RASTERIZER_DESC, direct3d11.cd3d11_rasterizer_desc__cd3d11_rasterizer_desc__destructor, ~CD3D11_RASTERIZER_DESC, ~CD3D11_RASTERIZER_DESC destructor [Direct3D 11], ~CD3D11_RASTERIZER_DESC destructor [Direct3D 11],CD3D11_RASTERIZER_DESC interface
 ms.topic: method

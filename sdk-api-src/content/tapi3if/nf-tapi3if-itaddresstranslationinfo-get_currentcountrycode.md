@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITAddressTranslationInfo.get_CurrentCountryCode
 title: ITAddressTranslationInfo::get_CurrentCountryCode (tapi3if.h)
-author: windows-sdk-content
+
 description: The get_CurrentCountryCode method gets the current country/region code.
 old-location: tapi3\itaddresstranslationinfo_get_currentcountrycode.htm
 tech.root: Tapi
 ms.assetid: 02b19558-d7cb-4c77-977b-9810468ff145
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_CurrentCountryCode method, ITAddressTranslationInfo.get_CurrentCountryCode, ITAddressTranslationInfo::get_CurrentCountryCode, _tapi3_itaddresstranslationinfo_get_currentcountrycode, get_CurrentCountryCode, get_CurrentCountryCode method [TAPI 2.2], get_CurrentCountryCode method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_currentcountrycode, tapi3if/ITAddressTranslationInfo::get_CurrentCountryCode
 ms.topic: method

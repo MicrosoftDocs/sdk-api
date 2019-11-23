@@ -1,12 +1,12 @@
 ---
 UID: NF:textserv.ITextHost.TxKillTimer
 title: ITextHost::TxKillTimer (textserv.h)
-author: windows-sdk-content
+
 description: Requests the text host to destroy the specified timer.
 old-location: controls\ITextHost_TxKillTimer.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxkilltimer.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxKillTimer method, ITextHost.TxKillTimer, ITextHost::TxKillTimer, TxKillTimer, TxKillTimer method [Windows Controls], TxKillTimer method [Windows Controls],ITextHost interface, _win32_ITextHost_TxKillTimer, _win32_ITextHost_TxKillTimer_cpp, controls.ITextHost_TxKillTimer, controls._win32_ITextHost_TxKillTimer, textserv/ITextHost::TxKillTimer
 ms.topic: method

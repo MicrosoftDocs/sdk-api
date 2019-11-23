@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagTCITEMA
 title: TCITEMA (commctrl.h)
-author: windows-sdk-content
+
 description: Specifies or receives the attributes of a tab item. It is used with the TCM_INSERTITEM, TCM_GETITEM, and TCM_SETITEM messages. This structure supersedes the TC_ITEM structure.
 old-location: controls\TCITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tcitem.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPTCITEMA, LPTCITEM, LPTCITEM structure pointer [Windows Controls], TCIF_IMAGE, TCIF_PARAM, TCIF_RTLREADING, TCIF_STATE, TCIF_TEXT, TCITEM, TCITEM structure [Windows Controls], TCITEMA, TCITEMW, _win32_TCITEM, _win32_TCITEM_cpp, commctrl/LPTCITEM, commctrl/TCITEM, commctrl/TCITEMA, commctrl/TCITEMW, controls.TCITEM, controls._win32_TCITEM"
 ms.topic: struct

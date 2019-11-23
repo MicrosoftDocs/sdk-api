@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxAccountOutgoingArchive.GetMessages
 title: IFaxAccountOutgoingArchive::GetMessages (faxcomex.h)
-author: windows-sdk-content
+
 description: Returns a new iterator (archive cursor) for the archive of outbound fax messages for a particular fax account.
 old-location: fax\_mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_getmessages_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchive\getmessages.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMessages, GetMessages method [Fax Service], GetMessages method [Fax Service],IFaxAccountOutgoingArchive interface, IFaxAccountOutgoingArchive interface [Fax Service],GetMessages method, IFaxAccountOutgoingArchive.GetMessages, IFaxAccountOutgoingArchive::GetMessages, _mfax_faxaccountoutgoingarchive.getmessages, fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_getmessages_cpp, fax._mfax_faxaccountoutgoingarchive_getmessages, faxcomex/IFaxAccountOutgoingArchive::GetMessages
 ms.topic: method

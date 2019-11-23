@@ -1,12 +1,12 @@
 ---
 UID: NS:usp10.opentype_feature_record
 title: OPENTYPE_FEATURE_RECORD (usp10.h)
-author: windows-sdk-content
+
 description: Contains information about a single OpenType feature to apply to a run.
 old-location: intl\opentype_feature_record.htm
 tech.root: Intl
 ms.assetid: 3f4d76f7-fd50-4a38-973b-329e477e5960
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OPENTYPE_FEATURE_RECORD, OPENTYPE_FEATURE_RECORD structure [Internationalization for Windows Applications], _win32_OPENTYPE_FEATURE_RECORD, intl.opentype_feature_record, usp10/OPENTYPE_FEATURE_RECORD
 ms.topic: struct

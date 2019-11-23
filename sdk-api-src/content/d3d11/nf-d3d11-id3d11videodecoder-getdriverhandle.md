@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.ID3D11VideoDecoder.GetDriverHandle
 title: ID3D11VideoDecoder::GetDriverHandle (d3d11.h)
-author: windows-sdk-content
+
 description: Gets a handle to the driver.
 old-location: mf\id3d11videodecoder_getdriverhandle.htm
 tech.root: medfound
 ms.assetid: CD9A46DB-C16D-4DF4-972B-2CE8398CEE98
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDriverHandle, GetDriverHandle method [Media Foundation], GetDriverHandle method [Media Foundation],ID3D11VideoDecoder interface, ID3D11VideoDecoder interface [Media Foundation],GetDriverHandle method, ID3D11VideoDecoder.GetDriverHandle, ID3D11VideoDecoder::GetDriverHandle, d3d11/ID3D11VideoDecoder::GetDriverHandle, mf.id3d11videodecoder_getdriverhandle
 ms.topic: method

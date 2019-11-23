@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_COMPUTE_PIPELINE_STATE_DESC
 title: D3D12_COMPUTE_PIPELINE_STATE_DESC (d3d12.h)
-author: windows-sdk-content
+
 description: Describes a compute pipeline state object.
 old-location: direct3d12\d3d12_compute_pipeline_state_desc.htm
 tech.root: direct3d12
 ms.assetid: 46C785C6-8294-410F-A8D5-7E5F85FA5C75
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_COMPUTE_PIPELINE_STATE_DESC, D3D12_COMPUTE_PIPELINE_STATE_DESC structure, d3d12/D3D12_COMPUTE_PIPELINE_STATE_DESC, direct3d12.d3d12_compute_pipeline_state_desc
 ms.topic: struct

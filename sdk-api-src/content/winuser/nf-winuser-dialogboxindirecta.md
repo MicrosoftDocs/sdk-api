@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.DialogBoxIndirectA
 title: DialogBoxIndirectA macro (winuser.h)
-author: windows-sdk-content
+
 description: Creates a modal dialog box from a dialog box template in memory. DialogBoxIndirect does not return control until the specified callback function terminates the modal dialog box by calling the EndDialog function.
 old-location: dlgbox\dialogboxindirect.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxindirect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DialogBoxIndirect, DialogBoxIndirect function [Dialog Boxes], DialogBoxIndirectA, DialogBoxIndirectW, _win32_DialogBoxIndirect, _win32_dialogboxindirect_cpp, dlgbox.dialogboxindirect, winui._win32_dialogboxindirect, winuser/DialogBoxIndirect, winuser/DialogBoxIndirectA, winuser/DialogBoxIndirectW
 ms.topic: macro

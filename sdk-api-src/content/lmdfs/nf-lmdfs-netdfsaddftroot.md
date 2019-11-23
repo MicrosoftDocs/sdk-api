@@ -1,12 +1,12 @@
 ---
 UID: NF:lmdfs.NetDfsAddFtRoot
 title: NetDfsAddFtRoot function (lmdfs.h)
-author: windows-sdk-content
+
 description: Creates a new domain-based Distributed File System (DFS) namespace. If the namespace already exists, the function adds the specified root target to it.
 old-location: dfs\netdfsaddftroot.htm
 tech.root: Dfs
 ms.assetid: df3192f8-f8fc-40ad-a5ff-fb991befff09
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NetDfsAddFtRoot, NetDfsAddFtRoot function [Distributed File System], _win32_netdfsaddftroot, dfs.netdfsaddftroot, fs.netdfsaddftroot, lmdfs/NetDfsAddFtRoot, netmgmt.netdfsaddftroot
 ms.topic: function

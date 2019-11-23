@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionMatrixTransform.SetMatrix
 title: IDCompositionMatrixTransform::SetMatrix (dcomp.h)
-author: windows-sdk-content
+
 description: Changes all values of the matrix of this 2D transform.
 old-location: directcomp\idcompositionmatrixtransform_setmatrix.htm
 tech.root: directcomp
 ms.assetid: 1f164dfd-8bd4-4f6e-a5d2-d455808b5b0f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionMatrixTransform interface [DirectComposition],SetMatrix method, IDCompositionMatrixTransform.SetMatrix, IDCompositionMatrixTransform::SetMatrix, SetMatrix, SetMatrix method [DirectComposition], SetMatrix method [DirectComposition],IDCompositionMatrixTransform interface, dcomp/IDCompositionMatrixTransform::SetMatrix, directcomp.idcompositionmatrixtransform_setmatrix
 ms.topic: method

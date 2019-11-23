@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCurrentPattern
 title: IUIAutomationElement::GetCurrentPattern (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the IUnknown interface of the specified control pattern on this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCurrentPattern.htm
 tech.root: WinAuto
 ms.assetid: 3ad4df7c-979d-464f-9600-d1f3de064b59
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPattern, GetCurrentPattern method [Windows Accessibility], GetCurrentPattern method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCurrentPattern method, IUIAutomationElement.GetCurrentPattern, IUIAutomationElement::GetCurrentPattern, uiauto.uiauto_IUIAutomationElement_GetCurrentPattern, uiauto_IUIAutomationElement_GetCurrentPattern, uiautomationclient/IUIAutomationElement::GetCurrentPattern, winauto.uiauto_IUIAutomationElement_GetCurrentPattern
 ms.topic: method

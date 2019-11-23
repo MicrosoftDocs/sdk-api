@@ -1,12 +1,12 @@
 ---
 UID: NF:evr.IMFVideoPresenter.ProcessMessage
 title: IMFVideoPresenter::ProcessMessage (evr.h)
-author: windows-sdk-content
+
 description: Sends a message to the video presenter. Messages are used to signal the presenter that it must perform some action, or that some event has occurred.
 old-location: mf\imfvideopresenter_processmessage.htm
 tech.root: medfound
 ms.assetid: f7113cb3-2ea9-4d4f-b6c7-ef4e1025cc6d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFVideoPresenter interface [Media Foundation],ProcessMessage method, IMFVideoPresenter.ProcessMessage, IMFVideoPresenter::ProcessMessage, ProcessMessage, ProcessMessage method [Media Foundation], ProcessMessage method [Media Foundation],IMFVideoPresenter interface, evr/IMFVideoPresenter::ProcessMessage, f7113cb3-2ea9-4d4f-b6c7-ef4e1025cc6d, mf.imfvideopresenter_processmessage
 ms.topic: method

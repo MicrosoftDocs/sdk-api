@@ -1,12 +1,12 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_MaintainAspectRatio
 title: IMSVidCtl::put_MaintainAspectRatio (msvidctl.h)
-author: windows-sdk-content
+
 description: The put_MaintainAspectRatio method specifies whether the Video Control maintains the aspect ratio of the source video.
 old-location: mstv\imsvidctl_put_maintainaspectratio.htm
 tech.root: mstv
 ms.assetid: 7f0943b1-3cb9-46dc-8aaf-be22e2464092
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_MaintainAspectRatio method, IMSVidCtl.put_MaintainAspectRatio, IMSVidCtl::put_MaintainAspectRatio, IMSVidCtlput_MaintainAspectRatio, mstv.imsvidctl_put_maintainaspectratio, msvidctl/IMSVidCtl::put_MaintainAspectRatio, put_MaintainAspectRatio, put_MaintainAspectRatio method [Microsoft TV Technologies], put_MaintainAspectRatio method [Microsoft TV Technologies],IMSVidCtl interface
 ms.topic: method

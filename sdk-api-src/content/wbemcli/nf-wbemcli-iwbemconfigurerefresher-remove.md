@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IWbemConfigureRefresher.Remove
 title: IWbemConfigureRefresher::Remove (wbemcli.h)
-author: windows-sdk-content
+
 description: The IWbemConfigureRefresher::Remove method is used to remove an object, enumerator, or nested refresher from a refresher.
 old-location: wmi\iwbemconfigurerefresher_remove.htm
 tech.root: WmiSdk
 ms.assetid: f6e68b95-e9d1-473e-add4-823b6db51709
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWbemConfigureRefresher interface [Windows Management Instrumentation],Remove method, IWbemConfigureRefresher.Remove, IWbemConfigureRefresher::Remove, Remove, Remove method [Windows Management Instrumentation], Remove method [Windows Management Instrumentation],IWbemConfigureRefresher interface, _hmm_iwbemconfigurerefresher_remove, wbemcli/IWbemConfigureRefresher::Remove, wmi.iwbemconfigurerefresher_remove
 ms.topic: method

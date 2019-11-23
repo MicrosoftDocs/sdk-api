@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetBasePnPID
 title: IDiscRecorder::GetBasePnPID (imapi.h)
-author: windows-sdk-content
+
 description: Retrieves a base PnP string that can be used to consistently identify a specific class of device by make and model. The string can be used by applications to customize their behavior according to the specific recorder type.
 old-location: imapi\idiscrecorder_getbasepnpid.htm
 tech.root: imapi
 ms.assetid: 02ca36dd-bd76-41b8-90ce-6c026152cdbe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBasePnPID, GetBasePnPID method [IMAPI], GetBasePnPID method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetBasePnPID method, IDiscRecorder.GetBasePnPID, IDiscRecorder::GetBasePnPID, _win32_idiscrecorder_getbasepnpid, base.idiscrecorder_getbasepnpid, imapi.idiscrecorder_getbasepnpid, imapi/IDiscRecorder::GetBasePnPID
 ms.topic: method

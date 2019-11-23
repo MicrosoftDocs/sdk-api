@@ -1,12 +1,12 @@
 ---
 UID: NF:docobj.IOleDocumentView.SetInPlaceSite
 title: IOleDocumentView::SetInPlaceSite (docobj.h)
-author: windows-sdk-content
+
 description: Associates a container's document view site with a document's view object.
 old-location: com\ioledocumentview_setinplacesite.htm
 tech.root: com
 ms.assetid: 88de47c2-979b-4595-8a2f-d4ed1a3a7b6c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SetInPlaceSite method, IOleDocumentView.SetInPlaceSite, IOleDocumentView::SetInPlaceSite, SetInPlaceSite, SetInPlaceSite method [COM], SetInPlaceSite method [COM],IOleDocumentView interface, _ole_ioledocumentview_setinplacesite, com.ioledocumentview_setinplacesite, docobj/IOleDocumentView::SetInPlaceSite
 ms.topic: method

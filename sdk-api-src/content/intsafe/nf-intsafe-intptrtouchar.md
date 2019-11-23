@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.IntPtrToUChar
 title: IntPtrToUChar function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type INT_PTR to a value of type UCHAR.
 old-location: shell\IntPtrToUChar.htm
 tech.root: shell
 ms.assetid: f6428be2-bca6-4fda-a247-0f0eff2483d8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IntPtrToUChar, IntPtrToUChar function [Windows Shell], intsafe/IntPtrToUChar, shell.IntPtrToUChar
 ms.topic: function

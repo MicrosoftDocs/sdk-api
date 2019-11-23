@@ -1,12 +1,12 @@
 ---
 UID: NF:nspapi.GetNameByTypeA
 title: GetNameByTypeA function (nspapi.h)
-author: windows-sdk-content
+
 description: The GetNameByType function retrieves the name of a network service for the specified service type.
 old-location: winsock\getnamebytype_2.htm
 tech.root: WinSock
 ms.assetid: 74d747f0-5f5e-4f54-8b2f-7ea96d4043ee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNameByType, GetNameByType function [Winsock], GetNameByTypeA, GetNameByTypeW, _win32_getnamebytype_2, nspapi/GetNameByType, nspapi/GetNameByTypeA, nspapi/GetNameByTypeW, winsock.getnamebytype_2
 ms.topic: function

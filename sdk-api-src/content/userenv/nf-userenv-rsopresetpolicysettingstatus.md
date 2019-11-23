@@ -1,12 +1,12 @@
 ---
 UID: NF:userenv.RsopResetPolicySettingStatus
 title: RsopResetPolicySettingStatus function (userenv.h)
-author: windows-sdk-content
+
 description: The RSoPResetPolicySettingStatus function unlinks the RSOP_PolicySettingStatus instance from its RSOP_PolicySetting instance.
 old-location: policy\rsopresetpolicysettingstatus.htm
 tech.root: Policy
 ms.assetid: fd849efe-1ee7-4034-aea2-1a2bdb5e46bc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RSoPResetPolicySettingStatus, RSoPResetPolicySettingStatus function [Group Policy], RsopResetPolicySettingStatus, _win32_rsopresetpolicysettingstatus, policy.rsopresetpolicysettingstatus, userenv/RSoPResetPolicySettingStatus
 ms.topic: function

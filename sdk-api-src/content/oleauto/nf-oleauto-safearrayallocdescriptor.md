@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.SafeArrayAllocDescriptor
 title: SafeArrayAllocDescriptor function (oleauto.h)
-author: windows-sdk-content
+
 description: Allocates memory for a safe array descriptor.
 old-location: automat\safearrayallocdescriptor.htm
 tech.root: automat
 ms.assetid: 8fe5c802-cdc0-4e7a-9410-ba65f9a5140e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SafeArrayAllocDescriptor, SafeArrayAllocDescriptor function [Automation], _oa96_SafeArrayAllocDescriptor, automat.safearrayallocdescriptor, oleauto/SafeArrayAllocDescriptor
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:ddeml.tagCONVCONTEXT
 title: CONVCONTEXT (ddeml.h)
-author: windows-sdk-content
+
 description: Contains information supplied by a Dynamic Data Exchange (DDE) client application. The information is useful for specialized or cross-language DDE conversations.
 old-location: dataxchg\convcontext_str.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\convcontext.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCONVCONTEXT, CONVCONTEXT, CONVCONTEXT structure [Data Exchange], PCONVCONTEXT, PCONVCONTEXT structure pointer [Data Exchange], _win32_CONVCONTEXT_str, _win32_convcontext_str_cpp, dataxchg.convcontext_str, ddeml/CONVCONTEXT, ddeml/PCONVCONTEXT, winui._win32_convcontext_str'
 ms.topic: struct

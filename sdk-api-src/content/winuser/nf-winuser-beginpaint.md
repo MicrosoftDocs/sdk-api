@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.BeginPaint
 title: BeginPaint function (winuser.h)
-author: windows-sdk-content
+
 description: The BeginPaint function prepares the specified window for painting and fills a PAINTSTRUCT structure with information about the painting.
 old-location: gdi\beginpaint.htm
 tech.root: gdi
 ms.assetid: 513341d7-bed8-469c-a067-ee71dc8860f9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BeginPaint, BeginPaint function [Windows GDI], _win32_BeginPaint, gdi.beginpaint, winuser/BeginPaint
 ms.topic: function

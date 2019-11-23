@@ -1,12 +1,12 @@
 ---
 UID: NF:faxext.FaxExtFreeBuffer
 title: FaxExtFreeBuffer function (faxext.h)
-author: windows-sdk-content
+
 description: The FaxExtFreeBuffer callback function deallocates memory previously allocated by a successful call to the FaxExtGetData function.
 old-location: fax\_mfax_faxextfreebuffer.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_75bm.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FaxExtFreeBuffer, FaxExtFreeBuffer function [Fax Service], _mfax_faxextfreebuffer, fax._mfax_faxextfreebuffer, faxext/FaxExtFreeBuffer
 ms.topic: function

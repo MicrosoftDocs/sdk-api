@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.Pager_SetScrollInfo
 title: Pager_SetScrollInfo macro (commctrl.h)
-author: windows-sdk-content
+
 description: Sets the scrolling parameters of the pager control, including the timeout value, the lines per timeout, and the pixels per line. You can use this macro or send the PGM_SETSETSCROLLINFO message explicitly.
 old-location: controls\Pager_SetScrollInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setscrollinfo.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Pager_SetScrollInfo, Pager_SetScrollInfo macro [Windows Controls], _win32_Pager_SetScrollInfo, _win32_Pager_SetScrollInfo_cpp, commctrl/Pager_SetScrollInfo, controls.Pager_SetScrollInfo, controls._win32_Pager_SetScrollInfo
 ms.topic: macro

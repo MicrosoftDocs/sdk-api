@@ -1,12 +1,12 @@
 ---
 UID: NE:msctf.__MIDL_ITfRange_0002
 title: TfShiftDir (msctf.h)
-author: windows-sdk-content
+
 description: Elements of the TfShiftDir enumeration specify which direction a range anchor is moved.
 old-location: tsf\tfshiftdir.htm
 tech.root: TSF
 ms.assetid: f6a9f9a2-9691-49c7-a481-47ad2cd67a4d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TF_SD_BACKWARD, TF_SD_FORWARD, TfShiftDir, TfShiftDir enumeration [Text Services Framework], _tsf_tfshiftdir_ref, msctf/TF_SD_BACKWARD, msctf/TF_SD_FORWARD, msctf/TfShiftDir, tsf.tfshiftdir
 ms.topic: enum

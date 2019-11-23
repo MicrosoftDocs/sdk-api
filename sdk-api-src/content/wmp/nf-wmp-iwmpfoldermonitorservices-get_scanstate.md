@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_scanState
 title: IWMPFolderMonitorServices::get_scanState (wmp.h)
-author: windows-sdk-content
+
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_scanState method retrieves the scan state for the current scanning operation.
 old-location: wmp\iwmpfoldermonitorservices_get_scanstate.htm
 tech.root: WMP
 ms.assetid: 4f13d2d0-5d8c-4aa7-bc69-c5c0436337a6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_scanState method, IWMPFolderMonitorServices.get_scanState, IWMPFolderMonitorServices::get_scanState, IWMPFolderMonitorServicesget_scanState, get_scanState, get_scanState method [Windows Media Player], get_scanState method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_scanstate, wmp/IWMPFolderMonitorServices::get_scanState
 ms.topic: method

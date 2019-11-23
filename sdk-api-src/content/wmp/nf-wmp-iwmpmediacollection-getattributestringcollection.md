@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getAttributeStringCollection
 title: IWMPMediaCollection::getAttributeStringCollection (wmp.h)
-author: windows-sdk-content
+
 description: The getAttributeStringCollection method retrieves a pointer to an IWMPStringCollection interface. This interface represents the set of all values for a given attribute within a given media type.
 old-location: wmp\iwmpmediacollection_getattributestringcollection.htm
 tech.root: WMP
 ms.assetid: c3699acb-58a1-4efa-a42c-c84534abca96
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getAttributeStringCollection method, IWMPMediaCollection.getAttributeStringCollection, IWMPMediaCollection::getAttributeStringCollection, IWMPMediaCollectiongetAttributeStringCollection, getAttributeStringCollection, getAttributeStringCollection method [Windows Media Player], getAttributeStringCollection method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getattributestringcollection, wmp/IWMPMediaCollection::getAttributeStringCollection
 ms.topic: method

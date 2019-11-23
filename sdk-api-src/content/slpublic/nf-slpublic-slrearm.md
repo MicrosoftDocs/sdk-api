@@ -1,12 +1,12 @@
 ---
 UID: NF:slpublic.SLReArm
 title: SLReArm function (slpublic.h)
-author: windows-sdk-content
+
 description: This function is rearm application activation.
 old-location: security\slrearm.htm
 tech.root: SecSLApi
 ms.assetid: d1b47613-1e1d-4873-93ed-8ef2bc836c30
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SLReArm, SLReArm function [Security], security.slrearm, slpublic/SLReArm
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.EngUnmapFile
 title: EngUnmapFile function (winddi.h)
-author: windows-sdk-content
+
 description: The EngUnmapFile function unmaps the view of a file from system space.
 old-location: display\engunmapfile.htm
 tech.root: display
 ms.assetid: e98040c3-4817-470b-9f71-8ebf793fc9a8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngUnmapFile, EngUnmapFile function [Display Devices], display.engunmapfile, gdifncs_056f6d9c-2c92-4d88-b2b3-f016426d1aed.xml, winddi/EngUnmapFile
 ms.topic: function

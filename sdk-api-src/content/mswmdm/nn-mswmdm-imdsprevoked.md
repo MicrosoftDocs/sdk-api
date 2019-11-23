@@ -1,12 +1,12 @@
 ---
 UID: NN:mswmdm.IMDSPRevoked
 title: IMDSPRevoked (mswmdm.h)
-author: windows-sdk-content
+
 description: The IMDSPRevoked interface retrieves the URL from which updated components can be downloaded. Implementing this interface is optional. For more information, see Mandatory and Optional Interfaces.
 old-location: wmdm\imdsprevoked.htm
 tech.root: WMDM
 ms.assetid: 8df545b9-52f5-422e-a0c1-2316c628d89f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMDSPRevoked, IMDSPRevoked interface [windows Media Device Manager], IMDSPRevoked interface [windows Media Device Manager],described, IMDSPRevokedInterface, mswmdm/IMDSPRevoked, wmdm.imdsprevoked
 ms.topic: interface

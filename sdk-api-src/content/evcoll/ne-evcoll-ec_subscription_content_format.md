@@ -1,12 +1,12 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_CONTENT_FORMAT
 title: EC_SUBSCRIPTION_CONTENT_FORMAT (evcoll.h)
-author: windows-sdk-content
+
 description: Specifies how events will be rendered on the computer that sends the events before the events are sent to the event collector computer.
 old-location: wec\ec_subscription_content_format.htm
 tech.root: WEC
 ms.assetid: 72db596e-ef94-4167-bf1a-176095e17f8d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EC_SUBSCRIPTION_CONTENT_FORMAT, EC_SUBSCRIPTION_CONTENT_FORMAT enumeration, EcContentFormatEvents, EcContentFormatRenderedText, evcoll/EC_SUBSCRIPTION_CONTENT_FORMAT, evcoll/EcContentFormatEvents, evcoll/EcContentFormatRenderedText, wec.ec_subscription_content_format, wes.ec_subscription_content_format
 ms.topic: enum

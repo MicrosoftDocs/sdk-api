@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.IAVIStream.Read
 title: IAVIStream::Read (vfw.h)
-author: windows-sdk-content
+
 description: The Read method reads data from a stream and copies it to an application-defined buffer. If no buffer is supplied, it determines the buffer size needed to retrieve the next buffer of data. Called when an application uses the AVIStreamRead function.
 old-location: multimedia\iavistream_read.htm
 tech.root: Multimedia
 ms.assetid: 95835ba2-5085-467f-ae2c-27dd4d2ea68c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],Read method, IAVIStream.Read, IAVIStream::Read, Read, Read method [Windows Multimedia], Read method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_Read, multimedia.iavistream_read, vfw/IAVIStream::Read
 ms.topic: method

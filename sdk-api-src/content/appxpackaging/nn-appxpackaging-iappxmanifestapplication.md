@@ -1,12 +1,12 @@
 ---
 UID: NN:appxpackaging.IAppxManifestApplication
 title: IAppxManifestApplication (appxpackaging.h)
-author: windows-sdk-content
+
 description: Provides access to attribute values of the application.
 old-location: appxpkg\iappxmanifestapplication.htm
 tech.root: appxpkg
 ms.assetid: 16FC78D1-7387-4C90-9F63-BCFA110BC487
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestApplication, IAppxManifestApplication interface [App packaging and management], IAppxManifestApplication interface [App packaging and management],described, appxpackaging/IAppxManifestApplication, appxpkg.iappxmanifestapplication
 ms.topic: interface

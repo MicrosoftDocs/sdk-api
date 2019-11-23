@@ -1,12 +1,12 @@
 ---
 UID: NE:mfobjects.MF_ATTRIBUTE_SERIALIZE_OPTIONS
 title: MF_ATTRIBUTE_SERIALIZE_OPTIONS (mfobjects.h)
-author: windows-sdk-content
+
 description: Defines flags for serializing and deserializing attribute stores.
 old-location: mf\mf_attribute_serialize_options.htm
 tech.root: medfound
 ms.assetid: e4b218d1-185c-483f-b697-19ce8b3a4058
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MF_ATTRIBUTE_SERIALIZE_OPTIONS, MF_ATTRIBUTE_SERIALIZE_OPTIONS enumeration [Media Foundation], MF_ATTRIBUTE_SERIALIZE_UNKNOWN_BYREF, e4b218d1-185c-483f-b697-19ce8b3a4058, mf.mf_attribute_serialize_options, mfobjects/MF_ATTRIBUTE_SERIALIZE_OPTIONS, mfobjects/MF_ATTRIBUTE_SERIALIZE_UNKNOWN_BYREF
 ms.topic: enum

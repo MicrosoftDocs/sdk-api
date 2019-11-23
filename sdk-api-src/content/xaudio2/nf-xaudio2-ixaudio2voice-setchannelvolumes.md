@@ -1,12 +1,12 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetChannelVolumes
 title: IXAudio2Voice::SetChannelVolumes (xaudio2.h)
-author: windows-sdk-content
+
 description: Sets the volume levels for the voice, per channel.
 old-location: xaudio2\ixaudio2voice_interface_setchannelvolumes.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetChannelVolumes(UINT32,const float,UINT32)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetChannelVolumes method, IXAudio2Voice.SetChannelVolumes, IXAudio2Voice::SetChannelVolumes, SetChannelVolumes, SetChannelVolumes method [XAudio2 Audio Mixing APIs], SetChannelVolumes method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_setchannelvolumes, xaudio2/IXAudio2Voice::SetChannelVolumes
 ms.topic: method

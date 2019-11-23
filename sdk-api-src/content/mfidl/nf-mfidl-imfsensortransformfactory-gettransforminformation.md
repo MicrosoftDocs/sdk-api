@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFSensorTransformFactory.GetTransformInformation
 title: IMFSensorTransformFactory::GetTransformInformation (mfidl.h)
-author: windows-sdk-content
+
 description: Called by the media pipeline to get information about a transform provided by the sensor transform.
 old-location: mf\imfsensortransformfactory_gettransforminformation.htm
 tech.root: medfound
 ms.assetid: A83B0A75-60CF-49AA-9386-70A30189C009
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTransformInformation, GetTransformInformation method [Media Foundation], GetTransformInformation method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],GetTransformInformation method, IMFSensorTransformFactory.GetTransformInformation, IMFSensorTransformFactory::GetTransformInformation, mf.imfsensortransformfactory_gettransforminformation, mfidl/IMFSensorTransformFactory::GetTransformInformation
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:dxgi1_4.DXGI_QUERY_VIDEO_MEMORY_INFO
 title: DXGI_QUERY_VIDEO_MEMORY_INFO (dxgi1_4.h)
-author: windows-sdk-content
+
 description: Describes the current video memory budgeting parameters.
 old-location: direct3ddxgi\dxgi_query_video_memory_info.htm
 tech.root: direct3ddxgi
 ms.assetid: E710F3A9-CB12-43B0-B56C-789350BCAE59
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DXGI_QUERY_VIDEO_MEMORY_INFO, DXGI_QUERY_VIDEO_MEMORY_INFO structure [DXGI], direct3ddxgi.dxgi_query_video_memory_info, dxgi1_4/DXGI_QUERY_VIDEO_MEMORY_INFO
 ms.topic: struct

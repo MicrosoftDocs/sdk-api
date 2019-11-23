@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.CreateSwapChainForComposition
 title: IDXGIFactory2::CreateSwapChainForComposition (dxgi1_2.h)
-author: windows-sdk-content
+
 description: Creates a swap chain that you can use to send Direct3D content into the DirectComposition API or the Windows.UI.Xaml framework to compose in a window.
 old-location: direct3ddxgi\idxgifactory2_createswapchainforcompositionsurface.htm
 tech.root: direct3ddxgi
 ms.assetid: 8AE13082-F8C3-422A-A111-4E91488BD1AF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateSwapChainForComposition, CreateSwapChainForComposition method [DXGI], CreateSwapChainForComposition method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],CreateSwapChainForComposition method, IDXGIFactory2.CreateSwapChainForComposition, IDXGIFactory2::CreateSwapChainForComposition, direct3ddxgi.idxgifactory2_createswapchainforcompositionsurface, dxgi1_2/IDXGIFactory2::CreateSwapChainForComposition
 ms.topic: method

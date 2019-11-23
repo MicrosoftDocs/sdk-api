@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.SetSegments
 title: ID2D1Ink::SetSegments (d2d1_3.h)
-author: windows-sdk-content
+
 description: Updates the specified segments in this ink object with new control points.
 old-location: direct2d\id2d1ink_setsegments.htm
 tech.root: Direct2D
 ms.assetid: 930D9772-D922-4CEB-A97C-06F263543D81
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1Ink interface [Direct2D],SetSegments method, ID2D1Ink.SetSegments, ID2D1Ink::SetSegments, SetSegments, SetSegments method [Direct2D], SetSegments method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::SetSegments, direct2d.id2d1ink_setsegments
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteFontFamily.GetFirstMatchingFont
 title: IDWriteFontFamily::GetFirstMatchingFont (dwrite.h)
-author: windows-sdk-content
+
 description: Gets the font that best matches the specified properties.
 old-location: directwrite\IDWriteFontFamily_GetFirstMatchingFont.htm
 tech.root: DirectWrite
 ms.assetid: ba5836a5-87ca-43bf-bb18-4498ed2a9619
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFirstMatchingFont, GetFirstMatchingFont method [Direct Write], GetFirstMatchingFont method [Direct Write],IDWriteFontFamily interface, IDWriteFontFamily interface [Direct Write],GetFirstMatchingFont method, IDWriteFontFamily.GetFirstMatchingFont, IDWriteFontFamily::GetFirstMatchingFont, directwrite.IDWriteFontFamily_GetFirstMatchingFont, dwrite/IDWriteFontFamily::GetFirstMatchingFont
 ms.topic: method

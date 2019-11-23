@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoCreateInstanceEx
 title: CoCreateInstanceEx function (combaseapi.h)
-author: windows-sdk-content
+
 description: Creates an instance of a specific class on a specific computer.
 old-location: com\cocreateinstanceex.htm
 tech.root: com
 ms.assetid: 3b414b95-e8d2-42e8-b4f2-5cc5189a3d08
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoCreateInstanceEx, CoCreateInstanceEx function [COM], _com_CoCreateInstanceEx, com.cocreateinstanceex, combaseapi/CoCreateInstanceEx
 ms.topic: function

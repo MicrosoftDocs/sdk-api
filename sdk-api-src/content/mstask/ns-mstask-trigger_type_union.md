@@ -1,12 +1,12 @@
 ---
 UID: NS:mstask._TRIGGER_TYPE_UNION
 title: TRIGGER_TYPE_UNION (mstask.h)
-author: windows-sdk-content
+
 description: Defines the invocation schedule of the trigger within the Type member of a TASK_TRIGGER structure.
 old-location: taskschd\trigger_type_union.htm
 tech.root: taskschd
 ms.assetid: de50fe74-8091-4a9e-a5b9-9a8c2c684895
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TRIGGER_TYPE_UNION, TRIGGER_TYPE_UNION union [Task Scheduler], _msb_trigger_type_union, mstask/TRIGGER_TYPE_UNION, taskschd.trigger_type_union
 ms.topic: struct

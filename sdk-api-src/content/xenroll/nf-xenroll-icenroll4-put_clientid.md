@@ -1,12 +1,12 @@
 ---
 UID: NF:xenroll.ICEnroll4.put_ClientId
 title: ICEnroll4::put_ClientId (xenroll.h)
-author: windows-sdk-content
+
 description: Sets or retrieves a client ID request attribute. The client ID request attribute indicates the source of the certificate request. This property was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_clientid.htm
 tech.root: SecCrypto
 ms.assetid: cf46af62-815a-4ad5-bca9-e81eb7c0d1e2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClientID property [Security], ClientID property [Security],ICEnroll4 interface, ICEnroll4 interface [Security],ClientID property, ICEnroll4.ClientID, ICEnroll4.put_ClientId, ICEnroll4::ClientID, ICEnroll4::get_ClientID, ICEnroll4::put_ClientID, ICEnroll4::put_ClientId, XECI_AUTOENROLL, XECI_CERTREQ, XECI_DISABLE, XECI_REQWIZARD, XECI_XENROLL, put_ClientId, security.icenroll4_clientid, xenroll/ICEnroll4::ClientID, xenroll/ICEnroll4::get_ClientID, xenroll/ICEnroll4::put_ClientID
 ms.topic: method

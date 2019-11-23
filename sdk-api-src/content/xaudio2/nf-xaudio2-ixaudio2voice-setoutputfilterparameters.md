@@ -1,12 +1,12 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetOutputFilterParameters
 title: IXAudio2Voice::SetOutputFilterParameters (xaudio2.h)
-author: windows-sdk-content
+
 description: Sets the filter parameters on one of this voice's sends.
 old-location: xaudio2\ixaudio2voice_interface_setoutputfilterparameters.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetOutputFilterParameters(IXAudio2Voice,XAUDIO2_FILTER_PARAMETERS,UINT32)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetOutputFilterParameters method, IXAudio2Voice.SetOutputFilterParameters, IXAudio2Voice::SetOutputFilterParameters, SetOutputFilterParameters, SetOutputFilterParameters method [XAudio2 Audio Mixing APIs], SetOutputFilterParameters method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_setoutputfilterparameters, xaudio2/IXAudio2Voice::SetOutputFilterParameters
 ms.topic: method

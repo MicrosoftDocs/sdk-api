@@ -1,12 +1,12 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.HasVideo
 title: IMFPMediaItem::HasVideo (mfplay.h)
-author: windows-sdk-content
+
 description: Queries whether the media item contains a video stream.
 old-location: mf\imfpmediaitem_hasvideo.htm
 tech.root: medfound
 ms.assetid: 6dc8a85c-25e4-4da7-965d-c8882514fc7d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HasVideo, HasVideo method [Media Foundation], HasVideo method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],HasVideo method, IMFPMediaItem.HasVideo, IMFPMediaItem::HasVideo, mf.imfpmediaitem_hasvideo, mfplay/IMFPMediaItem::HasVideo
 ms.topic: method

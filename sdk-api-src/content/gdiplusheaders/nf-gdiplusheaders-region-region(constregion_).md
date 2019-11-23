@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Region.Region(const Region &)
 title: Region::Region(const Region &) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: Creates a region that is infinite. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_Region_Region_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_18.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(), Region.Region(const Region &), Region::Region, Region::Region(const Region &), _gdiplus_CLASS_Region_Region_, gdiplus._gdiplus_CLASS_Region_Region_
 ms.topic: method

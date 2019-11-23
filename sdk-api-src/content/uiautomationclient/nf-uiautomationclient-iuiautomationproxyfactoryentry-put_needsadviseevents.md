@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.put_NeedsAdviseEvents
 title: IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Sets or retrieves a value that specifies whether the proxy must be notified when an application has registered for events.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents.htm
 tech.root: WinAuto
 ms.assetid: 6a23b850-a2a0-4701-9725-e36213fcead7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryEntry interface [Windows Accessibility],NeedsAdviseEvents property, IUIAutomationProxyFactoryEntry.NeedsAdviseEvents, IUIAutomationProxyFactoryEntry.put_NeedsAdviseEvents, IUIAutomationProxyFactoryEntry::NeedsAdviseEvents, IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents, IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents, NeedsAdviseEvents property [Windows Accessibility], NeedsAdviseEvents property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, put_NeedsAdviseEvents, uiauto.uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents, uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents, uiautomationclient/IUIAutomationProxyFactoryEntry::NeedsAdviseEvents, uiautomationclient/IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents, uiautomationclient/IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents, winauto.uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents
 ms.topic: method

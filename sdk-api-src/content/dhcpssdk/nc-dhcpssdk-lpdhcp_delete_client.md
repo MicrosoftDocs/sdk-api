@@ -1,12 +1,12 @@
 ---
 UID: NC:dhcpssdk.LPDHCP_DELETE_CLIENT
 title: LPDHCP_DELETE_CLIENT (dhcpssdk.h)
-author: windows-sdk-content
+
 description: The DhcpDeleteClientHook function is called by Microsoft DHCP Server directly before a client lease is deleted from the active leases database.
 old-location: dhcp\dhcpdeleteclienthook.htm
 tech.root: DHCP
 ms.assetid: ae92436c-0774-4664-86ac-c7df65ef40b5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteClientHook, DhcpDeleteClientHook callback function [DHCP], LPDHCP_DELETE_CLIENT, LPDHCP_DELETE_CLIENT callback, _dhcp_dhcpdeleteclienthook, dhcp.dhcpdeleteclienthook, dhcpssdk/DhcpDeleteClientHook
 ms.topic: callback

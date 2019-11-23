@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.StrDupW
 title: StrDupW function (shlwapi.h)
-author: windows-sdk-content
+
 description: Duplicates a string.
 old-location: shell\StrDup.htm
 tech.root: shell
 ms.assetid: fa77f0b3-8a9b-4221-87e3-9aebff4409fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: StrDup, StrDup function [Windows Shell], StrDupA, StrDupW, _win32_StrDup, shell.StrDup, shlwapi/StrDup, shlwapi/StrDupA, shlwapi/StrDupW
 ms.topic: function

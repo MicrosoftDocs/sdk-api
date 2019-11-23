@@ -1,12 +1,12 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerQueryInteractiveUIInputFields
 title: EapPeerQueryInteractiveUIInputFields function (eapmethodpeerapis.h)
-author: windows-sdk-content
+
 description: Defines the implementation of an EAP method API that provides the input fields for interactive UI components to be raised on the supplicant.
 old-location: eaphost\eappeerqueryinteractiveuiinputfields.htm
 tech.root: eaphost
 ms.assetid: 7019e13f-d5ad-40ba-8e70-8ded4b136d6c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EapPeerQueryInteractiveUIInputFields, EapPeerQueryInteractiveUIInputFields function [EAPHost], eaphost.eappeerqueryinteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryInteractiveUIInputFields
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:windns.DnsNameCompare
 title: DnsNameCompare macro (windns.h)
-author: windows-sdk-content
+
 description: The DnsNameCompare function compares two DNS names.
 old-location: dns\dnsnamecompare.htm
 tech.root: DNS
 ms.assetid: 4a1512b3-8273-4632-9426-daa36456bce3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DnsNameCompare, DnsNameCompare function [DNS], DnsNameCompare_A, DnsNameCompare_UTF8, DnsNameCompare_W, _dns_dnsnamecompare, dns.dnsnamecompare, windns/DnsNameCompare, windns/DnsNameCompare_A, windns/DnsNameCompare_UTF8, windns/DnsNameCompare_W
 ms.topic: macro

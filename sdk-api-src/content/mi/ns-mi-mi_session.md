@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_Session
 title: MI_Session (mi.h)
-author: windows-sdk-content
+
 description: An object that is associated with a destination and has a set of credentials and options associated with it. .
 old-location: wmi_v2\mi_session.htm
 tech.root: wmi_v2
 ms.assetid: 68a69321-0aa9-423e-a72f-aa2f4dee2d51
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Session, MI_Session structure [Windows Management Infrastructure (MI)], mi/MI_Session, wmi._mi_session, wmi_v2.mi_session
 ms.topic: struct

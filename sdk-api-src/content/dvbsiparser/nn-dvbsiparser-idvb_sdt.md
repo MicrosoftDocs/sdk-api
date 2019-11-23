@@ -1,12 +1,12 @@
 ---
 UID: NN:dvbsiparser.IDVB_SDT
 title: IDVB_SDT (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt.htm
 tech.root: mstv
 ms.assetid: bb473a7e-8957-4e85-98d0-13c6992fbf37
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDVB_SDT, IDVB_SDT interface [Microsoft TV Technologies], IDVB_SDT interface [Microsoft TV Technologies],described, IDVB_SDTInterface, dvbsiparser/IDVB_SDT, mstv.idvb_sdt
 ms.topic: interface

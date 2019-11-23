@@ -1,12 +1,12 @@
 ---
 UID: NF:iscsidsc.SetIScsiGroupPresharedKey
 title: SetIScsiGroupPresharedKey function (iscsidsc.h)
-author: windows-sdk-content
+
 description: SetIscsiGroupPresharedKey function establishes the default group preshared key for all initiators on the computer.
 old-location: iscsidisc\setiscsigrouppresharedkey.htm
 tech.root: iSCSIDisc
 ms.assetid: 344d0a88-64e9-45a3-a789-6733b85e9c2d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetIScsiGroupPresharedKey, SetIscsiGroupPresharedKey, SetIscsiGroupPresharedKey function [iSCSI Discovery Library API], iscsidisc.setiscsigrouppresharedkey, iscsidsc/SetIscsiGroupPresharedKey
 ms.topic: function

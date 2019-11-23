@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPControls.stop
 title: IWMPControls::stop (wmp.h)
-author: windows-sdk-content
+
 description: The stop method stops playback of the media item.
 old-location: wmp\iwmpcontrols_stop.htm
 tech.root: WMP
 ms.assetid: 97ab009d-5ad9-4049-a212-1ef95941f951
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],stop method, IWMPControls.stop, IWMPControls::stop, IWMPControlsstop, stop, stop method [Windows Media Player], stop method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_stop, wmp/IWMPControls::stop
 ms.topic: method

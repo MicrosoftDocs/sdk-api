@@ -1,10 +1,10 @@
 ---
 UID: NN:d3d12.ID3D12LifetimeOwner
 title: ID3D12LifetimeOwner
-author: windows-sdk-content
+
 description: Represents an application-defined callback used for being notified of lifetime changes of an object.
 tech.root: direct3d12
-ms.author: windowssdkdev
+
 ms.date: 10/30/2019
 ms.keywords: ID3D12LifetimeOwner
 ms.topic: language-reference

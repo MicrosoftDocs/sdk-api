@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CurrentFillPatternColor
 title: IUIAutomationStylesPattern::get_CurrentFillPatternColor (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the color of the pattern used to fill an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentFillPatternColor.htm
 tech.root: WinAuto
 ms.assetid: 38CFF0E5-D96D-4FA3-86B1-581DC5E7F1F3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CurrentFillPatternColor property [Windows Accessibility], CurrentFillPatternColor property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentFillPatternColor property, IUIAutomationStylesPattern.CurrentFillPatternColor, IUIAutomationStylesPattern.get_CurrentFillPatternColor, IUIAutomationStylesPattern::CurrentFillPatternColor, IUIAutomationStylesPattern::get_CurrentFillPatternColor, get_CurrentFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::CurrentFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::get_CurrentFillPatternColor, winauto.uiauto_IUIAutomationStylesPattern_CurrentFillPatternColor
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:physicalmonitorenumerationapi.GetNumberOfPhysicalMonitorsFromHMONITOR
 title: GetNumberOfPhysicalMonitorsFromHMONITOR function (physicalmonitorenumerationapi.h)
-author: windows-sdk-content
+
 description: Retrieves the number of physical monitors associated with an HMONITOR monitor handle.
 old-location: monitor\getnumberofphysicalmonitorsfromhmonitor.htm
 tech.root: Monitor
 ms.assetid: c4cc3012-10ae-4435-8d81-e0a9eb62b55c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfPhysicalMonitorsFromHMONITOR, GetNumberOfPhysicalMonitorsFromHMONITOR function [Monitor Configuration], monitor.getnumberofphysicalmonitorsfromhmonitor, physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromHMONITOR
 ms.topic: function

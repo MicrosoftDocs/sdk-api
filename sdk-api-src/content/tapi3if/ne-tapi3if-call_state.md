@@ -1,12 +1,12 @@
 ---
 UID: NE:tapi3if.CALL_STATE
 title: CALL_STATE (tapi3if.h)
-author: windows-sdk-content
+
 description: The CALL_STATE enum is used by the ITCallInfo::get_CallState and ITCallStateEvent::get_State methods.
 old-location: tapi3\call_state.htm
 tech.root: Tapi
 ms.assetid: d4ed5e99-3abe-4434-9f99-5e98d8c6f3f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CALL_STATE, CALL_STATE enumeration [TAPI 2.2], CS_CONNECTED, CS_DISCONNECTED, CS_HOLD, CS_IDLE, CS_INPROGRESS, CS_OFFERING, CS_QUEUED, _tapi3_call_state, tapi3.call_state, tapi3if/CALL_STATE, tapi3if/CS_CONNECTED, tapi3if/CS_DISCONNECTED, tapi3if/CS_HOLD, tapi3if/CS_IDLE, tapi3if/CS_INPROGRESS, tapi3if/CS_OFFERING, tapi3if/CS_QUEUED
 ms.topic: enum

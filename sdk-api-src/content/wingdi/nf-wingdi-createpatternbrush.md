@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.CreatePatternBrush
 title: CreatePatternBrush function (wingdi.h)
-author: windows-sdk-content
+
 description: The CreatePatternBrush function creates a logical brush with the specified bitmap pattern. The bitmap can be a DIB section bitmap, which is created by the CreateDIBSection function, or it can be a device-dependent bitmap.
 old-location: gdi\createpatternbrush.htm
 tech.root: gdi
 ms.assetid: a3cf347e-9803-4bb0-bdb3-98929ef859ab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreatePatternBrush, CreatePatternBrush function [Windows GDI], _win32_CreatePatternBrush, gdi.createpatternbrush, wingdi/CreatePatternBrush
 ms.topic: function

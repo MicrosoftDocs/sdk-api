@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.CopyMetaFileA
 title: CopyMetaFileA function (wingdi.h)
-author: windows-sdk-content
+
 description: The CopyMetaFile function copies the content of a Windows-format metafile to the specified file.
 old-location: gdi\copymetafile.htm
 tech.root: gdi
 ms.assetid: e9f97591-697b-47d0-a748-60fda4d5258c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CopyMetaFile, CopyMetaFile function [Windows GDI], CopyMetaFileA, CopyMetaFileW, _win32_CopyMetaFile, gdi.copymetafile, wingdi/CopyMetaFile, wingdi/CopyMetaFileA, wingdi/CopyMetaFileW
 ms.topic: function

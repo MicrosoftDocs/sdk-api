@@ -1,12 +1,12 @@
 ---
 UID: NF:wlanapi.WlanSetProfile
 title: WlanSetProfile function (wlanapi.h)
-author: windows-sdk-content
+
 description: Sets the content of a specific profile.
 old-location: nwifi\wlansetprofile.htm
 tech.root: NativeWiFi
 ms.assetid: 3f8dca2e-6fe5-4c7d-a135-a33c61ba3dd5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_USER, WlanSetProfile, WlanSetProfile function [NativeWIFI], nwifi.wlansetprofile, wlanapi/WlanSetProfile
 ms.topic: function

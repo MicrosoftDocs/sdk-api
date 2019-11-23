@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplustypes.Rect.Offset(IN const Point &)
 title: Rect::Offset (gdiplustypes.h)
-author: windows-sdk-content
+
 description: This topic lists the Offset methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Offset_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectoffsetmethods.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Offset, Offset methods [GDI+], Rect.Offset, Rect::Offset, _gdiplus_CLASS_Rect_Offset_Methods, gdiplus._gdiplus_CLASS_Rect_Offset_Methods, gdiplustypes/Offset
 ms.topic: method

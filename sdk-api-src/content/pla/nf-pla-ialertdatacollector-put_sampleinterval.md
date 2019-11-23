@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_SampleInterval
 title: IAlertDataCollector::put_SampleInterval (pla.h)
-author: windows-sdk-content
+
 description: Retrieves or sets the time interval to wait between sampling counter data.
 old-location: pla\ialertdatacollector_sampleinterval.htm
 tech.root: PLA
 ms.assetid: 657a5449-acb6-45cb-a862-815fa8cabdc2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAlertDataCollector interface [PLA],SampleInterval property, IAlertDataCollector.SampleInterval, IAlertDataCollector.put_SampleInterval, IAlertDataCollector::SampleInterval, IAlertDataCollector::get_SampleInterval, IAlertDataCollector::put_SampleInterval, SampleInterval property [PLA], SampleInterval property [PLA],IAlertDataCollector interface, base.ialertdatacollector_sampleinterval, pla.ialertdatacollector_sampleinterval, pla/IAlertDataCollector::SampleInterval, pla/IAlertDataCollector::get_SampleInterval, pla/IAlertDataCollector::put_SampleInterval, put_SampleInterval
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IPicture.put_KeepOriginalFormat
 title: IPicture::put_KeepOriginalFormat (ocidl.h)
-author: windows-sdk-content
+
 description: Sets the value of the picture's KeepOriginalFormat property.
 old-location: com\ipicture_put_keeporiginalformat.htm
 tech.root: com
 ms.assetid: 04d952cf-a3c0-4220-9d24-8188ce52f862
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],put_KeepOriginalFormat method, IPicture.put_KeepOriginalFormat, IPicture::put_KeepOriginalFormat, _ctrl_ipicture_put_keeporiginalformat, com.ipicture_put_keeporiginalformat, ocidl/IPicture::put_KeepOriginalFormat, put_KeepOriginalFormat, put_KeepOriginalFormat method [COM], put_KeepOriginalFormat method [COM],IPicture interface
 ms.topic: method

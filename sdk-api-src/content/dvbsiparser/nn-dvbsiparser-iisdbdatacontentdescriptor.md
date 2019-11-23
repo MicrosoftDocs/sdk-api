@@ -1,12 +1,12 @@
 ---
 UID: NN:dvbsiparser.IIsdbDataContentDescriptor
 title: IIsdbDataContentDescriptor (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) data content descriptor.
 old-location: mstv\iisdbdatacontentdescriptor.htm
 tech.root: mstv
 ms.assetid: 91d55991-5994-4104-9a8f-01cfc347a96f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IIsdbDatacontentDescriptor, IIsdbDatacontentDescriptor interface [Microsoft TV Technologies], IIsdbDatacontentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbDatacontentDescriptor, mstv.iisdbdatacontentdescriptor
 ms.topic: interface

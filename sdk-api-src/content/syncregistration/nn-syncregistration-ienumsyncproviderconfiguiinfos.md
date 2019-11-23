@@ -1,12 +1,12 @@
 ---
 UID: NN:syncregistration.IEnumSyncProviderConfigUIInfos
 title: IEnumSyncProviderConfigUIInfos (syncregistration.h)
-author: windows-sdk-content
+
 description: Enumerates ISyncProviderConfigUIInfo objects that contain configuration UI information used to build and register a synchronization provider.
 old-location: winsync\ienumsyncproviderconfiguiinfos.htm
 tech.root: winsync
 ms.assetid: d8b4f4a4-b238-431f-a123-edebe07ea7b0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos, IEnumSyncProviderConfigUIInfos interface [Windows Sync], IEnumSyncProviderConfigUIInfos interface [Windows Sync],described, syncregistration/IEnumSyncProviderConfigUIInfos, winsync.ienumsyncproviderconfiguiinfos
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPMetadataText.get_description
 title: IWMPMetadataText::get_description (wmp.h)
-author: windows-sdk-content
+
 description: The get_description method retrieves a description of the metadata text.
 old-location: wmp\iwmpmetadatatext_get_description.htm
 tech.root: WMP
 ms.assetid: 8a593336-7ec8-4238-8923-c65374cecbeb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataText interface [Windows Media Player],get_description method, IWMPMetadataText.get_description, IWMPMetadataText::get_description, IWMPMetadataTextget_description, get_description, get_description method [Windows Media Player], get_description method [Windows Media Player],IWMPMetadataText interface, wmp.iwmpmetadatatext_get_description, wmp/IWMPMetadataText::get_description
 ms.topic: method

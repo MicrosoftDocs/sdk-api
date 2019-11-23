@@ -1,12 +1,12 @@
 ---
 UID: NF:wmcodecdsp.IWMColorConvProps.SetFullCroppingParam
 title: IWMColorConvProps::SetFullCroppingParam (wmcodecdsp.h)
-author: windows-sdk-content
+
 description: Sets the source and destination rectangles.
 old-location: mf\iwmcolorconvpropssetfullcroppingparam.htm
 tech.root: medfound
 ms.assetid: 73545bbb-6630-463d-ad58-d24937e3b546
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMColorConvProps interface [Media Foundation],SetFullCroppingParam method, IWMColorConvProps.SetFullCroppingParam, IWMColorConvProps::SetFullCroppingParam, SetFullCroppingParam, SetFullCroppingParam method [Media Foundation], SetFullCroppingParam method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetfullcroppingparam, mf.iwmcolorconvpropssetfullcroppingparam, wmcodecdsp/IWMColorConvProps::SetFullCroppingParam
 ms.topic: method

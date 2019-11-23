@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.ProcessChangeBatch
 title: IKnowledgeSyncProvider::ProcessChangeBatch (winsync.h)
-author: windows-sdk-content
+
 description: Processes a set of changes by detecting conflicts and applying changes to the item store.
 old-location: winsync\iknowledgesyncprovider_processchangebatch.htm
 tech.root: winsync
 ms.assetid: 528a109a-9c11-4e20-b3d5-9bb7241d02b6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IKnowledgeSyncProvider interface [Windows Sync],ProcessChangeBatch method, IKnowledgeSyncProvider.ProcessChangeBatch, IKnowledgeSyncProvider::ProcessChangeBatch, ProcessChangeBatch, ProcessChangeBatch method [Windows Sync], ProcessChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, winsync.iknowledgesyncprovider_processchangebatch, winsync/IKnowledgeSyncProvider::ProcessChangeBatch
 ms.topic: method

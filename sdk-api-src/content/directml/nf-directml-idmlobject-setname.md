@@ -1,12 +1,12 @@
 ---
 UID: NF:directml.IDMLObject.SetName
 title: IDMLObject::SetName
-author: windows-sdk-content
+
 description: Associates a name with the DirectML device object. This name is for use in debug diagnostics and tools.
 old-location: direct3d12\idmlobject_setname.htm
 tech.root: direct3d12
 ms.assetid: DD74B028-74EF-4D76-81A7-F150302F80D2
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: IDMLObject interface,SetName method, IDMLObject.SetName, IDMLObject::SetName, SetName, SetName method, SetName method,IDMLObject interface, direct3d12.idmlobject_setname, directml/IDMLObject::SetName
 ms.topic: method

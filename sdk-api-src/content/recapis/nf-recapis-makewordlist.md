@@ -1,12 +1,12 @@
 ---
 UID: NF:recapis.MakeWordList
 title: MakeWordList function (recapis.h)
-author: windows-sdk-content
+
 description: Creates a word list.
 old-location: tablet\makewordlist.htm
 tech.root: tablet
 ms.assetid: b406a646-ab98-4852-af6d-9f4864ad8cf9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MakeWordList, MakeWordList function [Tablet PC], b406a646-ab98-4852-af6d-9f4864ad8cf9, recapis/MakeWordList, tablet.makewordlist
 ms.topic: function

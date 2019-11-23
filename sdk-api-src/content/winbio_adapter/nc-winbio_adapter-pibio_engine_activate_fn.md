@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_ACTIVATE_FN
 title: PIBIO_ENGINE_ACTIVATE_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Gives the Engine Adapter the chance to perform any work needed to bring the sensor component out of an idle state.
 old-location: secbiomet\engineadapteractivate.htm
 tech.root: SecBioMet
 ms.assetid: 0E98D887-A974-4B86-934E-939DEB1946DF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterActivate, EngineAdapterActivate callback function [Windows Biometric Framework API], PIBIO_ENGINE_ACTIVATE_FN, PIBIO_ENGINE_ACTIVATE_FN callback, secbiomet.engineadapteractivate, winbio_adapter/EngineAdapterActivate
 ms.topic: callback

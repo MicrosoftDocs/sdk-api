@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingBox.Transform
 title: BoundingBox::Transform
-author: windows-sdk-content
+
 description: Transforms the BoundingBox.
 ms.date: 04/22/19
 ms.keywords: BoundingBox::Transform

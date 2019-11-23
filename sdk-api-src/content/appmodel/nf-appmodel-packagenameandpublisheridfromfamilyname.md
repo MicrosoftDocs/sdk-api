@@ -1,12 +1,12 @@
 ---
 UID: NF:appmodel.PackageNameAndPublisherIdFromFamilyName
 title: PackageNameAndPublisherIdFromFamilyName function (appmodel.h)
-author: windows-sdk-content
+
 description: Gets the package name and publisher identifier (ID) for the specified package family name.
 old-location: appxpkg\packagenameandpublisheridfromfamilyname.htm
 tech.root: appxpkg
 ms.assetid: 4AA5BD75-F865-40D6-9C10-E54C197D47C4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PackageNameAndPublisherIdFromFamilyName, PackageNameAndPublisherIdFromFamilyName function [App packaging and management], appmodel/PackageNameAndPublisherIdFromFamilyName, appxpkg.packagenameandpublisheridfromfamilyname
 ms.topic: function

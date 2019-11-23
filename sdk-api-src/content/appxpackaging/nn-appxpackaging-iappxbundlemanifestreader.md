@@ -1,12 +1,12 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestReader
 title: IAppxBundleManifestReader (appxpackaging.h)
-author: windows-sdk-content
+
 description: Provides a read-only object model for manifests of bundle packages.
 old-location: appxpkg\iappxbundlemanifestreader.htm
 tech.root: appxpkg
 ms.assetid: 2ABC7B5A-6489-4B52-B1C4-22D432EC9947
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestReader, IAppxBundleManifestReader interface [App packaging and management], IAppxBundleManifestReader interface [App packaging and management],described, appxpackaging/IAppxBundleManifestReader, appxpkg.iappxbundlemanifestreader
 ms.topic: interface

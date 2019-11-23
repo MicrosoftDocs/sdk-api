@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.IConditionFactory.Resolve
 title: IConditionFactory::Resolve (structuredquery.h)
-author: windows-sdk-content
+
 description: Performs a variety of transformations on a condition tree, including the following:\_resolves conditions with relative date/time expressions to conditions with absolute date/time (as a VT_FILETIME); turns other recognized named entities into condition trees with actual values; simplifies condition trees; replaces virtual or compound properties with OR trees of other properties; removes condition trees resulting from queries with property keywords that had no condition applied.
 old-location: search\_search_IConditionFactory_Resolve.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\resolve.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IConditionFactory interface [search],Resolve method, IConditionFactory.Resolve, IConditionFactory::Resolve, Resolve, Resolve method [search], Resolve method [search],IConditionFactory interface, _search_IConditionFactory_Resolve, search._search_IConditionFactory_Resolve, structuredquery/IConditionFactory::Resolve
 ms.topic: method

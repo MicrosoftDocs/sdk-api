@@ -1,12 +1,12 @@
 ---
 UID: NS:richedit._objectpositions
 title: OBJECTPOSITIONS (richedit.h)
-author: windows-sdk-content
+
 description: Contains object position information.
 old-location: controls\OBJECTPOSITIONS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\objectpositions.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OBJECTPOSITIONS, OBJECTPOSITIONS structure [Windows Controls], _win32_OBJECTPOSITIONS_str, _win32_OBJECTPOSITIONS_str_cpp, controls.OBJECTPOSITIONS, controls._win32_OBJECTPOSITIONS_str, richedit/OBJECTPOSITIONS
 ms.topic: struct

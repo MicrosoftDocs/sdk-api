@@ -1,12 +1,12 @@
 ---
 UID: NN:iads.IDirectorySearch
 title: IDirectorySearch (iads.h)
-author: windows-sdk-content
+
 description: The IDirectorySearch interface is a pure COM interface that provides a low overhead method that non-Automation clients can use to perform queries in the underlying directory.
 old-location: adsi\idirectorysearch.htm
 tech.root: adsi
 ms.assetid: e8989795-8f72-476a-a69e-c0e8800289ab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectorySearch, IDirectorySearch interface [ADSI], IDirectorySearch interface [ADSI],described, _ds_idirectorysearch, adsi.idirectorysearch, iads/IDirectorySearch
 ms.topic: interface

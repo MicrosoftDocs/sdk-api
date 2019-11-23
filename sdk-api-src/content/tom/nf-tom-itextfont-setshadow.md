@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextFont.SetShadow
 title: ITextFont::SetShadow (tom.h)
-author: windows-sdk-content
+
 description: Sets whether characters are displayed as shadowed characters.
 old-location: controls\ITextFont_SetShadow.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setshadow.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetShadow method, ITextFont.SetShadow, ITextFont::SetShadow, SetShadow, SetShadow method [Windows Controls], SetShadow method [Windows Controls],ITextFont interface, _win32_ITextFont_SetShadow, _win32_ITextFont_SetShadow_cpp, controls.ITextFont_SetShadow, controls._win32_ITextFont_SetShadow, tom/ITextFont::SetShadow
 ms.topic: method

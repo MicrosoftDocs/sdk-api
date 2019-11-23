@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.EndDraw
 title: ID2D1CommandSink::EndDraw (d2d1_1.h)
-author: windows-sdk-content
+
 description: Indicates when ID2D1CommandSink processing has completed.
 old-location: direct2d\id2d1commandsink_enddraw.htm
 tech.root: Direct2D
 ms.assetid: 7324d66b-b415-4e07-9fe3-d79a1c0a49b0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EndDraw, EndDraw method [Direct2D], EndDraw method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],EndDraw method, ID2D1CommandSink.EndDraw, ID2D1CommandSink::EndDraw, d2d1_1/ID2D1CommandSink::EndDraw, direct2d.id2d1commandsink_enddraw
 ms.topic: method

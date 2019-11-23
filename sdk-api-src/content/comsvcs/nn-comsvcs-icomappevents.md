@@ -1,12 +1,12 @@
 ---
 UID: NN:comsvcs.IComAppEvents
 title: IComAppEvents (comsvcs.h)
-author: windows-sdk-content
+
 description: Notifies the subscriber if a COM+ server application is started, shut down, or forced to shut down.
 old-location: cos\icomappevents.htm
 tech.root: cossdk
 ms.assetid: 61ae1926-601b-4d97-80e4-d2d2098ced39
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IComAppEvents, IComAppEvents interface [COM+], IComAppEvents interface [COM+],described, _dtc_IComAppEvents, comsvcs/IComAppEvents, cos.icomappevents
 ms.topic: interface

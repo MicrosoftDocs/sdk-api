@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl._TT_HITTESTINFOW
 title: TTHITTESTINFOW (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information that a tooltip control uses to determine whether a point is in the bounding rectangle of the specified tool. If the point is in the rectangle, the structure receives information about the tool.
 old-location: controls\TTHITTESTINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\tthittestinfo.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPTTHITTESTINFOW, LPHITTESTINFO, LPHITTESTINFO structure pointer [Windows Controls], TTHITTESTINFO, TTHITTESTINFO structure [Windows Controls], TTHITTESTINFOA, TTHITTESTINFOW, _win32_TTHITTESTINFO, _win32_TTHITTESTINFO_cpp, commctrl/LPHITTESTINFO, commctrl/TTHITTESTINFO, commctrl/TTHITTESTINFOA, commctrl/TTHITTESTINFOW, controls.TTHITTESTINFO, controls._win32_TTHITTESTINFO"
 ms.topic: struct

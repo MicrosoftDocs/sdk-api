@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMITEMACTIVATE
 title: NMITEMACTIVATE (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information about an LVN_ITEMACTIVATE notification code.
 old-location: controls\NMITEMACTIVATE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmitemactivate.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMITEMACTIVATE, LPNMITEMACTIVATE, LPNMITEMACTIVATE structure pointer [Windows Controls], LVKF_ALT, LVKF_CONTROL, LVKF_SHIFT, NMITEMACTIVATE, NMITEMACTIVATE structure [Windows Controls], _win32_NMITEMACTIVATE, _win32_NMITEMACTIVATE_cpp, commctrl/LPNMITEMACTIVATE, commctrl/NMITEMACTIVATE, controls.NMITEMACTIVATE, controls._win32_NMITEMACTIVATE'
 ms.topic: struct

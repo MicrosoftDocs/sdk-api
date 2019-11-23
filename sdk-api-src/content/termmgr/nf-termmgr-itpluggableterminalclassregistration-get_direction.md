@@ -1,12 +1,12 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_Direction
 title: ITPluggableTerminalClassRegistration::get_Direction (termmgr.h)
-author: windows-sdk-content
+
 description: The get_Direction method gets the direction supported by the terminal.
 old-location: tapi3\itpluggableterminalclassregistration_get_direction.htm
 tech.root: Tapi
 ms.assetid: 67f2f241-2389-476f-a412-af456c1c3376
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_Direction method, ITPluggableTerminalClassRegistration.get_Direction, ITPluggableTerminalClassRegistration::get_Direction, _tapi3_itpluggableterminalclassregistration_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_direction, termmgr/ITPluggableTerminalClassRegistration::get_Direction
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:lsalookup._LSA_TRANSLATED_NAME
 title: LSA_TRANSLATED_NAME (lsalookup.h)
-author: windows-sdk-content
+
 description: Used with the LsaLookupSids function to return information about the account identified by a SID.
 old-location: security\lsa_translated_name.htm
 tech.root: SecMgmt
 ms.assetid: edea8317-5cdf-4d1e-9e6d-fcf17b91adb7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PLSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME structure [Security], PLSA_TRANSLATED_NAME, PLSA_TRANSLATED_NAME structure pointer [Security], SidTypeDomain, SidTypeInvalid, SidTypeUnknown, SidTypeWellKnownGroup, _lsa_lsa_translated_name, lsalookup/LSA_TRANSLATED_NAME, lsalookup/PLSA_TRANSLATED_NAME, security.lsa_translated_name'
 ms.topic: struct

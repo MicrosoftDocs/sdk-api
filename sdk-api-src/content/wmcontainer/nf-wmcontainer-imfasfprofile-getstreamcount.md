@@ -1,12 +1,12 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetStreamCount
 title: IMFASFProfile::GetStreamCount (wmcontainer.h)
-author: windows-sdk-content
+
 description: Retrieves the number of streams in the profile.
 old-location: mf\imfasfprofile_getstreamcount.htm
 tech.root: medfound
 ms.assetid: bf8c6157-3420-4097-8ab6-f307a69d418a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStreamCount method, IMFASFProfile.GetStreamCount, IMFASFProfile::GetStreamCount, bf8c6157-3420-4097-8ab6-f307a69d418a, mf.imfasfprofile_getstreamcount, wmcontainer/IMFASFProfile::GetStreamCount
 ms.topic: method

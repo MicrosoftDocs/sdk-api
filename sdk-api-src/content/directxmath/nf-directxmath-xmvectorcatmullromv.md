@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorCatmullRomV
 title: XMVectorCatmullRomV function (directxmath.h)
-author: windows-sdk-content
+
 description: Performs a Catmull-Rom interpolation, using the specified position vectors.
 old-location: dxmath\xmvectorcatmullromv.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorCatmullRomV(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorCatmullRomV, XMVectorCatmullRomV, XMVectorCatmullRomV method [DirectX Math Support APIs], dxmath.xmvectorcatmullromv
 ms.topic: function

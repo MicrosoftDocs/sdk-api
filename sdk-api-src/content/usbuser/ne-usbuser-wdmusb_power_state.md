@@ -1,12 +1,12 @@
 ---
 UID: NE:usbuser._WDMUSB_POWER_STATE
 title: WDMUSB_POWER_STATE (usbuser.h)
-author: windows-sdk-content
+
 description: The WDMUSB_POWER_STATE enumeration indicates the power state of a host controller or root hub.
 old-location: buses\wdmusb_power_state.htm
 tech.root: usbref
 ms.assetid: 2f64bd5b-507c-4824-b50c-dbc228e8671a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WDMUSB_POWER_STATE, WDMUSB_POWER_STATE enumeration [Buses], WdmUsbPowerDeviceD0, WdmUsbPowerDeviceD1, WdmUsbPowerDeviceD2, WdmUsbPowerDeviceD3, WdmUsbPowerDeviceUnspecified, WdmUsbPowerNotMapped, WdmUsbPowerSystemHibernate, WdmUsbPowerSystemShutdown, WdmUsbPowerSystemSleeping1, WdmUsbPowerSystemSleeping2, WdmUsbPowerSystemSleeping3, WdmUsbPowerSystemUnspecified, WdmUsbPowerSystemWorking, buses.wdmusb_power_state, usbstrct_fa696b93-8427-4480-b808-d02628a87f84.xml, usbuser/WDMUSB_POWER_STATE, usbuser/WdmUsbPowerDeviceD0, usbuser/WdmUsbPowerDeviceD1, usbuser/WdmUsbPowerDeviceD2, usbuser/WdmUsbPowerDeviceD3, usbuser/WdmUsbPowerDeviceUnspecified, usbuser/WdmUsbPowerNotMapped, usbuser/WdmUsbPowerSystemHibernate, usbuser/WdmUsbPowerSystemShutdown, usbuser/WdmUsbPowerSystemSleeping1, usbuser/WdmUsbPowerSystemSleeping2, usbuser/WdmUsbPowerSystemSleeping3, usbuser/WdmUsbPowerSystemUnspecified, usbuser/WdmUsbPowerSystemWorking
 ms.topic: enum

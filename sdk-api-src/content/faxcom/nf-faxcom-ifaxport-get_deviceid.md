@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxPort.get_DeviceId
 title: IFaxPort::get_DeviceId (faxcom.h)
-author: windows-sdk-content
+
 description: The IFaxPort::get_DeviceId property is a number representing the permanent line identifier for the fax port.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_deviceid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8gf8.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IFaxPort interface, IFaxPort interface [Fax Service],DeviceId property, IFaxPort.DeviceId, IFaxPort.get_DeviceId, IFaxPort::DeviceId, IFaxPort::get_DeviceId, _mfax_ifaxport_get_deviceid, fax._mfax_ifaxport_get_deviceid, fax._mfax_ifaxport_mfax_ifaxport_get_deviceid_cpp, faxcom/IFaxPort::DeviceId, faxcom/IFaxPort::get_DeviceId, get_DeviceId
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingSphere.CreateFromBoundingBox(BoundingSphere &,const BoundingOrientedBox &)
 title: BoundingSphere::CreateFromBoundingBox(BoundingSphere &,const BoundingOrientedBox &)
-author: windows-sdk-content
+
 description: Creates a BoundingSphere containing the specified BoundingBox.
 old-location: dxmath\boundingsphere_createfromboundingbox.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.CreateFromBoundingBox(BoundingSphere@,BoundingBox)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],CreateFromBoundingBox method, BoundingSphere.CreateFromBoundingBox, BoundingSphere.CreateFromBoundingBox(BoundingSphere &,const BoundingOrientedBox &), BoundingSphere::CreateFromBoundingBox, BoundingSphere::CreateFromBoundingBox(BoundingSphere &,const BoundingOrientedBox &), CreateFromBoundingBox, CreateFromBoundingBox method [DirectX Math Support APIs], CreateFromBoundingBox method [DirectX Math Support APIs],BoundingSphere interface, Use DirectX..BoundingSphere.CreateFromBoundingBox, Use DirectX::::BoundingSphere::CreateFromBoundingBox, dxmath.boundingsphere_createfromboundingbox
 ms.topic: method

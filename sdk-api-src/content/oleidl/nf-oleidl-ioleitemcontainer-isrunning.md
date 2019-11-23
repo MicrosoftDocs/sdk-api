@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IOleItemContainer.IsRunning
 title: IOleItemContainer::IsRunning (oleidl.h)
-author: windows-sdk-content
+
 description: Determines whether the specified object is running.
 old-location: com\ioleitemcontainer_isrunning.htm
 tech.root: com
 ms.assetid: 7bbd7b58-b7ab-493e-8315-a35034ee2b7a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleItemContainer interface [COM],IsRunning method, IOleItemContainer.IsRunning, IOleItemContainer::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IOleItemContainer interface, _com_ioleitemcontainer_isrunning, com.ioleitemcontainer_isrunning, oleidl/IOleItemContainer::IsRunning
 ms.topic: method

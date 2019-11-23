@@ -1,7 +1,7 @@
 ---
 UID: NA:wdspxe
 ms.assetid: f05dc069-9f07-3cb9-bef6-a6d71a5d14fe
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

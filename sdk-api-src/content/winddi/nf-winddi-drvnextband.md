@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.DrvNextBand
 title: DrvNextBand function (winddi.h)
-author: windows-sdk-content
+
 description: The DrvNextBand function is called by GDI when it has finished drawing a band for a physical page, so the driver can send the next band to the printer.
 old-location: display\drvnextband.htm
 tech.root: display
 ms.assetid: 7c02d32b-6c95-4dd5-b9cf-2f64ba78f25a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrvNextBand, DrvNextBand function [Display Devices], ddifncs_dc66e17a-f2da-45cc-bc1a-8058006c6922.xml, display.drvnextband, winddi/DrvNextBand
 ms.topic: function

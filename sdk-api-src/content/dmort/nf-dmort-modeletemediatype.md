@@ -1,12 +1,12 @@
 ---
 UID: NF:dmort.MoDeleteMediaType
 title: MoDeleteMediaType function (dmort.h)
-author: windows-sdk-content
+
 description: The MoDeleteMediaType function deletes a media type structure that was previously allocated.
 old-location: dshow\modeletemediatype.htm
 tech.root: DirectShow
 ms.assetid: adbfe1e1-e956-48de-9ed1-9f8f4c66ff1c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MoDeleteMediaType, MoDeleteMediaType function [DirectShow], dmort/MoDeleteMediaType, dshow.modeletemediatype
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.MenuHelp
 title: MenuHelp function (commctrl.h)
-author: windows-sdk-content
+
 description: Processes WM_MENUSELECT and WM_COMMAND messages and displays Help text about the current menu in the specified status window.
 old-location: controls\MenuHelp.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\menuhelp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MenuHelp, MenuHelp function [Windows Controls], _win32_MenuHelp, _win32_MenuHelp_cpp, commctrl/MenuHelp, controls.MenuHelp, controls._win32_MenuHelp
 ms.topic: function

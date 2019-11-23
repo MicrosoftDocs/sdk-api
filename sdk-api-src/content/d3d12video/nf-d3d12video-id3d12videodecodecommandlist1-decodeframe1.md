@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList1.DecodeFrame1
 title: ID3D12VideoDecodeCommandList1::DecodeFrame1
-author: windows-sdk-content
+
 description: Records a decode frame operation to the command list.  Inputs, outputs, and parameters for the decode are specified as arguments to this method.
 tech.root: mf
 ms.assetid: 46d35b8a-ae2d-4df8-ad68-eaf840369cca
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.get_Retries
 title: IFaxIncomingMessage::get_Retries (faxcomex.h)
-author: windows-sdk-content
+
 description: The Retries property is a value that indicates the number of times that the fax service attempted to route an inbound fax message after the initial routing attempt failed.
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_retries_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_8y43.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],Retries property, IFaxIncomingMessage.Retries, IFaxIncomingMessage.get_Retries, IFaxIncomingMessage::Retries, IFaxIncomingMessage::get_Retries, Retries property [Fax Service], Retries property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.retries, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_retries_cpp, fax._mfax_faxincomingmessage_retries, faxcomex/IFaxIncomingMessage::Retries, faxcomex/IFaxIncomingMessage::get_Retries, get_Retries
 ms.topic: method

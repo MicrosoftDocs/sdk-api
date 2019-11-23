@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.ISearchContext.GetSearchUrl
 title: ISearchContext::GetSearchUrl (shlobj_core.h)
-author: windows-sdk-content
+
 description: Retrieves the URL that is being searched for.
 old-location: shell\ISearchContext_GetSearchURL.htm
 tech.root: shell
 ms.assetid: b2c9034f-65a2-414c-b440-330413ae63ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSearchURL method [Windows Shell], GetSearchURL method [Windows Shell],ISearchContext interface, GetSearchUrl, ISearchContext interface [Windows Shell],GetSearchURL method, ISearchContext.GetSearchUrl, ISearchContext::GetSearchURL, ISearchContext::GetSearchUrl, _shell_ISearchContext_GetSearchURL, shell.ISearchContext_GetSearchURL, shlobj_core/ISearchContext::GetSearchURL
 ms.topic: method

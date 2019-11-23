@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IEnumSyncChangeUnits.Next
 title: IEnumSyncChangeUnits::Next (winsync.h)
-author: windows-sdk-content
+
 description: Returns the next change unit.
 old-location: winsync\ienumsyncchangeunits_next.htm
 tech.root: winsync
 ms.assetid: e9d237fc-c651-4e94-83cc-8606fe4b2386
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Next method, IEnumSyncChangeUnits.Next, IEnumSyncChangeUnits::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_next, winsync/IEnumSyncChangeUnits::Next
 ms.topic: method

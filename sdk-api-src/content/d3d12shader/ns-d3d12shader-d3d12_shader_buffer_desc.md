@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12shader._D3D12_SHADER_BUFFER_DESC
 title: D3D12_SHADER_BUFFER_DESC (d3d12shader.h)
-author: windows-sdk-content
+
 description: Describes a shader constant-buffer.
 old-location: direct3d12\d3d12_shader_buffer_desc.htm
 tech.root: direct3d12
 ms.assetid: 03F36467-9841-4385-9962-D7ADB4D79C6C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_SHADER_BUFFER_DESC, D3D12_SHADER_BUFFER_DESC structure, d3d12shader/D3D12_SHADER_BUFFER_DESC, direct3d12.d3d12_shader_buffer_desc
 ms.topic: struct

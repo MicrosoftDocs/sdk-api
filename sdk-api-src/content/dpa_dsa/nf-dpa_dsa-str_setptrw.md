@@ -1,12 +1,12 @@
 ---
 UID: NF:dpa_dsa.Str_SetPtrW
 title: Str_SetPtrW function (dpa_dsa.h)
-author: windows-sdk-content
+
 description: Sets ppszCurrent to a copy of pszNew and frees the previous value, if necessary.
 old-location: controls\Str_SetPtrW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\str_setptrw.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Str_SetPtr, Str_SetPtr function [Windows Controls], Str_SetPtrA, Str_SetPtrW, _win32_Str_SetPtrW, _win32_Str_SetPtrW_cpp, controls.Str_SetPtrW, controls._win32_Str_SetPtrW, dpa_dsa/Str_SetPtr, dpa_dsa/Str_SetPtrA, dpa_dsa/Str_SetPtrW
 ms.topic: function

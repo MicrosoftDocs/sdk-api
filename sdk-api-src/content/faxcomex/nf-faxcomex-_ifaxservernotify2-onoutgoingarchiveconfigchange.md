@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnOutgoingArchiveConfigChange
 title: _IFaxServerNotify2::OnOutgoingArchiveConfigChange (faxcomex.h)
-author: windows-sdk-content
+
 description: The fax service calls the IFaxServerNotify2::OnOutgoingArchiveConfigChange method when there is a configuration change related to the outgoing fax archive.
 old-location: fax\_mfax_ifaxservernotify2_onoutgoingarchiveconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutgoingarchiveconfigchange.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutgoingArchiveConfigChange method, IFaxServerNotify2.OnOutgoingArchiveConfigChange, IFaxServerNotify2::OnOutgoingArchiveConfigChange, OnOutgoingArchiveConfigChange, OnOutgoingArchiveConfigChange method [Fax Service], OnOutgoingArchiveConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutgoingArchiveConfigChange, _IFaxServerNotify2::OnOutgoingArchiveConfigChange, _mfax_ifaxservernotify2_onoutgoingarchiveconfigchange, fax._mfax_ifaxservernotify2_onoutgoingarchiveconfigchange, faxcomex/IFaxServerNotify2::OnOutgoingArchiveConfigChange
 ms.topic: method

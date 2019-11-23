@@ -1,12 +1,12 @@
 ---
 UID: NN:amvideo.IFullScreenVideoEx
 title: IFullScreenVideoEx (amvideo.h)
-author: windows-sdk-content
+
 description: The IFullScreenVideoEx interface is implemented on the Full Screen Renderer filter, which provides full-screen video rendering on older hardware.
 old-location: dshow\ifullscreenvideoex.htm
 tech.root: DirectShow
 ms.assetid: 4c9de58f-6ceb-4cf5-b1a5-d3e345e08190
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], IFullScreenVideoEx interface [DirectShow],described, IFullScreenVideoInterface, amvideo/IFullScreenVideoEx, dshow.ifullscreenvideoex
 ms.topic: interface

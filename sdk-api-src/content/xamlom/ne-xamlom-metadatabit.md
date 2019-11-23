@@ -1,12 +1,12 @@
 ---
 UID: NE:xamlom.MetadataBit
 title: MetadataBit (xamlom.h)
-author: windows-sdk-content
+
 description: Defines constants that are used to define the PropertyChainValue returned from XAML Diagnostics.
 old-location: xaml_diagnostics\metadatabit.htm
 tech.root: xaml_diagnostics
 ms.assetid: 951A4C1F-B176-4D18-821A-CEAD1116B8BE
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsPropertyReadOnly, IsValueBindingExpression, IsValueCollection, IsValueCollectionReadOnly, IsValueHandle, IsValueHandleAndEvaluatedValue, IsValueNull, MatadataBit, MatadataBit enumeration, MetadataBit, None, xaml_diagnostics.metadatabit, xamlom/IsPropertyReadOnly, xamlom/IsValueBindingExpression, xamlom/IsValueCollection, xamlom/IsValueCollectionReadOnly, xamlom/IsValueHandle, xamlom/IsValueHandleAndEvaluatedValue, xamlom/IsValueNull, xamlom/MatadataBit, xamlom/None
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionDeviceDebug.DisableDebugCounters
 title: IDCompositionDeviceDebug::DisableDebugCounters (dcomp.h)
-author: windows-sdk-content
+
 description: Disables display of performance debugging counters.
 old-location: directcomp\idcompositiondevicedebug_disabledebugcounters.htm
 tech.root: directcomp
 ms.assetid: 7B1E35D4-8CB3-4AAC-91D9-E1191A6DC169
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DisableDebugCounters, DisableDebugCounters method [DirectComposition], DisableDebugCounters method [DirectComposition],IDCompositionDeviceDebug interface, IDCompositionDeviceDebug interface [DirectComposition],DisableDebugCounters method, IDCompositionDeviceDebug.DisableDebugCounters, IDCompositionDeviceDebug::DisableDebugCounters, dcomp/IDCompositionDeviceDebug::DisableDebugCounters, directcomp.idcompositiondevicedebug_disabledebugcounters
 ms.topic: method

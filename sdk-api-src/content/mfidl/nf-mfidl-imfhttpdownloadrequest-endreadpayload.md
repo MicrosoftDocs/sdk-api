@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.EndReadPayload
 title: IMFHttpDownloadRequest::EndReadPayload (mfidl.h)
-author: windows-sdk-content
+
 description: Invoked by Microsoft Media Foundation to complete the asynchronous operation started by BeginReadPayload.
 old-location: mf\imfhttpdownloadrequest_endreadpayload.htm
 tech.root: medfound
 ms.assetid: 491437FE-1401-4841-AE0E-428F28E34D4D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EndReadPayload, EndReadPayload method [Media Foundation], EndReadPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndReadPayload method, IMFHttpDownloadRequest.EndReadPayload, IMFHttpDownloadRequest::EndReadPayload, mf.imfhttpdownloadrequest_endreadpayload, mfidl/IMFHttpDownloadRequest::EndReadPayload
 ms.topic: method

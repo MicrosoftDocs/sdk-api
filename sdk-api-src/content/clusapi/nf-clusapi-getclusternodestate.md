@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.GetClusterNodeState
 title: GetClusterNodeState function (clusapi.h)
-author: windows-sdk-content
+
 description: Returns the current state of a node.
 old-location: mscs\getclusternodestate.htm
 tech.root: MsCS
 ms.assetid: 94c83582-3d99-4a20-ad58-1af4e8190781
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClusterNodeState, GetClusterNodeState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NODE_STATE, PCLUSAPI_GET_CLUSTER_NODE_STATE function [Failover Cluster], _wolf_getclusternodestate, clusapi/GetClusterNodeState, clusapi/PCLUSAPI_GET_CLUSTER_NODE_STATE, mscs.getclusternodestate
 ms.topic: function

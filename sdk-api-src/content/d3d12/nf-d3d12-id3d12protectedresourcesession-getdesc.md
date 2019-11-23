@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12ProtectedResourceSession.GetDesc
 title: ID3D12ProtectedResourceSession::GetDesc (d3d12.h)
-author: windows-sdk-content
+
 description: Retrieves a description of the protected resource session.
 old-location: direct3d12\id3d12protectedresourcesession_getdesc.htm
 tech.root: direct3d12
 ms.assetid: 69C7B4D6-B87E-4282-98EA-EF77AB4131E4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ProtectedResourceSession interface, ID3D12ProtectedResourceSession interface,GetDesc method, ID3D12ProtectedResourceSession.GetDesc, ID3D12ProtectedResourceSession::GetDesc, d3d12/ID3D12ProtectedResourceSession::GetDesc, direct3d12.id3d12protectedresourcesession_getdesc
 ms.topic: method

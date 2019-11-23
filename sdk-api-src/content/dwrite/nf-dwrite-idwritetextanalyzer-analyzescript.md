@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.AnalyzeScript
 title: IDWriteTextAnalyzer::AnalyzeScript (dwrite.h)
-author: windows-sdk-content
+
 description: Analyzes a text range for script boundaries, reading text attributes from the source and reporting the Unicode script ID to the sink callback SetScript.
 old-location: directwrite\IDWriteTextAnalyzer_AnalyzeScript.htm
 tech.root: DirectWrite
 ms.assetid: e681f7c8-7d87-454b-a7b6-6c3fe38b0f92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AnalyzeScript, AnalyzeScript method [Direct Write], AnalyzeScript method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeScript method, IDWriteTextAnalyzer.AnalyzeScript, IDWriteTextAnalyzer::AnalyzeScript, directwrite.IDWriteTextAnalyzer_AnalyzeScript, dwrite/IDWriteTextAnalyzer::AnalyzeScript
 ms.topic: method

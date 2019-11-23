@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagEMRPOLYPOLYLINE
 title: EMRPOLYPOLYLINE (wingdi.h)
-author: windows-sdk-content
+
 description: The EMRPOLYPOLYLINE and EMRPOLYPOLYGON structures contain members for the PolyPolyline and PolyPolygon enhanced metafile records.
 old-location: gdi\emrpolypolyline__emrpolypolygon.htm
 tech.root: gdi
 ms.assetid: 442ad347-c064-4769-b43b-57d2e66e8b97
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PEMRPOLYPOLYGON, *PEMRPOLYPOLYLINE, EMRPOLYPOLYGON, EMRPOLYPOLYGON structure [Windows GDI], EMRPOLYPOLYLINE, EMRPOLYPOLYLINE structure [Windows GDI], EMRPOLYPOLYLINE,EMRPOLYPOLYGON, EMRPOLYPOLYLINE,EMRPOLYPOLYGON structure [Windows GDI], PEMRPOLYPOLYGON, PEMRPOLYPOLYGON structure pointer [Windows GDI], PEMRPOLYPOLYLINE, PEMRPOLYPOLYLINE structure pointer [Windows GDI], _win32_EMRPOLYPOLYLINE_str, gdi.emrpolypolyline__emrpolypolygon, wingdi/EMRPOLYPOLYGON, wingdi/EMRPOLYPOLYLINE,EMRPOLYPOLYGON, wingdi/PEMRPOLYPOLYGON, wingdi/PEMRPOLYPOLYLINE"
 ms.topic: struct

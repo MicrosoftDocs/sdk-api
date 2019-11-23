@@ -1,12 +1,12 @@
 ---
 UID: NE:inked.InkMode
 title: InkMode (inked.h)
-author: windows-sdk-content
+
 description: Specifies the collection mode for drawn ink-whether ink collection is disabled, ink is collected, or ink and gestures are collected.
 old-location: tablet\inkmode.htm
 tech.root: tablet
 ms.assetid: 81aac302-c89a-42ca-9c90-170611a8995a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 81aac302-c89a-42ca-9c90-170611a8995a, IM_Disabled, IM_Ink, IM_InkAndGesture, InkMode, InkMode enumeration [Tablet PC], inked/IM_Disabled, inked/IM_Ink, inked/IM_InkAndGesture, inked/InkMode, tablet.inkmode
 ms.topic: enum

@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessor.GetInputStreamDescs
 title: ID3D12VideoProcessor::GetInputStreamDescs
-author: windows-sdk-content
+
 description: Gets the input stream descriptions provided when the video processor was created with a call to ID3D12VideoDevice::CreateVideoProcessor.
 tech.root: mf
 ms.assetid: 1973387b-966f-4a85-8a28-74a324d80697
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

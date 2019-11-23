@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUNIBBLE4.operator-assign(uint16_t)
 title: XMUNIBBLE4::operator-assign(uint16_t) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Assigns the vector component data packed in an instance of uint16_t to the current instance of XMUNIBBLE4.
 old-location: dxmath\xmunibble4_operator_eq_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUNIBBLE4.operator = (const uint16_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMUNIBBLE4 structure [DirectX Math Support APIs],operator = method, XMUNIBBLE4.operator =(const uint16_t), XMUNIBBLE4.operator-assign(uint16_t), XMUNIBBLE4.operator=, XMUNIBBLE4::operator-assign(uint16_t), XMUNIBBLE4::operator=, dxmath.xmunibble4_operator_eq_2, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUNIBBLE4 structure, operator=
 ms.topic: method

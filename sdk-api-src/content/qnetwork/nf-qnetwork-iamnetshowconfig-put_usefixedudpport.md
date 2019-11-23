@@ -1,12 +1,12 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_UseFixedUDPPort
 title: IAMNetShowConfig::put_UseFixedUDPPort (qnetwork.h)
-author: windows-sdk-content
+
 description: The put_UseFixedUDPPort method specifies whether to use a fixed UDP port number.
 old-location: dshow\iamnetshowconfig_put_usefixedudpport.htm
 tech.root: DirectShow
 ms.assetid: a7b0c118-0479-4f28-8e2f-6c143cde9ff0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_UseFixedUDPPort method, IAMNetShowConfig.put_UseFixedUDPPort, IAMNetShowConfig::put_UseFixedUDPPort, IAMNetShowConfigput_UseFixedUDPPort, dshow.iamnetshowconfig_put_usefixedudpport, put_UseFixedUDPPort, put_UseFixedUDPPort method [DirectShow], put_UseFixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_UseFixedUDPPort
 ms.topic: method

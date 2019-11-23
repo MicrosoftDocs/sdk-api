@@ -1,12 +1,12 @@
 ---
 UID: NN:mpeg2psiparser.ICAT
 title: ICAT (mpeg2psiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat.htm
 tech.root: mstv
 ms.assetid: 00da2af8-0f1a-467a-b310-8b8c7e564013
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICAT, ICAT interface [Microsoft TV Technologies], ICAT interface [Microsoft TV Technologies],described, ICATInterface, mpeg2psiparser/ICAT, mstv.icat
 ms.topic: interface

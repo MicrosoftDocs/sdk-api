@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IGraphConfig.GetStartTime
 title: IGraphConfig::GetStartTime (strmif.h)
-author: windows-sdk-content
+
 description: The GetStartTime method retrieves the reference time that was used when the filter graph was last put into a running state.
 old-location: dshow\igraphconfig_getstarttime.htm
 tech.root: DirectShow
 ms.assetid: 76d06517-3029-4ece-934e-b1c6f7f65f2c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStartTime, GetStartTime method [DirectShow], GetStartTime method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],GetStartTime method, IGraphConfig.GetStartTime, IGraphConfig::GetStartTime, IGraphConfigGetStartTime, dshow.igraphconfig_getstarttime, strmif/IGraphConfig::GetStartTime
 ms.topic: method

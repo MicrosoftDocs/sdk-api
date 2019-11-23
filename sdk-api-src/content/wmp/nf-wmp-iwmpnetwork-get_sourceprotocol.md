@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_sourceProtocol
 title: IWMPNetwork::get_sourceProtocol (wmp.h)
-author: windows-sdk-content
+
 description: The get_sourceProtocol method retrieves the source protocol used to receive data.
 old-location: wmp\iwmpnetwork_get_sourceprotocol.htm
 tech.root: WMP
 ms.assetid: 6703ce88-9ca8-4401-b297-f765c4b15b84
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_sourceProtocol method, IWMPNetwork.get_sourceProtocol, IWMPNetwork::get_sourceProtocol, IWMPNetworkget_sourceProtocol, get_sourceProtocol, get_sourceProtocol method [Windows Media Player], get_sourceProtocol method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_sourceprotocol, wmp/IWMPNetwork::get_sourceProtocol
 ms.topic: method

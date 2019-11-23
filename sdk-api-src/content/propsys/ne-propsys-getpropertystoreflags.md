@@ -1,12 +1,12 @@
 ---
 UID: NE:propsys.GETPROPERTYSTOREFLAGS
 title: GETPROPERTYSTOREFLAGS (propsys.h)
-author: windows-sdk-content
+
 description: Indicates flags that modify the property store object retrieved by methods that create a property store, such as IShellItem2::GetPropertyStore or IPropertyStoreFactory::GetPropertyStore.
 old-location: properties\GETPROPERTYSTOREFLAGS.htm
 tech.root: properties
 ms.assetid: d3fde1b9-b19f-431d-9cea-bffc289ee683
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GETPROPERTYSTOREFLAGS, GETPROPERTYSTOREFLAGS enumeration [Windows Properties], GPS_BESTEFFORT, GPS_DEFAULT, GPS_DELAYCREATION, GPS_EXTRINSICPROPERTIES, GPS_EXTRINSICPROPERTIESONLY, GPS_FASTPROPERTIESONLY, GPS_HANDLERPROPERTIESONLY, GPS_MASK_VALID, GPS_NO_OPLOCK, GPS_OPENSLOWITEM, GPS_PREFERQUERYPROPERTIES, GPS_READWRITE, GPS_TEMPORARY, _shell_GETPROPERTYSTOREFLAGS, properties.GETPROPERTYSTOREFLAGS, propsys/GETPROPERTYSTOREFLAGS, propsys/GPS_BESTEFFORT, propsys/GPS_DEFAULT, propsys/GPS_DELAYCREATION, propsys/GPS_EXTRINSICPROPERTIES, propsys/GPS_EXTRINSICPROPERTIESONLY, propsys/GPS_FASTPROPERTIESONLY, propsys/GPS_HANDLERPROPERTIESONLY, propsys/GPS_MASK_VALID, propsys/GPS_NO_OPLOCK, propsys/GPS_OPENSLOWITEM, propsys/GPS_PREFERQUERYPROPERTIES, propsys/GPS_READWRITE, propsys/GPS_TEMPORARY, shell.GETPROPERTYSTOREFLAGS
 ms.topic: enum

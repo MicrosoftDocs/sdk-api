@@ -1,12 +1,12 @@
 ---
 UID: NS:windows.media.streaming.RenderingParameters
 title: RenderingParameters (windows.media.streaming.h)
-author: windows-sdk-content
+
 description: Contains the current values of rendering parameters on the DMR.
 old-location: mediastreaming\renderingparameters.htm
 tech.root: mediastreaming
 ms.assetid: d5a558e1-75c3-4276-a6e7-4b688f871031
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RenderingParameters, RenderingParameters structure [Media Streaming API], mediastreaming.renderingparameters, windows/RenderingParameters
 ms.topic: struct

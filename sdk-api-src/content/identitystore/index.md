@@ -1,7 +1,7 @@
 ---
 UID: NA:identitystore
 ms.assetid: e3c175fe-da6e-3cc5-b0a9-f2053cb5fc8f
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

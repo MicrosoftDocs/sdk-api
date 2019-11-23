@@ -1,12 +1,12 @@
 ---
 UID: NE:audioenginebaseapo.APO_FLAG
 title: APO_FLAG (audioenginebaseapo.h)
-author: windows-sdk-content
+
 description: The APO_FLAG enumeration defines constants that are used as flags by an audio processing object (APO).
 old-location: audio\apo_flag.htm
 tech.root: audio
 ms.assetid: 42134625-A351-4CB6-B83C-3F2E662D1938
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: APO_FLAG, APO_FLAG enumeration [Audio Devices], APO_FLAG_BITSPERSAMPLE_MUST_MATCH, APO_FLAG_DEFAULT, APO_FLAG_FRAMESPERSECOND_MUST_MATCH, APO_FLAG_INPLACE, APO_FLAG_NONE, APO_FLAG_SAMPLESPERFRAME_MUST_MATCH, audio.apo_flag, audioenginebaseapo/APO_FLAG, audioenginebaseapo/APO_FLAG_BITSPERSAMPLE_MUST_MATCH, audioenginebaseapo/APO_FLAG_DEFAULT, audioenginebaseapo/APO_FLAG_FRAMESPERSECOND_MUST_MATCH, audioenginebaseapo/APO_FLAG_INPLACE, audioenginebaseapo/APO_FLAG_NONE, audioenginebaseapo/APO_FLAG_SAMPLESPERFRAME_MUST_MATCH
 ms.topic: enum

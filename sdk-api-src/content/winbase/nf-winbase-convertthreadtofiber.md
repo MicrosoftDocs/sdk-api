@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.ConvertThreadToFiber
 title: ConvertThreadToFiber function (winbase.h)
-author: windows-sdk-content
+
 description: Converts the current thread into a fiber. You must convert a thread into a fiber before you can schedule other fibers.
 old-location: base\convertthreadtofiber.htm
 tech.root: ProcThread
 ms.assetid: 31954a7e-b9a3-4d60-b43a-54fe0047f380
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ConvertThreadToFiber, ConvertThreadToFiber function, _win32_convertthreadtofiber, base.convertthreadtofiber, winbase/ConvertThreadToFiber
 ms.topic: function

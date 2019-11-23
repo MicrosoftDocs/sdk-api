@@ -1,7 +1,7 @@
 ---
 UID: NA:wia_xp
 ms.assetid: ef43ca4f-6fc3-3d64-a4bb-72f44caa18e5
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

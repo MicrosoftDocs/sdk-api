@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceManagerEvents.OnInterfaceRemoval
 title: IMbnInterfaceManagerEvents::OnInterfaceRemoval (mbnapi.h)
-author: windows-sdk-content
+
 description: Notification method that signals that a device has been removed from the system.
 old-location: mbn\imbninterfacemanagerevents_oninterfaceremoval.htm
 tech.root: mbn
 ms.assetid: d7c96d35-20e1-46e2-82db-4b1fc03cdd22
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceManagerEvents interface [Microsoft Broadband Networks],OnInterfaceRemoval method, IMbnInterfaceManagerEvents.OnInterfaceRemoval, IMbnInterfaceManagerEvents::OnInterfaceRemoval, OnInterfaceRemoval, OnInterfaceRemoval method [Microsoft Broadband Networks], OnInterfaceRemoval method [Microsoft Broadband Networks],IMbnInterfaceManagerEvents interface, mbn.imbninterfacemanagerevents_oninterfaceremoval, mbnapi/IMbnInterfaceManagerEvents::OnInterfaceRemoval
 ms.topic: method

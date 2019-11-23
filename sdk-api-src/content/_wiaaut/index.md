@@ -1,7 +1,7 @@
 ---
 UID: TP:wiaaut
 ms.assetid: 4b515fa1-265e-372e-a1c2-cf91e40f456c
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

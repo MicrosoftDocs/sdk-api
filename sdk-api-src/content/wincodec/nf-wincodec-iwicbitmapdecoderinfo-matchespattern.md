@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoderInfo.MatchesPattern
 title: IWICBitmapDecoderInfo::MatchesPattern (wincodec.h)
-author: windows-sdk-content
+
 description: Retrieves a value that indicates whether the codec recognizes the pattern within a specified stream.
 old-location: wic\_wic_codec_iwicbitmapdecoderinfo_matchespattern.htm
 tech.root: wic
 ms.assetid: 159459a4-f14e-4441-94a6-d55b3bacb868
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapDecoderInfo interface [Windows Imaging Component],MatchesPattern method, IWICBitmapDecoderInfo.MatchesPattern, IWICBitmapDecoderInfo::MatchesPattern, MatchesPattern, MatchesPattern method [Windows Imaging Component], MatchesPattern method [Windows Imaging Component],IWICBitmapDecoderInfo interface, _wic_codec_iwicbitmapdecoderinfo_matchespattern, wic._wic_codec_iwicbitmapdecoderinfo_matchespattern, wincodec/IWICBitmapDecoderInfo::MatchesPattern
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteFont.GetStyle
 title: IDWriteFont::GetStyle (dwrite.h)
-author: windows-sdk-content
+
 description: Gets the style, or slope, of the specified font.
 old-location: directwrite\IDWriteFont_GetStyle.htm
 tech.root: DirectWrite
 ms.assetid: 96d061c7-7d1a-4b3a-bd5f-2bea578de3c4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStyle, GetStyle method [Direct Write], GetStyle method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetStyle method, IDWriteFont.GetStyle, IDWriteFont::GetStyle, directwrite.IDWriteFont_GetStyle, dwrite/IDWriteFont::GetStyle
 ms.topic: method

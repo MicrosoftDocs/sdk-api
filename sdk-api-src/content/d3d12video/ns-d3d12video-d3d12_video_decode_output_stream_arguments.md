@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS
 title: D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS
-author: windows-sdk-content
+
 description: Specifies the parameters for the output stream for a video decode operation.
 tech.root: mf
 ms.assetid: c614b7f3-dd5e-4415-a90b-2419bff17b61
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

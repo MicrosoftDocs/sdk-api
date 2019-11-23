@@ -1,12 +1,12 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerCreate
 title: PssWalkMarkerCreate function (processsnapshot.h)
-author: windows-sdk-content
+
 description: Creates a walk marker.
 old-location: proc_snap\psswalkmarkercreate.htm
 tech.root: proc_snap
 ms.assetid: 58E2FBAF-661C-45BE-A25A-A096AF52ED3E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PssWalkMarkerCreate, PssWalkMarkerCreate function, proc_snap.psswalkmarkercreate, processsnapshot/PssWalkMarkerCreate
 ms.topic: function

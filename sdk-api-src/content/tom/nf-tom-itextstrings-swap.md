@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextStrings.Swap
 title: ITextStrings::Swap (tom.h)
-author: windows-sdk-content
+
 description: Swaps the top two strings in the collection.
 old-location: controls\itextstrings_swap.htm
 tech.root: Controls
 ms.assetid: 06759b26-672c-4a3d-a2d4-085bfd09e50a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],Swap method, ITextStrings.Swap, ITextStrings::Swap, Swap, Swap method [Windows Controls], Swap method [Windows Controls],ITextStrings interface, controls.itextstrings_swap, tom/ITextStrings::Swap
 ms.topic: method

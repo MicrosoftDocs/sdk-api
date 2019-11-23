@@ -1,12 +1,12 @@
 ---
 UID: NF:oledlg.OleUIAddVerbMenuW
 title: OleUIAddVerbMenuW function (oledlg.h)
-author: windows-sdk-content
+
 description: Adds the Verb menu for the specified object to the specified menu.
 old-location: com\oleuiaddverbmenu.htm
 tech.root: com
 ms.assetid: 6efb49e7-b3c1-4035-892d-4572db47b951
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleUIAddVerbMenu, OleUIAddVerbMenu function [COM], OleUIAddVerbMenuA, OleUIAddVerbMenuW, _ole_OleUIAddVerbMenu, com.oleuiaddverbmenu, oledlg/OleUIAddVerbMenu, oledlg/OleUIAddVerbMenuA, oledlg/OleUIAddVerbMenuW
 ms.topic: function

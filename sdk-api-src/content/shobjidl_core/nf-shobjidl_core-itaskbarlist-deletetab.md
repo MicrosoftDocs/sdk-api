@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList.DeleteTab
 title: ITaskbarList::DeleteTab (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Deletes an item from the taskbar.
 old-location: shell\ITaskbarList_DeleteTab.htm
 tech.root: shell
 ms.assetid: bf1b3d27-5cd3-44c8-81e6-d9418d30ffe3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeleteTab, DeleteTab method [Windows Shell], DeleteTab method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],DeleteTab method, ITaskbarList.DeleteTab, ITaskbarList::DeleteTab, _win32_ITaskbarList_DeleteTab, shell.ITaskbarList_DeleteTab, shobjidl_core/ITaskbarList::DeleteTab
 ms.topic: method

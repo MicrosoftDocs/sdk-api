@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgi1_3.IDXGIFactory3.GetCreationFlags
 title: IDXGIFactory3::GetCreationFlags (dxgi1_3.h)
-author: windows-sdk-content
+
 description: Gets the flags that were used when a Microsoft DirectX Graphics Infrastructure (DXGI) object was created.
 old-location: direct3ddxgi\idxgifactory3_getcreationflags.htm
 tech.root: direct3ddxgi
 ms.assetid: 1B4A5DC9-6853-4047-B64D-BD251352AC89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCreationFlags, GetCreationFlags method [DXGI], GetCreationFlags method [DXGI],IDXGIFactory3 interface, IDXGIFactory3 interface [DXGI],GetCreationFlags method, IDXGIFactory3.GetCreationFlags, IDXGIFactory3::GetCreationFlags, direct3ddxgi.idxgifactory3_getcreationflags, dxgi1_3/IDXGIFactory3::GetCreationFlags
 ms.topic: method

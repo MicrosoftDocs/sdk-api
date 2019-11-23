@@ -1,12 +1,12 @@
 ---
 UID: NC:wdstci.PFN_WdsTransportClientReceiveMetadata
 title: PFN_WdsTransportClientReceiveMetadata (wdstci.h)
-author: windows-sdk-content
+
 description: PFN_WdsTransportClientReceiveMetadata is an optional callback that a consumer may register to receive metadata type information about a file. This information is provided by the content provider and is opaque to the multicast client and server.
 old-location: wds\pfn_wdstransportclientreceivemetadata.htm
 tech.root: wds
 ms.assetid: 9acde77b-5360-4c55-b11d-bf85e5c8d00e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsTransportClientReceiveMetadata, PFN_WdsTransportClientReceiveMetadata callback, PFN_WdsTransportClientReceiveMetadata callback function [Windows Deployment Services], wds.pfn_wdstransportclientreceivemetadata, wdstci/PFN_WdsTransportClientReceiveMetadata
 ms.topic: callback

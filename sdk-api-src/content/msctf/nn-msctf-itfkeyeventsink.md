@@ -1,12 +1,12 @@
 ---
 UID: NN:msctf.ITfKeyEventSink
 title: ITfKeyEventSink (msctf.h)
-author: windows-sdk-content
+
 description: The ITfKeyEventSink interface is implemented by a text service to receive keyboard and focus event notifications. To install this event sink, call ITfKeystrokeMgr::AdviseKeyEventSink.
 old-location: tsf\itfkeyeventsink.htm
 tech.root: TSF
 ms.assetid: 5fa1344f-d8c4-40d1-99df-3c493673ad87
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink, ITfKeyEventSink interface [Text Services Framework], ITfKeyEventSink interface [Text Services Framework],described, _tsf_itfkeyeventsink_ref, msctf/ITfKeyEventSink, tsf.itfkeyeventsink
 ms.topic: interface

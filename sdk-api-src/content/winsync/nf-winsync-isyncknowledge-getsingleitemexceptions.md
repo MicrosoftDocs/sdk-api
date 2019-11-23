@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetSingleItemExceptions
 title: ISyncKnowledge::GetSingleItemExceptions (winsync.h)
-author: windows-sdk-content
+
 description: Gets an object that can enumerate the ISingleItemException objects that are stored in the knowledge.
 old-location: winsync\isyncknowledge_getsingleitemexceptions.htm
 tech.root: winsync
 ms.assetid: d224d2b8-343d-48f9-ac87-cd6e8682987a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSingleItemExceptions, GetSingleItemExceptions method [Windows Sync], GetSingleItemExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetSingleItemExceptions method, ISyncKnowledge.GetSingleItemExceptions, ISyncKnowledge::GetSingleItemExceptions, winsync.isyncknowledge_getsingleitemexceptions, winsync/ISyncKnowledge::GetSingleItemExceptions
 ms.topic: method

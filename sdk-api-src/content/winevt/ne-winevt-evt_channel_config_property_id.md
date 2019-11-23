@@ -1,12 +1,12 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_CONFIG_PROPERTY_ID
 title: EVT_CHANNEL_CONFIG_PROPERTY_ID (winevt.h)
-author: windows-sdk-content
+
 description: Defines the identifiers that identify the configuration properties of a channel.
 old-location: wes\evt_channel_config_property_id.htm
 tech.root: wes
 ms.assetid: ea17cbf8-ab60-4bf9-b0a2-998814a50bd0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EVT_CHANNEL_CONFIG_PROPERTY_ID, EVT_CHANNEL_CONFIG_PROPERTY_ID enumeration [EventLog], EvtChannelConfigAccess, EvtChannelConfigClassicEventlog, EvtChannelConfigEnabled, EvtChannelConfigIsolation, EvtChannelConfigOwningPublisher, EvtChannelConfigPropertyIdEND, EvtChannelConfigType, EvtChannelLoggingConfigAutoBackup, EvtChannelLoggingConfigLogFilePath, EvtChannelLoggingConfigMaxSize, EvtChannelLoggingConfigRetention, EvtChannelPublisherList, EvtChannelPublishingConfigBufferSize, EvtChannelPublishingConfigClockType, EvtChannelPublishingConfigControlGuid, EvtChannelPublishingConfigFileMax, EvtChannelPublishingConfigKeywords, EvtChannelPublishingConfigLatency, EvtChannelPublishingConfigLevel, EvtChannelPublishingConfigMaxBuffers, EvtChannelPublishingConfigMinBuffers, EvtChannelPublishingConfigSidType, wes.evt_channel_config_property_id, winevt/EVT_CHANNEL_CONFIG_PROPERTY_ID, winevt/EvtChannelConfigAccess, winevt/EvtChannelConfigClassicEventlog, winevt/EvtChannelConfigEnabled, winevt/EvtChannelConfigIsolation, winevt/EvtChannelConfigOwningPublisher, winevt/EvtChannelConfigPropertyIdEND, winevt/EvtChannelConfigType, winevt/EvtChannelLoggingConfigAutoBackup, winevt/EvtChannelLoggingConfigLogFilePath, winevt/EvtChannelLoggingConfigMaxSize, winevt/EvtChannelLoggingConfigRetention, winevt/EvtChannelPublisherList, winevt/EvtChannelPublishingConfigBufferSize, winevt/EvtChannelPublishingConfigClockType, winevt/EvtChannelPublishingConfigControlGuid, winevt/EvtChannelPublishingConfigFileMax, winevt/EvtChannelPublishingConfigKeywords, winevt/EvtChannelPublishingConfigLatency, winevt/EvtChannelPublishingConfigLevel, winevt/EvtChannelPublishingConfigMaxBuffers, winevt/EvtChannelPublishingConfigMinBuffers, winevt/EvtChannelPublishingConfigSidType
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddPie(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
 title: GraphicsPath::AddPie(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL) (gdipluspath.h)
-author: windows-sdk-content
+
 description: The GraphicsPath::AddPie method adds a pie to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPie_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddpiemethods\addpie_62realx_realy_realwidth_realheight_reals.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddPie, AddPie method [GDI+], AddPie method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddPie method, GraphicsPath.AddPie, GraphicsPath.AddPie(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), GraphicsPath.AddPie(REAL,REAL,REAL,REAL,REAL,REAL), GraphicsPath::AddPie, GraphicsPath::AddPie(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddPie_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn, gdiplus._gdiplus_CLASS_GraphicsPath_AddPie_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn
 ms.topic: method

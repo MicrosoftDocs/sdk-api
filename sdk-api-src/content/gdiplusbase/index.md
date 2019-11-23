@@ -1,7 +1,7 @@
 ---
 UID: NA:gdiplusbase
 ms.assetid: a56593bd-30ed-3b32-bb02-340c75641f78
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

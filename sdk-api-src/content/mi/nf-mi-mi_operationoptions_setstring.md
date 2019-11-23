@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetString
 title: MI_OperationOptions_SetString function (mi.h)
-author: windows-sdk-content
+
 description: Sets a custom string option.
 old-location: wmi_v2\mi_operationoptions_setstring.htm
 tech.root: wmi_v2
 ms.assetid: 1bfc3af0-cc43-4a80-acbe-010520acf8b5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_SetString, MI_OperationOptions_SetString function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetString, wmi_v2.mi_operationoptions_setstring
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:uiribbon.IUICollection.Insert
 title: IUICollection::Insert (uiribbon.h)
-author: windows-sdk-content
+
 description: Inserts an item into the IUICollection at the specified index.
 old-location: windowsribbon\windowsribbon_iuicollection_insert.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\insert.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUICollection interface [Windows Ribbon],Insert method, IUICollection.Insert, IUICollection::Insert, Insert, Insert method [Windows Ribbon], Insert method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_Insert, uiribbon/IUICollection::Insert, windowsribbon.windowsribbon_iuicollection_insert
 ms.topic: method

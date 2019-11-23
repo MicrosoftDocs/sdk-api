@@ -1,12 +1,12 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectConnectorInfo
 title: IMILBitmapEffectConnectorInfo (mileffects.h)
-author: windows-sdk-content
+
 description: Exposes methods that retrieve information about a specific input or output connector pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectorinfo.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\imilbitmapeffectconnectorinfo.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectConnectorInfo, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects], IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectconnectorinfo, mileffects/IMILBitmapEffectConnectorInfo, wibe._wibe_imilbitmapeffectconnectorinfo
 ms.topic: interface

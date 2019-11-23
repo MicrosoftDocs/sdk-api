@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IVMRWindowlessControl
 title: IVMRWindowlessControl (strmif.h)
-author: windows-sdk-content
+
 description: The IVMRWindowlessControl interface controls how the Video Mixing Renderer Filter 7 (VMR-7) renders a video stream within a container window.
 old-location: dshow\ivmrwindowlesscontrol.htm
 tech.root: DirectShow
 ms.assetid: c21c5611-f376-4899-9914-c14a18af3810
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl, IVMRWindowlessControl interface [DirectShow], IVMRWindowlessControl interface [DirectShow],described, IVMRWindowlessControlInterface, dshow.ivmrwindowlesscontrol, strmif/IVMRWindowlessControl
 ms.topic: interface

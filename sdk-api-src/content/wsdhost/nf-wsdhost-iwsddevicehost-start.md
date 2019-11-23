@@ -1,12 +1,12 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.Start
 title: IWSDDeviceHost::Start (wsdhost.h)
-author: windows-sdk-content
+
 description: Starts the device host and publishes the device host using a WS-Discovery Hello message.
 old-location: ncd\iwsddevicehost_start_method.htm
 tech.root: WsdApi
 ms.assetid: 06fea296-2551-46b1-9cd7-54187bca5fe8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,Start method, IWSDDeviceHost.Start, IWSDDeviceHost::Start, Start, Start method, Start method,IWSDDeviceHost interface, ncd.iwsddevicehost_start_method, wsdhost/IWSDDeviceHost::Start
 ms.topic: method

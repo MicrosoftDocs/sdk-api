@@ -1,12 +1,12 @@
 ---
 UID: NF:wincrypt.CryptFreeOIDFunctionAddress
 title: CryptFreeOIDFunctionAddress function (wincrypt.h)
-author: windows-sdk-content
+
 description: The CryptFreeOIDFunctionAddress function releases a handle returned by CryptGetOIDFunctionAddress or CryptGetDefaultOIDFunctionAddress by decrementing the reference count on the function handle.
 old-location: security\cryptfreeoidfunctionaddress.htm
 tech.root: SecCrypto
 ms.assetid: cacacff3-25b7-4ed4-885b-b4b0b326628f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CryptFreeOIDFunctionAddress, CryptFreeOIDFunctionAddress function [Security], _crypto2_cryptfreeoidfunctionaddress, security.cryptfreeoidfunctionaddress, wincrypt/CryptFreeOIDFunctionAddress
 ms.topic: function

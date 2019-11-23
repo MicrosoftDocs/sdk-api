@@ -1,12 +1,12 @@
 ---
 UID: NF:tokenbinding.TokenBindingGenerateBinding
 title: TokenBindingGenerateBinding function (tokenbinding.h)
-author: windows-sdk-content
+
 description: Constructs one token binding that contains the exported public key and signature by using the specified key type for the token binding, a target identifier string for creating and retrieving the token binding key, and the unique data.
 old-location: security\tokenbindinggeneratebinding.htm
 tech.root: SecCNG
 ms.assetid: 4289E3F0-17AC-485B-A326-2C8BECD5CABB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TokenBindingGenerateBinding, TokenBindingGenerateBinding function [Security], security.tokenbindinggeneratebinding, tokenbinding/TokenBindingGenerateBinding
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.GetCurrentSelection
 title: IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the Microsoft Active Accessibility property that identifies the selected children of this element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection.htm
 tech.root: WinAuto
 ms.assetid: 7fe666dc-2168-44a0-87f2-f444fd2a70f2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSelection, GetCurrentSelection method [Windows Accessibility], GetCurrentSelection method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],GetCurrentSelection method, IUIAutomationLegacyIAccessiblePattern.GetCurrentSelection, IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection, uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection
 ms.topic: method

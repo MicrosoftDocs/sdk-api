@@ -1,12 +1,12 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetInputHandles
 title: IWRdsProtocolConnection::GetInputHandles (wtsprotocol.h)
-author: windows-sdk-content
+
 description: Obtains the handles to input/output devices for the protocol.
 old-location: termserv\iwrdsprotocolconnection_getinputhandles.htm
 tech.root: TermServ
 ms.assetid: 42f20dfc-e625-4b53-b055-750af4cbd3ec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInputHandles, GetInputHandles method [Remote Desktop Services], GetInputHandles method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetInputHandles method, IWRdsProtocolConnection.GetInputHandles, IWRdsProtocolConnection::GetInputHandles, termserv.iwrdsprotocolconnection_getinputhandles, wtsprotocol/IWRdsProtocolConnection::GetInputHandles
 ms.topic: method

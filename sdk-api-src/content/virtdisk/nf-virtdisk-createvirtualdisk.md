@@ -1,12 +1,12 @@
 ---
 UID: NF:virtdisk.CreateVirtualDisk
 title: CreateVirtualDisk function (virtdisk.h)
-author: windows-sdk-content
+
 description: Creates a virtual hard disk (VHD) image file, either using default parameters or using an existing virtual disk or physical disk.
 old-location: vhd\createvirtualdisk.htm
 tech.root: VStor
 ms.assetid: 9d9f187e-dea1-48ca-a3fe-9e9c513e9088
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateVirtualDisk, CreateVirtualDisk function [VHD], vdssys/CreateVirtualDisk, vhd.createvirtualdisk, virtdisk/CreateVirtualDisk
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IEnumResources.Skip
 title: IEnumResources::Skip (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Skips a specified number of resources.
 old-location: shell\IEnumResources_Skip.htm
 tech.root: shell
 ms.assetid: d3dc94e7-5455-4afb-8743-05c993e1448b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumResources interface [Windows Shell],Skip method, IEnumResources.Skip, IEnumResources::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumResources interface, _shell_IEnumResources_Skip, shell.IEnumResources_Skip, shobjidl_core/IEnumResources::Skip
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:certenroll.X509EnrollmentPolicyLoadOption
 title: X509EnrollmentPolicyLoadOption (certenroll.h)
-author: windows-sdk-content
+
 description: Is used by the LoadPolicy method on the IX509EnrollmentPolicyServer interface to specify how to retrieve policy from the policy server.
 old-location: security\x509enrollmentpolicyloadoption.htm
 tech.root: seccertenroll
 ms.assetid: 94adcffd-b4fe-4bd9-912c-9e8d5e5fdb5b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LoadOptionCacheOnly, LoadOptionDefault, LoadOptionRegisterForADChanges, LoadOptionReload, X509EnrollmentPolicyLoadOption, X509EnrollmentPolicyLoadOption enumeration [Security], certenroll/LoadOptionCacheOnly, certenroll/LoadOptionDefault, certenroll/LoadOptionRegisterForADChanges, certenroll/LoadOptionReload, certenroll/X509EnrollmentPolicyLoadOption, security.x509enrollmentpolicyloadoption
 ms.topic: enum

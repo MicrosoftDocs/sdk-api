@@ -1,12 +1,12 @@
 ---
 UID: NN:imapi2fs.IFsiFileItem
 title: IFsiFileItem (imapi2fs.h)
-author: windows-sdk-content
+
 description: Use this interface to identify the file size and data stream of the file contents.
 old-location: imapi\ifsifileitem.htm
 tech.root: imapi
 ms.assetid: 13085b1f-4ff9-48ff-a9ae-9a1c5cb9a108
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem, IFsiFileItem interface [IMAPI], IFsiFileItem interface [IMAPI],described, imapi.ifsifileitem, imapi2fs/IFsiFileItem
 ms.topic: interface

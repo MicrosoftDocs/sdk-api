@@ -1,12 +1,12 @@
 ---
 UID: NC:webservices.WS_SET_CHANNEL_PROPERTY_CALLBACK
 title: WS_SET_CHANNEL_PROPERTY_CALLBACK (webservices.h)
-author: windows-sdk-content
+
 description: Handles the WsSetChannelProperty call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_set_channel_property_callback.htm
 tech.root: wsw
 ms.assetid: 8f7f90dd-0967-4caf-a781-5fc9c588238d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_SET_CHANNEL_PROPERTY_CALLBACK, WS_SET_CHANNEL_PROPERTY_CALLBACK callback, WS_SET_CHANNEL_PROPERTY_CALLBACK callback function [Web Services for Windows], webservices/WS_SET_CHANNEL_PROPERTY_CALLBACK, wsw.ws_set_channel_property_callback
 ms.topic: callback

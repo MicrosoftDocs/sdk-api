@@ -1,12 +1,12 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure.GetBackingFileCount
 title: IStreamBufferConfigure::GetBackingFileCount (sbe.h)
-author: windows-sdk-content
+
 description: The GetBackingFileCount method retrieves the maximum and minimum number of backing files.
 old-location: mstv\istreambufferconfigure_getbackingfilecount.htm
 tech.root: mstv
 ms.assetid: 5bf2a99a-ed6b-4ce6-9190-756393afcef0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBackingFileCount, GetBackingFileCount method [Microsoft TV Technologies], GetBackingFileCount method [Microsoft TV Technologies],IStreamBufferConfigure interface, IStreamBufferConfigure interface [Microsoft TV Technologies],GetBackingFileCount method, IStreamBufferConfigure.GetBackingFileCount, IStreamBufferConfigure::GetBackingFileCount, IStreamBufferConfigureGetBackingFileCount, mstv.istreambufferconfigure_getbackingfilecount, sbe/IStreamBufferConfigure::GetBackingFileCount
 ms.topic: method

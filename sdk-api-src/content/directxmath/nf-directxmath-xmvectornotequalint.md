@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorNotEqualInt
 title: XMVectorNotEqualInt function (directxmath.h)
-author: windows-sdk-content
+
 description: Performs a per-component test for the inequality of two vectors, treating each component as an unsigned integer.
 old-location: dxmath\xmvectornotequalint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorNotEqualInt(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorNotEqualInt, XMVectorNotEqualInt, XMVectorNotEqualInt method [DirectX Math Support APIs], dxmath.xmvectornotequalint
 ms.topic: function

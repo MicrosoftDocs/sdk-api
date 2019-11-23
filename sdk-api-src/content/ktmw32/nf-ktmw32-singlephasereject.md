@@ -1,12 +1,12 @@
 ---
 UID: NF:ktmw32.SinglePhaseReject
 title: SinglePhaseReject function (ktmw32.h)
-author: windows-sdk-content
+
 description: Indicates that the resource manager (RM) is refusing a single-phase request. When a transaction manager (TM) receives this call, it initiates a two-phase commit and sends a prepare request to all enlisted RMs.
 old-location: fs\singlephasereject.htm
 tech.root: ktm
 ms.assetid: 8cc77686-e130-4b82-b2f5-70121b40e052
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SinglePhaseReject, SinglePhaseReject function [Files], fs.singlephasereject, ktmw32/SinglePhaseReject
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:http._HTTP_RESPONSE_V1
 title: HTTP_RESPONSE_V1 (http.h)
-author: windows-sdk-content
+
 description: Contains data associated with an HTTP response.
 old-location: http\http_response_v1.htm
 tech.root: http
 ms.assetid: 9e1bbcca-1b7c-4146-95c7-72660bf31507
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_RESPONSE, *PHTTP_RESPONSE_V1, HTTP_RESPONSE, HTTP_RESPONSE_V1, HTTP_RESPONSE_V1 structure [HTTP], PHTTP_RESPONSE_V1, PHTTP_RESPONSE_V1 structure pointer [HTTP], http.http_response_v1, http/HTTP_RESPONSE_V1, http/PHTTP_RESPONSE_V1'
 ms.topic: struct

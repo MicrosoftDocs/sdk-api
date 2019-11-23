@@ -3,7 +3,7 @@ UID: NF:directxmath.operator-div-assign
 title: operator/=
 description: Divides one XMVECTOR instance by a second instance, returning a reference to the updated initial instance. 
 ms.assetid: 75ec577b-7ed3-4b0b-a285-86aa443c8355
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: operator/=
 ms.topic: language-reference

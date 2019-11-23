@@ -1,12 +1,12 @@
 ---
 UID: NE:webservices.__unnamed_enum_85
 title: WS_TYPE_MAPPING (webservices.h)
-author: windows-sdk-content
+
 description: How a WS_TYPE maps to or from XML when serialized or deserialized.
 old-location: wsw\ws_type_mapping.htm
 tech.root: wsw
 ms.assetid: 31e4abad-d007-41ae-bf51-fa693e8b8ae5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_ANY_ELEMENT_TYPE_MAPPING, WS_ATTRIBUTE_TYPE_MAPPING, WS_ELEMENT_CONTENT_TYPE_MAPPING, WS_ELEMENT_TYPE_MAPPING, WS_TYPE_MAPPING, WS_TYPE_MAPPING enumeration [Web Services for Windows], webservices/WS_ANY_ELEMENT_TYPE_MAPPING, webservices/WS_ATTRIBUTE_TYPE_MAPPING, webservices/WS_ELEMENT_CONTENT_TYPE_MAPPING, webservices/WS_ELEMENT_TYPE_MAPPING, webservices/WS_TYPE_MAPPING, wsw.ws_type_mapping
 ms.topic: enum

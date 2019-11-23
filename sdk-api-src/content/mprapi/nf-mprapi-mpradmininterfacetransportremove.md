@@ -1,12 +1,12 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceTransportRemove
 title: MprAdminInterfaceTransportRemove function (mprapi.h)
-author: windows-sdk-content
+
 description: The MprAdminInterfaceTransportRemove function removes a transport (for example, IP or IPX) from a specified interface.
 old-location: rras\mpradmininterfacetransportremove.htm
 tech.root: RRAS
 ms.assetid: 0773923a-6bfe-4b86-a8ca-a52016733668
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceTransportRemove, MprAdminInterfaceTransportRemove function [RAS], _mpr_mpradmininterfacetransportremove, mprapi/MprAdminInterfaceTransportRemove, rras.mpradmininterfacetransportremove
 ms.topic: function

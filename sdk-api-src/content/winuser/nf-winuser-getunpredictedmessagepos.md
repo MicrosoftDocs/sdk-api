@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetUnpredictedMessagePos
 title: GetUnpredictedMessagePos function (winuser.h)
-author: windows-sdk-content
+
 description: Gets pointer data before it has gone through touch prediction processing.
 old-location: inputmsg\getunpredictedmessagepos.htm
 tech.root: InputMsg
 ms.assetid: 5BE2748B-0124-4647-A77E-EA2937C7B1AD
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetUnpredictedMessagePos, GetUnpredictedMessagePos function [Input Messages and Notifications], inputmsg.getunpredictedmessagepos, winuser/GetUnpredictedMessagePos
 ms.topic: function

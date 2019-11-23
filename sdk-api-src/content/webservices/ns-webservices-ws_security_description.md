@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_SECURITY_DESCRIPTION
 title: WS_SECURITY_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: The top-level structure used to specify the security requirements for a channel (on the client side) or a listener (on the server side).
 old-location: wsw\ws_security_description.htm
 tech.root: wsw
 ms.assetid: b9490f00-877c-4d9f-b361-eaca343cdee0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_DESCRIPTION, WS_SECURITY_DESCRIPTION structure [Web Services for Windows], webservices/WS_SECURITY_DESCRIPTION, wsw.ws_security_description
 ms.topic: struct

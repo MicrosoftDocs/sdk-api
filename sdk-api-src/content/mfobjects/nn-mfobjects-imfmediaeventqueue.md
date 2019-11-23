@@ -1,12 +1,12 @@
 ---
 UID: NN:mfobjects.IMFMediaEventQueue
 title: IMFMediaEventQueue (mfobjects.h)
-author: windows-sdk-content
+
 description: Provides an event queue for applications that need to implement the IMFMediaEventGenerator interface.
 old-location: mf\imfmediaeventqueue.htm
 tech.root: medfound
 ms.assetid: e1698caa-db70-436d-af6a-64c6e7247590
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEventQueue, IMFMediaEventQueue interface [Media Foundation], IMFMediaEventQueue interface [Media Foundation],described, e1698caa-db70-436d-af6a-64c6e7247590, mf.imfmediaeventqueue, mfobjects/IMFMediaEventQueue
 ms.topic: interface

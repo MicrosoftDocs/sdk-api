@@ -1,12 +1,12 @@
 ---
 UID: NN:azroles.IAzBizRuleContext
 title: IAzBizRuleContext (azroles.h)
-author: windows-sdk-content
+
 description: Contains information about a Business Rule (BizRule) operation.
 old-location: security\azbizrulecontext.htm
 tech.root: SecAuthZ
 ms.assetid: 664d0307-8915-4435-a6a3-3f464afd9029
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAzBizRuleContext, IAzBizRuleContext interface [Security], IAzBizRuleContext interface [Security],described, azroles/IAzBizRuleContext, security.azbizrulecontext
 ms.topic: interface

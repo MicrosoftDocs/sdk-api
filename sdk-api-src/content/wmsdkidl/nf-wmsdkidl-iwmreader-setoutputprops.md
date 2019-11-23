@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMReader.SetOutputProps
 title: IWMReader::SetOutputProps (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The SetOutputProps method specifies the media properties of an uncompressed output stream.
 old-location: wmformat\iwmreader_setoutputprops.htm
 tech.root: wmformat
 ms.assetid: 0a5325d1-880b-4d65-96af-9d311dca989b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMReader interface [windows Media Format],SetOutputProps method, IWMReader.SetOutputProps, IWMReader::SetOutputProps, IWMReaderSetOutputProps, SetOutputProps, SetOutputProps method [windows Media Format], SetOutputProps method [windows Media Format],IWMReader interface, wmformat.iwmreader_setoutputprops, wmsdkidl/IWMReader::SetOutputProps
 ms.topic: method

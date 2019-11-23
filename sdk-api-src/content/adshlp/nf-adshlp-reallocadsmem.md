@@ -1,12 +1,12 @@
 ---
 UID: NF:adshlp.ReallocADsMem
 title: ReallocADsMem function (adshlp.h)
-author: windows-sdk-content
+
 description: Reallocates and copies an existing memory block.
 old-location: adsi\reallocadsmem.htm
 tech.root: adsi
 ms.assetid: 471b8ae7-d3b6-4dd9-aa00-6e1d3ab278a9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ReallocADsMem, ReallocADsMem function [ADSI], _ds_reallocadsmem, adshlp/ReallocADsMem, adsi.reallocadsmem
 ms.topic: function

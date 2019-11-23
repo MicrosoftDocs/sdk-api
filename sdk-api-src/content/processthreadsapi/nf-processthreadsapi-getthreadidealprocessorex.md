@@ -1,12 +1,12 @@
 ---
 UID: NF:processthreadsapi.GetThreadIdealProcessorEx
 title: GetThreadIdealProcessorEx function (processthreadsapi.h)
-author: windows-sdk-content
+
 description: Retrieves the processor number of the ideal processor for the specified thread.
 old-location: base\getthreadidealprocessorex.htm
 tech.root: ProcThread
 ms.assetid: 4fbe1b85-352f-4576-9056-5ba1b0b85874
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetThreadIdealProcessorEx, GetThreadIdealProcessorEx function, base.getthreadidealprocessorex, processthreadsapi/GetThreadIdealProcessorEx, winbase/GetThreadIdealProcessorEx
 ms.topic: function

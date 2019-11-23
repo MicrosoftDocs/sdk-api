@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.TransmitCommChar
 title: TransmitCommChar function (winbase.h)
-author: windows-sdk-content
+
 description: Transmits a specified character ahead of any pending data in the output buffer of the specified communications device.
 old-location: base\transmitcommchar.htm
 tech.root: devio
 ms.assetid: 599c3d04-6cd3-41ac-88a8-752f4b83d46b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TransmitCommChar, TransmitCommChar function, _win32_transmitcommchar, base.transmitcommchar, winbase/TransmitCommChar
 ms.topic: function

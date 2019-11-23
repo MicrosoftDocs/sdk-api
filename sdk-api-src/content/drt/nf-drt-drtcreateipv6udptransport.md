@@ -1,12 +1,12 @@
 ---
 UID: NF:drt.DrtCreateIpv6UdpTransport
 title: DrtCreateIpv6UdpTransport function (drt.h)
-author: windows-sdk-content
+
 description: DrtCreateIpv6UdpTransport function creates a transport based on the IPv6 UDP protocol.
 old-location: p2p\drtcreateipv6udptransport.htm
 tech.root: P2PSdk
 ms.assetid: def3120b-98b6-4e31-8166-822cea7fea69
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrtCreateIpv6UdpTransport, DrtCreateIpv6UdpTransport function [Peer Networking], drt/DrtCreateIpv6UdpTransport, p2p.drtcreateipv6udptransport
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:tuner.ILanguageComponentType
 title: ILanguageComponentType (tuner.h)
-author: windows-sdk-content
+
 description: The ILanguageComponentType interface is implemented on LanguageComponentType objects. It provides methods that define the language of the stream content. Not all streams have a language component.
 old-location: mstv\ilanguagecomponenttype.htm
 tech.root: mstv
 ms.assetid: 775b5e8d-d9ed-4371-a651-bfeed6fa0ad5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ILanguageComponentType, ILanguageComponentType interface [Microsoft TV Technologies], ILanguageComponentType interface [Microsoft TV Technologies],described, ILanguageComponentTypeInterface, mstv.ilanguagecomponenttype, tuner/ILanguageComponentType
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NN:cscobj.IOfflineFilesItemContainer
 title: IOfflineFilesItemContainer (cscobj.h)
-author: windows-sdk-content
+
 description: Used to access item enumeration functionality in the Offline Files cache.
 old-location: of\iofflinefilesitemcontainer.htm
 tech.root: offlinefiles
 ms.assetid: 328ad076-cafd-461e-8085-7fca65063fa0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesItemContainer, IOfflineFilesItemContainer interface [Offline Files], IOfflineFilesItemContainer interface [Offline Files],described, cscobj/IOfflineFilesItemContainer, of.iofflinefilesitemcontainer
 ms.topic: interface

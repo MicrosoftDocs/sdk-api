@@ -1,12 +1,12 @@
 ---
 UID: NE:objidl.tagCALLTYPE
 title: CALLTYPE (objidl.h)
-author: windows-sdk-content
+
 description: Specifies the call types used by IMessageFilter::HandleInComingCall.
 old-location: com\calltype.htm
 tech.root: com
 ms.assetid: 341d429d-8f45-461f-bc77-36e191faecc2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CALLTYPE, CALLTYPE enumeration [COM], CALLTYPE_ASYNC, CALLTYPE_ASYNC_CALLPENDING, CALLTYPE_NESTED, CALLTYPE_TOPLEVEL, CALLTYPE_TOPLEVEL_CALLPENDING, _com_CALLTYPE, com.calltype, objidl/CALLTYPE, objidl/CALLTYPE_ASYNC, objidl/CALLTYPE_ASYNC_CALLPENDING, objidl/CALLTYPE_NESTED, objidl/CALLTYPE_TOPLEVEL, objidl/CALLTYPE_TOPLEVEL_CALLPENDING
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMNameCollection
 title: IXpsOMNameCollection (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: A collection of name strings.
 old-location: xps\ixpsomnamecollection.htm
 tech.root: printdocs
 ms.assetid: b27f83fc-0fcf-44e9-a6ce-c3612c5399ff
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMNameCollection, IXpsOMNameCollection interface [XPS Documents and Packaging], IXpsOMNameCollection interface [XPS Documents and Packaging],described, xps.ixpsomnamecollection, xpsobjectmodel/IXpsOMNameCollection
 ms.topic: interface

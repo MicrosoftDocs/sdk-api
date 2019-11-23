@@ -1,12 +1,12 @@
 ---
 UID: NN:mbnapi.IMbnConnectionManager
 title: IMbnConnectionManager (mbnapi.h)
-author: windows-sdk-content
+
 description: Provides access to IMbnConnection objects and connection notifications.
 old-location: mbn\imbnconnectionmanager.htm
 tech.root: mbn
 ms.assetid: 20b9243d-1f20-4092-951a-fbacb2d55481
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionManager, IMbnConnectionManager interface [Microsoft Broadband Networks], IMbnConnectionManager interface [Microsoft Broadband Networks],described, mbn.imbnconnectionmanager, mbnapi/IMbnConnectionManager
 ms.topic: interface

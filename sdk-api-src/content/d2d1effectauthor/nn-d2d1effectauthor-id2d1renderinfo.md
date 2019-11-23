@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1RenderInfo
 title: ID2D1RenderInfo (d2d1effectauthor.h)
-author: windows-sdk-content
+
 description: Describes the render information common to all of the various transform implementations.
 old-location: direct2d\id2d1renderinfo.htm
 tech.root: Direct2D
 ms.assetid: 26FB6D27-7EE0-43DA-A575-D9FF77846A16
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderInfo, ID2D1RenderInfo interface [Direct2D], ID2D1RenderInfo interface [Direct2D],described, d2d1effectauthor/ID2D1RenderInfo, direct2d.id2d1renderinfo
 ms.topic: interface

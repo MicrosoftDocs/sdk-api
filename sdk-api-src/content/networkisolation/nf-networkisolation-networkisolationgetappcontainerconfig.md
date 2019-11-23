@@ -1,12 +1,12 @@
 ---
 UID: NF:networkisolation.NetworkIsolationGetAppContainerConfig
 title: NetworkIsolationGetAppContainerConfig function (networkisolation.h)
-author: windows-sdk-content
+
 description: Is used to retrieve configuration information about one or more app containers.
 old-location: ics\networkisolationgetappcontainerconfig.htm
 tech.root: ics
 ms.assetid: 5ddb9dde-c989-4235-9784-af3168b7a151
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationGetAppContainerConfig, NetworkIsolationGetAppContainerConfig function [ICS/ICF], ics.networkisolationgetappcontainerconfig, networkisolation/NetworkIsolationGetAppContainerConfig
 ms.topic: function

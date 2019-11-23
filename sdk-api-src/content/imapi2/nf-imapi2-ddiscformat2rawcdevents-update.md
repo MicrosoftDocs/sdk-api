@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.DDiscFormat2RawCDEvents.Update
 title: DDiscFormat2RawCDEvents::Update (imapi2.h)
-author: windows-sdk-content
+
 description: Implement this method to receive progress notification of the current raw-image write operation.
 old-location: imapi\ddiscformat2rawcdevents_update.htm
 tech.root: imapi
 ms.assetid: abe35eee-63a4-4109-8927-825f86b6e302
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DDiscFormat2RawCDEvents interface [IMAPI],Update method, DDiscFormat2RawCDEvents.Update, DDiscFormat2RawCDEvents::Update, Update, Update method [IMAPI], Update method [IMAPI],DDiscFormat2RawCDEvents interface, imapi.ddiscformat2rawcdevents_update, imapi2/DDiscFormat2RawCDEvents::Update
 ms.topic: method

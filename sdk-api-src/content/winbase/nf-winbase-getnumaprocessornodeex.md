@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.GetNumaProcessorNodeEx
 title: GetNumaProcessorNodeEx function (winbase.h)
-author: windows-sdk-content
+
 description: Retrieves the node number as a USHORT value for the specified logical processor.
 old-location: base\getnumaprocessornodeex.htm
 tech.root: ProcThread
 ms.assetid: 6b843cd8-eeb5-4aa1-aad4-ce98916346b1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNumaProcessorNodeEx, GetNumaProcessorNodeEx function, base.getnumaprocessornodeex, winbase/GetNumaProcessorNodeEx
 ms.topic: function

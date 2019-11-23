@@ -1,12 +1,12 @@
 ---
 UID: NN:wuapi.IUpdateDownloadResult
 title: IUpdateDownloadResult (wuapi.h)
-author: windows-sdk-content
+
 description: Contains the properties that indicate the status of a download operation for an update.
 old-location: wua\iupdatedownloadresult.htm
 tech.root: Wua_Sdk
 ms.assetid: d2a800c9-c23a-4aab-a9c6-e408349818dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloadResult, IUpdateDownloadResult interface [Windows Update Agent], IUpdateDownloadResult interface [Windows Update Agent],described, wua.iupdatedownloadresult, wuapi/IUpdateDownloadResult
 ms.topic: interface

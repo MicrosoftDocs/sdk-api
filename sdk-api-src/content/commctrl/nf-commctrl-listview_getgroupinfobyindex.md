@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.ListView_GetGroupInfoByIndex
 title: ListView_GetGroupInfoByIndex macro (commctrl.h)
-author: windows-sdk-content
+
 description: Gets information on a specified group. Use this macro or send the LVM_GETGROUPINFOBYINDEX message explicitly.
 old-location: controls\ListView_GetGroupInfoByIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupinfobyindex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ListView_GetGroupInfoByIndex, ListView_GetGroupInfoByIndex macro [Windows Controls], _shell_ListView_GetGroupInfoByIndex, _shell_ListView_GetGroupInfoByIndex_cpp, commctrl/ListView_GetGroupInfoByIndex, controls.ListView_GetGroupInfoByIndex, controls._shell_ListView_GetGroupInfoByIndex
 ms.topic: macro

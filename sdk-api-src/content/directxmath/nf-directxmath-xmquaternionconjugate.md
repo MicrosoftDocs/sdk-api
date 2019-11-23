@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMQuaternionConjugate
 title: XMQuaternionConjugate function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the conjugate of a quaternion.
 old-location: dxmath\xmquaternionconjugate.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionConjugate(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionConjugate, XMQuaternionConjugate, XMQuaternionConjugate method [DirectX Math Support APIs], dxmath.xmquaternionconjugate
 ms.topic: function

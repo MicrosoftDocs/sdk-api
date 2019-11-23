@@ -1,12 +1,12 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.InvokeKey
 title: ITfFnLMProcessor::InvokeKey (ctffunc.h)
-author: windows-sdk-content
+
 description: ITfFnLMProcessor::InvokeKey method
 old-location: tsf\itffnlmprocessor_invokekey.htm
 tech.root: TSF
 ms.assetid: 0611dd1e-6f79-4397-b523-e4fb278725f7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],InvokeKey method, ITfFnLMProcessor.InvokeKey, ITfFnLMProcessor::InvokeKey, InvokeKey, InvokeKey method [Text Services Framework], InvokeKey method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_invokekey_ref, ctffunc/ITfFnLMProcessor::InvokeKey, tsf.itffnlmprocessor_invokekey
 ms.topic: method

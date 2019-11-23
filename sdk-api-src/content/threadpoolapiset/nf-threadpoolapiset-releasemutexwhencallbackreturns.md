@@ -1,12 +1,12 @@
 ---
 UID: NF:threadpoolapiset.ReleaseMutexWhenCallbackReturns
 title: ReleaseMutexWhenCallbackReturns function (threadpoolapiset.h)
-author: windows-sdk-content
+
 description: Specifies the mutex that the thread pool will release when the current callback completes.
 old-location: base\releasemutexwhencallbackreturns.htm
 tech.root: ProcThread
 ms.assetid: 0e82c041-8191-477d-8a2e-819b8920bbc8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ReleaseMutexWhenCallbackReturns, ReleaseMutexWhenCallbackReturns function, base.releasemutexwhencallbackreturns, threadpoolapiset/ReleaseMutexWhenCallbackReturns, winbase/ReleaseMutexWhenCallbackReturns
 ms.topic: function

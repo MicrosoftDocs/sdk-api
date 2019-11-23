@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFByteStreamHandler.EndCreateObject
 title: IMFByteStreamHandler::EndCreateObject (mfidl.h)
-author: windows-sdk-content
+
 description: Completes an asynchronous request to create a media source.
 old-location: mf\imfbytestreamhandler_endcreateobject.htm
 tech.root: medfound
 ms.assetid: 8fd9797a-8dfb-4e59-8bcb-52dc53b5bb2e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 8fd9797a-8dfb-4e59-8bcb-52dc53b5bb2e, EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],EndCreateObject method, IMFByteStreamHandler.EndCreateObject, IMFByteStreamHandler::EndCreateObject, mf.imfbytestreamhandler_endcreateobject, mfidl/IMFByteStreamHandler::EndCreateObject
 ms.topic: method

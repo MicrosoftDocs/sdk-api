@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.TogglePattern_Toggle
 title: TogglePattern_Toggle function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Toggles a control to its next supported state.
 old-location: winauto\uiauto_TogglePattern_ToggleConPat.htm
 tech.root: WinAuto
 ms.assetid: 9073927c-b4fe-41e8-b112-e1f6988adb49
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TogglePattern_Toggle, TogglePattern_Toggle function [Windows Accessibility], uiauto.uiauto_TogglePattern_ToggleConPat, uiauto_TogglePattern_ToggleConPat, uiautomationcoreapi/TogglePattern_Toggle, winauto.uiauto_TogglePattern_ToggleConPat
 ms.topic: function

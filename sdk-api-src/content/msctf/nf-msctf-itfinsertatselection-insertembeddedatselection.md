@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfInsertAtSelection.InsertEmbeddedAtSelection
 title: ITfInsertAtSelection::InsertEmbeddedAtSelection (msctf.h)
-author: windows-sdk-content
+
 description: The ITfInsertAtSelection::InsertEmbeddedAtSelection method inserts an IDataObject object at the selection or insertion point.
 old-location: tsf\itfinsertatselection_insertembeddedatselection.htm
 tech.root: TSF
 ms.assetid: 13fa9955-0087-4dd9-8a1d-814ab801e956
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfInsertAtSelection interface [Text Services Framework],InsertEmbeddedAtSelection method, ITfInsertAtSelection.InsertEmbeddedAtSelection, ITfInsertAtSelection::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITfInsertAtSelection interface, _tsf_itfinsertatselection_insertembeddedatselection_ref, msctf/ITfInsertAtSelection::InsertEmbeddedAtSelection, tsf.itfinsertatselection_insertembeddedatselection
 ms.topic: method

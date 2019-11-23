@@ -1,12 +1,12 @@
 ---
 UID: NF:msiquery.MsiGetPropertyA
 title: MsiGetPropertyA function (msiquery.h)
-author: windows-sdk-content
+
 description: The MsiGetProperty function gets the value for an installer property.
 old-location: setup\msigetproperty.htm
 tech.root: Msi
 ms.assetid: f2844673-3440-4b43-a9d0-31b9e8086f6f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MsiGetProperty, MsiGetProperty function, MsiGetPropertyA, MsiGetPropertyW, _msi_msigetproperty, msiquery/MsiGetProperty, msiquery/MsiGetPropertyA, msiquery/MsiGetPropertyW, setup.msigetproperty
 ms.topic: function

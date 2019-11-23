@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.AddUrl
 title: IActiveDesktop::AddUrl (shlobj_core.h)
-author: windows-sdk-content
+
 description: Adds the desktop item associated with the specified URL.
 old-location: lwef\iactivedesktop_addurl_method.htm
 tech.root: lwef
 ms.assetid: 295b2f46-6178-4aef-9721-8105c75a4a55
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddUrl, AddUrl method [Legacy Windows Environment Features], AddUrl method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],AddUrl method, IActiveDesktop.AddUrl, IActiveDesktop::AddUrl, _win32_IActiveDesktop_AddUrl_Method, lwef.iactivedesktop_addurl_method, shell.iactivedesktop_addurl_method, shlobj_core/IActiveDesktop::AddUrl
 ms.topic: method

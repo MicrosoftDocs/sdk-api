@@ -1,12 +1,12 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GetWriterStatus
 title: IVssBackupComponents::GetWriterStatus (vsbackup.h)
-author: windows-sdk-content
+
 description: The GetWriterStatus method returns the status of the specified writer.
 old-location: base\ivssbackupcomponents_getwriterstatus.htm
 tech.root: VSS
 ms.assetid: 652e9630-291d-41cd-96d9-6a63988932a5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetWriterStatus, GetWriterStatus method [VSS], GetWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterStatus method, IVssBackupComponents.GetWriterStatus, IVssBackupComponents::GetWriterStatus, S_OK, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, VSS_E_WRITER_NOT_RESPONDING, VSS_E_WRITER_STATUS_NOT_AVAILABLE, _win32_ivssbackupcomponents_getwriterstatus, base.ivssbackupcomponents_getwriterstatus, vsbackup/IVssBackupComponents::GetWriterStatus
 ms.topic: method

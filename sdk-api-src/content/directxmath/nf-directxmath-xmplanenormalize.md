@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMPlaneNormalize
 title: XMPlaneNormalize function (directxmath.h)
-author: windows-sdk-content
+
 description: Normalizes the coefficients of a plane so that coefficients of x, y, and z form a unit normal vector.
 old-location: dxmath\xmplanenormalize.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneNormalize(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneNormalize, XMPlaneNormalize, XMPlaneNormalize method [DirectX Math Support APIs], dxmath.xmplanenormalize
 ms.topic: function

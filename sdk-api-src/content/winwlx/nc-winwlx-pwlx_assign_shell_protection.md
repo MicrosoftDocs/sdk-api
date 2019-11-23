@@ -1,12 +1,12 @@
 ---
 UID: NC:winwlx.PWLX_ASSIGN_SHELL_PROTECTION
 title: PWLX_ASSIGN_SHELL_PROTECTION (winwlx.h)
-author: windows-sdk-content
+
 description: Called by GINA to assign protection to the shell program of a newly logged-on user.
 old-location: security\wlxassignshellprotection.htm
 tech.root: SecAuthN
 ms.assetid: 7a744bde-3354-4e55-a6be-08acb4085e8a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PWLX_ASSIGN_SHELL_PROTECTION, PWLX_ASSIGN_SHELL_PROTECTION callback, WlxAssignShellProtection, WlxAssignShellProtection callback function [Security], _gina_wlxassignshellprotection, security.wlxassignshellprotection, winwlx/WlxAssignShellProtection
 ms.topic: callback

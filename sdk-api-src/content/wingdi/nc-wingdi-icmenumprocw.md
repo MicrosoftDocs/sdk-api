@@ -1,12 +1,12 @@
 ---
 UID: NC:wingdi.ICMENUMPROCW
 title: ICMENUMPROCW (wingdi.h)
-author: windows-sdk-content
+
 description: The EnumICMProfilesProcCallback callback is an application-defined callback function that processes color profile data from EnumICMProfiles .
 old-location: wcs\enumicmprofilesproccallback.htm
 tech.root: WCS
 ms.assetid: 6e8f4ce5-c546-4e6a-8f35-4a22d60b6754
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICMENUMPROC, ICMENUMPROC callback, ICMENUMPROC callback function [Windows Color System], ICMENUMPROCA, ICMENUMPROCW, _color_EnumICMProfilesProcCallback, wcs.enumicmprofilesproccallback, wingdi/ICMENUMPROC, wingdi/ICMENUMPROCA, wingdi/ICMENUMPROCW
 ms.topic: callback

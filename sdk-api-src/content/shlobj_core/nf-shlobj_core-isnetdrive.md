@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.IsNetDrive
 title: IsNetDrive function (shlobj_core.h)
-author: windows-sdk-content
+
 description: Tests whether a drive is a network drive.
 old-location: shell\IsNetDrive.htm
 tech.root: shell
 ms.assetid: 44e02665-648a-4cf0-9dc0-038e54d08a49
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsNetDrive, IsNetDrive function [Windows Shell], _win32_IsNetDrive, shell.IsNetDrive, shlobj_core/IsNetDrive
 ms.topic: function

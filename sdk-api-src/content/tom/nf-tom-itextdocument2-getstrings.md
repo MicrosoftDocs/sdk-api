@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextDocument2.GetStrings
 title: ITextDocument2::GetStrings (tom.h)
-author: windows-sdk-content
+
 description: Gets a collection of rich-text strings.
 old-location: controls\itextdocument2_getstrings.htm
 tech.root: Controls
 ms.assetid: 54d8c682-4e30-4ce2-baa1-d89e28491015
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStrings, GetStrings method [Windows Controls], GetStrings method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetStrings method, ITextDocument2.GetStrings, ITextDocument2::GetStrings, controls.itextdocument2_getstrings, tom/ITextDocument2::GetStrings
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetPath
 title: IKnownFolder::GetPath (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Retrieves the path of a known folder as a string.
 old-location: shell\IKnownFolder_GetPath.htm
 tech.root: shell
 ms.assetid: c1786db0-9bcc-4fc8-ae18-8519da6edda9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [Windows Shell], GetPath method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetPath method, IKnownFolder.GetPath, IKnownFolder::GetPath, _shell_IKnownFolder_GetPath, shell.IKnownFolder_GetPath, shobjidl_core/IKnownFolder::GetPath
 ms.topic: method

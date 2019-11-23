@@ -1,12 +1,12 @@
 ---
 UID: NE:restartmanager._RM_APP_TYPE
 title: RM_APP_TYPE (restartmanager.h)
-author: windows-sdk-content
+
 description: Specifies the type of application that is described by the RM_PROCESS_INFO structure.
 old-location: rstmgr\rm_app_type.htm
 tech.root: rstmgr
 ms.assetid: f980b11c-8de1-45dc-b514-8f4cf571afa6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RM_APP_TYPE, RmConsole, RmCritical, RmExplorer, RmMainWindow, RmOtherWindow, RmService, RmUnknownApp, _RM_APP_TYPE, _RM_APP_TYPE enumeration [Restart Mgr], restartmanager/RmConsole, restartmanager/RmCritical, restartmanager/RmExplorer, restartmanager/RmMainWindow, restartmanager/RmOtherWindow, restartmanager/RmService, restartmanager/RmUnknownApp, restartmanager/_RM_APP_TYPE, rstmgr.rm_app_type
 ms.topic: enum

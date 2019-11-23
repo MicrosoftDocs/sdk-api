@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.SetAttributes
 title: IMDSPStorage::SetAttributes (mswmdm.h)
-author: windows-sdk-content
+
 description: The SetAttributes method sets the attributes of a storage object.
 old-location: wmdm\imdspstorage_setattributes.htm
 tech.root: WMDM
 ms.assetid: e995b255-364f-4ea6-b7fd-4443e84432ef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorage interface [windows Media Device Manager],SetAttributes method, IMDSPStorage.SetAttributes, IMDSPStorage::SetAttributes, IMDSPStorageSetAttributes, SetAttributes, SetAttributes method [windows Media Device Manager], SetAttributes method [windows Media Device Manager],IMDSPStorage interface, mswmdm/IMDSPStorage::SetAttributes, wmdm.imdspstorage_setattributes
 ms.topic: method

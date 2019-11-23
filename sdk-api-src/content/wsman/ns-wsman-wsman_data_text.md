@@ -1,12 +1,12 @@
 ---
 UID: NS:wsman._WSMAN_DATA_TEXT
 title: WSMAN_DATA_TEXT (wsman.h)
-author: windows-sdk-content
+
 description: Holds textual data for use with various Windows Remote Management functions.
 old-location: winrm\wsman_data_text.htm
 tech.root: winrm
 ms.assetid: 463dcc6a-2a56-42a9-a778-7a634e5f977c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSMAN_DATA_TEXT, WSMAN_DATA_TEXT structure [Windows Remote Management], winrm.wsman_data_text, wsman/WSMAN_DATA_TEXT
 ms.topic: struct

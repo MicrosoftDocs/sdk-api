@@ -1,12 +1,12 @@
 ---
 UID: NF:usp10.ScriptBreak
 title: ScriptBreak function (usp10.h)
-author: windows-sdk-content
+
 description: Retrieves information for determining line breaks.
 old-location: intl\scriptbreak.htm
 tech.root: Intl
 ms.assetid: 1613819f-9473-4d9f-8a65-a109c9ef3f43
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ScriptBreak, ScriptBreak function [Internationalization for Windows Applications], _win32_ScriptBreak, intl.scriptbreak, usp10/ScriptBreak
 ms.topic: function

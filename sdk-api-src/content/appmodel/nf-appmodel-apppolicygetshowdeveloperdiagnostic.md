@@ -1,12 +1,12 @@
 ---
 UID: NF:appmodel.AppPolicyGetShowDeveloperDiagnostic
 title: AppPolicyGetShowDeveloperDiagnostic function (appmodel.h)
-author: windows-sdk-content
+
 description: Retrieves the method used for a process to surface developer information, such as asserts, to the user.
 old-location: appxpkg\apppolicygetshowdeveloperdiagnostic_function.htm
 tech.root: appxpkg
 ms.assetid: A6F794BE-7F40-4216-9E26-63D06B57FDD1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetShowDeveloperDiagnostic, AppPolicyGetShowDeveloperDiagnostic function [App packaging and management], appmodel/AppPolicyGetShowDeveloperDiagnostic, appxpkg.apppolicygetshowdeveloperdiagnostic_function
 ms.topic: function

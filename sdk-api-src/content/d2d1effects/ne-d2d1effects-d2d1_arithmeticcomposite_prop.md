@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1effects.D2D1_ARITHMETICCOMPOSITE_PROP
 title: D2D1_ARITHMETICCOMPOSITE_PROP (d2d1effects.h)
-author: windows-sdk-content
+
 description: Identifiers for the properties of the Arithmetic composite effect.
 old-location: direct2d\d2d1_arithmeticcomposite_prop.htm
 tech.root: Direct2D
 ms.assetid: C3B1E6D9-2A8B-40C7-BE0C-C570F69C7DFB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_ARITHMETICCOMPOSITE_PROP, D2D1_ARITHMETICCOMPOSITE_PROP enumeration [Direct2D], D2D1_ARITHMETICCOMPOSITE_PROP_CLAMP_OUTPUT, D2D1_ARITHMETICCOMPOSITE_PROP_COEFFICIENTS, d2d1effects/D2D1_ARITHMETICCOMPOSITE_PROP, d2d1effects/D2D1_ARITHMETICCOMPOSITE_PROP_CLAMP_OUTPUT, d2d1effects/D2D1_ARITHMETICCOMPOSITE_PROP_COEFFICIENTS, direct2d.d2d1_arithmeticcomposite_prop
 ms.topic: enum

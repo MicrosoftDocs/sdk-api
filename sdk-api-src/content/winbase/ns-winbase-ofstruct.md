@@ -1,12 +1,12 @@
 ---
 UID: NS:winbase._OFSTRUCT
 title: OFSTRUCT (winbase.h)
-author: windows-sdk-content
+
 description: Contains information about a file that the OpenFile function opened or attempted to open.
 old-location: fs\ofstruct_str.htm
 tech.root: FileIO
 ms.assetid: 195581e5-e962-4756-a33c-b1e898b5b0e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPOFSTRUCT, *POFSTRUCT, OFSTRUCT, OFSTRUCT structure [Files], POFSTRUCT, POFSTRUCT structure pointer [Files], _OFSTRUCT, _win32_ofstruct_str, base.ofstruct_str, fs.ofstruct_str, winbase/OFSTRUCT, winbase/POFSTRUCT"
 ms.topic: struct

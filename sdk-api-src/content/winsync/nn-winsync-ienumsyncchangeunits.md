@@ -1,12 +1,12 @@
 ---
 UID: NN:winsync.IEnumSyncChangeUnits
 title: IEnumSyncChangeUnits (winsync.h)
-author: windows-sdk-content
+
 description: Enumerates a list of change units.
 old-location: winsync\ienumsyncchangeunits.htm
 tech.root: winsync
 ms.assetid: 77c1ef9a-9b76-433d-9654-fefb195a0f59
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChangeUnits, IEnumSyncChangeUnits interface [Windows Sync], IEnumSyncChangeUnits interface [Windows Sync],described, winsync.ienumsyncchangeunits, winsync/IEnumSyncChangeUnits
 ms.topic: interface

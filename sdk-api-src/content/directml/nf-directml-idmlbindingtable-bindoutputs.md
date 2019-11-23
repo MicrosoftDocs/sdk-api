@@ -1,12 +1,12 @@
 ---
 UID: NF:directml.IDMLBindingTable.BindOutputs
 title: IDMLBindingTable::BindOutputs
-author: windows-sdk-content
+
 description: Binds a set of resources as output tensors.
 old-location: direct3d12\idmlbindingtable_bindoutputs.htm
 tech.root: direct3d12
 ms.assetid: DBAD9981-03CD-46EA-AD94-6781C6A25626
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: BindOutputs, BindOutputs method, BindOutputs method,IDMLBindingTable interface, IDMLBindingTable interface,BindOutputs method, IDMLBindingTable.BindOutputs, IDMLBindingTable::BindOutputs, direct3d12.idmlbindingtable_bindoutputs, directml/IDMLBindingTable::BindOutputs
 ms.topic: method

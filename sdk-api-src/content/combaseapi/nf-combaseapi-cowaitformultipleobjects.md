@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoWaitForMultipleObjects
 title: CoWaitForMultipleObjects function (combaseapi.h)
-author: windows-sdk-content
+
 description: A replacement for CoWaitForMultipleHandles. This replacement API hides the options for CoWaitForMultipleHandles that are not supported in ASTA.
 old-location: com\cowaitformultipleobjects.htm
 tech.root: com
 ms.assetid: 7A14E4F4-20F0-43FF-8D64-9AAC34B8D56F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoWaitForMultipleObjects, CoWaitForMultipleObjects function [COM], com.cowaitformultipleobjects, combaseapi/CoWaitForMultipleObjects
 ms.topic: function

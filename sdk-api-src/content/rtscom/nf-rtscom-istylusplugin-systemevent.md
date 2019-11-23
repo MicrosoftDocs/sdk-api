@@ -1,12 +1,12 @@
 ---
 UID: NF:rtscom.IStylusPlugin.SystemEvent
 title: IStylusPlugin::SystemEvent (rtscom.h)
-author: windows-sdk-content
+
 description: Notifies the implementing plug-in that a system event is available.
 old-location: tablet\istylusplugin_systemevent.htm
 tech.root: tablet
 ms.assetid: 7cdba29e-0599-45f7-8853-3e8fa29897e8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 7cdba29e-0599-45f7-8853-3e8fa29897e8, IStylusPlugin interface [Tablet PC],SystemEvent method, IStylusPlugin.SystemEvent, IStylusPlugin::SystemEvent, SystemEvent, SystemEvent method [Tablet PC], SystemEvent method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::SystemEvent, tablet.istylusplugin_systemevent
 ms.topic: method

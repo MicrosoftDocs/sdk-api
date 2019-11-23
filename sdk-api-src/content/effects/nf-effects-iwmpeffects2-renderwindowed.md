@@ -1,12 +1,12 @@
 ---
 UID: NF:effects.IWMPEffects2.RenderWindowed
 title: IWMPEffects2::RenderWindowed (effects.h)
-author: windows-sdk-content
+
 description: The RenderWindowed method is called by Windows Media Player to render a windowed visualization.
 old-location: wmp\iwmpeffects2_renderwindowed.htm
 tech.root: WMP
 ms.assetid: 95a0b71e-6485-4b14-81cf-b853a664b3cc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPEffects2 interface [Windows Media Player],RenderWindowed method, IWMPEffects2.RenderWindowed, IWMPEffects2::RenderWindowed, IWMPEffectsRenderWindowed, RenderWindowed, RenderWindowed method [Windows Media Player], RenderWindowed method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::RenderWindowed, wmp.iwmpeffects2_renderwindowed
 ms.topic: method

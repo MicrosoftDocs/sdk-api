@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITTAPI.get_Addresses
 title: ITTAPI::get_Addresses (tapi3if.h)
-author: windows-sdk-content
+
 description: The get_Addresses method creates a collection of addresses that are currently available. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateAddresses method.
 old-location: tapi3\ittapi_get_addresses.htm
 tech.root: Tapi
 ms.assetid: 9e70ae94-20a2-4ba4-ab39-794f611011d8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_Addresses method, ITTAPI.get_Addresses, ITTAPI::get_Addresses, _tapi3_ittapi_get_addresses, get_Addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_addresses, tapi3if/ITTAPI::get_Addresses
 ms.topic: method

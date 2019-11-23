@@ -1,7 +1,7 @@
 ---
 UID: NA:scclient
 ms.assetid: db207e01-dd69-31f1-a24d-79193f1f7b2f
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

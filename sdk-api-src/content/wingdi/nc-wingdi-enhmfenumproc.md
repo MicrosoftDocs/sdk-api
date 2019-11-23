@@ -1,12 +1,12 @@
 ---
 UID: NC:wingdi.ENHMFENUMPROC
 title: ENHMFENUMPROC (wingdi.h)
-author: windows-sdk-content
+
 description: The EnhMetaFileProc function is an application-defined callback function used with the EnumEnhMetaFile function.
 old-location: gdi\enhmetafileproc.htm
 tech.root: gdi
 ms.assetid: c9f04b38-18bc-4b52-8c56-d9475bc30202
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ENHMFENUMPROC, ENHMFENUMPROC callback, ENHMFENUMPROC callback function [Windows GDI], _win32_EnhMetaFileProc, gdi.enhmetafileproc, wingdi/ENHMFENUMPROC
 ms.topic: callback

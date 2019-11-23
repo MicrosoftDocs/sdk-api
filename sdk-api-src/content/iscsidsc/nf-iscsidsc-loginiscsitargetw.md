@@ -1,12 +1,12 @@
 ---
 UID: NF:iscsidsc.LoginIScsiTargetW
 title: LoginIScsiTargetW function (iscsidsc.h)
-author: windows-sdk-content
+
 description: LoginIscsiTarget function establishes a full featured login session with the indicated target.
 old-location: iscsidisc\loginiscsitarget.htm
 tech.root: iSCSIDisc
 ms.assetid: e94e72d2-b93c-41f4-aafc-78e6a97d7a26
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, LoginIScsiTargetW, LoginIscsiTarget, LoginIscsiTarget function [iSCSI Discovery Library API], LoginIscsiTargetA, LoginIscsiTargetW, iscsidisc.loginiscsitarget, iscsidsc/LoginIscsiTarget, iscsidsc/LoginIscsiTargetA, iscsidsc/LoginIscsiTargetW
 ms.topic: function

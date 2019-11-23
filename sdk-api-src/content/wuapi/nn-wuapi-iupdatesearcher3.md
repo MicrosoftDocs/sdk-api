@@ -1,12 +1,12 @@
 ---
 UID: NN:wuapi.IUpdateSearcher3
 title: IUpdateSearcher3 (wuapi.h)
-author: windows-sdk-content
+
 description: Searches for updates on a server.
 old-location: wua\iupdatesearcher3.htm
 tech.root: Wua_Sdk
 ms.assetid: d37017d5-6f78-4b6c-ac0b-c83b83853079
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher3, IUpdateSearcher3 interface [Windows Update Agent], IUpdateSearcher3 interface [Windows Update Agent],described, wua.iupdatesearcher3, wuapi/IUpdateSearcher3
 ms.topic: interface

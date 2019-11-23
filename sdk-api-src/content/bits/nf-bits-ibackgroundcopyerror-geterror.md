@@ -1,12 +1,12 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetError
 title: IBackgroundCopyError::GetError (bits.h)
-author: windows-sdk-content
+
 description: Retrieves the error code and identify the context in which the error occurred.
 old-location: bits\ibackgroundcopyerror_geterror.htm
 tech.root: Bits
 ms.assetid: abdf115d-3ff2-4664-b053-f55872ad24ab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetError, GetError method [BITS], GetError method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetError method, IBackgroundCopyError.GetError, IBackgroundCopyError::GetError, _drz_ibackgroundcopyerror_geterror, bits.ibackgroundcopyerror_geterror, bits/IBackgroundCopyError::GetError
 ms.topic: method

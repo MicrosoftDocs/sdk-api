@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfThreadMgr.Deactivate
 title: ITfThreadMgr::Deactivate (msctf.h)
-author: windows-sdk-content
+
 description: ITfThreadMgr::Deactivate method
 old-location: tsf\itfthreadmgr_deactivate.htm
 tech.root: TSF
 ms.assetid: 7293fbfa-c385-4713-80b2-760e54dbf4c1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Deactivate, Deactivate method [Text Services Framework], Deactivate method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],Deactivate method, ITfThreadMgr.Deactivate, ITfThreadMgr::Deactivate, _tsf_itfthreadmgr_deactivate_ref, msctf/ITfThreadMgr::Deactivate, tsf.itfthreadmgr_deactivate
 ms.topic: method

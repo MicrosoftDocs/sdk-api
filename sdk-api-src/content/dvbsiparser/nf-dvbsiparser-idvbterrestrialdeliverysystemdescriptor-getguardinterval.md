@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval
 title: IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getguardinterval.htm
 tech.root: mstv
 ms.assetid: e6c3e121-7214-49cc-b88e-6a1269f5bdbd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGuardInterval, GetGuardInterval method [Microsoft TV Technologies], GetGuardInterval method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetGuardInterval method, IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval, IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval, IDvbTerrestrialDeliverySystemDescriptorGetGuardInterval, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval, mstv.idvbterrestrialdeliverysystemdescriptor_getguardinterval
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_DestroyDevice
 title: PDXVAHDSW_DestroyDevice (dxvahd.h)
-author: windows-sdk-content
+
 description: Destroys an instance of a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\pdxvahdsw_destroydevice.htm
 tech.root: medfound
 ms.assetid: 1d0cc0a4-effb-4dea-b6ba-ca1a4e1e394e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_DestroyDevice, PDXVAHDSW_DestroyDevice callback, PDXVAHDSW_DestroyDevice callback function [Media Foundation], dxvahd/PDXVAHDSW_DestroyDevice, mf.pdxvahdsw_destroydevice
 ms.topic: callback

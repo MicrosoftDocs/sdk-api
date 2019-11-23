@@ -1,12 +1,12 @@
 ---
 UID: NS:clusapi._CLUS_DISK_NUMBER_INFO
 title: CLUS_DISK_NUMBER_INFO (clusapi.h)
-author: windows-sdk-content
+
 description: Represents information about the disk number of a physical disk.
 old-location: mscs\clus_disk_number_info.htm
 tech.root: MsCS
 ms.assetid: FF13CF5E-67EA-41B8-986C-B90691F82BF1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCLUS_DISK_NUMBER_INFO, CLUS_DISK_NUMBER_INFO, CLUS_DISK_NUMBER_INFO structure [Failover Cluster], PCLUS_DISK_NUMBER_INFO, PCLUS_DISK_NUMBER_INFO structure pointer [Failover Cluster], clusapi/CLUS_DISK_NUMBER_INFO, clusapi/PCLUS_DISK_NUMBER_INFO, mscs.clus_disk_number_info"
 ms.topic: struct

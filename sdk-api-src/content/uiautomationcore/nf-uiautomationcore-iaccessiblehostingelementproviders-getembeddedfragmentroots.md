@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.IAccessibleHostingElementProviders.GetEmbeddedFragmentRoots
 title: IAccessibleHostingElementProviders::GetEmbeddedFragmentRoots (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Retrieves the Microsoft Active Accessibility providers of all windowless Microsoft ActiveX controls that have a Microsoft UI Automation provider implementation, and are hosted in a Microsoft Active Accessibility object that implements the IAccessibleHostingElementProviders interface.
 old-location: winauto\uiauto_IAccessibleHostingElementProviders_GetEmbeddedFragmentRoots.htm
 tech.root: WinAuto
 ms.assetid: 39A9665F-C2F3-48A2-A165-50AD3B82455F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEmbeddedFragmentRoots, GetEmbeddedFragmentRoots method [Windows Accessibility], GetEmbeddedFragmentRoots method [Windows Accessibility],IAccessibleHostingElementProviders interface, IAccessibleHostingElementProviders interface [Windows Accessibility],GetEmbeddedFragmentRoots method, IAccessibleHostingElementProviders.GetEmbeddedFragmentRoots, IAccessibleHostingElementProviders::GetEmbeddedFragmentRoots, uiautomationcore/IAccessibleHostingElementProviders::GetEmbeddedFragmentRoots, winauto.uiauto_IAccessibleHostingElementProviders_GetEmbeddedFragmentRoots
 ms.topic: method

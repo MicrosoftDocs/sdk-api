@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetBorderMode
 title: IDCompositionVisual::SetBorderMode (dcomp.h)
-author: windows-sdk-content
+
 description: Sets the BorderMode property, which specifies how to compose the edges of bitmaps and clips associated with this visual, or with visuals in the subtree rooted at this visual.
 old-location: directcomp\idcompositionvisual_setbordermode.htm
 tech.root: directcomp
 ms.assetid: 88C77869-B08D-43F6-8A1E-A112743C0404
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetBorderMode method, IDCompositionVisual.SetBorderMode, IDCompositionVisual::SetBorderMode, SetBorderMode, SetBorderMode method [DirectComposition], SetBorderMode method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetBorderMode, directcomp.idcompositionvisual_setbordermode
 ms.topic: method

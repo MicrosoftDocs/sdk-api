@@ -1,12 +1,12 @@
 ---
 UID: NF:winbio.WinBioIdentify
 title: WinBioIdentify function (winbio.h)
-author: windows-sdk-content
+
 description: Captures a biometric sample and determines whether it matches an existing biometric template. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioidentify.htm
 tech.root: SecBioMet
 ms.assetid: aaa9b4cd-81d4-4fee-a40a-5563997c42e8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WinBioIdentify, WinBioIdentify function [Windows Biometric Framework API], secbiomet.winbioidentify, winbio/WinBioIdentify
 ms.topic: function

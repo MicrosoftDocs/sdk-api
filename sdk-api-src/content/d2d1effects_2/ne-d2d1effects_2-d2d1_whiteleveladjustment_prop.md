@@ -1,11 +1,11 @@
 ---
 UID: NE:d2d1effects_2.D2D1_WHITELEVELADJUSTMENT_PROP
 title: D2D1_WHITELEVELADJUSTMENT_PROP (d2d1effects_2.h)
-author: windows-sdk-content
+
 description: Defines constants that identify the top level properties of the White Level Adjustment effect.
 old-location: direct2d\d2d1_whiteleveladjustment_prop.htm
 tech.root: Direct2D
-ms.author: windowssdkdev
+
 ms.date: 01/30/2019
 ms.keywords: D2D1_WHITELEVELADJUSTMENT_PROP, D2D1_WHITELEVELADJUSTMENT_PROP enumeration [Direct2D], D2D1_WHITELEVELADJUSTMENT_PROP_INPUT_WHITE_LEVEL, D2D1_WHITELEVELADJUSTMENT_PROP_OUTPUT_WHITE_LEVEL, d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP, d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP_INPUT_WHITE_LEVEL, d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP_OUTPUT_WHITE_LEVEL, direct2d.d2d1_whiteleveladjustment_prop
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NN:fsrmpipeline.IFsrmRule
 title: IFsrmRule (fsrmpipeline.h)
-author: windows-sdk-content
+
 description: Defines a rule.
 old-location: fsrm\ifsrmrule.htm
 tech.root: fsrm
 ms.assetid: e1de871f-a2c9-4787-a3e8-8c3428e9249e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmRule, IFsrmRule interface [File Server Resource Manager], IFsrmRule interface [File Server Resource Manager],described, fs.ifsrmrule, fsrm.ifsrmrule, fsrm/IFsrmRule
 ms.topic: interface

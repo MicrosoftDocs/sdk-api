@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetRootElement
 title: IUIAutomation::GetRootElement (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the UI Automation element that represents the desktop.
 old-location: winauto\uiauto_IUIAutomation_GetRootElement.htm
 tech.root: WinAuto
 ms.assetid: 9b6f3a78-a957-4ebd-a026-a8edb30faa88
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRootElement, GetRootElement method [Windows Accessibility], GetRootElement method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetRootElement method, IUIAutomation.GetRootElement, IUIAutomation::GetRootElement, uiauto.uiauto_IUIAutomation_GetRootElement, uiauto_IUIAutomation_GetRootElement, uiautomationclient/IUIAutomation::GetRootElement, winauto.uiauto_IUIAutomation_GetRootElement
 ms.topic: method

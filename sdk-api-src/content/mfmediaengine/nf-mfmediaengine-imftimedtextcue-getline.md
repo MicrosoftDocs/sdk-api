@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetLine
 title: IMFTimedTextCue::GetLine (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Gets a line of text in the cue from the index of the line.
 old-location: mf\imftimedtextcue_getline.htm
 tech.root: medfound
 ms.assetid: CD29A63D-8D40-43E6-972C-7050E63EA7D3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLine, GetLine method [Media Foundation], GetLine method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetLine method, IMFTimedTextCue.GetLine, IMFTimedTextCue::GetLine, mf.imftimedtextcue_getline, mfmediaengine/IMFTimedTextCue::GetLine
 ms.topic: method

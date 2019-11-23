@@ -1,12 +1,12 @@
 ---
 UID: NF:mspcall.CMSPCallBase.MSPCallAddRef
 title: CMSPCallBase::MSPCallAddRef (mspcall.h)
-author: windows-sdk-content
+
 description: The MSPCallAddRef method is the private AddRef method for the call object.
 old-location: tapi3\cmspcallbase_mspcalladdref.htm
 tech.root: Tapi
 ms.assetid: fe70ceac-660e-4fdd-960f-b61503bc8939
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],MSPCallAddRef method, CMSPCallBase.MSPCallAddRef, CMSPCallBase::MSPCallAddRef, MSPCallAddRef, MSPCallAddRef method [TAPI 2.2], MSPCallAddRef method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_mspcalladdref, mspcall/CMSPCallBase::MSPCallAddRef, tapi3.cmspcallbase_mspcalladdref
 ms.topic: method

@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC
 title: D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC
-author: windows-sdk-content
+
 description: Specifies output stream arguments for the output passed to ID3D12VideoProcessCommandList::ProcessFrames.
 tech.root: mf
 ms.assetid: 45a8af3d-5e67-4bc0-a38b-f5b45298aea9
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

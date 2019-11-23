@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.GetTextRangeFromStrokes
 title: IInkRecognitionAlternate::GetTextRangeFromStrokes (msinkaut.h)
-author: windows-sdk-content
+
 description: Retrieves the smallest range of recognized text for which the recognizer can return an alternate that contains a known InkStrokes collection.
 old-location: tablet\iinkrecognitionalternate_gettextrangefromstrokes.htm
 tech.root: tablet
 ms.assetid: b481e356-0a3c-4437-9700-6d8badcb0b0b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTextRangeFromStrokes, GetTextRangeFromStrokes method [Tablet PC], GetTextRangeFromStrokes method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],GetTextRangeFromStrokes method, IInkRecognitionAlternate.GetTextRangeFromStrokes, IInkRecognitionAlternate::GetTextRangeFromStrokes, b481e356-0a3c-4437-9700-6d8badcb0b0b, msinkaut/IInkRecognitionAlternate::GetTextRangeFromStrokes, tablet.iinkrecognitionalternate_gettextrangefromstrokes
 ms.topic: method

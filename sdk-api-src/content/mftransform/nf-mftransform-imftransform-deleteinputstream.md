@@ -1,12 +1,12 @@
 ---
 UID: NF:mftransform.IMFTransform.DeleteInputStream
 title: IMFTransform::DeleteInputStream (mftransform.h)
-author: windows-sdk-content
+
 description: Removes an input stream from this Media Foundation transform (MFT).
 old-location: mf\imftransform_deleteinputstream.htm
 tech.root: medfound
 ms.assetid: cba37f7f-6ab2-469c-95c2-61d9e4d31d0b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeleteInputStream, DeleteInputStream method [Media Foundation], DeleteInputStream method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],DeleteInputStream method, IMFTransform.DeleteInputStream, IMFTransform::DeleteInputStream, cba37f7f-6ab2-469c-95c2-61d9e4d31d0b, mf.imftransform_deleteinputstream, mftransform/IMFTransform::DeleteInputStream
 ms.topic: method

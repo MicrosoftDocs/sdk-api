@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetIncrementalTabStop
 title: IDWriteTextFormat::SetIncrementalTabStop (dwrite.h)
-author: windows-sdk-content
+
 description: Sets a fixed distance between two adjacent tab stops.
 old-location: directwrite\IDWriteTextFormat_SetIncrementalTabStop.htm
 tech.root: DirectWrite
 ms.assetid: dec68000-2172-4367-a22e-fbc3b3e84851
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetIncrementalTabStop method, IDWriteTextFormat.SetIncrementalTabStop, IDWriteTextFormat::SetIncrementalTabStop, SetIncrementalTabStop, SetIncrementalTabStop method [Direct Write], SetIncrementalTabStop method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetIncrementalTabStop, dwrite/IDWriteTextFormat::SetIncrementalTabStop
 ms.topic: method

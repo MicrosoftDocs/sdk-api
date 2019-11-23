@@ -1,12 +1,12 @@
 ---
 UID: NF:shdeprecated.ITravelLog.Travel
 title: ITravelLog::Travel (shdeprecated.h)
-author: windows-sdk-content
+
 description: Deprecated. Navigates to a travel entry in the travel log relative to the position of the current entry.
 old-location: shell\ITravelLog_Travel.htm
 tech.root: shell
 ms.assetid: eabe809a-dc02-40fc-9847-88df4cb53e44
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITravelLog interface [Windows Shell],Travel method, ITravelLog.Travel, ITravelLog::Travel, Travel, Travel method [Windows Shell], Travel method [Windows Shell],ITravelLog interface, shdeprecated/ITravelLog::Travel, shell.ITravelLog_Travel, zone_ITravelLog_Travel
 ms.topic: method

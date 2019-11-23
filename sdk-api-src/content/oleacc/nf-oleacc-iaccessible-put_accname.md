@@ -1,12 +1,12 @@
 ---
 UID: NF:oleacc.IAccessible.put_accName
 title: IAccessible::put_accName (oleacc.h)
-author: windows-sdk-content
+
 description: The IAccessible::put_accName method is no longer supported. Client applications should use a control-specific workaround, such as the SetWindowText function. Servers should return E_NOTIMPL.
 old-location: winauto\iaccessible_put_accname.htm
 tech.root: WinAuto
 ms.assetid: 562df006-cbde-407b-b539-f86cb3403a97
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],put_accName method, IAccessible.put_accName, IAccessible::put_accName, oleacc/IAccessible::put_accName, put_accName, put_accName method [Windows Accessibility], put_accName method [Windows Accessibility],IAccessible interface, winauto.iaccessible_put_accname
 ms.topic: method

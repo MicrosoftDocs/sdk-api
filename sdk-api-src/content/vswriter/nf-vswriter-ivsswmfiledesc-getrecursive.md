@@ -1,12 +1,12 @@
 ---
 UID: NF:vswriter.IVssWMFiledesc.GetRecursive
 title: IVssWMFiledesc::GetRecursive (vswriter.h)
-author: windows-sdk-content
+
 description: Indicates whether the list of files described in a IVssWMFiledesc object with a root directory returned by IVssWMFiledesc::GetPath contains only files in that directory.
 old-location: base\ivsswmfiledesc_getrecursive.htm
 tech.root: VSS
 ms.assetid: f467bd6f-997b-4d5f-87a4-727d9a84a222
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRecursive, GetRecursive method [VSS], GetRecursive method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetRecursive method, IVssWMFiledesc.GetRecursive, IVssWMFiledesc::GetRecursive, _win32_ivsswmfiledesc_getrecursive, base.ivsswmfiledesc_getrecursive, vswriter/IVssWMFiledesc::GetRecursive
 ms.topic: method

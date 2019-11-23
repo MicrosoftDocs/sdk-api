@@ -1,12 +1,12 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetIdealVideoSize
 title: IMFPMediaPlayer::GetIdealVideoSize (mfplay.h)
-author: windows-sdk-content
+
 description: Gets the range of video sizes that can be displayed without significantly degrading performance or image quality.
 old-location: mf\imfpmediaplayer_getidealvideosize.htm
 tech.root: medfound
 ms.assetid: e6835852-10f0-4453-a22a-a567457bd7c5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetIdealVideoSize, GetIdealVideoSize method [Media Foundation], GetIdealVideoSize method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetIdealVideoSize method, IMFPMediaPlayer.GetIdealVideoSize, IMFPMediaPlayer::GetIdealVideoSize, mf.imfpmediaplayer_getidealvideosize, mfplay/IMFPMediaPlayer::GetIdealVideoSize
 ms.topic: method

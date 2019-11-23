@@ -1,12 +1,12 @@
 ---
 UID: NS:magnification.tagMAGCOLOREFFECT
 title: MAGCOLOREFFECT (magnification.h)
-author: windows-sdk-content
+
 description: Describes a color transformation matrix that a magnifier control uses to apply a color effect to magnified screen content.
 old-location: magapi\magapi_magcoloreffect.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magcoloreffectstruct.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PMAGCOLOREFFECT, MAGCOLOREFFECT, MAGCOLOREFFECT structure [Magnification API], PMAGCOLOREFFECT, PMAGCOLOREFFECT structure pointer [Magnification API], magapi.magapi_magcoloreffect, magapi_magcoloreffect, magnification/MAGCOLOREFFECT, magnification/PMAGCOLOREFFECT"
 ms.topic: struct

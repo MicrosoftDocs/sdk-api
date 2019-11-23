@@ -1,12 +1,12 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetStreamTransparent
 title: IMixerPinConfig::SetStreamTransparent (mpconfig.h)
-author: windows-sdk-content
+
 description: The SetStreamTransparent method sets the stream to transparent.
 old-location: dshow\imixerpinconfig_setstreamtransparent.htm
 tech.root: DirectShow
 ms.assetid: d1f60a35-ffef-4ebb-b331-558772310bcb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetStreamTransparent method, IMixerPinConfig.SetStreamTransparent, IMixerPinConfig::SetStreamTransparent, IMixerPinConfigSetStreamTransparent, SetStreamTransparent, SetStreamTransparent method [DirectShow], SetStreamTransparent method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setstreamtransparent, mpconfig/IMixerPinConfig::SetStreamTransparent
 ms.topic: method

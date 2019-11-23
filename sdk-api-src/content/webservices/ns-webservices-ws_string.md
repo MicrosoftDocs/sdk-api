@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_STRING
 title: WS_STRING (webservices.h)
-author: windows-sdk-content
+
 description: An array of Unicode characters and a length.
 old-location: wsw\ws_string.htm
 tech.root: wsw
 ms.assetid: eb6c7397-6b15-4e79-89ec-585861113edf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_STRING, WS_STRING structure [Web Services for Windows], webservices/WS_STRING, wsw.ws_string
 ms.topic: struct

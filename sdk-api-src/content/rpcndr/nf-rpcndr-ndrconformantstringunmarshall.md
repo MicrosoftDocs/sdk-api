@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcndr.NdrConformantStringUnmarshall
 title: NdrConformantStringUnmarshall function (rpcndr.h)
-author: windows-sdk-content
+
 description: The NdrConformantStringUnmarshall function unmarshals the conformant string from the network buffer to memory.
 old-location: rpc\ndrconformantstringunmarshall.htm
 tech.root: Rpc
 ms.assetid: 3965e5aa-8695-4dd3-a75b-ee007ee3cccd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NdrConformantStringUnmarshall, NdrConformantStringUnmarshall function [RPC], rpc.ndrconformantstringunmarshall, rpcndr/NdrConformantStringUnmarshall
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:muiload.FreeMUILibrary
 title: FreeMUILibrary function (muiload.h)
-author: windows-sdk-content
+
 description: Releases the handle to a resource module loaded by LoadMUILibrary.
 old-location: intl\freemuilibrary.htm
 tech.root: Intl
 ms.assetid: 38a0d7cb-46a9-449b-8f7e-4c573e400e75
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FreeMUILibrary, FreeMUILibrary function [Internationalization for Windows Applications], _win32_FreeMUILibrary, intl.freemuilibrary, muiload/FreeMUILibrary
 ms.topic: function

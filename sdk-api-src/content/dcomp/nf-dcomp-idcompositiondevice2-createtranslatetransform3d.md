@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateTranslateTransform3D
 title: IDCompositionDevice2::CreateTranslateTransform3D (dcomp.h)
-author: windows-sdk-content
+
 description: Creates a 3D translation transform object.
 old-location: directcomp\idcompositiondevice2_createtranslatetransform3d.htm
 tech.root: directcomp
 ms.assetid: 7913D11B-5563-4921-B455-C34069AC7BCD
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateTranslateTransform3D, CreateTranslateTransform3D method [DirectComposition], CreateTranslateTransform3D method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateTranslateTransform3D method, IDCompositionDevice2.CreateTranslateTransform3D, IDCompositionDevice2::CreateTranslateTransform3D, dcomp/IDCompositionDevice2::CreateTranslateTransform3D, directcomp.idcompositiondevice2_createtranslatetransform3d
 ms.topic: method

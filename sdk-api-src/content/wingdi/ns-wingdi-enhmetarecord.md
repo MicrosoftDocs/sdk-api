@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagENHMETARECORD
 title: ENHMETARECORD (wingdi.h)
-author: windows-sdk-content
+
 description: The ENHMETARECORD structure contains data that describes a graphics device interface (GDI) function used to create part of a picture in an enhanced-format metafile.
 old-location: gdi\enhmetarecord.htm
 tech.root: gdi
 ms.assetid: efe49094-fe61-40e1-873e-3302c595717e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPENHMETARECORD, *PENHMETARECORD, ENHMETARECORD, ENHMETARECORD structure [Windows GDI], PENHMETARECORD, PENHMETARECORD structure pointer [Windows GDI], _win32_ENHMETARECORD_str, gdi.enhmetarecord, wingdi/ENHMETARECORD, wingdi/PENHMETARECORD"
 ms.topic: struct

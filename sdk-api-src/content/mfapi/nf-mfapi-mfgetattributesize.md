@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFGetAttributeSize
 title: MFGetAttributeSize function (mfapi.h)
-author: windows-sdk-content
+
 description: Retrieves an attribute whose value is a size, expressed as a width and height.
 old-location: mf\mfgetattributesize.htm
 tech.root: medfound
 ms.assetid: c74445b2-a2ec-4c77-a8bf-61a6b54cef75
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFGetAttributeSize, MFGetAttributeSize function [Media Foundation], c74445b2-a2ec-4c77-a8bf-61a6b54cef75, mf.mfgetattributesize, mfapi/MFGetAttributeSize
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateRect
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-author: windows-sdk-content
+
 description: Creates a new IPropertyValue object that contains the specified Rect value.
 old-location: winrt\ipropertyvaluestatics_createrect.htm
 tech.root: WinRT
 ms.assetid: 2938c3e0-6383-4136-99a6-c47a04c331f7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateRect, CreateRect method [Windows Runtime], CreateRect method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateRect method, IPropertyValueStatics.CreateRect, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateRect, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateRect, winrt.ipropertyvaluefactory_createrect, winrt.ipropertyvaluestatics_createrect
 ms.topic: method

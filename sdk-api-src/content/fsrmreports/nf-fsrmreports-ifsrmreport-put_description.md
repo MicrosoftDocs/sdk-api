@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.put_Description
 title: IFsrmReport::put_Description (fsrmreports.h)
-author: windows-sdk-content
+
 description: Retrieves or sets the description of the report.
 old-location: fsrm\ifsrmreport_description.htm
 tech.root: fsrm
 ms.assetid: b91a770d-8118-4a7e-adb5-36f6d59ea484
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],Description property, IFsrmReport.Description, IFsrmReport.put_Description, IFsrmReport::Description, IFsrmReport::get_Description, IFsrmReport::put_Description, fs.ifsrmreport_description, fsrm.ifsrmreport_description, fsrmreports/IFsrmReport::Description, fsrmreports/IFsrmReport::get_Description, fsrmreports/IFsrmReport::put_Description, put_Description
 ms.topic: method

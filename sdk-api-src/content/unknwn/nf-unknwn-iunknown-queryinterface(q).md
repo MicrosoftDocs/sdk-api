@@ -1,12 +1,12 @@
 ---
 UID: NF:unknwn.IUnknown.QueryInterface(Q)
 title: IUnknown::QueryInterface(Q,)
-author: windows-sdk-content
+
 description: A helper function template that infers an interface identifier, and calls [QueryInterface(REFIID,void)](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)).
 old-location: com\iunknown_queryinterface.htm
 tech.root: com
 ms.assetid: 54d5ff80-18db-43f2-b636-f93ac053146d
-ms.author: windowssdkdev
+
 ms.date: 05/31/2019
 ms.keywords: IUnknown interface [COM],QueryInterface method, IUnknown.QueryInterface, IUnknown.QueryInterface(Q,), IUnknown::QueryInterface, IUnknown::QueryInterface(Q,), QueryInterface, QueryInterface method [COM], QueryInterface method [COM],IUnknown interface, _com_iunknown_queryinterface, com.iunknown_queryinterface, unknwn/IUnknown::QueryInterface
 ms.topic: method

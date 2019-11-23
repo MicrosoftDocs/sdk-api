@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.GetGUIDDWORD
 title: ITfCategoryMgr::GetGUIDDWORD (msctf.h)
-author: windows-sdk-content
+
 description: ITfCategoryMgr::GetGUIDDWORD method
 old-location: tsf\itfcategorymgr_getguiddword.htm
 tech.root: TSF
 ms.assetid: 016d77b5-fc08-4d2b-a9c4-50ae7926a057
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGUIDDWORD, GetGUIDDWORD method [Text Services Framework], GetGUIDDWORD method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUIDDWORD method, ITfCategoryMgr.GetGUIDDWORD, ITfCategoryMgr::GetGUIDDWORD, _tsf_itfcategorymgr_getguiddword_ref, msctf/ITfCategoryMgr::GetGUIDDWORD, tsf.itfcategorymgr_getguiddword
 ms.topic: method

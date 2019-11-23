@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.Synchronize
 title: ISyncMgrHandler::Synchronize (syncmgr.h)
-author: windows-sdk-content
+
 description: Initiates a synchronization of a selection of the handler's sync items.
 old-location: shell\ISyncMgrHandler_Synchronize.htm
 tech.root: shell
 ms.assetid: 6742f6a8-eda8-4ef0-8a11-dc70baefcc83
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrHandler interface [Windows Shell],Synchronize method, ISyncMgrHandler.Synchronize, ISyncMgrHandler::Synchronize, Synchronize, Synchronize method [Windows Shell], Synchronize method [Windows Shell],ISyncMgrHandler interface, _shell_ISyncMgrHandler_Synchronize, shell.ISyncMgrHandler_Synchronize, syncmgr/ISyncMgrHandler::Synchronize
 ms.topic: method

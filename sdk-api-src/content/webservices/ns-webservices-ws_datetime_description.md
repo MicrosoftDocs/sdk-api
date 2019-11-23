@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_DATETIME_DESCRIPTION
 title: WS_DATETIME_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: This type description is used with WS_DATETIME_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_datetime_description.htm
 tech.root: wsw
 ms.assetid: f6a7094f-56c0-4d8e-9050-fe41c4a82bf4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_DATETIME_DESCRIPTION, WS_DATETIME_DESCRIPTION structure [Web Services for Windows], webservices/WS_DATETIME_DESCRIPTION, wsw.ws_datetime_description
 ms.topic: struct

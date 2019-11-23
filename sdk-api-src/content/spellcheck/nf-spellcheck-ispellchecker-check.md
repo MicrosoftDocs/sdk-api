@@ -1,12 +1,12 @@
 ---
 UID: NF:spellcheck.ISpellChecker.Check
 title: ISpellChecker::Check (spellcheck.h)
-author: windows-sdk-content
+
 description: Checks the spelling of the supplied text and returns a collection of spelling errors.
 old-location: intl\ispellchecker_check.htm
 tech.root: Intl
 ms.assetid: 687d7e2f-13b1-4871-8850-2b179a6ce786
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Check, Check method [Internationalization for Windows Applications], Check method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],Check method, ISpellChecker.Check, ISpellChecker::Check, intl.ispellchecker_check, spellcheck/ISpellChecker::Check
 ms.topic: method

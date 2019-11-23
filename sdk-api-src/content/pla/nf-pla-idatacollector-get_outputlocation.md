@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.IDataCollector.get_OutputLocation
 title: IDataCollector::get_OutputLocation (pla.h)
-author: windows-sdk-content
+
 description: Retrieves the decorated file name if PLA were to create it now.
 old-location: pla\idatacollector_outputlocation.htm
 tech.root: PLA
 ms.assetid: c5453d16-4aa4-4c25-bfc7-514693317473
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDataCollector interface [PLA],OutputLocation property, IDataCollector.OutputLocation, IDataCollector.get_OutputLocation, IDataCollector::OutputLocation, IDataCollector::get_OutputLocation, OutputLocation property [PLA], OutputLocation property [PLA],IDataCollector interface, base.idatacollector_outputlocation, get_OutputLocation, pla.idatacollector_outputlocation, pla/IDataCollector::OutputLocation, pla/IDataCollector::get_OutputLocation
 ms.topic: method

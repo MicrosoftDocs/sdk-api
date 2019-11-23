@@ -1,12 +1,12 @@
 ---
 UID: NC:winwlx.PWLX_DIALOG_BOX_INDIRECT
 title: PWLX_DIALOG_BOX_INDIRECT (winwlx.h)
-author: windows-sdk-content
+
 description: Called by GINA to create a modal dialog box from a dialog box template in memory.
 old-location: security\wlxdialogboxindirect.htm
 tech.root: SecAuthN
 ms.assetid: adace4e8-659e-4360-985d-d3daafdd3688
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PWLX_DIALOG_BOX_INDIRECT, PWLX_DIALOG_BOX_INDIRECT callback, WlxDialogBoxIndirect, WlxDialogBoxIndirect callback function [Security], _gina_wlxdialogboxindirect, security.wlxdialogboxindirect, winwlx/WlxDialogBoxIndirect
 ms.topic: callback

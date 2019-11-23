@@ -1,12 +1,12 @@
 ---
 UID: NN:shlobj_core.IACList
 title: IACList (shlobj_core.h)
-author: windows-sdk-content
+
 description: Exposes a method that improves the efficiency of autocompletion when the candidate strings are organized in a hierarchy.
 old-location: shell\IACList.htm
 tech.root: shell
 ms.assetid: 66513683-38ca-4b19-88d5-d14bf7ae73eb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IACList, IACList interface [Windows Shell], IACList interface [Windows Shell],described, _win32_IACList, shell.IACList, shlobj_core/IACList
 ms.topic: interface

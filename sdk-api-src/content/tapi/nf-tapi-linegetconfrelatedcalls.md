@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetConfRelatedCalls
 title: lineGetConfRelatedCalls function (tapi.h)
-author: windows-sdk-content
+
 description: The lineGetConfRelatedCalls function returns a list of call handles that are part of the same conference call as the specified call.
 old-location: tapi2\linegetconfrelatedcalls.htm
 tech.root: Tapi
 ms.assetid: 048bc4bc-511a-4666-a2ff-4fff5132ed2e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetconfrelatedcalls, lineGetConfRelatedCalls, lineGetConfRelatedCalls function [TAPI 2.2], tapi/lineGetConfRelatedCalls, tapi2.linegetconfrelatedcalls"
 ms.topic: function

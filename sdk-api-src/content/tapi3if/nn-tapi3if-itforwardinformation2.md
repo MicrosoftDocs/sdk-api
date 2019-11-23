@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3if.ITForwardInformation2
 title: ITForwardInformation2 (tapi3if.h)
-author: windows-sdk-content
+
 description: The ITForwardInformation2 interface exposes methods that provide additional methods for the control of forwarding information. See ITForwardInformation for the basic forwarding control methods.
 old-location: tapi3\itforwardinformation2.htm
 tech.root: Tapi
 ms.assetid: 25c99955-1a9d-49fa-9432-962e19296ad5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation2, ITForwardInformation2 interface [TAPI 2.2], ITForwardInformation2 interface [TAPI 2.2],described, _tapi3_itforwardinformation2, tapi3.itforwardinformation2, tapi3if/ITForwardInformation2
 ms.topic: interface

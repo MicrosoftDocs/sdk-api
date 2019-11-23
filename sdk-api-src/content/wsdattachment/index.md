@@ -1,7 +1,7 @@
 ---
 UID: NA:wsdattachment
 ms.assetid: 72724d5c-8b15-3e29-b82f-3121bb521659
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

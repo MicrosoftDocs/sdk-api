@@ -1,12 +1,12 @@
 ---
 UID: NS:directxcollision.BoundingOrientedBox
 title: BoundingOrientedBox
-author: windows-sdk-content
+
 description: An oriented bounding box object.
 old-location: dxmath\boundingorientedbox.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxmath.BoundingOrientedBox
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox, BoundingOrientedBox structure [DirectX Math Support APIs], directxcollision/BoundingOrientedBox, dxmath.boundingorientedbox
 ms.topic: struct

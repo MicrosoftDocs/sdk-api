@@ -1,12 +1,12 @@
 ---
 UID: NF:ntmsapi.BeginNtmsDeviceChangeDetection
 title: BeginNtmsDeviceChangeDetection function (ntmsapi.h)
-author: windows-sdk-content
+
 description: The BeginNtmsDeviceChangeDetection function allows the application to begin a device change detection session.
 old-location: fs\beginntmsdevicechangedetection.htm
 tech.root: Rsm
 ms.assetid: d325a10a-5bf9-4431-8a6a-a50c4cf46728
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BeginNtmsDeviceChangeDetection, BeginNtmsDeviceChangeDetection function [Files], _zaw_beginntmsdevicechangedetection, base.beginntmsdevicechangedetection, fs.beginntmsdevicechangedetection, ntmsapi/BeginNtmsDeviceChangeDetection
 ms.topic: function

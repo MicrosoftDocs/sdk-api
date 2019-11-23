@@ -1,12 +1,12 @@
 ---
 UID: NF:wdspxe.PxeDhcpInitialize
 title: PxeDhcpInitialize function (wdspxe.h)
-author: windows-sdk-content
+
 description: Initializes a response packet as a DHCP reply packet.
 old-location: wds\pxedhcpinitialize.htm
 tech.root: wds
 ms.assetid: b1bcd725-723c-47a3-a2b9-468f5f2e6596
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpInitialize, PxeDhcpInitialize function [Windows Deployment Services], wds.pxedhcpinitialize, wdspxe/PxeDhcpInitialize
 ms.topic: function

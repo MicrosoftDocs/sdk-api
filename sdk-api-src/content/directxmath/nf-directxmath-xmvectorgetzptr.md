@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorGetZPtr
 title: XMVectorGetZPtr function (directxmath.h)
-author: windows-sdk-content
+
 description: Retrieve the z component of an XMVECTOR Data Type containing floating-point data, and storing that component's value in an instance of float referred to by a pointer.
 old-location: dxmath\xmvectorgetzptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetZPtr(float@,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetZPtr, XMVectorGetZPtr, XMVectorGetZPtr method [DirectX Math Support APIs], dxmath.xmvectorgetzptr
 ms.topic: function

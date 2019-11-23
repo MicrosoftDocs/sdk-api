@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerIdentityGetCryptKey
 title: PeerIdentityGetCryptKey function (p2p.h)
-author: windows-sdk-content
+
 description: The PeerIdentityGetCryptKey function retrieves a handle to a cryptographic service provider (CSP).
 old-location: p2p\peeridentitygetcryptkey.htm
 tech.root: P2PSdk
 ms.assetid: 27a1b563-7bbe-4117-8bc3-19dd47360308
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityGetCryptKey, PeerIdentityGetCryptKey function [Peer Networking], p2p.peeridentitygetcryptkey, p2p/PeerIdentityGetCryptKey
 ms.topic: function

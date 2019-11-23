@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3D9.GetDeviceCaps
 title: IDirect3D9::GetDeviceCaps (d3d9helper.h)
-author: windows-sdk-content
+
 description: Retrieves device-specific information about a device.
 old-location: direct3d9\idirect3d9__getdevicecaps.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getdevicecaps.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 87e98d3f-7bf9-d2ba-4731-1b08cb375732, GetDeviceCaps, GetDeviceCaps method [Direct3D 9], GetDeviceCaps method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetDeviceCaps method, IDirect3D9.GetDeviceCaps, IDirect3D9::GetDeviceCaps, d3d9helper/IDirect3D9::GetDeviceCaps, direct3d9.idirect3d9__getdevicecaps
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymFindExecutableImage
 title: SymFindExecutableImage function (dbghelp.h)
-author: windows-sdk-content
+
 description: Locates an executable file in the process search path.
 old-location: base\symfindexecutableimage.htm
 tech.root: Debug
 ms.assetid: e81ff4bd-b9a0-4c90-86cb-67e721e2fd1b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SymFindExecutableImage, SymFindExecutableImage function, SymFindExecutableImageW, base.symfindexecutableimage, dbghelp/SymFindExecutableImage, dbghelp/SymFindExecutableImageW
 ms.topic: function

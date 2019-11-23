@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.ListView_GetSelectionMark
 title: ListView_GetSelectionMark macro (commctrl.h)
-author: windows-sdk-content
+
 description: Gets the selection mark from a list-view control. You can use this macro or explicitly send the LVM_GETSELECTIONMARK message.
 old-location: controls\ListView_GetSelectionMark.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectionmark.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ListView_GetSelectionMark, ListView_GetSelectionMark macro [Windows Controls], _win32_ListView_GetSelectionMark, _win32_ListView_GetSelectionMark_cpp, commctrl/ListView_GetSelectionMark, controls.ListView_GetSelectionMark, controls._win32_ListView_GetSelectionMark
 ms.topic: macro

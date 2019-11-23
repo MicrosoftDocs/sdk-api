@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationGridPattern
 title: IUIAutomationGridPattern (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Provides access to a control that acts as a container for a collection of child controls that are organized in a two-dimensional logical coordinate system that can be traversed by row and column.
 old-location: winauto\uiauto_IUIAutomationGridPattern.htm
 tech.root: WinAuto
 ms.assetid: 36a4893e-5f49-413c-a29a-e58291c7d057
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationGridPattern, IUIAutomationGridPattern interface [Windows Accessibility], IUIAutomationGridPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationGridPattern, uiauto_IUIAutomationGridPattern, uiautomationclient/IUIAutomationGridPattern, winauto.uiauto_IUIAutomationGridPattern
 ms.topic: interface

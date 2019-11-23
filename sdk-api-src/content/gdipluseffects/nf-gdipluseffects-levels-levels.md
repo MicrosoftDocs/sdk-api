@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluseffects.Levels.Levels
 title: Levels::Levels (gdipluseffects.h)
-author: windows-sdk-content
+
 description: Creates a Levels object.
 old-location: gdiplus\_gdiplus_CLASS_Levels_Levels_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsconstructors\levels.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Levels, Levels class [GDI+],Levels constructor, Levels constructor [GDI+], Levels constructor [GDI+],Levels class, Levels.Levels, Levels::Levels, _gdiplus_CLASS_Levels_Levels_, gdiplus._gdiplus_CLASS_Levels_Levels_
 ms.topic: method

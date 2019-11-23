@@ -1,11 +1,11 @@
 ---
 UID: NN:d3d12video.ID3D12VideoProcessCommandList
 title: ID3D12VideoProcessCommandList
-author: windows-sdk-content
+
 description: Encapsulates a list of graphics commands for video processing. 
 tech.root: mf
 ms.assetid: 6dab346e-f838-4881-b758-80cad037511b
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: interface
 f1_keywords:

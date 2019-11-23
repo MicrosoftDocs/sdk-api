@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_3.IDWriteAsyncResult
 title: IDWriteAsyncResult (dwrite_3.h)
-author: windows-sdk-content
+
 description: Represents the result of an asynchronous operation. A client can use the interface to wait for the operation to complete and to get the result.
 old-location: directwrite\idwriteasyncresult.htm
 tech.root: DirectWrite
 ms.assetid: 8F267213-EB98-4AD9-826A-7D4E34FEB3E4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteAsyncResult, IDWriteAsyncResult interface [Direct Write], IDWriteAsyncResult interface [Direct Write],described, directwrite.idwriteasyncresult, dwrite_3/IDWriteAsyncResult
 ms.topic: interface

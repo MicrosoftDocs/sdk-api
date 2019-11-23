@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.UpdateResourceA
 title: UpdateResourceA function (winbase.h)
-author: windows-sdk-content
+
 description: Adds, deletes, or replaces a resource in a portable executable (PE) file.
 old-location: menurc\updateresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\updateresource.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UpdateResource, UpdateResource function [Menus and Other Resources], UpdateResourceA, UpdateResourceW, _win32_UpdateResource, _win32_updateresource_cpp, menurc.updateresource, winbase/UpdateResource, winbase/UpdateResourceA, winbase/UpdateResourceW, winui._win32_updateresource
 ms.topic: function

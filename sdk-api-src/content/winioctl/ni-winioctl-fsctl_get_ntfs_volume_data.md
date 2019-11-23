@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_GET_NTFS_VOLUME_DATA
 title: FSCTL_GET_NTFS_VOLUME_DATA
-author: windows-sdk-content
+
 description: Retrieves information about the specified NTFS file system volume.
 old-location: fs\fsctl_get_ntfs_volume_data.htm
 tech.root: FileIO
 ms.assetid: b5690b4f-3967-41d8-bf11-70f8b1da79ad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_NTFS_VOLUME_DATA, FSCTL_GET_NTFS_VOLUME_DATA control, FSCTL_GET_NTFS_VOLUME_DATA control code [Files], _win32_fsctl_get_ntfs_volume_data, base.fsctl_get_ntfs_volume_data, fs.fsctl_get_ntfs_volume_data, winioctl/FSCTL_GET_NTFS_VOLUME_DATA
 ms.topic: ioctl

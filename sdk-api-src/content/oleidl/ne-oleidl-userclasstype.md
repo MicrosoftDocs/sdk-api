@@ -1,12 +1,12 @@
 ---
 UID: NE:oleidl.tagUSERCLASSTYPE
 title: USERCLASSTYPE (oleidl.h)
-author: windows-sdk-content
+
 description: Indicates the different variants of the display name associated with a class of objects.
 old-location: com\userclasstype.htm
 tech.root: com
 ms.assetid: f35dd18a-7fde-4954-8315-bc9bfd933827
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: USERCLASSTYPE, USERCLASSTYPE enumeration [COM], USERCLASSTYPE_APPNAME, USERCLASSTYPE_FULL, USERCLASSTYPE_SHORT, _ole_USERCLASSTYPE, com.userclasstype, oleidl/USERCLASSTYPE, oleidl/USERCLASSTYPE_APPNAME, oleidl/USERCLASSTYPE_FULL, oleidl/USERCLASSTYPE_SHORT
 ms.topic: enum

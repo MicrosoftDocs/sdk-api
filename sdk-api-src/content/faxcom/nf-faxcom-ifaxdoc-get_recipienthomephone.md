@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientHomePhone
 title: IFaxDoc::get_RecipientHomePhone (faxcom.h)
-author: windows-sdk-content
+
 description: Sets or retrieves the RecipientHomePhone property of a FaxDoc object. The RecipientHomePhone property is a null-terminated string that contains the home telephone number of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipienthomephone_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9m5h.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientHomePhone property, IFaxDoc.RecipientHomePhone, IFaxDoc.get_RecipientHomePhone, IFaxDoc::RecipientHomePhone, IFaxDoc::get_RecipientHomePhone, IFaxDoc::put_RecipientHomePhone, RecipientHomePhone property [Fax Service], RecipientHomePhone property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipienthomephone_cpp, faxcom/IFaxDoc::RecipientHomePhone, faxcom/IFaxDoc::get_RecipientHomePhone, faxcom/IFaxDoc::put_RecipientHomePhone, get_RecipientHomePhone
 ms.topic: method

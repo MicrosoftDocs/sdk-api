@@ -1,12 +1,12 @@
 ---
 UID: NF:wsdbase.WSDCreateHttpMessageParameters
 title: WSDCreateHttpMessageParameters function (wsdbase.h)
-author: windows-sdk-content
+
 description: Creates an IWSDHttpMessageParameters object.
 old-location: ncd\wsdcreatehttpmessageparameters.htm
 tech.root: WsdApi
 ms.assetid: 43797991-7a9c-42f8-bf64-655bde014487
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSDCreateHttpMessageParameters, WSDCreateHttpMessageParameters function, ncd.wsdcreatehttpmessageparameters, wsdbase/WSDCreateHttpMessageParameters
 ms.topic: function

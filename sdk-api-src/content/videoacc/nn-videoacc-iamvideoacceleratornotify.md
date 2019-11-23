@@ -1,12 +1,12 @@
 ---
 UID: NN:videoacc.IAMVideoAcceleratorNotify
 title: IAMVideoAcceleratorNotify (videoacc.h)
-author: windows-sdk-content
+
 description: The IAMVideoAcceleratorNotify interface is a callback interface used in conjunction with the IAMVideoAccelerator interface.
 old-location: dshow\iamvideoacceleratornotify.htm
 tech.root: DirectShow
 ms.assetid: 7fd0290c-8fd6-4af6-b510-7a87bc7937de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMVideoAcceleratorNotify, IAMVideoAcceleratorNotify interface [DirectShow], IAMVideoAcceleratorNotify interface [DirectShow],described, IAMVideoAcceleratorNotifyInterface, dshow.iamvideoacceleratornotify, videoacc/IAMVideoAcceleratorNotify
 ms.topic: interface

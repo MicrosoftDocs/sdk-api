@@ -1,12 +1,12 @@
 ---
 UID: NE:indexsrv.tagWORDREP_BREAK_TYPE
 title: WORDREP_BREAK_TYPE (indexsrv.h)
-author: windows-sdk-content
+
 description: Describes the type of break that separates the current word from the previous word.
 old-location: indexsrv\wordrep_break_type.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_12at.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WORDREP_BREAK_EOC, WORDREP_BREAK_EOP, WORDREP_BREAK_EOS, WORDREP_BREAK_EOW, WORDREP_BREAK_TYPE, WORDREP_BREAK_TYPE enumeration [Indexing Service], _idxs_WORDREP_BREAK_TYPE, indexsrv.wordrep_break_type, indexsrv/WORDREP_BREAK_EOC, indexsrv/WORDREP_BREAK_EOP, indexsrv/WORDREP_BREAK_EOS, indexsrv/WORDREP_BREAK_EOW, indexsrv/WORDREP_BREAK_TYPE
 ms.topic: enum

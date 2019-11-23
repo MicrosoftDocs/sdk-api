@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1_3.ID2D1Factory5
 title: ID2D1Factory5 (d2d1_3.h)
-author: windows-sdk-content
+
 description: Creates Direct2D resources. This interface also enables the creation of ID2D1Device4 objects.
 old-location: direct2d\id2d1factory5.htm
 tech.root: Direct2D
 ms.assetid: 6D6AA1F7-69AF-4B72-8352-DB443059FF34
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1Factory5, ID2D1Factory5 interface [Direct2D], ID2D1Factory5 interface [Direct2D],described, d2d1_3/ID2D1Factory5, direct2d.id2d1factory5
 ms.topic: interface

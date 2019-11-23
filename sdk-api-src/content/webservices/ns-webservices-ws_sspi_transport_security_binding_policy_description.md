@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION
 title: WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: This type description is used with template APIs to describe the templates generated accordingly to input policy setting.
 old-location: wsw\ws_sspi_transport_security_binding_policy_description.htm
 tech.root: wsw
 ms.assetid: aca1700b-1cdf-44b7-b3bf-02d30ba74aeb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION, WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_sspi_transport_security_binding_policy_description
 ms.topic: struct

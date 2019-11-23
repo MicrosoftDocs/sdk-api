@@ -1,7 +1,7 @@
 ---
 UID: NA:rtmv2
 ms.assetid: f4ff69dd-1b51-30ae-94a0-61610edf0d30
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

@@ -1,13 +1,13 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.AddSink
 title: IWMWriterAdvanced::AddSink (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The AddSink method adds a writer sink to receive writer output. The Windows Media Format SDK supports file sinks, which create ASF files on disk; network sinks, which stream ASF content across a network; and push sinks, which deliver ASF content to other media servers. To create a sink object, call one of the following functions:\_
 The AddSink method adds a writer sink to receive writer output. The Windows Media Format SDK supports file sinks, which create ASF files on disk; network sinks, which stream ASF content across a network; and push sinks, which deliver ASF content to other media servers. To create a sink object, call one of the following functions: New sinks must be added to the writer with this method before they can be used.
 old-location: wmformat\iwmwriteradvanced_addsink.htm
 tech.root: wmformat
 ms.assetid: 65763ac3-fba0-4de6-9c2e-4e241bbe5f13
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddSink, AddSink method [windows Media Format], AddSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],AddSink method, IWMWriterAdvanced.AddSink, IWMWriterAdvanced::AddSink, IWMWriterAdvancedAddSink, wmformat.iwmwriteradvanced_addsink, wmsdkidl/IWMWriterAdvanced::AddSink
 ms.topic: method

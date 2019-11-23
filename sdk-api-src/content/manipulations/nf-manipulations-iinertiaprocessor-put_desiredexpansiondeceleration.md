@@ -1,12 +1,12 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_DesiredExpansionDeceleration
 title: IInertiaProcessor::put_DesiredExpansionDeceleration (manipulations.h)
-author: windows-sdk-content
+
 description: The DesiredExpansionDeceleration property specifies the rate at which the object will stop expanding.
 old-location: wintouch\iinertiaprocessor_desiredexpansiondeceleration.htm
 tech.root: wintouch
 ms.assetid: b21d9aa8-0c86-45fe-9573-023929cf7faa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DesiredExpansionDeceleration property [Windows Touch], DesiredExpansionDeceleration property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredExpansionDeceleration property, IInertiaProcessor.DesiredExpansionDeceleration, IInertiaProcessor.put_DesiredExpansionDeceleration, IInertiaProcessor::DesiredExpansionDeceleration, IInertiaProcessor::get_DesiredExpansionDeceleration, IInertiaProcessor::put_DesiredExpansionDeceleration, manipulations/IInertiaProcessor::DesiredExpansionDeceleration, manipulations/IInertiaProcessor::get_DesiredExpansionDeceleration, manipulations/IInertiaProcessor::put_DesiredExpansionDeceleration, put_DesiredExpansionDeceleration, wintouch.iinertiaprocessor_desiredexpansiondeceleration
 ms.topic: method

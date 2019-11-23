@@ -1,12 +1,12 @@
 ---
 UID: NF:cluadmex.IGetClusterGroupInfo.GetGroupHandle
 title: IGetClusterGroupInfo::GetGroupHandle (cluadmex.h)
-author: windows-sdk-content
+
 description: Returns a handle to a group.
 old-location: mscs\igetclustergroupinfo_getgrouphandle.htm
 tech.root: MsCS
 ms.assetid: b578b3fa-9c3d-4f94-b35f-ba0fbe1fdd40
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGroupHandle, GetGroupHandle method [Failover Cluster], GetGroupHandle method [Failover Cluster],IGetClusterGroupInfo interface, IGetClusterGroupInfo interface [Failover Cluster],GetGroupHandle method, IGetClusterGroupInfo.GetGroupHandle, IGetClusterGroupInfo::GetGroupHandle, _wolf_igetclustergroupinfo_getgrouphandle, cluadmex/IGetClusterGroupInfo::GetGroupHandle, mscs.igetclustergroupinfo_getgrouphandle
 ms.topic: method

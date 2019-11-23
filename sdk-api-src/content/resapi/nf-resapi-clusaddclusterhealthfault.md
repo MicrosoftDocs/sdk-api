@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ClusAddClusterHealthFault
 title: ClusAddClusterHealthFault function (resapi.h)
-author: windows-sdk-content
+
 description: TBD.
 old-location: mscs\clusaddclusterhealthfault.htm
 tech.root: MsCS
 ms.assetid: 7240e9c9-a362-4de8-b0bd-aeadf53eb111
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClusAddClusterHealthFault, ClusAddClusterHealthFault function [Failover Cluster], mscs.clusaddclusterhealthfault, resapi/ClusAddClusterHealthFault
 ms.topic: function

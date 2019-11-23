@@ -1,12 +1,12 @@
 ---
 UID: NF:winsnmp.SnmpSetTranslateMode
 title: SnmpSetTranslateMode function (winsnmp.h)
-author: windows-sdk-content
+
 description: The WinSNMP SnmpSetTranslateMode function enables a WinSNMP application to change the entity and context translation mode. The entity and context translation mode affects the interpretation and return of WinSNMP input and output string parameters.
 old-location: snmp\snmpsettranslatemode.htm
 tech.root: SNMP
 ms.assetid: 8ee7e660-e718-40e6-adcd-1554eb7391d9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpSetTranslateMode, SnmpSetTranslateMode function [SNMP], _snmp_snmpsettranslatemode, snmp.snmpsettranslatemode, winsnmp/SnmpSetTranslateMode
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemBalloon
 title: ITfLangBarItemBalloon (ctfutb.h)
-author: windows-sdk-content
+
 description: The ITfLangBarItemBalloon interface is implemented by an application or text service and is used by the language bar manager to obtain information specific to a balloon item on the language bar.
 old-location: tsf\itflangbaritemballoon.htm
 tech.root: TSF
 ms.assetid: 619a6f21-fbac-455c-a702-0302ce13112b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBalloon, ITfLangBarItemBalloon interface [Text Services Framework], ITfLangBarItemBalloon interface [Text Services Framework],described, _tsf_itflangbaritemballoon_ref, ctfutb/ITfLangBarItemBalloon, tsf.itflangbaritemballoon
 ms.topic: interface

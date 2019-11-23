@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.midiInGetDevCapsW
 title: midiInGetDevCapsW function (mmeapi.h)
-author: windows-sdk-content
+
 description: The midiInGetDevCaps function determines the capabilities of a specified MIDI input device.
 old-location: multimedia\midiingetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: c3104427-69a9-434f-9f4e-780c96940c21
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiInGetDevCaps, midiInGetDevCaps, midiInGetDevCaps function [Windows Multimedia], midiInGetDevCapsA, midiInGetDevCapsW, mmeapi/midiInGetDevCaps, mmeapi/midiInGetDevCapsA, mmeapi/midiInGetDevCapsW, multimedia.midiingetdevcaps"
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.BeginProcess
 title: CXAPOParametersBase::BeginProcess (xapobase.h)
-author: windows-sdk-content
+
 description: Returns the current process parameters.
 old-location: xaudio2\cxapoparametersbase_beginprocess.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.BeginProcess
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BeginProcess, BeginProcess method [XAudio2 Audio Mixing APIs], BeginProcess method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],BeginProcess method, CXAPOParametersBase.BeginProcess, CXAPOParametersBase::BeginProcess, xapobase/CXAPOParametersBase::BeginProcess, xaudio2.cxapoparametersbase_beginprocess
 ms.topic: method

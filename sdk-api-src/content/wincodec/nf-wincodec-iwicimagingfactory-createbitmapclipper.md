@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapClipper
 title: IWICImagingFactory::CreateBitmapClipper (wincodec.h)
-author: windows-sdk-content
+
 description: Creates a new instance of an IWICBitmapClipper object.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapclipper.htm
 tech.root: wic
 ms.assetid: 0764fee2-0767-41a4-a681-b831abb04119
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapClipper, CreateBitmapClipper method [Windows Imaging Component], CreateBitmapClipper method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapClipper method, IWICImagingFactory.CreateBitmapClipper, IWICImagingFactory::CreateBitmapClipper, _wic_codec_iwicimagingfactory_createbitmapclipper, wic._wic_codec_iwicimagingfactory_createbitmapclipper, wincodec/IWICImagingFactory::CreateBitmapClipper
 ms.topic: method

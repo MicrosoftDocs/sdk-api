@@ -1,12 +1,12 @@
 ---
 UID: NE:dsrole._DSROLE_MACHINE_ROLE
 title: DSROLE_MACHINE_ROLE (dsrole.h)
-author: windows-sdk-content
+
 description: Used with the MachineRole member of the DSROLE_PRIMARY_DOMAIN_INFO_BASIC structure to specify the computer role.
 old-location: ad\dsrole_machine_role.htm
 tech.root: ad
 ms.assetid: d5255070-71dd-4510-8bec-a84726a241c6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DSROLE_MACHINE_ROLE, DSROLE_MACHINE_ROLE enumeration [Active Directory], DsRole_RoleBackupDomainController, DsRole_RoleMemberServer, DsRole_RoleMemberWorkstation, DsRole_RolePrimaryDomainController, DsRole_RoleStandaloneServer, DsRole_RoleStandaloneWorkstation, ad.dsrole_machine_role, dsrole/DSROLE_MACHINE_ROLE, dsrole/DsRole_RoleBackupDomainController, dsrole/DsRole_RoleMemberServer, dsrole/DsRole_RoleMemberWorkstation, dsrole/DsRole_RolePrimaryDomainController, dsrole/DsRole_RoleStandaloneServer, dsrole/DsRole_RoleStandaloneWorkstation
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NS:dhcpsapi._DHCP_POLICY
 title: DHCP_POLICY (dhcpsapi.h)
-author: windows-sdk-content
+
 description: The DHCP_POLICY structure defines a DHCP server policy.
 old-location: dhcp\dhcp_policy.htm
 tech.root: DHCP
 ms.assetid: 7e62d2f3-275a-45ab-baab-648fe135d0fc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_POLICY, *PDHCP_POLICY, DHCP_POLICY, DHCP_POLICY structure [DHCP], LPDHCP_POLICY, LPDHCP_POLICY structure pointer [DHCP], PDHCP_POLICY, PDHCP_POLICY structure pointer [DHCP], dhcp.dhcp_policy, dhcpsapi/DHCP_POLICY, dhcpsapi/LPDHCP_POLICY, dhcpsapi/PDHCP_POLICY'
 ms.topic: struct

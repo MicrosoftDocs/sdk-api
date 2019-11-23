@@ -1,12 +1,12 @@
 ---
 UID: NF:winnt._InlineInterlockedAdd64
 title: _InlineInterlockedAdd64 function (winnt.h)
-author: windows-sdk-content
+
 description: Performs an atomic addition operation on the specified LONGLONG values.
 old-location: base\interlockedadd64.htm
 tech.root: Sync
 ms.assetid: ab37292f-4291-4cca-826c-d6488e141db8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InterlockedAdd64, InterlockedAdd64 function, _InlineInterlockedAdd64, base.interlockedadd64, winnt/InterlockedAdd64
 ms.topic: function

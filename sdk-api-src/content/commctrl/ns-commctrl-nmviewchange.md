@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMVIEWCHANGE
 title: NMVIEWCHANGE (commctrl.h)
-author: windows-sdk-content
+
 description: Stores information required to process the MCN_VIEWCHANGE notification code.
 old-location: controls\NMVIEWCHANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmviewchange.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPNMVIEWCHANGE, LPNMVIEWCHANGE, LPNMVIEWCHANGE structure pointer [Windows Controls], MCMV_CENTURY, MCMV_DECADE, MCMV_MONTH, MCMV_YEAR, NMVIEWCHANGE, NMVIEWCHANGE structure [Windows Controls], _shell_NMVIEWCHANGE, _shell_NMVIEWCHANGE_cpp, commctrl/LPNMVIEWCHANGE, commctrl/NMVIEWCHANGE, controls.NMVIEWCHANGE, controls._shell_NMVIEWCHANGE'
 ms.topic: struct

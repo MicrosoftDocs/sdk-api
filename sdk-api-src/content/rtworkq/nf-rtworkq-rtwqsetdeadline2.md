@@ -1,12 +1,12 @@
 ---
 UID: NF:rtworkq.RtwqSetDeadline2
 title: RtwqSetDeadline2 function (rtworkq.h)
-author: windows-sdk-content
+
 description: Sets a deadline by which the work in a work queue must be completed.
 old-location: base\rtwqsetdeadline2.htm
 tech.root: ProcThread
 ms.assetid: A259C9D2-9700-4FE8-81D6-7AD14476AA9C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RtwqSetDeadline2, RtwqSetDeadline2 function, base.rtwqsetdeadline2, rtworkq/RtwqSetDeadline2
 ms.topic: function

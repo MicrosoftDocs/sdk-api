@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1effects_2.D2D1_STRAIGHTEN_PROP
 title: D2D1_STRAIGHTEN_PROP (d2d1effects_2.h)
-author: windows-sdk-content
+
 description: Identifiers for properties of the Straighten effect.
 old-location: direct2d\d2d1_straighten_prop.htm
 tech.root: Direct2D
 ms.assetid: AD22B649-E4FE-41BD-85FE-B000CCB7F48D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_STRAIGHTEN_PROP, D2D1_STRAIGHTEN_PROP enumeration [Direct2D], D2D1_STRAIGHTEN_PROP_ANGLE, D2D1_STRAIGHTEN_PROP_MAINTAIN_SIZE, D2D1_STRAIGHTEN_PROP_SCALE_MODE, d2d1effects_2/D2D1_STRAIGHTEN_PROP, d2d1effects_2/D2D1_STRAIGHTEN_PROP_ANGLE, d2d1effects_2/D2D1_STRAIGHTEN_PROP_MAINTAIN_SIZE, d2d1effects_2/D2D1_STRAIGHTEN_PROP_SCALE_MODE, direct2d.d2d1_straighten_prop
 ms.topic: enum

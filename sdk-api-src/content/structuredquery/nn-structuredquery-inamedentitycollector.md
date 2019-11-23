@@ -1,12 +1,12 @@
 ---
 UID: NN:structuredquery.INamedEntityCollector
 title: INamedEntityCollector (structuredquery.h)
-author: windows-sdk-content
+
 description: Provides a method to accumulate named entities as identified by an IConditionGenerator object.
 old-location: search\_search_INamedEntityCollector.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentitycollector\inamedentitycollector.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INamedEntityCollector, INamedEntityCollector interface [search], INamedEntityCollector interface [search],described, _search_INamedEntityCollector, search._search_INamedEntityCollector, structuredquery/INamedEntityCollector
 ms.topic: interface

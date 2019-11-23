@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_SenderOfficePhone
 title: IFaxDoc::get_SenderOfficePhone (faxcom.h)
-author: windows-sdk-content
+
 description: Sets or retrieves the SenderOfficePhone property of a FaxDoc object. The SenderOfficePhone property is a null-terminated string that contains the office telephone number of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderofficephone_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0mzp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderOfficePhone property, IFaxDoc.SenderOfficePhone, IFaxDoc.get_SenderOfficePhone, IFaxDoc::SenderOfficePhone, IFaxDoc::get_SenderOfficePhone, IFaxDoc::put_SenderOfficePhone, SenderOfficePhone property [Fax Service], SenderOfficePhone property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_senderofficephone, fax._mfax_ifaxdoc_get_senderofficephone, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderofficephone_cpp, faxcom/IFaxDoc::SenderOfficePhone, faxcom/IFaxDoc::get_SenderOfficePhone, faxcom/IFaxDoc::put_SenderOfficePhone, get_SenderOfficePhone
 ms.topic: method

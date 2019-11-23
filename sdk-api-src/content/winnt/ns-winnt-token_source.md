@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._TOKEN_SOURCE
 title: TOKEN_SOURCE (winnt.h)
-author: windows-sdk-content
+
 description: Identifies the source of an access token.
 old-location: security\token_source.htm
 tech.root: SecAuthZ
 ms.assetid: 9c533327-e4a0-4852-828c-622d190b7d1e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_SOURCE, PTOKEN_SOURCE, PTOKEN_SOURCE structure pointer [Security], TOKEN_SOURCE, TOKEN_SOURCE structure [Security], _TOKEN_SOURCE, _win32_token_source_str, security.token_source, winnt/PTOKEN_SOURCE, winnt/TOKEN_SOURCE'
 ms.topic: struct

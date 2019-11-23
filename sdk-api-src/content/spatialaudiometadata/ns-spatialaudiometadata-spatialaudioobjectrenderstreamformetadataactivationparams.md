@@ -1,12 +1,12 @@
 ---
 UID: NS:spatialaudiometadata.SpatialAudioObjectRenderStreamForMetadataActivationParams
 title: SpatialAudioObjectRenderStreamForMetadataActivationParams (spatialaudiometadata.h)
-author: windows-sdk-content
+
 description: Represents activation parameters for a spatial audio render stream for metadata. Pass this structure to ISpatialAudioClient::ActivateSpatialAudioStream when activating a stream.
 old-location: coreaudio\spatialaudioobjectrenderstreamformetadataactivationparams.htm
 tech.root: CoreAudio
 ms.assetid: 5B92F521-537F-4296-B9A7-7EC6985530B3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioObjectRenderStreamForMetadataActivationParams, PSpatialAudioObjectRenderStreamForMetadataActivationParams structure pointer [Core Audio], SpatialAudioObjectRenderStreamForMetadataActivationParams, SpatialAudioObjectRenderStreamForMetadataActivationParams structure [Core Audio], coreaudio.spatialaudioobjectrenderstreamformetadataactivationparams, spatialaudiometadata/PSpatialAudioObjectRenderStreamForMetadataActivationParams, spatialaudiometadata/SpatialAudioObjectRenderStreamForMetadataActivationParams
 ms.topic: struct

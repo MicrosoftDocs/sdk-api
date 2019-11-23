@@ -1,12 +1,12 @@
 ---
 UID: NF:tsvirtualchannels.IWTSPlugin.Initialize
 title: IWTSPlugin::Initialize (tsvirtualchannels.h)
-author: windows-sdk-content
+
 description: Used for the first call that is made from the client to the plug-in.
 old-location: termserv\iwtsplugin_initialize.htm
 tech.root: TermServ
 ms.assetid: 9216a069-4fd0-4e88-9cfa-050460b49906
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWTSPlugin interface [Remote Desktop Services],Initialize method, IWTSPlugin.Initialize, IWTSPlugin::Initialize, Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services],IWTSPlugin interface, termserv.iwtsplugin_initialize, tsvirtualchannels/IWTSPlugin::Initialize
 ms.topic: method

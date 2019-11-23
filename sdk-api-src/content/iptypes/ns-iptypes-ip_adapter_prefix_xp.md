@@ -1,12 +1,12 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_PREFIX_XP
 title: IP_ADAPTER_PREFIX_XP (iptypes.h)
-author: windows-sdk-content
+
 description: Stores an IP address prefix.
 old-location: iphlp\ip_adapter_prefix.htm
 tech.root: IpHlp
 ms.assetid: 680b412d-2352-421d-ae58-dcf34ee6cf31
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PIP_ADAPTER_PREFIX, *PIP_ADAPTER_PREFIX_XP, IP_ADAPTER_PREFIX, IP_ADAPTER_PREFIX structure [IP Helper], IP_ADAPTER_PREFIX_XP, PIP_ADAPTER_PREFIX, PIP_ADAPTER_PREFIX structure pointer [IP Helper], iphlp.ip_adapter_prefix, iptypes/IP_ADAPTER_PREFIX, iptypes/PIP_ADAPTER_PREFIX"
 ms.topic: struct

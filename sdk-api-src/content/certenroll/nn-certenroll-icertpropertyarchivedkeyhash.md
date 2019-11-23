@@ -1,12 +1,12 @@
 ---
 UID: NN:certenroll.ICertPropertyArchivedKeyHash
 title: ICertPropertyArchivedKeyHash (certenroll.h)
-author: windows-sdk-content
+
 description: Represents a SHA-1 hash of an encrypted private key submitted to a certification authority for archival.
 old-location: security\icertpropertyarchivedkeyhash.htm
 tech.root: seccertenroll
 ms.assetid: 06696346-b9d1-4229-991e-539862cff3c9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyArchivedKeyHash, ICertPropertyArchivedKeyHash interface [Security], ICertPropertyArchivedKeyHash interface [Security],described, certenroll/ICertPropertyArchivedKeyHash, security.icertpropertyarchivedkeyhash
 ms.topic: interface

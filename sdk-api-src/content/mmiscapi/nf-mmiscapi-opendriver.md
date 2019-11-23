@@ -1,12 +1,12 @@
 ---
 UID: NF:mmiscapi.OpenDriver
 title: OpenDriver function (mmiscapi.h)
-author: windows-sdk-content
+
 description: Opens an instance of an installable driver and initializes the instance using either the driver's default settings or a driver-specific value.
 old-location: multimedia\opendriver.htm
 tech.root: Multimedia
 ms.assetid: 882146f7-cd42-45fd-8a5f-7078b64c7ea8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OpenDriver, OpenDriver function [Windows Multimedia], _win32_OpenDriver, mmsystem/OpenDriver, multimedia.opendriver
 ms.topic: function

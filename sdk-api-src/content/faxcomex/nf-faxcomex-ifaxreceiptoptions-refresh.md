@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.Refresh
 title: IFaxReceiptOptions::Refresh (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxReceiptOptions::Refresh method refreshes FaxReceiptOptions object information from the fax server. When the IFaxReceiptOptions::Refresh method is called, any configuration changes made after the last IFaxReceiptOptions::Save method call are lost.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6xt4.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],Refresh method, IFaxReceiptOptions.Refresh, IFaxReceiptOptions::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.refresh, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_refresh_cpp, fax._mfax_faxreceiptoptions_refresh, faxcomex/IFaxReceiptOptions::Refresh
 ms.topic: method

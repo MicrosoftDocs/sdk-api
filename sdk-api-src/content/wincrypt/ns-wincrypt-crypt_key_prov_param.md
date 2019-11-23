@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CRYPT_KEY_PROV_PARAM
 title: CRYPT_KEY_PROV_PARAM (wincrypt.h)
-author: windows-sdk-content
+
 description: Contains information about a key container parameter.
 old-location: security\crypt_key_prov_param.htm
 tech.root: SecCrypto
 ms.assetid: 3731708f-0ce9-42bf-ace9-5ed671be113a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_KEY_PROV_PARAM, CRYPT_KEY_PROV_PARAM, CRYPT_KEY_PROV_PARAM structure [Security], PCRYPT_KEY_PROV_PARAM, PCRYPT_KEY_PROV_PARAM structure pointer [Security], _crypto2_crypt_key_prov_param, security.crypt_key_prov_param, wincrypt/CRYPT_KEY_PROV_PARAM, wincrypt/PCRYPT_KEY_PROV_PARAM'
 ms.topic: struct

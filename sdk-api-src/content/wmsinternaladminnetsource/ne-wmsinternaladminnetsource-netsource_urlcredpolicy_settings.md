@@ -1,12 +1,12 @@
 ---
 UID: NE:wmsinternaladminnetsource.NETSOURCE_URLCREDPOLICY_SETTINGS
 title: NETSOURCE_URLCREDPOLICY_SETTINGS (wmsinternaladminnetsource.h)
-author: windows-sdk-content
+
 description: The NETSOURCE_URLCREDPOLICY_SETTINGS enumeration type is used for an output parameter of IWMSInternalAdminNetSource2::GetCredentialsEx.
 old-location: wmformat\netsource_urlcredpolicy_settings.htm
 tech.root: wmformat
 ms.assetid: d4ffdbc8-123e-4cb4-bcc9-8d52c3362529
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NETSOURCE_URLCREDPOLICY_SETTINGS, NETSOURCE_URLCREDPOLICY_SETTINGS enumeration [windows Media Format], NETSOURCE_URLCREDPOLICY_SETTING_ANONYMOUSONLY, NETSOURCE_URLCREDPOLICY_SETTING_MUSTPROMPTUSER, NETSOURCE_URLCREDPOLICY_SETTING_SILENTLOGONOK, enumeration [windows Media Format], wmformat.netsource_urlcredpolicy_settings, wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTINGS, wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTING_ANONYMOUSONLY, wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTING_MUSTPROMPTUSER, wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTING_SILENTLOGONOK
 ms.topic: enum

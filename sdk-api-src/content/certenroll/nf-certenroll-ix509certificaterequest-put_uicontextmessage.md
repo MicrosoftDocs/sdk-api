@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.put_UIContextMessage
 title: IX509CertificateRequest::put_UIContextMessage (certenroll.h)
-author: windows-sdk-content
+
 description: Specifies or retrieves a context string to display in the user interface.
 old-location: security\ix509certificaterequest_uicontextmessage_property.htm
 tech.root: seccertenroll
 ms.assetid: 0eedb520-06c3-4106-8593-1c5fb0829d5e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],UIContextMessage property, IX509CertificateRequest.UIContextMessage, IX509CertificateRequest.put_UIContextMessage, IX509CertificateRequest::UIContextMessage, IX509CertificateRequest::get_UIContextMessage, IX509CertificateRequest::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::UIContextMessage, certenroll/IX509CertificateRequest::get_UIContextMessage, certenroll/IX509CertificateRequest::put_UIContextMessage, put_UIContextMessage, security.ix509certificaterequest_uicontextmessage_property
 ms.topic: method

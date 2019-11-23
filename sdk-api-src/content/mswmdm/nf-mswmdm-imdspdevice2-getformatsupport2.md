@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IMDSPDevice2.GetFormatSupport2
 title: IMDSPDevice2::GetFormatSupport2 (mswmdm.h)
-author: windows-sdk-content
+
 description: The GetFormatSupport2 method gets the formats supported by a device, including audio and video codecs, and MIME file formats.
 old-location: wmdm\imdspdevice2_getformatsupport2.htm
 tech.root: WMDM
 ms.assetid: 2b05575b-5a43-4c12-a216-1b9f55742b6c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFormatSupport2, GetFormatSupport2 method [windows Media Device Manager], GetFormatSupport2 method [windows Media Device Manager],IMDSPDevice2 interface, IMDSPDevice2 interface [windows Media Device Manager],GetFormatSupport2 method, IMDSPDevice2.GetFormatSupport2, IMDSPDevice2::GetFormatSupport2, IMDSPDevice2GetFormatSupport2, mswmdm/IMDSPDevice2::GetFormatSupport2, wmdm.imdspdevice2_getformatsupport2
 ms.topic: method

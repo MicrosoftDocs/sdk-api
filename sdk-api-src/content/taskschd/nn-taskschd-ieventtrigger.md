@@ -1,12 +1,12 @@
 ---
 UID: NN:taskschd.IEventTrigger
 title: IEventTrigger (taskschd.h)
-author: windows-sdk-content
+
 description: Represents a trigger that starts a task when a system event occurs.
 old-location: taskschd\ieventtrigger.htm
 tech.root: taskschd
 ms.assetid: 23b7ecb9-d2bb-441a-8c93-126c833f99b9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEventTrigger, IEventTrigger interface [Task Scheduler], IEventTrigger interface [Task Scheduler],described, event trigger [Task Scheduler],interface, taskschd.ieventtrigger, taskschd/IEventTrigger
 ms.topic: interface

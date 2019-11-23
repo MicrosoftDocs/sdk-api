@@ -1,12 +1,12 @@
 ---
 UID: NF:recapis.GetContextPropertyValue
 title: GetContextPropertyValue function (recapis.h)
-author: windows-sdk-content
+
 description: Returns a specified property value from the recognizer context.
 old-location: tablet\getcontextpropertyvalue.htm
 tech.root: tablet
 ms.assetid: e3f154ce-b4bf-4520-a4de-03cfe27ef9b0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetContextPropertyValue, GetContextPropertyValue function [Tablet PC], e3f154ce-b4bf-4520-a4de-03cfe27ef9b0, recapis/GetContextPropertyValue, tablet.getcontextpropertyvalue
 ms.topic: function

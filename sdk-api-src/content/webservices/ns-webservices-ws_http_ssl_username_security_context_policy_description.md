@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION
 title: WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: Describes the policy specifying security context message binding over http channel binding, with SSL transport security. The bootstrap channel uses http channel binding with SSL transport security and username/password message security.
 old-location: wsw\ws_http_ssl_username_security_context_policy_description.htm
 tech.root: wsw
 ms.assetid: 8bc6fb34-f4ac-4764-a270-9e97292c6c4c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, wsw.ws_http_ssl_username_security_context_policy_description
 ms.topic: struct

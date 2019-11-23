@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetClusterMetrics
 title: IDWriteTextLayout::GetClusterMetrics (dwrite.h)
-author: windows-sdk-content
+
 description: Retrieves logical properties and measurements of each glyph cluster.
 old-location: directwrite\IDWriteTextLayout_GetClusterMetrics.htm
 tech.root: DirectWrite
 ms.assetid: 3c8ca925-2149-48dc-a71a-4f6a40153c3e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClusterMetrics, GetClusterMetrics method [Direct Write], GetClusterMetrics method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetClusterMetrics method, IDWriteTextLayout.GetClusterMetrics, IDWriteTextLayout::GetClusterMetrics, directwrite.IDWriteTextLayout_GetClusterMetrics, dwrite/IDWriteTextLayout::GetClusterMetrics
 ms.topic: method

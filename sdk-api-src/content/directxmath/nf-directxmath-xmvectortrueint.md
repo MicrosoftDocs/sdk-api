@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorTrueInt
 title: XMVectorTrueInt function (directxmath.h)
-author: windows-sdk-content
+
 description: Returns a vector, each of whose components represents true (0xFFFFFFFF).
 old-location: dxmath\xmvectortrueint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorTrueInt
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorTrueInt, XMVectorTrueInt, XMVectorTrueInt method [DirectX Math Support APIs], dxmath.xmvectortrueint
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMFLOAT4X3.XMFLOAT4X3(const float)
 title: XMFLOAT4X3::XMFLOAT4X3(const float) (directxmath.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of the XMFLOAT4X3 structure from a twelve element float array.
 old-location: dxmath\xmfloat4x3_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4X3.#ctor(const float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X3, XMFLOAT4X3 constructor [DirectX Math Support APIs], XMFLOAT4X3 constructor [DirectX Math Support APIs],XMFLOAT4X3 structure, XMFLOAT4X3 structure [DirectX Math Support APIs],XMFLOAT4X3 constructor, XMFLOAT4X3.XMFLOAT4X3, XMFLOAT4X3.XMFLOAT4X3(const float), XMFLOAT4X3.XMFLOAT4X3(const float*), XMFLOAT4X3::XMFLOAT4X3, XMFLOAT4X3::XMFLOAT4X3(const float), dxmath.xmfloat4x3_ctor_3
 ms.topic: method

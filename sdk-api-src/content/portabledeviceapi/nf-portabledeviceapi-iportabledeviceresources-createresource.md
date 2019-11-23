@@ -1,12 +1,12 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceResources.CreateResource
 title: IPortableDeviceResources::CreateResource (portabledeviceapi.h)
-author: windows-sdk-content
+
 description: The CreateResource method creates a resource.
 old-location: wpdsdk\iportabledeviceresources_createresource.htm
 tech.root: wpd_sdk
 ms.assetid: 1daaa2cd-d3a7-44ea-b17d-717875ff748d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateResource, CreateResource method [Windows Portable Devices SDK], CreateResource method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],CreateResource method, IPortableDeviceResources.CreateResource, IPortableDeviceResources::CreateResource, IPortableDeviceResourcesCreateResource, portabledeviceapi/IPortableDeviceResources::CreateResource, wpdsdk.iportabledeviceresources_createresource
 ms.topic: method

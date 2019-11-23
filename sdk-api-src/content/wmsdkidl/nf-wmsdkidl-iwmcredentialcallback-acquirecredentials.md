@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMCredentialCallback.AcquireCredentials
 title: IWMCredentialCallback::AcquireCredentials (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The AcquireCredentials method acquires the credentials of the user, to verify that the user has permission to access a remote site.
 old-location: wmformat\iwmcredentialcallback_acquirecredentials.htm
 tech.root: wmformat
 ms.assetid: 5dce8281-b5d3-42cd-93f6-d76af0050a89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AcquireCredentials, AcquireCredentials method [windows Media Format], AcquireCredentials method [windows Media Format],IWMCredentialCallback interface, IWMCredentialCallback interface [windows Media Format],AcquireCredentials method, IWMCredentialCallback.AcquireCredentials, IWMCredentialCallback::AcquireCredentials, IWMCredentialCallbackAcquireCredentials, wmformat.iwmcredentialcallback_acquirecredentials, wmsdkidl/IWMCredentialCallback::AcquireCredentials
 ms.topic: method

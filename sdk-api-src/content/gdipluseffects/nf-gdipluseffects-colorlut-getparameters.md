@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluseffects.ColorLUT.GetParameters
 title: ColorLUT::GetParameters (gdipluseffects.h)
-author: windows-sdk-content
+
 description: The ColorLUT::GetParameters method gets the current values of the parameters of this ColorLUT object.
 old-location: gdiplus\_gdiplus_CLASS_ColorLUT_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlutclass\colorlutmethods\getparameters.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ColorLUT class [GDI+],GetParameters method, ColorLUT.GetParameters, ColorLUT::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],ColorLUT class, _gdiplus_CLASS_ColorLUT_GetParameters_, gdiplus._gdiplus_CLASS_ColorLUT_GetParameters_
 ms.topic: method

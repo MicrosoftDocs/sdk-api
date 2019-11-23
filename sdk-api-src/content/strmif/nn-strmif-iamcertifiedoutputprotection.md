@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IAMCertifiedOutputProtection
 title: IAMCertifiedOutputProtection (strmif.h)
-author: windows-sdk-content
+
 description: The IAMCertifiedOutputProtection interface sends Certified Output Protection Protocol (COPP) messages to the graphics driver.
 old-location: dshow\iamcertifiedoutputprotection.htm
 tech.root: DirectShow
 ms.assetid: e5da271d-9528-4bcb-8b76-56fbec2e5855
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection, IAMCertifiedOutputProtection interface [DirectShow], IAMCertifiedOutputProtection interface [DirectShow],described, IAMCertifiedOutputProtectionInterface, dshow.iamcertifiedoutputprotection, strmif/IAMCertifiedOutputProtection
 ms.topic: interface

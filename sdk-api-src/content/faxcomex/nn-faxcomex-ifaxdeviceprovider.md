@@ -1,12 +1,12 @@
 ---
 UID: NN:faxcomex.IFaxDeviceProvider
 title: IFaxDeviceProvider (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxDeviceProvider interface defines a configuration object used by a fax client application to retrieve information about a fax service provider (FSP) registered with the fax service.
 old-location: fax\_mfax_faxdeviceprovider_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1ub6_cpp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProvider, IFaxDeviceProvider interface [Fax Service], IFaxDeviceProvider interface [Fax Service],described, _mfax_faxdeviceprovider_cpp, fax._mfax_faxdeviceprovider_cpp, faxcomex/IFaxDeviceProvider
 ms.topic: interface

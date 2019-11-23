@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsControllerPort.SetStatus
 title: IVdsControllerPort::SetStatus (vdshwprv.h)
-author: windows-sdk-content
+
 description: Sets the status of a controller port to the specified value.
 old-location: base\ivdscontrollerport_setstatus.htm
 tech.root: VDS
 ms.assetid: 1338e1e7-80c8-409d-aa54-575618fd9797
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsControllerPort interface [VDS],SetStatus method, IVdsControllerPort.SetStatus, IVdsControllerPort::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_setstatus, vds/IVdsControllerPort::SetStatus, vdshwprv/IVdsControllerPort::SetStatus
 ms.topic: method

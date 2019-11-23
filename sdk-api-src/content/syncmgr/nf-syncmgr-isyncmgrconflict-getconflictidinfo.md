@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.GetConflictIdInfo
 title: ISyncMgrConflict::GetConflictIdInfo (syncmgr.h)
-author: windows-sdk-content
+
 description: Gets information that identifies a conflict within a conflict store.
 old-location: shell\ISyncMgrConflict_GetConflictIdInfo.htm
 tech.root: shell
 ms.assetid: 9686a6e5-5a0a-4520-803e-1660676d9f61
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetConflictIdInfo, GetConflictIdInfo method [Windows Shell], GetConflictIdInfo method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetConflictIdInfo method, ISyncMgrConflict.GetConflictIdInfo, ISyncMgrConflict::GetConflictIdInfo, _shell_ISyncMgrConflict_GetConflictIdInfo, shell.ISyncMgrConflict_GetConflictIdInfo, syncmgr/ISyncMgrConflict::GetConflictIdInfo
 ms.topic: method

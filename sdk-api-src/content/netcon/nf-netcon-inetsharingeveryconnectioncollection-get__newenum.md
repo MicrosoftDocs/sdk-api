@@ -1,12 +1,12 @@
 ---
 UID: NF:netcon.INetSharingEveryConnectionCollection.get__NewEnum
 title: INetSharingEveryConnectionCollection::get__NewEnum (netcon.h)
-author: windows-sdk-content
+
 description: The get__NewEnum method retrieves an enumerator for the connections collection.
 old-location: ics\inetsharingeveryconnectioncollection_get__newenum.htm
 tech.root: ics
 ms.assetid: 56d2877b-8e94-4e9a-8d84-5a0263ef825d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetSharingEveryConnectionCollection interface [ICS/ICF],get__NewEnum method, INetSharingEveryConnectionCollection.get__NewEnum, INetSharingEveryConnectionCollection::get__NewEnum, _ics_inetsharingeveryconnectioncollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingEveryConnectionCollection interface, ics.inetsharingeveryconnectioncollection_get__newenum, netcon/INetSharingEveryConnectionCollection::get__NewEnum
 ms.topic: method

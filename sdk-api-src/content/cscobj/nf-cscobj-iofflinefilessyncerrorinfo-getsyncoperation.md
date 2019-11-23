@@ -1,12 +1,12 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.GetSyncOperation
 title: IOfflineFilesSyncErrorInfo::GetSyncOperation (cscobj.h)
-author: windows-sdk-content
+
 description: Retrieves a value indicating the type of sync operation that was being performed when the error was encountered.
 old-location: of\iofflinefilessyncerrorinfo_getsyncoperation.htm
 tech.root: offlinefiles
 ms.assetid: 21973fb8-26f9-40a0-bb9a-d9c5ff6924e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSyncOperation, GetSyncOperation method [Offline Files], GetSyncOperation method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetSyncOperation method, IOfflineFilesSyncErrorInfo.GetSyncOperation, IOfflineFilesSyncErrorInfo::GetSyncOperation, cscobj/IOfflineFilesSyncErrorInfo::GetSyncOperation, of.iofflinefilessyncerrorinfo_getsyncoperation
 ms.topic: method

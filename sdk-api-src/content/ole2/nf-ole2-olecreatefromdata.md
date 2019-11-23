@@ -1,12 +1,12 @@
 ---
 UID: NF:ole2.OleCreateFromData
 title: OleCreateFromData function (ole2.h)
-author: windows-sdk-content
+
 description: Creates an embedded object from a data transfer object retrieved either from the clipboard or as part of an OLE drag-and-drop operation. It is intended to be used to implement a paste from an OLE drag-and-drop operation.
 old-location: com\olecreatefromdata.htm
 tech.root: com
 ms.assetid: aa5e997e-60d4-472d-9c81-5359c277bde3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleCreateFromData, OleCreateFromData function [COM], _ole_OleCreateFromData, com.olecreatefromdata, ole2/OleCreateFromData
 ms.topic: function

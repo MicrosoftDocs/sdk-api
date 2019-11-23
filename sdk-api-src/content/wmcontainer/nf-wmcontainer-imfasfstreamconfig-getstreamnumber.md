@@ -1,12 +1,12 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.GetStreamNumber
 title: IMFASFStreamConfig::GetStreamNumber (wmcontainer.h)
-author: windows-sdk-content
+
 description: Retrieves the stream number of the stream.
 old-location: mf\imfasfstreamconfig_getstreamnumber.htm
 tech.root: medfound
 ms.assetid: cc80fee6-e62c-4d38-9b83-8c7f21baf5b0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStreamNumber, GetStreamNumber method [Media Foundation], GetStreamNumber method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetStreamNumber method, IMFASFStreamConfig.GetStreamNumber, IMFASFStreamConfig::GetStreamNumber, cc80fee6-e62c-4d38-9b83-8c7f21baf5b0, mf.imfasfstreamconfig_getstreamnumber, wmcontainer/IMFASFStreamConfig::GetStreamNumber
 ms.topic: method

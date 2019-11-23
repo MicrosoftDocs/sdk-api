@@ -1,12 +1,12 @@
 ---
 UID: NC:mswsock.LPFN_RIORESIZECOMPLETIONQUEUE
 title: LPFN_RIORESIZECOMPLETIONQUEUE
-author: windows-sdk-content
+
 description: Resizes an I/O completion queue to be either larger or smaller for use with the Winsock registered I/O extensions.
 old-location: 
 tech.root: WinSock
 ms.assetid: C3C9A6CA-2C2E-4A5F-BDE7-635DF0B93B1A
-ms.author: windowssdkdev
+
 ms.date: 01/30/19
 ms.keywords: LPFN_RIORESIZECOMPLETIONQUEUE
 ms.topic: language-reference

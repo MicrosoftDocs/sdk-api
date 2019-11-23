@@ -1,12 +1,12 @@
 ---
 UID: NE:certenroll.PFXExportOptions
 title: PFXExportOptions (certenroll.h)
-author: windows-sdk-content
+
 description: Specifies how much of a certificate chain is included when creating a Personal Information Exchange (PFX) message.
 old-location: security\pfxexportoptions_enum.htm
 tech.root: seccertenroll
 ms.assetid: 72a3ac43-aebf-4801-9e36-23cf338b18ab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PFXExportChainNoRoot, PFXExportChainWithRoot, PFXExportEEOnly, PFXExportOptions, PFXExportOptions enumeration [Security], certenroll/PFXExportChainNoRoot, certenroll/PFXExportChainWithRoot, certenroll/PFXExportEEOnly, certenroll/PFXExportOptions, security.pfxexportoptions_enum
 ms.topic: enum

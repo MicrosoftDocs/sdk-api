@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.Wow64GetThreadContext
 title: Wow64GetThreadContext function (winbase.h)
-author: windows-sdk-content
+
 description: Retrieves the context of the specified WOW64 thread.
 old-location: base\wow64getthreadcontext.htm
 tech.root: Debug
 ms.assetid: 1bac28e1-3558-43c4-97e4-d8bb9514c38e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Wow64GetThreadContext, Wow64GetThreadContext function, base.wow64getthreadcontext, winbase/Wow64GetThreadContext
 ms.topic: function

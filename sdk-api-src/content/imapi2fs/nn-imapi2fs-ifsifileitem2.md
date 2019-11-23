@@ -1,12 +1,12 @@
 ---
 UID: NN:imapi2fs.IFsiFileItem2
 title: IFsiFileItem2 (imapi2fs.h)
-author: windows-sdk-content
+
 description: Use this interface to add, remove and enumerate named streams associated with a file. This interface also provides access to the 'Real-Time' attribute of a file.
 old-location: imapi\ifsifileitem2.htm
 tech.root: imapi
 ms.assetid: f35d1cd9-8a04-4c12-9af3-38f2c44b8c06
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2, IFsiFileItem2 interface [IMAPI], IFsiFileItem2 interface [IMAPI],described, imapi.ifsifileitem2, imapi2fs/IFsiFileItem2
 ms.topic: interface

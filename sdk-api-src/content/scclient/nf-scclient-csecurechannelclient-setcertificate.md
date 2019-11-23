@@ -1,12 +1,12 @@
 ---
 UID: NF:scclient.CSecureChannelClient.SetCertificate
 title: CSecureChannelClient::SetCertificate (scclient.h)
-author: windows-sdk-content
+
 description: The SetCertificate method specifies the certificate and private key of the secure authenticated channel (SAC) client.
 old-location: wmdm\csecurechannelclient_setcertificate.htm
 tech.root: WMDM
 ms.assetid: 58e8f428-f9b9-438b-8f92-e901537e1076
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],SetCertificate method, CSecureChannelClient.SetCertificate, CSecureChannelClient::SetCertificate, CSecureChannelClientSetCertificate, SetCertificate, SetCertificate method [windows Media Device Manager], SetCertificate method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::SetCertificate, wmdm.csecurechannelclient_setcertificate
 ms.topic: method

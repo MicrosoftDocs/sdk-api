@@ -1,12 +1,12 @@
 ---
 UID: NS:winbio_adapter._WINBIO_PIPELINE
 title: WINBIO_PIPELINE (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Contains shared context information used by the sensor, engine, and storage adapter components in a single biometric unit.
 old-location: secbiomet\winbio_pipeline.htm
 tech.root: SecBioMet
 ms.assetid: b5fc2b14-b0b6-4327-a42a-ecae41c3e12a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PWINBIO_PIPELINE, PWINBIO_PIPELINE, PWINBIO_PIPELINE structure pointer [Windows Biometric Framework API], WINBIO_PIPELINE, WINBIO_PIPELINE structure [Windows Biometric Framework API], secbiomet.winbio_pipeline, winbio_adapter/PWINBIO_PIPELINE, winbio_adapter/WINBIO_PIPELINE"
 ms.topic: struct

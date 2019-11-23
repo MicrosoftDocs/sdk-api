@@ -1,12 +1,12 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ScheduleDeleted
 title: IGuideDataEvent::ScheduleDeleted (bdatif.h)
-author: windows-sdk-content
+
 description: The ScheduleDeleted method is called when a schedule entry has been deleted.
 old-location: mstv\iguidedataevent_scheduledeleted.htm
 tech.root: mstv
 ms.assetid: 302c068e-4fab-4045-be9b-664902afd44c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ScheduleDeleted method, IGuideDataEvent.ScheduleDeleted, IGuideDataEvent::ScheduleDeleted, IGuideDataEventScheduleDeleted, ScheduleDeleted, ScheduleDeleted method [Microsoft TV Technologies], ScheduleDeleted method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ScheduleDeleted, mstv.iguidedataevent_scheduledeleted
 ms.topic: method

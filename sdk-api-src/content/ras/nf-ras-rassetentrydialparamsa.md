@@ -1,12 +1,12 @@
 ---
 UID: NF:ras.RasSetEntryDialParamsA
 title: RasSetEntryDialParamsA function (ras.h)
-author: windows-sdk-content
+
 description: The RasSetEntryDialParams function changes the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry.
 old-location: rras\rassetentrydialparams.htm
 tech.root: RRAS
 ms.assetid: e1acd68e-796e-49a2-8c7d-c0fd1a9764ef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RasSetEntryDialParams, RasSetEntryDialParams function [RAS], RasSetEntryDialParamsA, RasSetEntryDialParamsW, _ras_rassetentrydialparams, dwCallbackId, dwSize, dwSubEntry, ras/RasSetEntryDialParams, ras/RasSetEntryDialParamsA, ras/RasSetEntryDialParamsW, rras.rassetentrydialparams, szCallbackNumber, szDomain, szEntryName, szPassword, szPhoneNumber, szUserName
 ms.topic: function

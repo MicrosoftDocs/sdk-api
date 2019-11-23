@@ -1,12 +1,12 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_HANDLE_DESCRIPTOR_2
 title: MINIDUMP_HANDLE_DESCRIPTOR_2 (minidumpapiset.h)
-author: windows-sdk-content
+
 description: Describes the state of an individual system handle at the time the minidump was written.
 old-location: base\minidump_handle_descriptor_2.htm
 tech.root: Debug
 ms.assetid: c0678315-391c-4ce9-aa77-a88afccf79d9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_HANDLE_DESCRIPTOR_2, *PMINIDUMP_HANDLE_DESCRIPTOR_N, MINIDUMP_HANDLE_DESCRIPTOR_2, MINIDUMP_HANDLE_DESCRIPTOR_2 structure, MINIDUMP_HANDLE_DESCRIPTOR_N, PMINIDUMP_HANDLE_DESCRIPTOR_2, PMINIDUMP_HANDLE_DESCRIPTOR_2 structure pointer, _MINIDUMP_HANDLE_DESCRIPTOR_2, base.minidump_handle_descriptor_2, minidumpapiset/MINIDUMP_HANDLE_DESCRIPTOR_2, minidumpapiset/PMINIDUMP_HANDLE_DESCRIPTOR_2'
 ms.topic: struct

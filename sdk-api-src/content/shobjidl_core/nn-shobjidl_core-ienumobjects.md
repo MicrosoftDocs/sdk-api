@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IEnumObjects
 title: IEnumObjects (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Exposes methods to enumerate unknown objects.
 old-location: shell\IEnumObjects.htm
 tech.root: shell
 ms.assetid: 914f2a4d-a67a-45d9-96ee-d8cae7d08e3c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumObjects, IEnumObjects interface [Windows Shell], IEnumObjects interface [Windows Shell],described, _shell_IEnumObjects, shell.IEnumObjects, shobjidl_core/IEnumObjects
 ms.topic: interface

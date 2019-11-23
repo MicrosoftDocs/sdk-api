@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.SetSkipDuration
 title: IUIAnimationStoryboard2::SetSkipDuration (uianimation.h)
-author: windows-sdk-content
+
 description: Specifies an offset from the beginning of a storyboard at which to start animating.
 old-location: uianimation\iuianimationstoryboard2_setskipduration.htm
 tech.root: UIAnimation
 ms.assetid: 177623D7-5516-41EA-9014-61B150E527D9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetSkipDuration method, IUIAnimationStoryboard2.SetSkipDuration, IUIAnimationStoryboard2::SetSkipDuration, SetSkipDuration, SetSkipDuration method [Windows Animation], SetSkipDuration method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_setskipduration, uianimation/IUIAnimationStoryboard2::SetSkipDuration
 ms.topic: method

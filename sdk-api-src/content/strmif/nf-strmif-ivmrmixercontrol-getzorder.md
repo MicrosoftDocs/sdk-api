@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetZOrder
 title: IVMRMixerControl::GetZOrder (strmif.h)
-author: windows-sdk-content
+
 description: The GetZOrder method retrieves this video stream's position in the Z order.
 old-location: dshow\ivmrmixercontrol_getzorder.htm
 tech.root: DirectShow
 ms.assetid: 76f84c77-e528-4059-8f40-5e49db9ec567
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetZOrder, GetZOrder method [DirectShow], GetZOrder method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetZOrder method, IVMRMixerControl.GetZOrder, IVMRMixerControl::GetZOrder, IVMRMixerControlGetZOrder, dshow.ivmrmixercontrol_getzorder, strmif/IVMRMixerControl::GetZOrder
 ms.topic: method

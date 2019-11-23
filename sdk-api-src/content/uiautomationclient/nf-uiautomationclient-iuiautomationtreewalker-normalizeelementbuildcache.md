@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.NormalizeElementBuildCache
 title: IUIAutomationTreeWalker::NormalizeElementBuildCache (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the ancestor element nearest to the specified Microsoft UI Automation element in the tree view, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_NormalizeBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 62306545-1c5f-48ab-87c3-35bb6c3d94fa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTreeWalker interface [Windows Accessibility],NormalizeElementBuildCache method, IUIAutomationTreeWalker.NormalizeElementBuildCache, IUIAutomationTreeWalker::NormalizeElementBuildCache, NormalizeElementBuildCache, NormalizeElementBuildCache method [Windows Accessibility], NormalizeElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, uiauto.uiauto_IUIAutomationTreeWalker_NormalizeBuildCache, uiauto_IUIAutomationTreeWalker_NormalizeBuildCache, uiautomationclient/IUIAutomationTreeWalker::NormalizeElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_NormalizeBuildCache
 ms.topic: method

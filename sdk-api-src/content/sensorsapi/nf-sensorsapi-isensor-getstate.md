@@ -1,12 +1,12 @@
 ---
 UID: NF:sensorsapi.ISensor.GetState
 title: ISensor::GetState (sensorsapi.h)
-author: windows-sdk-content
+
 description: Retrieves the current operational state of the sensor.
 old-location: winsensors_com_ref\isensor_getstate.htm
 tech.root: SensorsAPI
 ms.assetid: ec8683a5-f2b3-48ce-8732-16429ee16a7f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method, GetState method,ISensor interface, ISensor interface,GetState method, ISensor.GetState, ISensor::GetState, sensorsapi/ISensor::GetState, winsensors_com_ref.isensor_getstate
 ms.topic: method

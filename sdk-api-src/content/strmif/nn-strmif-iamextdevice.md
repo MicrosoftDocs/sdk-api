@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IAMExtDevice
 title: IAMExtDevice (strmif.h)
-author: windows-sdk-content
+
 description: The IAMExtDevice interface controls an external device, such as a DV camera or video tape recoder (VTR).
 old-location: dshow\iamextdevice.htm
 tech.root: DirectShow
 ms.assetid: 0423e888-39d1-45cb-9bcf-722240a31fbd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], IAMExtDevice interface [DirectShow],described, IAMExtDeviceInterface, dshow.iamextdevice, strmif/IAMExtDevice
 ms.topic: interface

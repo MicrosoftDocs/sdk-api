@@ -1,12 +1,12 @@
 ---
 UID: NE:dxvahd._DXVAHD_DEVICE_USAGE
 title: DXVAHD_DEVICE_USAGE (dxvahd.h)
-author: windows-sdk-content
+
 description: Specifies the intended use for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_device_usage.htm
 tech.root: medfound
 ms.assetid: d071dea8-2bab-4768-bdbe-86af08a65dc5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_DEVICE_USAGE, DXVAHD_DEVICE_USAGE enumeration [Media Foundation], DXVAHD_DEVICE_USAGE_OPTIMAL_QUALITY, DXVAHD_DEVICE_USAGE_OPTIMAL_SPEED, DXVAHD_DEVICE_USAGE_PLAYBACK_NORMAL, dxvahd/DXVAHD_DEVICE_USAGE, dxvahd/DXVAHD_DEVICE_USAGE_OPTIMAL_QUALITY, dxvahd/DXVAHD_DEVICE_USAGE_OPTIMAL_SPEED, dxvahd/DXVAHD_DEVICE_USAGE_PLAYBACK_NORMAL, mf.dxvahd_device_usage
 ms.topic: enum

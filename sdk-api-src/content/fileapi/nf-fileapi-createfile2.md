@@ -1,12 +1,12 @@
 ---
 UID: NF:fileapi.CreateFile2
 title: CreateFile2 function (fileapi.h)
-author: windows-sdk-content
+
 description: Creates or opens a file or I/O device.
 old-location: fs\createfile2.htm
 tech.root: FileIO
 ms.assetid: cd7a81f3-60ee-443a-99f3-a4c8afd365e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile2, CreateFile2 function [Files], FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, TRUNCATE_EXISTING, fileapi/CreateFile2, fs.createfile2
 ms.topic: function

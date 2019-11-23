@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_EXPORT_SENSOR_DATA_FN
 title: PIBIO_SENSOR_EXPORT_SENSOR_DATA_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Retrieves the most recently captured biometric sample formatted as a standard WINBIO_BIR structure.
 old-location: secbiomet\sensoradapterexportsensordata.htm
 tech.root: SecBioMet
 ms.assetid: a6e45371-169b-42a8-9a53-dd7b2928a754
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_EXPORT_SENSOR_DATA_FN, PIBIO_SENSOR_EXPORT_SENSOR_DATA_FN callback, SensorAdapterExportSensorData, SensorAdapterExportSensorData callback function [Windows Biometric Framework API], secbiomet.sensoradapterexportsensordata, winbio_adapter/SensorAdapterExportSensorData
 ms.topic: callback

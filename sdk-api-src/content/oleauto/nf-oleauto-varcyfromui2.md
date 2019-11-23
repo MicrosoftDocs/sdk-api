@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarCyFromUI2
 title: VarCyFromUI2 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts an unsigned short value to a currency value.
 old-location: automat\varcyfromui2.htm
 tech.root: automat
 ms.assetid: e9e688f6-a4e6-4e18-b3e4-6d378d99dea1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarCyFromUI2, VarCyFromUI2 function [Automation], _oa96_VarCyFromUI2, automat.varcyfromui2, oleauto/VarCyFromUI2
 ms.topic: function

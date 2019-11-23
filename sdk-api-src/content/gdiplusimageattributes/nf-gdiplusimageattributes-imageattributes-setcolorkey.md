@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetColorKey
 title: ImageAttributes::SetColorKey (gdiplusimageattributes.h)
-author: windows-sdk-content
+
 description: The ImageAttributes::SetColorKey method sets the color key (transparency range) for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetColorKey_colorLow_colorHigh_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setcolorkey.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes class [GDI+],SetColorKey method, ImageAttributes.SetColorKey, ImageAttributes::SetColorKey, SetColorKey, SetColorKey method [GDI+], SetColorKey method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetColorKey_colorLow_colorHigh_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetColorKey_colorLow_colorHigh_type_
 ms.topic: method

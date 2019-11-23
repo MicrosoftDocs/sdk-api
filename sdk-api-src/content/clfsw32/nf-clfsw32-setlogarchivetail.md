@@ -1,12 +1,12 @@
 ---
 UID: NF:clfsw32.SetLogArchiveTail
 title: SetLogArchiveTail function (clfsw32.h)
-author: windows-sdk-content
+
 description: Sets the last archived log sequence number (LSN) or archive tail of an archivable log.
 old-location: fs\setlogarchivetail.htm
 tech.root: Clfs
 ms.assetid: 0cdd0b85-d53e-432d-962d-9e89143ec4c7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetLogArchiveTail, SetLogArchiveTail function [Files], clfsw32/SetLogArchiveTail, fs.setlogarchivetail
 ms.topic: function

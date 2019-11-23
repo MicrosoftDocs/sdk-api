@@ -1,12 +1,12 @@
 ---
 UID: NF:ntsecapi.LsaCallAuthenticationPackage
 title: LsaCallAuthenticationPackage function (ntsecapi.h)
-author: windows-sdk-content
+
 description: Used by a logon application to communicate with an authentication package.
 old-location: security\lsacallauthenticationpackage.htm
 tech.root: SecAuthN
 ms.assetid: b891fa60-28b3-4819-9a92-e4524677fa4f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LsaCallAuthenticationPackage, LsaCallAuthenticationPackage function [Security], _lsa_lsacallauthenticationpackage, ntsecapi/LsaCallAuthenticationPackage, security.lsacallauthenticationpackage
 ms.topic: function

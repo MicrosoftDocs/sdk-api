@@ -1,12 +1,12 @@
 ---
 UID: NF:ctffunc.ITfLMLattice.QueryType
 title: ITfLMLattice::QueryType (ctffunc.h)
-author: windows-sdk-content
+
 description: ITfLMLattice::QueryType method
 old-location: tsf\itflmlattice_querytype.htm
 tech.root: TSF
 ms.assetid: 199032f7-b97f-4475-9ce3-9af952e13f12
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfLMLattice interface [Text Services Framework],QueryType method, ITfLMLattice.QueryType, ITfLMLattice::QueryType, QueryType, QueryType method [Text Services Framework], QueryType method [Text Services Framework],ITfLMLattice interface, _tsf_itflmlattice_querytype_ref, ctffunc/ITfLMLattice::QueryType, tsf.itflmlattice_querytype
 ms.topic: method

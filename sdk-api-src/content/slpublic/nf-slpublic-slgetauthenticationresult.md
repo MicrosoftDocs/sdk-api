@@ -1,12 +1,12 @@
 ---
 UID: NF:slpublic.SLGetAuthenticationResult
 title: SLGetAuthenticationResult function (slpublic.h)
-author: windows-sdk-content
+
 description: Gets the authentication results.
 old-location: security\slgetauthenticationresult.htm
 tech.root: SecSLApi
 ms.assetid: 8f30ac28-92a0-41f5-b076-eda7014fb526
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SLGetAuthenticationResult, SLGetAuthenticationResult function [Security], security.slgetauthenticationresult, slpublic/SLGetAuthenticationResult
 ms.topic: function

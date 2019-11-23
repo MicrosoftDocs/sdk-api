@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.Intersects(const BoundingFrustum &)
 title: BoundingFrustum::Intersects(const BoundingFrustum &)
-author: windows-sdk-content
+
 description: Test the BoundingFrustum for intersection with another BoundingFrustum.
 old-location: dxmath\boundingfrustum_intersects_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.Intersects(BoundingFrustum)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],Intersects method, BoundingFrustum.Intersects, BoundingFrustum.Intersects(const BoundingFrustum &), BoundingFrustum.Intersects(const BoundingFrustum&), BoundingFrustum::Intersects, BoundingFrustum::Intersects(const BoundingFrustum &), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_intersects_1
 ms.topic: method

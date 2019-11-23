@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d12.ID3D12CommandAllocator
 title: ID3D12CommandAllocator (d3d12.h)
-author: windows-sdk-content
+
 description: Represents the allocations of storage for graphics processing unit (GPU) commands.
 old-location: direct3d12\id3d12commandallocator.htm
 tech.root: direct3d12
 ms.assetid: ADC494E6-1698-415D-90C5-F99FCD4C5309
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandAllocator, ID3D12CommandAllocator interface, ID3D12CommandAllocator interface,described, d3d12/ID3D12CommandAllocator, direct3d12.id3d12commandallocator
 ms.topic: interface

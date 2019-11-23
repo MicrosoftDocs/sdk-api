@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfRange.GetContext
 title: ITfRange::GetContext (msctf.h)
-author: windows-sdk-content
+
 description: ITfRange::GetContext method
 old-location: tsf\itfrange_getcontext.htm
 tech.root: TSF
 ms.assetid: c3ba1424-f6c9-41f1-b815-4c315bfba868
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [Text Services Framework], GetContext method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetContext method, ITfRange.GetContext, ITfRange::GetContext, _tsf_itfrange_getcontext_ref, msctf/ITfRange::GetContext, tsf.itfrange_getcontext
 ms.topic: method

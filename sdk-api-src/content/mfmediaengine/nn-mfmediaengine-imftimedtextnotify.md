@@ -1,12 +1,12 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextNotify
 title: IMFTimedTextNotify (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Interface that defines callbacks for Microsoft Media Foundation Timed Text notifications.
 old-location: mf\imftimedtextnotify.htm
 tech.root: medfound
 ms.assetid: FE782D90-8CD4-4F8B-A20E-CE3F792A2DB4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextNotify, IMFTimedTextNotify interface [Media Foundation], IMFTimedTextNotify interface [Media Foundation],described, mf.imftimedtextnotify, mfmediaengine/IMFTimedTextNotify
 ms.topic: interface

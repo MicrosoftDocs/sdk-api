@@ -1,12 +1,12 @@
 ---
 UID: NS:iads._ads_attr_def
 title: ADS_ATTR_DEF (iads.h)
-author: windows-sdk-content
+
 description: The ADS_ATTR_DEF structure is used only as a part of IDirectorySchemaMgmt, which is an obsolete interface.
 old-location: adsi\ads_attr_def.htm
 tech.root: adsi
 ms.assetid: 01cada92-e69a-40d4-a253-ad88c663fa92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PADS_ATTR_DEF, ADS_ATTR_DEF, ADS_ATTR_DEF structure [ADSI], PADS_ATTR_DEF, PADS_ATTR_DEF structure pointer [ADSI], _ds_ads_attr_def, adsi.ads__attr__def, adsi.ads_attr_def, iads/ADS_ATTR_DEF, iads/PADS_ATTR_DEF"
 ms.topic: struct

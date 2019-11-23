@@ -1,12 +1,12 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.GetName
 title: ICertEncodeCRLDistInfo::GetName (certenc.h)
-author: windows-sdk-content
+
 description: Returns the name at a specified index of a certificate revocation list (CRL) distribution information point.
 old-location: security\icertencodecrldistinfo_getname.htm
 tech.root: SecCrypto
 ms.assetid: a564af61-fb5e-46b7-a818-333b4d5e2f25
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],GetName method, GetName, GetName method [Security], GetName method [Security],CCertEncodeCRLDistInfo object, GetName method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetName method, ICertEncodeCRLDistInfo.GetName, ICertEncodeCRLDistInfo::GetName, _certsrv_icertencodecrldistinfo_getname, certenc/ICertEncodeCRLDistInfo::GetName, security.icertencodecrldistinfo_getname
 ms.topic: method

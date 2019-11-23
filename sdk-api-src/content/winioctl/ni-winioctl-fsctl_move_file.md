@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_MOVE_FILE
 title: FSCTL_MOVE_FILE
-author: windows-sdk-content
+
 description: Relocates one or more virtual clusters of a file from one logical cluster to another within the same volume. This operation is used during defragmentation.
 old-location: fs\fsctl_move_file.htm
 tech.root: FileIO
 ms.assetid: ab7f81ac-a962-4e86-b426-b0082d251645
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_MOVE_FILE, FSCTL_MOVE_FILE control, FSCTL_MOVE_FILE control code [Files], _win32_fsctl_move_file, base.fsctl_move_file, fs.fsctl_move_file, winioctl/FSCTL_MOVE_FILE
 ms.topic: ioctl

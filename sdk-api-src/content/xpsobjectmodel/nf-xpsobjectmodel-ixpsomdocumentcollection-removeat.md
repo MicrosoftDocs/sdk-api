@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.RemoveAt
 title: IXpsOMDocumentCollection::RemoveAt (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Removes and releases an IXpsOMDocument interface pointer from a specified location in the collection.
 old-location: xps\ixpsomdocumentcollection_removeat.htm
 tech.root: printdocs
 ms.assetid: e5e7d04c-c1da-4af7-9048-1a9b79ba4872
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMDocumentCollection.RemoveAt, IXpsOMDocumentCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, xps.ixpsomdocumentcollection_removeat, xpsobjectmodel/IXpsOMDocumentCollection::RemoveAt
 ms.topic: method

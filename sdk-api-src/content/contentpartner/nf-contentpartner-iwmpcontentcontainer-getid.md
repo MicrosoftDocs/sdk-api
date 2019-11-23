@@ -1,12 +1,12 @@
 ---
 UID: NF:contentpartner.IWMPContentContainer.GetID
 title: IWMPContentContainer::GetID (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetID method retrieves the ID of the album or list represented by the content container.
 old-location: wmp\iwmpcontentcontainer_getid.htm
 tech.root: WMP
 ms.assetid: b2b4a5f8-ba53-4914-b8ef-ba9b7b87c52f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method [Windows Media Player], GetID method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetID method, IWMPContentContainer.GetID, IWMPContentContainer::GetID, IWMPContentContainerGetID, contentpartner/IWMPContentContainer::GetID, wmp.iwmpcontentcontainer_getid
 ms.topic: method

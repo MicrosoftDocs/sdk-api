@@ -1,12 +1,12 @@
 ---
 UID: NF:interactioncontext.ProcessPointerFramesInteractionContext
 title: ProcessPointerFramesInteractionContext function (interactioncontext.h)
-author: windows-sdk-content
+
 description: Processes a set of pointer input frames.
 old-location: input_intcontext\processpointerframesinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 87e70ebf-ff54-4a90-8b28-1cfe6dc33e94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ProcessPointerFramesInteractionContext, ProcessPointerFramesInteractionContext function, input_intcontext.processpointerframesinteractioncontext, interactioncontext.processpointerframesinteractioncontext, interactioncontext/ProcessPointerFramesInteractionContext
 ms.topic: function

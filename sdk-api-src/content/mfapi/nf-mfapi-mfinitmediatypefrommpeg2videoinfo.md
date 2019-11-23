@@ -1,12 +1,12 @@
 ---
 UID: NF:mfapi.MFInitMediaTypeFromMPEG2VideoInfo
 title: MFInitMediaTypeFromMPEG2VideoInfo function (mfapi.h)
-author: windows-sdk-content
+
 description: Initializes a media type from a DirectShow MPEG2VIDEOINFO structure.
 old-location: mf\mfinitmediatypefrommpeg2videoinfo.htm
 tech.root: medfound
 ms.assetid: 44ad976e-2b15-454c-9422-26fc960e03aa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 44ad976e-2b15-454c-9422-26fc960e03aa, MFInitMediaTypeFromMPEG2VideoInfo, MFInitMediaTypeFromMPEG2VideoInfo function [Media Foundation], mf.mfinitmediatypefrommpeg2videoinfo, mfapi/MFInitMediaTypeFromMPEG2VideoInfo
 ms.topic: function

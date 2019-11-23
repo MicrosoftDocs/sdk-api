@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.DrawDibBegin
 title: DrawDibBegin function (vfw.h)
-author: windows-sdk-content
+
 description: The DrawDib function changes parameters of a DrawDib DC or initializes a new DrawDib DC.
 old-location: multimedia\drawdibbegin.htm
 tech.root: Multimedia
 ms.assetid: 89178e33-e440-49fe-9900-0baea229d289
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawDibBegin, DrawDibBegin function [Windows Multimedia], _win32_DrawDibBegin, multimedia.drawdibbegin, vfw/DrawDibBegin
 ms.topic: function

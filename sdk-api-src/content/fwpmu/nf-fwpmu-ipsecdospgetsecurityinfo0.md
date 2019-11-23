@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.IPsecDospGetSecurityInfo0
 title: IPsecDospGetSecurityInfo0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Retrieves a copy of the security descriptor for the IPsec DoS Protection database.
 old-location: fwp\ipsecdospgetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: 2d7b6c78-fb8e-42df-89cd-0693da6da113
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPsecDospGetSecurityInfo0, IPsecDospGetSecurityInfo0 function [Filtering], fwp.ipsecdospgetsecurityinfo0, fwpmu/IPsecDospGetSecurityInfo0
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:xenroll.IEnroll4.getCertContextFromFileResponseWStr
 title: IEnroll4::getCertContextFromFileResponseWStr (xenroll.h)
-author: windows-sdk-content
+
 description: Retrieves the certificate from a file containing a response from a certification authority.
 old-location: security\ienroll4_getcertcontextfromfileresponsewstr.htm
 tech.root: SecCrypto
 ms.assetid: 04a57bd4-4e04-41eb-97c9-87bfb51be645
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],getCertContextFromFileResponseWStr method, IEnroll4.getCertContextFromFileResponseWStr, IEnroll4::getCertContextFromFileResponseWStr, getCertContextFromFileResponseWStr, getCertContextFromFileResponseWStr method [Security], getCertContextFromFileResponseWStr method [Security],IEnroll4 interface, security.ienroll4_getcertcontextfromfileresponsewstr, xenroll/IEnroll4::getCertContextFromFileResponseWStr
 ms.topic: method

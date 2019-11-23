@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VariantClear
 title: VariantClear function (oleauto.h)
-author: windows-sdk-content
+
 description: Clears a variant.
 old-location: automat\variantclear.htm
 tech.root: automat
 ms.assetid: 28741d81-8404-4f85-95d3-5c209ec13835
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VariantClear, VariantClear function [Automation], _oa96_VariantClear, automat.variantclear, oleauto/VariantClear
 ms.topic: function

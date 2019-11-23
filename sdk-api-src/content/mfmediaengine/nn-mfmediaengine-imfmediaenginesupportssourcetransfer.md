@@ -1,12 +1,12 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineSupportsSourceTransfer
 title: IMFMediaEngineSupportsSourceTransfer (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Enables the media source to be transferred between the media engine and the sharing engine for Play To.
 old-location: mf\imfmediaenginesupportssourcetransfer.htm
 tech.root: medfound
 ms.assetid: 8784dcc2-52f4-41d9-a0ae-3ea7a736b604
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSupportsSourceTransfer, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation], IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],described, mf.imfmediaenginesupportssourcetransfer, mfmediaengine/IMFMediaEngineSupportsSourceTransfer
 ms.topic: interface

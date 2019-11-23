@@ -1,12 +1,12 @@
 ---
 UID: NS:wtsdefs._WTS_CACHE_STATS_UN
 title: WTS_CACHE_STATS_UN (wtsdefs.h)
-author: windows-sdk-content
+
 description: Contains cache statistics.
 old-location: termserv\wts_cache_stats_un.htm
 tech.root: TermServ
 ms.assetid: e6abb47e-248b-482d-9206-936092c391ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PWTS_CACHE_STATS_UN, PWRDS_CACHE_STATS_UN, PWRDS_CACHE_STATS_UN union pointer [Remote Desktop Services], PWTS_CACHE_STATS_UN, PWTS_CACHE_STATS_UN union pointer [Remote Desktop Services], WRDS_CACHE_STATS_UN, WRDS_CACHE_STATS_UN union [Remote Desktop Services], WTS_CACHE_STATS_UN, WTS_CACHE_STATS_UN union [Remote Desktop Services], termserv.wts_cache_stats_un, wtsdefs/PWRDS_CACHE_STATS_UN, wtsdefs/PWTS_CACHE_STATS_UN, wtsdefs/WRDS_CACHE_STATS_UN, wtsdefs/WTS_CACHE_STATS_UN'
 ms.topic: struct

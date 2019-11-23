@@ -1,12 +1,12 @@
 ---
 UID: NF:cfapi.CfGetTransferKey
 title: CfGetTransferKey function (cfapi.h)
-author: windows-sdk-content
+
 description: Initiates a transfer of data into a placeholder file or folder.
 old-location: cloudapi\cfgettransferkey.htm
 tech.root: cfApi
 ms.assetid: 07DDC46A-0C10-4677-A4B0-5A0406BBDAB7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CfGetTransferKey, CfGetTransferKey function, cfapi/CfGetTransferKey, cloudApi.cfgettransferkey
 ms.topic: function

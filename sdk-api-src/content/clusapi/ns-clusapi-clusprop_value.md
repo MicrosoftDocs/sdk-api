@@ -1,12 +1,12 @@
 ---
 UID: NS:clusapi.CLUSPROP_VALUE
 title: CLUSPROP_VALUE (clusapi.h)
-author: windows-sdk-content
+
 description: Describes the syntax and length of a data value used in a value list. The CLUSPROP_VALUE structure is used as a generic header in all of the structures that describe data of a particular type, such as CLUSPROP_BINARY and CLUSPROP_SZ.
 old-location: mscs\clusprop_value.htm
 tech.root: MsCS
 ms.assetid: a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSPROP_VALUE, CLUSPROP_VALUE, CLUSPROP_VALUE structure [Failover Cluster], PCLUSPROP_VALUE, PCLUSPROP_VALUE structure pointer [Failover Cluster], _wolf_clusprop_value, clusapi/CLUSPROP_VALUE, clusapi/PCLUSPROP_VALUE, mscs.clusprop_value"
 ms.topic: struct

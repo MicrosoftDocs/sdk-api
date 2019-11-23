@@ -1,12 +1,12 @@
 ---
 UID: NF:vswriter.CVssWriter.OnPostSnapshot
 title: CVssWriter::OnPostSnapshot (vswriter.h)
-author: windows-sdk-content
+
 description: The OnPostSnapshot method is called by a writer following a PostSnapshot event.
 old-location: base\cvsswriter_onpostsnapshot.htm
 tech.root: VSS
 ms.assetid: d97d4246-882e-49c3-a214-d8d3887c1508
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CVssWriter class [VSS],OnPostSnapshot method, CVssWriter.OnPostSnapshot, CVssWriter::OnPostSnapshot, OnPostSnapshot, OnPostSnapshot method [VSS], OnPostSnapshot method [VSS],CVssWriter class, _win32_cvsswriter_onpostsnapshot, base.cvsswriter_onpostsnapshot, vswriter/CVssWriter::OnPostSnapshot
 ms.topic: method

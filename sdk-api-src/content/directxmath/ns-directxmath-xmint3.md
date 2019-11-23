@@ -1,12 +1,12 @@
 ---
 UID: NS:directxmath.XMINT3
 title: XMINT3 (directxmath.h)
-author: windows-sdk-content
+
 description: A 3D vector where each component is a signed integer.
 old-location: dxmath\xmint3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMINT3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMINT3, XMINT3 structure [DirectX Math Support APIs], directxmath/XMINT3, dxmath.xmint3
 ms.topic: struct

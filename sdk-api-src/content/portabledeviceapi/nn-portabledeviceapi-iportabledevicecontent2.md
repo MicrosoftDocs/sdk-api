@@ -1,12 +1,12 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceContent2
 title: IPortableDeviceContent2 (portabledeviceapi.h)
-author: windows-sdk-content
+
 description: Defines additional methods that provide access to content found on a device.
 old-location: wpdsdk\iportabledevicecontent2.htm
 tech.root: wpd_sdk
 ms.assetid: 73bf9a24-7fdc-4483-ad37-28d887d146d9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceContent2, IPortableDeviceContent2 interface [Windows Portable Devices SDK], IPortableDeviceContent2 interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceContent2, wpdsdk.iportabledevicecontent2
 ms.topic: interface

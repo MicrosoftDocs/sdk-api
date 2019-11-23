@@ -1,12 +1,12 @@
 ---
 UID: NS:directxpackedvector.XMUDEC4
 title: XMUDEC4 (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A 4D vector with x-,y-, and z- components represented as 10 bit unsigned integer values, and the w-component as a 2 bit unsigned integer value.
 old-location: dxmath\xmudec4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUDEC4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMUDEC4, XMUDEC4 structure [DirectX Math Support APIs], directxpackedvector/XMUDEC4, dxmath.xmudec4
 ms.topic: struct

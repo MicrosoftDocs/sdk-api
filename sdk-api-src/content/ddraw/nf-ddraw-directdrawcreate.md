@@ -1,12 +1,12 @@
 ---
 UID: NF:ddraw.DirectDrawCreate
 title: DirectDrawCreate function (ddraw.h)
-author: windows-sdk-content
+
 description: Creates an instance of a DirectDraw object.
 old-location: directdraw\directdrawcreate.htm
 tech.root: directdraw
 ms.assetid: bad18493-417f-499d-a9a8-719d094be62a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DDCREATE_EMULATIONONLY, DDCREATE_HARDWAREONLY, DirectDrawCreate, DirectDrawCreate function [DirectDraw], ddraw/DirectDrawCreate, directdraw.directdrawcreate
 ms.topic: function

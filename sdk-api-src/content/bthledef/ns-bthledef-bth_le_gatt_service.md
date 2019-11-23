@@ -1,12 +1,12 @@
 ---
 UID: NS:bthledef._BTH_LE_GATT_SERVICE
 title: BTH_LE_GATT_SERVICE (bthledef.h)
-author: windows-sdk-content
+
 description: The BTH_LE_GATT_SERVICE structure describes a Bluetooth Low Energy (LE) generic attribute (GATT) profile service.
 old-location: bltooth\bth_le_gatt_service.htm
 tech.root: bltooth
 ms.assetid: B4433D0F-7938-4C6D-994F-D99393EC013A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PBTH_LE_GATT_SERVICE, BTH_LE_GATT_SERVICE, BTH_LE_GATT_SERVICE structure [Bluetooth Devices], PBTH_LE_GATT_SERVICE, PBTH_LE_GATT_SERVICE structure pointer [Bluetooth Devices], bltooth.bth_le_gatt_service, bthledef/BTH_LE_GATT_SERVICE, bthledef/PBTH_LE_GATT_SERVICE'
 ms.topic: struct

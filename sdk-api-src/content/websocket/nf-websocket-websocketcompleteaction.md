@@ -1,12 +1,12 @@
 ---
 UID: NF:websocket.WebSocketCompleteAction
 title: WebSocketCompleteAction function (websocket.h)
-author: windows-sdk-content
+
 description: Completes an action started by WebSocketGetAction.
 old-location: websock\websocketcompleteaction.htm
 tech.root: WebSock
 ms.assetid: e9b90176-c76f-42c2-b378-834a690bfe72
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WebSocketCompleteAction, WebSocketCompleteAction function [Websocket Protocol Component API], websock.websocketcompleteaction, websocket/WebSocketCompleteAction
 ms.topic: function

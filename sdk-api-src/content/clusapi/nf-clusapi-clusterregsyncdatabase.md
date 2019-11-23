@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.ClusterRegSyncDatabase
 title: ClusterRegSyncDatabase function (clusapi.h)
-author: windows-sdk-content
+
 description: Synchronizes the Cluster Database with a cluster.
 old-location: mscs\clusterregsyncdatabase.htm
 tech.root: MsCS
 ms.assetid: 90A66286-F17D-40AD-B0CB-6E02C1E1709A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClusterRegSyncDatabase, ClusterRegSyncDatabase function [Failover Cluster], PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, PCLUSAPI_CLUSTER_REG_SYNC_DATABASE function [Failover Cluster], clusapi/ClusterRegSyncDatabase, clusapi/PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, mscs.clusterregsyncdatabase
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:chstrarr.CHStringArray.SetAtGrow
 title: CHStringArray::SetAtGrow (chstrarr.h)
-author: windows-sdk-content
+
 description: Sets the array element at the specified index.
 old-location: wmi\chstringarray_setatgrow.htm
 tech.root: WmiSdk
 ms.assetid: 49cc7e6f-2d15-4756-bffd-e21f38b8ce8b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetAtGrow method, CHStringArray.SetAtGrow, CHStringArray::SetAtGrow, SetAtGrow, SetAtGrow method [Windows Management Instrumentation], SetAtGrow method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setatgrow, chstrarr/CHStringArray::SetAtGrow, wmi.chstringarray_setatgrow
 ms.topic: method

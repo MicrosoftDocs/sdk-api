@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMStoreUInt3
 title: XMStoreUInt3 function (directxmath.h)
-author: windows-sdk-content
+
 description: Stores unsigned integer data from an XMVECTOR in an XMUINT3 structure.
 old-location: dxmath\xmstoreuint3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUInt3(XMUINT3@,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreUInt3, XMStoreUInt3, XMStoreUInt3 method [DirectX Math Support APIs], dxmath.xmstoreuint3
 ms.topic: function

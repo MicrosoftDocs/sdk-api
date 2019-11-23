@@ -1,11 +1,11 @@
 ---
 UID: NF:shlobj.IFileViewerW.PrintTo
 title: IFileViewerW::PrintTo
-author: windows-sdk-content
+
 description: Prints a file.
 tech.root: shell
 ms.assetid: 4a8fd0ed-4a9a-47c7-a0ab-87cf82f507cb
-ms.author: windowssdkdev
+
 ms.date: 01/30/19
 ms.keywords: IFileViewerW::PrintTo
 ms.topic: language-reference

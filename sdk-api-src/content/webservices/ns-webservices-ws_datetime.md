@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_DATETIME
 title: WS_DATETIME (webservices.h)
-author: windows-sdk-content
+
 description: This structure is used to represent dates and times.
 old-location: wsw\ws_datetime.htm
 tech.root: wsw
 ms.assetid: 635f8e0b-f994-4500-85ad-dd74fb4a6c22
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_DATETIME, WS_DATETIME structure [Web Services for Windows], webservices/WS_DATETIME, wsw.ws_datetime
 ms.topic: struct

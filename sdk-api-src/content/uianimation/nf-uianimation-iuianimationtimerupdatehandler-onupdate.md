@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerUpdateHandler.OnUpdate
 title: IUIAnimationTimerUpdateHandler::OnUpdate (uianimation.h)
-author: windows-sdk-content
+
 description: Handles update events from the timer.
 old-location: uianimation\iuianimationtimerupdatehandler_onupdate.htm
 tech.root: UIAnimation
 ms.assetid: 06daa961-5f92-451f-958a-cf68f8ae2b0a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerUpdateHandler interface [Windows Animation],OnUpdate method, IUIAnimationTimerUpdateHandler.OnUpdate, IUIAnimationTimerUpdateHandler::OnUpdate, OnUpdate, OnUpdate method [Windows Animation], OnUpdate method [Windows Animation],IUIAnimationTimerUpdateHandler interface, uianimation.iuianimationtimerupdatehandler_onupdate, uianimation/IUIAnimationTimerUpdateHandler::OnUpdate
 ms.topic: method

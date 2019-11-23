@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.IEntity.Base
 title: IEntity::Base (structuredquery.h)
-author: windows-sdk-content
+
 description: Retrieves the parent entity of this entity.
 old-location: search\_search_IEntity_Base.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\base.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Base, Base method [search], Base method [search],IEntity interface, IEntity interface [search],Base method, IEntity.Base, IEntity::Base, _search_IEntity_Base, search._search_IEntity_Base, structuredquery/IEntity::Base
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.GetTime
 title: WBEMTimeSpan::GetTime (wbemtime.h)
-author: windows-sdk-content
+
 description: The GetTime method returns the time span as a 64-bit integer.
 old-location: wmi\wbemtimespan_gettime.htm
 tech.root: WmiSdk
 ms.assetid: 58ea0741-1927-4cbf-abfb-059e4490accc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [Windows Management Instrumentation], GetTime method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],GetTime method, WBEMTimeSpan.GetTime, WBEMTimeSpan::GetTime, _hmm_wbemtimespan_gettime, wbemtime/WBEMTimeSpan::GetTime, wmi.wbemtimespan_gettime
 ms.topic: method

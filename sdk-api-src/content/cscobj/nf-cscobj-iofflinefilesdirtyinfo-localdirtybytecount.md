@@ -1,12 +1,12 @@
 ---
 UID: NF:cscobj.IOfflineFilesDirtyInfo.LocalDirtyByteCount
 title: IOfflineFilesDirtyInfo::LocalDirtyByteCount (cscobj.h)
-author: windows-sdk-content
+
 description: Retrieves the amount of unsynchronized (&#0034;dirty&#0034;) data for the associated file in the local Offline Files cache.
 old-location: of\iofflinefilesdirtyinfo_localdirtybytecount.htm
 tech.root: offlinefiles
 ms.assetid: c261d5ac-5834-42c7-b644-4244db9d653e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesDirtyInfo interface [Offline Files],LocalDirtyByteCount method, IOfflineFilesDirtyInfo.LocalDirtyByteCount, IOfflineFilesDirtyInfo::LocalDirtyByteCount, LocalDirtyByteCount, LocalDirtyByteCount method [Offline Files], LocalDirtyByteCount method [Offline Files],IOfflineFilesDirtyInfo interface, cscobj/IOfflineFilesDirtyInfo::LocalDirtyByteCount, of.iofflinefilesdirtyinfo_localdirtybytecount
 ms.topic: method

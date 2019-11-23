@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IInputObject2.TranslateAcceleratorGlobal
 title: IInputObject2::TranslateAcceleratorGlobal (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Handles global accelerators so that input objects can respond to the keyboard even when they are not active in the UI.
 old-location: shell\IInputObject2_TranslateAcceleratorGlobal.htm
 tech.root: shell
 ms.assetid: f55f2671-7164-421e-9269-aa70e85180de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInputObject2 interface [Windows Shell],TranslateAcceleratorGlobal method, IInputObject2.TranslateAcceleratorGlobal, IInputObject2::TranslateAcceleratorGlobal, TranslateAcceleratorGlobal, TranslateAcceleratorGlobal method [Windows Shell], TranslateAcceleratorGlobal method [Windows Shell],IInputObject2 interface, _shell_IInputObject2_TranslateAcceleratorGlobal, shell.IInputObject2_TranslateAcceleratorGlobal, shobjidl_core/IInputObject2::TranslateAcceleratorGlobal
 ms.topic: method

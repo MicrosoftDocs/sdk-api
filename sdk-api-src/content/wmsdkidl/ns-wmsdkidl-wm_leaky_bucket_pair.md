@@ -1,12 +1,12 @@
 ---
 UID: NS:wmsdkidl._WMLeakyBucketPair
 title: WM_LEAKY_BUCKET_PAIR (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The WM_LEAKY_BUCKET_PAIR structure describes the buffering requirements for a VBR file. This structure is used with the ASFLeakyBucketPairs attribute.
 old-location: wmformat\wm_leaky_bucket_pair.htm
 tech.root: wmformat
 ms.assetid: 8fada83d-cb66-4411-9ff5-0eb4c02a3b5f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WM_LEAKY_BUCKET_PAIR, WM_LEAKY_BUCKET_PAIR structure [windows Media Format], wmformat.wm_leaky_bucket_pair, wmsdkidl/WM_LEAKY_BUCKET_PAIR
 ms.topic: struct

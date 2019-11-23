@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1SourceTransform
 title: ID2D1SourceTransform (d2d1effectauthor.h)
-author: windows-sdk-content
+
 description: Represents a CPU-based rasterization stage in the transform pipeline graph.
 old-location: direct2d\id2d1sourcetransform.htm
 tech.root: Direct2D
 ms.assetid: A2B3E8E1-8F7F-4AFA-B1CE-5E8A5FCD9B70
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1SourceTransform, ID2D1SourceTransform interface [Direct2D], ID2D1SourceTransform interface [Direct2D],described, d2d1effectauthor/ID2D1SourceTransform, direct2d.id2d1sourcetransform
 ms.topic: interface

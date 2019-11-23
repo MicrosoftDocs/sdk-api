@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectDefaultAudioLanguage
 title: IDvdControl2::SelectDefaultAudioLanguage (strmif.h)
-author: windows-sdk-content
+
 description: The SelectDefaultAudioLanguage method sets the default audio language.
 old-location: dshow\idvdcontrol2_selectdefaultaudiolanguage.htm
 tech.root: DirectShow
 ms.assetid: 1f5cf846-6f14-4c17-bd01-6a8ecb46fdab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectDefaultAudioLanguage method, IDvdControl2.SelectDefaultAudioLanguage, IDvdControl2::SelectDefaultAudioLanguage, IDvdControl2SelectDefaultAudioLanguage, SelectDefaultAudioLanguage, SelectDefaultAudioLanguage method [DirectShow], SelectDefaultAudioLanguage method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectdefaultaudiolanguage, strmif/IDvdControl2::SelectDefaultAudioLanguage
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:slpublic.SLGetGenuineInformationEx
 title: SLGetGenuineInformationEx function (slpublic.h)
-author: windows-sdk-content
+
 description: Specifies information about the genuine status of a Windows computer.
 old-location: security\slgetgenuineinformationex.htm
 tech.root: SecSLApi
 ms.assetid: 229fd8f2-ec8c-4f34-a492-caf18e036b70
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SLGetGenuineInformationEx, SLGetGenuineInformationEx function [Security], security.slgetgenuineinformationex, slpublic/SLGetGenuineInformationEx
 ms.topic: function

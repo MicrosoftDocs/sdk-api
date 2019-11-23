@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymEnumerateModules64
 title: SymEnumerateModules64 function (dbghelp.h)
-author: windows-sdk-content
+
 description: Enumerates all modules that have been loaded for the process by the SymLoadModule64 or SymLoadModuleEx function.
 old-location: base\symenumeratemodules64.htm
 tech.root: Debug
 ms.assetid: d2372521-eff7-4ac4-a0f3-1267ef50db6e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SymEnumerateModules, SymEnumerateModules function, SymEnumerateModules64, SymEnumerateModules64 function, SymEnumerateModulesW64, _win32_symenumeratemodules64, base.symenumeratemodules64, dbghelp/SymEnumerateModules, dbghelp/SymEnumerateModules64, dbghelp/SymEnumerateModulesW64
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl.IFileDialogControlEvents.OnControlActivating
 title: IFileDialogControlEvents::OnControlActivating (shobjidl.h)
-author: windows-sdk-content
+
 description: Called when an Open button drop-down list customized through EnableOpenDropDown or a Tools menu is about to display its contents.
 old-location: shell\IFileDialogControlEvents_OnControlActivating.htm
 tech.root: shell
 ms.assetid: 12efb183-65b9-4095-be57-7c7802bda2ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnControlActivating method, IFileDialogControlEvents.OnControlActivating, IFileDialogControlEvents::OnControlActivating, OnControlActivating, OnControlActivating method [Windows Shell], OnControlActivating method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnControlActivating, shell_IFileDialogControlEvents_OnControlActivating, shobjidl/IFileDialogControlEvents::OnControlActivating
 ms.topic: method

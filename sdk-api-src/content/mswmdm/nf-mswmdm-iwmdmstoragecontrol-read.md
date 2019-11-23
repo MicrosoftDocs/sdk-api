@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Read
 title: IWMDMStorageControl::Read (mswmdm.h)
-author: windows-sdk-content
+
 description: The Read method copies the current storage to the computer.
 old-location: wmdm\iwmdmstoragecontrol_read.htm
 tech.root: WMDM
 ms.assetid: 4b102666-b54b-4b60-b2e9-68def384268e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Read method, IWMDMStorageControl.Read, IWMDMStorageControl::Read, IWMDMStorageControlRead, Read, Read method [windows Media Device Manager], Read method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Read, wmdm.iwmdmstoragecontrol_read
 ms.topic: method

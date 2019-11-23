@@ -1,12 +1,12 @@
 ---
 UID: NF:dwmapi.DwmEnableMMCSS
 title: DwmEnableMMCSS function (dwmapi.h)
-author: windows-sdk-content
+
 description: Notifies the Desktop Window Manager (DWM) to opt in to or out of Multimedia Class Schedule Service (MMCSS) scheduling while the calling process is alive.
 old-location: dwm\dwmenablemmcss.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmenablemmcss.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DwmEnableMMCSS, DwmEnableMMCSS function [Desktop Window Manager], _udwm_dwmenablemmcss, _udwm_dwmenablemmcss_cpp, dwm.dwmenablemmcss, dwmapi/DwmEnableMMCSS, winui._udwm_dwmenablemmcss
 ms.topic: function

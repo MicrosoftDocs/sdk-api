@@ -1,12 +1,12 @@
 ---
 UID: NF:dpa_dsa.DPA_Clone
 title: DPA_Clone function (dpa_dsa.h)
-author: windows-sdk-content
+
 description: Duplicates a dynamic pointer array (DPA).
 old-location: controls\DPA_Clone.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_clone.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DPA_Clone, DPA_Clone function [Windows Controls], _shell_DPA_Clone, _shell_DPA_Clone_cpp, controls.DPA_Clone, controls._shell_DPA_Clone, dpa_dsa/DPA_Clone
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NE:searchapi._SEARCH_TERM_EXPANSION
 title: SEARCH_TERM_EXPANSION (searchapi.h)
-author: windows-sdk-content
+
 description: Indicates wildcard options on search terms. Used by ISearchQueryHelper::get_QueryTermExpansion and ISearchQueryHelper::put_QueryTermExpansion methods.
 old-location: search\_search_SEARCH_TERM_EXPANSION.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_term_expansion.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SEARCH_TERM_EXPANSION, SEARCH_TERM_EXPANSION enumeration [search], SEARCH_TERM_NO_EXPANSION, SEARCH_TERM_PREFIX_ALL, SEARCH_TERM_STEM_ALL, _search_SEARCH_TERM_EXPANSION, search._search_SEARCH_TERM_EXPANSION, searchapi/SEARCH_TERM_EXPANSION, searchapi/SEARCH_TERM_NO_EXPANSION, searchapi/SEARCH_TERM_PREFIX_ALL, searchapi/SEARCH_TERM_STEM_ALL
 ms.topic: enum

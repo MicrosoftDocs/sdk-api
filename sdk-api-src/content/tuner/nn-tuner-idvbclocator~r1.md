@@ -1,11 +1,11 @@
 ---
 UID: NN:tuner.IDVBCLocator~r1
 title: IDVBCLocator
-author: windows-sdk-content
+
 description: TBD
 tech.root:
 ms.assetid: 8e26394f-6534-45d3-8918-01b4c0408f9a
-ms.author: windowssdkdev
+
 ms.date: 11/14/2019
 ms.topic: interface
 f1_keywords: 

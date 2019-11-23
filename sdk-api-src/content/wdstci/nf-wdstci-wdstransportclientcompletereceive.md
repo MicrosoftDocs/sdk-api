@@ -1,12 +1,12 @@
 ---
 UID: NF:wdstci.WdsTransportClientCompleteReceive
 title: WdsTransportClientCompleteReceive function (wdstci.h)
-author: windows-sdk-content
+
 description: Indicates that all processing on a block of data is finished, and that the multicast client may purge this block of data from its cache to make room for further receives.
 old-location: wds\wdstransportclientcompletereceive.htm
 tech.root: wds
 ms.assetid: 1c5cdd44-e818-43ef-aaba-60a01660f7cf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientCompleteReceive, WdsTransportClientCompleteReceive function [Windows Deployment Services], wds.wdstransportclientcompletereceive, wdstci/WdsTransportClientCompleteReceive
 ms.topic: function

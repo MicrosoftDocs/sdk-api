@@ -1,12 +1,12 @@
 ---
 UID: NS:clusapi.CLUS_PARTITION_INFO_EX
 title: CLUS_PARTITION_INFO_EX (clusapi.h)
-author: windows-sdk-content
+
 description: Describes a storage class resource volume and file system.
 old-location: mscs\clus_partition_info_ex.htm
 tech.root: MsCS
 ms.assetid: d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCLUS_PARTITION_INFO_EX, CLUSPROP_PIFLAG_DEFAULT_QUORUM, CLUSPROP_PIFLAG_REMOVABLE, CLUSPROP_PIFLAG_STICKY, CLUSPROP_PIFLAG_USABLE, CLUS_PARTITION_INFO_EX, CLUS_PARTITION_INFO_EX structure [Failover Cluster], FS_CASE_IS_PRESERVED, FS_CASE_SENSITIVE, FS_PERSISTENT_ACLS, FS_UNICODE_STORED_ON_DISK, PCLUS_PARTITION_INFO_EX, PCLUS_PARTITION_INFO_EX structure pointer [Failover Cluster], clusapi/CLUS_PARTITION_INFO_EX, clusapi/PCLUS_PARTITION_INFO_EX, mscs.clus_partition_info_ex"
 ms.topic: struct

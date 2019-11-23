@@ -1,13 +1,13 @@
 ---
 UID: NN:vfw.IAVIEditStream
 title: IAVIEditStream (vfw.h)
-author: windows-sdk-content
+
 description: The IAVIEditStream interface supports manipulating and modifying editable streams. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:\_
 The IAVIEditStream interface supports manipulating and modifying editable streams. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:
 old-location: multimedia\iavieditstream.htm
 tech.root: Multimedia
 ms.assetid: d32dc386-05cf-4f7b-9785-a38586a09402
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAVIEditStream, IAVIEditStream interface [Windows Multimedia], IAVIEditStream interface [Windows Multimedia],described, _win32_IAVIEditStream, multimedia.iavieditstream, vfw/IAVIEditStream
 ms.topic: interface

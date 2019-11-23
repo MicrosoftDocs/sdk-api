@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.DriveType
 title: DriveType function (shlobj_core.h)
-author: windows-sdk-content
+
 description: DriveType may be altered or unavailable.
 old-location: shell\DriveType.htm
 tech.root: shell
 ms.assetid: 3089656d-2e64-4d65-aa18-0a451d82fa95
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DriveType, DriveType function [Windows Shell], _shell_DriveType, shell.DriveType, shlobj_core/DriveType
 ms.topic: function

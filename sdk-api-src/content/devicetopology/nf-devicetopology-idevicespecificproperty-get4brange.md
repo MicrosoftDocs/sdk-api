@@ -1,12 +1,12 @@
 ---
 UID: NF:devicetopology.IDeviceSpecificProperty.Get4BRange
 title: IDeviceSpecificProperty::Get4BRange (devicetopology.h)
-author: windows-sdk-content
+
 description: The Get4BRange method gets the 4-byte range of the device-specific property value.
 old-location: coreaudio\idevicespecificproperty_get4brange.htm
 tech.root: CoreAudio
 ms.assetid: 16ca72b5-2de2-4644-9c64-cdc69a9b2c51
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Get4BRange, Get4BRange method [Core Audio], Get4BRange method [Core Audio],IDeviceSpecificProperty interface, IDeviceSpecificProperty interface [Core Audio],Get4BRange method, IDeviceSpecificProperty.Get4BRange, IDeviceSpecificProperty::Get4BRange, IDeviceSpecificPropertyGet4BRange, coreaudio.idevicespecificproperty_get4brange, devicetopology/IDeviceSpecificProperty::Get4BRange
 ms.topic: method

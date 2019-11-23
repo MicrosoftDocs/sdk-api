@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddPath
 title: GraphicsPath::AddPath (gdipluspath.h)
-author: windows-sdk-content
+
 description: The GraphicsPath::AddPath method adds a path to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\addpath.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddPath, AddPath method [GDI+], AddPath method [GDI+],GraphicsPath class, FALSE, GraphicsPath class [GDI+],AddPath method, GraphicsPath.AddPath, GraphicsPath::AddPath, TRUE, _gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_, gdiplus._gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_
 ms.topic: method

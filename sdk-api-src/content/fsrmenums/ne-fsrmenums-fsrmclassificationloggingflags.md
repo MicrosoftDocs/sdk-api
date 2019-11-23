@@ -1,12 +1,12 @@
 ---
 UID: NE:fsrmenums._FsrmClassificationLoggingFlags
 title: FsrmClassificationLoggingFlags (fsrmenums.h)
-author: windows-sdk-content
+
 description: Defines the different options for logging information while running classification.
 old-location: fsrm\fsrmclassificationloggingflags.htm
 tech.root: fsrm
 ms.assetid: 339a50d6-cc34-46ba-a116-745abe0d2871
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationLoggingFlags, FsrmClassificationLoggingFlags enumeration [File Server Resource Manager], FsrmClassificationLoggingFlags_ClassificationsInLogFile, FsrmClassificationLoggingFlags_ClassificationsInSystemLog, FsrmClassificationLoggingFlags_ErrorsInLogFile, FsrmClassificationLoggingFlags_ErrorsInSystemLog, FsrmClassificationLoggingFlags_None, fs.fsrmclassificationloggingflags, fsrm.fsrmclassificationloggingflags, fsrmenums/FsrmClassificationLoggingFlags, fsrmenums/FsrmClassificationLoggingFlags_ClassificationsInLogFile, fsrmenums/FsrmClassificationLoggingFlags_ClassificationsInSystemLog, fsrmenums/FsrmClassificationLoggingFlags_ErrorsInLogFile, fsrmenums/FsrmClassificationLoggingFlags_ErrorsInSystemLog, fsrmenums/FsrmClassificationLoggingFlags_None
 ms.topic: enum

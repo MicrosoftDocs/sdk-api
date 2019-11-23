@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.get_ClassFactory
 title: IServicePoolConfig::get_ClassFactory (comsvcs.h)
-author: windows-sdk-content
+
 description: Retrieves a class factory for the pooled objects.
 old-location: cos\iservicepoolconfig_get_classfactory.htm
 tech.root: cossdk
 ms.assetid: cef9ff6b-53e2-43e1-9be6-7c0d7f89c318
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IServicePoolConfig interface [COM+],get_ClassFactory method, IServicePoolConfig.get_ClassFactory, IServicePoolConfig::get_ClassFactory, comsvcs/IServicePoolConfig::get_ClassFactory, cos.iservicepoolconfig_get_classfactory, get_ClassFactory, get_ClassFactory method [COM+], get_ClassFactory method [COM+],IServicePoolConfig interface
 ms.topic: method

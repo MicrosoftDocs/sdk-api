@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.Enable
 title: ISyncMgrSyncItem::Enable (syncmgr.h)
-author: windows-sdk-content
+
 description: Enables or disables the sync item.
 old-location: shell\ISyncMgrSyncItem_Enable.htm
 tech.root: shell
 ms.assetid: 7d73508e-4381-47fe-98ba-ab3ef665cd3e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],Enable method, ISyncMgrSyncItem.Enable, ISyncMgrSyncItem::Enable, _shell_ISyncMgrSyncItem_Enable, shell.ISyncMgrSyncItem_Enable, syncmgr/ISyncMgrSyncItem::Enable
 ms.topic: method

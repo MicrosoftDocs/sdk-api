@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.IsIdentity
 title: Matrix4x4F::IsIdentity (d2d1_1helper.h)
-author: windows-sdk-content
+
 description: Indicates whether this matrix is the identity matrix.
 old-location: direct2d\matrix4x4f_isidentity.htm
 tech.root: Direct2D
 ms.assetid: 60793CCB-F3E9-4647-9DB0-E28FF1AD0E22
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsIdentity, IsIdentity method [Direct2D], IsIdentity method [Direct2D],Matrix4x4F interface, Matrix4x4F interface [Direct2D],IsIdentity method, Matrix4x4F.IsIdentity, Matrix4x4F::IsIdentity, d2d1_1helper/Matrix4x4F::IsIdentity, direct2d.matrix4x4f_isidentity
 ms.topic: method

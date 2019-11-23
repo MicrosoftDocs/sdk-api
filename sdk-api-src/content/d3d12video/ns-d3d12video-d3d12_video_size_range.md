@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_SIZE_RANGE
 title: D3D12_VIDEO_SIZE_RANGE
-author: windows-sdk-content
+
 description: Describes the range of supported sizes for a video scaler.
 tech.root: mf
 ms.assetid: 1dc0ed58-ae25-4c19-81a8-74fd0ad83580
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

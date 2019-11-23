@@ -1,12 +1,12 @@
 ---
 UID: NF:frquery.CFrameworkQuery.GetQueryClassName
 title: CFrameworkQuery::GetQueryClassName (frquery.h)
-author: windows-sdk-content
+
 description: The GetQueryClassName method retrieves the class name from the query.
 old-location: wmi\cframeworkquery_getqueryclassname.htm
 tech.root: WmiSdk
 ms.assetid: 6cb3da43-dab1-4049-9793-d62f027efe1c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetQueryClassName method, CFrameworkQuery.GetQueryClassName, CFrameworkQuery::GetQueryClassName, GetQueryClassName, GetQueryClassName method [Windows Management Instrumentation], GetQueryClassName method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getqueryclassname, frquery/CFrameworkQuery::GetQueryClassName, wmi.cframeworkquery_getqueryclassname
 ms.topic: method

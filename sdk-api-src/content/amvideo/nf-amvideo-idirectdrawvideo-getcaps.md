@@ -1,12 +1,12 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetCaps
 title: IDirectDrawVideo::GetCaps (amvideo.h)
-author: windows-sdk-content
+
 description: The GetCaps method retrieves a DirectDraw-defined DDCAPS structure containing the hardware capabilities.
 old-location: dshow\idirectdrawvideo_getcaps.htm
 tech.root: DirectShow
 ms.assetid: d63437e3-4e8a-49de-b555-db29d235569d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCaps, GetCaps method [DirectShow], GetCaps method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetCaps method, IDirectDrawVideo.GetCaps, IDirectDrawVideo::GetCaps, IDirectDrawVideoGetCaps, amvideo/IDirectDrawVideo::GetCaps, dshow.idirectdrawvideo_getcaps
 ms.topic: method

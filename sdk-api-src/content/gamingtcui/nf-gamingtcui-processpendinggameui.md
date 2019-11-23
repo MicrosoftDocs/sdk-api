@@ -1,12 +1,12 @@
 ---
 UID: NF:gamingtcui.ProcessPendingGameUI
 title: ProcessPendingGameUI function (gamingtcui.h)
-author: windows-sdk-content
+
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\processpendinggameui.htm
 tech.root: tcui
 ms.assetid: 054F3612-EE10-446C-87D1-BF3E0F751440
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ProcessPendingGameUI, ProcessPendingGameUI function, gamingtcui/ProcessPendingGameUI, tcui.processpendinggameui
 ms.topic: function

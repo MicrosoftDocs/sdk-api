@@ -1,12 +1,12 @@
 ---
 UID: NF:uxtheme.SetWindowThemeAttribute
 title: SetWindowThemeAttribute function (uxtheme.h)
-author: windows-sdk-content
+
 description: Sets attributes to control how visual styles are applied to a specified window.
 old-location: controls\SetWindowThemeAttribute.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowthemeattribute.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetWindowThemeAttribute, SetWindowThemeAttribute function [Windows Controls], WTA_NONCLIENT, controls.SetWindowThemeAttribute, controls.inet_SetWindowThemeAttribute, inet_SetWindowThemeAttribute, inet_SetWindowThemeAttribute_cpp, uxtheme/SetWindowThemeAttribute
 ms.topic: function

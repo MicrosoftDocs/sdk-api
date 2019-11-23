@@ -1,12 +1,12 @@
 ---
 UID: NF:eappapis.EapHostPeerInitialize
 title: EapHostPeerInitialize function (eappapis.h)
-author: windows-sdk-content
+
 description: Initializes an EAPHost authentication session.
 old-location: eaphost\eaphostpeerinitialize.htm
 tech.root: eaphost
 ms.assetid: 4af7103e-85c8-472e-96fe-407f07a1f447
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerInitialize, EapHostPeerInitialize function [EAPHost], eaphost.eaphostpeerinitialize, eappapis/EapHostPeerInitialize
 ms.topic: function

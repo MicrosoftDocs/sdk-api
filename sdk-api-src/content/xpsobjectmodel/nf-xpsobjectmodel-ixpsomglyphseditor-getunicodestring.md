@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetUnicodeString
 title: IXpsOMGlyphsEditor::GetUnicodeString (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the text in unescaped UTF-16 scalar values.
 old-location: xps\ixpsomglyphseditor_getunicodestring.htm
 tech.root: printdocs
 ms.assetid: 48190202-2ab4-44ad-98e0-a69e9b48576f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetUnicodeString, GetUnicodeString method [XPS Documents and Packaging], GetUnicodeString method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetUnicodeString method, IXpsOMGlyphsEditor.GetUnicodeString, IXpsOMGlyphsEditor::GetUnicodeString, xps.ixpsomglyphseditor_getunicodestring, xpsobjectmodel/IXpsOMGlyphsEditor::GetUnicodeString
 ms.topic: method

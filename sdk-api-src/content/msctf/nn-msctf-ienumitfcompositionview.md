@@ -1,12 +1,12 @@
 ---
 UID: NN:msctf.IEnumITfCompositionView
 title: IEnumITfCompositionView (msctf.h)
-author: windows-sdk-content
+
 description: The IEnumITfCompositionView interface is implemented by the TSF manager to provide an enumeration of composition view objects.
 old-location: tsf\ienumitfcompositionview.htm
 tech.root: TSF
 ms.assetid: d842b367-a605-4ed0-887d-89dfcf6893a6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumITfCompositionView, IEnumITfCompositionView interface [Text Services Framework], IEnumITfCompositionView interface [Text Services Framework],described, _tsf_ienumitfcompositionview_ref, msctf/IEnumITfCompositionView, tsf.ienumitfcompositionview
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NS:p2p.peer_credential_info_tag
 title: PEER_CREDENTIAL_INFO (p2p.h)
-author: windows-sdk-content
+
 description: The PEER_CREDENTIAL_INFO structure defines information used to obtain and issue a peer's security credentials.
 old-location: p2p\peer_credential_info.htm
 tech.root: P2PSdk
 ms.assetid: c47bb38d-eafd-4218-8ac7-1c54ed6948ee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PPEER_CREDENTIAL_INFO, PEER_CREDENTIAL_INFO, PEER_CREDENTIAL_INFO structure [Peer Networking], PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PPEER_CREDENTIAL_INFO, PPEER_CREDENTIAL_INFO structure pointer [Peer Networking], p2p.peer_credential_info, p2p/PEER_CREDENTIAL_INFO, p2p/PPEER_CREDENTIAL_INFO"
 ms.topic: struct

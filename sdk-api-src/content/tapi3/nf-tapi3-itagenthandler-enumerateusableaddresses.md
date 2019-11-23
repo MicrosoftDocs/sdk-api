@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITAgentHandler.EnumerateUsableAddresses
 title: ITAgentHandler::EnumerateUsableAddresses (tapi3.h)
-author: windows-sdk-content
+
 description: The EnumerateUsableAddresses method enumerates addresses available for receiving ACD calls on this agent handler.
 old-location: tapi3\itagenthandler_enumerateusableaddresses.htm
 tech.root: Tapi
 ms.assetid: 9821b073-c64b-4f2b-b771-6bf027f9aa70
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumerateUsableAddresses, EnumerateUsableAddresses method [TAPI 2.2], EnumerateUsableAddresses method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],EnumerateUsableAddresses method, ITAgentHandler.EnumerateUsableAddresses, ITAgentHandler::EnumerateUsableAddresses, _tapi3_itagenthandler_enumerateusableaddresses, tapi3.itagenthandler_enumerateusableaddresses, tapi3cc/ITAgentHandler::EnumerateUsableAddresses
 ms.topic: method

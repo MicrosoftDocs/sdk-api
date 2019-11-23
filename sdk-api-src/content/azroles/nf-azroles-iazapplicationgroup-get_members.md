@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_Members
 title: IAzApplicationGroup::get_Members (azroles.h)
-author: windows-sdk-content
+
 description: Retrieves the security identifiers (SIDs), in text form, of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_members.htm
 tech.root: SecAuthZ
 ms.assetid: 1370fe81-a729-477e-a500-1823abb713e1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],Members property, IAzApplicationGroup interface [Security],Members property, IAzApplicationGroup.Members, IAzApplicationGroup.get_Members, IAzApplicationGroup::Members, IAzApplicationGroup::get_Members, Members property [Security], Members property [Security],AzApplicationGroup object, Members property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Members, azroles/IAzApplicationGroup::get_Members, get_Members, security.iazapplicationgroup_members
 ms.topic: method

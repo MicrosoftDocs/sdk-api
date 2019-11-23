@@ -1,12 +1,12 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.RemoveEffect
 title: IMFPMediaPlayer::RemoveEffect (mfplay.h)
-author: windows-sdk-content
+
 description: Removes an effect that was added with the IMFPMediaPlayer::InsertEffect method.
 old-location: mf\imfpmediaplayer_removeeffect.htm
 tech.root: medfound
 ms.assetid: ca8507b9-c6c5-4e17-9c18-3ec1514de897
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],RemoveEffect method, IMFPMediaPlayer.RemoveEffect, IMFPMediaPlayer::RemoveEffect, RemoveEffect, RemoveEffect method [Media Foundation], RemoveEffect method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_removeeffect, mfplay/IMFPMediaPlayer::RemoveEffect
 ms.topic: method

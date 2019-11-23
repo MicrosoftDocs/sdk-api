@@ -1,12 +1,12 @@
 ---
 UID: NN:imapi2fs.IEnumProgressItems
 title: IEnumProgressItems (imapi2fs.h)
-author: windows-sdk-content
+
 description: Use this interface to enumerate a collection of progress items.
 old-location: imapi\ienumprogressitems.htm
 tech.root: imapi
 ms.assetid: c4238fbe-762a-492f-9eb5-d927e64436e1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumProgressItems, IEnumProgressItems interface [IMAPI], IEnumProgressItems interface [IMAPI],described, imapi.ienumprogressitems, imapi2fs/IEnumProgressItems
 ms.topic: interface

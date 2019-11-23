@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_friendlyName
 title: IWMPSyncDevice::get_friendlyName (wmp.h)
-author: windows-sdk-content
+
 description: The get_friendlyName method retrieves the user-defined name of the device.
 old-location: wmp\iwmpsyncdevice_get_friendlyname.htm
 tech.root: WMP
 ms.assetid: f72eaa17-fd7a-4844-8380-1a2547644dee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_friendlyName method, IWMPSyncDevice.get_friendlyName, IWMPSyncDevice::get_friendlyName, IWMPSyncDeviceget_friendlyName, get_friendlyName, get_friendlyName method [Windows Media Player], get_friendlyName method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_friendlyname, wmp/IWMPSyncDevice::get_friendlyName
 ms.topic: method

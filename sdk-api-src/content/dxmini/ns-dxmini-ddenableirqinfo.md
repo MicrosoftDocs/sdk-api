@@ -1,12 +1,12 @@
 ---
 UID: NS:dxmini._DDENABLEIRQINFO
 title: DDENABLEIRQINFO (dxmini.h)
-author: windows-sdk-content
+
 description: The DDENABLEIRQINFO structure contains the information required to enable interrupts.
 old-location: display\ddenableirqinfo.htm
 tech.root: display
 ms.assetid: f6ac3ef8-1afc-4c0f-b24f-34d3d56d62a8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PDDENABLEIRQINFO, DDENABLEIRQINFO, DDENABLEIRQINFO structure [Display Devices], PDDENABLEIRQINFO, PDDENABLEIRQINFO structure pointer [Display Devices], Video_Structs_8d9ac070-bb9e-4cc4-af09-9e8f7942516f.xml, display.ddenableirqinfo, dxmini/DDENABLEIRQINFO, dxmini/PDDENABLEIRQINFO'
 ms.topic: struct

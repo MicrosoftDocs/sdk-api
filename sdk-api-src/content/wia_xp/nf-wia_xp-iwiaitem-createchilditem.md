@@ -1,12 +1,12 @@
 ---
 UID: NF:wia_xp.IWiaItem.CreateChildItem
 title: IWiaItem::CreateChildItem (wia_xp.h)
-author: windows-sdk-content
+
 description: The IWiaItem::CreateChildItem method is used by applications to add IWiaItem objects to the IWiaItem tree of a device.
 old-location: wia\_wia_IWiaItem_CreateChildItem.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\createchilditem.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateChildItem, CreateChildItem method [WIA], CreateChildItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],CreateChildItem method, IWiaItem.CreateChildItem, IWiaItem::CreateChildItem, _wia_IWiaItem_CreateChildItem, wia._wia_IWiaItem_CreateChildItem, wia_xp/IWiaItem::CreateChildItem
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:appxpackaging.IAppxPackageReader2
 title: IAppxPackageReader2 (appxpackaging.h)
-author: windows-sdk-content
+
 description: Provides a read-only object model for app packages.
 old-location: appxpkg\iappxpackagereader2.htm
 tech.root: appxpkg
 ms.assetid: 8E46CFB5-1F48-41E8-85AD-C03685D4EA5F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageReader2, IAppxPackageReader2 interface [App packaging and management], IAppxPackageReader2 interface [App packaging and management],described, appxpackaging/IAppxPackageReader2, appxpkg.iappxpackagereader2
 ms.topic: interface

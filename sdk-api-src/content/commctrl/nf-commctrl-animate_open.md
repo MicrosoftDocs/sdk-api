@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.Animate_Open
 title: Animate_Open macro (commctrl.h)
-author: windows-sdk-content
+
 description: Opens an AVI clip and displays its first frame in an animation control. You can use this macro or send the ACM_OPEN message explicitly.
 old-location: controls\Animate_Open.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_open.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Animate_Open, Animate_Open macro [Windows Controls], _win32_Animate_Open, _win32_Animate_Open_cpp, commctrl/Animate_Open, controls.Animate_Open, controls._win32_Animate_Open
 ms.topic: macro

@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_ISO9660InterchangeLevel
 title: IFileSystemImage::get_ISO9660InterchangeLevel (imapi2fs.h)
-author: windows-sdk-content
+
 description: Retrieves the ISO9660 compatibility level to use when creating the result image.
 old-location: imapi\ifilesystemimage_get_iso9660interchangelevel.htm
 tech.root: imapi
 ms.assetid: 9536444b-60e4-456f-b6d8-07cf9a6f7848
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_ISO9660InterchangeLevel method, IFileSystemImage.get_ISO9660InterchangeLevel, IFileSystemImage::get_ISO9660InterchangeLevel, get_ISO9660InterchangeLevel, get_ISO9660InterchangeLevel method [IMAPI], get_ISO9660InterchangeLevel method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_iso9660interchangelevel, imapi2fs/IFileSystemImage::get_ISO9660InterchangeLevel
 ms.topic: method

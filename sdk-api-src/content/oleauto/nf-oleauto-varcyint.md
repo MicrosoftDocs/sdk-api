@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarCyInt
 title: VarCyInt function (oleauto.h)
-author: windows-sdk-content
+
 description: Retrieves the integer portion of a variant of type currency.
 old-location: automat\varcyint.htm
 tech.root: automat
 ms.assetid: 234c8407-93c9-49bd-aae7-d526d5f5e34c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarCyInt, VarCyInt function [Automation], _oa96_VarCyInt, automat.varcyint, oleauto/VarCyInt
 ms.topic: function

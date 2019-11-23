@@ -1,12 +1,12 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.Disconnect
 title: IRDPSRAPIViewer::Disconnect (rdpencomapi.h)
-author: windows-sdk-content
+
 description: Initiates a disconnect of the viewer from the sharer.
 old-location: rdp\irdpsrapiviewer_disconnect.htm
 tech.root: rdp
 ms.assetid: 526b91aa-a5b9-4ee9-873f-ca23c4633d21
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [RDP], Disconnect method [RDP],IRDPSRAPIViewer interface, IRDPSRAPIViewer interface [RDP],Disconnect method, IRDPSRAPIViewer.Disconnect, IRDPSRAPIViewer::Disconnect, rdp.irdpsrapiviewer_disconnect, rdpencomapi/IRDPSRAPIViewer::Disconnect
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0018
 title: XPS_SIZE (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Describes the size of an object.
 old-location: xps\xps_size.htm
 tech.root: printdocs
 ms.assetid: 2f6eb553-892b-455b-97a5-280f257b5702
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XPS_SIZE, XPS_SIZE structure [XPS Documents and Packaging], xps.xps_size, xpsobjectmodel/XPS_SIZE
 ms.topic: struct

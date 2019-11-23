@@ -1,12 +1,12 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0004
 title: WDSTRANSPORT_DISCONNECT_TYPE (wdstptmgmt.h)
-author: windows-sdk-content
+
 description: Indicates what action a WDS client should take when it is disconnected from the session.
 old-location: wds\wdstransport_disconnect_type.htm
 tech.root: wds
 ms.assetid: f25bdc9e-0014-4ff7-bc01-8a13b6e3ace1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PWDSTRANSPORT_DISCONNECT_TYPE, WDSTRANSPORT_DISCONNECT_TYPE, WDSTRANSPORT_DISCONNECT_TYPE enumeration [Windows Deployment Services], WdsTptDisconnectAbort, WdsTptDisconnectFallback, WdsTptDisconnectUnknown, wds.wdstransport_disconnect_type, wdstptmgmt/WDSTRANSPORT_DISCONNECT_TYPE, wdstptmgmt/WdsTptDisconnectAbort, wdstptmgmt/WdsTptDisconnectFallback, wdstptmgmt/WdsTptDisconnectUnknown"
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.ISecurityIdentityColl.get_Count
 title: ISecurityIdentityColl::get_Count (comsvcs.h)
-author: windows-sdk-content
+
 description: Retrieves the number of properties in the security identity collection.
 old-location: cos\isecurityidentitycoll_get_count.htm
 tech.root: cossdk
 ms.assetid: 43363504-ee5e-4d1c-a7eb-c4f003d84d57
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISecurityIdentityColl interface [COM+],get_Count method, ISecurityIdentityColl.get_Count, ISecurityIdentityColl::get_Count, _cos_ISecurityIdentityColl_get_Count, comsvcs/ISecurityIdentityColl::get_Count, cos.isecurityidentitycoll_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ISecurityIdentityColl interface
 ms.topic: method

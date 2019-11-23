@@ -1,12 +1,12 @@
 ---
 UID: NN:dxgi1_3.IDXGIFactoryMedia
 title: IDXGIFactoryMedia (dxgi1_3.h)
-author: windows-sdk-content
+
 description: Creates swap chains for desktop media apps that use DirectComposition surfaces to decode and display video.
 old-location: direct3ddxgi\idxgifactorymedia.htm
 tech.root: direct3ddxgi
 ms.assetid: 5646B34D-EB2C-4161-8FF0-67F96254AFBC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactoryMedia, IDXGIFactoryMedia interface [DXGI], IDXGIFactoryMedia interface [DXGI],described, direct3ddxgi.idxgifactorymedia, dxgi1_3/IDXGIFactoryMedia
 ms.topic: interface

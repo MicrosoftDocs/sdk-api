@@ -1,12 +1,12 @@
 ---
 UID: NS:dwrite.DWRITE_CLUSTER_METRICS
 title: DWRITE_CLUSTER_METRICS (dwrite.h)
-author: windows-sdk-content
+
 description: Contains information about a glyph cluster.
 old-location: directwrite\dwrite_cluster_metrics.htm
 tech.root: DirectWrite
 ms.assetid: 738b7f15-fcc5-4960-ac1f-ca530c448271
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DWRITE_CLUSTER_METRICS, DWRITE_CLUSTER_METRICS structure [Direct Write], directwrite.dwrite_cluster_metrics, dwrite/DWRITE_CLUSTER_METRICS
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NN:iads.IADsPrintJob
 title: IADsPrintJob (iads.h)
-author: windows-sdk-content
+
 description: The IADsPrintJob interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsprintjob.htm
 tech.root: adsi
 ms.assetid: 82d61e39-4dbb-41c9-85d5-6f4e7ab7f66b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsPrintJob, IADsPrintJob interface [ADSI], IADsPrintJob interface [ADSI],described, _ds_iadsprintjob, adsi.iadsprintjob, iads/IADsPrintJob
 ms.topic: interface

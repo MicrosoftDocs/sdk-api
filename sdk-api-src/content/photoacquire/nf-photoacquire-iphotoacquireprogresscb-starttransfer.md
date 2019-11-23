@@ -1,12 +1,12 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.StartTransfer
 title: IPhotoAcquireProgressCB::StartTransfer (photoacquire.h)
-author: windows-sdk-content
+
 description: The StartTransfer method provides additional processing when transfer of items from the device begins. The application provides the implementation of the StartTransfer method.
 old-location: picacq\iphotoacquireprogresscb_starttransfer.htm
 tech.root: acquisition
 ms.assetid: 8fff67d0-5d0a-4d8d-bc59-55cb65b77147
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartTransfer method, IPhotoAcquireProgressCB.StartTransfer, IPhotoAcquireProgressCB::StartTransfer, IPhotoAcquireProgressCBStartTransfer, StartTransfer, StartTransfer method [Picture Acquisition], StartTransfer method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartTransfer, picacq.iphotoacquireprogresscb_starttransfer
 ms.topic: method

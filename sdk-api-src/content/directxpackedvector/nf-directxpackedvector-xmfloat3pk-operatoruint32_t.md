@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3PK.operator uint32_t
 title: XMFLOAT3PK::operator uint32_t (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Returns an instance of uint32_t containing the components of the XMFLOAT3PK instance in a packed format.
 old-location: dxmath\xmfloat3pk_operator_uint32_t.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.operator uint32_t
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMFLOAT3PK.operator uint32_t, DirectX::PackedVector::XMFLOAT3PK::operator uint32_t, XMFLOAT3PK structure [DirectX Math Support APIs],operator uint32_t method, XMFLOAT3PK.operator uint32_t, XMFLOAT3PK::operator uint32_t, dxmath.xmfloat3pk_operator_uint32_t, operator uint32_t, operator uint32_t method [DirectX Math Support APIs], operator uint32_t method [DirectX Math Support APIs],XMFLOAT3PK structure
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:msiquery.MsiRecordSetStringA
 title: MsiRecordSetStringA function (msiquery.h)
-author: windows-sdk-content
+
 description: The MsiRecordSetString function copies a string into the designated field.
 old-location: setup\msirecordsetstring.htm
 tech.root: Msi
 ms.assetid: 225454be-b653-4679-ae77-2280bd3c8d69
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MsiRecordSetString, MsiRecordSetString function, MsiRecordSetStringA, MsiRecordSetStringW, _msi_msirecordsetstring, msiquery/MsiRecordSetString, msiquery/MsiRecordSetStringA, msiquery/MsiRecordSetStringW, setup.msirecordsetstring
 ms.topic: function

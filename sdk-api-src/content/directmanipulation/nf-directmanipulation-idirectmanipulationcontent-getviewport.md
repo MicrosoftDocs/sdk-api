@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetViewport
 title: IDirectManipulationContent::GetViewport (directmanipulation.h)
-author: windows-sdk-content
+
 description: Retrieves the viewport that contains the content.
 old-location: directmanipulation\idirectmanipulationcontent_getviewport.htm
 tech.root: directmanipulation
 ms.assetid: b03545d2-73a4-4638-818a-34f5957408e4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetViewport, GetViewport method [Direct Manipulation], GetViewport method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetViewport method, IDirectManipulationContent.GetViewport, IDirectManipulationContent::GetViewport, directmanipulation.idirectmanipulationcontent_getviewport, directmanipulation/IDirectManipulationContent::GetViewport
 ms.topic: method

@@ -1,7 +1,7 @@
 ---
 UID: NA:instance
 ms.assetid: abfa69f2-8124-3657-860a-1ad4f63027d0
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

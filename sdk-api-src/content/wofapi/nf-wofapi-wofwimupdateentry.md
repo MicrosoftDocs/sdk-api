@@ -1,12 +1,12 @@
 ---
 UID: NF:wofapi.WofWimUpdateEntry
 title: WofWimUpdateEntry function (wofapi.h)
-author: windows-sdk-content
+
 description: Updates a WIM entry to point to a different WIM file location.
 old-location: fs\wofwimupdateentry.htm
 tech.root: FileIO
 ms.assetid: 91CAE0F4-C0DB-40CE-BED9-C27E4856D4A0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WofWimUpdateEntry, WofWimUpdateEntry function [Files], fs.wofwimupdateentry, wofapi/WofWimUpdateEntry
 ms.topic: function

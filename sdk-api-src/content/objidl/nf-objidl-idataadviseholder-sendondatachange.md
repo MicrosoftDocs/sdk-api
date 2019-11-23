@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IDataAdviseHolder.SendOnDataChange
 title: IDataAdviseHolder::SendOnDataChange (objidl.h)
-author: windows-sdk-content
+
 description: Sends notifications to each advise sink for which there is a connection established by calling the IAdviseSink::OnDataChange method for each advise sink currently being handled by this instance of the advise holder object.
 old-location: com\idataadviseholder_sendondatachange.htm
 tech.root: com
 ms.assetid: b7385116-2ec7-4e12-a2dc-c9029a38d8fd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDataAdviseHolder interface [COM],SendOnDataChange method, IDataAdviseHolder.SendOnDataChange, IDataAdviseHolder::SendOnDataChange, SendOnDataChange, SendOnDataChange method [COM], SendOnDataChange method [COM],IDataAdviseHolder interface, _ole_idataadviseholder_sendondatachange, com.idataadviseholder_sendondatachange, objidl/IDataAdviseHolder::SendOnDataChange
 ms.topic: method

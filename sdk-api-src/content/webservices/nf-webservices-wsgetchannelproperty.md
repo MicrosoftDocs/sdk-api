@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsGetChannelProperty
 title: WsGetChannelProperty function (webservices.h)
-author: windows-sdk-content
+
 description: Retrieves a property of the Channel referenced by the channel parameter.
 old-location: wsw\wsgetchannelproperty.htm
 tech.root: wsw
 ms.assetid: 6f3440d2-90cc-4312-bb08-51f08b864cc7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsGetChannelProperty, WsGetChannelProperty function [Web Services for Windows], webservices/WsGetChannelProperty, wsw.wsgetchannelproperty
 ms.topic: function

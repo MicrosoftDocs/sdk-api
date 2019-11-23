@@ -1,12 +1,12 @@
 ---
 UID: NN:wsbapp.IWsbApplicationRestoreSupport
 title: IWsbApplicationRestoreSupport (wsbapp.h)
-author: windows-sdk-content
+
 description: Defines methods for performing application-specific restore tasks.
 old-location: wsb\iwsbapplicationrestoresupport.htm
 tech.root: wsb
 ms.assetid: 694f9b4d-0ca8-4dbe-829c-6ac18c9aa140
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationRestoreSupport, IWsbApplicationRestoreSupport interface [Windows Server Backup], IWsbApplicationRestoreSupport interface [Windows Server Backup],described, wsb.iwsbapplicationrestoresupport, wsbapp/IWsbApplicationRestoreSupport
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NS:winsync._SYNC_VERSION
 title: SYNC_VERSION (winsync.h)
-author: windows-sdk-content
+
 description: Represents a version for an item or a change unit.
 old-location: winsync\sync_version.htm
 tech.root: winsync
 ms.assetid: 6a493a58-3dab-4032-90de-be9f903ae489
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SYNC_VERSION, SYNC_VERSION structure [Windows Sync], winsync.sync_version, winsync/SYNC_VERSION
 ms.topic: struct

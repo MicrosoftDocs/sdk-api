@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerGroupEnumConnections
 title: PeerGroupEnumConnections function (p2p.h)
-author: windows-sdk-content
+
 description: The PeerGroupEnumConnections function creates an enumeration of connections currently active on the peer.
 old-location: p2p\peergroupenumconnections.htm
 tech.root: P2PSdk
 ms.assetid: 84a26066-3d6a-44c8-86a1-b3f997c17739
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerGroupEnumConnections, PeerGroupEnumConnections function [Peer Networking], p2p.peergroupenumconnections, p2p/PeerGroupEnumConnections
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:evntrace.EnableTraceEx2
 title: EnableTraceEx2 function (evntrace.h)
-author: windows-sdk-content
+
 description: Enables or disables the specified event trace provider.
 old-location: etw\enabletraceex2.htm
 tech.root: ETW
 ms.assetid: 3aceffb6-614f-4cad-bbec-f181f0cbdbff
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EVENT_CONTROL_CODE_CAPTURE_STATE, EVENT_CONTROL_CODE_DISABLE_PROVIDER, EVENT_CONTROL_CODE_ENABLE_PROVIDER, EnableTraceEx2, EnableTraceEx2 function [ETW], TRACE_LEVEL_CRITICAL, TRACE_LEVEL_ERROR, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, etw.enabletraceex2, evntrace/EnableTraceEx2
 ms.topic: function

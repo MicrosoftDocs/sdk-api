@@ -1,12 +1,12 @@
 ---
 UID: NF:ddraw.IDirectDraw7.CreateClipper
 title: IDirectDraw7::CreateClipper (ddraw.h)
-author: windows-sdk-content
+
 description: Creates a DirectDrawClipper object.
 old-location: directdraw\idirectdraw7_createclipper.htm
 tech.root: directdraw
 ms.assetid: 123a07c0-d371-4d10-bff8-b5640bd3b920
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateClipper, CreateClipper method [DirectDraw], CreateClipper method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],CreateClipper method, IDirectDraw7.CreateClipper, IDirectDraw7::CreateClipper, ddraw/IDirectDraw7::CreateClipper, directdraw.idirectdraw7_createclipper
 ms.topic: method

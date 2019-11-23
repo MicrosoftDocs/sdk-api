@@ -3,7 +3,7 @@ UID: NF:gdiplusheaders.Region.IsVisible(IN INT,IN INT,IN const Graphics)
 title: Region::IsVisible
 description: The Region::IsVisible method determines whether a point is inside this region.
 ms.assetid: 6e7059c0-2029-4178-961a-88738894ee83
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: Region::IsVisible
 ms.topic: language-reference

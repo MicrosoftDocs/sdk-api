@@ -1,12 +1,12 @@
 ---
 UID: NS:oaidl.tagEXCEPINFO
 title: EXCEPINFO (oaidl.h)
-author: windows-sdk-content
+
 description: Describes an exception that occurred during IDispatch::Invoke.
 old-location: automat\excepinfo.htm
 tech.root: automat
 ms.assetid: 29583e58-10a6-4679-a5c6-d51f2b50b074
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPEXCEPINFO, EXCEPINFO, EXCEPINFO structure [Automation], LPEXCEPINFO, LPEXCEPINFO structure pointer [Automation], _oa96_EXCEPINFO, automat.excepinfo, oaidl/EXCEPINFO, oaidl/LPEXCEPINFO"
 ms.topic: struct

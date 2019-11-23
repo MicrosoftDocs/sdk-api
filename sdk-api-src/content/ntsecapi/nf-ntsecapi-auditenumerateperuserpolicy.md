@@ -1,12 +1,12 @@
 ---
 UID: NF:ntsecapi.AuditEnumeratePerUserPolicy
 title: AuditEnumeratePerUserPolicy function (ntsecapi.h)
-author: windows-sdk-content
+
 description: Enumerates users for whom per-user auditing policy is specified.
 old-location: security\auditenumerateperuserpolicy_func.htm
 tech.root: SecAuthZ
 ms.assetid: 4b13f021-ba08-4eb8-9c7a-0512992ef272
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AuditEnumeratePerUserPolicy, AuditEnumeratePerUserPolicy function [Security], ntsecapi/AuditEnumeratePerUserPolicy, security.auditenumerateperuserpolicy_func
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:olectl.OleLoadPicturePath
 title: OleLoadPicturePath function (olectl.h)
-author: windows-sdk-content
+
 description: Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling OleCreatePictureIndirect(NULL, ...) followed by IPersistStream::Load.
 old-location: com\oleloadpicturepath.htm
 tech.root: com
 ms.assetid: 08bad900-815a-4b6d-b977-92d5fdd7d9e8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleLoadPicturePath, OleLoadPicturePath function [COM], _ctrl_OleLoadPicturePath, com.oleloadpicturepath, olectl/OleLoadPicturePath
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidVMR9.get_Allocator_ID
 title: IMSVidVMR9::get_Allocator_ID (segment.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidvmr9_get_allocator_id.htm
 tech.root: mstv
 ms.assetid: 46ea07af-be29-4621-96cb-f3c17be12f85
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],get_Allocator_ID method, IMSVidVMR9.get_Allocator_ID, IMSVidVMR9::get_Allocator_ID, IMSVidVMR9get_Allocator_ID, get_Allocator_ID, get_Allocator_ID method [Microsoft TV Technologies], get_Allocator_ID method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_get_allocator_id, segment/IMSVidVMR9::get_Allocator_ID
 ms.topic: method

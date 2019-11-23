@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.RemoveFontResourceExW
 title: RemoveFontResourceExW function (wingdi.h)
-author: windows-sdk-content
+
 description: The RemoveFontResourceEx function removes the fonts in the specified file from the system font table.
 old-location: gdi\removefontresourceex.htm
 tech.root: gdi
 ms.assetid: 18056fe7-1efe-428e-a828-3217c53371eb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RemoveFontResourceEx, RemoveFontResourceEx function [Windows GDI], RemoveFontResourceExA, RemoveFontResourceExW, _win32_RemoveFontResourceEx, gdi.removefontresourceex, wingdi/RemoveFontResourceEx, wingdi/RemoveFontResourceExA, wingdi/RemoveFontResourceExW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetMGT
 title: IAtscPsipParser::GetMGT (atscpsipparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_getmgt.htm
 tech.root: mstv
 ms.assetid: abdfb558-aab9-4929-822a-08b35235c22f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMGT, GetMGT method [Microsoft TV Technologies], GetMGT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetMGT method, IAtscPsipParser.GetMGT, IAtscPsipParser::GetMGT, IAtscPsipParserGetMGT, atscpsipparser/IAtscPsipParser::GetMGT, mstv.iatscpsipparser_getmgt
 ms.topic: method

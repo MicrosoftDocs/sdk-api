@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionMatrixTransform
 title: IDCompositionMatrixTransform (dcomp.h)
-author: windows-sdk-content
+
 description: Represents an arbitrary affine 2D transformation defined by a 3-by-2 matrix.
 old-location: directcomp\idcompositionmatrixtransform.htm
 tech.root: directcomp
 ms.assetid: 150e33f2-3d76-44a8-b2fe-5a2b4a532c3c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionMatrixTransform, IDCompositionMatrixTransform interface [DirectComposition], IDCompositionMatrixTransform interface [DirectComposition],described, dcomp/IDCompositionMatrixTransform, directcomp.idcompositionmatrixtransform
 ms.topic: interface

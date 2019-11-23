@@ -1,12 +1,12 @@
 ---
 UID: NF:dpa_dsa.DPA_GetPtrIndex
 title: DPA_GetPtrIndex function (dpa_dsa.h)
-author: windows-sdk-content
+
 description: Gets the index of a matching item found in a dynamic pointer array (DPA).
 old-location: controls\DPA_GetPtrIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getptrindex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DPA_GetPtrIndex, DPA_GetPtrIndex function [Windows Controls], _shell_DPA_GetPtrIndex, _shell_DPA_GetPtrIndex_cpp, controls.DPA_GetPtrIndex, controls._shell_DPA_GetPtrIndex, dpa_dsa/DPA_GetPtrIndex
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:perflib.PerfCreateInstance
 title: PerfCreateInstance function (perflib.h)
-author: windows-sdk-content
+
 description: Creates an instance of the specified counter set.
 old-location: perf\perfcreateinstance.htm
 tech.root: perfctrs
 ms.assetid: 73be8588-2c87-4c27-933d-62b8605ed9a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PerfCreateInstance, PerfCreateInstance function [Perf], base.perfcreateinstance, perf.perfcreateinstance, perflib/PerfCreateInstance
 ms.topic: function

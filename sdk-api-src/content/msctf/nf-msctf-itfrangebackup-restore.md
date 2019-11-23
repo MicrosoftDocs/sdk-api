@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfRangeBackup.Restore
 title: ITfRangeBackup::Restore (msctf.h)
-author: windows-sdk-content
+
 description: ITfRangeBackup::Restore method
 old-location: tsf\itfrangebackup_restore.htm
 tech.root: TSF
 ms.assetid: bb168504-34c0-4d30-826e-61926fd10a2a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfRangeBackup interface [Text Services Framework],Restore method, ITfRangeBackup.Restore, ITfRangeBackup::Restore, Restore, Restore method [Text Services Framework], Restore method [Text Services Framework],ITfRangeBackup interface, _tsf_itfrangebackup_restore_ref, msctf/ITfRangeBackup::Restore, tsf.itfrangebackup_restore
 ms.topic: method

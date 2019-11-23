@@ -1,12 +1,12 @@
 ---
 UID: NS:winioctl._DISK_GROW_PARTITION
 title: DISK_GROW_PARTITION
-author: windows-sdk-content
+
 description: Contains information used to increase the size of a partition.
 old-location: fs\disk_grow_partition_str.htm
 tech.root: FileIO
 ms.assetid: 17ff8bbb-45a6-4ddd-a871-8519500c03a9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PDISK_GROW_PARTITION, DISK_GROW_PARTITION, DISK_GROW_PARTITION structure [Files], PDISK_GROW_PARTITION, PDISK_GROW_PARTITION structure pointer [Files], base.disk_grow_partition_str, fs.disk_grow_partition_str, winioctl/DISK_GROW_PARTITION, winioctl/PDISK_GROW_PARTITION"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NS:authif._RADIUS_ATTRIBUTE
 title: RADIUS_ATTRIBUTE (authif.h)
-author: windows-sdk-content
+
 description: The RADIUS_ATTRIBUTE structure represents a RADIUS attribute or an extended attribute.
 old-location: nps\IAS_radius_attribute.htm
 tech.root: Nps
 ms.assetid: 7c6e1a41-9736-4bd3-b709-779d871ead57
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PRADIUS_ATTRIBUTE, PRADIUS_ATTRIBUTE, PRADIUS_ATTRIBUTE structure pointer [Network Policy Server], RADIUS_ATTRIBUTE, RADIUS_ATTRIBUTE structure [Network Policy Server], _ias_radius_attribute, authif/PRADIUS_ATTRIBUTE, authif/RADIUS_ATTRIBUTE, ias.radius_attribute, nps.IAS_radius_attribute'
 ms.topic: struct

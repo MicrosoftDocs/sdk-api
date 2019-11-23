@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Region.Exclude(IN const GraphicsPath)
 title: Region::Exclude(IN const GraphicsPath) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Region::Exclude method updates this region to the portion of itself that does not intersect the specified path's interior.
 old-location: gdiplus\_gdiplus_CLASS_Region_Exclude_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionexcludemethods\exclude.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Exclude, Exclude method [GDI+], Exclude method [GDI+],Region class, Region class [GDI+],Exclude method, Region.Exclude, Region.Exclude(IN const GraphicsPath), Region.Exclude(const GraphicsPath*), Region::Exclude, Region::Exclude(IN const GraphicsPath), _gdiplus_CLASS_Region_Exclude_path_, gdiplus._gdiplus_CLASS_Region_Exclude_path_
 ms.topic: method

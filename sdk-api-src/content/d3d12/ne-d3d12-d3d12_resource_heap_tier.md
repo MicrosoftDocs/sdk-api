@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d12.D3D12_RESOURCE_HEAP_TIER
 title: D3D12_RESOURCE_HEAP_TIER (d3d12.h)
-author: windows-sdk-content
+
 description: Specifies which resource heap tier the hardware and driver support.
 old-location: direct3d12\d3d12_resource_heap_tier.htm
 tech.root: direct3d12
 ms.assetid: 47C5B30C-BFFE-437A-878B-FE49F8EFFD02
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_HEAP_TIER, D3D12_RESOURCE_HEAP_TIER enumeration, D3D12_RESOURCE_HEAP_TIER_1, D3D12_RESOURCE_HEAP_TIER_2, d3d12/D3D12_RESOURCE_HEAP_TIER, d3d12/D3D12_RESOURCE_HEAP_TIER_1, d3d12/D3D12_RESOURCE_HEAP_TIER_2, direct3d12.d3d12_resource_heap_tier
 ms.topic: enum

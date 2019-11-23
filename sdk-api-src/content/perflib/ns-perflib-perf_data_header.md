@@ -1,12 +1,12 @@
 ---
 UID: NS:perflib._PERF_DATA_HEADER
 title: PERF_DATA_HEADER (perflib.h)
-author: windows-sdk-content
+
 description: Provides information about the PERF_DATA_HEADER block that contains the structure.
 old-location: perf\perf_data_header.htm
 tech.root: perfctrs
 ms.assetid: 0B30B30A-2B2D-43D8-B6DD-58C70D54EB58
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_DATA_HEADER, PERF_DATA_HEADER, PERF_DATA_HEADER structure [Perf], PPERF_DATA_HEADER, PPERF_DATA_HEADER structure pointer [Perf], perf.perf_data_header, perflib/PERF_DATA_HEADER, perflib/PPERF_DATA_HEADER'
 ms.topic: struct

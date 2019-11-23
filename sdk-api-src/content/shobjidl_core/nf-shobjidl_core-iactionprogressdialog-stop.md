@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IActionProgressDialog.Stop
 title: IActionProgressDialog::Stop (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Stops a progress dialog.
 old-location: shell\IActionProgressDialog_Stop.htm
 tech.root: shell
 ms.assetid: 700835c1-f6c0-40f9-8968-0924281dcfe0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IActionProgressDialog interface [Windows Shell],Stop method, IActionProgressDialog.Stop, IActionProgressDialog::Stop, Stop, Stop method [Windows Shell], Stop method [Windows Shell],IActionProgressDialog interface, _shell_IActionProgressDialog_Stop, shell.IActionProgressDialog_Stop, shobjidl_core/IActionProgressDialog::Stop
 ms.topic: method

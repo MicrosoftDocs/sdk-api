@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltRemoveW
 title: RpcNsProfileEltRemoveW function (rpcnsi.h)
-author: windows-sdk-content
+
 description: The RpcNsProfileEltRemove function removes an element from a profile.
 old-location: rpc\rpcnsprofileeltremove.htm
 tech.root: Rpc
 ms.assetid: 303df924-73ad-4e2f-aa30-e600bb5594c2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RpcNsProfileEltRemove, RpcNsProfileEltRemove function [RPC], RpcNsProfileEltRemoveA, RpcNsProfileEltRemoveW, _rpc_rpcnsprofileeltremove, rpc.rpcnsprofileeltremove, rpcnsi/RpcNsProfileEltRemove, rpcnsi/RpcNsProfileEltRemoveA, rpcnsi/RpcNsProfileEltRemoveW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMFLOAT3A.XMFLOAT3A(const float)
 title: XMFLOAT3A::XMFLOAT3A(const float) (directxmath.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMFLOAT3 from a three element float array argument.
 old-location: dxmath\xmfloat3_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3.#ctor(const float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3 constructor [DirectX Math Support APIs], XMFLOAT3 constructor [DirectX Math Support APIs],XMFLOAT3 structure, XMFLOAT3 structure [DirectX Math Support APIs],XMFLOAT3 constructor, XMFLOAT3.XMFLOAT3(const float*), XMFLOAT3A, XMFLOAT3A.XMFLOAT3A, XMFLOAT3A.XMFLOAT3A(const float), XMFLOAT3A::XMFLOAT3A, XMFLOAT3A::XMFLOAT3A(const float), dxmath.xmfloat3_ctor_3
 ms.topic: method

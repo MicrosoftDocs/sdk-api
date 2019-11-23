@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmTransactionAbort0
 title: FwpmTransactionAbort0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Causes the current transaction within the current session to abort and rollback.
 old-location: fwp\fwpmtransactionabort0_func.htm
 tech.root: fwp
 ms.assetid: e2574f0c-1070-4e06-8b75-80fa7ec20acf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmTransactionAbort0, FwpmTransactionAbort0 function [Filtering], fwp.fwpmtransactionabort0_func, fwpmu/FwpmTransactionAbort0
 ms.topic: function

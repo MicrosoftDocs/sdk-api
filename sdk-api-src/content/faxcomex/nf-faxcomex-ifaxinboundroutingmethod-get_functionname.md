@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethod.get_FunctionName
 title: IFaxInboundRoutingMethod::get_FunctionName (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxInboundRoutingMethod::get_FunctionName property is a null-terminated string that contains the name of the function that executes a specific fax routing procedure.
 old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_functionname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_76p1.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FunctionName property [Fax Service], FunctionName property [Fax Service],IFaxInboundRoutingMethod interface, IFaxInboundRoutingMethod interface [Fax Service],FunctionName property, IFaxInboundRoutingMethod.FunctionName, IFaxInboundRoutingMethod.get_FunctionName, IFaxInboundRoutingMethod::FunctionName, IFaxInboundRoutingMethod::get_FunctionName, _mfax_faxinboundroutingmethod.functionname, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_functionname_cpp, fax._mfax_faxinboundroutingmethod_functionname, faxcomex/IFaxInboundRoutingMethod::FunctionName, faxcomex/IFaxInboundRoutingMethod::get_FunctionName, get_FunctionName
 ms.topic: method

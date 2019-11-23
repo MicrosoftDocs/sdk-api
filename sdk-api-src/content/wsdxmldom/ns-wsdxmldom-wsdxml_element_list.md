@@ -1,12 +1,12 @@
 ---
 UID: NS:wsdxmldom._WSDXML_ELEMENT_LIST
 title: WSDXML_ELEMENT_LIST (wsdxmldom.h)
-author: windows-sdk-content
+
 description: Represents a node in a linked list of XML elements.
 old-location: ncd\wsdxml_element_list_struct.htm
 tech.root: WsdApi
 ms.assetid: 498fe365-e9a1-490c-a361-2312ea698977
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WSDXML_ELEMENT_LIST, WSDXML_ELEMENT_LIST structure, _WSDXML_ELEMENT_LIST, ncd.wsdxml_element_list_struct, wsdxmldom/WSDXML_ELEMENT_LIST
 ms.topic: struct

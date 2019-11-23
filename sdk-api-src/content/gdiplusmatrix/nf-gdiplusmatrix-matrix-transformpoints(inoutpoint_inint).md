@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.TransformPoints(IN OUT Point,IN INT)
 title: Matrix::TransformPoints(IN OUT Point,IN INT) (gdiplusmatrix.h)
-author: windows-sdk-content
+
 description: The Matrix::TransformPoints method multiplies each point in an array by this matrix. Each point is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_TransformPoints_Point_pts_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformpointsmethods\transformpoints_78pointpts_intcount.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],TransformPoints method, Matrix.TransformPoints, Matrix.TransformPoints(IN OUT Point,IN INT), Matrix.TransformPoints(Point*,INT), Matrix::TransformPoints, Matrix::TransformPoints(IN OUT Point,IN INT), TransformPoints, TransformPoints method [GDI+], TransformPoints method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_TransformPoints_Point_pts_INT_count_, gdiplus._gdiplus_CLASS_Matrix_TransformPoints_Point_pts_INT_count_
 ms.topic: method

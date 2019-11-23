@@ -1,12 +1,12 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetRunTimes
 title: IScheduledWorkItem::GetRunTimes (mstask.h)
-author: windows-sdk-content
+
 description: Retrieves the work item run times for a specified time period.
 old-location: taskschd\ischeduledworkitem_getruntimes.htm
 tech.root: taskschd
 ms.assetid: 4fd9f5dc-b237-46a6-96c0-0e4b3accd6e5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRunTimes, GetRunTimes method [Task Scheduler], GetRunTimes method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetRunTimes method, IScheduledWorkItem.GetRunTimes, IScheduledWorkItem::GetRunTimes, _msb_ischeduledworkitem_getruntimes, mstask/IScheduledWorkItem::GetRunTimes, taskschd.ischeduledworkitem_getruntimes
 ms.topic: method

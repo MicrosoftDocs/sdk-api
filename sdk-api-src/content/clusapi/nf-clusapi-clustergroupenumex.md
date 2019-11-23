@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.ClusterGroupEnumEx
 title: ClusterGroupEnumEx function (clusapi.h)
-author: windows-sdk-content
+
 description: Retrieves an item in the enumeration.
 old-location: mscs\clustergroupenumex.htm
 tech.root: MsCS
 ms.assetid: 139FE5AB-9465-46F8-B360-F27F19D82A88
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupEnumEx, ClusterGroupEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_ENUM_EX function [Failover Cluster], clusapi/ClusterGroupEnumEx, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM_EX, mscs.clustergroupenumex
 ms.topic: function

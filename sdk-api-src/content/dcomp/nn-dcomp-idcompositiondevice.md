@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionDevice
 title: IDCompositionDevice (dcomp.h)
-author: windows-sdk-content
+
 description: Serves as a factory for all other Microsoft DirectComposition objects and provides methods to control transactional composition.
 old-location: directcomp\idcompositiondevice.htm
 tech.root: directcomp
 ms.assetid: 081a14ed-c152-4e0a-b85b-1111d825ce53
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDevice, IDCompositionDevice interface [DirectComposition], IDCompositionDevice interface [DirectComposition],described, dcomp/IDCompositionDevice, directcomp.idcompositiondevice
 ms.topic: interface

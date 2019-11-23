@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_LastReportPathWithoutExtension
 title: IFsrmFileManagementJob::get_LastReportPathWithoutExtension (fsrmreports.h)
-author: windows-sdk-content
+
 description: The local directory path where the reports were stored the last time the job ran.
 old-location: fsrm\ifsrmfilemanagementjob_lastreportpathwithoutextension.htm
 tech.root: fsrm
 ms.assetid: 404d45e0-621e-47d5-b987-0f9347242653
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],LastReportPathWithoutExtension property, IFsrmFileManagementJob.LastReportPathWithoutExtension, IFsrmFileManagementJob.get_LastReportPathWithoutExtension, IFsrmFileManagementJob::LastReportPathWithoutExtension, IFsrmFileManagementJob::get_LastReportPathWithoutExtension, LastReportPathWithoutExtension property [File Server Resource Manager], LastReportPathWithoutExtension property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_lastreportpathwithoutextension, fsrm.ifsrmfilemanagementjob_lastreportpathwithoutextension, fsrmreports/IFsrmFileManagementJob::LastReportPathWithoutExtension, fsrmreports/IFsrmFileManagementJob::get_LastReportPathWithoutExtension, get_LastReportPathWithoutExtension
 ms.topic: method

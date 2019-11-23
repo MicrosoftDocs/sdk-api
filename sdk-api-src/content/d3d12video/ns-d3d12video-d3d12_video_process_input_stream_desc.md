@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC
 title: D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC
-author: windows-sdk-content
+
 description: Specifies the parameters for the input stream for a video process operation.
 tech.root: mf
 ms.assetid: 35fb7ed3-29a1-4473-b979-e4698eb8c6e7
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

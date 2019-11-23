@@ -1,12 +1,12 @@
 ---
 UID: NC:wincrypt.PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
 title: PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC (wincrypt.h)
-author: windows-sdk-content
+
 description: Called by CryptImportPublicKeyInfoEx2 to decode the public key algorithm identifier, load the algorithm provider, and import the key pair.
 old-location: security\pfn_import_public_key_info_ex2_func.htm
 tech.root: SecCrypto
 ms.assetid: b8d26a54-1549-4d2b-9cd6-c551407d795d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC, PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC callback, PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC callback function [Security], X509_ASN_ENCODING, security.pfn_import_public_key_info_ex2_func, wincrypt/PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
 ms.topic: callback

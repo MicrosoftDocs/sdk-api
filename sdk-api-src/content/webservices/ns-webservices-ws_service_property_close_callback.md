@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_SERVICE_PROPERTY_CLOSE_CALLBACK
 title: WS_SERVICE_PROPERTY_CLOSE_CALLBACK (webservices.h)
-author: windows-sdk-content
+
 description: Specifies the callback which is called when a channel is about to be closed. See, WS_SERVICE_CLOSE_CHANNEL_CALLBACK for details.
 old-location: wsw\ws_service_property_close_callback.htm
 tech.root: wsw
 ms.assetid: 3806c87d-6abe-4dee-90cf-0a6d26826189
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_PROPERTY_CLOSE_CALLBACK, WS_SERVICE_PROPERTY_CLOSE_CALLBACK structure [Web Services for Windows], webservices/WS_SERVICE_PROPERTY_CLOSE_CALLBACK, wsw.ws_service_property_close_callback
 ms.topic: struct

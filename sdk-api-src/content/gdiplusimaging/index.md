@@ -1,7 +1,7 @@
 ---
 UID: NA:gdiplusimaging
 ms.assetid: 94b6f27c-995e-336a-b084-40d41214618e
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

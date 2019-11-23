@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.Append
 title: IXpsOMDictionary::Append (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Appends an IXpsOMShareable interface along with its key to the end of the dictionary.
 old-location: xps\ixpsomdictionary_append.htm
 tech.root: printdocs
 ms.assetid: 69df1cdc-a965-4ea8-b1af-75176caa39ee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],Append method, IXpsOMDictionary.Append, IXpsOMDictionary::Append, xps.ixpsomdictionary_append, xpsobjectmodel/IXpsOMDictionary::Append
 ms.topic: method

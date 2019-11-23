@@ -1,12 +1,12 @@
 ---
 UID: NN:pnpxassoc.IPNPXAssociation
 title: IPNPXAssociation (pnpxassoc.h)
-author: windows-sdk-content
+
 description: Defines methods to manage the association database entries for PnP-X devices.
 old-location: ncd\ipnpxassociation.htm
 tech.root: FunDisc
 ms.assetid: 03c1c4cb-fffb-4b4a-963a-200670062f4a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPNPXAssociation, IPNPXAssociation interface, IPNPXAssociation interface,described, ncd.ipnpxassociation, pnpxassoc/IPNPXAssociation
 ms.topic: interface

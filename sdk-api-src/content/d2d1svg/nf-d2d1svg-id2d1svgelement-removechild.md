@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.RemoveChild
 title: ID2D1SvgElement::RemoveChild (d2d1svg.h)
-author: windows-sdk-content
+
 description: Removes the oldChild from the tree. Children of oldChild remain children of oldChild.
 old-location: direct2d\id2d1svgelement_removechild.htm
 tech.root: Direct2D
 ms.assetid: 986EE898-D377-4DFF-B19E-834D5CD1A4E6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],RemoveChild method, ID2D1SvgElement.RemoveChild, ID2D1SvgElement::RemoveChild, RemoveChild, RemoveChild method [Direct2D], RemoveChild method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::RemoveChild, direct2d.id2d1svgelement_removechild
 ms.topic: method

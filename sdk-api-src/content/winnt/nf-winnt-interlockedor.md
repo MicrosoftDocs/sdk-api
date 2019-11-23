@@ -1,12 +1,12 @@
 ---
 UID: NF:winnt.InterlockedOr
 title: InterlockedOr function (winnt.h)
-author: windows-sdk-content
+
 description: Performs an atomic OR operation on the specified LONG values.
 old-location: base\interlockedor.htm
 tech.root: Sync
 ms.assetid: c677e9fb-4188-466a-8283-9d65a50d150e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InterlockedOr, InterlockedOr function, base.interlockedor, winnt/InterlockedOr
 ms.topic: function

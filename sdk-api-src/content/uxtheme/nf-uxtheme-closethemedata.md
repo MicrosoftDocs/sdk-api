@@ -1,12 +1,12 @@
 ---
 UID: NF:uxtheme.CloseThemeData
 title: CloseThemeData function (uxtheme.h)
-author: windows-sdk-content
+
 description: Closes the theme data handle.
 old-location: controls\CloseThemeData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\closethemedata.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CloseThemeData, CloseThemeData function [Windows Controls], controls.CloseThemeData, controls.inet_CloseThemeData, inet_CloseThemeData, inet_CloseThemeData_cpp, uxtheme/CloseThemeData
 ms.topic: function

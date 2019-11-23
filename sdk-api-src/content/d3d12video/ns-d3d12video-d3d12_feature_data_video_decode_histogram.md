@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM
 title: D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM
-author: windows-sdk-content
+
 description: Provides data for calls to ID3D12VideoDevice::CheckFeatureSupport when the feature specified is D3D12_FEATURE_VIDEO_DECODE_HISTOGRAM.
 tech.root: mf
 ms.assetid: 052bfdcb-a6f6-4027-811f-9af11b1975b4
-ms.author: windowssdkdev
+
 ms.date: 11/14/2019
 ms.topic: struct
 f1_keywords:

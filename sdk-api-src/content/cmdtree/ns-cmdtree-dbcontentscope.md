@@ -1,12 +1,12 @@
 ---
 UID: NS:cmdtree.tagDBCONTENTSCOPE
 title: DBCONTENTSCOPE (cmdtree.h)
-author: windows-sdk-content
+
 description: The DBCONTENTSCOPE structure is used to pass a scope argument in a command tree.
 old-location: indexsrv\dbcontentscope.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_4s85.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTSCOPE, DBCONTENTSCOPE structure [Indexing Service], _idxs_DBCONTENTSCOPE, cmdtree/DBCONTENTSCOPE, indexsrv.dbcontentscope, tagDBCONTENTSCOPE
 ms.topic: struct

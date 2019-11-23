@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetBrushRemapTable
 title: ImageAttributes::SetBrushRemapTable (gdiplusimageattributes.h)
-author: windows-sdk-content
+
 description: The ImageAttributes::SetBrushRemapTable method sets the color remap table for the brush category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetBrushRemapTable_mapSize_map_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setbrushremaptable.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes class [GDI+],SetBrushRemapTable method, ImageAttributes.SetBrushRemapTable, ImageAttributes::SetBrushRemapTable, SetBrushRemapTable, SetBrushRemapTable method [GDI+], SetBrushRemapTable method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetBrushRemapTable_mapSize_map_, gdiplus._gdiplus_CLASS_ImageAttributes_SetBrushRemapTable_mapSize_map_
 ms.topic: method

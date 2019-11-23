@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagBITMAPCOREHEADER
 title: BITMAPCOREHEADER (wingdi.h)
-author: windows-sdk-content
+
 description: The BITMAPCOREHEADER structure contains information about the dimensions and color format of a DIB.
 old-location: gdi\bitmapcoreheader.htm
 tech.root: gdi
 ms.assetid: 0182adcd-dbba-43de-b41b-ab2f0fd8f7bf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPBITMAPCOREHEADER, *PBITMAPCOREHEADER, BITMAPCOREHEADER, BITMAPCOREHEADER structure [Windows GDI], PBITMAPCOREHEADER, PBITMAPCOREHEADER structure pointer [Windows GDI], _win32_BITMAPCOREHEADER_str, gdi.bitmapcoreheader, wingdi/BITMAPCOREHEADER, wingdi/PBITMAPCOREHEADER"
 ms.topic: struct

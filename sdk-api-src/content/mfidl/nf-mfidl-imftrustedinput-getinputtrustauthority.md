@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFTrustedInput.GetInputTrustAuthority
 title: IMFTrustedInput::GetInputTrustAuthority (mfidl.h)
-author: windows-sdk-content
+
 description: Retrieves the input trust authority (ITA) for a specified stream.
 old-location: mf\imftrustedinput_getinputtrustauthority.htm
 tech.root: medfound
 ms.assetid: b4ebf02e-554a-4e7e-93d3-6f37d8b689bf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInputTrustAuthority, GetInputTrustAuthority method [Media Foundation], GetInputTrustAuthority method [Media Foundation],IMFTrustedInput interface, IMFTrustedInput interface [Media Foundation],GetInputTrustAuthority method, IMFTrustedInput.GetInputTrustAuthority, IMFTrustedInput::GetInputTrustAuthority, b4ebf02e-554a-4e7e-93d3-6f37d8b689bf, mf.imftrustedinput_getinputtrustauthority, mfidl/IMFTrustedInput::GetInputTrustAuthority
 ms.topic: method

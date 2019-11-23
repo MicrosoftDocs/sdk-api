@@ -1,12 +1,12 @@
 ---
 UID: NS:ddpbackup._DEDUP_CONTAINER_EXTENT
 title: DEDUP_CONTAINER_EXTENT (ddpbackup.h)
-author: windows-sdk-content
+
 description: A logical container file may be stored in a single segment or multiple segments in the backup store.
 old-location: dedup\dedup_container_extent.htm
 tech.root: dedup
 ms.assetid: D7CEC0C4-0472-467C-87F1-1496C9F08296
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DEDUP_CONTAINER_EXTENT, DEDUP_CONTAINER_EXTENT structure [Data Deduplication API], PDEDUP_CONTAINER_EXTENT, PDEDUP_CONTAINER_EXTENT structure pointer [Data Deduplication API], ddpbackup/DEDUP_CONTAINER_EXTENT, ddpbackup/PDEDUP_CONTAINER_EXTENT, dedup.dedup_container_extent
 ms.topic: struct

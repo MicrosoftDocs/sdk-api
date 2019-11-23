@@ -1,7 +1,7 @@
 ---
 UID: NA:jobapi2
 ms.assetid: c7d7afd2-8591-38c9-a11b-ca4a3d8b3341
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

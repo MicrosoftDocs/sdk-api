@@ -1,12 +1,12 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.CreateObjectWithPropertiesAndData
 title: IPortableDeviceContent::CreateObjectWithPropertiesAndData (portabledeviceapi.h)
-author: windows-sdk-content
+
 description: The CreateObjectWithPropertiesAndData method creates an object with both properties and data on the device.
 old-location: wpdsdk\iportabledevicecontent_createobjectwithpropertiesanddata.htm
 tech.root: wpd_sdk
 ms.assetid: ea3445cc-69af-40a6-a5a4-695e0f2e1fb6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateObjectWithPropertiesAndData, CreateObjectWithPropertiesAndData method [Windows Portable Devices SDK], CreateObjectWithPropertiesAndData method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],CreateObjectWithPropertiesAndData method, IPortableDeviceContent.CreateObjectWithPropertiesAndData, IPortableDeviceContent::CreateObjectWithPropertiesAndData, IPortableDeviceContentCreateObjectWithPropertiesAndData, portabledeviceapi/IPortableDeviceContent::CreateObjectWithPropertiesAndData, wpdsdk.iportabledevicecontent_createobjectwithpropertiesanddata
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_ConstSint8AField
 title: MI_ConstSint8AField (mi.h)
-author: windows-sdk-content
+
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constsint8afield.htm
 tech.root: wmi_v2
 ms.assetid: 4adf6ce8-793c-452c-b5b2-0928bebc5ebe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_ConstSint8AField, MI_ConstSint8AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstSint8AField, wmi._mi_constsint8afield, wmi_v2.mi_constsint8afield
 ms.topic: struct

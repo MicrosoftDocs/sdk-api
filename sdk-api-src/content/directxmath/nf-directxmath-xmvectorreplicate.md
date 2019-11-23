@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorReplicate
 title: XMVectorReplicate function (directxmath.h)
-author: windows-sdk-content
+
 description: Replicates a floating-point value into all four components of a vector.
 old-location: dxmath\xmvectorreplicate.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorReplicate(float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorReplicate, XMVectorReplicate, XMVectorReplicate method [DirectX Math Support APIs], dxmath.xmvectorreplicate
 ms.topic: function

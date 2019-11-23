@@ -1,12 +1,12 @@
 ---
 UID: NF:mpeg2data.IMpeg2TableFilter.RemovePID
 title: IMpeg2TableFilter::RemovePID (mpeg2data.h)
-author: windows-sdk-content
+
 description: The RemovePID method removes a packet identifier (PID) from the list of PIDs that the filter sends.
 old-location: mstv\impeg2tablefilter_removepid.htm
 tech.root: mstv
 ms.assetid: e9ce49e3-e256-4150-ab73-b57ed34ab30c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMpeg2TableFilter interface [Microsoft TV Technologies],RemovePID method, IMpeg2TableFilter.RemovePID, IMpeg2TableFilter::RemovePID, IMpeg2TableFilterRemovePID, RemovePID, RemovePID method [Microsoft TV Technologies], RemovePID method [Microsoft TV Technologies],IMpeg2TableFilter interface, mpeg2data/IMpeg2TableFilter::RemovePID, mstv.impeg2tablefilter_removepid
 ms.topic: method

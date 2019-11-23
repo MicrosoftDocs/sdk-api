@@ -1,12 +1,12 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_UNLOCK
 title: PDD_SURFCB_UNLOCK (ddrawint.h)
-author: windows-sdk-content
+
 description: The DdUnLock callback function releases the lock held on the specified surface.
 old-location: display\ddunlock.htm
 tech.root: display
 ms.assetid: dbb7b34c-5473-42b9-b16f-e71b9c3e1db8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DdUnlock, DdUnlock callback function [Display Devices], PDD_SURFCB_UNLOCK, PDD_SURFCB_UNLOCK callback, ddfncs_9599bb87-0f48-4481-a5c8-4c3d60dc1fc6.xml, ddrawint/DdUnlock, display.ddunlock
 ms.topic: callback

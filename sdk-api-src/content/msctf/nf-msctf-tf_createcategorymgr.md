@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.TF_CreateCategoryMgr
 title: TF_CreateCategoryMgr function (msctf.h)
-author: windows-sdk-content
+
 description: The TF_CreateCategoryMgr function creates a category manager object without having to initialize COM. Usage must be done carefully because the calling thread must maintain the reference count on an object that is owned by MSCTF.DLL.
 old-location: tsf\tf_createcategorymgr.htm
 tech.root: TSF
 ms.assetid: d157d006-c664-4086-b75e-3b90b2fa818f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TF_CreateCategoryMgr, TF_CreateCategoryMgr function [Text Services Framework], msctf/TF_CreateCategoryMgr, tsf.tf_createcategorymgr
 ms.topic: function

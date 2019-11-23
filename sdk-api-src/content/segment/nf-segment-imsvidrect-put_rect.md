@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidRect.put_Rect
 title: IMSVidRect::put_Rect (segment.h)
-author: windows-sdk-content
+
 description: The put_Rect method copies the values of another rectangle to this rectangle.
 old-location: mstv\imsvidrect_put_rect.htm
 tech.root: mstv
 ms.assetid: e50fd657-d913-49f5-b4dd-fb4c0d207417
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Rect method, IMSVidRect.put_Rect, IMSVidRect::put_Rect, IMSVidRectput_Rect, mstv.imsvidrect_put_rect, put_Rect, put_Rect method [Microsoft TV Technologies], put_Rect method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Rect
 ms.topic: method

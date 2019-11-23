@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmCalloutSubscribeChanges0
 title: FwpmCalloutSubscribeChanges0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Is used to request the delivery of notifications regarding changes in a particular callout.
 old-location: fwp\fwpmcalloutsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: 1460603c-6897-4559-b376-b87a6c2f4309
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutSubscribeChanges0, FwpmCalloutSubscribeChanges0 function [Filtering], fwp.fwpmcalloutsubscribechanges0_func, fwpmu/FwpmCalloutSubscribeChanges0
 ms.topic: function

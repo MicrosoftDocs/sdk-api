@@ -1,12 +1,12 @@
 ---
 UID: NC:ntsecpkg.SpSetExtendedInformationFn
 title: SpSetExtendedInformationFn (ntsecpkg.h)
-author: windows-sdk-content
+
 description: Sets extended information about the security package.
 old-location: security\spsetextendedinformation.htm
 tech.root: SecAuthN
 ms.assetid: a6176786-c19b-4ecf-8a7b-2430ff8b56f7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SpSetExtendedInformation, SpSetExtendedInformation callback function [Security], SpSetExtendedInformationFn, SpSetExtendedInformationFn callback, _ssp_spsetextendedinformation, ntsecpkg/SpSetExtendedInformation, security.spsetextendedinformation
 ms.topic: callback

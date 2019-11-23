@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionVisual2
 title: IDCompositionVisual2 (dcomp.h)
-author: windows-sdk-content
+
 description: Represents one DirectComposition visual in a visual tree.
 old-location: directcomp\idcompositionvisual2.htm
 tech.root: directcomp
 ms.assetid: D4D04A43-BF00-482A-9CDD-A476BD1CB953
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual2, IDCompositionVisual2 interface [DirectComposition], IDCompositionVisual2 interface [DirectComposition],described, dcomp/IDCompositionVisual2, directcomp.idcompositionvisual2
 ms.topic: interface

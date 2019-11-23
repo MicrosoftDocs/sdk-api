@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingBox.Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR)
 title: BoundingBox::Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR)
-author: windows-sdk-content
+
 description: Test the BoundingBox for intersection with a triangle.
 old-location: dxmath\boundingbox_intersects_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.Intersects(XMVECTOR,XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],Intersects method, BoundingBox.Intersects, BoundingBox.Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR), BoundingBox.Intersects(XMVECTOR,XMVECTOR,XMVECTOR), BoundingBox::Intersects, BoundingBox::Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingBox interface, dxmath.boundingbox_intersects_3
 ms.topic: method

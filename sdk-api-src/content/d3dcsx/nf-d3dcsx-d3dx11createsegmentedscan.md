@@ -1,12 +1,12 @@
 ---
 UID: NF:d3dcsx.D3DX11CreateSegmentedScan
 title: D3DX11CreateSegmentedScan function (d3dcsx.h)
-author: windows-sdk-content
+
 description: Creates a segmented scan context.
 old-location: direct3d11\d3dx11createsegmentedscan.htm
 tech.root: direct3d11
 ms.assetid: f8906357-57d8-4e57-a120-2ac28fad2288
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 6b834305-1925-9f3d-ee71-8dc858a331c0, D3DX11CreateSegmentedScan, D3DX11CreateSegmentedScan function [Direct3D 11], d3dcsx/D3DX11CreateSegmentedScan, direct3d11.d3dx11createsegmentedscan
 ms.topic: function

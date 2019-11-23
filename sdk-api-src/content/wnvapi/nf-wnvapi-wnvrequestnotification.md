@@ -1,12 +1,12 @@
 ---
 UID: NF:wnvapi.WnvRequestNotification
 title: WnvRequestNotification function (wnvapi.h)
-author: windows-sdk-content
+
 description: Requests notification from the Windows Network Virtualization (WNV) driver whenever a certain type of event occurs.
 old-location: wnv\wnvrequestnotification.htm
 tech.root: wnv
 ms.assetid: CA0F9AAE-95E5-4A62-8A26-11F933B2D09E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WnvRequestNotification, WnvRequestNotification function [Windows Network Virtualization], wnv.wnvrequestnotification, wnvapi/WnvRequestNotification
 ms.topic: function

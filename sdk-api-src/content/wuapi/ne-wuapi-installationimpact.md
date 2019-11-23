@@ -1,12 +1,12 @@
 ---
 UID: NE:wuapi.tagInstallationImpact
 title: InstallationImpact (wuapi.h)
-author: windows-sdk-content
+
 description: Defines the possible levels of impact that can be caused by installing or uninstalling an update.
 old-location: wua\installationimpact.htm
 tech.root: Wua_Sdk
 ms.assetid: 156c5aa2-125f-4ffd-b3eb-4dfed280255b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InstallationImpact, InstallationImpact enumeration [Windows Update Agent], iiMinor, iiNormal, iiRequiresExclusiveHandling, wua.installationimpact, wuapi/InstallationImpact, wuapi/iiMinor, wuapi/iiNormal, wuapi/iiRequiresExclusiveHandling
 ms.topic: enum

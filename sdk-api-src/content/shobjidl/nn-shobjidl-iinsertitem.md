@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl.IInsertItem
 title: IInsertItem (shobjidl.h)
-author: windows-sdk-content
+
 description: IInsertItem may be altered or unavailable.
 old-location: shell\IInsertItem.htm
 tech.root: shell
 ms.assetid: f90fdd7b-1f51-4f92-8c1a-68e8b76f723f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInsertItem, IInsertItem interface [Windows Shell], IInsertItem interface [Windows Shell],described, shell.IInsertItem, shell_IInsertItem, shobjidl/IInsertItem
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.get_SupportedExtensions
 title: IFsrmPipelineModuleDefinition::get_SupportedExtensions (fsrmpipeline.h)
-author: windows-sdk-content
+
 description: The list of file extensions supported by this module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_supportedextensions.htm
 tech.root: fsrm
 ms.assetid: d83caabf-ea62-4d3d-83e3-7b95f4fcc103
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],SupportedExtensions property, IFsrmPipelineModuleDefinition.SupportedExtensions, IFsrmPipelineModuleDefinition.get_SupportedExtensions, IFsrmPipelineModuleDefinition::SupportedExtensions, IFsrmPipelineModuleDefinition::get_SupportedExtensions, IFsrmPipelineModuleDefinition::put_SupportedExtensions, SupportedExtensions property [File Server Resource Manager], SupportedExtensions property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_supportedextensions, fsrm.ifsrmpipelinemoduledefinition_supportedextensions, fsrmpipeline/IFsrmPipelineModuleDefinition::SupportedExtensions, fsrmpipeline/IFsrmPipelineModuleDefinition::get_SupportedExtensions, fsrmpipeline/IFsrmPipelineModuleDefinition::put_SupportedExtensions, get_SupportedExtensions
 ms.topic: method

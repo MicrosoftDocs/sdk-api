@@ -1,12 +1,12 @@
 ---
 UID: NN:contentpartner.IWMPContentContainerList
 title: IWMPContentContainerList (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentcontainerlist.htm
 tech.root: WMP
 ms.assetid: a8fd239b-2a53-4db4-8a82-a7c510d215bc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPContentContainerList, IWMPContentContainerList interface [Windows Media Player], IWMPContentContainerList interface [Windows Media Player],described, IWMPContentContainerListInterface, contentpartner/IWMPContentContainerList, wmp.iwmpcontentcontainerlist
 ms.topic: interface

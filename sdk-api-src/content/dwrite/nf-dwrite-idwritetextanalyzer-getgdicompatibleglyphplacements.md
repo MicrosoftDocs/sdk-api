@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.GetGdiCompatibleGlyphPlacements
 title: IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements (dwrite.h)
-author: windows-sdk-content
+
 description: Place glyphs output from the GetGlyphs method according to the font and the writing system's rendering rules.
 old-location: directwrite\idwritetextanalyzer_getgdicompatibleglyphplacements.htm
 tech.root: DirectWrite
 ms.assetid: 49312b03-9ee9-44ef-b3eb-a35631a6e693
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGdiCompatibleGlyphPlacements, GetGdiCompatibleGlyphPlacements method [Direct Write], GetGdiCompatibleGlyphPlacements method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],GetGdiCompatibleGlyphPlacements method, IDWriteTextAnalyzer.GetGdiCompatibleGlyphPlacements, IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements, directwrite.idwritetextanalyzer_getgdicompatibleglyphplacements, dwrite/IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements
 ms.topic: method

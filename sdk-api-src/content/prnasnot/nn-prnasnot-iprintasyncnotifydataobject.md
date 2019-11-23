@@ -1,12 +1,12 @@
 ---
 UID: NN:prnasnot.IPrintAsyncNotifyDataObject
 title: IPrintAsyncNotifyDataObject (prnasnot.h)
-author: windows-sdk-content
+
 description: Encapsulates the data sent in a notification channel.
 old-location: gdi\iprintasyncnotifydataobject.htm
 tech.root: printdocs
 ms.assetid: fd0e1f30-c54e-418c-8081-664edebaad61
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyDataObject, IPrintAsyncNotifyDataObject interface [Windows GDI], IPrintAsyncNotifyDataObject interface [Windows GDI],described, _win32_IPrintAsyncNotifyDataObject, gdi.iprintasyncnotifydataobject, prnasnot/IPrintAsyncNotifyDataObject
 ms.topic: interface

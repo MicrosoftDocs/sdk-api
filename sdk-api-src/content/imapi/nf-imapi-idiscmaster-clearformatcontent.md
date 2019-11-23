@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi.IDiscMaster.ClearFormatContent
 title: IDiscMaster::ClearFormatContent (imapi.h)
-author: windows-sdk-content
+
 description: Clears the contents of an unburned image (the current stash file).
 old-location: imapi\idiscmaster_clearformatcontent.htm
 tech.root: imapi
 ms.assetid: d3c0d850-914b-47ae-b614-a292411e6832
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClearFormatContent, ClearFormatContent method [IMAPI], ClearFormatContent method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],ClearFormatContent method, IDiscMaster.ClearFormatContent, IDiscMaster::ClearFormatContent, _win32_idiscmaster_clearformatcontent, base.idiscmaster_clearformatcontent, imapi.idiscmaster_clearformatcontent, imapi/IDiscMaster::ClearFormatContent
 ms.topic: method

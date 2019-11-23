@@ -1,12 +1,12 @@
 ---
 UID: NN:videoacc.IAMVideoAccelerator
 title: IAMVideoAccelerator (videoacc.h)
-author: windows-sdk-content
+
 description: The IAMVideoAccelerator interface enables a video decoder filter to access DirectX Video Acceleration (DXVA) 1.0 functionality.
 old-location: dshow\iamvideoaccelerator.htm
 tech.root: DirectShow
 ms.assetid: 78e0a165-5a19-4dca-8d6c-445345772824
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], IAMVideoAccelerator interface [DirectShow],described, IAMVideoAcceleratorInterface, dshow.iamvideoaccelerator, videoacc/IAMVideoAccelerator
 ms.topic: interface

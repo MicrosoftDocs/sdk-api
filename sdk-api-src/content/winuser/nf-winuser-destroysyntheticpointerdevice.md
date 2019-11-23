@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.DestroySyntheticPointerDevice
 title: DestroySyntheticPointerDevice function (winuser.h)
-author: windows-sdk-content
+
 description: Destroys the specified pointer injection device.
 old-location: input_pointerdevice\destroysyntheticpointerdevice.htm
 tech.root: Input_PointerDevice
 ms.assetid: 236484FC-D552-45CE-A968-B928D020A4C8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DestroySyntheticPointerDevice, DestroySyntheticPointerDevice function, input_pointerdevice.destroysyntheticpointerdevice, winuser/DestroySyntheticPointerDevice
 ms.topic: function

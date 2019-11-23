@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_GET_VOLUME_BITMAP
 title: FSCTL_GET_VOLUME_BITMAP
-author: windows-sdk-content
+
 description: Retrieves a bitmap of occupied and available clusters on a volume.
 old-location: fs\fsctl_get_volume_bitmap.htm
 tech.root: FileIO
 ms.assetid: 80ef93ee-21a4-4766-82d2-d2ddef3ef5bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_VOLUME_BITMAP, FSCTL_GET_VOLUME_BITMAP control, FSCTL_GET_VOLUME_BITMAP control code [Files], _win32_fsctl_get_volume_bitmap, base.fsctl_get_volume_bitmap, fs.fsctl_get_volume_bitmap, winioctl/FSCTL_GET_VOLUME_BITMAP
 ms.topic: ioctl

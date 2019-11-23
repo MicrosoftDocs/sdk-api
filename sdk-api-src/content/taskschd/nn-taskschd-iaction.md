@@ -1,12 +1,12 @@
 ---
 UID: NN:taskschd.IAction
 title: IAction (taskschd.h)
-author: windows-sdk-content
+
 description: Provides the common properties inherited by all action objects.
 old-location: taskschd\iaction.htm
 tech.root: taskschd
 ms.assetid: 50d60cf0-642a-43fe-9163-51740e75fa8d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAction, IAction interface [Task Scheduler], IAction interface [Task Scheduler],described, taskschd.iaction, taskschd/IAction
 ms.topic: interface

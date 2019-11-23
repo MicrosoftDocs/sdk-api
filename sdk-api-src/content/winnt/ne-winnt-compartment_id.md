@@ -1,12 +1,12 @@
 ---
 UID: NE:winnt.__unnamed_enum_0
 title: COMPARTMENT_ID (winnt.h)
-author: windows-sdk-content
+
 description: The COMPARTMENT_ID enumeration indicates the network routing compartment identifier.
 old-location: kernel\compartment_id.htm
 tech.root: Kernel
 ms.assetid: 751abf09-1e65-49df-b439-5a2c48fc7a2e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCOMPARTMENT_ID, COMPARTMENT_ID, COMPARTMENT_ID enumeration [Kernel-Mode Driver Architecture], DEFAULT_COMPARTMENT_ID, PCOMPARTMENT_ID, PCOMPARTMENT_ID enumeration pointer [Kernel-Mode Driver Architecture], UNSPECIFIED_COMPARTMENT_ID, kernel.compartment_id, sysenum_7c4df3d5-f14a-4650-be6d-82b8bcc421ee.xml, winnt/COMPARTMENT_ID, winnt/DEFAULT_COMPARTMENT_ID, winnt/PCOMPARTMENT_ID, winnt/UNSPECIFIED_COMPARTMENT_ID"
 ms.topic: enum

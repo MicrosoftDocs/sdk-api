@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetPreviousIntegerVectorValue
 title: IUIAnimationVariable2::GetPreviousIntegerVectorValue (uianimation.h)
-author: windows-sdk-content
+
 description: Gets the previous integer value of the animation variable for the specified dimension. This is the value of the animation variable before the most recent update.
 old-location: uianimation\iuianimationvariable2_getpreviousintegervectorvalue.htm
 tech.root: UIAnimation
 ms.assetid: 7061B16A-FB54-4274-8425-551396F353CF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPreviousIntegerVectorValue, GetPreviousIntegerVectorValue method [Windows Animation], GetPreviousIntegerVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetPreviousIntegerVectorValue method, IUIAnimationVariable2.GetPreviousIntegerVectorValue, IUIAnimationVariable2::GetPreviousIntegerVectorValue, uianimation.iuianimationvariable2_getpreviousintegervectorvalue, uianimation/IUIAnimationVariable2::GetPreviousIntegerVectorValue
 ms.topic: method

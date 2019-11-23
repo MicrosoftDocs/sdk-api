@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_REQUEST_OPLOCK
 title: FSCTL_REQUEST_OPLOCK
-author: windows-sdk-content
+
 description: Requests an opportunistic lock (oplock) on a file and acknowledges that an oplock break has occurred.
 old-location: fs\fsctl_request_oplock.htm
 tech.root: FileIO
 ms.assetid: 9df94089-137a-4540-9f46-119408b362ba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_REQUEST_OPLOCK, FSCTL_REQUEST_OPLOCK control, FSCTL_REQUEST_OPLOCK control code [Files], fs.fsctl_request_oplock, winioctl/FSCTL_REQUEST_OPLOCK
 ms.topic: ioctl

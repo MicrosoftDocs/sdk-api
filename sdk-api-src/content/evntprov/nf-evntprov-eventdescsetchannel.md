@@ -1,12 +1,12 @@
 ---
 UID: NF:evntprov.EventDescSetChannel
 title: EventDescSetChannel function (evntprov.h)
-author: windows-sdk-content
+
 description: Sets the Channel member of the event descriptor.
 old-location: etw\eventdescsetchannel_func.htm
 tech.root: ETW
 ms.assetid: 3580935d-ab7e-4409-b4ac-58f3c6019514
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EventDescSetChannel, EventDescSetChannel function [ETW], base.eventdescsetchannel_func, etw.eventdescsetchannel_func, evntprov/EventDescSetChannel
 ms.topic: function

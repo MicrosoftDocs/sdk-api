@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFTimer.SetTimer
 title: IMFTimer::SetTimer (mfidl.h)
-author: windows-sdk-content
+
 description: Sets a timer that invokes a callback at the specified time.
 old-location: mf\imftimer_settimer.htm
 tech.root: medfound
 ms.assetid: 3b583541-6480-490d-883f-376ea95f7a98
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 3b583541-6480-490d-883f-376ea95f7a98, IMFTimer interface [Media Foundation],SetTimer method, IMFTimer.SetTimer, IMFTimer::SetTimer, SetTimer, SetTimer method [Media Foundation], SetTimer method [Media Foundation],IMFTimer interface, mf.imftimer_settimer, mfidl/IMFTimer::SetTimer
 ms.topic: method

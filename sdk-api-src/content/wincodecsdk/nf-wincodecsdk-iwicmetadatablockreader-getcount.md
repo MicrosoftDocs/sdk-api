@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockReader.GetCount
 title: IWICMetadataBlockReader::GetCount (wincodecsdk.h)
-author: windows-sdk-content
+
 description: Retrieves the number of top level metadata blocks.
 old-location: wic\_wic_codec_iwicmetadatablockreader_getcount.htm
 tech.root: wic
 ms.assetid: 212e2376-9fad-4bfc-8883-ce89d05c35e6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Imaging Component], GetCount method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetCount method, IWICMetadataBlockReader.GetCount, IWICMetadataBlockReader::GetCount, _wic_codec_iwicmetadatablockreader_getcount, wic._wic_codec_iwicmetadatablockreader_getcount, wincodecsdk/IWICMetadataBlockReader::GetCount
 ms.topic: method

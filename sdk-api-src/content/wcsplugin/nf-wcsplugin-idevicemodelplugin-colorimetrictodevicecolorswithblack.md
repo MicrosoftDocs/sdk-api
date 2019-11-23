@@ -1,12 +1,12 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack
 title: IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack (wcsplugin.h)
-author: windows-sdk-content
+
 description: Returns the appropriate device colors in response to the incoming number of colors, channels, black information, Commission Internationale l'Eclairge XYZ (CIEXYZ) colors and the proprietary plug-in algorithms.
 old-location: wcs\IDeviceModelPlugIn_ColorimetricToDeviceColorsWithBlack.htm
 tech.root: WCS
 ms.assetid: 74ec9ace-2468-4b26-a419-781f0b4fd073
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ColorimetricToDeviceColorsWithBlack, ColorimetricToDeviceColorsWithBlack method [Windows Color System], ColorimetricToDeviceColorsWithBlack method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],ColorimetricToDeviceColorsWithBlack method, IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack, IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack, _color_IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack, wcs.IDeviceModelPlugIn_ColorimetricToDeviceColorsWithBlack, wcsplugin/IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack
 ms.topic: method

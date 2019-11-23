@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateRotateTransform3D
 title: IDCompositionDevice::CreateRotateTransform3D (dcomp.h)
-author: windows-sdk-content
+
 description: Creates a 3D rotation transform object.
 old-location: directcomp\idcompositiondevice_createrotatetransform3d.htm
 tech.root: directcomp
 ms.assetid: 0F680BDB-F845-42AD-8888-B0E4A106D9CB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateRotateTransform3D, CreateRotateTransform3D method [DirectComposition], CreateRotateTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateRotateTransform3D method, IDCompositionDevice.CreateRotateTransform3D, IDCompositionDevice::CreateRotateTransform3D, dcomp/IDCompositionDevice::CreateRotateTransform3D, directcomp.idcompositiondevice_createrotatetransform3d
 ms.topic: method

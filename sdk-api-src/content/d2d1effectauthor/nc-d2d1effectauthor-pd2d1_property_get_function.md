@@ -1,12 +1,12 @@
 ---
 UID: NC:d2d1effectauthor.PD2D1_PROPERTY_GET_FUNCTION
 title: PD2D1_PROPERTY_GET_FUNCTION (d2d1effectauthor.h)
-author: windows-sdk-content
+
 description: Gets a property from an effect.
 old-location: direct2d\pd2d1_property_get_function.htm
 tech.root: Direct2D
 ms.assetid: A6F6F22A-762A-4D77-8008-8226C75AD205
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PD2D1_PROPERTY_GET_FUNCTION, PD2D1_PROPERTY_GET_FUNCTION function, PD2D1_PROPERTY_GET_FUNCTION function pointer [Direct2D], d2d1effectauthor/PD2D1_PROPERTY_GET_FUNCTION, direct2d.pd2d1_property_get_function
 ms.topic: callback

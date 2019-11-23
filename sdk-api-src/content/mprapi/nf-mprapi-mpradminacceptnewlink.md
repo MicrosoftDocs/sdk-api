@@ -1,12 +1,12 @@
 ---
 UID: NF:mprapi.MprAdminAcceptNewLink
 title: MprAdminAcceptNewLink function (mprapi.h)
-author: windows-sdk-content
+
 description: Remote Access Service (RAS) calls the MprAdminAcceptNewLink function each time a link is created for a particular connection.
 old-location: rras\mpradminacceptnewlink.htm
 tech.root: RRAS
 ms.assetid: a4cbca7d-a8b0-4396-9201-648bcca6a8c8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MprAdminAcceptNewLink, MprAdminAcceptNewLink callback, MprAdminAcceptNewLink callback function [RAS], _mpr_mpradminacceptnewlink, mprapi/MprAdminAcceptNewLink, rras.mpradminacceptnewlink
 ms.topic: function

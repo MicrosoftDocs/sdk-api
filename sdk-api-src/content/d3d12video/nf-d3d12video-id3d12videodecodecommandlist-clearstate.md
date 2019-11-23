@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.ClearState
 title: ID3D12VideoDecodeCommandList::ClearState
-author: windows-sdk-content
+
 description: Resets the state of a direct command list back to the state it was in when the command list was created.
 tech.root: mf
 ms.assetid: 832e8cd0-3aad-4471-b5c7-e91cd91b6cb5
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

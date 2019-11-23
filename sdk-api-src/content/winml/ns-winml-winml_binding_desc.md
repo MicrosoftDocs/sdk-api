@@ -1,12 +1,12 @@
 ---
 UID: NS:winml.WINML_BINDING_DESC
 title: WINML_BINDING_DESC (winml.h)
-author: windows-sdk-content
+
 description: Contains a description of the WinML binding.
 old-location: machinelearning\winml_binding_desc.htm
 tech.root: MachineLearning
 ms.assetid: 928C2AD0-73DD-4ECA-AC54-36ED84A9E4E6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_binding_desc, PWINML_BINDING_DESC, PWINML_BINDING_DESC structure pointer, WINML_BINDING_DESC, WINML_BINDING_DESC structure, winml/PWINML_BINDING_DESC, winml/WINML_BINDING_DESC
 ms.topic: struct

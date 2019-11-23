@@ -1,12 +1,12 @@
 ---
 UID: NF:lmdfs.NetDfsSetInfo
 title: NetDfsSetInfo function (lmdfs.h)
-author: windows-sdk-content
+
 description: Sets or modifies information about a specific Distributed File System (DFS) root, root target, link, or link target.
 old-location: dfs\netdfssetinfo.htm
 tech.root: Dfs
 ms.assetid: 5526afa7-82bc-47c7-99d6-44e41ef772b1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 100, 101, 102, 103, 104, 105, 106, 107, 150, NetDfsSetInfo, NetDfsSetInfo function [Distributed File System], _win32_netdfssetinfo, dfs.netdfssetinfo, fs.netdfssetinfo, lmdfs/NetDfsSetInfo, netmgmt.netdfssetinfo
 ms.topic: function

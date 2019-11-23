@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsx.ListBox_ResetContent
 title: ListBox_ResetContent macro (windowsx.h)
-author: windows-sdk-content
+
 description: Removes all items from a list box. You can use this macro or send the LB_RESETCONTENT message explicitly.
 old-location: controls\ListBox_ResetContent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_resetcontent.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ListBox_ResetContent, ListBox_ResetContent macro [Windows Controls], _win32_ListBox_ResetContent, _win32_ListBox_ResetContent_cpp, controls.ListBox_ResetContent, controls._win32_ListBox_ResetContent, windowsx/ListBox_ResetContent
 ms.topic: macro

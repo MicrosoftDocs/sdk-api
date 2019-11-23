@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.CopyIcon
 title: CopyIcon function (winuser.h)
-author: windows-sdk-content
+
 description: Copies the specified icon from another module to the current module.
 old-location: menurc\copyicon.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\copyicon.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CopyIcon, CopyIcon function [Menus and Other Resources], _win32_CopyIcon, _win32_copyicon_cpp, menurc.copyicon, winui._win32_copyicon, winuser/CopyIcon
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_UNIQUE_ID_DESCRIPTION
 title: WS_UNIQUE_ID_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: An optional type description used with WS_UNIQUE_ID_TYPE to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_unique_id_description.htm
 tech.root: wsw
 ms.assetid: d00695e6-2c3d-4eff-b5cd-f4f81954fb0f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_UNIQUE_ID_DESCRIPTION, WS_UNIQUE_ID_DESCRIPTION structure [Web Services for Windows], webservices/WS_UNIQUE_ID_DESCRIPTION, wsw.ws_unique_id_description
 ms.topic: struct

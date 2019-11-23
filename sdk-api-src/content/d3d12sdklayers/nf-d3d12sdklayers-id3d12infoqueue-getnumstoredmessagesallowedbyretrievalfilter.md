@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter
 title: ID3D12InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter (d3d12sdklayers.h)
-author: windows-sdk-content
+
 description: Get the number of messages that are able to pass through a retrieval filter.
 old-location: direct3d12\id3d12infoqueue_getnumstoredmessagesallowedbyretrievalfilter.htm
 tech.root: direct3d12
 ms.assetid: 57F10336-2304-4DC9-B62B-6536A7AD76CB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNumStoredMessagesAllowedByRetrievalFilter, GetNumStoredMessagesAllowedByRetrievalFilter method, GetNumStoredMessagesAllowedByRetrievalFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumStoredMessagesAllowedByRetrievalFilter method, ID3D12InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter, ID3D12InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, direct3d12.id3d12infoqueue_getnumstoredmessagesallowedbyretrievalfilter
 ms.topic: method

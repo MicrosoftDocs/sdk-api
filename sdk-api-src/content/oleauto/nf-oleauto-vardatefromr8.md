@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarDateFromR8
 title: VarDateFromR8 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a double value to a date value.
 old-location: automat\vardatefromr8.htm
 tech.root: automat
 ms.assetid: 9ab5538f-5f28-489f-b02a-fde058b16485
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarDateFromR8, VarDateFromR8 function [Automation], _oa96_VarDateFromR8, automat.vardatefromr8, oleauto/VarDateFromR8
 ms.topic: function

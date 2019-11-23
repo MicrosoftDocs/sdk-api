@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.GetCorners
 title: BoundingOrientedBox::GetCorners
-author: windows-sdk-content
+
 description: Retrieves the corners of the BoundingOrientedBox.
 old-location: dxmath\boundingorientedbox_getcorners.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.GetCorners(XMFLOAT3)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],GetCorners method, BoundingOrientedBox.GetCorners, BoundingOrientedBox::GetCorners, GetCorners, GetCorners method [DirectX Math Support APIs], GetCorners method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_getcorners
 ms.topic: method

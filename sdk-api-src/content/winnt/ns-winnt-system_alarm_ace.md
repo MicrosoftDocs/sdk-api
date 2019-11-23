@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._SYSTEM_ALARM_ACE
 title: SYSTEM_ALARM_ACE (winnt.h)
-author: windows-sdk-content
+
 description: The SYSTEM_ALARM_ACE structure is reserved for future use.
 old-location: security\system_alarm_ace.htm
 tech.root: SecAuthZ
 ms.assetid: 491cc5c7-abb6-4d03-b3b0-ba5eedb5e2ba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PSYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE structure [Security], _win32_system_alarm_ace_str, security.system_alarm_ace, winnt/SYSTEM_ALARM_ACE"
 ms.topic: struct

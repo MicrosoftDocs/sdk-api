@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_Name
 title: IFsrmFileManagementJob::put_Name (fsrmreports.h)
-author: windows-sdk-content
+
 description: The name of the file management job.
 old-location: fsrm\ifsrmfilemanagementjob_name.htm
 tech.root: fsrm
 ms.assetid: 48f0b5ad-a986-4d56-a50f-4bb4dfa7a4b8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Name property, IFsrmFileManagementJob.Name, IFsrmFileManagementJob.put_Name, IFsrmFileManagementJob::Name, IFsrmFileManagementJob::get_Name, IFsrmFileManagementJob::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_name, fsrm.ifsrmfilemanagementjob_name, fsrmreports/IFsrmFileManagementJob::Name, fsrmreports/IFsrmFileManagementJob::get_Name, fsrmreports/IFsrmFileManagementJob::put_Name, put_Name
 ms.topic: method

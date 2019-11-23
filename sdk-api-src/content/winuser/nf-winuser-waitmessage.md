@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.WaitMessage
 title: WaitMessage function (winuser.h)
-author: windows-sdk-content
+
 description: Yields control to other threads when a thread has no other messages in its message queue. The WaitMessage function suspends the thread and does not return until a new message is placed in the thread's message queue.
 old-location: winmsg\waitmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\waitmessage.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WaitMessage, WaitMessage function [Windows and Messages], _win32_WaitMessage, _win32_waitmessage_cpp, winmsg.waitmessage, winui._win32_waitmessage, winuser/WaitMessage
 ms.topic: function

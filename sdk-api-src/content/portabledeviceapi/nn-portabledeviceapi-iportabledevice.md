@@ -1,12 +1,12 @@
 ---
 UID: NN:portabledeviceapi.IPortableDevice
 title: IPortableDevice (portabledeviceapi.h)
-author: windows-sdk-content
+
 description: The IPortableDevice interface provides access to a portable device.
 old-location: wpdsdk\iportabledevice.htm
 tech.root: wpd_sdk
 ms.assetid: 98c48e56-56b8-4800-b52b-ac08f2abf27e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPortableDevice, IPortableDevice interface [Windows Portable Devices SDK], IPortableDevice interface [Windows Portable Devices SDK],described, IPortableDeviceInterface, portabledeviceapi/IPortableDevice, wpdsdk.iportabledevice
 ms.topic: interface

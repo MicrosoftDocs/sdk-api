@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CachedValue
 title: IUIAutomationRangeValuePattern::get_CachedValue (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the cached value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedValue.htm
 tech.root: WinAuto
 ms.assetid: 2a5ca86d-75d1-416e-9801-52d855c90c08
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CachedValue property [Windows Accessibility], CachedValue property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedValue property, IUIAutomationRangeValuePattern.CachedValue, IUIAutomationRangeValuePattern.get_CachedValue, IUIAutomationRangeValuePattern::CachedValue, IUIAutomationRangeValuePattern::get_CachedValue, get_CachedValue, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedValue, uiauto_IUIAutomationRangeValuePattern_CachedValue, uiautomationclient/IUIAutomationRangeValuePattern::CachedValue, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedValue, winauto.uiauto_IUIAutomationRangeValuePattern_CachedValue
 ms.topic: method

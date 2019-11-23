@@ -1,12 +1,12 @@
 ---
 UID: NF:winternl.NtDeviceIoControlFile
 title: NtDeviceIoControlFile function (winternl.h)
-author: windows-sdk-content
+
 description: Deprecated. Builds descriptors for the supplied buffer(s) and passes the untyped data to the device driver associated with the file handle. NtDeviceIoControlFile is superseded by DeviceIoControl.
 old-location: winprog\ntdeviceiocontrolfile.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntdeviceiocontrolfile.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NtDeviceIoControlFile, NtDeviceIoControlFile function [Windows API], winprog.ntdeviceiocontrolfile, winternl/NtDeviceIoControlFile, winui.ntdeviceiocontrolfile
 ms.topic: function

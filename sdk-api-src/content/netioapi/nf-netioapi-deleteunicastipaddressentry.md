@@ -1,12 +1,12 @@
 ---
 UID: NF:netioapi.DeleteUnicastIpAddressEntry
 title: DeleteUnicastIpAddressEntry function (netioapi.h)
-author: windows-sdk-content
+
 description: Deletes an existing unicast IP address entry on the local computer.
 old-location: iphlp\deleteunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: a630397a-ef4a-40c2-b2e7-3e85cd9e8029
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeleteUnicastIpAddressEntry, DeleteUnicastIpAddressEntry function [IP Helper], iphlp.deleteunicastipaddressentry, netioapi/DeleteUnicastIpAddressEntry
 ms.topic: function

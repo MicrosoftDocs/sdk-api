@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.waveOutSetPitch
 title: waveOutSetPitch function (mmeapi.h)
-author: windows-sdk-content
+
 description: The waveOutSetPitch function sets the pitch for the specified waveform-audio output device.
 old-location: multimedia\waveoutsetpitch.htm
 tech.root: Multimedia
 ms.assetid: 103560b6-a93a-42ac-8c62-839091c56433
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_waveOutSetPitch, mmeapi/waveOutSetPitch, multimedia.waveoutsetpitch, waveOutSetPitch, waveOutSetPitch function [Windows Multimedia]"
 ms.topic: function

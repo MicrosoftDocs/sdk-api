@@ -1,12 +1,12 @@
 ---
 UID: NS:http._HTTP_SSL_CLIENT_CERT_INFO
 title: HTTP_SSL_CLIENT_CERT_INFO (http.h)
-author: windows-sdk-content
+
 description: Contains data about a Secure Sockets Layer (SSL) client certificate that can be used to determine whether the certificate is valid.
 old-location: http\http_ssl_client_cert_info.htm
 tech.root: http
 ms.assetid: bfe6a9a9-6117-4403-a83f-e9448615500b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SSL_CLIENT_CERT_INFO, CERT_E_CN_NO_MATCH, CERT_E_EXPIRED, CERT_E_REVOKED, CERT_E_UNTRUSTEDCA, CERT_E_UNTRUSTEDROOT, CERT_E_WRONG_USAGE, HTTP_SSL_CLIENT_CERT_INFO, HTTP_SSL_CLIENT_CERT_INFO structure [HTTP], PHTTP_SSL_CLIENT_CERT_INFO, PHTTP_SSL_CLIENT_CERT_INFO structure pointer [HTTP], _http_http_ssl_client_cert_info, http.http_ssl_client_cert_info, http/HTTP_SSL_CLIENT_CERT_INFO, http/PHTTP_SSL_CLIENT_CERT_INFO'
 ms.topic: struct

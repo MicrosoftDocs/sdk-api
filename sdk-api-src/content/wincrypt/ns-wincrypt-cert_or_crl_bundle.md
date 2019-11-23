@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CERT_OR_CRL_BUNDLE
 title: CERT_OR_CRL_BUNDLE (wincrypt.h)
-author: windows-sdk-content
+
 description: Encapsulates an array of certificates for use with Internet Key Exchange messages.
 old-location: security\cert_or_crl_bundle.htm
 tech.root: SecCrypto
 ms.assetid: a06e71b4-63c7-4d4a-820c-e5901015aaa6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_OR_CRL_BUNDLE, CERT_OR_CRL_BUNDLE, CERT_OR_CRL_BUNDLE structure [Security], PCERT_OR_CRL_BUNDLE, PCERT_OR_CRL_BUNDLE structure pointer [Security], security.cert_or_crl_bundle, wincrypt/CERT_OR_CRL_BUNDLE, wincrypt/PCERT_OR_CRL_BUNDLE"
 ms.topic: struct

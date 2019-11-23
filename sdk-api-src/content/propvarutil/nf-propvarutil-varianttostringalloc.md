@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.VariantToStringAlloc
 title: VariantToStringAlloc function (propvarutil.h)
-author: windows-sdk-content
+
 description: Extracts the variant value of a variant structure to a newly-allocated string. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToStringAlloc.htm
 tech.root: properties
 ms.assetid: 9cd4433c-d8ad-43ef-bdb9-9c1b8d8bea01
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VariantToStringAlloc, VariantToStringAlloc function [Windows Properties], _shell_VariantToStringAlloc, properties.VariantToStringAlloc, propvarutil/VariantToStringAlloc, shell.VariantToStringAlloc
 ms.topic: function

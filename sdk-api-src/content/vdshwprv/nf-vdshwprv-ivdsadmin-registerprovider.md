@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsAdmin.RegisterProvider
 title: IVdsAdmin::RegisterProvider (vdshwprv.h)
-author: windows-sdk-content
+
 description: Registers the specified hardware provider with VDS. Hardware providers call this method.
 old-location: base\ivdsadmin_registerprovider.htm
 tech.root: VDS
 ms.assetid: bb6e0037-7f44-418d-897c-12bf15224841
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsAdmin interface [VDS],RegisterProvider method, IVdsAdmin.RegisterProvider, IVdsAdmin::RegisterProvider, RegisterProvider, RegisterProvider method [VDS], RegisterProvider method [VDS],IVdsAdmin interface, base.ivdsadmin_registerprovider, vdshwprv/IVdsAdmin::RegisterProvider
 ms.topic: method

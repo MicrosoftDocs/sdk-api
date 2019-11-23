@@ -1,12 +1,12 @@
 ---
 UID: NS:gdipluseffects.RedEyeCorrectionParams
 title: RedEyeCorrectionParams (gdipluseffects.h)
-author: windows-sdk-content
+
 description: A RedEyeCorrectionParams structure contains members that specify the areas of a bitmap to which a red-eye correction is applied.
 old-location: gdiplus\_gdiplus_STRUC_RedEyeCorrectionParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\redeyecorrectionparams.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RedEyeCorrectionParams, RedEyeCorrectionParams structure [GDI+], _gdiplus_STRUC_RedEyeCorrectionParams, gdiplus._gdiplus_STRUC_RedEyeCorrectionParams, gdipluseffects/RedEyeCorrectionParams
 ms.topic: struct

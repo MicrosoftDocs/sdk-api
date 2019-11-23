@@ -1,12 +1,12 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.Terminate
 title: IScheduledWorkItem::Terminate (mstask.h)
-author: windows-sdk-content
+
 description: This method ends the execution of the work item.
 old-location: taskschd\ischeduledworkitem_terminate.htm
 tech.root: taskschd
 ms.assetid: 8ea2144b-4f51-41db-8eaf-50da83967ea5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],Terminate method, IScheduledWorkItem.Terminate, IScheduledWorkItem::Terminate, Terminate, Terminate method [Task Scheduler], Terminate method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_terminate, mstask/IScheduledWorkItem::Terminate, taskschd.ischeduledworkitem_terminate
 ms.topic: method

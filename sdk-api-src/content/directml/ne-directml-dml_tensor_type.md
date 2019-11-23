@@ -1,12 +1,12 @@
 ---
 UID: NE:directml.DML_TENSOR_TYPE
 title: DML_TENSOR_TYPE
-author: windows-sdk-content
+
 description: Identifies a type of tensor description.
 old-location: direct3d12\dml_tensor_type.htm
 tech.root: direct3d12
 ms.assetid: 954549FD-70C4-42D7-99C9-8AE33304CDBE
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_TENSOR_TYPE, DML_TENSOR_TYPE enumeration, DML_TENSOR_TYPE_BUFFER, DML_TENSOR_TYPE_INVALID, direct3d12.dml_tensor_type, directml/DML_TENSOR_TYPE, directml/DML_TENSOR_TYPE_BUFFER, directml/DML_TENSOR_TYPE_INVALID
 ms.topic: enum

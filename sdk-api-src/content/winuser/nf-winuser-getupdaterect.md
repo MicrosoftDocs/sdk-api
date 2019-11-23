@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetUpdateRect
 title: GetUpdateRect function (winuser.h)
-author: windows-sdk-content
+
 description: The GetUpdateRect function retrieves the coordinates of the smallest rectangle that completely encloses the update region of the specified window.
 old-location: gdi\getupdaterect.htm
 tech.root: gdi
 ms.assetid: e54483a1-8738-4b22-a24e-c0b31f6ca9d6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetUpdateRect, GetUpdateRect function [Windows GDI], _win32_GetUpdateRect, gdi.getupdaterect, winuser/GetUpdateRect
 ms.topic: function

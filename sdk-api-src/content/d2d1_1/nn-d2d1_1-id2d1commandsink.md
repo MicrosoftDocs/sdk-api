@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1_1.ID2D1CommandSink
 title: ID2D1CommandSink (d2d1_1.h)
-author: windows-sdk-content
+
 description: The command sink is implemented by you for an application when you want to receive a playback of the commands recorded in a command list.
 old-location: direct2d\id2d1commandsink.htm
 tech.root: Direct2D
 ms.assetid: 4e0ce837-7f4e-4b93-8dd7-68f60cfb1105
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink, ID2D1CommandSink interface [Direct2D], ID2D1CommandSink interface [Direct2D],described, d2d1_1/ID2D1CommandSink, direct2d.id2d1commandsink
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivity
 title: SpatialAudioHrtfDirectivity (spatialaudiohrtf.h)
-author: windows-sdk-content
+
 description: Represents an omnidirectional model for an ISpatialAudioObjectForHrtf. The omnidirectional emission is interpolated linearly with the directivity model specified in the Type field based on the value of the Scaling field.
 old-location: coreaudio\spatialaudiohrtfdirectivity.htm
 tech.root: CoreAudio
 ms.assetid: A3D149E0-F2C1-47C7-8858-35C5F51C7F75
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioHrtfDirectivity, PSpatialAudioHrtfDirectivity structure pointer [Core Audio], SpatialAudioHrtfDirectivity, SpatialAudioHrtfDirectivity structure [Core Audio], coreaudio.spatialaudiohrtfdirectivity, spatialaudiohrtf/PSpatialAudioHrtfDirectivity, spatialaudiohrtf/SpatialAudioHrtfDirectivity
 ms.topic: struct

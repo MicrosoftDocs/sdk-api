@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMColorEqual
 title: XMColorEqual function (directxmath.h)
-author: windows-sdk-content
+
 description: Tests for the equality of two colors.
 old-location: dxmath\xmcolorequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorEqual(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorEqual, XMColorEqual, XMColorEqual method [DirectX Math Support APIs], dxmath.xmcolorequal
 ms.topic: function

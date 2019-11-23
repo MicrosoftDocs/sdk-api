@@ -1,12 +1,12 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBalloon.OnClick
 title: ITfLangBarItemBalloon::OnClick (ctfutb.h)
-author: windows-sdk-content
+
 description: ITfLangBarItemBalloon::OnClick method
 old-location: tsf\itflangbaritemballoon_onclick.htm
 tech.root: TSF
 ms.assetid: 52592a39-8b79-4e9c-9d8b-1100c9f36eca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBalloon interface [Text Services Framework],OnClick method, ITfLangBarItemBalloon.OnClick, ITfLangBarItemBalloon::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemBalloon interface, _tsf_itflangbaritemballoon_onclick_ref, ctfutb/ITfLangBarItemBalloon::OnClick, tsf.itflangbaritemballoon_onclick
 ms.topic: method

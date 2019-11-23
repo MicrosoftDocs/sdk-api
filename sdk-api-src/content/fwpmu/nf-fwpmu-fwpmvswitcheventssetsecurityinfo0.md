@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmvSwitchEventsSetSecurityInfo0
 title: FwpmvSwitchEventsSetSecurityInfo0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Sets specified security information in the security descriptor for a vSwitch event.
 old-location: fwp\fwpmvswitcheventssetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: 2e20986a-9ebf-493b-8d32-ac9b709747ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmvSwitchEventsSetSecurityInfo0, FwpmvSwitchEventsSetSecurityInfo0 function [Filtering], fwp.fwpmvswitcheventssetsecurityinfo0, fwpmu/FwpmvSwitchEventsSetSecurityInfo0
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnInterfaceStateChange
 title: IMbnDeviceServicesEvents::OnInterfaceStateChange (mbnapi.h)
-author: windows-sdk-content
+
 description: Notification method that signals a change in the state of device services on the system.
 old-location: mbn\imbndeviceservicesevents_oninterfacestatechange.htm
 tech.root: mbn
 ms.assetid: 6677E80E-A9D1-45B5-AE3F-71EE22A7CCB6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnInterfaceStateChange method, IMbnDeviceServicesEvents.OnInterfaceStateChange, IMbnDeviceServicesEvents::OnInterfaceStateChange, OnInterfaceStateChange, OnInterfaceStateChange method [Microsoft Broadband Networks], OnInterfaceStateChange method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_oninterfacestatechange, mbnapi/IMbnDeviceServicesEvents::OnInterfaceStateChange
 ms.topic: method

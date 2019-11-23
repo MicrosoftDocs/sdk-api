@@ -1,12 +1,12 @@
 ---
 UID: NN:evr.IMFVideoMixerControl2
 title: IMFVideoMixerControl2 (evr.h)
-author: windows-sdk-content
+
 description: Controls preferences for video deinterlacing.
 old-location: mf\imfvideomixercontrol2.htm
 tech.root: medfound
 ms.assetid: a238b050-101d-4b8a-9479-984b889823f4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFVideoMixerControl2, IMFVideoMixerControl2 interface [Media Foundation], IMFVideoMixerControl2 interface [Media Foundation],described, evr/IMFVideoMixerControl2, mf.imfvideomixercontrol2
 ms.topic: interface

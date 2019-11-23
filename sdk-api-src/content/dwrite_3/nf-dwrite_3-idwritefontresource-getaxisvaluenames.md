@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetAxisValueNames
 title: IDWriteFontResource::GetAxisValueNames
-author: windows-sdk-content
+
 description: Retrieves the localized names of specific values for a font axis.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetAxisValueNames method, IDWriteFontResource.GetAxisValueNames, IDWriteFontResource::GetAxisValueNames, GetAxisValueNames, GetAxisValueNames method [Direct Write], GetAxisValueNames method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getaxisvaluenames, dwrite_3/IDWriteFontResource::GetAxisValueNames
 ms.topic: method

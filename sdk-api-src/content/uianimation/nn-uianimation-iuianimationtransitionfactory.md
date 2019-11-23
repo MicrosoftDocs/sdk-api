@@ -1,12 +1,12 @@
 ---
 UID: NN:uianimation.IUIAnimationTransitionFactory
 title: IUIAnimationTransitionFactory (uianimation.h)
-author: windows-sdk-content
+
 description: Defines a method for creating transitions from custom interpolators.
 old-location: uianimation\iuianimationtransitionfactory.htm
 tech.root: UIAnimation
 ms.assetid: 62aec8da-e067-4b61-9465-e07fb5b42b7f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransitionFactory, IUIAnimationTransitionFactory interface [Windows Animation], IUIAnimationTransitionFactory interface [Windows Animation],described, uianimation.iuianimationtransitionfactory, uianimation/IUIAnimationTransitionFactory
 ms.topic: interface

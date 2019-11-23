@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.HasCharacter
 title: IDWriteFontFace3::HasCharacter (dwrite_3.h)
-author: windows-sdk-content
+
 description: Determines whether the font supports the specified character.
 old-location: directwrite\idwritefontface3_hascharacter.htm
 tech.root: DirectWrite
 ms.assetid: BCBC382E-C599-429A-9E00-EAB12D675503
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HasCharacter, HasCharacter method [Direct Write], HasCharacter method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],HasCharacter method, IDWriteFontFace3.HasCharacter, IDWriteFontFace3::HasCharacter, directwrite.idwritefontface3_hascharacter, dwrite_3/IDWriteFontFace3::HasCharacter
 ms.topic: method

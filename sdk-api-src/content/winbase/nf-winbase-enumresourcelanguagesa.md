@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.EnumResourceLanguagesA
 title: EnumResourceLanguagesA function (winbase.h)
-author: windows-sdk-content
+
 description: Enumerates language-specific resources, of the specified type and name, associated with a binary module.
 old-location: menurc\enumresourcelanguages.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcelanguages.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumResourceLanguages, EnumResourceLanguages function [Menus and Other Resources], EnumResourceLanguagesA, EnumResourceLanguagesW, _win32_EnumResourceLanguages, _win32_enumresourcelanguages_cpp, menurc.enumresourcelanguages, winbase/EnumResourceLanguages, winbase/EnumResourceLanguagesA, winbase/EnumResourceLanguagesW, winui._win32_enumresourcelanguages
 ms.topic: function

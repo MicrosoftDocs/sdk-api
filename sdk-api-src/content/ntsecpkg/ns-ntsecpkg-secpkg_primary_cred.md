@@ -1,12 +1,12 @@
 ---
 UID: NS:ntsecpkg._SECPKG_PRIMARY_CRED
 title: SECPKG_PRIMARY_CRED (ntsecpkg.h)
-author: windows-sdk-content
+
 description: The SECPKG_PRIMARY_CRED structure contains the primary credentials. This structure is used by the LsaApLogonUserEx2 and SpAcceptCredentials functions.
 old-location: security\secpkg_primary_cred.htm
 tech.root: SecAuthN
 ms.assetid: e51fd400-6c3c-4861-ab5c-6c1800b12d31
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_PRIMARY_CRED, PRIMARY_CRED_CACHED_LOGON, PRIMARY_CRED_CLEAR_PASSWORD, PRIMARY_CRED_OWF_PASSWORD, PRIMARY_CRED_UPDATE, PSECPKG_PRIMARY_CRED, PSECPKG_PRIMARY_CRED structure pointer [Security], SECPKG_PRIMARY_CRED, SECPKG_PRIMARY_CRED structure [Security], _ssp_secpkg_primary_cred, ntsecpkg/PSECPKG_PRIMARY_CRED, ntsecpkg/SECPKG_PRIMARY_CRED, security.secpkg_primary_cred'
 ms.topic: struct

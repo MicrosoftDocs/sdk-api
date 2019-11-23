@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_OUTPUT_STREAM
 title: D3D12_VIDEO_PROCESS_OUTPUT_STREAM
-author: windows-sdk-content
+
 description: Represents the output stream for video processing commands. 
 tech.root: mf
 ms.assetid: 35be7733-1ac9-4754-8923-1637d364f681
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: struct
 f1_keywords:

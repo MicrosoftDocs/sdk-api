@@ -1,12 +1,12 @@
 ---
 UID: NS:strmif.DDCOLORKEY
 title: DDCOLORKEY (strmif.h)
-author: windows-sdk-content
+
 description: Describes a color key as a range of values.
 old-location: dshow\ddcolorkey.htm
 tech.root: DirectShow
 ms.assetid: bd360860-94e3-4f91-a455-5fdb227368b3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPDDCOLORKEY, DDCOLORKEY, DDCOLORKEY structure [DirectShow], DDCOLORKEYStructure, dshow.ddcolorkey, strmif/DDCOLORKEY"
 ms.topic: struct

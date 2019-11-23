@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.EndPaint
 title: EndPaint function (winuser.h)
-author: windows-sdk-content
+
 description: The EndPaint function marks the end of painting in the specified window. This function is required for each call to the BeginPaint function, but only after painting is complete.
 old-location: gdi\endpaint.htm
 tech.root: gdi
 ms.assetid: b07cfed9-21c4-4459-855a-eaf4d1d34ab8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EndPaint, EndPaint function [Windows GDI], _win32_EndPaint, gdi.endpaint, winuser/EndPaint
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.SetVariableIntegerChangeHandler
 title: IUIAnimationVariable::SetVariableIntegerChangeHandler (uianimation.h)
-author: windows-sdk-content
+
 description: Specifies an integer variable change handler. This handler is notified of changes to the integer value of the animation variable.
 old-location: uianimation\iuianimationvariable_setvariableintegerchangehandler.htm
 tech.root: UIAnimation
 ms.assetid: 8dc20701-0808-4308-92fc-8be6c4b039ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetVariableIntegerChangeHandler method, IUIAnimationVariable.SetVariableIntegerChangeHandler, IUIAnimationVariable::SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler method [Windows Animation], SetVariableIntegerChangeHandler method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setvariableintegerchangehandler, uianimation/IUIAnimationVariable::SetVariableIntegerChangeHandler
 ms.topic: method

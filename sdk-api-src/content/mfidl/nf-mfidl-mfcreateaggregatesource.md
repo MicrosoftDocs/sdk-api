@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.MFCreateAggregateSource
 title: MFCreateAggregateSource function (mfidl.h)
-author: windows-sdk-content
+
 description: Creates a media source that aggregates a collection of media sources.
 old-location: mf\mfcreateaggregatesource.htm
 tech.root: medfound
 ms.assetid: 7288bd4b-6a74-4528-854d-d82783630422
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFCreateAggregateSource, MFCreateAggregateSource function [Media Foundation], mf.mfcreateaggregatesource, mfidl/MFCreateAggregateSource
 ms.topic: function

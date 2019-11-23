@@ -1,12 +1,12 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetName
 title: ICreateTypeInfo2::SetName (oaidl.h)
-author: windows-sdk-content
+
 description: Sets the name of the typeinfo.
 old-location: automat\icreatetypeinfo2_setname.htm
 tech.root: automat
 ms.assetid: b490dcb5-97e4-427a-bc87-22f38a4719f3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetName method, ICreateTypeInfo2.SetName, ICreateTypeInfo2::SetName, SetName, SetName method [Automation], SetName method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetName, automat.icreatetypeinfo2_setname, oaidl/ICreateTypeInfo2::SetName
 ms.topic: method

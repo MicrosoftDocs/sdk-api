@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.get_ItemByIndex
 title: ISmimeCapabilities::get_ItemByIndex (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves an object from the collection by index number.
 old-location: security\ismimecapabilities_itembyindex_property.htm
 tech.root: seccertenroll
 ms.assetid: fbb51882-4b56-4648-a0ca-0c93311cebbd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapabilities interface [Security],ItemByIndex property, ISmimeCapabilities.ItemByIndex, ISmimeCapabilities.get_ItemByIndex, ISmimeCapabilities::ItemByIndex, ISmimeCapabilities::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ISmimeCapabilities interface, certenroll/ISmimeCapabilities::ItemByIndex, certenroll/ISmimeCapabilities::get_ItemByIndex, get_ItemByIndex, security.ismimecapabilities_itembyindex_property
 ms.topic: method

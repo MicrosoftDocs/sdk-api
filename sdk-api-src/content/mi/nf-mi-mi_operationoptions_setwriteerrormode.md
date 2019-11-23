@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetWriteErrorMode
 title: MI_OperationOptions_SetWriteErrorMode function (mi.h)
-author: windows-sdk-content
+
 description: Sets the error reporting mode.
 old-location: wmi_v2\mi_operationoptions_setwriteerrormode.htm
 tech.root: wmi_v2
 ms.assetid: 5a6d764a-09a8-45fc-8d8d-468ea7ee5d59
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_CALLBACKMODE_INQUIRE, MI_CALLBACKMODE_REPORT, MI_OperationOptions_SetWriteErrorMode, MI_OperationOptions_SetWriteErrorMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetWriteErrorMode, wmi_v2.mi_operationoptions_setwriteerrormode
 ms.topic: function

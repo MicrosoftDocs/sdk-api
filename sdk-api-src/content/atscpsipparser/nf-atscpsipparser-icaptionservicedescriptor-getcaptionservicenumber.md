@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetCaptionServiceNumber
 title: ICaptionServiceDescriptor::GetCaptionServiceNumber (atscpsipparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icaptionservicedescriptor_getcaptionservicenumber.htm
 tech.root: mstv
 ms.assetid: 0e8ca631-45fd-462c-bab9-4a242751f212
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCaptionServiceNumber, GetCaptionServiceNumber method [Microsoft TV Technologies], GetCaptionServiceNumber method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetCaptionServiceNumber method, ICaptionServiceDescriptor.GetCaptionServiceNumber, ICaptionServiceDescriptor::GetCaptionServiceNumber, ICaptionServiceDescriptorGetCaptionServiceNumber, atscpsipparser/ICaptionServiceDescriptor::GetCaptionServiceNumber, mstv.icaptionservicedescriptor_getcaptionservicenumber
 ms.topic: method

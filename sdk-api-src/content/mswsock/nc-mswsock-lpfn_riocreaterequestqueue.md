@@ -1,12 +1,12 @@
 ---
 UID: NC:mswsock.LPFN_RIOCREATEREQUESTQUEUE
 title: LPFN_RIOCREATEREQUESTQUEUE
-author: windows-sdk-content
+
 description: Creates a registered I/O socket descriptor using a specified socket and I/O completion queues for use with the Winsock registered I/O extensions.
 old-location: 
 tech.root: WinSock
 ms.assetid: CB69E0B6-519D-4268-A09B-196BBB6EB460
-ms.author: windowssdkdev
+
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOCREATEREQUESTQUEUE
 ms.topic: language-reference

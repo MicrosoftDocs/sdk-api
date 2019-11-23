@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_IS_CLUSTERED
 title: IOCTL_VOLUME_IS_CLUSTERED
-author: windows-sdk-content
+
 description: Determines whether the specified volume is clustered.
 old-location: fs\ioctl_volume_is_clustered.htm
 tech.root: FileIO
 ms.assetid: 3722b08c-237d-4551-b75e-1d28fe8e94c3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VOLUME_IS_CLUSTERED, IOCTL_VOLUME_IS_CLUSTERED control, IOCTL_VOLUME_IS_CLUSTERED control code [Files], _win32_ioctl_volume_is_clustered, base.ioctl_volume_is_clustered, fs.ioctl_volume_is_clustered, winioctl/IOCTL_VOLUME_IS_CLUSTERED
 ms.topic: ioctl

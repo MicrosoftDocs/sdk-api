@@ -1,12 +1,12 @@
 ---
 UID: NF:synchapi.InitOnceInitialize
 title: InitOnceInitialize function (synchapi.h)
-author: windows-sdk-content
+
 description: Initializes a one-time initialization structure.
 old-location: base\initonceinitialize.htm
 tech.root: Sync
 ms.assetid: f2943ac5-0e43-4f07-8941-952383e2fa08
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InitOnceInitialize, InitOnceInitialize function, base.initonceinitialize, synchapi/InitOnceInitialize, winbase/InitOnceInitialize
 ms.topic: function

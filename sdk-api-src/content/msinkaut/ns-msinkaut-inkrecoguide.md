@@ -1,12 +1,12 @@
 ---
 UID: NS:msinkaut._InkRecoGuide
 title: InkRecoGuide (msinkaut.h)
-author: windows-sdk-content
+
 description: Deprecated. Represents information about the recognition guide. Use the WritingBox Property, DrawnBox Property, Rows Property, Columns Property, and Midline Property [InkRecognizerGuide Class] properties instead.
 old-location: tablet\inkrecoguide.htm
 tech.root: tablet
 ms.assetid: c35fcb28-f21f-427c-8d5f-6e6a73945956
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DISPID_InkRecognizerGuide, DISPID_InkRecognizerGuide structure [Tablet PC], InkRecoGuide, InkRecoGuide structure [Tablet PC], c35fcb28-f21f-427c-8d5f-6e6a73945956, msinkaut/InkRecoGuide, tablet.inkrecoguide
 ms.topic: struct

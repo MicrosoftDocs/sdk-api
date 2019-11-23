@@ -1,10 +1,10 @@
 ---
 UID: NF:d2d1.D2D1CreateFactory~r1
 title: D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,void**)
-author: windows-sdk-content
+
 description: Creates a factory object that can be used to create Direct2D resources.
 tech.root: Direct2D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1CreateFactory, D2D1CreateFactory function [Direct2D], D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,void**), d2d1/D2D1CreateFactory, direct2d.d2d1createfactory
 ms.topic: function

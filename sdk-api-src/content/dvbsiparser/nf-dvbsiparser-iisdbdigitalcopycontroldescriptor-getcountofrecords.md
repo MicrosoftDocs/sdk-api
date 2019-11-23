@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbDigitalCopyControlDescriptor.GetCountOfRecords
 title: IIsdbDigitalCopyControlDescriptor::GetCountOfRecords (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor.
 old-location: mstv\iisdbdigitalcopycontroldescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: cc4e190e-8dd9-4e87-9f85-ed5ecea6eadc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbDigitalCopyControlDescriptor.GetCountOfRecords, IIsdbDigitalCopyControlDescriptor::GetCountOfRecords, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetCountOfRecords, mstv.iisdbdigitalcopycontroldescriptor_getcountofrecords
 ms.topic: method

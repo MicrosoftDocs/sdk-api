@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsx.Edit_ScrollCaret
 title: Edit_ScrollCaret macro (windowsx.h)
-author: windows-sdk-content
+
 description: Scrolls the caret into view in an edit or rich edit control. You can use this macro or send the EM_SCROLLCARET message explicitly.
 old-location: controls\Edit_ScrollCaret.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_scrollcaretl.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Edit_ScrollCaret, Edit_ScrollCaret macro [Windows Controls], _win32_Edit_ScrollCaret, _win32_Edit_ScrollCaret_cpp, controls.Edit_ScrollCaret, controls._win32_Edit_ScrollCaret, windowsx/Edit_ScrollCaret
 ms.topic: macro

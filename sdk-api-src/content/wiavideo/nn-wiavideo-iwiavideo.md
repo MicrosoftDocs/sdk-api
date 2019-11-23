@@ -1,12 +1,12 @@
 ---
 UID: NN:wiavideo.IWiaVideo
 title: IWiaVideo (wiavideo.h)
-author: windows-sdk-content
+
 description: The IWiaVideo interface provides methods that allow an application that uses Windows Image Acquisition (WIA) services to acquire still images from a streaming video device.Note  WIA does not support video devices in Windows Server 2003, Windows Vista, and later. For those versions of the Windows, use DirectShow to acquire images from video.
 old-location: wia\_wia_IWiaVideo.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\iwiavideo.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo, IWiaVideo interface [WIA], IWiaVideo interface [WIA],described, _wia_IWiaVideo, wia._wia_IWiaVideo, wiavideo/IWiaVideo
 ms.topic: interface

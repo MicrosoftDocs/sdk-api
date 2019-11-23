@@ -1,12 +1,12 @@
 ---
 UID: NN:msinkaut.IInkDisp
 title: IInkDisp (msinkaut.h)
-author: windows-sdk-content
+
 description: "."
 old-location: tablet\iinkdisp.htm
 tech.root: tablet
 ms.assetid: 85B683AA-D859-4717-8C61-C0EB4BBA5F61
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInkDisp, IInkDisp interface [Tablet PC], IInkDisp interface [Tablet PC],described, msinkaut/IInkDisp, tablet.iinkdisp
 ms.topic: interface

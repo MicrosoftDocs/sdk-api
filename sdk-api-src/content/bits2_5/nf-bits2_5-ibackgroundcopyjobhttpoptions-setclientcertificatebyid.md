@@ -1,12 +1,12 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetClientCertificateByID
 title: IBackgroundCopyJobHttpOptions::SetClientCertificateByID (bits2_5.h)
-author: windows-sdk-content
+
 description: Specifies the identifier of the client certificate to use for client authentication in an HTTPS (SSL) request.
 old-location: bits\ibackgroundcopyjobhttpoptions_setclientcertificatebyid.htm
 tech.root: Bits
 ms.assetid: 60839bac-7f5f-4c43-84d4-26f1b21f974d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CA, IBackgroundCopyJobHttpOptions interface [BITS],SetClientCertificateByID method, IBackgroundCopyJobHttpOptions.SetClientCertificateByID, IBackgroundCopyJobHttpOptions::SetClientCertificateByID, MY, ROOT, SPC, SetClientCertificateByID, SetClientCertificateByID method [BITS], SetClientCertificateByID method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setclientcertificatebyid, bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByID
 ms.topic: method

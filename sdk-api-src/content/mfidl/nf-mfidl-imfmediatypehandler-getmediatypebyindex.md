@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFMediaTypeHandler.GetMediaTypeByIndex
 title: IMFMediaTypeHandler::GetMediaTypeByIndex (mfidl.h)
-author: windows-sdk-content
+
 description: Retrieves a media type from the object's list of supported media types.
 old-location: mf\imfmediatypehandler_getmediatypebyindex.htm
 tech.root: medfound
 ms.assetid: a1827675-bbc4-45d8-8c6e-644b0d2addd4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMediaTypeByIndex, GetMediaTypeByIndex method [Media Foundation], GetMediaTypeByIndex method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetMediaTypeByIndex method, IMFMediaTypeHandler.GetMediaTypeByIndex, IMFMediaTypeHandler::GetMediaTypeByIndex, a1827675-bbc4-45d8-8c6e-644b0d2addd4, mf.imfmediatypehandler_getmediatypebyindex, mfidl/IMFMediaTypeHandler::GetMediaTypeByIndex
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnStateChanged
 title: IAudioSessionEvents::OnStateChanged (audiopolicy.h)
-author: windows-sdk-content
+
 description: The OnStateChanged method notifies the client that the stream-activity state of the session has changed.
 old-location: coreaudio\iaudiosessionevents_onstatechanged.htm
 tech.root: CoreAudio
 ms.assetid: 4ec3e676-cf08-4041-b5bf-5cb429569e03
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnStateChanged method, IAudioSessionEvents.OnStateChanged, IAudioSessionEvents::OnStateChanged, IAudioSessionEventsOnStateChanged, OnStateChanged, OnStateChanged method [Core Audio], OnStateChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnStateChanged, coreaudio.iaudiosessionevents_onstatechanged
 ms.topic: method

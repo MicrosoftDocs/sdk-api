@@ -1,12 +1,12 @@
 ---
 UID: NF:wintrust.WTHelperGetProvCertFromChain
 title: WTHelperGetProvCertFromChain function (wintrust.h)
-author: windows-sdk-content
+
 description: Retrieves a trust provider certificate from the certificate chain.
 old-location: security\wthelpergetprovcertfromchain.htm
 tech.root: SecCrypto
 ms.assetid: 047278fe-37d5-4fd6-8b36-9e28ead0cc5a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WTHelperGetProvCertFromChain, WTHelperGetProvCertFromChain function [Security], security.wthelpergetprovcertfromchain, wintrust/WTHelperGetProvCertFromChain
 ms.topic: function

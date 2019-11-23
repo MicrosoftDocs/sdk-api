@@ -1,12 +1,12 @@
 ---
 UID: NF:projectedfslib.PrjStopVirtualizing
 title: PrjStopVirtualizing function (projectedfslib.h)
-author: windows-sdk-content
+
 description: Stops a running ProjFS virtualization instance, making it unavailable to service I/O or involve callbacks on the provider.
 old-location: projfs\prjstopvirtualizing.htm
 tech.root: ProjFS
 ms.assetid: D01BF7C5-1EAC-446A-BCE5-A6EF46A5443D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PrjStopVirtualizing, PrjStopVirtualizing function, ProjFS.prjstopvirtualizing, projectedfslib/PrjStopVirtualizing
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetConnection
 title: IMbnInterface::GetConnection (mbnapi.h)
-author: windows-sdk-content
+
 description: Gets the IMbnConnection object.
 old-location: mbn\imbninterface_getconnection.htm
 tech.root: mbn
 ms.assetid: 919772f5-1e86-424c-b3de-079a03bbc8e5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetConnection, GetConnection method [Microsoft Broadband Networks], GetConnection method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetConnection method, IMbnInterface.GetConnection, IMbnInterface::GetConnection, mbn.imbninterface_getconnection, mbnapi/IMbnInterface::GetConnection
 ms.topic: method

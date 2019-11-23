@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1helper.IdentityMatrix
 title: IdentityMatrix function (d2d1helper.h)
-author: windows-sdk-content
+
 description: Creates an identity matrix.
 old-location: direct2d\identitymatrix.htm
 tech.root: Direct2D
 ms.assetid: 09c2ed59-db4a-4753-a98a-bef7748d3803
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IdentityMatrix, IdentityMatrix function [Direct2D], d2d1helper/IdentityMatrix, direct2d.identitymatrix
 ms.topic: function

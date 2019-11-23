@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetSystemDpiForProcess
 title: GetSystemDpiForProcess function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the system DPI associated with a given process. This is useful for avoiding compatibility issues that arise from sharing DPI-sensitive information between multiple system-aware processes with different system DPI values.
 old-location: hidpi\getsystemdpiforprocess.htm
 tech.root: hidpi
 ms.assetid: 94236ECF-E69A-4D77-AABA-D43FE8DF8203
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSystemDpiForProcess, GetSystemDpiForProcess function [High DPI], hidpi.getsystemdpiforprocess, winuser/GetSystemDpiForProcess
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NE:wlanapi._WLAN_HOSTED_NETWORK_PEER_AUTH_STATE
 title: WLAN_HOSTED_NETWORK_PEER_AUTH_STATE (wlanapi.h)
-author: windows-sdk-content
+
 description: Specifies the possible values for the authentication state of a peer on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_peer_auth_state.htm
 tech.root: NativeWiFi
 ms.assetid: 9953ad0c-eafc-49ad-b9a3-09fbfba805e5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_HOSTED_NETWORK_PEER_AUTH_STATE, PWLAN_HOSTED_NETWORK_PEER_STATE, PWLAN_HOSTED_NETWORK_PEER_STATE enumeration pointer [NativeWIFI], WLAN_HOSTED_NETWORK_PEER_AUTH_STATE, WLAN_HOSTED_NETWORK_PEER_AUTH_STATE enumeration [NativeWIFI], nwifi.wlan_hosted_network_peer_auth_state, wlan_hosted_network_peer_state_authenticated, wlan_hosted_network_peer_state_invalid, wlanapi/PWLAN_HOSTED_NETWORK_PEER_STATE, wlanapi/WLAN_HOSTED_NETWORK_PEER_AUTH_STATE, wlanapi/wlan_hosted_network_peer_state_authenticated, wlanapi/wlan_hosted_network_peer_state_invalid'
 ms.topic: enum

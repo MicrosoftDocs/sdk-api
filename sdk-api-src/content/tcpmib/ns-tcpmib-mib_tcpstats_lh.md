@@ -1,12 +1,12 @@
 ---
 UID: NS:tcpmib._MIB_TCPSTATS_LH
 title: MIB_TCPSTATS_LH (tcpmib.h)
-author: windows-sdk-content
+
 description: Contains statistics for the TCP protocol running on the local computer.
 old-location: mib\mib_tcpstats.htm
 tech.root: MIB
 ms.assetid: 08d85d02-62a0-479d-bf56-5dad452436f3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_TCPSTATS, *PMIB_TCPSTATS_LH, MIB_TCPSTATS, MIB_TCPSTATS structure [MIB], MIB_TCPSTATS_LH, MIB_TCPSTATS_W2K, MIB_TCP_RTO_CONSTANT, MIB_TCP_RTO_OTHER, MIB_TCP_RTO_RSRE, MIB_TCP_RTO_VANJ, PMIB_TCPSTATS, PMIB_TCPSTATS structure pointer [MIB], _mpr_mib_tcpstats, iprtrmib/MIB_TCPSTATS, iprtrmib/PMIB_TCPSTATS, mib.mib_tcpstats, rras.mib_tcpstats, tcpmib/MIB_TCPSTATS, tcpmib/PMIB_TCPSTATS'
 ms.topic: struct

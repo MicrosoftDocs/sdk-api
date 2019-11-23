@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_CREATE_ENROLLMENT_FN
 title: PIBIO_ENGINE_CREATE_ENROLLMENT_FN (winbio_adapter.h)
-author: windows-sdk-content
+
 description: Initializes the enrollment object in the biometric unit pipeline.
 old-location: secbiomet\engineadaptercreateenrollment.htm
 tech.root: SecBioMet
 ms.assetid: 5eec81ec-490c-485f-bbaf-4d972d7c8fde
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterCreateEnrollment, EngineAdapterCreateEnrollment callback function [Windows Biometric Framework API], PIBIO_ENGINE_CREATE_ENROLLMENT_FN, PIBIO_ENGINE_CREATE_ENROLLMENT_FN callback, secbiomet.engineadaptercreateenrollment, winbio_adapter/EngineAdapterCreateEnrollment
 ms.topic: callback

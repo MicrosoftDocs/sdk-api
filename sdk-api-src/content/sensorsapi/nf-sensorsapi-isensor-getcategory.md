@@ -1,12 +1,12 @@
 ---
 UID: NF:sensorsapi.ISensor.GetCategory
 title: ISensor::GetCategory (sensorsapi.h)
-author: windows-sdk-content
+
 description: Retrieves the identifier of the sensor category.
 old-location: winsensors_com_ref\isensor_getcategory.htm
 tech.root: SensorsAPI
 ms.assetid: 3a4eab1c-ec6f-4d6e-8479-1fa7f87537f7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCategory, GetCategory method, GetCategory method,ISensor interface, ISensor interface,GetCategory method, ISensor.GetCategory, ISensor::GetCategory, sensorsapi/ISensor::GetCategory, winsensors_com_ref.isensor_getcategory
 ms.topic: method

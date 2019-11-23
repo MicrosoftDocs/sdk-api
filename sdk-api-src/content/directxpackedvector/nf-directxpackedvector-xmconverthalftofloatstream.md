@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMConvertHalfToFloatStream
 title: XMConvertHalfToFloatStream function (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Converts a stream of half-precision floating-point values to a stream of single-precision floating-point values.
 old-location: dxmath\xmconverthalftofloatstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertHalfToFloatStream(float@,uint32_t,const HALF,uint32_t,uint32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMConvertHalfToFloatStream, XMConvertHalfToFloatStream, XMConvertHalfToFloatStream method [DirectX Math Support APIs], dxmath.xmconverthalftofloatstream
 ms.topic: function

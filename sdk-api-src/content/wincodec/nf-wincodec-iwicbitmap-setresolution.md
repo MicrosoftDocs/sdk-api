@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICBitmap.SetResolution
 title: IWICBitmap::SetResolution (wincodec.h)
-author: windows-sdk-content
+
 description: Changes the physical resolution of the image.
 old-location: wic\_wic_codec_iwicbitmap_setresolution.htm
 tech.root: wic
 ms.assetid: d8b6c600-0ef0-4fa7-a70f-0299e640c196
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWICBitmap interface [Windows Imaging Component],SetResolution method, IWICBitmap.SetResolution, IWICBitmap::SetResolution, SetResolution, SetResolution method [Windows Imaging Component], SetResolution method [Windows Imaging Component],IWICBitmap interface, _wic_codec_iwicbitmap_setresolution, wic._wic_codec_iwicbitmap_setresolution, wincodec/IWICBitmap::SetResolution
 ms.topic: method

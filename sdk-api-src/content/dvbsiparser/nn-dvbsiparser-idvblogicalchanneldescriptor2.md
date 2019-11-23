@@ -1,12 +1,12 @@
 ---
 UID: NN:dvbsiparser.IDvbLogicalChannelDescriptor2
 title: IDvbLogicalChannelDescriptor2 (dvbsiparser.h)
-author: windows-sdk-content
+
 description: The IDvbLogicalChannelDescriptor2 interface enables the client to get a logical channel descriptor from a DVB stream. The logical channel descriptor may be present in the network information table (NIT).
 old-location: mstv\idvblogicalchanneldescriptor2.htm
 tech.root: mstv
 ms.assetid: 1A554897-D223-4172-B71B-ACD11BCA290A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDvbLogicalChannelDescriptor2, IDvbLogicalChannelDescriptor2 interface [Microsoft TV Technologies], IDvbLogicalChannelDescriptor2 interface [Microsoft TV Technologies],described, dvbsiparser/IDvbLogicalChannelDescriptor2, mstv.idvblogicalchanneldescriptor2
 ms.topic: interface

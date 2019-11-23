@@ -1,12 +1,12 @@
 ---
 UID: NF:spellcheck.ISpellingError.get_CorrectiveAction
 title: ISpellingError::get_CorrectiveAction (spellcheck.h)
-author: windows-sdk-content
+
 description: Indicates which corrective action should be taken for the spelling error.
 old-location: intl\ispellingerror_correctiveaction.htm
 tech.root: Intl
 ms.assetid: 9b28d194-01a3-4ea2-8428-d2e91e6abad8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CorrectiveAction property [Internationalization for Windows Applications], CorrectiveAction property [Internationalization for Windows Applications],ISpellingError interface, ISpellingError interface [Internationalization for Windows Applications],CorrectiveAction property, ISpellingError.CorrectiveAction, ISpellingError.get_CorrectiveAction, ISpellingError::CorrectiveAction, ISpellingError::get_CorrectiveAction, get_CorrectiveAction, intl.ispellingerror_correctiveaction, spellcheck/ISpellingError::CorrectiveAction, spellcheck/ISpellingError::get_CorrectiveAction
 ms.topic: method

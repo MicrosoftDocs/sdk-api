@@ -1,12 +1,12 @@
 ---
 UID: NF:provider.Provider.PutInstance(IWbemClassObject,long,MethodContext)
 title: Provider::PutInstance(IWbemClassObject,long,MethodContext) (provider.h)
-author: windows-sdk-content
+
 description: The PutInstance method updates an instance.
 old-location: wmi\provider_putinstance.htm
 tech.root: WmiSdk
 ms.assetid: c9921a00-b966-47d0-a2f3-982812ab249c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Provider interface [Windows Management Instrumentation],PutInstance method, Provider.PutInstance, Provider.PutInstance(IWbemClassObject,long,MethodContext), Provider::PutInstance, Provider::PutInstance(IWbemClassObject,long,MethodContext), PutInstance, PutInstance method [Windows Management Instrumentation], PutInstance method [Windows Management Instrumentation],Provider interface, _hmm_provider_putinstance, provider/Provider::PutInstance, wmi.provider_putinstance
 ms.topic: method

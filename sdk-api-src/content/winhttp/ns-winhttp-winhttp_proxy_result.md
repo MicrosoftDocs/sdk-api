@@ -1,12 +1,12 @@
 ---
 UID: NS:winhttp._WINHTTP_PROXY_RESULT
 title: WINHTTP_PROXY_RESULT (winhttp.h)
-author: windows-sdk-content
+
 description: The WINHTTP_PROXY_RESULT structure contains collection of proxy result entries provided by WinHttpGetProxyResult.
 old-location: http\winhttp_proxy_result.htm
 tech.root: WinHttp
 ms.assetid: 6a621701-3325-4877-99ba-8580ad07739d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_PROXY_RESULT, WINHTTP_PROXY_RESULT structure [HTTP], http.winhttp_proxy_result, winhttp/WINHTTP_PROXY_RESULT
 ms.topic: struct

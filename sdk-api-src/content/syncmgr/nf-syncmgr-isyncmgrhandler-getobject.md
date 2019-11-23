@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.GetObject
 title: ISyncMgrHandler::GetObject (syncmgr.h)
-author: windows-sdk-content
+
 description: Creates a specific type of object related to the handler.
 old-location: shell\ISyncMgrHandler_GetObject.htm
 tech.root: shell
 ms.assetid: 91441b28-a2d8-4114-86dd-9a3e826deef4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetObject method, ISyncMgrHandler.GetObject, ISyncMgrHandler::GetObject, SYNCMGR_OBJECTID_BrowseContent, SYNCMGR_OBJECTID_ConflictStore, SYNCMGR_OBJECTID_EventLinkClick, SYNCMGR_OBJECTID_EventStore, SYNCMGR_OBJECTID_Icon, SYNCMGR_OBJECTID_QueryBeforeActivate, SYNCMGR_OBJECTID_QueryBeforeDeactivate, SYNCMGR_OBJECTID_QueryBeforeDisable, SYNCMGR_OBJECTID_QueryBeforeEnable, SYNCMGR_OBJECTID_ShowSchedule, _shell_ISyncMgrHandler_GetObject, shell.ISyncMgrHandler_GetObject, syncmgr/ISyncMgrHandler::GetObject
 ms.topic: method

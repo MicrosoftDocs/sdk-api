@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsWriteEndStartElement
 title: WsWriteEndStartElement function (webservices.h)
-author: windows-sdk-content
+
 description: Forces the writer to commit the current element and prevent further attributes from being written to the element.
 old-location: wsw\wswriteendstartelement.htm
 tech.root: wsw
 ms.assetid: 56bf55f8-978c-4f03-9ace-f992530927c2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsWriteEndStartElement, WsWriteEndStartElement function [Web Services for Windows], webservices/WsWriteEndStartElement, wsw.wswriteendstartelement
 ms.topic: function

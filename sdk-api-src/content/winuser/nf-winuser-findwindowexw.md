@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.FindWindowExW
 title: FindWindowExW function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves a handle to a window whose class name and window name match the specified strings. The function searches child windows, beginning with the one following the specified child window. This function does not perform a case-sensitive search.
 old-location: winmsg\findwindowex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\findwindowex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FindWindowEx, FindWindowEx function [Windows and Messages], FindWindowExA, FindWindowExW, _win32_FindWindowEx, _win32_findwindowex_cpp, winmsg.findwindowex, winui._win32_findwindowex, winuser/FindWindowEx, winuser/FindWindowExA, winuser/FindWindowExW
 ms.topic: function

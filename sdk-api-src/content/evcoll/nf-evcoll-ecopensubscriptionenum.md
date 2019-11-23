@@ -1,12 +1,12 @@
 ---
 UID: NF:evcoll.EcOpenSubscriptionEnum
 title: EcOpenSubscriptionEnum function (evcoll.h)
-author: windows-sdk-content
+
 description: Creates a subscription enumerator to enumerate all registered subscriptions on the local machine.
 old-location: wec\ecopensubscriptionenum.htm
 tech.root: WEC
 ms.assetid: edbfabb0-6ad1-415a-a2ef-094b1d3bcccb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EcOpenSubscriptionEnum, EcOpenSubscriptionEnum function, evcoll/EcOpenSubscriptionEnum, wec.ecopensubscriptionenum, wes.ecopensubscriptionenum
 ms.topic: function

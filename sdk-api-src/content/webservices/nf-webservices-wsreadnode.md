@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsReadNode
 title: WsReadNode function (webservices.h)
-author: windows-sdk-content
+
 description: This operation advances the Reader to the next node in the input stream.
 old-location: wsw\wsreadnode.htm
 tech.root: wsw
 ms.assetid: 60dacf3e-ebde-4247-be58-835565874ab6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsReadNode, WsReadNode function [Web Services for Windows], webservices/WsReadNode, wsw.wsreadnode
 ms.topic: function

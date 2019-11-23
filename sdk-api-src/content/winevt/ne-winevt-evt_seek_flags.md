@@ -1,12 +1,12 @@
 ---
 UID: NE:winevt._EVT_SEEK_FLAGS
 title: EVT_SEEK_FLAGS (winevt.h)
-author: windows-sdk-content
+
 description: Defines the relative position in the result set from which to seek.
 old-location: wes\evt_seek_flags.htm
 tech.root: wes
 ms.assetid: 5340815b-b94a-488b-bfa1-01dcbc15e505
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EVT_SEEK_FLAGS, EVT_SEEK_FLAGS enumeration [EventLog], EvtSeekOriginMask, EvtSeekRelativeToBookmark, EvtSeekRelativeToCurrent, EvtSeekRelativeToFirst, EvtSeekRelativeToLast, EvtSeekStrict, wes.evt_seek_flags, winevt/EVT_SEEK_FLAGS, winevt/EvtSeekOriginMask, winevt/EvtSeekRelativeToBookmark, winevt/EvtSeekRelativeToCurrent, winevt/EvtSeekRelativeToFirst, winevt/EvtSeekRelativeToLast, winevt/EvtSeekStrict
 ms.topic: enum

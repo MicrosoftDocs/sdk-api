@@ -1,12 +1,12 @@
 ---
 UID: NF:xinput.XInputGetDSoundAudioDeviceGuids
 title: XInputGetDSoundAudioDeviceGuids function (xinput.h)
-author: windows-sdk-content
+
 description: Gets the sound rendering and sound capture device GUIDs that are associated with the headset connected to the specified controller.
 old-location: xinput\xinputgetdsoundaudiodeviceguids.htm
 tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetDSoundAudioDeviceGuids(DWORD,GUID*@,GUID*@)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XInputGetDSoundAudioDeviceGuids, XInputGetDSoundAudioDeviceGuids function [XInput Game Controller APIs], xinput.xinputgetdsoundaudiodeviceguids, xinput/XInputGetDSoundAudioDeviceGuids
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IEnumFeedClockVector.Reset
 title: IEnumFeedClockVector::Reset (winsync.h)
-author: windows-sdk-content
+
 description: Resets the enumerator to the beginning of the clock vector.
 old-location: winsync\ienumfeedclockvector_reset.htm
 tech.root: winsync
 ms.assetid: dbd25148-b734-49a2-b8ad-9ded9d1a0bf2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Reset method, IEnumFeedClockVector.Reset, IEnumFeedClockVector::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_reset, winsync/IEnumFeedClockVector::Reset
 ms.topic: method

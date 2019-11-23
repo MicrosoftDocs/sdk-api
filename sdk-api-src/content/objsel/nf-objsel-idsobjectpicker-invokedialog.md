@@ -1,12 +1,12 @@
 ---
 UID: NF:objsel.IDsObjectPicker.InvokeDialog
 title: IDsObjectPicker::InvokeDialog (objsel.h)
-author: windows-sdk-content
+
 description: Displays a modal object picker dialog box and returns the user selections.
 old-location: ad\idsobjectpicker_invokedialog.htm
 tech.root: ad
 ms.assetid: 76192a35-10e1-46e3-8724-7637d47d8eca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPicker interface [Active Directory],InvokeDialog method, IDsObjectPicker.InvokeDialog, IDsObjectPicker::InvokeDialog, InvokeDialog, InvokeDialog method [Active Directory], InvokeDialog method [Active Directory],IDsObjectPicker interface, _glines_idsobjectpicker_invokedialog, ad.idsobjectpicker__invokedialog, ad.idsobjectpicker_invokedialog, objsel/IDsObjectPicker::InvokeDialog
 ms.topic: method

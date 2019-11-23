@@ -1,12 +1,12 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Parent_Ex
 title: CM_Get_Parent_Ex function (cfgmgr32.h)
-author: windows-sdk-content
+
 description: The CM_Get_Parent_Ex function obtains a device instance handle to the parent node of a specified device node (devnode) in a local or a remote machine's device tree.
 old-location: devinst\cm_get_parent_ex.htm
 tech.root: devinst
 ms.assetid: ef92f516-e820-41d0-b267-a7e1d01aa7da
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Parent_Ex, CM_Get_Parent_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Parent_Ex, cfgmgrfn_880044e3-f794-49d2-9a70-e2a558d8b2de.xml, devinst.cm_get_parent_ex
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:virtdisk.ResizeVirtualDisk
 title: ResizeVirtualDisk function (virtdisk.h)
-author: windows-sdk-content
+
 description: Resizes a virtual disk.
 old-location: vstor\resizevirtualdisk.htm
 tech.root: VStor
 ms.assetid: d000c03e-c0ad-4054-b2eb-1aca34a95816
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ResizeVirtualDisk, ResizeVirtualDisk function [Virtual Storage], virtdisk/ResizeVirtualDisk, vstor.resizevirtualdisk
 ms.topic: function

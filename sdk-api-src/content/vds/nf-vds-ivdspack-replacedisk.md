@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsPack.ReplaceDisk
 title: IVdsPack::ReplaceDisk (vds.h)
-author: windows-sdk-content
+
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdspack_replacedisk.htm
 tech.root: VDS
 ms.assetid: 4fc59ed0-ef54-4834-90d3-309d297543e6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsPack interface [VDS],ReplaceDisk method, IVdsPack.ReplaceDisk, IVdsPack::ReplaceDisk, ReplaceDisk, ReplaceDisk method [VDS], ReplaceDisk method [VDS],IVdsPack interface, base.ivdspack_replacedisk, vds/IVdsPack::ReplaceDisk
 ms.topic: method

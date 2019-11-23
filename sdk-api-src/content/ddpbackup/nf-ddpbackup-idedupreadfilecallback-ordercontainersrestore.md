@@ -1,12 +1,12 @@
 ---
 UID: NF:ddpbackup.IDedupReadFileCallback.OrderContainersRestore
 title: IDedupReadFileCallback::OrderContainersRestore (ddpbackup.h)
-author: windows-sdk-content
+
 description: This method provides the application with the ability to influence the order of the pending reads that are required to retrieve the target file.
 old-location: dedup\idedupreadfilecallback_ordercontainersrestore.htm
 tech.root: dedup
 ms.assetid: 25871056-5833-40DA-9C5B-690DCAB16E5C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],OrderContainersRestore method, IDedupReadFileCallback.OrderContainersRestore, IDedupReadFileCallback::OrderContainersRestore, OrderContainersRestore, OrderContainersRestore method [Data Deduplication API], OrderContainersRestore method [Data Deduplication API],IDedupReadFileCallback interface, ddpbackup/IDedupReadFileCallback::OrderContainersRestore, dedup.idedupreadfilecallback_ordercontainersrestore
 ms.topic: method

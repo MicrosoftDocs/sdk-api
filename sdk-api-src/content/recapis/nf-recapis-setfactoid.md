@@ -1,12 +1,12 @@
 ---
 UID: NF:recapis.SetFactoid
 title: SetFactoid function (recapis.h)
-author: windows-sdk-content
+
 description: Specifies the factoid a recognizer uses to constrain its search for the result.You specify a factoid if an input field is of a known type, such as if the input field contains a date.
 old-location: tablet\setfactoid.htm
 tech.root: tablet
 ms.assetid: f805b364-1e7b-4995-bda9-47bff87fcdfa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetFactoid, SetFactoid function [Tablet PC], f805b364-1e7b-4995-bda9-47bff87fcdfa, recapis/SetFactoid, tablet.setfactoid
 ms.topic: function

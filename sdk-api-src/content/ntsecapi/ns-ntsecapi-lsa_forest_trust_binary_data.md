@@ -1,12 +1,12 @@
 ---
 UID: NS:ntsecapi._LSA_FOREST_TRUST_BINARY_DATA
 title: LSA_FOREST_TRUST_BINARY_DATA (ntsecapi.h)
-author: windows-sdk-content
+
 description: Contains binary data used in Local Security Authority forest trust operations.
 old-location: security\lsa_forest_trust_binary_data.htm
 tech.root: SecAuthN
 ms.assetid: 2ddcf54e-c30f-4146-8cb6-71fcdd42ae68
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PLSA_FOREST_TRUST_BINARY_DATA, LSA_FOREST_TRUST_BINARY_DATA, LSA_FOREST_TRUST_BINARY_DATA structure [Security], PLSA_FOREST_TRUST_BINARY_DATA, PLSA_FOREST_TRUST_BINARY_DATA structure pointer [Security], _LSA_FOREST_TRUST_BINARY_DATA, ntsecapi/LSA_FOREST_TRUST_BINARY_DATA, ntsecapi/PLSA_FOREST_TRUST_BINARY_DATA, security.lsa_forest_trust_binary_data"
 ms.topic: struct

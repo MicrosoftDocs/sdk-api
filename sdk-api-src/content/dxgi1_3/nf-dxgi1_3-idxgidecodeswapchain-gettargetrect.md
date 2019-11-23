@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.GetTargetRect
 title: IDXGIDecodeSwapChain::GetTargetRect (dxgi1_3.h)
-author: windows-sdk-content
+
 description: Gets the rectangle that defines the target region for the video processing blit operation.
 old-location: direct3ddxgi\idxgidecodeswapchain_gettargetrect.htm
 tech.root: direct3ddxgi
 ms.assetid: 1B42CE33-7130-433F-940F-B45D3152BB33
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTargetRect, GetTargetRect method [DXGI], GetTargetRect method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetTargetRect method, IDXGIDecodeSwapChain.GetTargetRect, IDXGIDecodeSwapChain::GetTargetRect, direct3ddxgi.idxgidecodeswapchain_gettargetrect, dxgi1_3/IDXGIDecodeSwapChain::GetTargetRect
 ms.topic: method

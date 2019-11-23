@@ -1,12 +1,12 @@
 ---
 UID: NE:wincodec.WICComponentSigning
 title: WICComponentSigning (wincodec.h)
-author: windows-sdk-content
+
 description: Specifies the component signing status.
 old-location: wic\_wic_codec_wiccomponentsigning.htm
 tech.root: wic
 ms.assetid: 64f3de6d-15da-4cc8-ad74-57759bcd4d07
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WICComponentDisabled, WICComponentSafe, WICComponentSigned, WICComponentSigning, WICComponentSigning enumeration [Windows Imaging Component], WICComponentUnsigned, _wic_codec_wiccomponentsigning, wic._wic_codec_wiccomponentsigning, wincodec/WICComponentDisabled, wincodec/WICComponentSafe, wincodec/WICComponentSigned, wincodec/WICComponentSigning, wincodec/WICComponentUnsigned
 ms.topic: enum

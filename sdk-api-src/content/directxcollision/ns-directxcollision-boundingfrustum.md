@@ -1,12 +1,12 @@
 ---
 UID: NS:directxcollision.BoundingFrustum
 title: BoundingFrustum
-author: windows-sdk-content
+
 description: A bounding frustum object.
 old-location: dxmath\boundingfrustum.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxmath.BoundingFrustum
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum, BoundingFrustum structure [DirectX Math Support APIs], directxcollision/BoundingFrustum, dxmath.boundingfrustum
 ms.topic: struct

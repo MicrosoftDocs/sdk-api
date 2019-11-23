@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.DrvEnableDriver
 title: DrvEnableDriver function (winddi.h)
-author: windows-sdk-content
+
 description: The DrvEnableDriver function is the initial driver entry point exported by the driver DLL.
 old-location: display\drvenabledriver.htm
 tech.root: display
 ms.assetid: b7aa5442-bbf5-4f9e-ad39-bf8a2d01c50e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrvEnableDriver, DrvEnableDriver function [Display Devices], ddifncs_ceb25289-afd3-447e-85e7-d89fa95aebd4.xml, display.drvenabledriver, winddi/DrvEnableDriver
 ms.topic: function

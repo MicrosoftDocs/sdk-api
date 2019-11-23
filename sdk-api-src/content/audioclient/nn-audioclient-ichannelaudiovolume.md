@@ -1,12 +1,12 @@
 ---
 UID: NN:audioclient.IChannelAudioVolume
 title: IChannelAudioVolume (audioclient.h)
-author: windows-sdk-content
+
 description: The IChannelAudioVolume interface enables a client to control and monitor the volume levels for all of the channels in the audio session that the stream belongs to.
 old-location: coreaudio\ichannelaudiovolume.htm
 tech.root: CoreAudio
 ms.assetid: 0d0a20dc-5e5a-49a7-adc9-20aacb88368a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IChannelAudioVolume, IChannelAudioVolume interface [Core Audio], IChannelAudioVolume interface [Core Audio],described, audioclient/IChannelAudioVolume, coreaudio.ichannelaudiovolume
 ms.topic: interface

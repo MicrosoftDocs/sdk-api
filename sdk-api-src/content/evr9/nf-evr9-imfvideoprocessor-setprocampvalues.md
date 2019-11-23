@@ -1,12 +1,12 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.SetProcAmpValues
 title: IMFVideoProcessor::SetProcAmpValues (evr9.h)
-author: windows-sdk-content
+
 description: Sets one or more color adjustment (ProcAmp) settings.
 old-location: mf\imfvideoprocessor_setprocampvalues.htm
 tech.root: medfound
 ms.assetid: 84a5e022-773c-483b-adb5-5883b25b716f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 84a5e022-773c-483b-adb5-5883b25b716f, IMFVideoProcessor interface [Media Foundation],SetProcAmpValues method, IMFVideoProcessor.SetProcAmpValues, IMFVideoProcessor::SetProcAmpValues, SetProcAmpValues, SetProcAmpValues method [Media Foundation], SetProcAmpValues method [Media Foundation],IMFVideoProcessor interface, evr9/IMFVideoProcessor::SetProcAmpValues, mf.imfvideoprocessor_setprocampvalues
 ms.topic: method

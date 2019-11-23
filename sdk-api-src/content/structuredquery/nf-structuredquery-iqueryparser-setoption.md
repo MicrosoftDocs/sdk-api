@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.IQueryParser.SetOption
 title: IQueryParser::SetOption (structuredquery.h)
-author: windows-sdk-content
+
 description: Sets a single option, such as a specified wordbreaker, for parsing an input string.
 old-location: search\_search_IQueryParser_SetOption.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\setoption.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IQueryParser interface [search],SetOption method, IQueryParser.SetOption, IQueryParser::SetOption, SetOption, SetOption method [search], SetOption method [search],IQueryParser interface, _search_IQueryParser_SetOption, search._search_IQueryParser_SetOption, structuredquery/IQueryParser::SetOption
 ms.topic: method

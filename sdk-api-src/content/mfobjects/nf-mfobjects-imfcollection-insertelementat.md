@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMFCollection.InsertElementAt
 title: IMFCollection::InsertElementAt (mfobjects.h)
-author: windows-sdk-content
+
 description: Adds an object at the specified index in the collection.
 old-location: mf\imfcollection_insertelementat.htm
 tech.root: medfound
 ms.assetid: d8f64bf8-eb5b-4673-91be-796f4ea8dce0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFCollection interface [Media Foundation],InsertElementAt method, IMFCollection.InsertElementAt, IMFCollection::InsertElementAt, InsertElementAt, InsertElementAt method [Media Foundation], InsertElementAt method [Media Foundation],IMFCollection interface, d8f64bf8-eb5b-4673-91be-796f4ea8dce0, mf.imfcollection_insertelementat, mfobjects/IMFCollection::InsertElementAt
 ms.topic: method

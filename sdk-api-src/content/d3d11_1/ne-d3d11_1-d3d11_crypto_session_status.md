@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d11_1.D3D11_CRYPTO_SESSION_STATUS
 title: D3D11_CRYPTO_SESSION_STATUS (d3d11_1.h)
-author: windows-sdk-content
+
 description: Represents the status of an ID3D11CryptoSession interface.
 old-location: mf\d3d11_crypto_session_status.htm
 tech.root: medfound
 ms.assetid: C98DEC40-21D0-483A-A982-E6E19BBDE241
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_CRYPTO_SESSION_STATUS, D3D11_CRYPTO_SESSION_STATUS enumeration [Media Foundation], D3D11_CRYPTO_SESSION_STATUS_KEY_AND_CONTENT_LOST, D3D11_CRYPTO_SESSION_STATUS_KEY_LOST, D3D11_CRYPTO_SESSION_STATUS_OK, d3d11_1/D3D11_CRYPTO_SESSION_STATUS, d3d11_1/D3D11_CRYPTO_SESSION_STATUS_KEY_AND_CONTENT_LOST, d3d11_1/D3D11_CRYPTO_SESSION_STATUS_KEY_LOST, d3d11_1/D3D11_CRYPTO_SESSION_STATUS_OK, mf.d3d11_crypto_session_status
 ms.topic: enum

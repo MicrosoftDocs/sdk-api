@@ -1,12 +1,12 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0012
 title: XPS_SEGMENT_STROKE_PATTERN (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Indicates whether all, some, or none of the segments in a figure are stroked.
 old-location: xps\xps_segment_stroke_pattern.htm
 tech.root: printdocs
 ms.assetid: e824884e-ffad-4c44-9df8-e9c21e1f3758
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XPS_SEGMENT_STROKE_PATTERN, XPS_SEGMENT_STROKE_PATTERN enumeration [XPS Documents and Packaging], XPS_SEGMENT_STROKE_PATTERN_ALL, XPS_SEGMENT_STROKE_PATTERN_MIXED, XPS_SEGMENT_STROKE_PATTERN_NONE, xps.xps_segment_stroke_pattern, xpsobjectmodel/XPS_SEGMENT_STROKE_PATTERN, xpsobjectmodel/XPS_SEGMENT_STROKE_PATTERN_ALL, xpsobjectmodel/XPS_SEGMENT_STROKE_PATTERN_MIXED, xpsobjectmodel/XPS_SEGMENT_STROKE_PATTERN_NONE
 ms.topic: enum

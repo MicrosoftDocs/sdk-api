@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidAnalogTuner
 title: IMSVidAnalogTuner (segment.h)
-author: windows-sdk-content
+
 description: The IMSVidAnalogTuner interface represents an analog-only tuner card that does not support the Broadcast Driver Architecture (BDA). This interface provides Automation access to the IAMTVTuner and IAMTVAudio interfaces.
 old-location: mstv\imsvidanalogtuner.htm
 tech.root: mstv
 ms.assetid: 640143d3-6712-4e92-a1d9-0689637b3d90
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner, IMSVidAnalogTuner interface [Microsoft TV Technologies], IMSVidAnalogTuner interface [Microsoft TV Technologies],described, IMSVidAnalogTunerInterface, mstv.imsvidanalogtuner, segment/IMSVidAnalogTuner
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:winsvc.ControlService
 title: ControlService function (winsvc.h)
-author: windows-sdk-content
+
 description: Sends a control code to a service.
 old-location: base\controlservice.htm
 tech.root: Services
 ms.assetid: c112b587-7455-4f15-93e1-ded73de6dbbd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ControlService, ControlService function, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_STOP, _win32_controlservice, base.controlservice, winsvc/ControlService
 ms.topic: function

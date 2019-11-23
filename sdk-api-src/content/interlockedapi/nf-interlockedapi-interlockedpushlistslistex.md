@@ -1,12 +1,12 @@
 ---
 UID: NF:interlockedapi.InterlockedPushListSListEx
 title: InterlockedPushListSListEx function (interlockedapi.h)
-author: windows-sdk-content
+
 description: Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the __fastcall calling convention.
 old-location: base\interlockedpushlistslistex.htm
 tech.root: Sync
 ms.assetid: f4f334c6-fda8-4c5f-9177-b672c8aed6b3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InterlockedPushListSListEx, InterlockedPushListSListEx function, base.interlockedpushlistslistex, interlockedapi/InterlockedPushListSListEx
 ms.topic: function

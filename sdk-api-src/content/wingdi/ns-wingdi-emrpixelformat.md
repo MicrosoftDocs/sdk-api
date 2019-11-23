@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagEMRPIXELFORMAT
 title: EMRPIXELFORMAT (wingdi.h)
-author: windows-sdk-content
+
 description: The EMRPIXELFORMAT structure contains the members for the SetPixelFormat enhanced metafile record. The pixel format information in ENHMETAHEADER refers to this structure.
 old-location: gdi\emrpixelformat.htm
 tech.root: gdi
 ms.assetid: 3dd2ef54-af00-4d7e-b33f-c7c5160ae4f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PEMRPIXELFORMAT, EMRPIXELFORMAT, EMRPIXELFORMAT structure [Windows GDI], PEMRPIXELFORMAT, PEMRPIXELFORMAT structure pointer [Windows GDI], _win32_EMRPIXELFORMAT_str, gdi.emrpixelformat, wingdi/EMRPIXELFORMAT, wingdi/PEMRPIXELFORMAT"
 ms.topic: struct

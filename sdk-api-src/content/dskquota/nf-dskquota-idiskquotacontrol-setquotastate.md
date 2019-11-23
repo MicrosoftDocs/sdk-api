@@ -1,12 +1,12 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.SetQuotaState
 title: IDiskQuotaControl::SetQuotaState (dskquota.h)
-author: windows-sdk-content
+
 description: Sets the state of the quota system.
 old-location: fs\idiskquotacontrol_setquotastate.htm
 tech.root: FileIO
 ms.assetid: 0bbacc3c-e212-4801-95d8-1e260123665d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetQuotaState method, IDiskQuotaControl.SetQuotaState, IDiskQuotaControl::SetQuotaState, SetQuotaState, SetQuotaState method [Files], SetQuotaState method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setquotastate, base.idiskquotacontrol_setquotastate, dskquota/IDiskQuotaControl::SetQuotaState, fs.idiskquotacontrol_setquotastate
 ms.topic: method

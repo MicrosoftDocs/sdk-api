@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.ISharedProperty.get_Value
 title: ISharedProperty::get_Value (comsvcs.h)
-author: windows-sdk-content
+
 description: Retrieves the value of a shared property.
 old-location: cos\isharedproperty_get_value.htm
 tech.root: cossdk
 ms.assetid: 6b8e297c-db65-41b2-a5ee-3a63a4ff31fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISharedProperty interface [COM+],get_Value method, ISharedProperty.get_Value, ISharedProperty::get_Value, _cos_ISharedProperty_get_Value, comsvcs/ISharedProperty::get_Value, cos.isharedproperty_get_value, get_Value, get_Value method [COM+], get_Value method [COM+],ISharedProperty interface
 ms.topic: method

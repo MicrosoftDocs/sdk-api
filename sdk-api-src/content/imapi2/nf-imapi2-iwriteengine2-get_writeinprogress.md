@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IWriteEngine2.get_WriteInProgress
 title: IWriteEngine2::get_WriteInProgress (imapi2.h)
-author: windows-sdk-content
+
 description: Retrieves a value that indicates whether the recorder is currently writing data to the disc.
 old-location: imapi\iwriteengine2_get_writeinprogress.htm
 tech.root: imapi
 ms.assetid: 88f67eab-c87b-4a15-b29f-25675d0cac22
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_WriteInProgress method, IWriteEngine2.get_WriteInProgress, IWriteEngine2::get_WriteInProgress, get_WriteInProgress, get_WriteInProgress method [IMAPI], get_WriteInProgress method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_writeinprogress, imapi2/IWriteEngine2::get_WriteInProgress
 ms.topic: method

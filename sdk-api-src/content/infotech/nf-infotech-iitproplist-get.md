@@ -1,12 +1,12 @@
 ---
 UID: NF:infotech.IITPropList.Get
 title: IITPropList::Get (infotech.h)
-author: windows-sdk-content
+
 description: Returns the property object associated with the given property ID.
 old-location: htmlhelp\iitproplist_get.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistget.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [HTML Help Workshop], Get method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],Get method, IITPropList.Get, IITPropList::Get, htmlhelp.iitproplist_get, infotech/IITPropList::Get, refIITPropListGet
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateEffectGroup
 title: IDCompositionDevice::CreateEffectGroup (dcomp.h)
-author: windows-sdk-content
+
 description: Creates an object that represents multiple effects to be applied to a visual subtree.
 old-location: directcomp\idcompositiondevice_createeffectgroup.htm
 tech.root: directcomp
 ms.assetid: FCF3AACB-F61D-43D4-BAFB-D9453C745956
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateEffectGroup, CreateEffectGroup method [DirectComposition], CreateEffectGroup method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateEffectGroup method, IDCompositionDevice.CreateEffectGroup, IDCompositionDevice::CreateEffectGroup, dcomp/IDCompositionDevice::CreateEffectGroup, directcomp.idcompositiondevice_createeffectgroup
 ms.topic: method

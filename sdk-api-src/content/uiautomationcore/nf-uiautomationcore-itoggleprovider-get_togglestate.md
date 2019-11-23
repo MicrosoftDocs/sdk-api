@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.IToggleProvider.get_ToggleState
 title: IToggleProvider::get_ToggleState (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Specifies the toggle state of the control.
 old-location: winauto\uiauto_IToggleProvider_ToggleState.htm
 tech.root: WinAuto
 ms.assetid: 57bd9b77-32f4-4abf-b942-c0fe00398e56
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IToggleProvider interface [Windows Accessibility],ToggleState property, IToggleProvider.ToggleState, IToggleProvider.get_ToggleState, IToggleProvider::ToggleState, IToggleProvider::get_ToggleState, ToggleState property [Windows Accessibility], ToggleState property [Windows Accessibility],IToggleProvider interface, get_ToggleState, uiauto.uiauto_IToggleProvider_ToggleState, uiauto_IToggleProvider_ToggleState, uiautomationcore/IToggleProvider::ToggleState, uiautomationcore/IToggleProvider::get_ToggleState, winauto.uiauto_IToggleProvider_ToggleState
 ms.topic: method

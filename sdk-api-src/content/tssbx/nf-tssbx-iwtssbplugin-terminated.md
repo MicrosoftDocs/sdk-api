@@ -1,12 +1,12 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.Terminated
 title: IWTSSBPlugin::Terminated (tssbx.h)
-author: windows-sdk-content
+
 description: Notifies the plug-in that it is about to be destroyed by Terminal Services Session Broker (TS&#160;Session Broker).
 old-location: termserv\iwtssbplugin_terminated.htm
 tech.root: TermServ
 ms.assetid: 123455dd-6ef3-409f-b021-e641868b16f0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],Terminated method, IWTSSBPlugin.Terminated, IWTSSBPlugin::Terminated, Terminated, Terminated method [Remote Desktop Services], Terminated method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_terminated, tssbx/IWTSSBPlugin::Terminated
 ms.topic: method

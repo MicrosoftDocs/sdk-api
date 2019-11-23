@@ -1,12 +1,12 @@
 ---
 UID: NC:projectedfslib.PRJ_NOTIFICATION_CB
 title: PRJ_NOTIFICATION_CB (projectedfslib.h)
-author: windows-sdk-content
+
 description: Delivers notifications to the provider about file system operations.
 old-location: projfs\prj_notification_cb.htm
 tech.root: ProjFS
 ms.assetid: 7F149A78-2668-4BF2-88D3-1E40CA469AA6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRJ_NOTIFICATION_CB, PRJ_NOTIFICATION_CB callback, PRJ_NOTIFICATION_CB callback function, ProjFS.prj_notification_cb, projectedfslib/PRJ_NOTIFICATION_CB
 ms.topic: callback

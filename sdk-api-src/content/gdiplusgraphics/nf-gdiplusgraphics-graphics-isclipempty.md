@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IsClipEmpty
 title: Graphics::IsClipEmpty (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::IsClipEmpty method determines whether the clipping region of this Graphics object is empty.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IsClipEmpty_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\isclipempty.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],IsClipEmpty method, Graphics.IsClipEmpty, Graphics::IsClipEmpty, IsClipEmpty, IsClipEmpty method [GDI+], IsClipEmpty method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_IsClipEmpty_, gdiplus._gdiplus_CLASS_Graphics_IsClipEmpty_
 ms.topic: method

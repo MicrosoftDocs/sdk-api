@@ -1,12 +1,12 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.QueryHardwareSupport
 title: IAudioEndpointVolume::QueryHardwareSupport (endpointvolume.h)
-author: windows-sdk-content
+
 description: The QueryHardwareSupport method queries the audio endpoint device for its hardware-supported functions.
 old-location: coreaudio\iaudioendpointvolume_queryhardwaresupport.htm
 tech.root: CoreAudio
 ms.assetid: 20d04cff-f101-417e-912f-c87af16184db
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],QueryHardwareSupport method, IAudioEndpointVolume.QueryHardwareSupport, IAudioEndpointVolume::QueryHardwareSupport, IAudioEndpointVolumeQueryHardwareSupport, QueryHardwareSupport, QueryHardwareSupport method [Core Audio], QueryHardwareSupport method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_queryhardwaresupport, endpointvolume/IAudioEndpointVolume::QueryHardwareSupport
 ms.topic: method

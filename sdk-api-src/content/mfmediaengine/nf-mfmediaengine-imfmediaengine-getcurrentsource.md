@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetCurrentSource
 title: IMFMediaEngine::GetCurrentSource (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Gets the URL of the current media resource, or an empty string if no media resource is present.
 old-location: mf\imfmediaengine_getcurrentsource.htm
 tech.root: medfound
 ms.assetid: 04C4281D-20ED-49B3-B00C-14ECF1E3BDE1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSource, GetCurrentSource method [Media Foundation], GetCurrentSource method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetCurrentSource method, IMFMediaEngine.GetCurrentSource, IMFMediaEngine::GetCurrentSource, mf.imfmediaengine_getcurrentsource, mfmediaengine/IMFMediaEngine::GetCurrentSource
 ms.topic: method

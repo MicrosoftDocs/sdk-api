@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_Uint32A
 title: MI_Uint32A (mi.h)
-author: windows-sdk-content
+
 description: Represents an array of MI_Uint32 types.
 old-location: wmi_v2\mi_uint32a.htm
 tech.root: wmi_v2
 ms.assetid: ec02ad7b-5869-47bb-b493-ce4b19624450
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Uint32A, MI_Uint32A structure [Windows Management Infrastructure (MI)], mi/MI_Uint32A, wmi._mi_uint32a, wmi_v2.mi_uint32a
 ms.topic: struct

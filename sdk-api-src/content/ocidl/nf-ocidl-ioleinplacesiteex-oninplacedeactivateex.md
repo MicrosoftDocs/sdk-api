@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteEx.OnInPlaceDeactivateEx
 title: IOleInPlaceSiteEx::OnInPlaceDeactivateEx (ocidl.h)
-author: windows-sdk-content
+
 description: Notifies the container if the object needs to be redrawn upon deactivation.
 old-location: com\ioleinplacesiteex_oninplacedeactivateex.htm
 tech.root: com
 ms.assetid: c3c68b46-adca-4f8d-86c2-075b72f7c656
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],OnInPlaceDeactivateEx method, IOleInPlaceSiteEx.OnInPlaceDeactivateEx, IOleInPlaceSiteEx::OnInPlaceDeactivateEx, IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx, OnInPlaceDeactivateEx, OnInPlaceDeactivateEx method [COM], OnInPlaceDeactivateEx method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_oninplacedeactivateex, com.ioleinplacesiteex_oninplacedeactivateex, ocidl/IOleInPlaceSiteEx::OnInPlaceDeactivateEx
 ms.topic: method

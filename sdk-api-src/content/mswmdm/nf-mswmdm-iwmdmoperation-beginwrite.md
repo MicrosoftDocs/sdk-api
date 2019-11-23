@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.BeginWrite
 title: IWMDMOperation::BeginWrite (mswmdm.h)
-author: windows-sdk-content
+
 description: The BeginWrite method indicates that a &#0034;write to device&#0034; action is beginning. Windows Media Device Manager only calls this method if the application calls IWMDMStorageControl/2/3::Insert/2/3 and passes in this interface.
 old-location: wmdm\iwmdmoperation_beginwrite.htm
 tech.root: WMDM
 ms.assetid: 1b35b026-1fc1-44e8-befc-211d3387bc92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BeginWrite, BeginWrite method [windows Media Device Manager], BeginWrite method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],BeginWrite method, IWMDMOperation.BeginWrite, IWMDMOperation::BeginWrite, IWMDMOperationBeginWrite, mswmdm/IWMDMOperation::BeginWrite, wmdm.iwmdmoperation_beginwrite
 ms.topic: method

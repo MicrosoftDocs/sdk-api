@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMFMediaEvent.GetStatus
 title: IMFMediaEvent::GetStatus (mfobjects.h)
-author: windows-sdk-content
+
 description: Retrieves an HRESULT that specifies the event status.
 old-location: mf\imfmediaevent_getstatus.htm
 tech.root: medfound
 ms.assetid: e2fc6c81-11c0-4947-b647-3e74a73ee5a2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Media Foundation], GetStatus method [Media Foundation],IMFMediaEvent interface, IMFMediaEvent interface [Media Foundation],GetStatus method, IMFMediaEvent.GetStatus, IMFMediaEvent::GetStatus, e2fc6c81-11c0-4947-b647-3e74a73ee5a2, mf.imfmediaevent_getstatus, mfobjects/IMFMediaEvent::GetStatus
 ms.topic: method

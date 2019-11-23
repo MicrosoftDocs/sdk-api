@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.SetReportSizeLimit
 title: IFsrmReportManager::SetReportSizeLimit (fsrmreports.h)
-author: windows-sdk-content
+
 description: Sets the current value of the specified report size limit.
 old-location: fsrm\ifsrmreportmanager_setreportsizelimit.htm
 tech.root: fsrm
 ms.assetid: 7d5a73ab-eccb-42e5-8796-d2986deccd34
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],SetReportSizeLimit method, IFsrmReportManager interface [File Server Resource Manager],SetReportSizeLimit method, IFsrmReportManager.SetReportSizeLimit, IFsrmReportManager::SetReportSizeLimit, SetReportSizeLimit, SetReportSizeLimit method [File Server Resource Manager], SetReportSizeLimit method [File Server Resource Manager],FsrmReportManager class, SetReportSizeLimit method [File Server Resource Manager],IFsrmReportManager interface, fs.ifsrmreportmanager_setreportsizelimit, fsrm.ifsrmreportmanager_setreportsizelimit, fsrmreports/IFsrmReportManager::SetReportSizeLimit
 ms.topic: method

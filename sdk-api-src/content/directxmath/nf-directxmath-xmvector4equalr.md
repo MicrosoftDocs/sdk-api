@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector4EqualR
 title: XMVector4EqualR function (directxmath.h)
-author: windows-sdk-content
+
 description: Tests whether two 4D vectors are equal. In addition, this function returns a comparison value that can be examined using functions such as XMComparisonAllTrue.
 old-location: dxmath\xmvector4equalr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4EqualR(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4EqualR, XMVector4EqualR, XMVector4EqualR method [DirectX Math Support APIs], dxmath.xmvector4equalr
 ms.topic: function

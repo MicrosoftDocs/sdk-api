@@ -1,12 +1,12 @@
 ---
 UID: NF:iscsidsc.GetIScsiSessionListA
 title: GetIScsiSessionListA function (iscsidsc.h)
-author: windows-sdk-content
+
 description: GetIscsiSessionList function retrieves the list of active iSCSI sessions.
 old-location: iscsidisc\getiscsisessionlist.htm
 tech.root: iSCSIDisc
 ms.assetid: b16b9e52-67af-4745-ac67-a2096dafe94e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetIScsiSessionListA, GetIscsiSessionList, GetIscsiSessionList function [iSCSI Discovery Library API], GetIscsiSessionListA, GetIscsiSessionListW, iscsidisc.getiscsisessionlist, iscsidsc/GetIscsiSessionList, iscsidsc/GetIscsiSessionListA, iscsidsc/GetIscsiSessionListW
 ms.topic: function

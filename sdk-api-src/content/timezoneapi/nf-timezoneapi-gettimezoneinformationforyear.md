@@ -1,12 +1,12 @@
 ---
 UID: NF:timezoneapi.GetTimeZoneInformationForYear
 title: GetTimeZoneInformationForYear function (timezoneapi.h)
-author: windows-sdk-content
+
 description: Retrieves the time zone settings for the specified year and time zone. These settings control the translations between Coordinated Universal Time (UTC) and local time.
 old-location: base\gettimezoneinformationforyear.htm
 tech.root: SysInfo
 ms.assetid: 5bd29a25-98f0-439e-be88-8011bbf98926
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTimeZoneInformationForYear, GetTimeZoneInformationForYear function, base.gettimezoneinformationforyear, timezoneapi/GetTimeZoneInformationForYear
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector3ComponentsFromNormal
 title: XMVector3ComponentsFromNormal function (directxmath.h)
-author: windows-sdk-content
+
 description: Using a reference normal vector, splits a 3D vector into components that are parallel and perpendicular to the normal.
 old-location: dxmath\xmvector3componentsfromnormal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3ComponentsFromNormal(XMVECTOR@,XMVECTOR@,XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3ComponentsFromNormal, XMVector3ComponentsFromNormal, XMVector3ComponentsFromNormal method [DirectX Math Support APIs], dxmath.xmvector3componentsfromnormal
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.MFCreateMFByteStreamOnStreamEx
 title: MFCreateMFByteStreamOnStreamEx function (mfidl.h)
-author: windows-sdk-content
+
 description: Creates a Microsoft Media Foundation byte stream that wraps an IRandomAccessStream object.
 old-location: mf\mfcreatemfbytestreamonstreamex.htm
 tech.root: medfound
 ms.assetid: C16C2A5D-7373-4EA9-A02C-3AF97EA47D34
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFCreateMFByteStreamOnStreamEx, MFCreateMFByteStreamOnStreamEx function [Media Foundation], mf.mfcreatemfbytestreamonstreamex, mf.mfcreatemfbytestreamonwinrtstream, mfidl/MFCreateMFByteStreamOnStreamEx
 ms.topic: function

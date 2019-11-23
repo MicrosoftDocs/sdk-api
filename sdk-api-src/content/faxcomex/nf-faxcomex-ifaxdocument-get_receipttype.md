@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_ReceiptType
 title: IFaxDocument::get_ReceiptType (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxDocument::get_ReceiptType property specifies the type of delivery receipt to deliver when the fax job reaches a final state.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_receipttype_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_75ut.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument interface [Fax Service],ReceiptType property, IFaxDocument.ReceiptType, IFaxDocument.get_ReceiptType, IFaxDocument.put_ReceiptType, IFaxDocument::ReceiptType, IFaxDocument::get_ReceiptType, IFaxDocument::put_ReceiptType, ReceiptType property [Fax Service], ReceiptType property [Fax Service],IFaxDocument interface, _mfax_faxdocument.receipttype, fax._mfax_faxdocument_cpp_mfax_faxdocument_receipttype_cpp, fax._mfax_faxdocument_receipttype, faxcomex/IFaxDocument::ReceiptType, faxcomex/IFaxDocument::get_ReceiptType, faxcomex/IFaxDocument::put_ReceiptType, get_ReceiptType
 ms.topic: method

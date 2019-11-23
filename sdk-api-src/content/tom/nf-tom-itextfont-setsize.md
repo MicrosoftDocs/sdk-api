@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextFont.SetSize
 title: ITextFont::SetSize (tom.h)
-author: windows-sdk-content
+
 description: Sets the font size.
 old-location: controls\ITextFont_SetSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsize.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSize method, ITextFont.SetSize, ITextFont::SetSize, SetSize, SetSize method [Windows Controls], SetSize method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSize, _win32_ITextFont_SetSize_cpp, controls.ITextFont_SetSize, controls._win32_ITextFont_SetSize, tom/ITextFont::SetSize
 ms.topic: method

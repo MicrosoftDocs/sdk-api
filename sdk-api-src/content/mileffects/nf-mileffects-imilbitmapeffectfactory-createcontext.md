@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectFactory.CreateContext
 title: IMILBitmapEffectFactory::CreateContext (mileffects.h)
-author: windows-sdk-content
+
 description: Creates an IMILBitmapEffectRenderContext object.
 old-location: wibe\_wibe_imilbitmapeffectfactory_createcontext.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\createcontext.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateContext, CreateContext method [WPF Bitmap Effects], CreateContext method [WPF Bitmap Effects],IMILBitmapEffectFactory interface, IMILBitmapEffectFactory interface [WPF Bitmap Effects],CreateContext method, IMILBitmapEffectFactory.CreateContext, IMILBitmapEffectFactory::CreateContext, _wibe_imilbitmapeffectfactory_createcontext, mileffects/IMILBitmapEffectFactory::CreateContext, wibe._wibe_imilbitmapeffectfactory_createcontext
 ms.topic: method

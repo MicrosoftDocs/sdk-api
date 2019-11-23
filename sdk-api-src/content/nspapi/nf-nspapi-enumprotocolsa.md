@@ -1,12 +1,12 @@
 ---
 UID: NF:nspapi.EnumProtocolsA
 title: EnumProtocolsA function (nspapi.h)
-author: windows-sdk-content
+
 description: The EnumProtocols function retrieves information about a specified set of network protocols that are active on a local host.
 old-location: winsock\enumprotocols_2.htm
 tech.root: WinSock
 ms.assetid: 0310b80d-5036-46c2-b60f-1a6661cb7f94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumProtocols, EnumProtocols function [Winsock], EnumProtocolsA, EnumProtocolsW, IPPROTO_TCP, IPPROTO_UDP, ISOPROTO_TP4, NSPROTO_IPX, NSPROTO_SPX, NSPROTO_SPXII, _win32_enumprotocols_2, nspapi/EnumProtocols, nspapi/EnumProtocolsA, nspapi/EnumProtocolsW, winsock.enumprotocols_2
 ms.topic: function

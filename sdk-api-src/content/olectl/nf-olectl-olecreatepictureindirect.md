@@ -1,12 +1,12 @@
 ---
 UID: NF:olectl.OleCreatePictureIndirect
 title: OleCreatePictureIndirect function (olectl.h)
-author: windows-sdk-content
+
 description: Creates a new picture object initialized according to a PICTDESC structure.
 old-location: com\olecreatepictureindirect.htm
 tech.root: com
 ms.assetid: fb021348-07d4-4974-a71e-abb1b8d760c4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OleCreatePictureIndirect, OleCreatePictureIndirect function [COM], _ole_OleCreatePictureIndirect, com.olecreatepictureindirect, olectl/OleCreatePictureIndirect
 ms.topic: function

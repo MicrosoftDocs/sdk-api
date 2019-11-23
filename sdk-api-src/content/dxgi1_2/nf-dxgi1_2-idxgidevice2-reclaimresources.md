@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgi1_2.IDXGIDevice2.ReclaimResources
 title: IDXGIDevice2::ReclaimResources (dxgi1_2.h)
-author: windows-sdk-content
+
 description: Restores access to resources that were previously offered by calling IDXGIDevice2::OfferResources.
 old-location: direct3ddxgi\idxgidevice2_reclaimresources.htm
 tech.root: direct3ddxgi
 ms.assetid: 30533605-0F5A-4D15-B01E-7C23E2AE775E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDXGIDevice2 interface [DXGI],ReclaimResources method, IDXGIDevice2.ReclaimResources, IDXGIDevice2::ReclaimResources, ReclaimResources, ReclaimResources method [DXGI], ReclaimResources method [DXGI],IDXGIDevice2 interface, direct3ddxgi.idxgidevice2_reclaimresources, dxgi1_2/IDXGIDevice2::ReclaimResources
 ms.topic: method

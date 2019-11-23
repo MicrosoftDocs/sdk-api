@@ -1,12 +1,12 @@
 ---
 UID: NC:resapi.PEXTEND_RES_TYPE_CONTROL_CALL
 title: PEXTEND_RES_TYPE_CONTROL_CALL (resapi.h)
-author: windows-sdk-content
+
 description: Extends the timeout for a call to a resource type control code. The PEXTEND_RES_TYPE_CONTROL_CALL type defines a pointer to this function.
 old-location: mscs\extendtypecontrolcall.htm
 tech.root: MsCS
 ms.assetid: 90E9A989-D281-440D-8441-02086841356E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ExtendResTypeControlCall, ExtendResTypeControlCall callback, ExtendResTypeControlCall callback function [Failover Cluster], PEXTEND_RES_TYPE_CONTROL_CALL, PEXTEND_RES_TYPE_CONTROL_CALL callback function [Failover Cluster], mscs.extendtypecontrolcall, resapi/ExtendResTypeControlCall, resapi/PEXTEND_RES_TYPE_CONTROL_CALL
 ms.topic: callback

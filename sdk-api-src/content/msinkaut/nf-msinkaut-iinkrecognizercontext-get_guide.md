@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.get_Guide
 title: IInkRecognizerContext::get_Guide (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets or sets the InkRecognizerGuide to use for ink input.
 old-location: tablet\inkrecognizercontext_guide.htm
 tech.root: tablet
 ms.assetid: 706d28c3-fc5d-496a-a957-daf5ba8d47ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 706d28c3-fc5d-496a-a957-daf5ba8d47ca, Guide property [Tablet PC], Guide property [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],Guide property, IInkRecognizerContext.Guide, IInkRecognizerContext.get_Guide, IInkRecognizerContext::Guide, IInkRecognizerContext::get_Guide, IInkRecognizerContext::putref_Guide, InkRecognizerContext.get_Guide, get_Guide, msinkaut/IInkRecognizerContext::Guide, msinkaut/IInkRecognizerContext::get_Guide, msinkaut/IInkRecognizerContext::putref_Guide, putref_Guide, tablet.inkrecognizercontext_guide
 ms.topic: method

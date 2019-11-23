@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.AppendCategory
 title: ICustomDestinationList::AppendCategory (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Defines a custom category and the destinations that it contains, for inclusion in a custom Jump List.
 old-location: shell\ICustomDestinationList_AppendCategory.htm
 tech.root: shell
 ms.assetid: 091a2b28-b4cf-46a9-845a-46b5aa86522d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AppendCategory, AppendCategory method [Windows Shell], AppendCategory method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AppendCategory method, ICustomDestinationList.AppendCategory, ICustomDestinationList::AppendCategory, _shell_ICustomDestinationList_AppendCategory, shell.ICustomDestinationList_AppendCategory, shobjidl_core/ICustomDestinationList::AppendCategory
 ms.topic: method

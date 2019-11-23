@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.DrawAnimatedRects
 title: DrawAnimatedRects function (winuser.h)
-author: windows-sdk-content
+
 description: Animates the caption of a window to indicate the opening of an icon or the minimizing or maximizing of a window.
 old-location: gdi\drawanimatedrects.htm
 tech.root: gdi
 ms.assetid: 54a9234a-0056-4cfe-9158-86635dc31bc6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawAnimatedRects, DrawAnimatedRects function [Windows GDI], _win32_DrawAnimatedRects, gdi.drawanimatedrects, winuser/DrawAnimatedRects
 ms.topic: function

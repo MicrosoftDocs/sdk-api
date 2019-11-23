@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.Contains(const BoundingOrientedBox &)
 title: BoundingFrustum::Contains(const BoundingOrientedBox &)
-author: windows-sdk-content
+
 description: Tests whether the BoundingFrustum contains the specified BoundingOrientedBox.
 old-location: dxmath\boundingfrustum_contains_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.Contains(BoundingOrientedBox)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],Contains method, BoundingFrustum.Contains, BoundingFrustum.Contains(const BoundingOrientedBox &), BoundingFrustum.Contains(const BoundingOrientedBox&), BoundingFrustum::Contains, BoundingFrustum::Contains(const BoundingOrientedBox &), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_contains_4
 ms.topic: method

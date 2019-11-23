@@ -1,11 +1,11 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS
 title: D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS
-author: windows-sdk-content
+
 description: Specifies the deinterlacing video processor capabilities.
 tech.root: mf
 ms.assetid: 7f25af81-344c-4a70-9d58-9eed1604c11a
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: enum
 f1_keywords:

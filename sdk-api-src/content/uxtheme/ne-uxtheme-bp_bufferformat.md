@@ -1,12 +1,12 @@
 ---
 UID: NE:uxtheme._BP_BUFFERFORMAT
 title: BP_BUFFERFORMAT (uxtheme.h)
-author: windows-sdk-content
+
 description: Specifies the format of the buffer. Used by BeginBufferedAnimation and BeginBufferedPaint.
 old-location: controls\BP_BUFFERFORMAT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\bp_bufferformat.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BPBF_COMPATIBLEBITMAP, BPBF_DIB, BPBF_TOPDOWNDIB, BPBF_TOPDOWNMONODIB, BP_BUFFERFORMAT, BP_BUFFERFORMAT enumeration [Windows Controls], _shell_BP_BUFFERFORMAT, _shell_BP_BUFFERFORMAT_cpp, controls.BP_BUFFERFORMAT, controls._shell_BP_BUFFERFORMAT, uxtheme/BPBF_COMPATIBLEBITMAP, uxtheme/BPBF_DIB, uxtheme/BPBF_TOPDOWNDIB, uxtheme/BPBF_TOPDOWNMONODIB, uxtheme/BP_BUFFERFORMAT
 ms.topic: enum

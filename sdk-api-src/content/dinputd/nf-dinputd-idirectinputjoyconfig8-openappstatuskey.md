@@ -1,12 +1,12 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.OpenAppStatusKey
 title: IDirectInputJoyConfig8::OpenAppStatusKey (dinputd.h)
-author: windows-sdk-content
+
 description: The IDirectInputJoyConfig8::OpenAppStatusKey method opens the root key of the application status registry keys, and obtains a handle to the key as a return parameter.
 old-location: hid\idirectinputjoyconfig8_openappstatuskey.htm
 tech.root: hid
 ms.assetid: a9caea40-6570-4756-81a4-91a3aaff302b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],OpenAppStatusKey method, IDirectInputJoyConfig8.OpenAppStatusKey, IDirectInputJoyConfig8::OpenAppStatusKey, OpenAppStatusKey, OpenAppStatusKey method [Human Input Devices], OpenAppStatusKey method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_004ec952-e0fd-4e41-a466-a09fb37e6f80.xml, dinputd/IDirectInputJoyConfig8::OpenAppStatusKey, hid.idirectinputjoyconfig8_openappstatuskey
 ms.topic: method

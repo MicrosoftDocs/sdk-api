@@ -1,12 +1,12 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Identifier
 title: ITsSbTaskInfo::get_Identifier (sbtsv.h)
-author: windows-sdk-content
+
 description: Retrieves a GUID that is used as a unique identifier by the task agent.
 old-location: termserv\itssbtaskinfo_identifier.htm
 tech.root: TermServ
 ms.assetid: 96b41588-d634-4cdd-aacc-0456b8e47c3b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Identifier property, ITsSbTaskInfo.Identifier, ITsSbTaskInfo.get_Identifier, ITsSbTaskInfo::Identifier, ITsSbTaskInfo::get_Identifier, Identifier property [Remote Desktop Services], Identifier property [Remote Desktop Services],ITsSbTaskInfo interface, get_Identifier, sbtsv/ITsSbTaskInfo::Identifier, sbtsv/ITsSbTaskInfo::get_Identifier, termserv.itssbtaskinfo_identifier
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA
 title: DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA (dxvahd.h)
-author: windows-sdk-content
+
 description: Specifies the output frame rate for an input stream when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_stream_state_output_rate_data.htm
 tech.root: medfound
 ms.assetid: 9cca24f0-5fff-4125-b1fe-d2f9278b5181
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA, DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA structure [Media Foundation], FALSE, TRUE, dxvahd/DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA, mf.dxvahd_stream_state_output_rate_data
 ms.topic: struct

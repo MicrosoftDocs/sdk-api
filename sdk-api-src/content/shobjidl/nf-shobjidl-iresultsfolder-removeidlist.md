@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl.IResultsFolder.RemoveIDList
 title: IResultsFolder::RemoveIDList (shobjidl.h)
-author: windows-sdk-content
+
 description: Removes a pointer to an item identifier list (PIDL) from a results folder.
 old-location: shell\IResultsFolder_RemoveIDList.htm
 tech.root: shell
 ms.assetid: 188d4f7f-954c-4bba-ad4e-164085e0cc5a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IResultsFolder interface [Windows Shell],RemoveIDList method, IResultsFolder.RemoveIDList, IResultsFolder::RemoveIDList, RemoveIDList, RemoveIDList method [Windows Shell], RemoveIDList method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveIDList, shell.IResultsFolder_RemoveIDList, shobjidl/IResultsFolder::RemoveIDList
 ms.topic: method

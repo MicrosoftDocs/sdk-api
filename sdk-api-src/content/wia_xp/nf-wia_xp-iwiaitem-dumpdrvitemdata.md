@@ -1,12 +1,12 @@
 ---
 UID: NF:wia_xp.IWiaItem.DumpDrvItemData
 title: IWiaItem::DumpDrvItemData (wia_xp.h)
-author: windows-sdk-content
+
 description: This method is not supported.
 old-location: wia\_wia_IWiaItem_DumpDrvItemData.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\dumpdrvitemdata.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DumpDrvItemData, DumpDrvItemData method [WIA], DumpDrvItemData method [WIA],IWiaItem interface, IWiaItem interface [WIA],DumpDrvItemData method, IWiaItem.DumpDrvItemData, IWiaItem::DumpDrvItemData, _wia_IWiaItem_DumpDrvItemData, wia._wia_IWiaItem_DumpDrvItemData, wia_xp/IWiaItem::DumpDrvItemData
 ms.topic: method

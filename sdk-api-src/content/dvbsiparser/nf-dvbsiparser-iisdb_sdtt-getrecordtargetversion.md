@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordTargetVersion
 title: IISDB_SDTT::GetRecordTargetVersion (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Receives the target version from a record in an Integrated Services Digital Broadcasting (ISDB) Software Download Trigger Table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordtargetversion.htm
 tech.root: mstv
 ms.assetid: e8e85c5b-e577-45b9-b377-c21700c818bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRecordTargetVersion, GetRecordTargetVersion method [Microsoft TV Technologies], GetRecordTargetVersion method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordTargetVersion method, IISDB_SDTT.GetRecordTargetVersion, IISDB_SDTT::GetRecordTargetVersion, dvbsiparser/IISDB_SDTT::GetRecordTargetVersion, mstv.iisdb_sdtt_getrecordtargetversion
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.tagNMTVCUSTOMDRAW
 title: NMTVCUSTOMDRAW (commctrl.h)
-author: windows-sdk-content
+
 description: Contains information specific to an NM_CUSTOMDRAW (tree view) notification code sent by a tree-view control.
 old-location: controls\NMTVCUSTOMDRAW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvcustomdraw.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPNMTVCUSTOMDRAW, LPNMTVCUSTOMDRAW, LPNMTVCUSTOMDRAW structure pointer [Windows Controls], NMTVCUSTOMDRAW, NMTVCUSTOMDRAW structure [Windows Controls], _win32_NMTVCUSTOMDRAW, _win32_NMTVCUSTOMDRAW_cpp, commctrl/LPNMTVCUSTOMDRAW, commctrl/NMTVCUSTOMDRAW, controls.NMTVCUSTOMDRAW, controls._win32_NMTVCUSTOMDRAW"
 ms.topic: struct

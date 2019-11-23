@@ -1,12 +1,12 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetRVA
 title: IMetaDataImport::GetRVA (rometadataapi.h)
-author: windows-sdk-content
+
 description: Gets the relative virtual address (RVA) and the implementation flags of the method or field represented by the specified token.
 old-location: winrt\imetadataimport_getrva.htm
 tech.root: WinRT
 ms.assetid: 125f7891-0ffe-48f9-a9de-4b4d2f50fc25
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRVA, GetRVA method [Windows Runtime], GetRVA method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetRVA method, IMetaDataImport.GetRVA, IMetaDataImport::GetRVA, rometadataapi/IMetaDataImport::GetRVA, winrt.imetadataimport_getrva
 ms.topic: method

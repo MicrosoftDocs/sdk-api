@@ -1,12 +1,12 @@
 ---
 UID: NF:control.IBasicVideo.put_DestinationHeight
 title: IBasicVideo::put_DestinationHeight (control.h)
-author: windows-sdk-content
+
 description: The put_DestinationHeight method sets the height of the destination rectangle.
 old-location: dshow\ibasicvideo_put_destinationheight.htm
 tech.root: DirectShow
 ms.assetid: e530bf39-d352-4808-9ac6-5e3d322e1905
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_DestinationHeight method, IBasicVideo.put_DestinationHeight, IBasicVideo::put_DestinationHeight, IBasicVideoput_DestinationHeight, control/IBasicVideo::put_DestinationHeight, dshow.ibasicvideo_put_destinationheight, put_DestinationHeight, put_DestinationHeight method [DirectShow], put_DestinationHeight method [DirectShow],IBasicVideo interface
 ms.topic: method

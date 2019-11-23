@@ -1,12 +1,12 @@
 ---
 UID: NS:ntsecpkg._SECPKG_EXTRA_OIDS
 title: SECPKG_EXTRA_OIDS (ntsecpkg.h)
-author: windows-sdk-content
+
 description: Contains the object identifiers (OIDs) for the extended security package.
 old-location: security\secpkg_extra_oids.htm
 tech.root: SecAuthN
 ms.assetid: 188EB248-F056-40F4-8A27-6BEC75F14154
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_EXTRA_OIDS, PSECPKG_EXTRA_OIDS, PSECPKG_EXTRA_OIDS structure pointer [Security], SECPKG_EXTRA_OIDS, SECPKG_EXTRA_OIDS structure [Security], ntsecpkg/PSECPKG_EXTRA_OIDS, ntsecpkg/SECPKG_EXTRA_OIDS, security.secpkg_extra_oids'
 ms.topic: struct

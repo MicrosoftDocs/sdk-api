@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IDataAdviseHolder.Unadvise
 title: IDataAdviseHolder::Unadvise (objidl.h)
-author: windows-sdk-content
+
 description: Removes a connection between a data object and an advisory sink that was set up through a previous call to IDataAdviseHolder::Advise. This method is typically called in the implementation of IDataObject::DUnadvise.
 old-location: com\idataadviseholder_unadvise.htm
 tech.root: com
 ms.assetid: baeb29fd-1dd2-4320-911d-b271b2250184
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDataAdviseHolder interface [COM],Unadvise method, IDataAdviseHolder.Unadvise, IDataAdviseHolder::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IDataAdviseHolder interface, _ole_idataadviseholder_unadvise, com.idataadviseholder_unadvise, objidl/IDataAdviseHolder::Unadvise
 ms.topic: method

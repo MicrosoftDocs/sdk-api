@@ -1,12 +1,12 @@
 ---
 UID: NS:wia_xp._WIA_DATA_CALLBACK_HEADER
 title: WIA_DATA_CALLBACK_HEADER (wia_xp.h)
-author: windows-sdk-content
+
 description: The WIA_DATA_CALLBACK_HEADER is transmitted to an application during a series of calls by the Windows Image Acquisition (WIA) run-time system to the IWiaDataCallback::BandedDataCallback method.
 old-location: wia\_wia_WIA_DATA_CALLBACK_HEADER.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_data_callback_header.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_CALLBACK_HEADER structure pointer [WIA], WIA_DATA_CALLBACK_HEADER, WIA_DATA_CALLBACK_HEADER structure [WIA], _wia_WIA_DATA_CALLBACK_HEADER, wia._wia_WIA_DATA_CALLBACK_HEADER, wia_xp/PWIA_DATA_CALLBACK_HEADER, wia_xp/WIA_DATA_CALLBACK_HEADER"
 ms.topic: struct

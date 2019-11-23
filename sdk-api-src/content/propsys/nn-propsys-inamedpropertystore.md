@@ -1,12 +1,12 @@
 ---
 UID: NN:propsys.INamedPropertyStore
 title: INamedPropertyStore (propsys.h)
-author: windows-sdk-content
+
 description: Exposes methods that get and set named properties.
 old-location: shell\INamedPropertyStore.htm
 tech.root: shell
 ms.assetid: 5f7997ba-a5c8-42b5-90c8-5cb34afd6092
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INamedPropertyStore, INamedPropertyStore interface [Windows Shell], INamedPropertyStore interface [Windows Shell],described, _shell_INamedPropertyStore, propsys/INamedPropertyStore, shell.INamedPropertyStore
 ms.topic: interface

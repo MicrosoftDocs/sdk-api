@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsDisk3.QueryFreeExtents
 title: IVdsDisk3::QueryFreeExtents (vds.h)
-author: windows-sdk-content
+
 description: Returns the free extents on the disk and aligns them to the specified alignment size.
 old-location: base\ivdsdisk3_queryfreeextents.htm
 tech.root: VDS
 ms.assetid: 0ca2ebb6-1394-48a2-972b-bdf43bf58ced
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk3 interface,QueryFreeExtents method, IVdsDisk3.QueryFreeExtents, IVdsDisk3::QueryFreeExtents, QueryFreeExtents, QueryFreeExtents method, QueryFreeExtents method,IVdsDisk3 interface, base.ivdsdisk3_queryfreeextents, vds/IVdsDisk3::QueryFreeExtents
 ms.topic: method

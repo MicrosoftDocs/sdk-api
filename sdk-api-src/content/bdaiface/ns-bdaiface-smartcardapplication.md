@@ -1,12 +1,12 @@
 ---
 UID: NS:bdaiface.SmartCardApplication
 title: SmartCardApplication (bdaiface.h)
-author: windows-sdk-content
+
 description: The SmartCardApplication structure identifies a smart card application.
 old-location: mstv\smartcardapplication.htm
 tech.root: mstv
 ms.assetid: 14d9cfbd-46c4-4be2-8631-f0916820c129
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SmartCardApplication, SmartCardApplication structure [Microsoft TV Technologies], SmartCardApplicationStructure, bdaiface_enums/SmartCardApplication, mstv.smartcardapplication
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_Server_GetVersion
 title: MI_Server_GetVersion function (mi.h)
-author: windows-sdk-content
+
 description: Gets the value of the MI_VERSION macro used when generating the provider.
 old-location: wmi_v2\mi_server_getversion.htm
 tech.root: wmi_v2
 ms.assetid: ba3d3bc8-fd07-45c7-8292-38768738cf82
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Server_GetVersion, MI_Server_GetVersion callback, MI_Server_GetVersion callback function [Windows Management Infrastructure (MI)], mi/MI_Server_GetVersion, wmi_v2.mi_server_getversion
 ms.topic: function

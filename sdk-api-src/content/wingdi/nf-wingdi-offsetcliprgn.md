@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.OffsetClipRgn
 title: OffsetClipRgn function (wingdi.h)
-author: windows-sdk-content
+
 description: The OffsetClipRgn function moves the clipping region of a device context by the specified offsets.
 old-location: gdi\offsetcliprgn.htm
 tech.root: gdi
 ms.assetid: 332ab3f8-6ad3-4bbc-85a3-b0d2a4b07bc5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OffsetClipRgn, OffsetClipRgn function [Windows GDI], _win32_OffsetClipRgn, gdi.offsetcliprgn, wingdi/OffsetClipRgn
 ms.topic: function

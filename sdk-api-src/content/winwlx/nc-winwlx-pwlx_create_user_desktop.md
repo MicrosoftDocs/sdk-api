@@ -1,12 +1,12 @@
 ---
 UID: NC:winwlx.PWLX_CREATE_USER_DESKTOP
 title: PWLX_CREATE_USER_DESKTOP (winwlx.h)
-author: windows-sdk-content
+
 description: Called by GINA to create alternate application desktops for the user.
 old-location: security\wlxcreateuserdesktop.htm
 tech.root: SecAuthN
 ms.assetid: 6985e858-f914-426a-91b4-cf8c3f604318
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PWLX_CREATE_USER_DESKTOP, PWLX_CREATE_USER_DESKTOP callback, WLX_CREATE_INSTANCE_ONLY, WLX_CREATE_USER, WlxCreateUserDesktop, WlxCreateUserDesktop callback function [Security], _gina_wlxcreateuserdesktop, security.wlxcreateuserdesktop, winwlx/WlxCreateUserDesktop
 ms.topic: callback

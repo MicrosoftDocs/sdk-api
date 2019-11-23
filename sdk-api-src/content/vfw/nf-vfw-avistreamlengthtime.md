@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.AVIStreamLengthTime
 title: AVIStreamLengthTime macro (vfw.h)
-author: windows-sdk-content
+
 description: The AVIStreamLengthTime macro returns the length of a stream in time.
 old-location: multimedia\avistreamlengthtime.htm
 tech.root: Multimedia
 ms.assetid: 550d04b2-d5d4-4acc-97d3-8cd180de1545
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AVIStreamLengthTime, AVIStreamLengthTime macro [Windows Multimedia], _win32_AVIStreamLengthTime, multimedia.avistreamlengthtime, vfw/AVIStreamLengthTime
 ms.topic: macro

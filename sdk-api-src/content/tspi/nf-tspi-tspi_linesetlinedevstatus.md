@@ -1,12 +1,12 @@
 ---
 UID: NF:tspi.TSPI_lineSetLineDevStatus
 title: TSPI_lineSetLineDevStatus function (tspi.h)
-author: windows-sdk-content
+
 description: The TSPI_lineSetLineDevStatus service provider sets the device status as indicated, sending appropriate LINE_LINEDEVSTATE messages to indicate the new status.
 old-location: tspi\tspi_linesetlinedevstatus.htm
 tech.root: Tapi
 ms.assetid: 82afe6fd-a9fd-4e53-a460-370cab404366
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetLineDevStatus, TSPI_lineSetLineDevStatus function [TAPI 2.2], _tspi_tspi_linesetlinedevstatus, tspi.tspi_linesetlinedevstatus, tspi/TSPI_lineSetLineDevStatus
 ms.topic: function

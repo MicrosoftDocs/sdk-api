@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetAccessibilityShortDescription
 title: IXpsOMPath::SetAccessibilityShortDescription (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Sets the short textual description of the object's contents.
 old-location: xps\ixpsompath_setaccessibilityshortdescription.htm
 tech.root: printdocs
 ms.assetid: 1e078817-be7c-493c-9b46-9c9f4068745c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetAccessibilityShortDescription method, IXpsOMPath.SetAccessibilityShortDescription, IXpsOMPath::SetAccessibilityShortDescription, SetAccessibilityShortDescription, SetAccessibilityShortDescription method [XPS Documents and Packaging], SetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setaccessibilityshortdescription, xpsobjectmodel/IXpsOMPath::SetAccessibilityShortDescription
 ms.topic: method

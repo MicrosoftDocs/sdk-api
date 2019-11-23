@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseNotificationEvent
 title: UiaRaiseNotificationEvent function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Called by providers to initiate a notification event.
 old-location: winauto\uiauto_UiaRaiseNotificationEvent.htm
 tech.root: WinAuto
 ms.assetid: E9555BC0-A53B-416F-95C3-53696716F61F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseNotificationEvent, UiaRaiseNotificationEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseNotificationEvent, winauto.uiauto_UiaRaiseNotificationEvent
 ms.topic: function

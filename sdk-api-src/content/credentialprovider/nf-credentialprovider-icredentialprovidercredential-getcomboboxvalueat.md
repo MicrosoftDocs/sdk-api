@@ -1,12 +1,12 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetComboBoxValueAt
 title: ICredentialProviderCredential::GetComboBoxValueAt (credentialprovider.h)
-author: windows-sdk-content
+
 description: Gets the string label for a combo box entry at the given index.
 old-location: shell\ICredentialProviderCredential_GetComboBoxValueAt.htm
 tech.root: shell
 ms.assetid: e64c6b80-03c9-46a3-91bd-6cd67d666540
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetComboBoxValueAt, GetComboBoxValueAt method [Windows Shell], GetComboBoxValueAt method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetComboBoxValueAt method, ICredentialProviderCredential.GetComboBoxValueAt, ICredentialProviderCredential::GetComboBoxValueAt, _shell_ICredentialProviderCredential_GetComboBoxValueAt, credentialprovider/ICredentialProviderCredential::GetComboBoxValueAt, shell.ICredentialProviderCredential_GetComboBoxValueAt
 ms.topic: method

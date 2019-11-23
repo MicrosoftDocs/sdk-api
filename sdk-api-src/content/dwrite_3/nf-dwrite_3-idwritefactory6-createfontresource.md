@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory6.CreateFontResource
 title: IDWriteFactory6::CreateFontResource
-author: windows-sdk-content
+
 description: Creates a font resource, given a font file and a face index.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontResource method, IDWriteFactory6.CreateFontResource, IDWriteFactory6::CreateFontResource, CreateFontResource, CreateFontResource method [Direct Write], CreateFontResource method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontresource, dwrite_3/IDWriteFactory6::CreateFontResource
 ms.topic: method

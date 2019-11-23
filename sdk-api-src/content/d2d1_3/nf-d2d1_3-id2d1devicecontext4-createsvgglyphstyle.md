@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.CreateSvgGlyphStyle
 title: ID2D1DeviceContext4::CreateSvgGlyphStyle (d2d1_3.h)
-author: windows-sdk-content
+
 description: Creates an SVG glyph style object.
 old-location: direct2d\id2d1devicecontext4_createsvgglyphstyle.htm
 tech.root: Direct2D
 ms.assetid: 56E357D3-D361-4A56-990F-1CD4051BD4F1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateSvgGlyphStyle, CreateSvgGlyphStyle method [Direct2D], CreateSvgGlyphStyle method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],CreateSvgGlyphStyle method, ID2D1DeviceContext4.CreateSvgGlyphStyle, ID2D1DeviceContext4::CreateSvgGlyphStyle, d2d1_3/ID2D1DeviceContext4::CreateSvgGlyphStyle, direct2d.id2d1devicecontext4_createsvgglyphstyle
 ms.topic: method

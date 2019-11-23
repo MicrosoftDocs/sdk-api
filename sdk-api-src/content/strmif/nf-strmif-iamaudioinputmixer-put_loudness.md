@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Loudness
 title: IAMAudioInputMixer::put_Loudness (strmif.h)
-author: windows-sdk-content
+
 description: The put_Loudness method enables or disables the loudness control.
 old-location: dshow\iamaudioinputmixer_put_loudness.htm
 tech.root: DirectShow
 ms.assetid: e4baca46-260c-45fe-8c03-304c906aab15
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Loudness method, IAMAudioInputMixer.put_Loudness, IAMAudioInputMixer::put_Loudness, IAMAudioInputMixerput_Loudness, dshow.iamaudioinputmixer_put_loudness, put_Loudness, put_Loudness method [DirectShow], put_Loudness method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Loudness
 ms.topic: method

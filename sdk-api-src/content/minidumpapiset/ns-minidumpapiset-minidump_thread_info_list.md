@@ -1,12 +1,12 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD_INFO_LIST
 title: MINIDUMP_THREAD_INFO_LIST (minidumpapiset.h)
-author: windows-sdk-content
+
 description: Contains a list of threads.
 old-location: base\minidump_thread_info_list_str.htm
 tech.root: Debug
 ms.assetid: ee02a8fa-c81d-4b23-b8a2-6ff31cdaf3de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_THREAD_INFO_LIST, MINIDUMP_THREAD_INFO_LIST, MINIDUMP_THREAD_INFO_LIST structure, PMINIDUMP_THREAD_INFO_LIST, PMINIDUMP_THREAD_INFO_LIST structure pointer, _MINIDUMP_THREAD_INFO_LIST, base.minidump_thread_info_list_str, minidumpapiset/MINIDUMP_THREAD_INFO_LIST, minidumpapiset/PMINIDUMP_THREAD_INFO_LIST'
 ms.topic: struct

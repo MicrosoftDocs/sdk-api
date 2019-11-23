@@ -1,12 +1,12 @@
 ---
 UID: NC:webapplication.RegisterAuthoringClientFunctionType
 title: RegisterAuthoringClientFunctionType (webapplication.h)
-author: windows-sdk-content
+
 description: Defines a pointer to an application-defined function in a dynamic-link library (DLL) that will be used as the authoring binary. When the app host starts in authoring mode, this function is called to initialize the authoring binary.
 old-location: debug\registerauthoringclientfunctiontype.htm
 tech.root: debug_wwahost
 ms.assetid: 31414CBA-12A3-45F8-967B-7ECD9D90D0F6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RegisterAuthoringClientFunctionType, RegisterAuthoringClientFunctionType callback, RegisterAuthoringClientFunctionType callback function [Debugging Windows Store apps], debug.registerauthoringclientfunctiontype, webapplication/RegisterAuthoringClientFunctionType
 ms.topic: callback

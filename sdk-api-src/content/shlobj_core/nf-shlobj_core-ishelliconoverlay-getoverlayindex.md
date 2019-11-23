@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.IShellIconOverlay.GetOverlayIndex
 title: IShellIconOverlay::GetOverlayIndex (shlobj_core.h)
-author: windows-sdk-content
+
 description: Gets the overlay index in the system image list.
 old-location: shell\IShellIconOverlay_GetOverlayIndex.htm
 tech.root: shell
 ms.assetid: e5bde311-8b5f-4a8b-9fff-5d062c650b95
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetOverlayIndex, GetOverlayIndex method [Windows Shell], GetOverlayIndex method [Windows Shell],IShellIconOverlay interface, IShellIconOverlay interface [Windows Shell],GetOverlayIndex method, IShellIconOverlay.GetOverlayIndex, IShellIconOverlay::GetOverlayIndex, _win32_IShellIconOverlay_GetOverlayIndex, shell.IShellIconOverlay_GetOverlayIndex, shlobj_core/IShellIconOverlay::GetOverlayIndex
 ms.topic: method

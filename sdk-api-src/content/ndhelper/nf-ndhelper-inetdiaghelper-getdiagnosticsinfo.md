@@ -1,12 +1,12 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetDiagnosticsInfo
 title: INetDiagHelper::GetDiagnosticsInfo (ndhelper.h)
-author: windows-sdk-content
+
 description: Enables the Helper Class Extension instance to provide an estimate.
 old-location: ndf\inetdiaghelpe_getdiagnosticsinfo.htm
 tech.root: NDF
 ms.assetid: bc162b1b-a22e-4ee3-96a6-c2eecc13e479
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDiagnosticsInfo, GetDiagnosticsInfo method [NDF], GetDiagnosticsInfo method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetDiagnosticsInfo method, INetDiagHelper.GetDiagnosticsInfo, INetDiagHelper::GetDiagnosticsInfo, ndf.inetdiaghelpe_getdiagnosticsinfo, ndhelper/INetDiagHelper::GetDiagnosticsInfo
 ms.topic: method

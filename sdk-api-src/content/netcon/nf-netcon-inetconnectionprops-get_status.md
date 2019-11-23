@@ -1,12 +1,12 @@
 ---
 UID: NF:netcon.INetConnectionProps.get_Status
 title: INetConnectionProps::get_Status (netcon.h)
-author: windows-sdk-content
+
 description: The get_Status method retrieves the status of the connection.
 old-location: ics\inetconnectionprops_get_status.htm
 tech.root: ics
 ms.assetid: a8d9506a-00a4-4202-aa1f-652a71cb5f0a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_Status method, INetConnectionProps.get_Status, INetConnectionProps::get_Status, _ics_inetconnectionprops_get_status, get_Status, get_Status method [ICS/ICF], get_Status method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_status, netcon/INetConnectionProps::get_Status
 ms.topic: method

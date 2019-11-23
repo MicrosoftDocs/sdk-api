@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.ApplyTemplate
 title: IFsrmQuotaObject::ApplyTemplate (fsrmquota.h)
-author: windows-sdk-content
+
 description: Applies the property values of the specified quota template to this quota object.
 old-location: fsrm\ifsrmquotaobject_applytemplate.htm
 tech.root: fsrm
 ms.assetid: f4e65d53-7841-4f84-9c14-bad43089a87f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ApplyTemplate, ApplyTemplate method [File Server Resource Manager], ApplyTemplate method [File Server Resource Manager],IFsrmQuotaObject interface, IFsrmQuotaObject interface [File Server Resource Manager],ApplyTemplate method, IFsrmQuotaObject.ApplyTemplate, IFsrmQuotaObject::ApplyTemplate, fs.ifsrmquotaobject_applytemplate, fsrm.ifsrmquotaobject_applytemplate, fsrmquota/IFsrmQuotaObject::ApplyTemplate
 ms.topic: method

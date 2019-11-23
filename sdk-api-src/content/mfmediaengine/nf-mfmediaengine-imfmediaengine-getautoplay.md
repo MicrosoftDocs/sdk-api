@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetAutoPlay
 title: IMFMediaEngine::GetAutoPlay (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Queries whether the Media Engine automatically begins playback.
 old-location: mf\imfmediaengine_getautoplay.htm
 tech.root: medfound
 ms.assetid: CEF50308-D4F9-435F-A81A-3746A27846F0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAutoPlay, GetAutoPlay method [Media Foundation], GetAutoPlay method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetAutoPlay method, IMFMediaEngine.GetAutoPlay, IMFMediaEngine::GetAutoPlay, mf.imfmediaengine_getautoplay, mfmediaengine/IMFMediaEngine::GetAutoPlay
 ms.topic: method

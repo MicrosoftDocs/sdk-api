@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IMoniker.CommonPrefixWith
 title: IMoniker::CommonPrefixWith (objidl.h)
-author: windows-sdk-content
+
 description: Creates a new moniker based on the prefix that this moniker has in common with the specified moniker.
 old-location: com\imoniker_commonprefixwith.htm
 tech.root: com
 ms.assetid: ef2a3191-7b7c-4e51-ab55-cf601f444561
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CommonPrefixWith, CommonPrefixWith method [COM], CommonPrefixWith method [COM],IMoniker interface, IMoniker interface [COM],CommonPrefixWith method, IMoniker.CommonPrefixWith, IMoniker::CommonPrefixWith, _com_imoniker_commonprefixwith, com.imoniker_commonprefixwith, objidl/IMoniker::CommonPrefixWith
 ms.topic: method

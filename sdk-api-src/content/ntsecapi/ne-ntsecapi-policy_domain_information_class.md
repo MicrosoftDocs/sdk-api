@@ -1,12 +1,12 @@
 ---
 UID: NE:ntsecapi._POLICY_DOMAIN_INFORMATION_CLASS
 title: POLICY_DOMAIN_INFORMATION_CLASS (ntsecapi.h)
-author: windows-sdk-content
+
 description: Defines the type of policy domain information.
 old-location: security\policy_domain_information_class.htm
 tech.root: SecAuthN
 ms.assetid: b208c479-a262-4120-824f-677ead1ef61a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PPOLICY_DOMAIN_INFORMATION_CLASS, POLICY_DOMAIN_INFORMATION_CLASS, POLICY_DOMAIN_INFORMATION_CLASS enumeration [Security], PPOLICY_DOMAIN_INFORMATION_CLASS, PPOLICY_DOMAIN_INFORMATION_CLASS enumeration pointer [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, ntsecapi/POLICY_DOMAIN_INFORMATION_CLASS, ntsecapi/PPOLICY_DOMAIN_INFORMATION_CLASS, ntsecapi/PolicyDomainEfsInformation, ntsecapi/PolicyDomainKerberosTicketInformation, security.policy_domain_information_class"
 ms.topic: enum

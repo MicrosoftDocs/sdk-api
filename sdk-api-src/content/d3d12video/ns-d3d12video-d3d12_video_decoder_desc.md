@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODER_DESC
 title: D3D12_VIDEO_DECODER_DESC
-author: windows-sdk-content
+
 description: Describes a ID3D12VideoDecoder.
 tech.root: mf
 ms.assetid: 0e50bf0f-f160-4214-98da-80b4badb4989
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

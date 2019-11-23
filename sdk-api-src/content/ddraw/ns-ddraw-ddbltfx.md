@@ -1,12 +1,12 @@
 ---
 UID: NS:ddraw._DDBLTFX
 title: DDBLTFX (ddraw.h)
-author: windows-sdk-content
+
 description: The DDBLTFX structure passes raster operations (ROPs), effects, and override information to the IDirectDrawSurface7::Blt method. This structure is also part of the DDBLTBATCH structure that is used with the IDirectDrawSurface7::BltBatch method.
 old-location: directdraw\ddbltfx.htm
 tech.root: directdraw
 ms.assetid: a542434f-61d3-4c73-a087-ffb83a509c67
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPDDBLTFX, DDBLTFX, DDBLTFX structure [DirectDraw], DDBLTFX_ARITHSTRETCHY, DDBLTFX_MIRRORLEFTRIGHT, DDBLTFX_MIRRORUPDOWN, DDBLTFX_NOTEARING, DDBLTFX_ROTATE180, DDBLTFX_ROTATE270, DDBLTFX_ROTATE90, DDBLTFX_ZBUFFERBASEDEST, DDBLTFX_ZBUFFERRANGE, LPDDBLTFX, LPDDBLTFX structure pointer [DirectDraw], ddraw/DDBLTFX, ddraw/LPDDBLTFX, directdraw.ddbltfx'
 ms.topic: struct

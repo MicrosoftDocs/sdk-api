@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_VERTEX_USAGE
 title: D2D1_VERTEX_USAGE (d2d1effectauthor.h)
-author: windows-sdk-content
+
 description: Indicates whether the vertex buffer changes infrequently or frequently.
 old-location: direct2d\d2d1_vertex_usage.htm
 tech.root: Direct2D
 ms.assetid: ff122e0d-5f0e-4a61-bead-53bea6f1648f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_VERTEX_USAGE, D2D1_VERTEX_USAGE enumeration [Direct2D], D2D1_VERTEX_USAGE_DYNAMIC, D2D1_VERTEX_USAGE_STATIC, d2d1effectauthor/D2D1_VERTEX_USAGE, d2d1effectauthor/D2D1_VERTEX_USAGE_DYNAMIC, d2d1effectauthor/D2D1_VERTEX_USAGE_STATIC, direct2d.d2d1_vertex_usage
 ms.topic: enum

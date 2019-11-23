@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IDeskBand.GetBandInfo
 title: IDeskBand::GetBandInfo (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Gets state information for a band object.
 old-location: shell\IDeskBand_GetBandInfo.htm
 tech.root: shell
 ms.assetid: 7567a2f8-989e-4d11-ae55-209e4cfacad0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DBIF_VIEWMODE_FLOATING, DBIF_VIEWMODE_NORMAL, DBIF_VIEWMODE_TRANSPARENT, DBIF_VIEWMODE_VERTICAL, GetBandInfo, GetBandInfo method [Windows Shell], GetBandInfo method [Windows Shell],IDeskBand interface, IDeskBand interface [Windows Shell],GetBandInfo method, IDeskBand.GetBandInfo, IDeskBand::GetBandInfo, _win32_IDeskBand_GetBandInfo, shell.IDeskBand_GetBandInfo, shobjidl_core/IDeskBand::GetBandInfo
 ms.topic: method

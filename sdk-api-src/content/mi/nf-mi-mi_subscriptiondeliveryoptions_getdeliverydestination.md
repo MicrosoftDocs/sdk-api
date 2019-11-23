@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetDeliveryDestination
 title: MI_SubscriptionDeliveryOptions_GetDeliveryDestination function (mi.h)
-author: windows-sdk-content
+
 description: Gets the previously set subscription delivery destination.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getdeliverydestination.htm
 tech.root: wmi_v2
 ms.assetid: ef5476e0-8538-4446-bb30-6b77153d5896
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetDeliveryDestination, MI_SubscriptionDeliveryOptions_GetDeliveryDestination function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetDeliveryDestination, wmi_v2.mi_subscriptiondeliveryoptions_getdeliverydestination
 ms.topic: function

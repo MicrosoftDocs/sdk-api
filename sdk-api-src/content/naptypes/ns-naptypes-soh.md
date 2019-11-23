@@ -1,12 +1,12 @@
 ---
 UID: NS:naptypes.tagSoH
 title: SoH (naptypes.h)
-author: windows-sdk-content
+
 description: Contains the Statement of Health (SoH) data.
 old-location: nap\soh_struct.htm
 tech.root: NAP
 ms.assetid: 6db0303d-ab33-4fb9-90a2-b909b2781ba5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SoH, SoH structure [NAP], SoHRequest, SoHRequest structure [NAP], SoHResponse, SoHResponse structure [NAP], nap.soh_struct, naptypes/SoH, naptypes/SoHRequest, naptypes/SoHResponse
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetStatus
 title: IMDSPStorageGlobals::GetStatus (mswmdm.h)
-author: windows-sdk-content
+
 description: The GetStatus method retrieves the current status of the storage medium.
 old-location: wmdm\imdspstorageglobals_getstatus.htm
 tech.root: WMDM
 ms.assetid: 572b5de6-62d7-450f-851f-d09b1864a86c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [windows Media Device Manager], GetStatus method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetStatus method, IMDSPStorageGlobals.GetStatus, IMDSPStorageGlobals::GetStatus, IMDSPStorageGlobalsGetStatus, mswmdm/IMDSPStorageGlobals::GetStatus, wmdm.imdspstorageglobals_getstatus
 ms.topic: method

@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetFontAxisAttributes
 title: IDWriteFontResource::GetFontAxisAttributes
-author: windows-sdk-content
+
 description: Retrieves attributes describing the given axis, such as whether the font author recommends to hide the axis in user interfaces.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisAttributes method, IDWriteFontResource.GetFontAxisAttributes, IDWriteFontResource::GetFontAxisAttributes, GetFontAxisAttributes, GetFontAxisAttributes method [Direct Write], GetFontAxisAttributes method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxisattributes, dwrite_3/IDWriteFontResource::GetFontAxisAttributes
 ms.topic: method

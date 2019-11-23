@@ -1,12 +1,12 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIFrameBuffer.get_Height
 title: IRDPSRAPIFrameBuffer::get_Height (rdpencomapi.h)
-author: windows-sdk-content
+
 description: Height, in pixels, of the frame buffer.
 old-location: rdp\irdpsrapiframebuffer_height.htm
 tech.root: rdp
 ms.assetid: 56042b85-6f2c-44ec-82ac-81ee9425c863
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Height property [RDP], Height property [RDP],IRDPSRAPIFrameBuffer interface, IRDPSRAPIFrameBuffer interface [RDP],Height property, IRDPSRAPIFrameBuffer.Height, IRDPSRAPIFrameBuffer.get_Height, IRDPSRAPIFrameBuffer::Height, IRDPSRAPIFrameBuffer::get_Height, get_Height, rdp.irdpsrapiframebuffer_height, rdpencomapi/IRDPSRAPIFrameBuffer::Height, rdpencomapi/IRDPSRAPIFrameBuffer::get_Height
 ms.topic: method

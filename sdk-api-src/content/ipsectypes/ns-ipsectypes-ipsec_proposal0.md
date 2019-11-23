@@ -1,12 +1,12 @@
 ---
 UID: NS:ipsectypes.IPSEC_PROPOSAL0_
 title: IPSEC_PROPOSAL0 (ipsectypes.h)
-author: windows-sdk-content
+
 description: Used to store an IPsec quick mode proposal.
 old-location: fwp\ipsec_proposal0_struct.htm
 tech.root: fwp
 ms.assetid: bc551733-dbba-4d66-8054-fbf4bbfa28b5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPSEC_PROPOSAL0, IPSEC_PROPOSAL0 structure [Filtering], fwp.ipsec_proposal0_struct, ipsectypes/IPSEC_PROPOSAL0
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsReadEndElement
 title: WsReadEndElement function (webservices.h)
-author: windows-sdk-content
+
 description: This function ensures that the current Reader node is an End elementand advances the reader to the next node.
 old-location: wsw\wsreadendelement.htm
 tech.root: wsw
 ms.assetid: cd2e0e5a-9c73-4180-9c54-6742d87cb141
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsReadEndElement, WsReadEndElement function [Web Services for Windows], webservices/WsReadEndElement, wsw.wsreadendelement
 ms.topic: function

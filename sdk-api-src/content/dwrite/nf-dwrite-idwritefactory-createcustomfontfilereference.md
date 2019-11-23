@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateCustomFontFileReference
 title: IDWriteFactory::CreateCustomFontFileReference (dwrite.h)
-author: windows-sdk-content
+
 description: Creates a reference to an application-specific font file resource.
 old-location: directwrite\IDWriteFactory_CreateCustomFontFileReference.htm
 tech.root: DirectWrite
 ms.assetid: 1c82ffcd-3e43-47cd-9a6c-ff8bd1d2625f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateCustomFontFileReference, CreateCustomFontFileReference method [Direct Write], CreateCustomFontFileReference method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateCustomFontFileReference method, IDWriteFactory.CreateCustomFontFileReference, IDWriteFactory::CreateCustomFontFileReference, directwrite.IDWriteFactory_CreateCustomFontFileReference, dwrite/IDWriteFactory::CreateCustomFontFileReference
 ms.topic: method

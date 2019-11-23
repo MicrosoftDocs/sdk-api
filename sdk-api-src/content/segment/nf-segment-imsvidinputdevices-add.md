@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidInputDevices.Add
 title: IMSVidInputDevices::Add (segment.h)
-author: windows-sdk-content
+
 description: The Add method adds an input device to the collection.
 old-location: mstv\imsvidinputdevices_add.htm
 tech.root: mstv
 ms.assetid: b3a8ab2a-4b9c-41d2-9fb6-5862891eba42
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidInputDevices interface, IMSVidInputDevices interface [Microsoft TV Technologies],Add method, IMSVidInputDevices.Add, IMSVidInputDevices::Add, IMSVidInputDevicesAdd, mstv.imsvidinputdevices_add, segment/IMSVidInputDevices::Add
 ms.topic: method

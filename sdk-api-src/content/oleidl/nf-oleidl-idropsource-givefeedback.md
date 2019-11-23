@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IDropSource.GiveFeedback
 title: IDropSource::GiveFeedback (oleidl.h)
-author: windows-sdk-content
+
 description: Enables a source application to give visual feedback to the end user during a drag-and-drop operation by providing the DoDragDrop function with an enumeration value specifying the visual effect.
 old-location: com\idropsource_givefeedback.htm
 tech.root: com
 ms.assetid: dde37299-ad7c-4f59-af99-e75b72ad9188
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GiveFeedback, GiveFeedback method [COM], GiveFeedback method [COM],IDropSource interface, IDropSource interface [COM],GiveFeedback method, IDropSource.GiveFeedback, IDropSource::GiveFeedback, _ole_idropsource_givefeedback, com.idropsource_givefeedback, oleidl/IDropSource::GiveFeedback
 ms.topic: method

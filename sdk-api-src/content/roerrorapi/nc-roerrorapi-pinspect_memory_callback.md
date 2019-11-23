@@ -1,12 +1,12 @@
 ---
 UID: NC:roerrorapi.PINSPECT_MEMORY_CALLBACK
 title: PINSPECT_MEMORY_CALLBACK
-author: windows-sdk-content
+
 description: Provides a function pointer to the callback used by the RoInspectCapturedStackBackTrace function.
 old-location: winrt\pinspect_memory_callback.htm
 tech.root: WinRT
 ms.assetid: A5BF207D-BB8D-47C1-8D32-0B6494809E2B
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: PINSPECT_MEMORY_CALLBACK, PINSPECT_MEMORY_CALLBACK callback, PINSPECT_MEMORY_CALLBACK callback function [Windows Runtime], roerrorapi/PINSPECT_MEMORY_CALLBACK, winrt.pinspect_memory_callback
 ms.prod: windows-hardware

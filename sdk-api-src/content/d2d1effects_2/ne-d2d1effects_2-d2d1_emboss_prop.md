@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1effects_2.D2D1_EMBOSS_PROP
 title: D2D1_EMBOSS_PROP (d2d1effects_2.h)
-author: windows-sdk-content
+
 description: Identifiers for properties of the Emboss effect.
 old-location: direct2d\d2d1_emboss_prop.htm
 tech.root: Direct2D
 ms.assetid: 1AC8F0FE-8D51-4DDD-94FB-DC7AC890C95F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_EMBOSS_PROP, D2D1_EMBOSS_PROP enumeration [Direct2D], D2D1_EMBOSS_PROP_DIRECTION, D2D1_EMBOSS_PROP_HEIGHT, d2d1effects_2/D2D1_EMBOSS_PROP, d2d1effects_2/D2D1_EMBOSS_PROP_DIRECTION, d2d1effects_2/D2D1_EMBOSS_PROP_HEIGHT, direct2d.d2d1_emboss_prop
 ms.topic: enum

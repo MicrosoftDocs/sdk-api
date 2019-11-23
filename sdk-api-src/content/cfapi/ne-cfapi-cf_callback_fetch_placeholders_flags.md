@@ -1,12 +1,12 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS
 title: CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS (cfapi.h)
-author: windows-sdk-content
+
 description: Flags for fetching information about the content of a placeholder file or directory.
 old-location: cloudapi\cf_callback_fetch_placeholders_flags.htm
 tech.root: cfApi
 ms.assetid: CD90EB49-8C39-49DD-8688-CBDF77B1EA92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS, CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS enumeration, CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE, cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS, cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE, cloudApi.cf_callback_fetch_placeholders_flags
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NS:fwpmtypes.FWPM_LAYER_STATISTICS0_
 title: FWPM_LAYER_STATISTICS0 (fwpmtypes.h)
-author: windows-sdk-content
+
 description: Stores statistics related to a layer.
 old-location: fwp\fwpm_layer_statistics0.htm
 tech.root: fwp
 ms.assetid: cc8e0159-fe28-4718-b5fe-d38d180b3e2c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FWPM_LAYER_STATISTICS0, FWPM_LAYER_STATISTICS0 structure [Filtering], fwp.fwpm_layer_statistics0, fwpmtypes/FWPM_LAYER_STATISTICS0
 ms.topic: struct

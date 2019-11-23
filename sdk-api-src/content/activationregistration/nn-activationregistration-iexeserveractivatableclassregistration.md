@@ -1,12 +1,12 @@
 ---
 UID: NN:activationregistration.IExeServerActivatableClassRegistration
 title: IExeServerActivatableClassRegistration (activationregistration.h)
-author: windows-sdk-content
+
 description: Enables getting the registration info for an out-of-process server.
 old-location: winrt\iexeserveractivatableclassregistration.htm
 tech.root: WinRT
 ms.assetid: 1D8F7B12-2883-478D-B83D-84AC47D512E4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IExeServerActivatableClassRegistration, IExeServerActivatableClassRegistration interface [Windows Runtime], IExeServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IExeServerActivatableClassRegistration, winrt.iexeserveractivatableclassregistration
 ms.topic: interface

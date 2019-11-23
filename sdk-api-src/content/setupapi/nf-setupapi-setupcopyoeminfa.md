@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupCopyOEMInfA
 title: SetupCopyOEMInfA function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupCopyOEMInf function copies a specified .inf file to the %windir%/Inf directory.
 old-location: setup\setupcopyoeminf.htm
 tech.root: SetupApi
 ms.assetid: f082145d-b3e7-4efd-8820-3376a36f3710
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SPOST_NONE, SPOST_PATH, SPOST_URL, SP_COPY_DELETESOURCE, SP_COPY_NOOVERWRITE, SP_COPY_OEMINF_CATALOG_ONLY, SP_COPY_REPLACEONLY, SetupCopyOEMInf, SetupCopyOEMInf function [Setup API], SetupCopyOEMInfA, SetupCopyOEMInfW, _setupapi_setupcopyoeminf, setup.setupcopyoeminf, setupapi/SetupCopyOEMInf, setupapi/SetupCopyOEMInfA, setupapi/SetupCopyOEMInfW
 ms.topic: function

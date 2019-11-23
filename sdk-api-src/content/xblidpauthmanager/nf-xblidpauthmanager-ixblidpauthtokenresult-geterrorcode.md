@@ -1,12 +1,12 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetErrorCode
 title: IXblIdpAuthTokenResult::GetErrorCode (xblidpauthmanager.h)
-author: windows-sdk-content
+
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_geterrorcode.htm
 tech.root: xblidp
 ms.assetid: 0870EC42-9E67-4A5F-A465-CDD8B152D257
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetErrorCode, GetErrorCode method, GetErrorCode method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetErrorCode method, IXblIdpAuthTokenResult.GetErrorCode, IXblIdpAuthTokenResult::GetErrorCode, xblidp.ixblidpauthtokenresult_geterrorcode, xblidpauthmanager/IXblIdpAuthTokenResult::GetErrorCode
 ms.topic: method

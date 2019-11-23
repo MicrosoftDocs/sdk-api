@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorClamp
 title: XMVectorClamp function (directxmath.h)
-author: windows-sdk-content
+
 description: Clamps the components of a vector to a specified minimum and maximum range.
 old-location: dxmath\xmvectorclamp.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorClamp(XMVECTOR,XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorClamp, XMVectorClamp, XMVectorClamp method [DirectX Math Support APIs], dxmath.xmvectorclamp
 ms.topic: function

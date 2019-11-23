@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationcore.IUIAutomationPatternInstance
 title: IUIAutomationPatternInstance (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Represents a control pattern object. The client API wrapper uses this interface to implement all property and method calls in terms of the GetProperty and CallMethod methods.
 old-location: winauto\uiauto_IUIAutomationPatternInstance.htm
 tech.root: WinAuto
 ms.assetid: 54791426-3905-49d6-aaaf-87a18d3ef659
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationPatternInstance, IUIAutomationPatternInstance interface [Windows Accessibility], IUIAutomationPatternInstance interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationPatternInstance, uiauto_IUIAutomationPatternInstance, uiautomationcore/IUIAutomationPatternInstance, winauto.uiauto_IUIAutomationPatternInstance
 ms.topic: interface

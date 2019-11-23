@@ -1,12 +1,12 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_3
 title: EXP_SPECIAL_FOLDER (shlobj_core.h)
-author: windows-sdk-content
+
 description: Holds an extra data block used by IShellLinkDataList. It holds special folder information.
 old-location: shell\EXP_SPECIAL_FOLDER_str.htm
 tech.root: shell
 ms.assetid: e80fa582-8dd1-4924-a3ca-a2ee668653d3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPEXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER structure [Windows Shell], LPEXP_SPECIAL_FOLDER, LPEXP_SPECIAL_FOLDER structure pointer [Windows Shell], _win32_EXP_SPECIAL_FOLDER_str, shell.EXP_SPECIAL_FOLDER_str, shlobj_core/EXP_SPECIAL_FOLDER, shlobj_core/LPEXP_SPECIAL_FOLDER"
 ms.topic: struct

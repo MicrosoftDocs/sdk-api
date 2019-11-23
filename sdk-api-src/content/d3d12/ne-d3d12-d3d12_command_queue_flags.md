@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d12.D3D12_COMMAND_QUEUE_FLAGS
 title: D3D12_COMMAND_QUEUE_FLAGS (d3d12.h)
-author: windows-sdk-content
+
 description: Specifies flags to be used when creating a command queue.
 old-location: direct3d12\d3d12_command_queue_flags.htm
 tech.root: direct3d12
 ms.assetid: 95040CB8-445B-4E10-8407-AA09637544FB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_COMMAND_QUEUE_FLAGS, D3D12_COMMAND_QUEUE_FLAGS enumeration, D3D12_COMMAND_QUEUE_FLAG_DISABLE_GPU_TIMEOUT, D3D12_COMMAND_QUEUE_FLAG_NONE, d3d12/D3D12_COMMAND_QUEUE_FLAGS, d3d12/D3D12_COMMAND_QUEUE_FLAG_DISABLE_GPU_TIMEOUT, d3d12/D3D12_COMMAND_QUEUE_FLAG_NONE, direct3d12.d3d12_command_queue_flags
 ms.topic: enum

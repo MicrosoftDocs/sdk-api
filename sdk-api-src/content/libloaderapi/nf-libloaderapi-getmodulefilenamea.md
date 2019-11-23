@@ -1,12 +1,12 @@
 ---
 UID: NF:libloaderapi.GetModuleFileNameA
 title: GetModuleFileNameA function (libloaderapi.h)
-author: windows-sdk-content
+
 description: Retrieves the fully qualified path for the file that contains the specified module. The module must have been loaded by the current process.
 old-location: base\getmodulefilename.htm
 tech.root: Dlls
 ms.assetid: f124c99f-8be1-4a9c-a84c-b1b323921f1a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetModuleFileName, GetModuleFileName function, GetModuleFileNameA, GetModuleFileNameW, _win32_getmodulefilename, base.getmodulefilename, libloaderapi/GetModuleFileName, libloaderapi/GetModuleFileNameA, libloaderapi/GetModuleFileNameW, winbase/GetModuleFileName, winbase/GetModuleFileNameA, winbase/GetModuleFileNameW
 ms.topic: function

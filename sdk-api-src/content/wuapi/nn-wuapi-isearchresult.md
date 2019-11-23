@@ -1,12 +1,12 @@
 ---
 UID: NN:wuapi.ISearchResult
 title: ISearchResult (wuapi.h)
-author: windows-sdk-content
+
 description: Represents the result of a search.
 old-location: wua\isearchresult.htm
 tech.root: Wua_Sdk
 ms.assetid: f38c5b0f-8010-4db1-802c-5005c332188b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchResult, ISearchResult interface [Windows Update Agent], ISearchResult interface [Windows Update Agent],described, wua.isearchresult, wuapi/ISearchResult
 ms.topic: interface

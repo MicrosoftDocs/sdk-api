@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser2.GetEIT2
 title: IDvbSiParser2::GetEIT2 (dvbsiparser.h)
-author: windows-sdk-content
+
 description: "."
 old-location: mstv\idvbsiparser2_geteit2.htm
 tech.root: mstv
 ms.assetid: 47ccce59-d67e-4994-b69d-8dac425b375a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DVB_EIT_ACTUAL_TID, DVB_EIT_OTHER_TID, GetEIT2, GetEIT2 method [Microsoft TV Technologies], GetEIT2 method [Microsoft TV Technologies],IDvbSiParser2 interface, IDvbSiParser2 interface [Microsoft TV Technologies],GetEIT2 method, IDvbSiParser2.GetEIT2, IDvbSiParser2::GetEIT2, dvbsiparser/IDvbSiParser2::GetEIT2, mstv.idvbsiparser2_geteit2
 ms.topic: method

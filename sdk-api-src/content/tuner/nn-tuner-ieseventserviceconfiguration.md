@@ -1,12 +1,12 @@
 ---
 UID: NN:tuner.IESEventServiceConfiguration
 title: IESEventServiceConfiguration (tuner.h)
-author: windows-sdk-content
+
 description: Contains methods that configure an event service that implements the IESEventService interface.
 old-location: mstv\ieseventserviceconfiguration.htm
 tech.root: mstv
 ms.assetid: 0b901732-42e1-4f50-904c-75d8202bb5b7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IESEventServiceConfiguration, IESEventServiceConfiguration interface [Microsoft TV Technologies], IESEventServiceConfiguration interface [Microsoft TV Technologies],described, mstv.ieseventserviceconfiguration, tuner/IESEventServiceConfiguration
 ms.topic: interface

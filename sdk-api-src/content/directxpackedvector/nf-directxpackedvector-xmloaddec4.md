@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMLoadDec4
 title: XMLoadDec4 function (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Loads an XMDEC4 into an XMVECTOR.
 old-location: dxmath\xmloaddec4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadDec4(const XMDEC4)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadDec4, XMLoadDec4, XMLoadDec4 method [DirectX Math Support APIs], dxmath.xmloaddec4
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NE:mmdeviceapi.__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0002
 title: ERole (mmdeviceapi.h)
-author: windows-sdk-content
+
 description: The ERole enumeration defines constants that indicate the role that the system has assigned to an audio endpoint device.
 old-location: coreaudio\erole.htm
 tech.root: CoreAudio
 ms.assetid: 0d0d3174-8489-4951-858c-024d58477ae0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ERole, ERole enumeration [Core Audio], ERole_enum_count, coreaudio.erole, eCommunications, eConsole, eMultimedia, mmdeviceapi/ERole, mmdeviceapi/ERole_enum_count, mmdeviceapi/eCommunications, mmdeviceapi/eConsole, mmdeviceapi/eMultimedia
 ms.topic: enum

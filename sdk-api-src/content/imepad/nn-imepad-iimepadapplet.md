@@ -1,12 +1,12 @@
 ---
 UID: NN:imepad.IImePadApplet
 title: IImePadApplet (imepad.h)
-author: windows-sdk-content
+
 description: The IImePadApplet interface inputs strings into apps through the IImePad interface.
 old-location: intl\iimepadapplet.htm
 tech.root: Intl
 ms.assetid: F3BC7176-9659-47B6-AFCA-049807394961
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IImePadApplet, IImePadApplet interface [Internationalization for Windows Applications], IImePadApplet interface [Internationalization for Windows Applications],described, imepad/IImePadApplet, intl.iimepadapplet
 ms.topic: interface

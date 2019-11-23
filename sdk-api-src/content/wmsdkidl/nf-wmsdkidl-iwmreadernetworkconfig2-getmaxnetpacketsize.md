@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetMaxNetPacketSize
 title: IWMReaderNetworkConfig2::GetMaxNetPacketSize (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetMaxNetPacketSize method retrieves the maximum size of packets being streamed over a network.
 old-location: wmformat\iwmreadernetworkconfig2_getmaxnetpacketsize.htm
 tech.root: wmformat
 ms.assetid: 0249822c-4772-4317-aec2-e466fbd70bad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMaxNetPacketSize, GetMaxNetPacketSize method [windows Media Format], GetMaxNetPacketSize method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetMaxNetPacketSize method, IWMReaderNetworkConfig2.GetMaxNetPacketSize, IWMReaderNetworkConfig2::GetMaxNetPacketSize, IWMReaderNetworkConfig2GetMaxNetPacketSize, wmformat.iwmreadernetworkconfig2_getmaxnetpacketsize, wmsdkidl/IWMReaderNetworkConfig2::GetMaxNetPacketSize
 ms.topic: method

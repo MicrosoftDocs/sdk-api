@@ -1,12 +1,12 @@
 ---
 UID: NF:vswriter.IVssComponentEx.GetRestoreName
 title: IVssComponentEx::GetRestoreName (vswriter.h)
-author: windows-sdk-content
+
 description: Obtains the logical name assigned to a component that is being restored.
 old-location: base\ivsscomponentex_getrestorename.htm
 tech.root: VSS
 ms.assetid: a544bcc1-6a42-4cda-824c-2b027b8a4a6f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetRestoreName, GetRestoreName method, GetRestoreName method,IVssComponentEx interface, IVssComponentEx interface,GetRestoreName method, IVssComponentEx.GetRestoreName, IVssComponentEx::GetRestoreName, base.ivsscomponentex_getrestorename, vswriter/IVssComponentEx::GetRestoreName
 ms.topic: method

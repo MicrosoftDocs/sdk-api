@@ -1,12 +1,12 @@
 ---
 UID: NF:mpeg2data.IMpeg2TableFilter.AddPID
 title: IMpeg2TableFilter::AddPID (mpeg2data.h)
-author: windows-sdk-content
+
 description: The AddPID method adds a packet identifier (PID) to the list of PIDs that the filter sends.
 old-location: mstv\impeg2tablefilter_addpid.htm
 tech.root: mstv
 ms.assetid: 7a811d1f-cb1b-4f45-8dee-ba83efd20709
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddPID, AddPID method [Microsoft TV Technologies], AddPID method [Microsoft TV Technologies],IMpeg2TableFilter interface, IMpeg2TableFilter interface [Microsoft TV Technologies],AddPID method, IMpeg2TableFilter.AddPID, IMpeg2TableFilter::AddPID, IMpeg2TableFilterAddPID, mpeg2data/IMpeg2TableFilter::AddPID, mstv.impeg2tablefilter_addpid
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorASinEst
 title: XMVectorASinEst function (directxmath.h)
-author: windows-sdk-content
+
 description: Estimates the arcsine of each component of an XMVECTOR.
 old-location: dxmath\xmvectorasinest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorASinEst(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorASinEst, XMVectorASinEst, XMVectorASinEst method [DirectX Math Support APIs], dxmath.xmvectorasinest
 ms.topic: function

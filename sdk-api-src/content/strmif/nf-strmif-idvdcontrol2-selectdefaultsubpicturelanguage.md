@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectDefaultSubpictureLanguage
 title: IDvdControl2::SelectDefaultSubpictureLanguage (strmif.h)
-author: windows-sdk-content
+
 description: The SelectDefaultSubpictureLanguage method sets the default language for subpicture text.
 old-location: dshow\idvdcontrol2_selectdefaultsubpicturelanguage.htm
 tech.root: DirectShow
 ms.assetid: f49698cd-cc83-4f05-991d-2b3bba77c33a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectDefaultSubpictureLanguage method, IDvdControl2.SelectDefaultSubpictureLanguage, IDvdControl2::SelectDefaultSubpictureLanguage, IDvdControl2SelectDefaultSubpictureLanguage, SelectDefaultSubpictureLanguage, SelectDefaultSubpictureLanguage method [DirectShow], SelectDefaultSubpictureLanguage method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectdefaultsubpicturelanguage, strmif/IDvdControl2::SelectDefaultSubpictureLanguage
 ms.topic: method

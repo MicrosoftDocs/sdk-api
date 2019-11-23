@@ -1,12 +1,12 @@
 ---
 UID: NN:mfidl.IMFTopologyNodeAttributeEditor
 title: IMFTopologyNodeAttributeEditor (mfidl.h)
-author: windows-sdk-content
+
 description: Updates the attributes of one or more nodes in the Media Session's current topology.
 old-location: mf\imftopologynodeattributeeditor.htm
 tech.root: medfound
 ms.assetid: 9ab384b9-0ce9-428c-a683-b09dbd4e07d9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 9ab384b9-0ce9-428c-a683-b09dbd4e07d9, IMFTopologyNodeAttributeEditor, IMFTopologyNodeAttributeEditor interface [Media Foundation], IMFTopologyNodeAttributeEditor interface [Media Foundation],described, mf.imftopologynodeattributeeditor, mfidl/IMFTopologyNodeAttributeEditor
 ms.topic: interface

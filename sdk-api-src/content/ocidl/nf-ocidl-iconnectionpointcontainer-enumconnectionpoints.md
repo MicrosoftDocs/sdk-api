@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IConnectionPointContainer.EnumConnectionPoints
 title: IConnectionPointContainer::EnumConnectionPoints (ocidl.h)
-author: windows-sdk-content
+
 description: Creates an enumerator object to iterate through all the connection points supported in the connectable object, one connection point per outgoing IID.
 old-location: com\iconnectionpointcontainer_enumconnectionpoints.htm
 tech.root: com
 ms.assetid: 527f94b6-af8e-4ff0-8e99-cd4c5d692628
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumConnectionPoints, EnumConnectionPoints method [COM], EnumConnectionPoints method [COM],IConnectionPointContainer interface, IConnectionPointContainer interface [COM],EnumConnectionPoints method, IConnectionPointContainer.EnumConnectionPoints, IConnectionPointContainer::EnumConnectionPoints, _com_iconnectionpointcontainer_enumconnectionpoints, com.iconnectionpointcontainer_enumconnectionpoints, ocidl/IConnectionPointContainer::EnumConnectionPoints
 ms.topic: method

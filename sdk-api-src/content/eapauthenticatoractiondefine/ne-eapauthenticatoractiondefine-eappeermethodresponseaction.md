@@ -1,12 +1,12 @@
 ---
 UID: NE:eapauthenticatoractiondefine.tagEapPeerMethodResponseAction
 title: EapPeerMethodResponseAction (eapauthenticatoractiondefine.h)
-author: windows-sdk-content
+
 description: Defines the set of actions an EAP authenticator can indicate to a supplicant or EAP peer method during authentication.
 old-location: eaphost\eappeermethodresponseaction.htm
 tech.root: eaphost
 ms.assetid: def7e04e-ed0c-46f0-97d6-4c0ab021fa8b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EapPeerMethodResponseAction, EapPeerMethodResponseAction enumeration [EAPHost], EapPeerMethodResponseActionDiscard, EapPeerMethodResponseActionInvokeUI, EapPeerMethodResponseActionNone, EapPeerMethodResponseActionRespond, EapPeerMethodResponseActionResult, EapPeerMethodResponseActionSend, eapauthenticatoractiondefine/EapPeerMethodResponseAction, eapauthenticatoractiondefine/EapPeerMethodResponseActionDiscard, eapauthenticatoractiondefine/EapPeerMethodResponseActionInvokeUI, eapauthenticatoractiondefine/EapPeerMethodResponseActionNone, eapauthenticatoractiondefine/EapPeerMethodResponseActionRespond, eapauthenticatoractiondefine/EapPeerMethodResponseActionResult, eapauthenticatoractiondefine/EapPeerMethodResponseActionSend, eaphost.eappeermethodresponseaction
 ms.topic: enum

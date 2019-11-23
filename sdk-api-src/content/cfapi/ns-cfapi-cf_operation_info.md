@@ -1,12 +1,12 @@
 ---
 UID: NS:cfapi.CF_OPERATION_INFO
 title: CF_OPERATION_INFO (cfapi.h)
-author: windows-sdk-content
+
 description: Information about an operation on a placeholder file or folder.
 old-location: cloudapi\cf_operation_info.htm
 tech.root: cfApi
 ms.assetid: 4AE9A968-1325-4EFF-8F5B-8F465740B0C4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_INFO, CF_OPERATION_INFO structure, cfapi/CF_OPERATION_INFO, cloudApi.cf_operation_info
 ms.topic: struct

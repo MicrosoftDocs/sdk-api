@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.IEnumPhone.Skip
 title: IEnumPhone::Skip (tapi3if.h)
-author: windows-sdk-content
+
 description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumphone_skip.htm
 tech.root: Tapi
 ms.assetid: fe137da2-2c12-4732-9ab8-adf07381c692
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumPhone interface [TAPI 2.2],Skip method, IEnumPhone.Skip, IEnumPhone::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumPhone interface, _tapi3_ienumphone_skip, tapi3.ienumphone_skip, tapi3if/IEnumPhone::Skip
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:lmshare._FILE_INFO_2
 title: FILE_INFO_2 (lmshare.h)
-author: windows-sdk-content
+
 description: Contains the identification number for a file, device, or pipe.
 old-location: fs\file_info_2_str.htm
 tech.root: NetShare
 ms.assetid: c80090d5-7064-4809-9185-02116f7ac2ef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPFILE_INFO_2, *PFILE_INFO_2, FILE_INFO_2, FILE_INFO_2 structure [Files], LPFILE_INFO_2, LPFILE_INFO_2 structure pointer [Files], PFILE_INFO_2, PFILE_INFO_2 structure pointer [Files], _win32_file_info_2_str, fs.file_info_2_str, lmshare/FILE_INFO_2, lmshare/LPFILE_INFO_2, lmshare/PFILE_INFO_2, netmgmt.file_info_2_str'
 ms.topic: struct

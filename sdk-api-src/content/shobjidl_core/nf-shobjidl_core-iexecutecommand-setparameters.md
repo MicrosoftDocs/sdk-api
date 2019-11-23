@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetParameters
 title: IExecuteCommand::SetParameters (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Provides parameter values for the verb.
 old-location: shell\IExecuteCommand_SetParameters.htm
 tech.root: shell
 ms.assetid: 3e08777c-865b-49c2-8f37-1a427c4945b4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetParameters method, IExecuteCommand.SetParameters, IExecuteCommand::SetParameters, SetParameters, SetParameters method [Windows Shell], SetParameters method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetParameters, shell.IExecuteCommand_SetParameters, shobjidl_core/IExecuteCommand::SetParameters
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.D3D12SerializeVersionedRootSignature
 title: D3D12SerializeVersionedRootSignature function (d3d12.h)
-author: windows-sdk-content
+
 description: Serializes a root signature of any version that can be passed to ID3D12Device::CreateRootSignature.
 old-location: direct3d12\d3d12serializeversionedrootsignature.htm
 tech.root: direct3d12
 ms.assetid: D8A15561-4911-4067-B25E-8BF2B079FD81
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12SerializeVersionedRootSignature, D3D12SerializeVersionedRootSignature function, d3d12/D3D12SerializeVersionedRootSignature, direct3d12.d3d12serializeversionedrootsignature
 ms.topic: function

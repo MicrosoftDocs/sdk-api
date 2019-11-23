@@ -1,12 +1,12 @@
 ---
 UID: NF:oobenotification.UnregisterWaitUntilOOBECompleted
 title: UnregisterWaitUntilOOBECompleted function (oobenotification.h)
-author: windows-sdk-content
+
 description: Unregisters the callback previously registered via RegisterWaitUntilOOBECompleted.
 old-location: windowssetupandmigration\unregisterwaituntiloobecompleted.htm
 tech.root: WNF
 ms.assetid: 966803DF-744A-430F-86C0-F6ACA754C603
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UnregisterWaitUntilOOBECompleted, UnregisterWaitUntilOOBECompleted function, oobenotification/UnregisterWaitUntilOOBECompleted, windowssetupandmigration.unregisterwaituntiloobecompleted
 ms.topic: function

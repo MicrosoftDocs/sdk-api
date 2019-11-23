@@ -1,12 +1,12 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.Init
 title: ISyncProviderConfigUI::Init (syncregistration.h)
-author: windows-sdk-content
+
 description: Initializes the configuration UI for a synchronization provider.
 old-location: winsync\isyncproviderconfigui_init.htm
 tech.root: winsync
 ms.assetid: c4705bc9-c5ab-46f9-ace8-7e96c16dfb75
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderConfigUI interface [Windows Sync],Init method, ISyncProviderConfigUI.Init, ISyncProviderConfigUI::Init, Init, Init method [Windows Sync], Init method [Windows Sync],ISyncProviderConfigUI interface, syncregistration/ISyncProviderConfigUI::Init, winsync.isyncproviderconfigui_init
 ms.topic: method

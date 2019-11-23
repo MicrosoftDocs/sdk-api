@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputCount
 title: IWMSyncReader::GetOutputCount (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetOutputCount method retrieves the number of outputs that exist for the file open in the synchronous reader.
 old-location: wmformat\iwmsyncreader_getoutputcount.htm
 tech.root: wmformat
 ms.assetid: fde0a136-6c13-43d9-9969-e1226be60f76
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetOutputCount, GetOutputCount method [windows Media Format], GetOutputCount method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputCount method, IWMSyncReader.GetOutputCount, IWMSyncReader::GetOutputCount, IWMSyncReaderGetOutputCount, wmformat.iwmsyncreader_getoutputcount, wmsdkidl/IWMSyncReader::GetOutputCount
 ms.topic: method

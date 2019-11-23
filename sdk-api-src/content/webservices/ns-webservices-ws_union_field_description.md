@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_UNION_FIELD_DESCRIPTION
 title: WS_UNION_FIELD_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: Represents serialization information about a field within a union. See WS_UNION_DESCRIPTION.
 old-location: wsw\ws_union_field_description.htm
 tech.root: wsw
 ms.assetid: c972e076-0f79-41a7-927b-e57f0cb7bcc6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_UNION_FIELD_DESCRIPTION, WS_UNION_FIELD_DESCRIPTION structure [Web Services for Windows], webservices/WS_UNION_FIELD_DESCRIPTION, wsw.ws_union_field_description
 ms.topic: struct

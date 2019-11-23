@@ -1,12 +1,12 @@
 ---
 UID: NS:powrprof._DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
 title: DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS (powrprof.h)
-author: windows-sdk-content
+
 description: Contains parameters used when registering for a power notification.
 old-location: base\device_notify_subscribe_parameters.htm
 tech.root: power
 ms.assetid: 749F7C6F-1A42-43DE-921E-C3654034570D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS structure, PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS structure pointer, base.device_notify_subscribe_parameters, powrprof/DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, powrprof/PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11shader._D3D11_SHADER_TYPE_DESC
 title: D3D11_SHADER_TYPE_DESC (d3d11shader.h)
-author: windows-sdk-content
+
 description: Describes a shader-variable type.
 old-location: direct3d11\d3d11_shader_type_desc.htm
 tech.root: direct3d11
 ms.assetid: 8d2067a3-17f8-4496-a613-581f5e35fe93
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 071e4c6b-35a1-909a-b08c-bb43e4a73d5a, D3D11_SHADER_TYPE_DESC, D3D11_SHADER_TYPE_DESC structure [Direct3D 11], d3d11shader/D3D11_SHADER_TYPE_DESC, direct3d11.d3d11_shader_type_desc
 ms.topic: struct

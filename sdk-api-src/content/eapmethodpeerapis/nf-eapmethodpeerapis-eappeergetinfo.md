@@ -1,12 +1,12 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetInfo
 title: EapPeerGetInfo function (eapmethodpeerapis.h)
-author: windows-sdk-content
+
 description: Obtains a set of function pointers for an implementation of the EAP peer method EapPeerGetInfo currently loaded on the EAPHost service.
 old-location: eaphost\eappeergetinfo.htm
 tech.root: eaphost
 ms.assetid: 99b7e136-b502-435b-9c62-a0e106ec8ec5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EapPeerGetInfo, EapPeerGetInfo function [EAPHost], eaphost.eappeergetinfo, eapmethodpeerapis/EapPeerGetInfo
 ms.topic: function

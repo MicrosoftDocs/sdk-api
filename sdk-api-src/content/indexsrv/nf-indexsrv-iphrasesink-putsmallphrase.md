@@ -1,12 +1,12 @@
 ---
 UID: NF:indexsrv.IPhraseSink.PutSmallPhrase
 title: IPhraseSink::PutSmallPhrase (indexsrv.h)
-author: windows-sdk-content
+
 description: Puts a small query-time phrase in the IPhraseSink object for WordBreaker.
 old-location: search\iphrasesink_putsmallphrase.htm
 tech.root: search
 ms.assetid: AC666D12-220B-4D22-997E-CCBE9967B6AB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPhraseSink interface [search],PutSmallPhrase method, IPhraseSink.PutSmallPhrase, IPhraseSink::PutSmallPhrase, PutSmallPhrase, PutSmallPhrase method [search], PutSmallPhrase method [search],IPhraseSink interface, indexsrv/IPhraseSink::PutSmallPhrase, search.iphrasesink_putsmallphrase
 ms.topic: method

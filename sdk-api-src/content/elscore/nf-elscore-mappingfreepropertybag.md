@@ -1,12 +1,12 @@
 ---
 UID: NF:elscore.MappingFreePropertyBag
 title: MappingFreePropertyBag function (elscore.h)
-author: windows-sdk-content
+
 description: Frees memory and resources allocated during an ELS text recognition operation.
 old-location: intl\mappingfreepropertybag.htm
 tech.root: Intl
 ms.assetid: 7e06e85d-109a-4c5f-be18-3750e25c4986
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MappingFreePropertyBag, MappingFreePropertyBag function [Internationalization for Windows Applications], elscore/MappingFreePropertyBag, intl.mappingfreepropertybag
 ms.topic: function

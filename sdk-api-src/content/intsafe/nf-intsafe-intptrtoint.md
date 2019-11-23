@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.IntPtrToInt
 title: IntPtrToInt function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type INT_PTR to a value of type INT.
 old-location: shell\IntPtrToInt.htm
 tech.root: shell
 ms.assetid: a2ea1196-b503-4845-904a-26bc334b5275
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IntPtrToInt, IntPtrToInt function [Windows Shell], PtrdiffTToInt, _shell_IntPtrToInt, intsafe/IntPtrToInt, shell.IntPtrToInt
 ms.topic: function

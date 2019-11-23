@@ -1,12 +1,12 @@
 ---
 UID: NF:bluetoothapis.BluetoothUpdateDeviceRecord
 title: BluetoothUpdateDeviceRecord function (bluetoothapis.h)
-author: windows-sdk-content
+
 description: Updates the local computer cache about a Bluetooth device.
 old-location: bluetooth\bluetoothupdatedevicerecord.htm
 tech.root: bluetooth
 ms.assetid: afcf6708-1c2a-43ac-8e5e-1bd0ce7456fc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BluetoothUpdateDeviceRecord, BluetoothUpdateDeviceRecord function [Bluetooth], bluetooth.bluetoothupdatedevicerecord, bluetoothapis/BluetoothUpdateDeviceRecord
 ms.topic: function

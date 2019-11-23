@@ -1,12 +1,12 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ServiceChanged
 title: IGuideDataEvent::ServiceChanged (bdatif.h)
-author: windows-sdk-content
+
 description: The ServiceChanged method is called when a service has been changed.
 old-location: mstv\iguidedataevent_servicechanged.htm
 tech.root: mstv
 ms.assetid: 75387dd8-e0e2-4fae-8c4a-a0b7b06f61b1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ServiceChanged method, IGuideDataEvent.ServiceChanged, IGuideDataEvent::ServiceChanged, IGuideDataEventServiceChanged, ServiceChanged, ServiceChanged method [Microsoft TV Technologies], ServiceChanged method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ServiceChanged, mstv.iguidedataevent_servicechanged
 ms.topic: method

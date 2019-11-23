@@ -1,12 +1,12 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPITransportStreamBuffer
 title: IRDPSRAPITransportStreamBuffer (rdpencomapi.h)
-author: windows-sdk-content
+
 description: Created and used by the IRDPSRAPITransportStream interface for sending and receiving data.
 old-location: rdp\irdpsrapitransportstreambuffer.htm
 tech.root: rdp
 ms.assetid: 44087315-7a71-4557-89b3-bf8c66ed10a4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer, IRDPSRAPITransportStreamBuffer interface [RDP], IRDPSRAPITransportStreamBuffer interface [RDP],described, rdp.irdpsrapitransportstreambuffer, rdpencomapi/IRDPSRAPITransportStreamBuffer
 ms.topic: interface

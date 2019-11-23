@@ -1,12 +1,12 @@
 ---
 UID: NF:roparameterizediid.RoGetParameterizedTypeInstanceIID
 title: RoGetParameterizedTypeInstanceIID function (roparameterizediid.h)
-author: windows-sdk-content
+
 description: Computes the interface identifier (IID) of the interface or delegate type that results when a parameterized interface or delegate is instantiated with the specified type arguments.
 old-location: winrt\rogetparameterizedtypeinstanceiid.htm
 tech.root: WinRT
 ms.assetid: DE908C82-5D7C-415C-B08B-31786589979B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RoGetParameterizedTypeInstanceIID, RoGetParameterizedTypeInstanceIID function [Windows Runtime], roparameterizediid/RoGetParameterizedTypeInstanceIID, winrt.rogetparameterizedtypeinstanceiid
 ms.topic: function

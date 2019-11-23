@@ -1,12 +1,12 @@
 ---
 UID: NE:mfapi._MFFrameSourceTypes
 title: MFFrameSourceTypes (mfapi.h)
-author: windows-sdk-content
+
 description: Describes the type of data provided by a frame source.
 old-location: mf\mfframesourcetypes.htm
 tech.root: medfound
 ms.assetid: F5926479-C41D-4702-8220-6A79859BD0F4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFFrameSourceTypes, MFFrameSourceTypes enumeration [Media Foundation], MFFrameSourceTypes_Color, MFFrameSourceTypes_Custom, MFFrameSourceTypes_Depth, MFFrameSourceTypes_Image, MFFrameSourceTypes_Infrared, _MFFrameSourceTypes, mf.mfframesourcetypes, mfapi/ MFFrameSourceTypes_Image, mfapi/MFFrameSourceTypes, mfapi/MFFrameSourceTypes_Color, mfapi/MFFrameSourceTypes_Custom, mfapi/MFFrameSourceTypes_Depth, mfapi/MFFrameSourceTypes_Infrared
 ms.topic: enum

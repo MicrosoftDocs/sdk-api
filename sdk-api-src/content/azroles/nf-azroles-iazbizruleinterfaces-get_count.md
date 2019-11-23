@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.get_Count
 title: IAzBizRuleInterfaces::get_Count (azroles.h)
-author: windows-sdk-content
+
 description: Specifies the number of interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_count_method.htm
 tech.root: SecAuthZ
 ms.assetid: f6838790-2223-4ae8-9cee-9d881d071ba0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],Count property, IAzBizRuleInterfaces.Count, IAzBizRuleInterfaces.get_Count, IAzBizRuleInterfaces::Count, IAzBizRuleInterfaces::get_Count, azroles/IAzBizRuleInterfaces::Count, azroles/IAzBizRuleInterfaces::get_Count, get_Count, security.iazbizruleinterfaces_count_method
 ms.topic: method

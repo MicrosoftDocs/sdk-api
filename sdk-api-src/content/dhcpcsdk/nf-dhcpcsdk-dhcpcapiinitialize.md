@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpcsdk.DhcpCApiInitialize
 title: DhcpCApiInitialize function (dhcpcsdk.h)
-author: windows-sdk-content
+
 description: The DhcpCApiInitialize function must be the first function call made by users of DHCP; it prepares the system for all other DHCP function calls. Other DHCP functions should only be called if the DhcpCApiInitialize function executes successfully.
 old-location: dhcp\dhcpcapiinitialize.htm
 tech.root: DHCP
 ms.assetid: b4bc8b02-63b4-4751-a963-25336e8ae426
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpCApiInitialize, DhcpCApiInitialize function [DHCP], _dhcp_dhcpcapiinitialize, dhcp.dhcpcapiinitialize, dhcpcsdk/DhcpCApiInitialize
 ms.topic: function

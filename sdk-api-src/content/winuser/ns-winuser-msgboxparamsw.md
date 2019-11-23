@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser.tagMSGBOXPARAMSW
 title: MSGBOXPARAMSW (winuser.h)
-author: windows-sdk-content
+
 description: Contains information used to display a message box. The MessageBoxIndirect function uses this structure.
 old-location: dlgbox\msgboxparams.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\msgboxparams.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPMSGBOXPARAMSW, *PMSGBOXPARAMSW, MSGBOXPARAMS, MSGBOXPARAMS structure [Dialog Boxes], MSGBOXPARAMSA, MSGBOXPARAMSW, PMSGBOXPARAMS, PMSGBOXPARAMS structure pointer [Dialog Boxes], _win32_MSGBOXPARAMS_str, _win32_msgboxparams_str_cpp, dlgbox.msgboxparams, winui._win32_msgboxparams_str, winuser/MSGBOXPARAMS, winuser/MSGBOXPARAMSA, winuser/MSGBOXPARAMSW, winuser/PMSGBOXPARAMS"
 ms.topic: struct

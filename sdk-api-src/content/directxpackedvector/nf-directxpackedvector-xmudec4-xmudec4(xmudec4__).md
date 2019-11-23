@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUDEC4.XMUDEC4(XMUDEC4 &&)
 title: XMUDEC4::XMUDEC4(XMUDEC4 &&) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A constructor for XMUDEC4.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMUDEC4, XMUDEC4 structure [DirectX Math Support APIs],operator = method, XMUDEC4.XMUDEC4, XMUDEC4.XMUDEC4(XMUDEC4 &&), XMUDEC4.operator =(const XMUDEC4&), XMUDEC4::XMUDEC4, XMUDEC4::XMUDEC4(XMUDEC4 &&), dxmath.xmudec4_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUDEC4 structure
 ms.topic: method

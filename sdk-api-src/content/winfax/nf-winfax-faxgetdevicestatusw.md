@@ -1,12 +1,12 @@
 ---
 UID: NF:winfax.FaxGetDeviceStatusW
 title: FaxGetDeviceStatusW function (winfax.h)
-author: windows-sdk-content
+
 description: The FaxGetDeviceStatus function returns to a fax client application current status information for the fax device of interest.
 old-location: fax\_mfax_faxgetdevicestatus.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1u0j.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FaxGetDeviceStatus, FaxGetDeviceStatus function [Fax Service], FaxGetDeviceStatusA, FaxGetDeviceStatusW, _mfax_faxgetdevicestatus, fax._mfax_faxgetdevicestatus, winfax/FaxGetDeviceStatus, winfax/FaxGetDeviceStatusA, winfax/FaxGetDeviceStatusW
 ms.topic: function

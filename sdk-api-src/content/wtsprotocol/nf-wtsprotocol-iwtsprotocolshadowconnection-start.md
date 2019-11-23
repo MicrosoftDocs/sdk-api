@@ -1,12 +1,12 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowConnection.Start
 title: IWTSProtocolShadowConnection::Start (wtsprotocol.h)
-author: windows-sdk-content
+
 description: IWTSProtocolShadowConnection::Start is no longer available. Instead, use IWRdsProtocolShadowConnection::Start.
 old-location: termserv\iwtsprotocolshadowconnection_start.htm
 tech.root: TermServ
 ms.assetid: 7bfe0c45-551f-47bb-a855-6965fed224dc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolShadowConnection interface [Remote Desktop Services],Start method, IWTSProtocolShadowConnection.Start, IWTSProtocolShadowConnection::Start, Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services],IWTSProtocolShadowConnection interface, termserv.iwtsprotocolshadowconnection_start, wtsprotocol/IWTSProtocolShadowConnection::Start
 ms.topic: method

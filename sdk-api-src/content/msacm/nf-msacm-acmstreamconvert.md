@@ -1,12 +1,12 @@
 ---
 UID: NF:msacm.acmStreamConvert
 title: acmStreamConvert function (msacm.h)
-author: windows-sdk-content
+
 description: The acmStreamConvert function requests the ACM to perform a conversion on the specified conversion stream. A conversion may be synchronous or asynchronous, depending on how the stream was opened.
 old-location: multimedia\acmstreamconvert.htm
 tech.root: Multimedia
 ms.assetid: 97537dcc-acf4-4fea-b17f-2301a72a6a78
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmStreamConvert, acmStreamConvert, acmStreamConvert function [Windows Multimedia], msacm/acmStreamConvert, multimedia.acmstreamconvert"
 ms.topic: function

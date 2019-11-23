@@ -1,12 +1,12 @@
 ---
 UID: NF:mediaobj.IMediaObject.FreeStreamingResources
 title: IMediaObject::FreeStreamingResources (mediaobj.h)
-author: windows-sdk-content
+
 description: The FreeStreamingResources method frees resources allocated by the DMO. Calling this method is always optional.
 old-location: dshow\imediaobject_freestreamingresources.htm
 tech.root: DirectShow
 ms.assetid: c4d2dbf1-45c9-47a2-a21f-5eb04f828ec1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FreeStreamingResources, FreeStreamingResources method [DirectShow], FreeStreamingResources method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],FreeStreamingResources method, IMediaObject.FreeStreamingResources, IMediaObject::FreeStreamingResources, IMediaObjectFreeStreamingResources, dshow.imediaobject_freestreamingresources, mediaobj/IMediaObject::FreeStreamingResources
 ms.topic: method

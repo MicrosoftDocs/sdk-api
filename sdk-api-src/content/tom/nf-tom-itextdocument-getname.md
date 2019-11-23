@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextDocument.GetName
 title: ITextDocument::GetName (tom.h)
-author: windows-sdk-content
+
 description: Gets the file name of this document. This is the ITextDocument default property.
 old-location: controls\ITextDocument_GetName.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextdocument\itextdocumentgetname.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Windows Controls], GetName method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetName method, ITextDocument.GetName, ITextDocument::GetName, _win32_ITextDocument_GetName, _win32_ITextDocument_GetName_cpp, controls.ITextDocument_GetName, controls._win32_ITextDocument_GetName, tom/ITextDocument::GetName
 ms.topic: method

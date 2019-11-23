@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser.tagRAWINPUTDEVICELIST
 title: RAWINPUTDEVICELIST (winuser.h)
-author: windows-sdk-content
+
 description: Contains information about a raw input device.
 old-location: inputdev\rawinputdevicelist.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawinputdevicelist.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PRAWINPUTDEVICELIST, PRAWINPUTDEVICELIST, PRAWINPUTDEVICELIST structure pointer [Keyboard and Mouse Input], RAWINPUTDEVICELIST, RAWINPUTDEVICELIST structure [Keyboard and Mouse Input], RIM_TYPEHID, RIM_TYPEKEYBOARD, RIM_TYPEMOUSE, _win32_RAWINPUTDEVICELIST_str, _win32_rawinputdevicelist_str_cpp, inputdev.rawinputdevicelist, winui._win32_rawinputdevicelist_str, winuser/PRAWINPUTDEVICELIST, winuser/RAWINPUTDEVICELIST"
 ms.topic: struct

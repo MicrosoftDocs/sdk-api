@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagEMRFORMAT
 title: EMRFORMAT (wingdi.h)
-author: windows-sdk-content
+
 description: The EMRFORMAT structure contains information that identifies graphics data in an enhanced metafile. A GDICOMMENT_MULTIFORMATS enhanced metafile public comment contains an array of EMRFORMAT structures.
 old-location: gdi\emrformat.htm
 tech.root: gdi
 ms.assetid: a86e45f1-bbe1-4cb6-a9fa-679108db89ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PEMRFORMAT, EMRFORMAT, EMRFORMAT structure [Windows GDI], _win32_EMRFORMAT_str, gdi.emrformat, wingdi/EMRFORMAT"
 ms.topic: struct

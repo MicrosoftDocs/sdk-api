@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxServer.put_PauseServerQueue
 title: IFaxServer::put_PauseServerQueue (faxcom.h)
-author: windows-sdk-content
+
 description: Sets or retrieves the PauseServerQueue property for a FaxServer object. The PauseServerQueue property is a Boolean value that indicates whether the fax server has paused the fax job queue.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_pauseserverqueue_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9gv9.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],PauseServerQueue property, IFaxServer.PauseServerQueue, IFaxServer.get_PauseServerQueue, IFaxServer.put_PauseServerQueue, IFaxServer::PauseServerQueue, IFaxServer::get_PauseServerQueue, IFaxServer::put_PauseServerQueue, PauseServerQueue property [Fax Service], PauseServerQueue property [Fax Service],IFaxServer interface, _mfax_ifaxserver_get_pauseserverqueue, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_pauseserverqueue_cpp, fax._mfax_ifaxserver_get_pauseserverqueue, faxcom/IFaxServer::PauseServerQueue, faxcom/IFaxServer::get_PauseServerQueue, faxcom/IFaxServer::put_PauseServerQueue, put_PauseServerQueue
 ms.topic: method

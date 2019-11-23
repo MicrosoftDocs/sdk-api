@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiSelectOEMDrv
 title: SetupDiSelectOEMDrv function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupDiSelectOEMDrv function selects a driver for a device information set or a particular device information element that uses an OEM path supplied by the user.
 old-location: devinst\setupdiselectoemdrv.htm
 tech.root: devinst
 ms.assetid: e97f0569-419a-4a9a-a657-fd972b160269
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetupDiSelectOEMDrv, SetupDiSelectOEMDrv function [Device and Driver Installation], devinst.setupdiselectoemdrv, di-rtns_00ac5dd3-d358-4f14-b8ea-20231051ed8d.xml, setupapi/SetupDiSelectOEMDrv
 ms.topic: function

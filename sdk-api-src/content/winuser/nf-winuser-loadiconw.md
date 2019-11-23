@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.LoadIconW
 title: LoadIconW function (winuser.h)
-author: windows-sdk-content
+
 description: Loads the specified icon resource from the executable (.exe) file associated with an application instance.
 old-location: menurc\loadicon.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\loadicon.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDI_APPLICATION, IDI_ASTERISK, IDI_ERROR, IDI_EXCLAMATION, IDI_HAND, IDI_INFORMATION, IDI_QUESTION, IDI_SHIELD, IDI_WARNING, IDI_WINLOGO, LoadIcon, LoadIcon function [Menus and Other Resources], LoadIconA, LoadIconW, _win32_LoadIcon, _win32_loadicon_cpp, menurc.loadicon, winui._win32_loadicon, winuser/LoadIcon, winuser/LoadIconA, winuser/LoadIconW
 ms.topic: function

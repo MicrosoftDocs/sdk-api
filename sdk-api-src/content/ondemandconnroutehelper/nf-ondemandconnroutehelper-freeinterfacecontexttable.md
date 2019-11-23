@@ -1,12 +1,12 @@
 ---
 UID: NF:ondemandconnroutehelper.FreeInterfaceContextTable
 title: FreeInterfaceContextTable function (ondemandconnroutehelper.h)
-author: windows-sdk-content
+
 description: This function frees the interface context table retrieved using the GetInterfaceContextTableForHostName function.
 old-location: nla\freeinterfacecontexttable.htm
 tech.root: nla
 ms.assetid: 79623E67-C255-498D-ACDA-8BC2AE925224
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FreeInterfaceContextTable, FreeInterfaceContextTable function [Network Awareness], nla.freeinterfacecontexttable, ondemandconnroutehelper/FreeInterfaceContextTable
 ms.topic: function

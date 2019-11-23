@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.IQuerySolution.GetErrors
 title: IQuerySolution::GetErrors (structuredquery.h)
-author: windows-sdk-content
+
 description: Identifies parts of the input string that the parser did not recognize or did not use when constructing the IQuerySolution condition tree.
 old-location: search\_search_IQuerySolution_GetErrors.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\geterrors.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetErrors, GetErrors method [search], GetErrors method [search],IQuerySolution interface, IQuerySolution interface [search],GetErrors method, IQuerySolution.GetErrors, IQuerySolution::GetErrors, _search_IQuerySolution_GetErrors, search._search_IQuerySolution_GetErrors, structuredquery/IQuerySolution::GetErrors
 ms.topic: method

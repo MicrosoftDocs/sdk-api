@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMLoadFloat
 title: XMLoadFloat function (directxmath.h)
-author: windows-sdk-content
+
 description: Loads a floating-point scalar value into an XMVECTOR.
 old-location: dxmath\xmloadfloat.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat(const float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadFloat, XMLoadFloat, XMLoadFloat method [DirectX Math Support APIs], dxmath.xmloadfloat
 ms.topic: function

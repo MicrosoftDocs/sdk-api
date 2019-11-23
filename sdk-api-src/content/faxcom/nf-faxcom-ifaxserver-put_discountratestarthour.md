@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxServer.put_DiscountRateStartHour
 title: IFaxServer::put_DiscountRateStartHour (faxcom.h)
-author: windows-sdk-content
+
 description: Sets or retrieves the DiscountRateStartHour property for a FaxServer object. The DiscountRateStartHour property is a number that represents the hour the discount period begins. The discount period applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_discountratestarthour_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0oc2.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DiscountRateStartHour property [Fax Service], DiscountRateStartHour property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],DiscountRateStartHour property, IFaxServer.DiscountRateStartHour, IFaxServer.get_DiscountRateStartHour, IFaxServer.put_DiscountRateStartHour, IFaxServer::DiscountRateStartHour, IFaxServer::get_DiscountRateStartHour, IFaxServer::put_DiscountRateStartHour, _mfax_ifaxserver_get_discountratestarthour, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_discountratestarthour_cpp, fax._mfax_ifaxserver_get_discountratestarthour, faxcom/IFaxServer::DiscountRateStartHour, faxcom/IFaxServer::get_DiscountRateStartHour, faxcom/IFaxServer::put_DiscountRateStartHour, put_DiscountRateStartHour
 ms.topic: method

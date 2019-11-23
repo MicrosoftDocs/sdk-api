@@ -1,12 +1,12 @@
 ---
 UID: NS:windows.media.streaming.TrackInformation
 title: TrackInformation (windows.media.streaming.h)
-author: windows-sdk-content
+
 description: Contains the current track number and duration as part of the PositionInformation obtained from the DMR.
 old-location: mediastreaming\trackinformation.htm
 tech.root: mediastreaming
 ms.assetid: 47398d9f-9462-49c1-a02c-985212a07363
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TrackInformation, TrackInformation structure [Media Streaming API], mediastreaming.trackinformation, windows/TrackInformation
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCReceiveFail
 title: IComQCEvents::OnQCReceiveFail (comsvcs.h)
-author: windows-sdk-content
+
 description: Generated when the receive message fails.
 old-location: cos\icomqcevents_onqcreceivefail.htm
 tech.root: cossdk
 ms.assetid: 21d685ce-b65f-4d13-b653-e6c6d1afa704
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCReceiveFail method, IComQCEvents.OnQCReceiveFail, IComQCEvents::OnQCReceiveFail, OnQCReceiveFail, OnQCReceiveFail method [COM+], OnQCReceiveFail method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCReceiveFail, comsvcs/IComQCEvents::OnQCReceiveFail, cos.icomqcevents_onqcreceivefail
 ms.topic: method

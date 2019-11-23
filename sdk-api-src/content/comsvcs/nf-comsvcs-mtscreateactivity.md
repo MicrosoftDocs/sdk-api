@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.MTSCreateActivity
 title: MTSCreateActivity function (comsvcs.h)
-author: windows-sdk-content
+
 description: Creates an activity in a single-threaded apartment to do synchronous or asynchronous batch work.
 old-location: cos\mtscreateactivity.htm
 tech.root: cossdk
 ms.assetid: 25ae1f2e-f937-4d06-9709-ded2fc8c5777
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MTSCreateActivity, MTSCreateActivity function [COM+], _cos_MTSCreateActivity, comsvcs/MTSCreateActivity, cos.mtscreateactivity
 ms.topic: function

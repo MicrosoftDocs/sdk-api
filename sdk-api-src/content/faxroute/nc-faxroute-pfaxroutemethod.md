@@ -1,12 +1,12 @@
 ---
 UID: NC:faxroute.PFAXROUTEMETHOD
 title: PFAXROUTEMETHOD (faxroute.h)
-author: windows-sdk-content
+
 description: The FaxRouteMethod function is a placeholder for a function name defined by the fax routing extension DLL. This function executes a defined fax routing procedure.
 old-location: fax\_mfax_faxroutemethod.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_2aw4.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FaxRouteMethod, FaxRouteMethod callback, FaxRouteMethod callback function [Fax Service], PFAXROUTEMETHOD, _mfax_faxroutemethod, fax._mfax_faxroutemethod, faxroute/FaxRouteMethod
 ms.topic: callback

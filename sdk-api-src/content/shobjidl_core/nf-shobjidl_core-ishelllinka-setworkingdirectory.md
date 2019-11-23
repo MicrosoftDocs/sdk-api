@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetWorkingDirectory
 title: IShellLinkA::SetWorkingDirectory (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Sets the name of the working directory for a Shell link object.
 old-location: shell\IShellLink_SetWorkingDirectory.htm
 tech.root: shell
 ms.assetid: 03767add-766c-4970-935e-ffa5aa401a95
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetWorkingDirectory method, IShellLink::SetWorkingDirectory, IShellLinkA, IShellLinkA interface [Windows Shell],SetWorkingDirectory method, IShellLinkA.SetWorkingDirectory, IShellLinkA::SetWorkingDirectory, IShellLinkW, IShellLinkW interface [Windows Shell],SetWorkingDirectory method, IShellLinkW::SetWorkingDirectory, SetWorkingDirectory, SetWorkingDirectory method [Windows Shell], SetWorkingDirectory method [Windows Shell],IShellLink interface, SetWorkingDirectory method [Windows Shell],IShellLinkA interface, SetWorkingDirectory method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetWorkingDirectory, shell.IShellLink_SetWorkingDirectory, shobjidl_core/IShellLink::SetWorkingDirectory, shobjidl_core/IShellLinkA::SetWorkingDirectory, shobjidl_core/IShellLinkW::SetWorkingDirectory
 ms.topic: method

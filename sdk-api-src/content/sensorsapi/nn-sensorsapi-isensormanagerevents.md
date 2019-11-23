@@ -1,12 +1,12 @@
 ---
 UID: NN:sensorsapi.ISensorManagerEvents
 title: ISensorManagerEvents (sensorsapi.h)
-author: windows-sdk-content
+
 description: The callback interface for receiving sensor manager events.
 old-location: winsensors\isensormanagerevents.htm
 tech.root: SensorsAPI
 ms.assetid: b111a717-00c0-47cb-be6a-3050d54cd2ec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISensorManagerEvents, ISensorManagerEvents interface [WinSensors], ISensorManagerEvents interface [WinSensors],described, sensorsapi/ISensorManagerEvents, winsensors.isensormanagerevents
 ms.topic: interface

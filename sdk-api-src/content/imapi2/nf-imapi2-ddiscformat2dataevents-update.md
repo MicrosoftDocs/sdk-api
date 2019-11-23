@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.DDiscFormat2DataEvents.Update
 title: DDiscFormat2DataEvents::Update (imapi2.h)
-author: windows-sdk-content
+
 description: Implement this method to receive progress notification of the current write operation.
 old-location: imapi\ddiscformat2dataevents_update.htm
 tech.root: imapi
 ms.assetid: 786fc936-9493-4cc3-a937-4d1f4b54fe88
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DDiscFormat2DataEvents interface [IMAPI],Update method, DDiscFormat2DataEvents.Update, DDiscFormat2DataEvents::Update, Update, Update method [IMAPI], Update method [IMAPI],DDiscFormat2DataEvents interface, imapi.ddiscformat2dataevents_update, imapi2/DDiscFormat2DataEvents::Update
 ms.topic: method

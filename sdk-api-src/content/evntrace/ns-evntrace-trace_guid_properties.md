@@ -1,12 +1,12 @@
 ---
 UID: NS:evntrace._TRACE_GUID_PROPERTIES
 title: TRACE_GUID_PROPERTIES (evntrace.h)
-author: windows-sdk-content
+
 description: The TRACE_GUID_PROPERTIES structure contains information about an event trace provider.
 old-location: etw\trace_guid_properties.htm
 tech.root: ETW
 ms.assetid: 849f2d34-14e0-43e8-a735-d46e94671725
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PTRACE_GUID_PROPERTIES, PTRACE_GUID_PROPERTIES, PTRACE_GUID_PROPERTIES structure pointer [ETW], TRACE_GUID_PROPERTIES, TRACE_GUID_PROPERTIES structure [ETW], _TRACE_GUID_PROPERTIES, _evt_trace_guid_properties, base.trace_guid_properties, etw.trace_guid_properties, evntrace/PTRACE_GUID_PROPERTIES, evntrace/TRACE_GUID_PROPERTIES"
 ms.topic: struct

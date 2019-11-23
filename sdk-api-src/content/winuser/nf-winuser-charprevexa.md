@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.CharPrevExA
 title: CharPrevExA function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the pointer to the preceding character in a string. This function can handle strings consisting of either single- or multi-byte characters.
 old-location: menurc\charprevexa.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charprevexa.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CharPrevExA, CharPrevExA function [Menus and Other Resources], _win32_CharPrevExA, _win32_charprevexa_cpp, menurc.charprevexa, winui._win32_charprevexa, winuser/CharPrevExA
 ms.topic: function

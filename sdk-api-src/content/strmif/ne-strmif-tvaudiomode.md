@@ -1,12 +1,12 @@
 ---
 UID: NE:strmif.tagTVAudioMode
 title: TVAudioMode (strmif.h)
-author: windows-sdk-content
+
 description: Specifies the mode of a TV audio control.
 old-location: dshow\tvaudiomode.htm
 tech.root: DirectShow
 ms.assetid: 70e26550-0a8f-484e-b919-cfefdcf95f6b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AMTVAUDIO_MODE_LANG_A, AMTVAUDIO_MODE_LANG_B, AMTVAUDIO_MODE_LANG_C, AMTVAUDIO_MODE_MONO, AMTVAUDIO_MODE_STEREO, AMTVAUDIO_PRESET_LANG_A, AMTVAUDIO_PRESET_LANG_B, AMTVAUDIO_PRESET_LANG_C, AMTVAUDIO_PRESET_STEREO, TVAudioMode, TVAudioMode enumeration [DirectShow], TVAudioModeEnumeration, dshow.tvaudiomode, strmif/AMTVAUDIO_MODE_LANG_A, strmif/AMTVAUDIO_MODE_LANG_B, strmif/AMTVAUDIO_MODE_LANG_C, strmif/AMTVAUDIO_MODE_MONO, strmif/AMTVAUDIO_MODE_STEREO, strmif/AMTVAUDIO_PRESET_LANG_A, strmif/AMTVAUDIO_PRESET_LANG_B, strmif/AMTVAUDIO_PRESET_LANG_C, strmif/AMTVAUDIO_PRESET_STEREO, strmif/TVAudioMode
 ms.topic: enum

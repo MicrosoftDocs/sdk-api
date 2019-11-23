@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextRow.SetKeepWithNext
 title: ITextRow::SetKeepWithNext (tom.h)
-author: windows-sdk-content
+
 description: Sets whether a row should appear on the same page as the row that follows it.
 old-location: controls\itextrow_setkeepwithnext.htm
 tech.root: Controls
 ms.assetid: 9b73ca91-39a1-4dee-8414-57ee45653c07
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetKeepWithNext method, ITextRow.SetKeepWithNext, ITextRow::SetKeepWithNext, SetKeepWithNext, SetKeepWithNext method [Windows Controls], SetKeepWithNext method [Windows Controls],ITextRow interface, controls.itextrow_setkeepwithnext, tom/ITextRow::SetKeepWithNext
 ms.topic: method

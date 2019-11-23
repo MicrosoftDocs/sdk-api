@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxPort.put_Rings
 title: IFaxPort::put_Rings (faxcom.h)
-author: windows-sdk-content
+
 description: The IFaxPort::get_Rings property represents the number of rings an incoming fax call should wait before the fax port answers the call.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_rings_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3jjn.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxPort interface [Fax Service],Rings property, IFaxPort.Rings, IFaxPort.put_Rings, IFaxPort::Rings, IFaxPort::get_Rings, IFaxPort::put_Rings, Rings property [Fax Service], Rings property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_rings, fax._mfax_ifaxport_get_rings, fax._mfax_ifaxport_mfax_ifaxport_get_rings_cpp, faxcom/IFaxPort::Rings, faxcom/IFaxPort::get_Rings, faxcom/IFaxPort::put_Rings, put_Rings
 ms.topic: method

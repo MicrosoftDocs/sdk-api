@@ -1,12 +1,12 @@
 ---
 UID: NN:netlistmgr.IEnumNetworkConnections
 title: IEnumNetworkConnections (netlistmgr.h)
-author: windows-sdk-content
+
 description: The IEnumNetworkConnections interface provides a standard enumerator for network connections. It enumerates active, disconnected, or all network connections within a network. This interface can be obtained from the INetwork interface.
 old-location: nla\ienumnetworkconnections.htm
 tech.root: nla
 ms.assetid: f7e69ede-c567-4285-a017-096c94fb3fe4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworkConnections, IEnumNetworkConnections interface [Network Awareness], IEnumNetworkConnections interface [Network Awareness],described, netlistmgr/IEnumNetworkConnections, nla.ienumnetworkconnections
 ms.topic: interface

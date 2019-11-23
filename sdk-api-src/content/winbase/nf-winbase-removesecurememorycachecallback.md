@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.RemoveSecureMemoryCacheCallback
 title: RemoveSecureMemoryCacheCallback function (winbase.h)
-author: windows-sdk-content
+
 description: Unregisters a callback function that was previously registered with the AddSecureMemoryCacheCallback function.
 old-location: base\removesecurememorycachecallback.htm
 tech.root: Memory
 ms.assetid: 8be6ff04-34c7-4942-a38c-507584c8bbeb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RemoveSecureMemoryCacheCallback, RemoveSecureMemoryCacheCallback function, base.removesecurememorycachecallback, winbase/RemoveSecureMemoryCacheCallback
 ms.topic: function

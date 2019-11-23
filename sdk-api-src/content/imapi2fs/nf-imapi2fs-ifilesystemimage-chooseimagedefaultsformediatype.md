@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.ChooseImageDefaultsForMediaType
 title: IFileSystemImage::ChooseImageDefaultsForMediaType (imapi2fs.h)
-author: windows-sdk-content
+
 description: Sets the default file system types and the image size based on the specified media type.
 old-location: imapi\ifilesystemimage_chooseimagedefaultsformediatype.htm
 tech.root: imapi
 ms.assetid: 1d327da0-d0b3-4fcf-9773-ff5ea1eeea1c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ChooseImageDefaultsForMediaType, ChooseImageDefaultsForMediaType method [IMAPI], ChooseImageDefaultsForMediaType method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],ChooseImageDefaultsForMediaType method, IFileSystemImage.ChooseImageDefaultsForMediaType, IFileSystemImage::ChooseImageDefaultsForMediaType, imapi.ifilesystemimage_chooseimagedefaultsformediatype, imapi2fs/IFileSystemImage::ChooseImageDefaultsForMediaType
 ms.topic: method

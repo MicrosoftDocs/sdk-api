@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IPin.EndOfStream
 title: IPin::EndOfStream (strmif.h)
-author: windows-sdk-content
+
 description: The EndOfStream method notifies the pin that no additional data is expected, until a new run command is issued to the filter.
 old-location: dshow\ipin_endofstream.htm
 tech.root: DirectShow
 ms.assetid: b0cca250-9603-4d58-8af5-5b272730e5fa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EndOfStream, EndOfStream method [DirectShow], EndOfStream method [DirectShow],IPin interface, IPin interface [DirectShow],EndOfStream method, IPin.EndOfStream, IPin::EndOfStream, IPinEndOfStream, dshow.ipin_endofstream, strmif/IPin::EndOfStream
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:ddkmapi._DDCAPBUFFINFO
 title: DDCAPBUFFINFO (ddkmapi.h)
-author: windows-sdk-content
+
 description: The DDCAPBUFFINFO structure contains the capture information.
 old-location: display\ddcapbuffinfo.htm
 tech.root: display
 ms.assetid: 8286c433-2183-4751-be8a-30cb9cd9146d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPDDCAPBUFFINFO, DDCAPBUFFINFO, DDCAPBUFFINFO structure [Display Devices], LPDDCAPBUFFINFO, LPDDCAPBUFFINFO structure pointer [Display Devices], ddkmapi/DDCAPBUFFINFO, ddkmapi/LPDDCAPBUFFINFO, ddstrcts_c1b7049e-f505-419f-ba3e-53625521dae2.xml, display.ddcapbuffinfo'
 ms.topic: struct

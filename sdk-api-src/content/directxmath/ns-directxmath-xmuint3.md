@@ -1,12 +1,12 @@
 ---
 UID: NS:directxmath.XMUINT3
 title: XMUINT3 (directxmath.h)
-author: windows-sdk-content
+
 description: A 3D vector where each component is an unsigned integer.
 old-location: dxmath\xmuint3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUINT3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMUINT3, XMUINT3 structure [DirectX Math Support APIs], directxmath/XMUINT3, dxmath.xmuint3
 ms.topic: struct

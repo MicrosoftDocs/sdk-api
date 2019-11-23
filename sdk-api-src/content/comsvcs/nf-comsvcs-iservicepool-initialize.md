@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IServicePool.Initialize
 title: IServicePool::Initialize (comsvcs.h)
-author: windows-sdk-content
+
 description: Initializes an object pool.
 old-location: cos\iservicepool_initialize.htm
 tech.root: cossdk
 ms.assetid: 93e88990-1737-4db4-aa37-0fe19a7ca0f3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IServicePool interface [COM+],Initialize method, IServicePool.Initialize, IServicePool::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IServicePool interface, _cos_IServicePool_Initialize, comsvcs/IServicePool::Initialize, cos.iservicepool_initialize
 ms.topic: method

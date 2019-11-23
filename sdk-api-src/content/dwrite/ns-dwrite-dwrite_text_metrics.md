@@ -1,12 +1,12 @@
 ---
 UID: NS:dwrite.DWRITE_TEXT_METRICS
 title: DWRITE_TEXT_METRICS (dwrite.h)
-author: windows-sdk-content
+
 description: Contains the metrics associated with text after layout.
 old-location: directwrite\dwrite_text_metrics.htm
 tech.root: DirectWrite
 ms.assetid: 4524ace3-fca6-4daf-9ecb-516771e53fc9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TEXT_METRICS, DWRITE_TEXT_METRICS structure [Direct Write], directwrite.dwrite_text_metrics, dwrite/DWRITE_TEXT_METRICS
 ms.topic: struct

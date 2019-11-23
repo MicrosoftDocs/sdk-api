@@ -1,7 +1,7 @@
 ---
 UID: NA:mswsockdef
 ms.assetid: 79b78f80-6508-364c-87ce-ae9cde468bdf
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

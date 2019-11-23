@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.put_burnPlaylist
 title: IWMPCdromBurn::put_burnPlaylist (wmp.h)
-author: windows-sdk-content
+
 description: The put_burnPlaylist method specifies the playlist to burn to CD.
 old-location: wmp\iwmpcdromburn_put_burnplaylist.htm
 tech.root: WMP
 ms.assetid: 26fad65c-d371-4e7c-a86e-1ddb24175909
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],put_burnPlaylist method, IWMPCdromBurn.put_burnPlaylist, IWMPCdromBurn::put_burnPlaylist, IWMPCdromBurnput_burnPlaylist, put_burnPlaylist, put_burnPlaylist method [Windows Media Player], put_burnPlaylist method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_put_burnplaylist, wmp/IWMPCdromBurn::put_burnPlaylist
 ms.topic: method

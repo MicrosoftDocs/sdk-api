@@ -1,12 +1,12 @@
 ---
 UID: NL:gdiplusbrush.HatchBrush
 title: HatchBrush (gdiplusbrush.h)
-author: windows-sdk-content
+
 description: This HatchBrush class defines a rectangular brush with a hatch style, a foreground color, and a background color.
 old-location: gdiplus\_gdiplus_CLASS_HatchBrush_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\hatchbrush.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HatchBrush, HatchBrush class [GDI+], HatchBrush class [GDI+],described, _gdiplus_CLASS_HatchBrush_Class, gdiplus._gdiplus_CLASS_HatchBrush_Class, gdiplusbrush/HatchBrush
 ms.topic: class

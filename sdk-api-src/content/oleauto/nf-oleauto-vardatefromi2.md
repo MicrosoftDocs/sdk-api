@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarDateFromI2
 title: VarDateFromI2 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a short value to a date value.
 old-location: automat\vardatefromi2.htm
 tech.root: automat
 ms.assetid: 91ce59a5-2ab4-41be-a95c-ce12e9a52e4f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarDateFromI2, VarDateFromI2 function [Automation], _oa96_VarDateFromI2, automat.vardatefromi2, oleauto/VarDateFromI2
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:imapi2.IDiscFormat2DataEventArgs
 title: IDiscFormat2DataEventArgs (imapi2.h)
-author: windows-sdk-content
+
 description: Use this interface to retrieve information about the current write operation.
 old-location: imapi\idiscformat2dataeventargs.htm
 tech.root: imapi
 ms.assetid: 6bf149d3-62ea-4ef5-8d45-44df9ad4982c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2DataEventArgs, IDiscFormat2DataEventArgs interface [IMAPI], IDiscFormat2DataEventArgs interface [IMAPI],described, imapi.idiscformat2dataeventargs, imapi2/IDiscFormat2DataEventArgs
 ms.topic: interface

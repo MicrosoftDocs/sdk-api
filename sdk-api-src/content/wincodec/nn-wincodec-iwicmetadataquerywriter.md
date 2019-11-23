@@ -1,12 +1,12 @@
 ---
 UID: NN:wincodec.IWICMetadataQueryWriter
 title: IWICMetadataQueryWriter (wincodec.h)
-author: windows-sdk-content
+
 description: Exposes methods for setting or removing metadata blocks and items to an encoder or its image frames using a metadata query expression.
 old-location: wic\_wic_codec_iwicmetadataquerywriter.htm
 tech.root: wic
 ms.assetid: 065cccc3-778f-42c4-823a-354b08bbd1f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataQueryWriter, IWICMetadataQueryWriter interface [Windows Imaging Component], IWICMetadataQueryWriter interface [Windows Imaging Component],described, _wic_codec_iwicmetadataquerywriter, wic._wic_codec_iwicmetadataquerywriter, wincodec/IWICMetadataQueryWriter
 ms.topic: interface

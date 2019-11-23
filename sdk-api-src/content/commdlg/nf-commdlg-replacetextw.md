@@ -1,12 +1,12 @@
 ---
 UID: NF:commdlg.ReplaceTextW
 title: ReplaceTextW function (commdlg.h)
-author: windows-sdk-content
+
 description: Creates a system-defined modeless dialog box that lets the user specify a string to search for and a replacement string, as well as options to control the find and replace operations.
 old-location: dlgbox\replacetext.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\replacetext.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ReplaceText, ReplaceText function [Dialog Boxes], ReplaceTextA, ReplaceTextW, _win32_ReplaceText, _win32_replacetext_cpp, commdlg/ReplaceText, commdlg/ReplaceTextA, commdlg/ReplaceTextW, dlgbox.replacetext, winui._win32_replacetext
 ms.topic: function

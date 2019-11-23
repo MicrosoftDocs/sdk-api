@@ -1,12 +1,12 @@
 ---
 UID: NN:comsvcs.IManagedPooledObj
 title: IManagedPooledObj (comsvcs.h)
-author: windows-sdk-content
+
 description: Describes how a managed object is used in the COM+ object pool.
 old-location: cos\imanagedpooledobj.htm
 tech.root: cossdk
 ms.assetid: 04853859-5d85-4b88-9e1b-422e3454fd3f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IManagedPooledObj, IManagedPooledObj interface [COM+], IManagedPooledObj interface [COM+],described, _cos_IManagedPooledObj, comsvcs/IManagedPooledObj, cos.imanagedpooledobj
 ms.topic: interface

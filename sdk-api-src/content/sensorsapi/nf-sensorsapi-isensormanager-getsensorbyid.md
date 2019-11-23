@@ -1,12 +1,12 @@
 ---
 UID: NF:sensorsapi.ISensorManager.GetSensorByID
 title: ISensorManager::GetSensorByID (sensorsapi.h)
-author: windows-sdk-content
+
 description: Retrieves a pointer to the specified sensor.
 old-location: winsensors_com_ref\isensormanager_getsensorbyid.htm
 tech.root: SensorsAPI
 ms.assetid: 453f46f3-43e1-466d-9f46-165b7d2bcd56
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSensorByID, GetSensorByID method, GetSensorByID method,ISensorManager interface, ISensorManager interface,GetSensorByID method, ISensorManager.GetSensorByID, ISensorManager::GetSensorByID, sensorsapi/ISensorManager::GetSensorByID, winsensors_com_ref.isensormanager_getsensorbyid
 ms.topic: method

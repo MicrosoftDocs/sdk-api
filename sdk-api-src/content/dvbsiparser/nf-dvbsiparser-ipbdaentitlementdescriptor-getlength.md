@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IPBDAEntitlementDescriptor.GetLength
 title: IPBDAEntitlementDescriptor::GetLength (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the length of the entitlement descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream, in bytes.
 old-location: mstv\ipbdaentitlementdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 51fc1ecc-ec18-415c-84f8-276ec581b24e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IPBDAEntitlementDescriptor interface, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],GetLength method, IPBDAEntitlementDescriptor.GetLength, IPBDAEntitlementDescriptor::GetLength, dvbsiparser/IPBDAEntitlementDescriptor::GetLength, mstv.ipbdaentitlementdescriptor_getlength
 ms.topic: method

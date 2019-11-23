@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineDialA
 title: lineDialA function (tapi.h)
-author: windows-sdk-content
+
 description: The lineDial function dials the specified dialable number on the specified call.
 old-location: tapi2\linedial.htm
 tech.root: Tapi
 ms.assetid: 111e6c11-67a7-4aab-81dd-f1b4316887e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linedial, lineDial, lineDial function [TAPI 2.2], lineDialA, lineDialW, tapi/lineDial, tapi/lineDialA, tapi/lineDialW, tapi2.linedial"
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:propsys.ICreateObject.CreateObject
 title: ICreateObject::CreateObject (propsys.h)
-author: windows-sdk-content
+
 description: Creates a local object of a specified class and returns a pointer to a specified interface on the object.
 old-location: shell\ICreateObject_CreateObject.htm
 tech.root: shell
 ms.assetid: 72c56de7-4c04-4bcf-b6bb-6e41d12b68a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateObject, CreateObject method [Windows Shell], CreateObject method [Windows Shell],ICreateObject interface, ICreateObject interface [Windows Shell],CreateObject method, ICreateObject.CreateObject, ICreateObject::CreateObject, _shell_ICreateObject_CreateObject, propsys/ICreateObject::CreateObject, shell.ICreateObject_CreateObject
 ms.topic: method

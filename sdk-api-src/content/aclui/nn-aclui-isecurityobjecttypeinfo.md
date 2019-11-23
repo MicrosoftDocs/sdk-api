@@ -1,12 +1,12 @@
 ---
 UID: NN:aclui.ISecurityObjectTypeInfo
 title: ISecurityObjectTypeInfo (aclui.h)
-author: windows-sdk-content
+
 description: Provides a means of determining the source of inherited access control entries (ACEs) in discretionary access control lists (DACLs) and system access control lists (SACLs).
 old-location: security\isecurityobjecttypeinfo.htm
 tech.root: SecAuthZ
 ms.assetid: 345c66b9-fa8a-4adc-a929-39bddca6aeec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISecurityObjectTypeInfo, ISecurityObjectTypeInfo interface [Security], ISecurityObjectTypeInfo interface [Security],described, aclui/ISecurityObjectTypeInfo, security.isecurityobjecttypeinfo
 ms.topic: interface

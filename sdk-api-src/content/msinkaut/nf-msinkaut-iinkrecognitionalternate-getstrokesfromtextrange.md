@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.GetStrokesFromTextRange
 title: IInkRecognitionAlternate::GetStrokesFromTextRange (msinkaut.h)
-author: windows-sdk-content
+
 description: Retrives the collection that corresponds to the smallest set of recognition segments that contains a specified character range within the alternate.
 old-location: tablet\iinkrecognitionalternate_getstrokesfromtextrange.htm
 tech.root: tablet
 ms.assetid: 7dd8fa24-191f-465d-abd2-9a489df0324a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 7dd8fa24-191f-465d-abd2-9a489df0324a, GetStrokesFromTextRange, GetStrokesFromTextRange method [Tablet PC], GetStrokesFromTextRange method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],GetStrokesFromTextRange method, IInkRecognitionAlternate.GetStrokesFromTextRange, IInkRecognitionAlternate::GetStrokesFromTextRange, msinkaut/IInkRecognitionAlternate::GetStrokesFromTextRange, tablet.iinkrecognitionalternate_getstrokesfromtextrange
 ms.topic: method

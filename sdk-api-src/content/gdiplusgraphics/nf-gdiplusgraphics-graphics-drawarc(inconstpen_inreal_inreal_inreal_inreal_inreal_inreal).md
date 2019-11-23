@@ -3,7 +3,7 @@ UID: NF:gdiplusgraphics.Graphics.DrawArc(IN const Pen,IN REAL,IN REAL,IN REAL,IN
 title: Graphics::DrawArc
 description: The Graphics::DrawArc method draws an arc.
 ms.assetid: b4936938-7337-43d8-8cc1-ff1f6d3f6b24
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawArc
 ms.topic: language-reference

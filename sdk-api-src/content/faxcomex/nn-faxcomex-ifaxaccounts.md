@@ -1,12 +1,12 @@
 ---
 UID: NN:faxcomex.IFaxAccounts
 title: IFaxAccounts (faxcomex.h)
-author: windows-sdk-content
+
 description: Represents the collection of fax accounts on the fax server. It provides methods and properties for enumerating the accounts, retrieving a particular account, and reporting the total number of accounts.
 old-location: fax\_mfax_faxaccounts_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccounts\faxinta_n_ifaxaccounts.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxAccounts, IFaxAccounts interface [Fax Service], IFaxAccounts interface [Fax Service],described, _mfax_faxaccounts_cpp, fax._mfax_faxaccounts_cpp, faxcomex/IFaxAccounts
 ms.topic: interface

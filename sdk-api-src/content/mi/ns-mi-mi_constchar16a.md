@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_ConstChar16A
 title: MI_ConstChar16A (mi.h)
-author: windows-sdk-content
+
 description: Represents an array of MI_Char16 types.
 old-location: wmi_v2\mi_constchar16a.htm
 tech.root: wmi_v2
 ms.assetid: b8b44470-1183-4e88-ab84-fb97806d3f92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_ConstChar16A, MI_ConstChar16A structure [Windows Management Infrastructure (MI)], mi/MI_ConstChar16A, wmi._mi_constchar16a, wmi_v2.mi_constchar16a
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:objbase.CoInstall
 title: CoInstall function (objbase.h)
-author: windows-sdk-content
+
 description: Installs the requested COM server application.
 old-location: winprog\coinstall.htm
 tech.root: DevNotes
 ms.assetid: 92b290a5-0923-42fc-8231-1decca26adc1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoInstall, CoInstall function [Windows API], objbase/CoInstall, winprog.coinstall
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorSetByIndex
 title: XMVectorSetByIndex function (directxmath.h)
-author: windows-sdk-content
+
 description: Use a floating-point object to set the value of one of the four components of an XMVECTOR Data Type containing integer data referenced by an index.
 old-location: dxmath\xmvectorsetbyindex.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetByIndex(XMVECTOR,float,size_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetByIndex, XMVectorSetByIndex, XMVectorSetByIndex method [DirectX Math Support APIs], dxmath.xmvectorsetbyindex
 ms.topic: function

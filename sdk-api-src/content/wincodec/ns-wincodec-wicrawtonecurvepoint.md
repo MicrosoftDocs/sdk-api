@@ -1,12 +1,12 @@
 ---
 UID: NS:wincodec.WICRawToneCurvePoint
 title: WICRawToneCurvePoint (wincodec.h)
-author: windows-sdk-content
+
 description: Represents a raw image tone curve point.
 old-location: wic\_wic_codec_wicrawtonecurvepoint.htm
 tech.root: wic
 ms.assetid: c5fbcd25-2884-4313-93d5-c1f290de4a77
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WICRawToneCurvePoint, WICRawToneCurvePoint structure [Windows Imaging Component], _wic_codec_wicrawtonecurvepoint, wic._wic_codec_wicrawtonecurvepoint, wincodec/WICRawToneCurvePoint
 ms.topic: struct

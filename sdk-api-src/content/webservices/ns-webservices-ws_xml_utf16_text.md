@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_XML_UTF16_TEXT
 title: WS_XML_UTF16_TEXT (webservices.h)
-author: windows-sdk-content
+
 description: Represents text encoded as UTF-16 bytes.
 old-location: wsw\ws_xml_utf16_text.htm
 tech.root: wsw
 ms.assetid: 07260aa6-4513-43e6-8803-c53199427932
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_XML_UTF16_TEXT, WS_XML_UTF16_TEXT structure [Web Services for Windows], webservices/WS_XML_UTF16_TEXT, wsw.ws_xml_utf16_text
 ms.topic: struct

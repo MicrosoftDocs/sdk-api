@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMDRMTranscryptor.Initialize
 title: IWMDRMTranscryptor::Initialize (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The Initialize method loads a file into the DRM transcryptor. A file must be loaded before the transcryptor can process any data.
 old-location: wmformat\iwmdrmtranscryptor_initialize.htm
 tech.root: wmformat
 ms.assetid: 084423cc-d10c-4993-b9dd-ace51aa6b7f0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Initialize method, IWMDRMTranscryptor.Initialize, IWMDRMTranscryptor::Initialize, IWMDRMTranscryptorInitialize, Initialize, Initialize method [windows Media Format], Initialize method [windows Media Format],IWMDRMTranscryptor interface, wmformat.iwmdrmtranscryptor_initialize, wmsdkidl/IWMDRMTranscryptor::Initialize
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidFilePlaybackEvent
 title: IMSVidFilePlaybackEvent (segment.h)
-author: windows-sdk-content
+
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidfileplaybackevent.htm
 tech.root: mstv
 ms.assetid: 7dd435a1-8cd4-45c5-8250-770b629d3f3b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidFilePlaybackEvent, IMSVidFilePlaybackEvent interface [Microsoft TV Technologies], IMSVidFilePlaybackEvent interface [Microsoft TV Technologies],described, IMSVidFilePlaybackEventInterface, mstv.imsvidfileplaybackevent, segment/IMSVidFilePlaybackEvent
 ms.topic: interface

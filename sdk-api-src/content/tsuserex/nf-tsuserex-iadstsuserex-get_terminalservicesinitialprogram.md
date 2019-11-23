@@ -1,12 +1,12 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_TerminalServicesInitialProgram
 title: IADsTSUserEx::get_TerminalServicesInitialProgram (tsuserex.h)
-author: windows-sdk-content
+
 description: The path and file name of the application that the user wants to start automatically when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iadstsuserex_terminalservicesinitialprogram.htm
 tech.root: TermServ
 ms.assetid: 43059f13-a1f1-44b2-96ac-2532656a0846
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesInitialProgram property, IADsTSUserEx.TerminalServicesInitialProgram, IADsTSUserEx.get_TerminalServicesInitialProgram, IADsTSUserEx::TerminalServicesInitialProgram, IADsTSUserEx::get_TerminalServicesInitialProgram, IADsTSUserEx::put_TerminalServicesInitialProgram, TerminalServicesInitialProgram property [Remote Desktop Services], TerminalServicesInitialProgram property [Remote Desktop Services],IADsTSUserEx interface, get_TerminalServicesInitialProgram, termserv.iadstsuserex_terminalservicesinitialprogram, tsuserex/IADsTSUserEx::TerminalServicesInitialProgram, tsuserex/IADsTSUserEx::get_TerminalServicesInitialProgram, tsuserex/IADsTSUserEx::put_TerminalServicesInitialProgram
 ms.topic: method

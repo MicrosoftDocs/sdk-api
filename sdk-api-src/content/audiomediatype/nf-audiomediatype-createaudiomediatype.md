@@ -1,12 +1,12 @@
 ---
 UID: NF:audiomediatype.CreateAudioMediaType
 title: CreateAudioMediaType function (audiomediatype.h)
-author: windows-sdk-content
+
 description: The CreateAudioMediaType function uses the format specified by the caller to create a media type object that describes the audio format.
 old-location: audio\createaudiomediatype.htm
 tech.root: audio
 ms.assetid: 02f7b1e6-338a-4bea-9a22-21496a045be6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateAudioMediaType, CreateAudioMediaType function [Audio Devices], audio.createaudiomediatype, audio_syseffects_r_3b76e8f4-37c5-479e-91d7-6620c2e2b9db.xml, audiomediatype/CreateAudioMediaType
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.IRegisterTuner.Register
 title: IRegisterTuner::Register (tuner.h)
-author: windows-sdk-content
+
 description: This feature is expected to be available on a future version of the Windows operating system.
 old-location: mstv\iregistertuner_register.htm
 tech.root: mstv
 ms.assetid: 17a59666-1915-496f-9474-ddd6b3da58f5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRegisterTuner interface [Microsoft TV Technologies],Register method, IRegisterTuner.Register, IRegisterTuner::Register, IRegisterTunerRegister, Register, Register method [Microsoft TV Technologies], Register method [Microsoft TV Technologies],IRegisterTuner interface, mstv.iregistertuner_register, tuner/IRegisterTuner::Register
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadPOINTL
 title: PSPropertyBag_ReadPOINTL function (propsys.h)
-author: windows-sdk-content
+
 description: Retrieves the property coordinates stored in a POINTL structure of a specified property bag.
 old-location: properties\PSPropertyBag_ReadPOINTL.htm
 tech.root: properties
 ms.assetid: B8F66DF9-A366-41a7-8311-B9E1CDE14ADB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadPOINTL, PSPropertyBag_ReadPOINTL function [Windows Properties], properties.PSPropertyBag_ReadPOINTL, propsys/PSPropertyBag_ReadPOINTL, shell.PSPropertyBag_ReadPOINTL, shell_PSPropertyBag_ReadPOINTL
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl.__unnamed_struct_4
 title: TBMETRICS (commctrl.h)
-author: windows-sdk-content
+
 description: Defines the metrics of a toolbar that are used to shrink or expand toolbar items.
 old-location: controls\TBMETRICS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbmetrics.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPTBMETRICS, LPTBMETRICS, LPTBMETRICS structure pointer [Windows Controls], TBMETRICS, TBMETRICS structure [Windows Controls], commctrl/LPTBMETRICS, commctrl/TBMETRICS, controls.TBMETRICS, controls.inet_TBMETRICS, inet_TBMETRICS, inet_TBMETRICS_cpp"
 ms.topic: struct

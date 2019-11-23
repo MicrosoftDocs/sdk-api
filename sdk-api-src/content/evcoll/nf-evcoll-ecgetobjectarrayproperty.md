@@ -1,12 +1,12 @@
 ---
 UID: NF:evcoll.EcGetObjectArrayProperty
 title: EcGetObjectArrayProperty function (evcoll.h)
-author: windows-sdk-content
+
 description: Retrieves property values for the event sources of a subscription.
 old-location: wec\ecgetobjectarrayproperty.htm
 tech.root: WEC
 ms.assetid: a145c982-a1df-442f-8923-58f1db67ac25
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EcGetObjectArrayProperty, EcGetObjectArrayProperty function, evcoll/EcGetObjectArrayProperty, wec.ecgetobjectarrayproperty, wes.ecgetobjectarrayproperty
 ms.topic: function

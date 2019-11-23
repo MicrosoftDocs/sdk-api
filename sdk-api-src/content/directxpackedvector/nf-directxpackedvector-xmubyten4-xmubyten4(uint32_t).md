@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUBYTEN4.XMUBYTEN4(uint32_t)
 title: XMUBYTEN4::XMUBYTEN4(uint32_t) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMUBYTEN4 from a uint32_tvariable containing component data in a packed format.
 old-location: dxmath\xmubyten4_ctor_6.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTEN4.#ctor(uint32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMUBYTEN4, XMUBYTEN4 constructor [DirectX Math Support APIs], XMUBYTEN4 constructor [DirectX Math Support APIs],XMUBYTEN4 structure, XMUBYTEN4 structure [DirectX Math Support APIs],XMUBYTEN4 constructor, XMUBYTEN4.XMUBYTEN4, XMUBYTEN4.XMUBYTEN4(uint32_t), XMUBYTEN4::XMUBYTEN4, XMUBYTEN4::XMUBYTEN4(uint32_t), dxmath.xmubyten4_ctor_6
 ms.topic: method

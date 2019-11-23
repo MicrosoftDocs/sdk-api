@@ -1,12 +1,12 @@
 ---
 UID: NN:mswmdm.IWMDMStorageGlobals
 title: IWMDMStorageGlobals (mswmdm.h)
-author: windows-sdk-content
+
 description: The IWMDMStorageGlobals interface provides methods for retrieving global information about a storage medium (such as a flash ROM card) on a device.
 old-location: wmdm\iwmdmstorageglobals.htm
 tech.root: WMDM
 ms.assetid: fe164271-58f0-4b28-a200-6b15f8b42d36
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageGlobals, IWMDMStorageGlobals interface [windows Media Device Manager], IWMDMStorageGlobals interface [windows Media Device Manager],described, IWMDMStorageGlobalsInterface, mswmdm/IWMDMStorageGlobals, wmdm.iwmdmstorageglobals
 ms.topic: interface

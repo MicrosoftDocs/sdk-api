@@ -1,12 +1,12 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIPerfCounterLoggingManager
 title: IRDPSRAPIPerfCounterLoggingManager (rdpencomapi.h)
-author: windows-sdk-content
+
 description: Manages IRDPSRAPIPerfCounterLogger objects.
 old-location: rdp\irdpsrapiperfcounterloggingmanager.htm
 tech.root: rdp
 ms.assetid: 611ABFB6-851F-4A2C-86A0-E26732CD20BE
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIPerfCounterLoggingManager, IRDPSRAPIPerfCounterLoggingManager class [RDP], IRDPSRAPIPerfCounterLoggingManager class [RDP],described, rdp.irdpsrapiperfcounterloggingmanager, rdp.irdpsrapiperfcounterloggingmanager_, rdpencomapi/IRDPSRAPIPerfCounterLoggingManager
 ms.topic: interface

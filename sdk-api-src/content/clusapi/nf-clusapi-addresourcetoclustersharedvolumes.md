@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.AddResourceToClusterSharedVolumes
 title: AddResourceToClusterSharedVolumes function (clusapi.h)
-author: windows-sdk-content
+
 description: Adds storage to Cluster Shared Volumes.
 old-location: mscs\addresourcetoclustersharedvolumes.htm
 tech.root: MsCS
 ms.assetid: 87C70280-5030-44b9-B949-7240BCA19C6B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddResourceToClusterSharedVolumes, AddResourceToClusterSharedVolumes function [Failover Cluster], PCLUSAPI_ADD_RESOURCE_TO_CLUSTER_SHARED_VOLUMES, PCLUSAPI_ADD_RESOURCE_TO_CLUSTER_SHARED_VOLUMES function [Failover Cluster], clusapi/AddResourceToClusterSharedVolumes, clusapi/PCLUSAPI_ADD_RESOURCE_TO_CLUSTER_SHARED_VOLUMES, mscs.addresourcetoclustersharedvolumes
 ms.topic: function

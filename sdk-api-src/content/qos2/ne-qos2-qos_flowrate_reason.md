@@ -1,12 +1,12 @@
 ---
 UID: NE:qos2._QOS_FLOWRATE_REASON
 title: QOS_FLOWRATE_REASON (qos2.h)
-author: windows-sdk-content
+
 description: The QOS_FLOWRATE_REASON enumeration indicates the reason for a change in a flow's bandwidth.
 old-location: qos\qos_flowrate_reason.htm
 tech.root: QOS
 ms.assetid: bd2a1fec-d554-49e2-8803-624942455f74
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PQOS_FLOWRATE_REASON, PQOS_FLOWRATE_REASON, PQOS_FLOWRATE_REASON enumeration [QOS], QOSFlowRateCongestion, QOSFlowRateContentChange, QOSFlowRateHigherContentEncoding, QOSFlowRateNotApplicable, QOSFlowRateUserCaused, QOS_FLOWRATE_REASON, QOS_FLOWRATE_REASON enumeration [QOS], qos.qos_flowrate_reason, qos2/PQOS_FLOWRATE_REASON, qos2/QOSFlowRateCongestion, qos2/QOSFlowRateContentChange, qos2/QOSFlowRateHigherContentEncoding, qos2/QOSFlowRateNotApplicable, qos2/QOSFlowRateUserCaused, qos2/QOS_FLOWRATE_REASON"
 ms.topic: enum

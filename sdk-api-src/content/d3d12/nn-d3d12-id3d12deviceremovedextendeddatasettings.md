@@ -1,10 +1,10 @@
 ---
 UID: NN:d3d12.ID3D12DeviceRemovedExtendedDataSettings
 title: ID3D12DeviceRemovedExtendedDataSettings interface
-author: windows-sdk-content
+
 description: This interface controls Device Removed Extended Data (DRED) settings.
 tech.root: direct3d12
-ms.author: windowssdkdev
+
 ms.date: 02/08/2019
 ms.keywords: ID3D12DeviceRemovedExtendedDataSettings, ID3D12DeviceRemovedExtendedDataSettings interface, ID3D12DeviceRemovedExtendedDataSettings interface,described, d3d12/ID3D12DeviceRemovedExtendedDataSettings, direct3d12.id3d12deviceremovedextendeddatasettings
 ms.topic: interface

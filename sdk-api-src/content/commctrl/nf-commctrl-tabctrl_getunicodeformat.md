@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.TabCtrl_GetUnicodeFormat
 title: TabCtrl_GetUnicodeFormat macro (commctrl.h)
-author: windows-sdk-content
+
 description: Retrieves the UNICODE character format flag for the control. You can use this macro or send the TCM_GETUNICODEFORMAT message explicitly.
 old-location: controls\TabCtrl_GetUnicodeFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getunicodeformat.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_GetUnicodeFormat, TabCtrl_GetUnicodeFormat macro [Windows Controls], _win32_TabCtrl_GetUnicodeFormat, _win32_TabCtrl_GetUnicodeFormat_cpp, commctrl/TabCtrl_GetUnicodeFormat, controls.TabCtrl_GetUnicodeFormat, controls._win32_TabCtrl_GetUnicodeFormat
 ms.topic: macro

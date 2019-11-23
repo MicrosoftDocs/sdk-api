@@ -1,12 +1,12 @@
 ---
 UID: NE:faxcomex.FAX_GROUP_STATUS_ENUM
 title: FAX_GROUP_STATUS_ENUM (faxcomex.h)
-author: windows-sdk-content
+
 description: The FAX_GROUP_STATUS_ENUM enumeration defines the status types for outbound routing groups.
 old-location: fax\_mfax_fax_group_status_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0tyl.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FAX_GROUP_STATUS_ENUM, FAX_GROUP_STATUS_ENUM enumeration [Fax Service], _mfax_fax_group_status_enum, fax._mfax_fax_group_status_enum, faxcomex/FAX_GROUP_STATUS_ENUM, faxcomex/fgsALL_DEV_NOT_VALID, faxcomex/fgsALL_DEV_VALID, faxcomex/fgsEMPTY, faxcomex/fgsSOME_DEV_NOT_VALID, fgsALL_DEV_NOT_VALID, fgsALL_DEV_VALID, fgsEMPTY, fgsSOME_DEV_NOT_VALID
 ms.topic: enum

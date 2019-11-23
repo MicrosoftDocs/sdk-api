@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMatrixPerspectiveOffCenterLH
 title: XMMatrixPerspectiveOffCenterLH function (directxmath.h)
-author: windows-sdk-content
+
 description: Builds a custom version of a left-handed perspective projection matrix.
 old-location: dxmath\xmmatrixperspectiveoffcenterlh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixPerspectiveOffCenterLH(float,float,float,float,float,float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixPerspectiveOffCenterLH, XMMatrixPerspectiveOffCenterLH, XMMatrixPerspectiveOffCenterLH method [DirectX Math Support APIs], dxmath.xmmatrixperspectiveoffcenterlh
 ms.topic: function

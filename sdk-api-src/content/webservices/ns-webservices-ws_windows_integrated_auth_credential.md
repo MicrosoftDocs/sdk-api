@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 title: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL (webservices.h)
-author: windows-sdk-content
+
 description: The abstract base type for all credential types used with Windows Integrated Authentication.
 old-location: wsw\ws_windows_integrated_auth_credential.htm
 tech.root: wsw
 ms.assetid: 78df2636-439b-4e55-8ca5-dc0f4f4ad745
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows], webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, wsw.ws_windows_integrated_auth_credential
 ms.topic: struct

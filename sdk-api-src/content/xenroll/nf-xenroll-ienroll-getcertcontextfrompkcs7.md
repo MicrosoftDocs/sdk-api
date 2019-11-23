@@ -1,12 +1,12 @@
 ---
 UID: NF:xenroll.IEnroll.getCertContextFromPKCS7
 title: IEnroll::getCertContextFromPKCS7 (xenroll.h)
-author: windows-sdk-content
+
 description: Retrieves a certificate context based on a PKCS
 old-location: security\ienroll4_getcertcontextfrompkcs7.htm
 tech.root: SecCrypto
 ms.assetid: 3781729d-8b08-41b5-8ff4-1de19fc4ee2e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],getCertContextFromPKCS7 method, IEnroll.getCertContextFromPKCS7, IEnroll2 interface [Security],getCertContextFromPKCS7 method, IEnroll2::getCertContextFromPKCS7, IEnroll::getCertContextFromPKCS7, getCertContextFromPKCS7, getCertContextFromPKCS7 method [Security], getCertContextFromPKCS7 method [Security],IEnroll interface, getCertContextFromPKCS7 method [Security],IEnroll2 interface, security.ienroll4_getcertcontextfrompkcs7, xenroll/IEnroll2::getCertContextFromPKCS7, xenroll/IEnroll::getCertContextFromPKCS7
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetStyleSimulations
 title: IXpsOMGlyphs::GetStyleSimulations (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets the style simulations that will be applied when rendering the glyphs.
 old-location: xps\ixpsomglyphs_getstylesimulations.htm
 tech.root: printdocs
 ms.assetid: 5678f67e-ed26-4846-b2f7-4e7f9690ca43
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStyleSimulations, GetStyleSimulations method [XPS Documents and Packaging], GetStyleSimulations method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetStyleSimulations method, IXpsOMGlyphs.GetStyleSimulations, IXpsOMGlyphs::GetStyleSimulations, xps.ixpsomglyphs_getstylesimulations, xpsobjectmodel/IXpsOMGlyphs::GetStyleSimulations
 ms.topic: method

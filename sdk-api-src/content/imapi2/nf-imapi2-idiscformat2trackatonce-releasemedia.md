@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.ReleaseMedia
 title: IDiscFormat2TrackAtOnce::ReleaseMedia (imapi2.h)
-author: windows-sdk-content
+
 description: Closes the track-writing session and releases the lock.
 old-location: imapi\idiscformat2trackatonce_releasemedia.htm
 tech.root: imapi
 ms.assetid: 0d6f85a9-94cc-426c-8442-14eb6e4024f3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],ReleaseMedia method, IDiscFormat2TrackAtOnce.ReleaseMedia, IDiscFormat2TrackAtOnce::ReleaseMedia, ReleaseMedia, ReleaseMedia method [IMAPI], ReleaseMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_releasemedia, imapi2/IDiscFormat2TrackAtOnce::ReleaseMedia
 ms.topic: method

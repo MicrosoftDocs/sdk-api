@@ -1,12 +1,12 @@
 ---
 UID: NE:winbase._PRIORITY_HINT
 title: PRIORITY_HINT (winbase.h)
-author: windows-sdk-content
+
 description: Defines values that are used with the FILE_IO_PRIORITY_HINT_INFO structure to specify the priority hint for a file I/O operation.
 old-location: fs\priority_hint.htm
 tech.root: FileIO
 ms.assetid: 768e563a-5ff5-4dd2-8811-0a823c253a31
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IoPriorityHintLow, IoPriorityHintNormal, IoPriorityHintVeryLow, MaximumIoPriorityHintType, PRIORITY_HINT, PRIORITY_HINT enumeration [Files], fs.priority_hint, winbase/IoPriorityHintLow, winbase/IoPriorityHintNormal, winbase/IoPriorityHintVeryLow, winbase/MaximumIoPriorityHintType, winbase/PRIORITY_HINT
 ms.topic: enum

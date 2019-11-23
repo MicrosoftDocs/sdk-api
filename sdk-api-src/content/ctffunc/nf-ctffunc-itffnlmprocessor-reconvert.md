@@ -1,12 +1,12 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.Reconvert
 title: ITfFnLMProcessor::Reconvert (ctffunc.h)
-author: windows-sdk-content
+
 description: ITfFnLMProcessor::Reconvert method
 old-location: tsf\itffnlmprocessor_reconvert.htm
 tech.root: TSF
 ms.assetid: 1580be2c-d16e-445b-83ba-c033eeb679b7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],Reconvert method, ITfFnLMProcessor.Reconvert, ITfFnLMProcessor::Reconvert, Reconvert, Reconvert method [Text Services Framework], Reconvert method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_reconvert_ref, ctffunc/ITfFnLMProcessor::Reconvert, tsf.itffnlmprocessor_reconvert
 ms.topic: method

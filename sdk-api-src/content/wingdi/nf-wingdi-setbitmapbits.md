@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.SetBitmapBits
 title: SetBitmapBits function (wingdi.h)
-author: windows-sdk-content
+
 description: The SetBitmapBits function sets the bits of color data for a bitmap to the specified values.
 old-location: gdi\setbitmapbits.htm
 tech.root: gdi
 ms.assetid: 3cab12a6-c408-4552-bec0-5ecfd8374757
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetBitmapBits, SetBitmapBits function [Windows GDI], _win32_SetBitmapBits, gdi.setbitmapbits, wingdi/SetBitmapBits
 ms.topic: function

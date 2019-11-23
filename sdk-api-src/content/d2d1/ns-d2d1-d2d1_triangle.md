@@ -1,12 +1,12 @@
 ---
 UID: NS:d2d1.D2D1_TRIANGLE
 title: D2D1_TRIANGLE (d2d1.h)
-author: windows-sdk-content
+
 description: Contains the three vertices that describe a triangle.
 old-location: direct2d\D2D1_TRIANGLE.htm
 tech.root: Direct2D
 ms.assetid: 6978bfff-05ca-44b6-8694-c4741f7987f6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_TRIANGLE, D2D1_TRIANGLE structure [Direct2D], d2d1/D2D1_TRIANGLE, direct2d.D2D1_TRIANGLE
 ms.topic: struct

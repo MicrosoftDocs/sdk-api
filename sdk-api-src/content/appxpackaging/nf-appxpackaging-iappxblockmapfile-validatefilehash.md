@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.ValidateFileHash
 title: IAppxBlockMapFile::ValidateFileHash (appxpackaging.h)
-author: windows-sdk-content
+
 description: Validates the content of a file against the hashes stored in the block elements for this block map file.
 old-location: appxpkg\iappxblockmapfile_validatefilehash.htm
 tech.root: appxpkg
 ms.assetid: 286EF8FD-925E-4B36-AFAB-D0EC949F8705
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapFile interface [App packaging and management],ValidateFileHash method, IAppxBlockMapFile.ValidateFileHash, IAppxBlockMapFile::ValidateFileHash, ValidateFileHash, ValidateFileHash method [App packaging and management], ValidateFileHash method [App packaging and management],IAppxBlockMapFile interface, appxpackaging/IAppxBlockMapFile::ValidateFileHash, appxpkg.iappxblockmapfile_validatefilehash
 ms.topic: method

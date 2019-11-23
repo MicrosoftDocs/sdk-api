@@ -1,12 +1,12 @@
 ---
 UID: NS:dhcpsapi._DATE_TIME
 title: DATE_TIME (dhcpsapi.h)
-author: windows-sdk-content
+
 description: The DATE_TIME structure defines a 64-bit integer value that contains a date/time, expressed as the number of ticks (100-nanosecond increments) since 12:00 midnight, January 1, 1 C.E. in the Gregorian calendar.
 old-location: dhcp\date_time.htm
 tech.root: DHCP
 ms.assetid: 2aca69b1-b7e5-4fda-b706-ed659d86cbd5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPDATE_TIME, *PDATE_TIME, DATE_TIME, DATE_TIME structure [DHCP], LPDATE_TIME, LPDATE_TIME structure pointer [DHCP], dhcp.date_time, dhcpsapi/LPDATE_TIME, dhcpsapi/_DATE_TIME'
 ms.topic: struct

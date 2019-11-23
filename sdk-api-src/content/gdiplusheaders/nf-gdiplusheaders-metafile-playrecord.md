@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Metafile.PlayRecord
 title: Metafile::PlayRecord (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Metafile::PlayRecord method plays a metafile record.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_PlayRecord_recordType_flags_dataSize_data_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\playrecord.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Metafile class [GDI+],PlayRecord method, Metafile.PlayRecord, Metafile::PlayRecord, PlayRecord, PlayRecord method [GDI+], PlayRecord method [GDI+],Metafile class, _gdiplus_CLASS_Metafile_PlayRecord_recordType_flags_dataSize_data_, gdiplus._gdiplus_CLASS_Metafile_PlayRecord_recordType_flags_dataSize_data_
 ms.topic: method

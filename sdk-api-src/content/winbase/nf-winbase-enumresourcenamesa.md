@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.EnumResourceNamesA
 title: EnumResourceNamesA function (winbase.h)
-author: windows-sdk-content
+
 description: Enumerates resources of a specified type within a binary module.
 old-location: menurc\enumresourcenames.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcenames.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumResourceNames, EnumResourceNames function [Menus and Other Resources], EnumResourceNamesA, EnumResourceNamesW, _win32_EnumResourceNames, _win32_enumresourcenames_cpp, menurc.enumresourcenames, winbase/EnumResourceNames, winbase/EnumResourceNamesA, winbase/EnumResourceNamesW, winui._win32_enumresourcenames
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:xapofx.FXMASTERINGLIMITER_PARAMETERS
 title: FXMASTERINGLIMITER_PARAMETERS (xapofx.h)
-author: windows-sdk-content
+
 description: Parameters for use with the FXMasteringLimiter XAPO.
 old-location: xaudio2\fxmasteringlimiter_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXMASTERINGLIMITER_PARAMETERS
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FXMASTERINGLIMITER_PARAMETERS, FXMASTERINGLIMITER_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXMASTERINGLIMITER_PARAMETERS, xaudio2.fxmasteringlimiter_parameters
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:devicetopology.IAudioLoudness.GetEnabled
 title: IAudioLoudness::GetEnabled (devicetopology.h)
-author: windows-sdk-content
+
 description: The GetEnabled method gets the current state (enabled or disabled) of the loudness control.
 old-location: coreaudio\iaudioloudness_getenabled.htm
 tech.root: CoreAudio
 ms.assetid: 1ce0cd1b-e80f-45dc-b64e-1aa09bb53dbd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEnabled, GetEnabled method [Core Audio], GetEnabled method [Core Audio],IAudioLoudness interface, IAudioLoudness interface [Core Audio],GetEnabled method, IAudioLoudness.GetEnabled, IAudioLoudness::GetEnabled, IAudioLoudnessGetEnabled, coreaudio.iaudioloudness_getenabled, devicetopology/IAudioLoudness::GetEnabled
 ms.topic: method

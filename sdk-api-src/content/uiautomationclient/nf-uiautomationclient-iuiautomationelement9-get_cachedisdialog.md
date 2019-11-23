@@ -1,11 +1,11 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement9.get_CachedIsDialog
 title: IUIAutomationElement9.get_CachedIsDialog (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the cached is dialog window indicator for the element.
 old-location: winauto\uiauto_IUIAutomationElement9_CachedIsDialog.htm
 tech.root: WinAuto
-ms.author: windowssdkdev
+
 ms.date: 04/29/2019
 ms.keywords: CachedIsDialog property [Windows Accessibility], CachedIsDialog property [Windows Accessibility],IUIAutomationElement9 interface, IUIAutomationElement9 interface [Windows Accessibility],CachedIsDialog property, IUIAutomationElement9.CachedIsDialog, IUIAutomationElement9.get_CachedIsDialog, IUIAutomationElement9::CachedIsDialog, IUIAutomationElement9::get_CachedIsDialog, get_CachedIsDialog, uiautomationclient/IUIAutomationElement9::CachedIsDialog, uiautomationclient/IUIAutomationElement9::get_CachedIsDialog, winauto.uiauto_IUIAutomationElement9_CachedIsDialog
 ms.topic: method

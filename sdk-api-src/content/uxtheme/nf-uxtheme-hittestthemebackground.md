@@ -1,12 +1,12 @@
 ---
 UID: NF:uxtheme.HitTestThemeBackground
 title: HitTestThemeBackground function (uxtheme.h)
-author: windows-sdk-content
+
 description: Retrieves a hit test code for a point in the background specified by a visual style.
 old-location: controls\HitTestThemeBackground.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\hittestthemebackground.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HitTestThemeBackground, HitTestThemeBackground function [Windows Controls], controls.HitTestThemeBackground, controls.inet_HitTestThemeBackground, inet_HitTestThemeBackground, inet_HitTestThemeBackground_cpp, uxtheme/HitTestThemeBackground
 ms.topic: function

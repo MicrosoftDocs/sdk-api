@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICertificationAuthority.get_Property
 title: ICertificationAuthority::get_Property (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves a certification authority property value.
 old-location: security\icertificationauthority_property.htm
 tech.root: seccertenroll
 ms.assetid: 02f2d6bf-9290-43e1-ae44-a21325c176b2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICertificationAuthority interface [Security],Property property, ICertificationAuthority.Property, ICertificationAuthority.get_Property, ICertificationAuthority::Property, ICertificationAuthority::get_Property, Property property [Security], Property property [Security],ICertificationAuthority interface, certenroll/ICertificationAuthority::Property, certenroll/ICertificationAuthority::get_Property, get_Property, security.icertificationauthority_property
 ms.topic: method

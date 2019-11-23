@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d12.ID3D12QueryHeap
 title: ID3D12QueryHeap (d3d12.h)
-author: windows-sdk-content
+
 description: Manages a query heap. A query heap holds an array of queries, referenced by indexes.
 old-location: direct3d12\id3d12queryheap.htm
 tech.root: direct3d12
 ms.assetid: 330DE59A-8098-4255-85DD-0C439DD48250
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12QueryHeap, ID3D12QueryHeap interface, ID3D12QueryHeap interface,described, d3d12/ID3D12QueryHeap, direct3d12.id3d12queryheap
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d10.ID3D10Predicate
 title: ID3D10Predicate (d3d10.h)
-author: windows-sdk-content
+
 description: A predicate interface determines whether geometry should be processed depending on the results of a previous draw call.
 old-location: direct3d10\id3d10predicate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10predicate.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 350beb86-4869-80f7-d757-00ebb1191143, ID3D10Predicate, ID3D10Predicate interface [Direct3D 10], ID3D10Predicate interface [Direct3D 10],described, d3d10/ID3D10Predicate, direct3d10.id3d10predicate
 ms.topic: interface

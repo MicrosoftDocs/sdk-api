@@ -1,7 +1,7 @@
 ---
 UID: NA:wdstci
 ms.assetid: 99907bac-e07a-38b4-afcd-be1c08ac8854
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

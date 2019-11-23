@@ -1,12 +1,12 @@
 ---
 UID: NF:shellapi.ShellExecuteExA
 title: ShellExecuteExA function (shellapi.h)
-author: windows-sdk-content
+
 description: Performs an operation on a specified file.
 old-location: shell\ShellExecuteEx.htm
 tech.root: shell
 ms.assetid: 7850d19c-dadb-44a1-85d9-d5b897edb39f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ShellExecuteEx, ShellExecuteEx function [Windows Shell], ShellExecuteExA, ShellExecuteExW, _win32_ShellExecuteEx, _win32_ShellExecuteEx_cpp, shell.ShellExecuteEx, shellapi/ShellExecuteEx, shellapi/ShellExecuteExA, shellapi/ShellExecuteExW
 ms.topic: function

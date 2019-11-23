@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITAllocatorProperties.SetAllocatorProperties
 title: ITAllocatorProperties::SetAllocatorProperties (tapi3.h)
-author: windows-sdk-content
+
 description: The SetAllocatorProperties method must be called before connection and will force the MSP to use these values during filter negotiation. If the connecting filter doesn't accept these values, the connection is not established.
 old-location: tapi3\itallocatorproperties_setallocatorproperties.htm
 tech.root: Tapi
 ms.assetid: 3ab13fac-2667-44ce-aa1a-72cd18d37b0a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITAllocatorProperties interface [TAPI 2.2],SetAllocatorProperties method, ITAllocatorProperties.SetAllocatorProperties, ITAllocatorProperties::SetAllocatorProperties, SetAllocatorProperties, SetAllocatorProperties method [TAPI 2.2], SetAllocatorProperties method [TAPI 2.2],ITAllocatorProperties interface, _tapi3_itallocatorproperties_setallocatorproperties, tapi3.itallocatorproperties_setallocatorproperties, tapi3ds/ITAllocatorProperties::SetAllocatorProperties
 ms.topic: method

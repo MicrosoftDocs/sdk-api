@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderSimple.get_HostRawElementProvider
 title: IRawElementProviderSimple::get_HostRawElementProvider (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Specifies the host provider for this element.
 old-location: winauto\uiauto_IRawElementProviderSimple_HostRawElementProvider.htm
 tech.root: WinAuto
 ms.assetid: fcbd3dc8-5bc7-48ae-bc21-009876b3e673
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HostRawElementProvider property [Windows Accessibility], HostRawElementProvider property [Windows Accessibility],IRawElementProviderSimple interface, IRawElementProviderSimple interface [Windows Accessibility],HostRawElementProvider property, IRawElementProviderSimple.HostRawElementProvider, IRawElementProviderSimple.get_HostRawElementProvider, IRawElementProviderSimple::HostRawElementProvider, IRawElementProviderSimple::get_HostRawElementProvider, get_HostRawElementProvider, uiauto.uiauto_IRawElementProviderSimple_HostRawElementProvider, uiauto_IRawElementProviderSimple_HostRawElementProvider, uiautomationcore/IRawElementProviderSimple::HostRawElementProvider, uiautomationcore/IRawElementProviderSimple::get_HostRawElementProvider, winauto.uiauto_IRawElementProviderSimple_HostRawElementProvider
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.CreateTopology
 title: IBDA_Topology::CreateTopology (bdaiface.h)
-author: windows-sdk-content
+
 description: The CreateTopology method associates an instance of an input pin with an instance of an output pin.
 old-location: mstv\ibda_topology_createtopology.htm
 tech.root: mstv
 ms.assetid: 6c91e614-b1b4-4cf5-90d2-15823e5952cb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateTopology, CreateTopology method [Microsoft TV Technologies], CreateTopology method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],CreateTopology method, IBDA_Topology.CreateTopology, IBDA_Topology::CreateTopology, IBDA_TopologyCreateTopology, bdaiface/IBDA_Topology::CreateTopology, mstv.ibda_topology_createtopology
 ms.topic: method

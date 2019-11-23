@@ -1,7 +1,7 @@
 ---
 UID: NA:ddeml
 ms.assetid: 60102be7-9f24-3611-84c8-c0d1e56ab862
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

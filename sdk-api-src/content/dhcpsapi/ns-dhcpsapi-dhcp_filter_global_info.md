@@ -1,12 +1,12 @@
 ---
 UID: NS:dhcpsapi._DHCP_FILTER_GLOBAL_INFO
 title: DHCP_FILTER_GLOBAL_INFO (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Contains information about the enabling and disabling of the allow and deny filter lists.
 old-location: dhcp\dhcp_filter_global_info.htm
 tech.root: DHCP
 ms.assetid: babf9cdb-bd43-41ea-9cb4-209ff129b0f2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_FILTER_GLOBAL_INFO, DHCP_FILTER_GLOBAL_INFO, DHCP_FILTER_GLOBAL_INFO structure [DHCP], PDHCP_FILTER_GLOBAL_INFO, PDHCP_FILTER_GLOBAL_INFO structure pointer [DHCP], dhcp.dhcp_filter_global_info, dhcpsapi/DHCP_FILTER_GLOBAL_INFO, dhcpsapi/PDHCP_FILTER_GLOBAL_INFO"
 ms.topic: struct

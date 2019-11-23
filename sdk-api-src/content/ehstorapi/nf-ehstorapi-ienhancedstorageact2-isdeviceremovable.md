@@ -1,12 +1,12 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT2.IsDeviceRemovable
 title: IEnhancedStorageACT2::IsDeviceRemovable (ehstorapi.h)
-author: windows-sdk-content
+
 description: IEnhancedStorageACT2::IsDeviceRemovable method returns information that indicates if the device associated with the ACT is removable.
 old-location: enstor\ienhancedstorageact2_isdeviceremovable.htm
 tech.root: enstor
 ms.assetid: 1118756d-56d7-4f59-8e2a-2cb970a7a62a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageACT2 interface [Enhanced Storage],IsDeviceRemovable method, IEnhancedStorageACT2.IsDeviceRemovable, IEnhancedStorageACT2::IsDeviceRemovable, IsDeviceRemovable, IsDeviceRemovable method [Enhanced Storage], IsDeviceRemovable method [Enhanced Storage],IEnhancedStorageACT2 interface, ehstorapi/IEnhancedStorageACT2::IsDeviceRemovable, enstor.ienhancedstorageact2_isdeviceremovable
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetResponsePacket
 title: EapPeerGetResponsePacket function (eapmethodpeerapis.h)
-author: windows-sdk-content
+
 description: Obtains a response packet from the EAP method.
 old-location: eaphost\eappeergetresponsepacket.htm
 tech.root: eaphost
 ms.assetid: 4e1deaab-53fe-4c8f-9018-d7b148131231
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EapPeerGetResponsePacket, EapPeerGetResponsePacket function [EAPHost], eaphost.eappeergetresponsepacket, eapmethodpeerapis/EapPeerGetResponsePacket
 ms.topic: function

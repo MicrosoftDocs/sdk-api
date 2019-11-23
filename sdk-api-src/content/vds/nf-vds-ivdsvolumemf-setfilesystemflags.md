@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsVolumeMF.SetFileSystemFlags
 title: IVdsVolumeMF::SetFileSystemFlags (vds.h)
-author: windows-sdk-content
+
 description: Sets the file-system flags.
 old-location: base\ivdsvolumemf_setfilesystemflags.htm
 tech.root: VDS
 ms.assetid: 836f4a8d-8736-4876-8de3-a6265d7eb66a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF interface [VDS],SetFileSystemFlags method, IVdsVolumeMF.SetFileSystemFlags, IVdsVolumeMF::SetFileSystemFlags, SetFileSystemFlags, SetFileSystemFlags method [VDS], SetFileSystemFlags method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_setfilesystemflags, vds/IVdsVolumeMF::SetFileSystemFlags
 ms.topic: method

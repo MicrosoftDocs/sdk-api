@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetClipGeometry
 title: IXpsOMVisual::GetClipGeometry (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets a pointer to the IXpsOMGeometry interface that contains the resolved geometry of the visual's clipping region.
 old-location: xps\ixpsomvisual_getclipgeometry.htm
 tech.root: printdocs
 ms.assetid: f56fa077-749c-422b-b82d-161f9e5d4766
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClipGeometry, GetClipGeometry method [XPS Documents and Packaging], GetClipGeometry method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetClipGeometry method, IXpsOMVisual.GetClipGeometry, IXpsOMVisual::GetClipGeometry, xps.ixpsomvisual_getclipgeometry, xpsobjectmodel/IXpsOMVisual::GetClipGeometry
 ms.topic: method

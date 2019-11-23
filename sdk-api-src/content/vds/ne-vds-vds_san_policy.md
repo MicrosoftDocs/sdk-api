@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_SAN_POLICY
 title: VDS_SAN_POLICY (vds.h)
-author: windows-sdk-content
+
 description: Defines the set of valid disk SAN policy flags.
 old-location: base\vds_san_policy.htm
 tech.root: VDS
 ms.assetid: 2da99388-8ee6-4e6b-98dc-52f12290c4dc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VDS_SAN_POLICY, VDS_SAN_POLICY enumeration, VDS_SP_OFFLINE, VDS_SP_OFFLINE_SHARED, VDS_SP_ONLINE, VDS_SP_UNKNOWN, base.vds_san_policy, vds/VDS_SAN_POLICY, vds/VDS_SP_OFFLINE, vds/VDS_SP_OFFLINE_SHARED, vds/VDS_SP_ONLINE, vds/VDS_SP_UNKNOWN
 ms.topic: enum

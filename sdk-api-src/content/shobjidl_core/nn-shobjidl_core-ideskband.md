@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IDeskBand
 title: IDeskBand (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Used to obtain information about a band object.
 old-location: shell\IDeskBand.htm
 tech.root: shell
 ms.assetid: eb9f7f2a-a6be-4527-8a32-325dad4c8000
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDeskBand, IDeskBand interface [Windows Shell], IDeskBand interface [Windows Shell],described, _win32_IDeskBand, shell.IDeskBand, shobjidl_core/IDeskBand
 ms.topic: interface

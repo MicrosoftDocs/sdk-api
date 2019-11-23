@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroup.CreateProperty
 title: ISharedPropertyGroup::CreateProperty (comsvcs.h)
-author: windows-sdk-content
+
 description: Creates a new shared property with the specified name.
 old-location: cos\isharedpropertygroup_createproperty.htm
 tech.root: cossdk
 ms.assetid: bc34ec47-b39f-49fd-a8dd-8c96bb708e88
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateProperty, CreateProperty method [COM+], CreateProperty method [COM+],ISharedPropertyGroup interface, ISharedPropertyGroup interface [COM+],CreateProperty method, ISharedPropertyGroup.CreateProperty, ISharedPropertyGroup::CreateProperty, _cos_ISharedPropertyGroup_CreateProperty, comsvcs/ISharedPropertyGroup::CreateProperty, cos.isharedpropertygroup_createproperty
 ms.topic: method

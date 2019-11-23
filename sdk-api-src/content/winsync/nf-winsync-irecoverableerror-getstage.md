@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IRecoverableError.GetStage
 title: IRecoverableError::GetStage (winsync.h)
-author: windows-sdk-content
+
 description: Gets the stage in the synchronization session when the error occurred.
 old-location: winsync\irecoverableerror_getstage.htm
 tech.root: winsync
 ms.assetid: 4ddfb151-37f1-4df2-827a-11bc6f23ace6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStage, GetStage method [Windows Sync], GetStage method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetStage method, IRecoverableError.GetStage, IRecoverableError::GetStage, winsync.irecoverableerror_getstage, winsync/IRecoverableError::GetStage
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.Edit_GetFileLineFromChar
 title: Edit_GetFileLineFromChar macro (commctrl.h)
-author: windows-sdk-content
+
 description: Gets the index of the file (or logical) line of text that includes the specified character index (text wrap delimiters are ignored). You can use this macro or send the EM_FILELINEFROMCHAR message explicitly.
 old-location: controls\edit_getfilelinefromchar.htm
 tech.root: Controls
 ms.assetid: 1427DEB0-2B15-4DC5-AD0B-D4F9BA12CB2C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Edit_GetFileLineFromChar, Edit_GetFileLineFromChar macro [Windows Controls], commctrl/Edit_GetFileLineFromChar, controls.edit_getfilelinefromchar
 ms.topic: macro

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IReferenceClock.AdviseTime
 title: IReferenceClock::AdviseTime (strmif.h)
-author: windows-sdk-content
+
 description: The AdviseTime method creates a one-shot advise request.
 old-location: dshow\ireferenceclock_advisetime.htm
 tech.root: DirectShow
 ms.assetid: 22f0c987-a3ae-4d6e-9184-a0a4282340aa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AdviseTime, AdviseTime method [DirectShow], AdviseTime method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],AdviseTime method, IReferenceClock.AdviseTime, IReferenceClock::AdviseTime, IReferenceClockAdviseTime, dshow.ireferenceclock_advisetime, strmif/IReferenceClock::AdviseTime
 ms.topic: method

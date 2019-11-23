@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.ReleaseDC
 title: IOleInPlaceSiteWindowless::ReleaseDC (ocidl.h)
-author: windows-sdk-content
+
 description: Releases the device context previously obtained by a call to IOleInPlaceSiteWindowless::GetDC.
 old-location: com\ioleinplacesitewindowless_releasedc.htm
 tech.root: com
 ms.assetid: 8778a58c-2995-4c14-826c-9c97e97e957b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],ReleaseDC method, IOleInPlaceSiteWindowless.ReleaseDC, IOleInPlaceSiteWindowless::ReleaseDC, ReleaseDC, ReleaseDC method [COM], ReleaseDC method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_releasedc, com.ioleinplacesitewindowless_releasedc, ocidl/IOleInPlaceSiteWindowless::ReleaseDC
 ms.topic: method

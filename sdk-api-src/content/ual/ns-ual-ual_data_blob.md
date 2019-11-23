@@ -1,12 +1,12 @@
 ---
 UID: NS:ual.tagUAL_DATA_BLOB
 title: UAL_DATA_BLOB (ual.h)
-author: windows-sdk-content
+
 description: Specifies information about a User Access Logging (UAL) session.
 old-location: ual\ual_data_blob.htm
 tech.root: ual
 ms.assetid: 5C191327-0D15-41D7-8218-73F387740FDF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PUAL_DATA_BLOB, PUAL_DATA_BLOB, PUAL_DATA_BLOB structure pointer [User Access Logging], UAL_DATA_BLOB, UAL_DATA_BLOB structure [User Access Logging], ual.ual_data_blob, ual/PUAL_DATA_BLOB, ual/UAL_DATA_BLOB"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsResetHeap
 title: WsResetHeap function (webservices.h)
-author: windows-sdk-content
+
 description: Releases all Heap allocations. Allocations made on the Heap using WsAlloc are no longer valid. Allocation for the Heap object itself is not released.
 old-location: wsw\wsresetheap.htm
 tech.root: wsw
 ms.assetid: c927ccb9-66c8-4acf-bbb5-12313ea80ee0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsResetHeap, WsResetHeap function [Web Services for Windows], webservices/WsResetHeap, wsw.wsresetheap
 ms.topic: function

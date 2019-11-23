@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_unbind_s
 title: ldap_unbind_s function (winldap.h)
-author: windows-sdk-content
+
 description: The ldap_unbind_s function synchronously frees resources associated with an LDAP session.
 old-location: ldap\ldap_unbind_s.htm
 tech.root: ldap
 ms.assetid: b4dcf3cc-d4cb-40ca-a57e-150d4008108c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_unbind_s, ldap.ldap__unbind__s, ldap.ldap_unbind_s, ldap_unbind_s, ldap_unbind_s function [LDAP], winldap/ldap_unbind_s"
 ms.topic: function

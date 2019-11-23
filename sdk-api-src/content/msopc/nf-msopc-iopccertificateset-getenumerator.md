@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcCertificateSet.GetEnumerator
 title: IOpcCertificateSet::GetEnumerator (msopc.h)
-author: windows-sdk-content
+
 description: Gets an enumerator of certificates in the set.
 old-location: opc\iopccertificateset_getenumerator.htm
 tech.root: OPC
 ms.assetid: a48b9225-07cb-4367-b011-dc2297c2c4b3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcCertificateSet interface, IOpcCertificateSet interface [Open Packaging Conventions],GetEnumerator method, IOpcCertificateSet.GetEnumerator, IOpcCertificateSet::GetEnumerator, msopc/IOpcCertificateSet::GetEnumerator, opc.iopccertificateset_getenumerator
 ms.topic: method

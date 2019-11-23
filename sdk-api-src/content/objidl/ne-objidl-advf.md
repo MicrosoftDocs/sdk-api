@@ -1,12 +1,12 @@
 ---
 UID: NE:objidl.tagADVF
 title: ADVF (objidl.h)
-author: windows-sdk-content
+
 description: Flags that control caching and notification of changes in data.
 old-location: com\advf.htm
 tech.root: com
 ms.assetid: e1ad9c17-e492-4891-bf1d-cbac48ce537a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ADVF, ADVF enumeration [COM], ADVFCACHE_FORCEBUILTIN, ADVFCACHE_NOHANDLER, ADVFCACHE_ONSAVE, ADVF_DATAONSTOP, ADVF_NODATA, ADVF_ONLYONCE, ADVF_PRIMEFIRST, _ole_ADVF, com.advf, objidl/ADVF, objidl/ADVFCACHE_FORCEBUILTIN, objidl/ADVFCACHE_NOHANDLER, objidl/ADVFCACHE_ONSAVE, objidl/ADVF_DATAONSTOP, objidl/ADVF_NODATA, objidl/ADVF_ONLYONCE, objidl/ADVF_PRIMEFIRST
 ms.topic: enum

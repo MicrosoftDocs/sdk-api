@@ -1,12 +1,12 @@
 ---
 UID: NS:wtsapi32._WTSINFOW
 title: WTSINFOW (wtsapi32.h)
-author: windows-sdk-content
+
 description: Contains information about a Remote Desktop Services session.
 old-location: termserv\wtsinfo.htm
 tech.root: TermServ
 ms.assetid: 14e2d3bb-8c83-45aa-aa63-87afef3008b3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PWTSINFOW, PWTSINFO, PWTSINFO structure pointer [Remote Desktop Services], WTSINFO, WTSINFO structure [Remote Desktop Services], WTSINFOA, WTSINFOW, termserv.wtsinfo, wtsapi32/PWTSINFO, wtsapi32/WTSINFO, wtsapi32/WTSINFOA, wtsapi32/WTSINFOW'
 ms.topic: struct

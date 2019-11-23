@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddAutomationEventHandler
 title: IUIAutomationEventHandlerGroup::AddAutomationEventHandler (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Registers a method that handles Microsoft UI Automation events.
 old-location: winauto\uiauto_iuiautomationeventhandlergroup_addautomationeventhandler.htm
 tech.root: WinAuto
 ms.assetid: EEBEDC7B-48B5-4074-8B85-1DC8B47A90AD
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddAutomationEventHandler, AddAutomationEventHandler method [Windows Accessibility], AddAutomationEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddAutomationEventHandler method, IUIAutomationEventHandlerGroup.AddAutomationEventHandler, IUIAutomationEventHandlerGroup::AddAutomationEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddAutomationEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addautomationeventhandler
 ms.topic: method

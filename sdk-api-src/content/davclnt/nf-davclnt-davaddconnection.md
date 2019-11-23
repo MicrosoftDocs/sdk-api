@@ -1,12 +1,12 @@
 ---
 UID: NF:davclnt.DavAddConnection
 title: DavAddConnection function (davclnt.h)
-author: windows-sdk-content
+
 description: Creates a secure connection to a WebDAV server or to a remote file or directory on a WebDAV server.
 old-location: webdav\davaddconnection.htm
 tech.root: WebDAV
 ms.assetid: d69cba04-503c-4d21-b762-3094c0921e28
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DavAddConnection, DavAddConnection function [WebDAV], davclnt/DavAddConnection, webdav.davaddconnection
 ms.topic: function

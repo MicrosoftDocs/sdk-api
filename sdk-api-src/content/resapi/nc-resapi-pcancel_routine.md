@@ -1,12 +1,12 @@
 ---
 UID: NC:resapi.PCANCEL_ROUTINE
 title: PCANCEL_ROUTINE (resapi.h)
-author: windows-sdk-content
+
 description: Cancels an operation on a resource.
 old-location: mscs\cancel.htm
 tech.root: MsCS
 ms.assetid: F2A22C00-5B25-48F7-BB25-9C351A47B770
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel callback, Cancel callback function [Failover Cluster], PCANCEL_ROUTINE, PCANCEL_ROUTINE callback function [Failover Cluster], mscs.cancel, resapi/Cancel, resapi/PCANCEL_ROUTINE
 ms.topic: callback

@@ -1,12 +1,12 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.GetMaxIdealVideoSize
 title: IVMRWindowlessControl9::GetMaxIdealVideoSize (vmr9.h)
-author: windows-sdk-content
+
 description: The GetMaxIdealVideoSize method retrieves the maximum video size that the VMR can display without incurring significant performance or image quality degradation.
 old-location: dshow\ivmrwindowlesscontrol9_getmaxidealvideosize.htm
 tech.root: DirectShow
 ms.assetid: 0aac9c10-c152-4c26-b520-b4ccaf37600c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMaxIdealVideoSize, GetMaxIdealVideoSize method [DirectShow], GetMaxIdealVideoSize method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetMaxIdealVideoSize method, IVMRWindowlessControl9.GetMaxIdealVideoSize, IVMRWindowlessControl9::GetMaxIdealVideoSize, IVMRWindowlessControl9GetMaxIdealVideoSize, dshow.ivmrwindowlesscontrol9_getmaxidealvideosize, vmr9/IVMRWindowlessControl9::GetMaxIdealVideoSize
 ms.topic: method

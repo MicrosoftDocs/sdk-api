@@ -1,12 +1,12 @@
 ---
 UID: NF:psapi.GetProcessImageFileNameA
 title: GetProcessImageFileNameA function (psapi.h)
-author: windows-sdk-content
+
 description: Retrieves the name of the executable file for the specified process.
 old-location: psapi\getprocessimagefilename.htm
 tech.root: psapi
 ms.assetid: 819fc2f4-0801-417b-9cbb-d7fd2894634e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetProcessImageFileName, GetProcessImageFileName function [PSAPI], GetProcessImageFileNameA, GetProcessImageFileNameW, K32GetProcessImageFileName, K32GetProcessImageNameA, K32GetProcessImageNameW, _win32_getprocessimagefilename, base.getprocessimagefilename, psapi.getprocessimagefilename, psapi/GetProcessImageFileName, psapi/GetProcessImageFileNameA, psapi/GetProcessImageFileNameW, psapi/K32GetProcessImageFileName, psapi/K32GetProcessImageNameA, psapi/K32GetProcessImageNameW
 ms.topic: function

@@ -1,7 +1,7 @@
 ---
 UID: TP:indexsrv
 ms.assetid: 45f6cbf9-5f8f-3f61-8756-c82b7e311782
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

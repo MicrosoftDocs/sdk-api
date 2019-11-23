@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.LongToInt
 title: LongToInt function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type LONG to a value of type INT.
 old-location: shell\LongToInt.htm
 tech.root: shell
 ms.assetid: fb7ee73a-78f1-43cd-aa00-b11f1ee25c49
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LongToInt, LongToInt function [Windows Shell], _shell_LongToInt, intsafe/LongToInt, shell.LongToInt
 ms.topic: function

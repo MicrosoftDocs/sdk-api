@@ -1,12 +1,12 @@
 ---
 UID: NF:ncrypt.NCryptCreateClaim
 title: NCryptCreateClaim function (ncrypt.h)
-author: windows-sdk-content
+
 description: Creates a key attestation claim.
 old-location: security\ncryptcreateclaim.htm
 tech.root: SecCNG
 ms.assetid: EBEE3A67-0693-4B85-88B1-580CB2152703
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NCryptCreateClaim, NCryptCreateClaim function [Security], ncrypt/NCryptCreateClaim, security.ncryptcreateclaim
 ms.topic: function

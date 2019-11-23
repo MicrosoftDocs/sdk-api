@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509Enrollment2.get_PolicyServer
 title: IX509Enrollment2::get_PolicyServer (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves the certificate enrollment policy (CEP) server that contains the template used during initialization.
 old-location: security\ix509enrollment2_policyserver.htm
 tech.root: seccertenroll
 ms.assetid: dae8489b-39b1-41ba-9346-c038cd0acc1b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment2 interface [Security],PolicyServer property, IX509Enrollment2.PolicyServer, IX509Enrollment2.get_PolicyServer, IX509Enrollment2::PolicyServer, IX509Enrollment2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::PolicyServer, certenroll/IX509Enrollment2::get_PolicyServer, get_PolicyServer, security.ix509enrollment2_policyserver
 ms.topic: method

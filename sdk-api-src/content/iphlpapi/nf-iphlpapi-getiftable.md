@@ -1,12 +1,12 @@
 ---
 UID: NF:iphlpapi.GetIfTable
 title: GetIfTable function (iphlpapi.h)
-author: windows-sdk-content
+
 description: The GetIfTable function retrieves the MIB-II interface table.
 old-location: iphlp\getiftable.htm
 tech.root: IpHlp
 ms.assetid: 6a46c1df-b274-415e-b842-fc1adf6fa206
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetIfTable, GetIfTable function [IP Helper], _iphlp_getiftable, iphlp.getiftable, iphlpapi/GetIfTable
 ms.topic: function

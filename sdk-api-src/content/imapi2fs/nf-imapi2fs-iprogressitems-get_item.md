@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IProgressItems.get_Item
 title: IProgressItems::get_Item (imapi2fs.h)
-author: windows-sdk-content
+
 description: Retrieves the specified progress item from the collection.
 old-location: imapi\iprogressitems_get_item.htm
 tech.root: imapi
 ms.assetid: 74d8e74d-0af6-457a-a16b-f959757b5a86
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IProgressItems interface [IMAPI],get_Item method, IProgressItems.get_Item, IProgressItems::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IProgressItems interface, imapi.iprogressitems_get_item, imapi2fs/IProgressItems::get_Item
 ms.topic: method

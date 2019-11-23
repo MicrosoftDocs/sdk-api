@@ -1,12 +1,12 @@
 ---
 UID: NF:recapis.GetPreferredPacketDescription
 title: GetPreferredPacketDescription function (recapis.h)
-author: windows-sdk-content
+
 description: Retrieves a packet description that contains the packet properties the recognizer uses.
 old-location: tablet\getpreferredpacketdescription.htm
 tech.root: tablet
 ms.assetid: 6600b345-db7a-49ca-a54a-7d212952cb8f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 6600b345-db7a-49ca-a54a-7d212952cb8f, GetPreferredPacketDescription, GetPreferredPacketDescription function [Tablet PC], recapis/GetPreferredPacketDescription, tablet.getpreferredpacketdescription
 ms.topic: function

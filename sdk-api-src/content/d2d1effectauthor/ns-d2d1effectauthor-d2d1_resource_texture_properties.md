@@ -1,12 +1,12 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_RESOURCE_TEXTURE_PROPERTIES
 title: D2D1_RESOURCE_TEXTURE_PROPERTIES (d2d1effectauthor.h)
-author: windows-sdk-content
+
 description: Defines a resource texture when the original resource texture is created.
 old-location: direct2d\d2d1_resource_texture_properties.htm
 tech.root: Direct2D
 ms.assetid: 23a524a4-2226-497f-a20b-74cda924c429
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_RESOURCE_TEXTURE_PROPERTIES, D2D1_RESOURCE_TEXTURE_PROPERTIES structure [Direct2D], d2d1effectauthor/D2D1_RESOURCE_TEXTURE_PROPERTIES, direct2d.d2d1_resource_texture_properties
 ms.topic: struct

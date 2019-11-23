@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.Unadvise
 title: IOleAdviseHolder::Unadvise (oleidl.h)
-author: windows-sdk-content
+
 description: Deletes a previously established advisory connection.
 old-location: com\ioleadviseholder_unadvise.htm
 tech.root: com
 ms.assetid: 620bc43f-dfc7-48b7-a574-ca7287ffa42f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder interface [COM],Unadvise method, IOleAdviseHolder.Unadvise, IOleAdviseHolder::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_unadvise, com.ioleadviseholder_unadvise, oleidl/IOleAdviseHolder::Unadvise
 ms.topic: method

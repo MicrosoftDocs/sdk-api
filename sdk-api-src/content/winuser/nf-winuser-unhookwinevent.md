@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.UnhookWinEvent
 title: UnhookWinEvent function (winuser.h)
-author: windows-sdk-content
+
 description: Removes an event hook function created by a previous call to SetWinEventHook.
 old-location: winauto\unhookwinevent.htm
 tech.root: WinAuto
 ms.assetid: 5cffb279-85e1-4f7a-8bbb-d0d618f6afcd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UnhookWinEvent, UnhookWinEvent function [Windows Accessibility], _msaa_UnhookWinEvent, msaa.unhookwinevent, winauto.unhookwinevent, winuser/UnhookWinEvent
 ms.topic: function

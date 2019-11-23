@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1effects.D2D1_BLEND_PROP
 title: D2D1_BLEND_PROP (d2d1effects.h)
-author: windows-sdk-content
+
 description: Identifiers for properties of the Blend effect.
 old-location: direct2d\d2d1_blend_prop.htm
 tech.root: Direct2D
 ms.assetid: 475CD001-27F6-40DE-887E-EC3EECB40DDA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_BLEND_PROP, D2D1_BLEND_PROP enumeration [Direct2D], D2D1_BLEND_PROP_MODE, d2d1effects/D2D1_BLEND_PROP, d2d1effects/D2D1_BLEND_PROP_MODE, direct2d.d2d1_blend_prop
 ms.topic: enum

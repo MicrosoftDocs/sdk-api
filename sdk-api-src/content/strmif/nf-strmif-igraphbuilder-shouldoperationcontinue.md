@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IGraphBuilder.ShouldOperationContinue
 title: IGraphBuilder::ShouldOperationContinue (strmif.h)
-author: windows-sdk-content
+
 description: The ShouldOperationContinue method queries whether the current operation should continue.
 old-location: dshow\igraphbuilder_shouldoperationcontinue.htm
 tech.root: DirectShow
 ms.assetid: 0d862a41-6896-40a5-8bfc-129b15dfc671
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder interface [DirectShow],ShouldOperationContinue method, IGraphBuilder.ShouldOperationContinue, IGraphBuilder::ShouldOperationContinue, IGraphBuilderShouldOperationContinue, ShouldOperationContinue, ShouldOperationContinue method [DirectShow], ShouldOperationContinue method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_shouldoperationcontinue, strmif/IGraphBuilder::ShouldOperationContinue
 ms.topic: method

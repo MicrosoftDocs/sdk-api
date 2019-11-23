@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUBYTEN2.XMUBYTEN2(const uint8_t)
 title: XMUBYTEN2::XMUBYTEN2(const uint8_t) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Default constructor for XMUBYTEN2.
 old-location: Initializes a new instance of XMUBYTEN2 from a two-element uint8_t array argument.
 tech.root: dxmath
 ms.assetid: 7279d61f-209f-4b23-af9a-c10d56da8230
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMUBYTEN2, XMUBYTEN2 constructor [DirectX Math Support APIs], XMUBYTEN2 constructor [DirectX Math Support APIs],XMUBYTEN2 structure, XMUBYTEN2 structure [DirectX Math Support APIs],XMUBYTEN2 constructor, XMUBYTEN2.XMUBYTEN2, XMUBYTEN2.XMUBYTEN2(), XMUBYTEN2.XMUBYTEN2(const uint8_t), XMUBYTEN2::XMUBYTEN2, XMUBYTEN2::XMUBYTEN2(const uint8_t), dxmath.xmubyten2_ctor_1
 ms.topic: method

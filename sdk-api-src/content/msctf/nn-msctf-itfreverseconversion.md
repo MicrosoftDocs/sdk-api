@@ -1,12 +1,12 @@
 ---
 UID: NN:msctf.ITfReverseConversion
 title: ITfReverseConversion (msctf.h)
-author: windows-sdk-content
+
 description: Performs a reverse conversion of a specified string.
 old-location: tsf\itfreverseconversion_.htm
 tech.root: TSF
 ms.assetid: ca2e036a-d0f8-4372-872a-388217050d15
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfReverseConversion, ITfReverseConversion interface [Text Services Framework], ITfReverseConversion interface [Text Services Framework],described, msctf/ITfReverseConversion, tsf.itfreverseconversion_
 ms.topic: interface

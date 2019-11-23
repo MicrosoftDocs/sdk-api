@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetMeasurableCharacterRanges
 title: StringFormat::SetMeasurableCharacterRanges (gdiplusstringformat.h)
-author: windows-sdk-content
+
 description: The StringFormat::SetMeasurableCharacterRanges method sets a series of character ranges for this StringFormat object that, when in a string, can be measured by the MeasureCharacterRanges method.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetMeasurableCharacterRanges_rangeCount_ranges_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setmeasurablecharacterranges.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetMeasurableCharacterRanges, SetMeasurableCharacterRanges method [GDI+], SetMeasurableCharacterRanges method [GDI+],StringFormat class, StringFormat class [GDI+],SetMeasurableCharacterRanges method, StringFormat.SetMeasurableCharacterRanges, StringFormat::SetMeasurableCharacterRanges, _gdiplus_CLASS_StringFormat_SetMeasurableCharacterRanges_rangeCount_ranges_, gdiplus._gdiplus_CLASS_StringFormat_SetMeasurableCharacterRanges_rangeCount_ranges_
 ms.topic: method

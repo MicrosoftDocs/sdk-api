@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMATRIX.operator-mult-assign
 title: XMMATRIX::operator-mult-assign
-author: windows-sdk-content
+
 description: Performs a matrix multiplication of the current instance of XMMATRIX by another instance of XMMATRIX and returns a reference to the current instance, which has been updated.
 old-location: dxmath\xmmatrix_operator_muleq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.operator *=(const XMMATRIX)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMATRIX.operator *=, Use DirectX::::XMMATRIX::operator *=, XMMATRIX structure [DirectX Math Support APIs],operator *= method, XMMATRIX.operator *=, XMMATRIX.operator*=, XMMATRIX.operator-mult-assign, XMMATRIX::operator*=, XMMATRIX::operator-mult-assign, dxmath.xmmatrix_operator_muleq, operator *= method [DirectX Math Support APIs], operator *= method [DirectX Math Support APIs],XMMATRIX structure, operator*=
 ms.topic: method

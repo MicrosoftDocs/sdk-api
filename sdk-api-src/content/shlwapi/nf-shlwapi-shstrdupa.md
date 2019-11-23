@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.SHStrDupA
 title: SHStrDupA function (shlwapi.h)
-author: windows-sdk-content
+
 description: Makes a copy of a string in newly allocated memory.
 old-location: shell\SHStrDup.htm
 tech.root: shell
 ms.assetid: 6f014fb4-7637-48a8-9bec-d3278c46a6d8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHStrDup, SHStrDup function [Windows Shell], SHStrDupA, SHStrDupW, _win32_SHStrDup, shell.SHStrDup, shlwapi/SHStrDup, shlwapi/SHStrDupA, shlwapi/SHStrDupW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.FreeClusterHealthFault
 title: FreeClusterHealthFault function (resapi.h)
-author: windows-sdk-content
+
 description: TBD.
 old-location: mscs\freeclusterhealthfault.htm
 tech.root: MsCS
 ms.assetid: 5a79d105-dd15-4205-99e6-b389b2adeed5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FreeClusterHealthFault, FreeClusterHealthFault function [Failover Cluster], mscs.freeclusterhealthfault, resapi/FreeClusterHealthFault
 ms.topic: function

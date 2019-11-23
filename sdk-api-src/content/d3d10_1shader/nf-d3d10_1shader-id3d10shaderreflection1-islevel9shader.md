@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10_1shader.ID3D10ShaderReflection1.IsLevel9Shader
 title: ID3D10ShaderReflection1::IsLevel9Shader (d3d10_1shader.h)
-author: windows-sdk-content
+
 description: Indicates whether a shader was compiled in Direct3D 10 on Direct3D 9 mode.
 old-location: direct3d10\id3d10shaderreflection1_islevel9shader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_islevel9shader.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D10ShaderReflection1 interface [Direct3D 10],IsLevel9Shader method, ID3D10ShaderReflection1.IsLevel9Shader, ID3D10ShaderReflection1::IsLevel9Shader, IsLevel9Shader, IsLevel9Shader method [Direct3D 10], IsLevel9Shader method [Direct3D 10],ID3D10ShaderReflection1 interface, d3d10_1shader/ID3D10ShaderReflection1::IsLevel9Shader, direct3d10.id3d10shaderreflection1_islevel9shader, eca068fc-c01b-15d4-2317-dbe4b6cf2b82
 ms.topic: method

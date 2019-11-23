@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.GetPresentPerRenderOpDelay
 title: ID3D11Debug::GetPresentPerRenderOpDelay (d3d11sdklayers.h)
-author: windows-sdk-content
+
 description: Get the number of milliseconds to sleep after IDXGISwapChain::Present is called.
 old-location: direct3d11\id3d11debug_getpresentperrenderopdelay.htm
 tech.root: direct3d11
 ms.assetid: 7c55f370-df9c-40d5-97d8-6e25cb9e5579
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPresentPerRenderOpDelay, GetPresentPerRenderOpDelay method [Direct3D 11], GetPresentPerRenderOpDelay method [Direct3D 11],ID3D11Debug interface, ID3D11Debug interface [Direct3D 11],GetPresentPerRenderOpDelay method, ID3D11Debug.GetPresentPerRenderOpDelay, ID3D11Debug::GetPresentPerRenderOpDelay, d3d11sdklayers/ID3D11Debug::GetPresentPerRenderOpDelay, d80fb328-cbcf-b755-35cd-3ac7f39aeff8, direct3d11.id3d11debug_getpresentperrenderopdelay
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcServerInqDefaultPrincNameW
 title: RpcServerInqDefaultPrincNameW function (rpcdce.h)
-author: windows-sdk-content
+
 description: The RpcServerInqDefaultPrincName function obtains the default principal name for a given authentication service.
 old-location: rpc\rpcserverinqdefaultprincname.htm
 tech.root: Rpc
 ms.assetid: b265e0ae-cdef-450e-bf16-25da5bea7d5e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RpcServerInqDefaultPrincName, RpcServerInqDefaultPrincName function [RPC], RpcServerInqDefaultPrincNameA, RpcServerInqDefaultPrincNameW, _rpc_rpcserverinqdefaultprincname, rpc.rpcserverinqdefaultprincname, rpcdce/RpcServerInqDefaultPrincName, rpcdce/RpcServerInqDefaultPrincNameA, rpcdce/RpcServerInqDefaultPrincNameW
 ms.topic: function

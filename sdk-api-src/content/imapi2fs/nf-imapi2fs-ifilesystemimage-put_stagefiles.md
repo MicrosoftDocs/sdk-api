@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_StageFiles
 title: IFileSystemImage::put_StageFiles (imapi2fs.h)
-author: windows-sdk-content
+
 description: Determines if the files being added to the file system image should be staged before the burn.
 old-location: imapi\ifilesystemimage_put_stagefiles.htm
 tech.root: imapi
 ms.assetid: 1040831b-0bda-40b7-ab6d-c914515f4e69
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_StageFiles method, IFileSystemImage.put_StageFiles, IFileSystemImage::put_StageFiles, imapi.ifilesystemimage_put_stagefiles, imapi2fs/IFileSystemImage::put_StageFiles, put_StageFiles, put_StageFiles method [IMAPI], put_StageFiles method [IMAPI],IFileSystemImage interface
 ms.topic: method

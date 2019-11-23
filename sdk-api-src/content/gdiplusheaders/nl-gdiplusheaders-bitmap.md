@@ -1,12 +1,12 @@
 ---
 UID: NL:gdiplusheaders.Bitmap
 title: Bitmap (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Bitmap class inherits from the Image class.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmap.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+], Bitmap class [GDI+],described, _gdiplus_CLASS_Bitmap_Class, gdiplus._gdiplus_CLASS_Bitmap_Class, gdiplusheaders/Bitmap
 ms.topic: class

@@ -1,12 +1,12 @@
 ---
 UID: NC:mgm.PMGM_WRONG_IF_CALLBACK
 title: PMGM_WRONG_IF_CALLBACK (mgm.h)
-author: windows-sdk-content
+
 description: The PMGM_WRONG_IF_CALLBACK is a call into a routing protocol to notify the protocol that a packet has been received from the specified source and for the specified group on the wrong interface.
 old-location: rras\pmgm_wrong_if_callback.htm
 tech.root: RRAS
 ms.assetid: d74f6984-35a0-42f4-8460-b7ad2fbba1b8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MgmWrongIfCallback, PMGM_WRONG_IF_CALLBACK, PMGM_WRONG_IF_CALLBACK callback, PMGM_WRONG_IF_CALLBACK callback function [RAS], _mpr_pmgm_wrong_if_callback, mgm/PMGM_WRONG_IF_CALLBACK, rras.pmgm_wrong_if_callback
 ms.topic: callback

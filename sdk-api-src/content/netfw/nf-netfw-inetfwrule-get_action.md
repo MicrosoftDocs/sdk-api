@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.INetFwRule.get_Action
 title: INetFwRule::get_Action (netfw.h)
-author: windows-sdk-content
+
 description: Specifies the action for a rule or default setting.
 old-location: ics\inetfwrule_action.htm
 tech.root: ics
 ms.assetid: 95c30965-7394-42d8-9e9b-2adb4e5e2986
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Action property [ICS/ICF], Action property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Action property, INetFwRule.Action, INetFwRule.get_Action, INetFwRule::Action, INetFwRule::get_Action, INetFwRule::put_Action, get_Action, ics.inetfwrule_action, netfw/INetFwRule::Action, netfw/INetFwRule::get_Action, netfw/INetFwRule::put_Action
 ms.topic: method

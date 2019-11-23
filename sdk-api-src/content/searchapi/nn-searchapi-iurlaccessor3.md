@@ -1,12 +1,12 @@
 ---
 UID: NN:searchapi.IUrlAccessor3
 title: IUrlAccessor3 (searchapi.h)
-author: windows-sdk-content
+
 description: Extends the functionality of the IUrlAccessor2 interface with the IUrlAccessor3::GetImpersonationSidBlobs method to identify user security identifiers (SIDs) for a specified URL.
 old-location: search\_search_IUrlAccessor3.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor3\iurlaccessor3.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor3, IUrlAccessor3 interface [search], IUrlAccessor3 interface [search],described, _search_IUrlAccessor3, search._search_IUrlAccessor3, searchapi/IUrlAccessor3
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:iphlpapi.GetAdapterIndex
 title: GetAdapterIndex function (iphlpapi.h)
-author: windows-sdk-content
+
 description: The GetAdapterIndex function obtains the index of an adapter, given its name.
 old-location: iphlp\getadapterindex.htm
 tech.root: IpHlp
 ms.assetid: e98ee6b3-30c2-4629-859e-e7440781cd86
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAdapterIndex, GetAdapterIndex function [IP Helper], _iphlp_getadapterindex, iphlp.getadapterindex, iphlpapi/GetAdapterIndex
 ms.topic: function

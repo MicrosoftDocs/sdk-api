@@ -1,12 +1,12 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.SetBackupSchema
 title: IVssCreateExpressWriterMetadata::SetBackupSchema (vswriter.h)
-author: windows-sdk-content
+
 description: Used by an express writer to indicate in its Writer Metadata Document the types of backup operations it can participate in.
 old-location: base\ivsscreateexpresswritermetadata_setbackupschema.htm
 tech.root: VSS
 ms.assetid: b270424d-61e1-4984-a487-4dcb4e113985
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVssCreateExpressWriterMetadata interface,SetBackupSchema method, IVssCreateExpressWriterMetadata.SetBackupSchema, IVssCreateExpressWriterMetadata::SetBackupSchema, SetBackupSchema, SetBackupSchema method, SetBackupSchema method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_setbackupschema, vswriter/IVssCreateExpressWriterMetadata::SetBackupSchema
 ms.topic: method

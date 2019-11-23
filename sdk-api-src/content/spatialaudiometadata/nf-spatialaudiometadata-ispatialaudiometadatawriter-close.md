@@ -1,12 +1,12 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataWriter.Close
 title: ISpatialAudioMetadataWriter::Close (spatialaudiometadata.h)
-author: windows-sdk-content
+
 description: Completes any needed operations on the metadata buffer and releases the specified ISpatialAudioMetadataItems object.
 old-location: coreaudio\ispatialaudiometadatawriter_close.htm
 tech.root: CoreAudio
 ms.assetid: 2417E624-6535-49E2-9CF4-F927F731BE41
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Core Audio], Close method [Core Audio],ISpatialAudioMetadataWriter interface, ISpatialAudioMetadataWriter interface [Core Audio],Close method, ISpatialAudioMetadataWriter.Close, ISpatialAudioMetadataWriter::Close, coreaudio.ispatialaudiometadatawriter_close, spatialaudiometadata/ISpatialAudioMetadataWriter::Close
 ms.topic: method

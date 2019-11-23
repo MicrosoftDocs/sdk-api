@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetTrimming
 title: StringFormat::SetTrimming (gdiplusstringformat.h)
-author: windows-sdk-content
+
 description: The StringFormat::SetTrimming method sets the trimming style for this StringFormat object. The trimming style determines how to trim a string so that it fits into the layout rectangle.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetTrimming_trimming_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\settrimming.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetTrimming, SetTrimming method [GDI+], SetTrimming method [GDI+],StringFormat class, StringFormat class [GDI+],SetTrimming method, StringFormat.SetTrimming, StringFormat::SetTrimming, _gdiplus_CLASS_StringFormat_SetTrimming_trimming_, gdiplus._gdiplus_CLASS_StringFormat_SetTrimming_trimming_
 ms.topic: method

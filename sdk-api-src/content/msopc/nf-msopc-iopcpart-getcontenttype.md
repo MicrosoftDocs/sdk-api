@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcPart.GetContentType
 title: IOpcPart::GetContentType (msopc.h)
-author: windows-sdk-content
+
 description: Gets the media type of part content.
 old-location: opc\iopcpart_getcontenttype.htm
 tech.root: OPC
 ms.assetid: fe0d6ba3-8c62-4269-86ff-669609529933
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetContentType, GetContentType method [Open Packaging Conventions], GetContentType method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetContentType method, IOpcPart.GetContentType, IOpcPart::GetContentType, msopc/IOpcPart::GetContentType, opc.iopcpart_getcontenttype
 ms.topic: method

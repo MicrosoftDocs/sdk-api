@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockReader.GetContainerFormat
 title: IWICMetadataBlockReader::GetContainerFormat (wincodecsdk.h)
-author: windows-sdk-content
+
 description: Retrieves the container format of the decoder.
 old-location: wic\_wic_codec_iwicmetadatablockreader_getcontainerformat.htm
 tech.root: wic
 ms.assetid: b53e6b4e-e5b9-4e4a-b10b-443e3ca2d689
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetContainerFormat method, IWICMetadataBlockReader.GetContainerFormat, IWICMetadataBlockReader::GetContainerFormat, _wic_codec_iwicmetadatablockreader_getcontainerformat, wic._wic_codec_iwicmetadatablockreader_getcontainerformat, wincodecsdk/IWICMetadataBlockReader::GetContainerFormat
 ms.topic: method

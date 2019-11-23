@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPControls.fastForward
 title: IWMPControls::fastForward (wmp.h)
-author: windows-sdk-content
+
 description: The fastForward method starts fast play of the media item in the forward direction.
 old-location: wmp\iwmpcontrols_fastforward.htm
 tech.root: WMP
 ms.assetid: a741da8d-f1a2-4a96-acb6-7c40077f6b5e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],fastForward method, IWMPControls.fastForward, IWMPControls::fastForward, IWMPControlsfastForward, fastForward, fastForward method [Windows Media Player], fastForward method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_fastforward, wmp/IWMPControls::fastForward
 ms.topic: method

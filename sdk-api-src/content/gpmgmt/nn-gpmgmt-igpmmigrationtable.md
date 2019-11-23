@@ -1,12 +1,12 @@
 ---
 UID: NN:gpmgmt.IGPMMigrationTable
 title: IGPMMigrationTable (gpmgmt.h)
-author: windows-sdk-content
+
 description: The IGPMMigrationTable interface provides an interface to a migration table.
 old-location: gpmc\igpmmigrationtable.htm
 tech.root: gpmc
 ms.assetid: c80c76b0-8589-4ecb-b9bf-6b8377fa98dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GPMMigrationTable, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], IGPMMigrationTable interface [GPMC],described, gpmc.igpmmigrationtable, gpmgmt/IGPMMigrationTable
 ms.topic: interface

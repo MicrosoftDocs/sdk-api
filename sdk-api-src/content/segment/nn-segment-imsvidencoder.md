@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidEncoder
 title: IMSVidEncoder (segment.h)
-author: windows-sdk-content
+
 description: The IMSVidEncoder interface represents the MSVidEncoder feature object, which is required for stream buffer applications using the Video Control. For more information, see Using the Stream Buffer Engine with the Video Control.
 old-location: mstv\imsvidencoder.htm
 tech.root: mstv
 ms.assetid: 37d03dff-ae40-4e7f-a66f-facd0c1f6eee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidEncoder, IMSVidEncoder interface [Microsoft TV Technologies], IMSVidEncoder interface [Microsoft TV Technologies],described, IMSVidEncoderInterface, mstv.imsvidencoder, segment/IMSVidEncoder
 ms.topic: interface

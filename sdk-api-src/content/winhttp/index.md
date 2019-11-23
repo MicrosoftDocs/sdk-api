@@ -1,7 +1,7 @@
 ---
 UID: NA:winhttp
 ms.assetid: b99c19ca-45eb-37ee-9de5-fbee9a7805d2
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

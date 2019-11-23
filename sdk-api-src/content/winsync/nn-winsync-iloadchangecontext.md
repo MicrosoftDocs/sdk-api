@@ -1,12 +1,12 @@
 ---
 UID: NN:winsync.ILoadChangeContext
 title: ILoadChangeContext (winsync.h)
-author: windows-sdk-content
+
 description: Represents information about a change to be loaded from the item store.
 old-location: winsync\iloadchangecontext.htm
 tech.root: winsync
 ms.assetid: 11d8971b-354f-4347-9d3f-6d32df8dc9d2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ILoadChangeContext, ILoadChangeContext interface [Windows Sync], ILoadChangeContext interface [Windows Sync],described, winsync.iloadchangecontext, winsync/ILoadChangeContext
 ms.topic: interface

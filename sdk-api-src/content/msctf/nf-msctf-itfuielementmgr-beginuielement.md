@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.BeginUIElement
 title: ITfUIElementMgr::BeginUIElement (msctf.h)
-author: windows-sdk-content
+
 description: The ITfUIElementMgr::BeginUIElement method is called by a text service before showing UI. The value returned determines whether the UI for the text service should be shown or not.
 old-location: tsf\itfuielementmgr_beginuielement.htm
 tech.root: TSF
 ms.assetid: 7c522920-8bd7-4385-b77d-34df26967179
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BeginUIElement, BeginUIElement method [Text Services Framework], BeginUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],BeginUIElement method, ITfUIElementMgr.BeginUIElement, ITfUIElementMgr::BeginUIElement, msctf/ITfUIElementMgr::BeginUIElement, tsf.itfuielementmgr_beginuielement
 ms.topic: method

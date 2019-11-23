@@ -1,12 +1,12 @@
 ---
 UID: NN:wuapi.IUpdateExceptionCollection
 title: IUpdateExceptionCollection (wuapi.h)
-author: windows-sdk-content
+
 description: Represents an ordered read-only list of IUpdateException interfaces.
 old-location: wua\iupdateexceptioncollection.htm
 tech.root: Wua_Sdk
 ms.assetid: 3f1a0290-5915-4ba4-8a59-855ab5a02e3e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUpdateExceptionCollection, IUpdateExceptionCollection interface [Windows Update Agent], IUpdateExceptionCollection interface [Windows Update Agent],described, wua.iupdateexceptioncollection, wuapi/IUpdateExceptionCollection
 ms.topic: interface

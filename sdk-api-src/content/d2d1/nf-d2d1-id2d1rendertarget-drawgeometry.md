@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawGeometry
 title: ID2D1RenderTarget::DrawGeometry (d2d1.h)
-author: windows-sdk-content
+
 description: Draws the outline of the specified geometry using the specified stroke style.
 old-location: direct2d\ID2D1RenderTarget_DrawGeometry.htm
 tech.root: Direct2D
 ms.assetid: 319b2680-34f8-4e00-985e-47ff87115794
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawGeometry, DrawGeometry method [Direct2D], DrawGeometry method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawGeometry method, ID2D1RenderTarget.DrawGeometry, ID2D1RenderTarget::DrawGeometry, d2d1/ID2D1RenderTarget::DrawGeometry, direct2d.ID2D1RenderTarget_DrawGeometry
 ms.topic: method

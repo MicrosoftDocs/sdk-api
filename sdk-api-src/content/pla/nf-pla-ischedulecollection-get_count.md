@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.IScheduleCollection.get_Count
 title: IScheduleCollection::get_Count (pla.h)
-author: windows-sdk-content
+
 description: Retrieves the number of schedules in the collection.
 old-location: pla\ischedulecollection_count.htm
 tech.root: PLA
 ms.assetid: ade49ca4-3cd6-4d42-bf2c-50bdc6301dbb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Count property [PLA], Count property [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Count property, IScheduleCollection.Count, IScheduleCollection.get_Count, IScheduleCollection::Count, IScheduleCollection::get_Count, base.ischedulecollection_count, get_Count, pla.ischedulecollection_count, pla/IScheduleCollection::Count, pla/IScheduleCollection::get_Count
 ms.topic: method

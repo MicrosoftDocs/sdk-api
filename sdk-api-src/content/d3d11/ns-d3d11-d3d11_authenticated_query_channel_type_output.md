@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_CHANNEL_TYPE_OUTPUT
 title: D3D11_AUTHENTICATED_QUERY_CHANNEL_TYPE_OUTPUT (d3d11.h)
-author: windows-sdk-content
+
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_CHANNEL_TYPE query.
 old-location: mf\d3d11_authenticated_query_channel_type_output.htm
 tech.root: medfound
 ms.assetid: B71FAB00-76A6-40D0-97EA-7ECE99833A78
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_CHANNEL_TYPE_OUTPUT, D3D11_AUTHENTICATED_QUERY_CHANNEL_TYPE_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_CHANNEL_TYPE_OUTPUT, mf.d3d11_authenticated_query_channel_type_output
 ms.topic: struct

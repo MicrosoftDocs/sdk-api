@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_Cursors
 title: IInkPicture::get_Cursors (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets the collection of cursors that are available for use in the inking region. Each cursor corresponds to the tip of a pen or other ink input device.
 old-location: tablet\inkpicture_cursors.htm
 tech.root: tablet
 ms.assetid: 815f4895-d418-4336-9420-2405bcd5cfb3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Cursors property [Tablet PC], Cursors property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],Cursors property, IInkPicture.Cursors, IInkPicture.get_Cursors, IInkPicture::Cursors, IInkPicture::get_Cursors, InkPicture.get_Cursors, get_Cursors, msinkaut/IInkPicture::Cursors, msinkaut/IInkPicture::get_Cursors, tablet.inkpicture_cursors
 ms.topic: method

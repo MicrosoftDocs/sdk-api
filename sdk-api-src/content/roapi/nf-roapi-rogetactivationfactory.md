@@ -1,12 +1,12 @@
 ---
 UID: NF:roapi.RoGetActivationFactory
 title: RoGetActivationFactory function (roapi.h)
-author: windows-sdk-content
+
 description: Gets the activation factory for the specified runtime class.
 old-location: winrt\rogetactivationfactory.htm
 tech.root: WinRT
 ms.assetid: 291ed35d-a459-4509-a265-89c49f8aa13a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RoGetActivationFactory, RoGetActivationFactory function [Windows Runtime], WinRTGetActivationFactory, roapi/RoGetActivationFactory, roapi/WinRTGetActivationFactory, winrt.rogetactivationfactory, winrt.winrtgetactivationfactory
 ms.topic: function

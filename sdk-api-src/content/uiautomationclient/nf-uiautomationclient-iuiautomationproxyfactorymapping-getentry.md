@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.GetEntry
 title: IUIAutomationProxyFactoryMapping::GetEntry (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves an entry from the proxy factory table.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_GetEntry.htm
 tech.root: WinAuto
 ms.assetid: 1500c5e5-5161-4753-ab3a-7e5b62246411
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetEntry, GetEntry method [Windows Accessibility], GetEntry method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],GetEntry method, IUIAutomationProxyFactoryMapping.GetEntry, IUIAutomationProxyFactoryMapping::GetEntry, uiauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry, uiauto_IUIAutomationProxyFactoryMapping_GetEntry, uiautomationclient/IUIAutomationProxyFactoryMapping::GetEntry, winauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry
 ms.topic: method

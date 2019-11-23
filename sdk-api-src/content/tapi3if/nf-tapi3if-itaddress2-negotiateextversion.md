@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITAddress2.NegotiateExtVersion
 title: ITAddress2::NegotiateExtVersion (tapi3if.h)
-author: windows-sdk-content
+
 description: The NegotiateExtVersion method allows an application to negotiate an extension version to use with the specified line device. This method need not be called if the application does not support provider-specific extensions.
 old-location: tapi3\itaddress2_negotiateextversion.htm
 tech.root: Tapi
 ms.assetid: 219b5c74-f999-4bb7-9e13-59c6ade9da46
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],NegotiateExtVersion method, ITAddress2.NegotiateExtVersion, ITAddress2::NegotiateExtVersion, NegotiateExtVersion, NegotiateExtVersion method [TAPI 2.2], NegotiateExtVersion method [TAPI 2.2],ITAddress2 interface, _tapi3_itaddress2_negotiateextversion, tapi3.itaddress2_negotiateextversion, tapi3if/ITAddress2::NegotiateExtVersion
 ms.topic: method

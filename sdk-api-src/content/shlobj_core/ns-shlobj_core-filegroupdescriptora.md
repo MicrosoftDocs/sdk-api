@@ -1,12 +1,12 @@
 ---
 UID: NS:shlobj_core._FILEGROUPDESCRIPTORA
 title: FILEGROUPDESCRIPTORA (shlobj_core.h)
-author: windows-sdk-content
+
 description: Defines the CF_FILEGROUPDESCRIPTOR clipboard format.
 old-location: shell\FILEGROUPDESCRIPTOR.htm
 tech.root: shell
 ms.assetid: 9357ab73-086c-44db-8f89-e14240647e89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPFILEGROUPDESCRIPTORA, FILEGROUPDESCRIPTOR, FILEGROUPDESCRIPTOR structure [Windows Shell], FILEGROUPDESCRIPTORA, FILEGROUPDESCRIPTORW, LPFILEGROUPDESCRIPTOR, LPFILEGROUPDESCRIPTOR structure pointer [Windows Shell], _FILEGROUPDESCRIPTORA, _FILEGROUPDESCRIPTORW, _win32_FILEGROUPDESCRIPTOR, shell.FILEGROUPDESCRIPTOR, shlobj_core/FILEGROUPDESCRIPTOR, shlobj_core/LPFILEGROUPDESCRIPTOR'
 ms.topic: struct

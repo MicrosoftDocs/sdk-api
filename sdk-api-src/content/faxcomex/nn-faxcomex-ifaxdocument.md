@@ -1,12 +1,12 @@
 ---
 UID: NN:faxcomex.IFaxDocument
 title: IFaxDocument (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxDocument interface defines a messaging object used by a fax client application to compose a fax document and submit it to the fax service for processing.
 old-location: fax\_mfax_faxdocument_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3md0_cpp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument, IFaxDocument interface [Fax Service], IFaxDocument interface [Fax Service],described, _mfax_faxdocument_cpp, fax._mfax_faxdocument_cpp, faxcomex/IFaxDocument
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidDevice.IsEqualDevice
 title: IMSVidDevice::IsEqualDevice (segment.h)
-author: windows-sdk-content
+
 description: The IsEqualDevice method queries whether this device and another device represent the same underlying hardware.
 old-location: mstv\imsviddevice_isequaldevice.htm
 tech.root: mstv
 ms.assetid: b0f59466-7a2a-453e-999c-c7ebf126d18b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],IsEqualDevice method, IMSVidDevice.IsEqualDevice, IMSVidDevice::IsEqualDevice, IMSVidDeviceIsEqualDevice, IsEqualDevice, IsEqualDevice method [Microsoft TV Technologies], IsEqualDevice method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_isequaldevice, segment/IMSVidDevice::IsEqualDevice
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:windef.tagSIZE
 title: SIZE (windef.h)
-author: windows-sdk-content
+
 description: The SIZE structure defines the width and height of a rectangle.
 old-location: display\size.htm
 tech.root: display
 ms.assetid: 08d81096-069f-4554-9bb9-d4a37c0950ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPSIZE, *PSIZE, *PSIZEL, LPSIZE, LPSIZE structure pointer [Display Devices], PSIZE, PSIZE structure pointer [Display Devices], SIZE, SIZE structure [Display Devices], SIZEL, display.size, grstrcts_2697a459-d1f4-4617-8370-d51a3c79f609.xml, windef/LPSIZE, windef/PSIZE, windef/SIZE'
 ms.topic: struct

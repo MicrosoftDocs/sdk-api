@@ -1,12 +1,12 @@
 ---
 UID: NF:ntmsapi.UpdateNtmsOmidInfo
 title: UpdateNtmsOmidInfo function (ntmsapi.h)
-author: windows-sdk-content
+
 description: The UpdateNtmsOmidInfo function updates the RSM database with label information immediately after writing to the newly allocated medium.
 old-location: fs\updatentmsomidinfo.htm
 tech.root: Rsm
 ms.assetid: 2e154005-a14c-4de6-aec5-f30b934c64a2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NTMS_OMID_TYPE_FILESYSTEM_INFO, NTMS_OMID_TYPE_RAW_LABEL, UpdateNtmsOmidInfo, UpdateNtmsOmidInfo function [Files], _zaw_updatentmsomidinfo, base.updatentmsomidinfo, fs.updatentmsomidinfo, ntmsapi/UpdateNtmsOmidInfo
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0022_0001
 title: PRIORITY_LEVEL (searchapi.h)
-author: windows-sdk-content
+
 description: Used by the IRowsetPrioritization interface to sets or retrieve the current indexer prioritization level for the scope specified by a query.
 old-location: search\_search_PRIORITY_LEVEL.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\priority_level.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRIORITY_LEVEL, PRIORITY_LEVEL enumeration [search], PRIORITY_LEVEL_DEFAULT, PRIORITY_LEVEL_FOREGROUND, PRIORITY_LEVEL_HIGH, PRIORITY_LEVEL_LOW, _search_PRIORITY_LEVEL, search._search_PRIORITY_LEVEL, searchapi/PRIORITY_LEVEL, searchapi/PRIORITY_LEVEL_DEFAULT, searchapi/PRIORITY_LEVEL_FOREGROUND, searchapi/PRIORITY_LEVEL_HIGH, searchapi/PRIORITY_LEVEL_LOW
 ms.topic: enum

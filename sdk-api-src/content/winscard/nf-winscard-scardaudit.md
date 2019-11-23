@@ -1,12 +1,12 @@
 ---
 UID: NF:winscard.SCardAudit
 title: SCardAudit function (winscard.h)
-author: windows-sdk-content
+
 description: Writes event messages to the Windows application log Microsoft-Windows-SmartCard-Audit/Authentication.
 old-location: security\scardaudit.htm
 tech.root: SecAuthN
 ms.assetid: 5D30DC71-C69A-403B-8658-99C80C268E90
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SCARD_AUDIT_CHV_FAILURE, SCARD_AUDIT_CHV_SUCCESS, SCardAudit, SCardAudit function [Security], security.scardaudit, winscard/SCardAudit
 ms.topic: function

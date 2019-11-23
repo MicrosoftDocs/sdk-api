@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.Add
 title: INetFwAuthorizedApplications::Add (netfw.h)
-author: windows-sdk-content
+
 description: The Add method adds a new application to the collection.
 old-location: ics\inetfwauthorizedapplications_add.htm
 tech.root: ics
 ms.assetid: f69f906d-0d7b-4f45-9bf0-fd1b031e3492
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwAuthorizedApplications interface, INetFwAuthorizedApplications interface [ICS/ICF],Add method, INetFwAuthorizedApplications.Add, INetFwAuthorizedApplications::Add, ics.inetfwauthorizedapplications_add, netfw/INetFwAuthorizedApplications::Add
 ms.topic: method

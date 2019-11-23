@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarI2FromI4
 title: VarI2FromI4 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a long value to a short value.
 old-location: automat\vari2fromi4.htm
 tech.root: automat
 ms.assetid: f3b8ff7f-9531-4403-9532-7c165eb0dd09
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarI2FromI4, VarI2FromI4 function [Automation], _oa96_VarI2FromI4, automat.vari2fromi4, oleauto/VarI2FromI4
 ms.topic: function

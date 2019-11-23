@@ -1,12 +1,12 @@
 ---
 UID: NF:cfapi.CfReferenceProtectedHandle
 title: CfReferenceProtectedHandle function (cfapi.h)
-author: windows-sdk-content
+
 description: Allows the caller to reference a protected handle to a Win32 handle which can be used with non-CfApi Win32 APIs.
 old-location: cloudapi\cfreferenceprotectedhandle.htm
 tech.root: cfApi
 ms.assetid: C6281FD6-3A37-4D90-9B19-03DD23949C39
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CfReferenceProtectedHandle, CfReferenceProtectedHandle function, cfapi/CfReferenceProtectedHandle, cloudApi.cfreferenceprotectedhandle
 ms.topic: function

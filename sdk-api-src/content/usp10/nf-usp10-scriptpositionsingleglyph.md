@@ -1,12 +1,12 @@
 ---
 UID: NF:usp10.ScriptPositionSingleGlyph
 title: ScriptPositionSingleGlyph function (usp10.h)
-author: windows-sdk-content
+
 description: Positions a single glyph with a single adjustment using a specified feature provided in the font for OpenType processing. Most often, applications use this function to align a glyph optically at the beginning or end of a line.
 old-location: intl\scriptpositionsingleglyph.htm
 tech.root: Intl
 ms.assetid: 8dc776a9-fdde-4982-a2ca-e4384615bc47
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ScriptPositionSingleGlyph, ScriptPositionSingleGlyph function [Internationalization for Windows Applications], _win32_ScriptPositionSingleGlyph, intl.scriptpositionsingleglyph, usp10/ScriptPositionSingleGlyph
 ms.topic: function

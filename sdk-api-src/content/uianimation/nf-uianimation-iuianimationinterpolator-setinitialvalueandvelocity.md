@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.SetInitialValueAndVelocity
 title: IUIAnimationInterpolator::SetInitialValueAndVelocity (uianimation.h)
-author: windows-sdk-content
+
 description: Sets the initial value and velocity at the start of the transition.
 old-location: uianimation\iuianimationinterpolator_setinitialvalueandvelocity.htm
 tech.root: UIAnimation
 ms.assetid: a1c5451a-b8d0-4eb7-883c-6bd1d585cb11
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator interface [Windows Animation],SetInitialValueAndVelocity method, IUIAnimationInterpolator.SetInitialValueAndVelocity, IUIAnimationInterpolator::SetInitialValueAndVelocity, SetInitialValueAndVelocity, SetInitialValueAndVelocity method [Windows Animation], SetInitialValueAndVelocity method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_setinitialvalueandvelocity, uianimation/IUIAnimationInterpolator::SetInitialValueAndVelocity
 ms.topic: method

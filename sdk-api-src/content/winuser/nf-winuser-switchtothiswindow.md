@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.SwitchToThisWindow
 title: SwitchToThisWindow function (winuser.h)
-author: windows-sdk-content
+
 description: Switches focus to the specified window and brings it to the foreground.
 old-location: winmsg\switchtothiswindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\switchtothiswindow.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SwitchToThisWindow, SwitchToThisWindow function [Windows and Messages], _win32_SwitchToThisWindow, _win32_switchtothiswindow_cpp, winmsg.switchtothiswindow, winui._win32_switchtothiswindow, winuser/SwitchToThisWindow
 ms.topic: function

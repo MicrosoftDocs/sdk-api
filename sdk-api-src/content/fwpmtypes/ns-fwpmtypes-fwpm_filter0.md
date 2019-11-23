@@ -1,12 +1,12 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER0_
 title: FWPM_FILTER0 (fwpmtypes.h)
-author: windows-sdk-content
+
 description: Stores the state associated with a filter.
 old-location: fwp\fwpm_filter0.htm
 tech.root: fwp
 ms.assetid: e1925824-01c2-426a-a8f0-4d5882812a9e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FWPM_FILTER0, FWPM_FILTER0 structure [Filtering], FWPM_FILTER_FLAG_BOOTTIME, FWPM_FILTER_FLAG_CLEAR_ACTION_RIGHT, FWPM_FILTER_FLAG_DISABLED, FWPM_FILTER_FLAG_HAS_PROVIDER_CONTEXT, FWPM_FILTER_FLAG_INDEXED, FWPM_FILTER_FLAG_NONE, FWPM_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED, FWPM_FILTER_FLAG_PERSISTENT, FWP_EMPTY, FWP_UINT64, FWP_UINT8, fwp.fwpm_filter0, fwpmtypes/FWPM_FILTER0
 ms.topic: struct

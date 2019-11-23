@@ -1,12 +1,12 @@
 ---
 UID: NF:encdec.IDTFilter.get_BlockUnRated
 title: IDTFilter::get_BlockUnRated (encdec.h)
-author: windows-sdk-content
+
 description: The get_BlockUnRated method indicates whether a program without rating information is blocked.
 old-location: mstv\idtfilter_get_blockunrated.htm
 tech.root: mstv
 ms.assetid: 9b8ecc6b-02e8-47e9-a8df-6e73d58dd177
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_BlockUnRated method, IDTFilter.get_BlockUnRated, IDTFilter::get_BlockUnRated, IDTFilterget_BlockUnRated, encdec/IDTFilter::get_BlockUnRated, get_BlockUnRated, get_BlockUnRated method [Microsoft TV Technologies], get_BlockUnRated method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_blockunrated
 ms.topic: method

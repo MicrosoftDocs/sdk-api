@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.VariantToDosDateTime
 title: VariantToDosDateTime function (propvarutil.h)
-author: windows-sdk-content
+
 description: Extracts a date and time value in Microsoft MS-DOS format from a VARIANT structure.
 old-location: properties\VariantToDosDateTime.htm
 tech.root: properties
 ms.assetid: ebbba4d9-8e97-422d-b52f-67c417f295cc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VariantToDosDateTime, VariantToDosDateTime function [Windows Properties], _shell_VariantToDosDateTime, properties.VariantToDosDateTime, propvarutil/VariantToDosDateTime, shell.VariantToDosDateTime
 ms.topic: function

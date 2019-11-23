@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectAndActivateButton
 title: IDvdControl2::SelectAndActivateButton (strmif.h)
-author: windows-sdk-content
+
 description: The SelectAndActivateButton method selects and activates the specified menu button.
 old-location: dshow\idvdcontrol2_selectandactivatebutton.htm
 tech.root: DirectShow
 ms.assetid: 1e5ad753-bc35-4a98-83d8-82ffccbbe3ed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAndActivateButton method, IDvdControl2.SelectAndActivateButton, IDvdControl2::SelectAndActivateButton, IDvdControl2SelectAndActivateButton, SelectAndActivateButton, SelectAndActivateButton method [DirectShow], SelectAndActivateButton method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectandactivatebutton, strmif/IDvdControl2::SelectAndActivateButton
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:magnification.MagSetColorEffect
 title: MagSetColorEffect function (magnification.h)
-author: windows-sdk-content
+
 description: Sets the color transformation matrix for a magnifier control.
 old-location: magapi\magapi_MagSetColorEffect.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetcoloreffect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MagSetColorEffect, MagSetColorEffect function [Magnification API], magapi.magapi_MagSetColorEffect, magapi_MagSetColorEffect, magnification/MagSetColorEffect
 ms.topic: function

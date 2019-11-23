@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoUnmarshalInterface
 title: CoUnmarshalInterface function (combaseapi.h)
-author: windows-sdk-content
+
 description: Initializes a newly created proxy using data written into the stream by a previous call to the CoMarshalInterface function, and returns an interface pointer to that proxy.
 old-location: com\counmarshalinterface.htm
 tech.root: com
 ms.assetid: d0eac0da-2f41-40c4-b756-31bc22752c17
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoUnmarshalInterface, CoUnmarshalInterface function [COM], _com_CoUnmarshalInterface, com.counmarshalinterface, combaseapi/CoUnmarshalInterface
 ms.topic: function

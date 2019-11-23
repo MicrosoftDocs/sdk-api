@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d11_3.ID3D11DeviceContext4
 title: ID3D11DeviceContext4 (d3d11_3.h)
-author: windows-sdk-content
+
 description: The device context interface represents a device context; it is used to render commands. ID3D11DeviceContext4 adds new methods to those in ID3D11DeviceContext3.
 old-location: direct3d11\id3d11devicecontext4.htm
 tech.root: direct3d11
 ms.assetid: 9A4B737C-C0A8-4319-A9CA-8172E992774D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext4, ID3D11DeviceContext4 interface [Direct3D 11], ID3D11DeviceContext4 interface [Direct3D 11],described, d3d11_3/ID3D11DeviceContext4, direct3d11.id3d11devicecontext4
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpGetClientInfo
 title: DhcpGetClientInfo function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: The DhcpGetClientInfo function returns information about a specific DHCP client.
 old-location: dhcp\dhcpgetclientinfo.htm
 tech.root: DHCP
 ms.assetid: 67095868-7e02-4d82-b2f0-70c413fa8ed6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpGetClientInfo, DhcpGetClientInfo function [DHCP], dhcp.dhcpgetclientinfo, dhcpsapi/DhcpGetClientInfo
 ms.topic: function

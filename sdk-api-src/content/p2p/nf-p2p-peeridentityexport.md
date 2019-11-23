@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerIdentityExport
 title: PeerIdentityExport function (p2p.h)
-author: windows-sdk-content
+
 description: The PeerIdentityExport function allows a user to export one peer identity. The user can then transfer the peer identity to a different computer.
 old-location: p2p\peeridentityexport.htm
 tech.root: P2PSdk
 ms.assetid: 2b7cfc46-77f6-49cb-966c-0a96830c96fd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityExport, PeerIdentityExport function [Peer Networking], p2p.peeridentityexport, p2p/PeerIdentityExport
 ms.topic: function

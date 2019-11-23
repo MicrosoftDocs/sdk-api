@@ -1,12 +1,12 @@
 ---
 UID: NF:instance.CInstance.GetWORD
 title: CInstance::GetWORD (instance.h)
-author: windows-sdk-content
+
 description: The GetWORD method retrieves a WORD property.
 old-location: wmi\cinstance_getword.htm
 tech.root: WmiSdk
 ms.assetid: 511e4ce9-33e3-4c64-8016-05dd5630970f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetWORD method, CInstance.GetWORD, CInstance::GetWORD, GetWORD, GetWORD method [Windows Management Instrumentation], GetWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getword, instance/CInstance::GetWORD, wmi.cinstance_getword
 ms.topic: method

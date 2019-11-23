@@ -1,12 +1,12 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamVolume.SetChannelVolumes
 title: IAudioEndpointOffloadStreamVolume::SetChannelVolumes (audioengineendpoint.h)
-author: windows-sdk-content
+
 description: The SetChannelVolumes method sets the volume levels for the various audio channels in the offloaded stream.
 old-location: coreaudio\iaudioendpointoffloadstreamvolume_setchannelvolumes.htm
 tech.root: CoreAudio
 ms.assetid: 80E736B5-AF8E-46B3-9CDF-753B045F60D9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointOffloadStreamVolume interface [Core Audio],SetChannelVolumes method, IAudioEndpointOffloadStreamVolume.SetChannelVolumes, IAudioEndpointOffloadStreamVolume::SetChannelVolumes, SetChannelVolumes, SetChannelVolumes method [Core Audio], SetChannelVolumes method [Core Audio],IAudioEndpointOffloadStreamVolume interface, audioengineendpoint/IAudioEndpointOffloadStreamVolume::SetChannelVolumes, coreaudio.iaudioendpointoffloadstreamvolume_setchannelvolumes
 ms.topic: method

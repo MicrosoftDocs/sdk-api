@@ -1,12 +1,12 @@
 ---
 UID: NF:securitybaseapi.EqualPrefixSid
 title: EqualPrefixSid function (securitybaseapi.h)
-author: windows-sdk-content
+
 description: Tests two security-identifier (SID) prefix values for equality. A SID prefix is the entire SID except for the last subauthority value.
 old-location: security\equalprefixsid.htm
 tech.root: SecAuthZ
 ms.assetid: ef41de63-4ab5-40c6-8b16-b960e1308b5b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EqualPrefixSid, EqualPrefixSid function [Security], _win32_equalprefixsid, security.equalprefixsid, securitybaseapi/EqualPrefixSid
 ms.topic: function

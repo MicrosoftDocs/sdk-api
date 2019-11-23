@@ -1,12 +1,12 @@
 ---
 UID: NF:cfapi.CfGetSyncRootInfoByHandle
 title: CfGetSyncRootInfoByHandle function (cfapi.h)
-author: windows-sdk-content
+
 description: Gets various characteristics of the sync root containing a given file specified by a file handle.
 old-location: cloudapi\cfgetsyncrootinfobyhandle.htm
 tech.root: cfApi
 ms.assetid: EC96CB4E-6BCE-49D9-9CDA-A24A9303B5CF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CfGetSyncRootInfoByHandle, CfGetSyncRootInfoByHandle function, cfapi/CfGetSyncRootInfoByHandle, cloudApi.cfgetsyncrootinfobyhandle
 ms.topic: function

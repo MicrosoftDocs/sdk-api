@@ -1,12 +1,12 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Get
 title: IFunctionInstanceCollection::Get (functiondiscoveryapi.h)
-author: windows-sdk-content
+
 description: Gets the specified function instance and its index from the collection.
 old-location: ncd\ifunctioninstancecollection_get.htm
 tech.root: FunDisc
 ms.assetid: 3f3db880-a765-4a18-91ac-d091728cbb39
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Get, Get method, Get method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Get method, IFunctionInstanceCollection.Get, IFunctionInstanceCollection::Get, functiondiscoveryapi/IFunctionInstanceCollection::Get, ncd.ifunctioninstancecollection_get
 ms.topic: method

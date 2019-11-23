@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.ICDecompressExQuery
 title: ICDecompressExQuery function (vfw.h)
-author: windows-sdk-content
+
 description: The ICDecompressExQuery function determines if a decompressor can decompress data with a specific format.
 old-location: multimedia\icdecompressexquery.htm
 tech.root: Multimedia
 ms.assetid: 6a1aa686-7f3d-43be-baaa-d20ea4a33f9b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICDecompressExQuery, ICDecompressExQuery function [Windows Multimedia], _win32_ICDecompressExQuery, multimedia.icdecompressexquery, vfw/ICDecompressExQuery
 ms.topic: function

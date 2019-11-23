@@ -1,12 +1,12 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.SetCurrentPosition
 title: IMFSourceReader::SetCurrentPosition (mfreadwrite.h)
-author: windows-sdk-content
+
 description: Seeks to a new position in the media source.
 old-location: mf\imfsourcereader_setcurrentposition.htm
 tech.root: medfound
 ms.assetid: fb9412f5-4f2f-463d-9988-80e706afd9c4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GUID_NULL, IMFSourceReader interface [Media Foundation],SetCurrentPosition method, IMFSourceReader.SetCurrentPosition, IMFSourceReader::SetCurrentPosition, SetCurrentPosition, SetCurrentPosition method [Media Foundation], SetCurrentPosition method [Media Foundation],IMFSourceReader interface, mf.imfsourcereader_setcurrentposition, mfreadwrite/IMFSourceReader::SetCurrentPosition
 ms.topic: method

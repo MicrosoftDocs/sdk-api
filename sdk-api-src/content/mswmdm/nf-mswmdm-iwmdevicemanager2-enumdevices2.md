@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IWMDeviceManager2.EnumDevices2
 title: IWMDeviceManager2::EnumDevices2 (mswmdm.h)
-author: windows-sdk-content
+
 description: The EnumDevices2 method retrieves an enumeration interface that is used to enumerate portable devices connected to the computer.
 old-location: wmdm\iwmdevicemanager2_enumdevices2.htm
 tech.root: WMDM
 ms.assetid: b5015263-23f2-466f-a89f-26c14f7a2263
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumDevices2, EnumDevices2 method [windows Media Device Manager], EnumDevices2 method [windows Media Device Manager],IWMDeviceManager2 interface, IWMDeviceManager2 interface [windows Media Device Manager],EnumDevices2 method, IWMDeviceManager2.EnumDevices2, IWMDeviceManager2::EnumDevices2, IWMDeviceManager2EnumDevices2, mswmdm/IWMDeviceManager2::EnumDevices2, wmdm.iwmdevicemanager2_enumdevices2
 ms.topic: method

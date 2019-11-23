@@ -1,12 +1,12 @@
 ---
 UID: NS:ntsecpkg._SECPKG_CREDENTIAL
 title: SECPKG_CREDENTIAL (ntsecpkg.h)
-author: windows-sdk-content
+
 description: Specifies the credentials.
 old-location: security\secpkg_credential.htm
 tech.root: SecAuthN
 ms.assetid: 67BB382B-E6DB-4E93-90EE-6441751220B9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_CREDENTIAL, PSECPKG_CREDENTIAL, PSECPKG_CREDENTIAL structure pointer [Security], SECPKG_CREDENTIAL, SECPKG_CREDENTIAL structure [Security], ntsecpkg/PSECPKG_CREDENTIAL, ntsecpkg/SECPKG_CREDENTIAL, security.secpkg_credential'
 ms.topic: struct

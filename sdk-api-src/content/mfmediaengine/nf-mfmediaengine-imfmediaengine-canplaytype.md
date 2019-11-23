@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.CanPlayType
 title: IMFMediaEngine::CanPlayType (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Queries how likely it is that the Media Engine can play a specified type of media resource.
 old-location: mf\imfmediaengine_canplaytype.htm
 tech.root: medfound
 ms.assetid: 313F631F-7584-4F95-9208-B087CC12010E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CanPlayType, CanPlayType method [Media Foundation], CanPlayType method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],CanPlayType method, IMFMediaEngine.CanPlayType, IMFMediaEngine::CanPlayType, mf.imfmediaengine_canplaytype, mfmediaengine/IMFMediaEngine::CanPlayType
 ms.topic: method

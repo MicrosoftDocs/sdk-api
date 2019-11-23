@@ -1,12 +1,12 @@
 ---
 UID: NF:swdevice.SwDevicePropertySet
 title: SwDevicePropertySet function (swdevice.h)
-author: windows-sdk-content
+
 description: Sets properties on a software device.
 old-location: swdevice\swdevicepropertyset.htm
 tech.root: swdevice
 ms.assetid: 6EA107FE-F1FD-4D19-82C8-00FE0D98A9EA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SwDevicePropertySet, SwDevicePropertySet function, swdevice.swdevicepropertyset, swdevice/SwDevicePropertySet
 ms.topic: function

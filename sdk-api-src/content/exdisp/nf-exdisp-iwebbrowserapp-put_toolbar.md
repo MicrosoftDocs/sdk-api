@@ -1,12 +1,12 @@
 ---
 UID: NF:exdisp.IWebBrowserApp.put_ToolBar
 title: IWebBrowserApp::put_ToolBar (exdisp.h)
-author: windows-sdk-content
+
 description: Sets or gets whether toolbars for the object are visible.
 old-location: winprog\iwebbrowser2_toolbar.htm
 tech.root: DevNotes
 ms.assetid: 25C459AF-A57C-453A-987C-004CCA8F276F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FALSE, IWebBrowser2 interface [Windows API],ToolBar property, IWebBrowser2.ToolBar, IWebBrowser2.get_ToolBar, IWebBrowser2.put_ToolBar, IWebBrowser2::get_ToolBar, IWebBrowser2::put_ToolBar, IWebBrowserApp interface [Windows API],ToolBar property, IWebBrowserApp.ToolBar, IWebBrowserApp.put_ToolBar, IWebBrowserApp::ToolBar, IWebBrowserApp::get_ToolBar, IWebBrowserApp::put_ToolBar, TRUE, ToolBar property [Windows API], ToolBar property [Windows API],IWebBrowser2 interface, ToolBar property [Windows API],IWebBrowserApp interface, exdisp/IWebBrowser2::ToolBar, exdisp/IWebBrowser2::get_ToolBar, exdisp/IWebBrowser2::put_ToolBar, exdisp/IWebBrowserApp::ToolBar, exdisp/IWebBrowserApp::get_ToolBar, exdisp/IWebBrowserApp::put_ToolBar, put_ToolBar, winprog.iwebbrowser2_toolbar
 ms.topic: method

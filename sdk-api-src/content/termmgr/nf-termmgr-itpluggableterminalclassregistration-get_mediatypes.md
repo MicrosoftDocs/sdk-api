@@ -1,12 +1,12 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_MediaTypes
 title: ITPluggableTerminalClassRegistration::get_MediaTypes (termmgr.h)
-author: windows-sdk-content
+
 description: The get_MediaTypes method gets the media types supported by the terminal.
 old-location: tapi3\itpluggableterminalclassregistration_get_mediatypes.htm
 tech.root: Tapi
 ms.assetid: aa8c0da8-2953-483a-b3b9-7a6f3e35c893
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_MediaTypes method, ITPluggableTerminalClassRegistration.get_MediaTypes, ITPluggableTerminalClassRegistration::get_MediaTypes, _tapi3_itpluggableterminalclassregistration_get_mediatypes, get_MediaTypes, get_MediaTypes method [TAPI 2.2], get_MediaTypes method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_mediatypes, termmgr/ITPluggableTerminalClassRegistration::get_MediaTypes
 ms.topic: method

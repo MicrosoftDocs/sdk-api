@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1.ID2D1ImageBrush.SetInterpolationMode
 title: ID2D1ImageBrush::SetInterpolationMode (d2d1_1.h)
-author: windows-sdk-content
+
 description: Sets the interpolation mode for the image brush.
 old-location: direct2d\id2d1imagebrush_setinterpolationmode.htm
 tech.root: Direct2D
 ms.assetid: 4e85b5bc-3df8-4ac0-b022-0faf025ea7a5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1ImageBrush interface [Direct2D],SetInterpolationMode method, ID2D1ImageBrush.SetInterpolationMode, ID2D1ImageBrush::SetInterpolationMode, SetInterpolationMode, SetInterpolationMode method [Direct2D], SetInterpolationMode method [Direct2D],ID2D1ImageBrush interface, d2d1_1/ID2D1ImageBrush::SetInterpolationMode, direct2d.id2d1imagebrush_setinterpolationmode
 ms.topic: method

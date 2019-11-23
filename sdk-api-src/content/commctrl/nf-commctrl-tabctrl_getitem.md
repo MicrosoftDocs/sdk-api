@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.TabCtrl_GetItem
 title: TabCtrl_GetItem macro (commctrl.h)
-author: windows-sdk-content
+
 description: Retrieves information about a tab in a tab control. You can use this macro or send the TCM_GETITEM message explicitly.
 old-location: controls\TabCtrl_GetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitem.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_GetItem, TabCtrl_GetItem macro [Windows Controls], _win32_TabCtrl_GetItem, _win32_TabCtrl_GetItem_cpp, commctrl/TabCtrl_GetItem, controls.TabCtrl_GetItem, controls._win32_TabCtrl_GetItem
 ms.topic: macro

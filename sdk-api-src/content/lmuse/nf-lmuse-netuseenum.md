@@ -1,12 +1,12 @@
 ---
 UID: NF:lmuse.NetUseEnum
 title: NetUseEnum function (lmuse.h)
-author: windows-sdk-content
+
 description: The NetUseEnum function lists all current connections between the local computer and resources on remote servers.
 old-location: netmgmt\netuseenum.htm
 tech.root: NetMgmt
 ms.assetid: fb527f85-baea-48e8-b837-967870834ec5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NetUseEnum, NetUseEnum function [Network Management], _win32_netuseenum, lmuse/NetUseEnum, netmgmt.netuseenum
 ms.topic: function

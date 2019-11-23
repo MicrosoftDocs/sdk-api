@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.ImageList_ReplaceIcon
 title: ImageList_ReplaceIcon function (commctrl.h)
-author: windows-sdk-content
+
 description: Replaces an image with an icon or cursor.
 old-location: controls\ImageList_ReplaceIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_replaceicon.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImageList_ReplaceIcon, ImageList_ReplaceIcon function [Windows Controls], _win32_ImageList_ReplaceIcon, _win32_ImageList_ReplaceIcon_cpp, commctrl/ImageList_ReplaceIcon, controls.ImageList_ReplaceIcon, controls._win32_ImageList_ReplaceIcon
 ms.topic: function

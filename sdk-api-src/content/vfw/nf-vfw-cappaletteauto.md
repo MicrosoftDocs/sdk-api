@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.capPaletteAuto
 title: capPaletteAuto macro (vfw.h)
-author: windows-sdk-content
+
 description: The capPaletteAuto macro requests that the capture driver sample video frames and automatically create a new palette. You can use this macro or explicitly call the WM_CAP_PAL_AUTOCREATE message.
 old-location: multimedia\cappaletteauto.htm
 tech.root: Multimedia
 ms.assetid: d83e7dbc-d063-4e76-a7a1-37eaf73b5e8a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_capPaletteAuto, capPaletteAuto, capPaletteAuto macro [Windows Multimedia], multimedia.cappaletteauto, vfw/capPaletteAuto"
 ms.topic: macro

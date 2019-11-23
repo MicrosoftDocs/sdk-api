@@ -1,12 +1,12 @@
 ---
 UID: NS:winsafer._SAFER_CODE_PROPERTIES_V1
 title: SAFER_CODE_PROPERTIES_V1 (winsafer.h)
-author: windows-sdk-content
+
 description: Contains code image information and criteria to be checked on the code image.
 old-location: security\safer_code_properties_v1.htm
 tech.root: SecMgmt
 ms.assetid: E09D287B-7223-4CAF-B404-61FB6871B622
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PSAFER_CODE_PROPERTIES_V1, PSAFER_CODE_PROPERTIES_V1, PSAFER_CODE_PROPERTIES_V1 structure pointer [Security], SAFER_CODE_PROPERTIES_V1, SAFER_CODE_PROPERTIES_V1  [Security] See also,SAFER_CODE_PROPERTIES  [Security], SAFER_CODE_PROPERTIES_V1 [Security], SAFER_CODE_PROPERTIES_V1 structure [Security], SAFER_CRITERIA_AUTHENTICODE, SAFER_CRITERIA_IMAGEHASH, SAFER_CRITERIA_IMAGEPATH, SAFER_CRITERIA_IMAGEPATH_NT, SAFER_CRITERIA_URLZONE, security.safer_code_properties_v1, winsafer/PSAFER_CODE_PROPERTIES_V1, winsafer/SAFER_CODE_PROPERTIES_V1'
 ms.topic: struct

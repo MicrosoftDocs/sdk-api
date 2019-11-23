@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_2.IDWriteFont2.IsColorFont
 title: IDWriteFont2::IsColorFont (dwrite_2.h)
-author: windows-sdk-content
+
 description: Enables determining if a color rendering path is potentially necessary.
 old-location: directwrite\idwritefont2_iscolorfont.htm
 tech.root: DirectWrite
 ms.assetid: E21BB773-923E-461B-B966-A186ACD0164A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteFont2 interface [Direct Write],IsColorFont method, IDWriteFont2.IsColorFont, IDWriteFont2::IsColorFont, IsColorFont, IsColorFont method [Direct Write], IsColorFont method [Direct Write],IDWriteFont2 interface, directwrite.idwritefont2_iscolorfont, dwrite_2/IDWriteFont2::IsColorFont
 ms.topic: method

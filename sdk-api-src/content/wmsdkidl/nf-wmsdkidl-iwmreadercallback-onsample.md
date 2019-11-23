@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallback.OnSample
 title: IWMReaderCallback::OnSample (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The OnSample method is called during the reading of a file (due to a Start call) indicating that new data is available.
 old-location: wmformat\iwmreadercallback_onsample.htm
 tech.root: wmformat
 ms.assetid: 0f6e4d4f-4295-44ff-95bc-e683bdbab8e0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallback interface [windows Media Format],OnSample method, IWMReaderCallback.OnSample, IWMReaderCallback::OnSample, IWMReaderCallbackOnSample, OnSample, OnSample method [windows Media Format], OnSample method [windows Media Format],IWMReaderCallback interface, wmformat.iwmreadercallback_onsample, wmsdkidl/IWMReaderCallback::OnSample
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorTanH
 title: XMVectorTanH function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the hyperbolic tangent of each component of an XMVECTOR.
 old-location: dxmath\xmvectortanh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorTanH(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorTanH, XMVectorTanH, XMVectorTanH method [DirectX Math Support APIs], dxmath.xmvectortanh
 ms.topic: function

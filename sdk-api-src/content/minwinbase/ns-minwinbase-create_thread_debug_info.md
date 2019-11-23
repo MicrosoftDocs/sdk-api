@@ -1,12 +1,12 @@
 ---
 UID: NS:minwinbase._CREATE_THREAD_DEBUG_INFO
 title: CREATE_THREAD_DEBUG_INFO (minwinbase.h)
-author: windows-sdk-content
+
 description: Contains thread-creation information that can be used by a debugger.
 old-location: base\create_thread_debug_info_str.htm
 tech.root: Debug
 ms.assetid: daabd118-fa03-410e-af25-8655194902b0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPCREATE_THREAD_DEBUG_INFO, CREATE_THREAD_DEBUG_INFO, CREATE_THREAD_DEBUG_INFO structure, LPCREATE_THREAD_DEBUG_INFO, LPCREATE_THREAD_DEBUG_INFO structure pointer, _CREATE_THREAD_DEBUG_INFO, _win32_create_thread_debug_info_str, base.create_thread_debug_info_str, minwinbase/CREATE_THREAD_DEBUG_INFO, minwinbase/LPCREATE_THREAD_DEBUG_INFO"
 ms.topic: struct

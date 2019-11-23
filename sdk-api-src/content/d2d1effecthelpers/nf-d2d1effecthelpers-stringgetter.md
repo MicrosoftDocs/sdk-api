@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1effecthelpers.StringGetter
 title: StringGetter function (d2d1effecthelpers.h)
-author: windows-sdk-content
+
 description: Calls a member-function property getter callback for a string-type property.
 old-location: direct2d\stringgetter.htm
 tech.root: Direct2D
 ms.assetid: 9C35AF38-1937-46DD-8DC4-BBA322E5CAAA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: StringGetter, StringGetter function [Direct2D], d2d1effecthelpers/StringGetter, direct2d.stringgetter
 ms.topic: function

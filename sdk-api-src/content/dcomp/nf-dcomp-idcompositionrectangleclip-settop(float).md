@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetTop(float)
 title: IDCompositionRectangleClip::SetTop (dcomp.h)
-author: windows-sdk-content
+
 description: Changes the value of the Top property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_settop_float.htm
 tech.root: directcomp
 ms.assetid: 7D3AB5CC-7295-4160-9AAB-91C61A445B24
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTop method, IDCompositionRectangleClip.SetTop, IDCompositionRectangleClip::SetTop, IDCompositionRectangleClip::SetTop(float), SetTop, SetTop method [DirectComposition], SetTop method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTop, directcomp.idcompositionrectangleclip_settop_float
 ms.topic: method

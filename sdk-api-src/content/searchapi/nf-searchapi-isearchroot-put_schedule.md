@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_Schedule
 title: ISearchRoot::put_Schedule (searchapi.h)
-author: windows-sdk-content
+
 description: Not implemented.
 old-location: search\_search_ISearchRoot_put_Schedule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_schedule.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_Schedule method, ISearchRoot.put_Schedule, ISearchRoot::put_Schedule, _search_ISearchRoot_put_Schedule, put_Schedule, put_Schedule method [search], put_Schedule method [search],ISearchRoot interface, search._search_ISearchRoot_put_Schedule, searchapi/ISearchRoot::put_Schedule
 ms.topic: method

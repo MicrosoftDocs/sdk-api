@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlDropHandler.OnDrop
 title: INameSpaceTreeControlDropHandler::OnDrop (shobjidl.h)
-author: windows-sdk-content
+
 description: Called on drop to set drop effect, as specified.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDrop.htm
 tech.root: shell
 ms.assetid: 05c677fb-a2e2-4aa5-bb27-4dc437ca408c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDrop method, INameSpaceTreeControlDropHandler.OnDrop, INameSpaceTreeControlDropHandler::OnDrop, OnDrop, OnDrop method [Windows Shell], OnDrop method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDrop, shell.INameSpaceTreeControlDropHandler_OnDrop, shobjidl/INameSpaceTreeControlDropHandler::OnDrop
 ms.topic: method

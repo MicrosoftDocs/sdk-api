@@ -1,12 +1,12 @@
 ---
 UID: NC:evr.MFCreateVideoMixerAndPresenter
 title: MFCreateVideoMixerAndPresenter (evr.h)
-author: windows-sdk-content
+
 description: Creates the default video mixer and video presenter for the enhanced video renderer (EVR).
 old-location: mf\mfcreatevideomixerandpresenter.htm
 tech.root: medfound
 ms.assetid: 1777027a-85bb-47d2-baf8-6f420282b01a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 1777027a-85bb-47d2-baf8-6f420282b01a, MFCreateVideoMixerAndPresenter, MFCreateVideoMixerAndPresenter callback, MFCreateVideoMixerAndPresenter callback function [Media Foundation], evr/MFCreateVideoMixerAndPresenter, mf.mfcreatevideomixerandpresenter
 ms.topic: callback

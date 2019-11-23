@@ -1,12 +1,12 @@
 ---
 UID: NF:comcat.ICatRegister.UnRegisterClassImplCategories
 title: ICatRegister::UnRegisterClassImplCategories (comcat.h)
-author: windows-sdk-content
+
 description: Removes one or more implemented category identifiers from a class.
 old-location: com\icatregister_unregisterclassimplcategories.htm
 tech.root: com
 ms.assetid: 4a227fd1-6cbc-4354-a3e2-04aceb73ab65
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICatRegister interface [COM],UnRegisterClassImplCategories method, ICatRegister.UnRegisterClassImplCategories, ICatRegister::UnRegisterClassImplCategories, UnRegisterClassImplCategories, UnRegisterClassImplCategories method [COM], UnRegisterClassImplCategories method [COM],ICatRegister interface, _com_icatregister_unregisterclassimplcategories, com.icatregister_unregisterclassimplcategories, comcat/ICatRegister::UnRegisterClassImplCategories
 ms.topic: method

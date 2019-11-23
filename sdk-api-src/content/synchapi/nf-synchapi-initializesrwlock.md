@@ -1,12 +1,12 @@
 ---
 UID: NF:synchapi.InitializeSRWLock
 title: InitializeSRWLock function (synchapi.h)
-author: windows-sdk-content
+
 description: Initialize a slim reader/writer (SRW) lock.
 old-location: base\initializesrwlock.htm
 tech.root: Sync
 ms.assetid: a94443e1-009c-49ba-a51c-6daa63b07cda
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InitializeSRWLock, InitializeSRWLock function, base.initializesrwlock, synchapi/InitializeSRWLock, winbase/InitializeSRWLock
 ms.topic: function

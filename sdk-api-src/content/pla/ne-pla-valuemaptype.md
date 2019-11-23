@@ -1,12 +1,12 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0008
 title: ValueMapType (pla.h)
-author: windows-sdk-content
+
 description: Defines the type of the value.
 old-location: pla\valuemaptype.htm
 tech.root: PLA
 ms.assetid: cc217b3b-389a-4d15-b47d-456778f3eaec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ValueMapType, ValueMapType enumeration [PLA], base.valuemaptype, pla.valuemaptype, pla/ValueMapType, pla/plaFlag, pla/plaFlagArray, pla/plaIndex, pla/plaValidation, plaFlag, plaFlagArray, plaIndex, plaValidation
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NS:fwpmtypes.FWPM_SESSION0_
 title: FWPM_SESSION0 (fwpmtypes.h)
-author: windows-sdk-content
+
 description: Stores the state associated with a client session.
 old-location: fwp\fwpm_session0_struct.htm
 tech.root: fwp
 ms.assetid: 9f259ab7-cec9-44c1-8914-2850235470b3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FWPM_SESSION0, FWPM_SESSION0 structure [Filtering], FWPM_SESSION_FLAG_DYNAMIC, FWPM_SESSION_FLAG_RESERVED, fwp.fwpm_session0_struct, fwpmtypes/FWPM_SESSION0
 ms.topic: struct

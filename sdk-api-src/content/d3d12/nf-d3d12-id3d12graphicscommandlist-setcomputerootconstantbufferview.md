@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRootConstantBufferView
 title: ID3D12GraphicsCommandList::SetComputeRootConstantBufferView (d3d12.h)
-author: windows-sdk-content
+
 description: Sets a CPU descriptor handle for the constant buffer in the compute root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setcomputerootconstantbufferview.htm
 tech.root: direct3d12
 ms.assetid: AEAB392F-365F-4EDB-AC57-FFAC40C800C0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRootConstantBufferView method, ID3D12GraphicsCommandList.SetComputeRootConstantBufferView, ID3D12GraphicsCommandList::SetComputeRootConstantBufferView, SetComputeRootConstantBufferView, SetComputeRootConstantBufferView method, SetComputeRootConstantBufferView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRootConstantBufferView, direct3d12.id3d12graphicscommandlist_setcomputerootconstantbufferview
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:certenroll.PolicyQualifierType
 title: PolicyQualifierType (certenroll.h)
-author: windows-sdk-content
+
 description: Specifies the type of qualifier applied to a certificate policy.
 old-location: security\policyqualifiertype_enum.htm
 tech.root: seccertenroll
 ms.assetid: 76cd1874-b80d-466e-9c7d-12cf8d310b8a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PolicyQualifierType, PolicyQualifierType enumeration [Security], PolicyQualifierTypeUnknown, PolicyQualifierTypeUrl, PolicyQualifierTypeUserNotice, certenroll/PolicyQualifierType, certenroll/PolicyQualifierTypeUnknown, certenroll/PolicyQualifierTypeUrl, certenroll/PolicyQualifierTypeUserNotice, security.policyqualifiertype_enum
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5
 title: DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5 (dhcpsapi.h)
-author: windows-sdk-content
+
 description: The DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5 structure defines an array of subnet element data. Element data in the V5 structure is BOOTP specific.
 old-location: dhcp\dhcp_subnet_element_info_array_v5.htm
 tech.root: DHCP
 ms.assetid: 427683d5-e285-49b7-a68b-3c75b8b8ce23
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V5, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5 structure [DHCP], LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V5, LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V5 structure pointer [DHCP], dhcp.dhcp_subnet_element_info_array_v5, dhcpsapi/LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V5, dhcpsapi/_DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5'
 ms.topic: struct

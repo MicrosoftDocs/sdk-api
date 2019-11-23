@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetPreviousSiblingElementBuildCache
 title: IUIAutomationTreeWalker::GetPreviousSiblingElementBuildCache (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the previous sibling element of the specified UI Automation element, and caches properties and control patterns.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetPreviousSiblingBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 09350915-0620-4c51-a4b5-25aa247d8241
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPreviousSiblingElementBuildCache, GetPreviousSiblingElementBuildCache method [Windows Accessibility], GetPreviousSiblingElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetPreviousSiblingElementBuildCache method, IUIAutomationTreeWalker.GetPreviousSiblingElementBuildCache, IUIAutomationTreeWalker::GetPreviousSiblingElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetPreviousSiblingBuildCache, uiauto_IUIAutomationTreeWalker_GetPreviousSiblingBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetPreviousSiblingElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetPreviousSiblingBuildCache
 ms.topic: method

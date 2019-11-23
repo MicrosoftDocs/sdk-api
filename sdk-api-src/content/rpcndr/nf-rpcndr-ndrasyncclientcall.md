@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcndr.NdrAsyncClientCall
 title: NdrAsyncClientCall function (rpcndr.h)
-author: windows-sdk-content
+
 description: The NdrAsyncClientCall function is the asynchronous client-side entry point for the /Oi and /Oic mode stub.
 old-location: rpc\ndrasyncclientcall.htm
 tech.root: Rpc
 ms.assetid: 591f56de-6ceb-46d7-9720-cd2213605ef2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NdrAsyncClientCall, NdrAsyncClientCall function [RPC], rpc.ndrasyncclientcall, rpcndr/NdrAsyncClientCall
 ms.topic: function

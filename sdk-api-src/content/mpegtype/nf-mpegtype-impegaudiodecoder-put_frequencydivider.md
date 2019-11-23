@@ -1,12 +1,12 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_FrequencyDivider
 title: IMpegAudioDecoder::put_FrequencyDivider (mpegtype.h)
-author: windows-sdk-content
+
 description: Specifies the frequency divider as a three-level setting corresponding to the quality of CD Audio, FM Radio, or AM Radio.
 old-location: dshow\impegaudiodecoder_put_frequencydivider.htm
 tech.root: DirectShow
 ms.assetid: 96e5d8f3-b658-408d-a615-e681d8731442
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_FrequencyDivider method, IMpegAudioDecoder.put_FrequencyDivider, IMpegAudioDecoder::put_FrequencyDivider, IMpegAudioDecoderputFrequencyDivider, dshow.impegaudiodecoder_put_frequencydivider, mpegtype/IMpegAudioDecoder::put_FrequencyDivider, put_FrequencyDivider, put_FrequencyDivider method [DirectShow], put_FrequencyDivider method [DirectShow],IMpegAudioDecoder interface
 ms.topic: method

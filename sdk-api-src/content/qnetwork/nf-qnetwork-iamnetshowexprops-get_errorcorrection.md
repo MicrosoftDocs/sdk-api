@@ -1,12 +1,12 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_ErrorCorrection
 title: IAMNetShowExProps::get_ErrorCorrection (qnetwork.h)
-author: windows-sdk-content
+
 description: The get_ErrorCorrection method retrieves the current error correction method.
 old-location: dshow\iamnetshowexprops_get_errorcorrection.htm
 tech.root: DirectShow
 ms.assetid: ab731d68-969b-425d-978a-879b15c06a88
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_ErrorCorrection method, IAMNetShowExProps.get_ErrorCorrection, IAMNetShowExProps::get_ErrorCorrection, IAMNetShowExPropsget_ErrorCorrection, dshow.iamnetshowexprops_get_errorcorrection, get_ErrorCorrection, get_ErrorCorrection method [DirectShow], get_ErrorCorrection method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_ErrorCorrection
 ms.topic: method

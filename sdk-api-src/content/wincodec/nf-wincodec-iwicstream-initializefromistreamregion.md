@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICStream.InitializeFromIStreamRegion
 title: IWICStream::InitializeFromIStreamRegion (wincodec.h)
-author: windows-sdk-content
+
 description: Initializes the stream as a substream of another stream.
 old-location: wic\_wic_codec_iwicstream_initializefromistreamregion.htm
 tech.root: wic
 ms.assetid: 508e1972-22ef-4211-adcf-03f8138624c9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWICStream interface [Windows Imaging Component],InitializeFromIStreamRegion method, IWICStream.InitializeFromIStreamRegion, IWICStream::InitializeFromIStreamRegion, InitializeFromIStreamRegion, InitializeFromIStreamRegion method [Windows Imaging Component], InitializeFromIStreamRegion method [Windows Imaging Component],IWICStream interface, _wic_codec_iwicstream_initializefromistreamregion, wic._wic_codec_iwicstream_initializefromistreamregion, wincodec/IWICStream::InitializeFromIStreamRegion
 ms.topic: method

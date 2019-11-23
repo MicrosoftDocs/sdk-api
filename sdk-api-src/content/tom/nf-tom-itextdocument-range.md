@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextDocument.Range
 title: ITextDocument::Range (tom.h)
-author: windows-sdk-content
+
 description: Retrieves a text range object for a specified range of content in the active story of the document.
 old-location: controls\ITextDocument_Range.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\range.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextDocument interface [Windows Controls],Range method, ITextDocument.Range, ITextDocument::Range, Range, Range method [Windows Controls], Range method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Range, _win32_ITextDocument_Range_cpp, controls.ITextDocument_Range, controls._win32_ITextDocument_Range, tom/ITextDocument::Range
 ms.topic: method

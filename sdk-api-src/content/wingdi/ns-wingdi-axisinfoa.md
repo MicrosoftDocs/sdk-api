@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagAXISINFOA
 title: AXISINFOA (wingdi.h)
-author: windows-sdk-content
+
 description: The AXISINFO structure contains information about an axis of a multiple master font.
 old-location: gdi\axisinfo.htm
 tech.root: gdi
 ms.assetid: a947618e-4b50-453a-82d5-5a6f825faebb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPAXISINFOA, *PAXISINFOA, AXISINFO, AXISINFO structure [Windows GDI], AXISINFOA, AXISINFOW, PAXISINFO, PAXISINFO structure pointer [Windows GDI], _win32_AXISINFO_str, gdi.axisinfo, wingdi/AXISINFO, wingdi/AXISINFOA, wingdi/AXISINFOW, wingdi/PAXISINFO"
 ms.topic: struct

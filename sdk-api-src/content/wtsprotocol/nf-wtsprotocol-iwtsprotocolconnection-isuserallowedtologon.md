@@ -1,12 +1,12 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.IsUserAllowedToLogon
 title: IWTSProtocolConnection::IsUserAllowedToLogon (wtsprotocol.h)
-author: windows-sdk-content
+
 description: IWTSProtocolConnection::IsUserAllowedToLogon is no longer available. Instead, use IWRdsProtocolConnection::IsUserAllowedToLogon.
 old-location: termserv\iwtsprotocolconnection_isuserallowedtologon.htm
 tech.root: TermServ
 ms.assetid: 297ecc6c-6598-4c1a-94df-9d9924917cdf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],IsUserAllowedToLogon method, IWTSProtocolConnection.IsUserAllowedToLogon, IWTSProtocolConnection::IsUserAllowedToLogon, IsUserAllowedToLogon, IsUserAllowedToLogon method [Remote Desktop Services], IsUserAllowedToLogon method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_isuserallowedtologon, wtsprotocol/IWTSProtocolConnection::IsUserAllowedToLogon
 ms.topic: method

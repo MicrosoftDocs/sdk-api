@@ -1,12 +1,12 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.HasChild
 title: ISettingsItem::HasChild (wcmconfig.h)
-author: windows-sdk-content
+
 description: Determines whether the current item has a child item.
 old-location: smi\isettingsitem_haschild.htm
 tech.root: SMI
 ms.assetid: 6c22cb66-5116-4107-9fb0-a6a4161b6f8e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HasChild, HasChild method [SMI], HasChild method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],HasChild method, ISettingsItem.HasChild, ISettingsItem::HasChild, smi.isettingsitem_haschild, wcmconfig/ISettingsItem::HasChild
 ms.topic: method

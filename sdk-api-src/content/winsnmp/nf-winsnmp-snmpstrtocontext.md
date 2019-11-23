@@ -1,12 +1,12 @@
 ---
 UID: NF:winsnmp.SnmpStrToContext
 title: SnmpStrToContext function (winsnmp.h)
-author: windows-sdk-content
+
 description: The WinSNMP SnmpStrToContext function returns a handle to SNMP context information that is specific to the Microsoft WinSNMP implementation.
 old-location: snmp\snmpstrtocontext.htm
 tech.root: SNMP
 ms.assetid: d552f453-cc19-4166-aca3-bbaa3669b1c8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStrToContext, SnmpStrToContext function [SNMP], _snmp_snmpstrtocontext, snmp.snmpstrtocontext, winsnmp/SnmpStrToContext
 ms.topic: function

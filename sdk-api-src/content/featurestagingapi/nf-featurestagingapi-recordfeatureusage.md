@@ -1,12 +1,12 @@
 ---
 UID: NF:featurestagingapi.RecordFeatureUsage
 title: RecordFeatureUsage function (featurestagingapi.h)
-author: windows-sdk-content
+
 description: This function is intended for infrastructure use only.
 old-location: winprog\recordfeatureusage.htm
 tech.root: DevNotes
 ms.assetid: B3DC323F-C4F3-4B56-AE55-CD62876F016B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RecordFeatureUsage, RecordFeatureUsage function [Windows API], featurestagingapi/RecordFeatureUsage, winprog.recordfeatureusage
 ms.topic: function

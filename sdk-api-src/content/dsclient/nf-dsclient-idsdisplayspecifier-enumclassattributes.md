@@ -1,12 +1,12 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.EnumClassAttributes
 title: IDsDisplaySpecifier::EnumClassAttributes (dsclient.h)
-author: windows-sdk-content
+
 description: Enumerates the attributes for a given object class.
 old-location: ad\idsdisplayspecifier_enumclassattributes.htm
 tech.root: ad
 ms.assetid: 78b8e280-454c-4db7-9037-ea7e42798323
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumClassAttributes, EnumClassAttributes method [Active Directory], EnumClassAttributes method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],EnumClassAttributes method, IDsDisplaySpecifier.EnumClassAttributes, IDsDisplaySpecifier::EnumClassAttributes, _glines_idsdisplayspecifier_enumclassattributes, ad.idsdisplayspecifier__enumclassattributes, ad.idsdisplayspecifier_enumclassattributes, dsclient/IDsDisplaySpecifier::EnumClassAttributes
 ms.topic: method

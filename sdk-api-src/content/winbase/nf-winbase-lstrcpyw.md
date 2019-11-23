@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.lstrcpyW
 title: lstrcpyW function (winbase.h)
-author: windows-sdk-content
+
 description: Copies a string to a buffer.
 old-location: menurc\lstrcpy.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcpy.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_lstrcpy, _win32_lstrcpy_cpp, lstrcpy, lstrcpy function [Menus and Other Resources], lstrcpyA, lstrcpyW, menurc.lstrcpy, winbase/lstrcpy, winbase/lstrcpyA, winbase/lstrcpyW, winui._win32_lstrcpy"
 ms.topic: function

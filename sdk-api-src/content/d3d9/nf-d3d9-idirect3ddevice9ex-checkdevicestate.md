@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.CheckDeviceState
 title: IDirect3DDevice9Ex::CheckDeviceState (d3d9.h)
-author: windows-sdk-content
+
 description: Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
 old-location: direct3d9\idirect3ddevice9ex_checkdevicestate.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_checkdevicestate.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 7c555cdc-567a-be2d-d677-3b3df3746e0b, CheckDeviceState, CheckDeviceState method [Direct3D 9], CheckDeviceState method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],CheckDeviceState method, IDirect3DDevice9Ex.CheckDeviceState, IDirect3DDevice9Ex::CheckDeviceState, d3d9/IDirect3DDevice9Ex::CheckDeviceState, direct3d9.idirect3ddevice9ex_checkdevicestate
 ms.topic: method

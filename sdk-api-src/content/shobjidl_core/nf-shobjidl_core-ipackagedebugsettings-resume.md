@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.Resume
 title: IPackageDebugSettings::Resume (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Resumes the processes of the package if they are currently suspended.
 old-location: shell\IPackageDebugSettings_Resume.htm
 tech.root: shell
 ms.assetid: 2f0b3188-4c58-4ff6-983e-912131a7c934
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],Resume method, IPackageDebugSettings.Resume, IPackageDebugSettings::Resume, Resume, Resume method [Windows Shell], Resume method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_Resume, shobjidl_core/IPackageDebugSettings::Resume
 ms.topic: method

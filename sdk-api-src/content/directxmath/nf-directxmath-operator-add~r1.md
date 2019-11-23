@@ -3,7 +3,7 @@ UID: NF:directxmath.operator-add~r1
 title: operator+
 description: Adds two instances of **XMVECTOR**, returning the result in a new instance.
 ms.assetid: 24dc38ff-fa79-4fba-b7fb-594722c5c967
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: operator+
 ms.topic: language-reference

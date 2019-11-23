@@ -1,12 +1,12 @@
 ---
 UID: NF:msi.MsiGetProductInfoFromScriptW
 title: MsiGetProductInfoFromScriptW function (msi.h)
-author: windows-sdk-content
+
 description: The MsiGetProductInfoFromScript function returns product information for a Windows Installer script file.
 old-location: setup\msigetproductinfofromscript.htm
 tech.root: Msi
 ms.assetid: fe0bc709-b410-4a61-bea3-d11fc8f71883
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MsiGetProductInfoFromScript, MsiGetProductInfoFromScript function, MsiGetProductInfoFromScriptA, MsiGetProductInfoFromScriptW, _msi_msigetproductinfofromscript, msi/MsiGetProductInfoFromScript, msi/MsiGetProductInfoFromScriptA, msi/MsiGetProductInfoFromScriptW, setup.msigetproductinfofromscript
 ms.topic: function

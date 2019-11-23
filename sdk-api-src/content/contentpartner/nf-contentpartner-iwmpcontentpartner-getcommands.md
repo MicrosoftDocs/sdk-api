@@ -1,12 +1,12 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetCommands
 title: IWMPContentPartner::GetCommands (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetCommands method retrieves context menu commands.
 old-location: wmp\iwmpcontentpartner_getcommands.htm
 tech.root: WMP
 ms.assetid: bc6dfd97-50bb-438c-9cd6-3eac91e99cab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCommands, GetCommands method [Windows Media Player], GetCommands method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetCommands method, IWMPContentPartner.GetCommands, IWMPContentPartner::GetCommands, IWMPContentPartnerGetCommands, contentpartner/IWMPContentPartner::GetCommands, wmp.iwmpcontentpartner_getcommands
 ms.topic: method

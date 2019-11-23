@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.GetCenterPoint
 title: IDirectManipulationPrimaryContent::GetCenterPoint (directmanipulation.h)
-author: windows-sdk-content
+
 description: Retrieves the center point of the manipulation in content coordinates.
 old-location: directmanipulation\idirectmanipulationprimarycontent_getcenterpoint.htm
 tech.root: directmanipulation
 ms.assetid: e38c1445-af4b-463b-8796-d72d69cb19c6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCenterPoint, GetCenterPoint method [Direct Manipulation], GetCenterPoint method [Direct Manipulation],IDirectManipulationPrimaryContent interface, IDirectManipulationPrimaryContent interface [Direct Manipulation],GetCenterPoint method, IDirectManipulationPrimaryContent.GetCenterPoint, IDirectManipulationPrimaryContent::GetCenterPoint, directmanipulation.idirectmanipulationprimarycontent_getcenterpoint, directmanipulation/IDirectManipulationPrimaryContent::GetCenterPoint
 ms.topic: method

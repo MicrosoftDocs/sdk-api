@@ -1,12 +1,12 @@
 ---
 UID: NS:ipmib._MIB_ICMP
 title: MIB_ICMP (ipmib.h)
-author: windows-sdk-content
+
 description: Contains the Internet Control Message Protocol (ICMP) statistics for a particular computer.
 old-location: mib\mib_icmp.htm
 tech.root: MIB
 ms.assetid: 45ccaacb-f2cd-4be5-94ef-48d4403d5f60
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_ICMP, MIB_ICMP, MIB_ICMP structure [MIB], PMIB_ICMP, PMIB_ICMP structure pointer [MIB], _mpr_mib_icmp, ipmib/MIB_ICMP, ipmib/PMIB_ICMP, iprtrmib/MIB_ICMP, iprtrmib/PMIB_ICMP, mib.mib_icmp, rras.mib_icmp'
 ms.topic: struct

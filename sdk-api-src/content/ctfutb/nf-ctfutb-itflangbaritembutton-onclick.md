@@ -1,12 +1,12 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemButton.OnClick
 title: ITfLangBarItemButton::OnClick (ctfutb.h)
-author: windows-sdk-content
+
 description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BUTTON style.
 old-location: tsf\itflangbaritembutton_onclick.htm
 tech.root: TSF
 ms.assetid: c725ee0b-57fe-4860-aa49-af61f2c7fa32
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemButton interface [Text Services Framework],OnClick method, ITfLangBarItemButton.OnClick, ITfLangBarItemButton::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemButton interface, _tsf_itflangbaritembutton_onclick_ref, ctfutb/ITfLangBarItemButton::OnClick, tsf.itflangbaritembutton_onclick
 ms.topic: method

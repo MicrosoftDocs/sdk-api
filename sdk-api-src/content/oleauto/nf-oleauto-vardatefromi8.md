@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarDateFromI8
 title: VarDateFromI8 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts an 8-byte unsigned integer value to a date value.
 old-location: automat\vardatefromi8.htm
 tech.root: automat
 ms.assetid: 0d551218-87fc-450d-b193-fb00e18179af
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarDateFromI8, VarDateFromI8 function [Automation], _oa96_VarDateFromI8, automat.vardatefromi8, oleauto/VarDateFromI8
 ms.topic: function

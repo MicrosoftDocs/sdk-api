@@ -1,12 +1,12 @@
 ---
 UID: NF:winstring.WindowsCreateString
 title: WindowsCreateString function (winstring.h)
-author: windows-sdk-content
+
 description: Creates a new HSTRING based on the specified source string.
 old-location: winrt\windowscreatestring.htm
 tech.root: WinRT
 ms.assetid: CACEFB80-A47E-45A7-9E13-29C1326B9453
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WindowsCreateString, WindowsCreateString function [Windows Runtime], winrt.windowscreatestring, winstring/WindowsCreateString
 ms.topic: function

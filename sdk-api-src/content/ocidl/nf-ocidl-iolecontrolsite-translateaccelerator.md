@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IOleControlSite.TranslateAccelerator
 title: IOleControlSite::TranslateAccelerator (ocidl.h)
-author: windows-sdk-content
+
 description: Passes a keystroke to the control site for processing.
 old-location: com\iolecontrolsite_translateaccelerator.htm
 tech.root: com
 ms.assetid: e4f9a6f7-bb0f-41d2-b1b8-7fda2dbee278
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleControlSite interface [COM],TranslateAccelerator method, IOleControlSite.TranslateAccelerator, IOleControlSite::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_translateaccelerator, com.iolecontrolsite_translateaccelerator, ocidl/IOleControlSite::TranslateAccelerator
 ms.topic: method

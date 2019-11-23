@@ -1,12 +1,12 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage.SetPropertyStorage
 title: IPersistSerializedPropStorage::SetPropertyStorage (propsys.h)
-author: windows-sdk-content
+
 description: Initializes the property store instance from the specified serialized property storage data.
 old-location: shell\IPersistSerializedPropStorage_SetPropertyStorage.htm
 tech.root: shell
 ms.assetid: 5b6d14ba-3de3-493e-8551-0f3caa02f339
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPersistSerializedPropStorage interface [Windows Shell],SetPropertyStorage method, IPersistSerializedPropStorage.SetPropertyStorage, IPersistSerializedPropStorage::SetPropertyStorage, SetPropertyStorage, SetPropertyStorage method [Windows Shell], SetPropertyStorage method [Windows Shell],IPersistSerializedPropStorage interface, _shell_IPersistSerializedPropStorage_SetPropertyStorage, propsys/IPersistSerializedPropStorage::SetPropertyStorage, shell.IPersistSerializedPropStorage_SetPropertyStorage
 ms.topic: method

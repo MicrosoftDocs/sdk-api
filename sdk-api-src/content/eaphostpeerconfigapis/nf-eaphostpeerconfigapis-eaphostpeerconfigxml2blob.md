@@ -1,12 +1,12 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerConfigXml2Blob
 title: EapHostPeerConfigXml2Blob function (eaphostpeerconfigapis.h)
-author: windows-sdk-content
+
 description: Converts XML into the configuration BLOB.
 old-location: eaphost\eaphostpeerconfigxml2blob.htm
 tech.root: eaphost
 ms.assetid: 728fab9e-6aa4-49c0-ab1f-89686543524c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerConfigXml2Blob, EapHostPeerConfigXml2Blob function [EAPHost], eaphost.eaphostpeerconfigxml2blob, eaphostpeerconfigapis/EapHostPeerConfigXml2Blob
 ms.topic: function

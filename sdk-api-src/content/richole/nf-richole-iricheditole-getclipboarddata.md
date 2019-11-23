@@ -1,12 +1,12 @@
 ---
 UID: NF:richole.IRichEditOle.GetClipboardData
 title: IRichEditOle::GetClipboardData (richole.h)
-author: windows-sdk-content
+
 description: Retrieves a clipboard object for a range in an edit control.
 old-location: controls\IRichEditOle_GetClipboardData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetclipboarddata.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetClipboardData, GetClipboardData method [Windows Controls], GetClipboardData method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetClipboardData method, IRichEditOle.GetClipboardData, IRichEditOle::GetClipboardData, _win32_IRichEditOle_GetClipboardData, _win32_IRichEditOle_GetClipboardData_cpp, controls.IRichEditOle_GetClipboardData, controls._win32_IRichEditOle_GetClipboardData, richole/IRichEditOle::GetClipboardData
 ms.topic: method

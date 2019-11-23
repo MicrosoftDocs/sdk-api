@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorMergeZW
 title: XMVectorMergeZW function (directxmath.h)
-author: windows-sdk-content
+
 description: Creates a new vector by combining the z and w-components of two vectors.
 old-location: dxmath\xmvectormergezw.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorMergeZW(XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorMergeZW, XMVectorMergeZW, XMVectorMergeZW method [DirectX Math Support APIs], dxmath.xmvectormergezw
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.INetFwRule.put_EdgeTraversal
 title: INetFwRule::put_EdgeTraversal (netfw.h)
-author: windows-sdk-content
+
 description: Indicates whether edge traversal is enabled or disabled for this rule.
 old-location: ics\inetfwrule_edgetraversal.htm
 tech.root: ics
 ms.assetid: a45a8161-3273-4d43-86bf-34d1b776dbbc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EdgeTraversal property [ICS/ICF], EdgeTraversal property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],EdgeTraversal property, INetFwRule.EdgeTraversal, INetFwRule.put_EdgeTraversal, INetFwRule::EdgeTraversal, INetFwRule::get_EdgeTraversal, INetFwRule::put_EdgeTraversal, ics.inetfwrule_edgetraversal, netfw/INetFwRule::EdgeTraversal, netfw/INetFwRule::get_EdgeTraversal, netfw/INetFwRule::put_EdgeTraversal, put_EdgeTraversal
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:pla.ITraceDataProvider
 title: ITraceDataProvider (pla.h)
-author: windows-sdk-content
+
 description: Specifies a trace provider to enable in the trace session.
 old-location: pla\itracedataprovider.htm
 tech.root: PLA
 ms.assetid: bd2a49c1-8e18-4a14-a797-07f2b9c25812
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider, ITraceDataProvider interface [PLA], ITraceDataProvider interface [PLA],described, base.itracedataprovider, pla.itracedataprovider, pla/ITraceDataProvider
 ms.topic: interface

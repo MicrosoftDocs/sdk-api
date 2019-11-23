@@ -1,12 +1,12 @@
 ---
 UID: NF:tom.ITextRange.SetPoint
 title: ITextRange::SetPoint (tom.h)
-author: windows-sdk-content
+
 description: Changes the range based on a specified point at or up through (depending on Extend) the point (x, y) aligned according to Type.
 old-location: controls\ITextRange_SetPoint.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setpoint.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetPoint method, ITextRange.SetPoint, ITextRange::SetPoint, SetPoint, SetPoint method [Windows Controls], SetPoint method [Windows Controls],ITextRange interface, _win32_ITextRange_SetPoint, _win32_ITextRange_SetPoint_cpp, controls.ITextRange_SetPoint, controls._win32_ITextRange_SetPoint, tom/ITextRange::SetPoint
 ms.topic: method

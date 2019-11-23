@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMDRMTranscryptor.Seek
 title: IWMDRMTranscryptor::Seek (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The Seek method sets the DRM transcryptor to read from the specified point in the data stream of the loaded file. Subsequent Read calls generate data beginning at that point.
 old-location: wmformat\iwmdrmtranscryptor_seek.htm
 tech.root: wmformat
 ms.assetid: 4962741b-d1ca-4296-ad95-d171d165c5d9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Seek method, IWMDRMTranscryptor.Seek, IWMDRMTranscryptor::Seek, IWMDRMTranscryptorSeek, Seek, Seek method [windows Media Format], Seek method [windows Media Format],IWMDRMTranscryptor interface, wmformat.iwmdrmtranscryptor_seek, wmsdkidl/IWMDRMTranscryptor::Seek
 ms.topic: method

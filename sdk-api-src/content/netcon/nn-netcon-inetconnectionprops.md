@@ -1,12 +1,12 @@
 ---
 UID: NN:netcon.INetConnectionProps
 title: INetConnectionProps (netcon.h)
-author: windows-sdk-content
+
 description: Use the INetConnectionProps interface to retrieve the properties for a connection.
 old-location: ics\inetconnectionprops.htm
 tech.root: ics
 ms.assetid: 8152f75c-1c93-4c30-8a13-c47fd5dde4af
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps, INetConnectionProps interface [ICS/ICF], INetConnectionProps interface [ICS/ICF],described, _ics_inetconnectionprops, ics.inetconnectionprops, netcon/INetConnectionProps
 ms.topic: interface

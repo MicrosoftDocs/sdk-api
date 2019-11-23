@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d12.ID3D12PipelineLibrary1
 title: ID3D12PipelineLibrary1 (d3d12.h)
-author: windows-sdk-content
+
 description: Manages a pipeline library. This interface extends ID3D12PipelineLibrary to load PSOs from a pipeline state stream description.
 old-location: direct3d12\id3d12pipelinelibrary1.htm
 tech.root: direct3d12
 ms.assetid: 66890F5B-7C1F-4E47-B141-253FC2A166B1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12PipelineLibrary1, ID3D12PipelineLibrary1 interface, ID3D12PipelineLibrary1 interface,described, d3d12/ID3D12PipelineLibrary1, direct3d12.id3d12pipelinelibrary1
 ms.topic: interface

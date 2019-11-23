@@ -1,12 +1,12 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.AddRef
 title: IDirectInputEffectDriver::AddRef (dinputd.h)
-author: windows-sdk-content
+
 description: The IDirectInputEffectDriver::AddRef method increases the reference count of the DirectInputEffectDriver object by 1. This method is part of the IUnknown interface inherited by DirectInputEffectDriver.
 old-location: hid\idirectinputeffectdriver_addref.htm
 tech.root: hid
 ms.assetid: 6bdeb92c-09de-4d26-b2ed-9bacb7233886
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddRef, AddRef method [Human Input Devices], AddRef method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],AddRef method, IDirectInputEffectDriver.AddRef, IDirectInputEffectDriver::AddRef, di_ref_9a9eb400-fa33-4643-b060-b047bd6e5818.xml, dinputd/IDirectInputEffectDriver::AddRef, hid.idirectinputeffectdriver_addref
 ms.topic: method

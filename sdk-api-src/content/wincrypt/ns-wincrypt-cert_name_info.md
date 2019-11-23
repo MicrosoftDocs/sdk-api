@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CERT_NAME_INFO
 title: CERT_NAME_INFO (wincrypt.h)
-author: windows-sdk-content
+
 description: Contains subject or issuer names.
 old-location: security\cert_name_info.htm
 tech.root: SecCrypto
 ms.assetid: 402d1051-d91a-4a79-96f6-10ed96a32d5c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_NAME_INFO, CERT_NAME_INFO, CERT_NAME_INFO structure [Security], PCERT_NAME_INFO, PCERT_NAME_INFO structure pointer [Security], _crypto2_cert_name_info, security.cert_name_info, wincrypt/CERT_NAME_INFO, wincrypt/PCERT_NAME_INFO'
 ms.topic: struct

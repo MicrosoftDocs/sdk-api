@@ -1,12 +1,12 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_Left
 title: IPenInputPanel::get_Left (peninputpanel.h)
-author: windows-sdk-content
+
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the horizontal, or x-axis, location of the left edge of the PenInputPanel object, in screen coordinates.
 old-location: tablet\peninputpanel_left.htm
 tech.root: tablet
 ms.assetid: 99af3767-5bc9-43e3-9413-5886f057cb85
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 99af3767-5bc9-43e3-9413-5886f057cb85, IPenInputPanel interface [Tablet PC],Left property, IPenInputPanel.Left, IPenInputPanel.get_Left, IPenInputPanel::Left, IPenInputPanel::get_Left, Left property [Tablet PC], Left property [Tablet PC],IPenInputPanel interface, PenInputPanel.get_Left, get_Left, peninputpanel/IPenInputPanel::Left, peninputpanel/IPenInputPanel::get_Left, tablet.peninputpanel_left
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:cfapi.CF_PLACEHOLDER_BASIC_INFO
 title: CF_PLACEHOLDER_BASIC_INFO (cfapi.h)
-author: windows-sdk-content
+
 description: Basic placeholder information.
 old-location: cloudapi\cf_placeholder_basic_info.htm
 tech.root: cfApi
 ms.assetid: 77367235-342D-4BBC-B910-FE798E14B588
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CF_PLACEHOLDER_BASIC_INFO, CF_PLACEHOLDER_BASIC_INFO structure, cfapi/CF_PLACEHOLDER_BASIC_INFO, cloudApi.cf_placeholder_basic_info
 ms.topic: struct

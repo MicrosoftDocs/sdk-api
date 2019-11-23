@@ -1,12 +1,12 @@
 ---
 UID: NE:ocidl.tagPictureAttributes
 title: PICTUREATTRIBUTES (ocidl.h)
-author: windows-sdk-content
+
 description: Specifies attributes of a picture object as returned through the IPicture::get_Attributes method.
 old-location: com\pictureattributes.htm
 tech.root: com
 ms.assetid: 3162a305-d35c-402d-a8d8-f0f124257dd5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PICTUREATTRIBUTES, PICTUREATTRIBUTES enumeration [COM], PICTURE_SCALABLE, PICTURE_TRANSPARENT, _ctrl_PICTURE, com.pictureattributes, ocidl/PICTUREATTRIBUTES, ocidl/PICTURE_SCALABLE, ocidl/PICTURE_TRANSPARENT
 ms.topic: enum

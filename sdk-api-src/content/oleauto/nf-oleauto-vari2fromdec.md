@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarI2FromDec
 title: VarI2FromDec function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a decimal value to a short value.
 old-location: automat\vari2fromdec.htm
 tech.root: automat
 ms.assetid: 1bcba279-15ec-4733-8f76-6576b6e389ee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarI2FromDec, VarI2FromDec function [Automation], _oa96_VarI2FromDec, automat.vari2fromdec, oleauto/VarI2FromDec
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:mfobjects.IMFActivate
 title: IMFActivate (mfobjects.h)
-author: windows-sdk-content
+
 description: Enables the application to defer the creation of an object.
 old-location: mf\imfactivate.htm
 tech.root: medfound
 ms.assetid: c0936e3c-3cd1-4c1e-a336-2dee7d943963
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFActivate, IMFActivate interface [Media Foundation], IMFActivate interface [Media Foundation],described, c0936e3c-3cd1-4c1e-a336-2dee7d943963, mf.imfactivate, mfobjects/IMFActivate
 ms.topic: interface

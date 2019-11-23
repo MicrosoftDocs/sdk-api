@@ -1,12 +1,12 @@
 ---
 UID: NS:udpmib._MIB_UDP6TABLE_OWNER_PID
 title: MIB_UDP6TABLE_OWNER_PID (udpmib.h)
-author: windows-sdk-content
+
 description: Contains the User Datagram Protocol (UDP) listener table for IPv6 on the local computer. The table also includes the process ID (PID) that issued the call to the bind function for each UDP endpoint.
 old-location: mib\mib_udp6table_owner_pid.htm
 tech.root: MIB
 ms.assetid: 6c8d1cb9-209b-47a0-b41c-6b4098a4a81e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_UDP6TABLE_OWNER_PID, MIB_UDP6TABLE_OWNER_PID, MIB_UDP6TABLE_OWNER_PID structure [MIB], PMIB_UDP6TABLE_OWNER_PID, PMIB_UDP6TABLE_OWNER_PID structure pointer [MIB], iprtrmib/MIB_UDP6TABLE_OWNER_PID, iprtrmib/PMIB_UDP6TABLE_OWNER_PID, mib.mib_udp6table_owner_pid, udpmib/MIB_UDP6TABLE_OWNER_PID, udpmib/PMIB_UDP6TABLE_OWNER_PID'
 ms.topic: struct

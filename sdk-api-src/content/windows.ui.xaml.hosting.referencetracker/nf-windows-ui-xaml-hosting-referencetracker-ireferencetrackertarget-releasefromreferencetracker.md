@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerTarget.ReleaseFromReferenceTracker
 title: IReferenceTrackerTarget::xaml (windows.ui.xaml.hosting.referencetracker.h)
-author: windows-sdk-content
+
 description: Releases the XAML object reference marked in a previous call to AddRefFromReferenceTracker.
 old-location: winrt\ireferencetrackertarget_releasefromreferencetracker.htm
 tech.root: WinRT
 ms.assetid: 646e6a3d-e7ea-4deb-ae1f-546caaaf4ea4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerTarget interface [Windows Runtime],ReleaseFromReferenceTracker method, IReferenceTrackerTarget.ReleaseFromReferenceTracker, IReferenceTrackerTarget.xaml, IReferenceTrackerTarget::ReleaseFromReferenceTracker, IReferenceTrackerTarget::xaml, ReleaseFromReferenceTracker, ReleaseFromReferenceTracker method [Windows Runtime], ReleaseFromReferenceTracker method [Windows Runtime],IReferenceTrackerTarget interface, windows/IReferenceTrackerTarget::ReleaseFromReferenceTracker, winrt.ireferencetrackertarget_releasefromreferencetracker
 ms.topic: method

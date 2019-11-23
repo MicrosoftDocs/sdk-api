@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.ContentBecomingStale
 title: IMSVidStreamBufferV2SourceEvent::ContentBecomingStale (segment.h)
-author: windows-sdk-content
+
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_CONTENT_BECOMING_STALE event, which indicates the stream buffer source lags behind the stream buffer sink by more than a preset number of files.For more information, see IStreamBufferConfigure::GetBackingFileCount.
 old-location: mstv\imsvidstreambufferv2sourceevent_contentbecomingstale.htm
 tech.root: mstv
 ms.assetid: b9af548a-9796-4dc0-8b78-46e529a484ce
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ContentBecomingStale, ContentBecomingStale method [Microsoft TV Technologies], ContentBecomingStale method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],ContentBecomingStale method, IMSVidStreamBufferV2SourceEvent.ContentBecomingStale, IMSVidStreamBufferV2SourceEvent::ContentBecomingStale, mstv.imsvidstreambufferv2sourceevent_contentbecomingstale, segment/IMSVidStreamBufferV2SourceEvent::ContentBecomingStale
 ms.topic: method

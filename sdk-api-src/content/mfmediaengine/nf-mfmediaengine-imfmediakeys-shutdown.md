@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeys.Shutdown
 title: IMFMediaKeys::Shutdown (mfmediaengine.h)
-author: windows-sdk-content
+
 description: 
 old-location: mf\imfmediakeys_shutdown.htm
 tech.root: medfound
 ms.assetid: 464b598c-5fa7-40af-83ba-8619fbd84b04
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeys interface [Media Foundation],Shutdown method, IMFMediaKeys.Shutdown, IMFMediaKeys::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaKeys interface, mf.imfmediakeys_shutdown, mfmediaengine/IMFMediaKeys::Shutdown
 ms.topic: method

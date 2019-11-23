@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplustypes.RectF.Offset(IN REAL,IN REAL)
 title: RectF::Offset(IN REAL,IN REAL) (gdiplustypes.h)
-author: windows-sdk-content
+
 description: The RectF::Offset method moves the rectangle by dx horizontally and by dx vertically.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Offset_dx_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfoffsetmethods\offset_44dx_dy.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Offset, Offset method [GDI+], Offset method [GDI+],RectF class, RectF class [GDI+],Offset method, RectF.Offset, RectF.Offset(IN REAL,IN REAL), RectF.Offset(REAL,REAL), RectF::Offset, RectF::Offset(IN REAL,IN REAL), _gdiplus_CLASS_RectF_Offset_dx_dy_, gdiplus._gdiplus_CLASS_RectF_Offset_dx_dy_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.Init
 title: IWSDDeviceProxy::Init (wsdclient.h)
-author: windows-sdk-content
+
 description: Initializes the device proxy, optionally sharing a session with a previously initialized sponsoring device proxy.
 old-location: ncd\iwsddeviceproxy_init_method.htm
 tech.root: WsdApi
 ms.assetid: d29212c8-2f29-41cc-ae35-8376ec5f0b7a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceProxy interface,Init method, IWSDDeviceProxy.Init, IWSDDeviceProxy::Init, Init, Init method, Init method,IWSDDeviceProxy interface, ncd.iwsddeviceproxy_init_method, wsdclient/IWSDDeviceProxy::Init
 ms.topic: method

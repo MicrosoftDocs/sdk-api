@@ -1,12 +1,12 @@
 ---
 UID: NN:devicetopology.IAudioBass
 title: IAudioBass (devicetopology.h)
-author: windows-sdk-content
+
 description: The IAudioBass interface provides access to a hardware bass-level control.
 old-location: coreaudio\iaudiobass.htm
 tech.root: CoreAudio
 ms.assetid: 036ca996-8612-4905-9afa-a4c3b4624652
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioBass, IAudioBass interface [Core Audio], IAudioBass interface [Core Audio],described, coreaudio.iaudiobass, devicetopology/IAudioBass
 ms.topic: interface

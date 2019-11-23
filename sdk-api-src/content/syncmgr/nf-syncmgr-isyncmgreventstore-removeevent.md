@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventStore.RemoveEvent
 title: ISyncMgrEventStore::RemoveEvent (syncmgr.h)
-author: windows-sdk-content
+
 description: Removes events, as specified.
 old-location: shell\ISyncMgrEventStore_RemoveEvent.htm
 tech.root: shell
 ms.assetid: 08d01b6f-1e1f-4f03-9595-f374805ae734
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEventStore interface [Windows Shell],RemoveEvent method, ISyncMgrEventStore.RemoveEvent, ISyncMgrEventStore::RemoveEvent, RemoveEvent, RemoveEvent method [Windows Shell], RemoveEvent method [Windows Shell],ISyncMgrEventStore interface, _shell_ISyncMgrEventStore_RemoveEvent, shell.ISyncMgrEventStore_RemoveEvent, syncmgr/ISyncMgrEventStore::RemoveEvent
 ms.topic: method

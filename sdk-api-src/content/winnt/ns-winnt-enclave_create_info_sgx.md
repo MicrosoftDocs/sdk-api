@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._ENCLAVE_CREATE_INFO_SGX
 title: ENCLAVE_CREATE_INFO_SGX (winnt.h)
-author: windows-sdk-content
+
 description: Contains architecture-specific information to use to create an enclave when the enclave type is ENCLAVE_TYPE_SGX, which specifies an enclave for the Intel Software Guard Extensions (SGX) architecture extension.
 old-location: base\enclave_create_info_sgx.htm
 tech.root: Memory
 ms.assetid: 51ED6E75-DA18-4CCE-8718-46328DD62B07
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX structure, PENCLAVE_CREATE_INFO_SGX, PENCLAVE_CREATE_INFO_SGX structure pointer, base.enclave_create_info_sgx, winnt/ENCLAVE_CREATE_INFO_SGX, winnt/PENCLAVE_CREATE_INFO_SGX'
 ms.topic: struct

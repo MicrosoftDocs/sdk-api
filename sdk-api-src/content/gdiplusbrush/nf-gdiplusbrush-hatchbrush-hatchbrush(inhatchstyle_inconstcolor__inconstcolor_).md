@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusbrush.HatchBrush.HatchBrush(IN HatchStyle,IN const Color &,IN const Color &)
 title: HatchBrush::HatchBrush(IN HatchStyle,IN const Color &,IN const Color &) (gdiplusbrush.h)
-author: windows-sdk-content
+
 description: Creates a HatchBrush::HatchBrush object based on a hatch style, a foreground color, and a background color.
 old-location: gdiplus\_gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\hatchbrushclass\hatchbrush_47hatchstyle_forecolor_backcolor.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HatchBrush, HatchBrush class [GDI+],HatchBrush constructor, HatchBrush constructor [GDI+], HatchBrush constructor [GDI+],HatchBrush class, HatchBrush.HatchBrush, HatchBrush.HatchBrush(IN HatchStyle,IN const Color &,IN const Color &), HatchBrush::HatchBrush, HatchBrush::HatchBrush(IN HatchStyle,IN const Color &,IN const Color &), _gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_, gdiplus._gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_
 ms.topic: method

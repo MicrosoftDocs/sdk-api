@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxManifestTargetDeviceFamily.GetMinVersion
 title: IAppxManifestTargetDeviceFamily::GetMinVersion (appxpackaging.h)
-author: windows-sdk-content
+
 description: Gets the minimum version of the target device family from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifesttargetdevicefamily_getminversion.htm
 tech.root: appxpkg
 ms.assetid: 8CE408D3-0DD7-4482-8F7E-FE731ACE58C6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMinVersion, GetMinVersion method [App packaging and management], GetMinVersion method [App packaging and management],IAppxManifestTargetDeviceFamily interface, IAppxManifestTargetDeviceFamily interface [App packaging and management],GetMinVersion method, IAppxManifestTargetDeviceFamily.GetMinVersion, IAppxManifestTargetDeviceFamily::GetMinVersion, appxpackaging/IAppxManifestTargetDeviceFamily::GetMinVersion, appxpkg.iappxmanifesttargetdevicefamily_getminversion
 ms.topic: method

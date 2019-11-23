@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IBootOptions.put_Emulation
 title: IBootOptions::put_Emulation (imapi2fs.h)
-author: windows-sdk-content
+
 description: Sets the media type that the boot image is intended to emulate.
 old-location: imapi\ibootoptions_put_emulation.htm
 tech.root: imapi
 ms.assetid: 93ed301e-fdea-451c-9ab0-6ea9a7fd45de
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBootOptions interface [IMAPI],put_Emulation method, IBootOptions.put_Emulation, IBootOptions::put_Emulation, imapi.ibootoptions_put_emulation, imapi2fs/IBootOptions::put_Emulation, put_Emulation, put_Emulation method [IMAPI], put_Emulation method [IMAPI],IBootOptions interface
 ms.topic: method

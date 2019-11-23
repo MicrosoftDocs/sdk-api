@@ -1,12 +1,12 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Delete
 title: IWSManSession::Delete (wsmandisp.h)
-author: windows-sdk-content
+
 description: Deletes the resource specified in the resource URI.
 old-location: winrm\iwsmansession_delete.htm
 tech.root: winrm
 ms.assetid: 63674a3a-4819-4695-a8f5-648787d78cc4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Windows Remote Management], Delete method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Delete method, IWSManSession.Delete, IWSManSession::Delete, winrm.iwsmansession_delete, wsmandisp/IWSManSession::Delete
 ms.topic: method

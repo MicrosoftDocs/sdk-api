@@ -1,12 +1,12 @@
 ---
 UID: NF:msrdc.ISimilarity.CreateTable
 title: ISimilarity::CreateTable (msrdc.h)
-author: windows-sdk-content
+
 description: Creates or opens a similarity traits table and a similarity file ID table.
 old-location: rdc\isimilarity_createtable.htm
 tech.root: rdc
 ms.assetid: 808c20f9-054d-475d-8ca3-ee2dde871426
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateTable, CreateTable method [Remote Differential Compression], CreateTable method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],CreateTable method, ISimilarity.CreateTable, ISimilarity::CreateTable, fs.isimilarity_createtable, msrdc/ISimilarity::CreateTable, rdc.isimilarity_createtable
 ms.topic: method

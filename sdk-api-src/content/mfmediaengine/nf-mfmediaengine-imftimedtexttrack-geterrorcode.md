@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetErrorCode
 title: IMFTimedTextTrack::GetErrorCode (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Gets a value indicating the error type of the latest error associated with the track.
 old-location: mf\imftimedtexttrack_geterrorcode.htm
 tech.root: medfound
 ms.assetid: D73D3ACC-BD9C-4340-8572-6D82E96D0BA8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetErrorCode, GetErrorCode method [Media Foundation], GetErrorCode method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetErrorCode method, IMFTimedTextTrack.GetErrorCode, IMFTimedTextTrack::GetErrorCode, mf.imftimedtexttrack_geterrorcode, mfmediaengine/IMFTimedTextTrack::GetErrorCode
 ms.topic: method

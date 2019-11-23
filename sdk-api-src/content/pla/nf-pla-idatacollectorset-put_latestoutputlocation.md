@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_LatestOutputLocation
 title: IDataCollectorSet::put_LatestOutputLocation (pla.h)
-author: windows-sdk-content
+
 description: Retrieves or sets the fully decorated folder name that PLA used the last time logs were written.
 old-location: pla\idatacollectorset_get_latestoutputlocation.htm
 tech.root: PLA
 ms.assetid: c0047144-5f99-4acd-ad96-054afcbe6eb9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],LatestOutputLocation property, IDataCollectorSet.LatestOutputLocation, IDataCollectorSet.put_LatestOutputLocation, IDataCollectorSet::LatestOutputLocation, IDataCollectorSet::get_LatestOutputLocation, IDataCollectorSet::put_LatestOutputLocation, LatestOutputLocation property [PLA], LatestOutputLocation property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_latestoutputlocation, pla.idatacollectorset_get_latestoutputlocation, pla/IDataCollectorSet::LatestOutputLocation, pla/IDataCollectorSet::get_LatestOutputLocation, pla/IDataCollectorSet::put_LatestOutputLocation, put_LatestOutputLocation
 ms.topic: method

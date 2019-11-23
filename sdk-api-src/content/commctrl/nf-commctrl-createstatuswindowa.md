@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.CreateStatusWindowA
 title: CreateStatusWindowA function (commctrl.h)
-author: windows-sdk-content
+
 description: Creates a status window, which is typically used to display the status of an application.
 old-location: controls\CreateStatusWindow.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\createstatuswindow.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateStatusWindow, CreateStatusWindow function [Windows Controls], CreateStatusWindowA, CreateStatusWindowW, _win32_CreateStatusWindow, _win32_CreateStatusWindow_cpp, commctrl/CreateStatusWindow, commctrl/CreateStatusWindowA, commctrl/CreateStatusWindowW, controls.CreateStatusWindow, controls._win32_CreateStatusWindow
 ms.topic: function

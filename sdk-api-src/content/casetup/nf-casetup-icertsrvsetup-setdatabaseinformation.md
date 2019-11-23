@@ -1,12 +1,12 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetDatabaseInformation
 title: ICertSrvSetup::SetDatabaseInformation (casetup.h)
-author: windows-sdk-content
+
 description: Sets the database related information for the certification authority (CA) role.
 old-location: security\icertsrvsetup_setdatabaseinformation.htm
 tech.root: SecCrypto
 ms.assetid: ae690d59-21fe-4429-8e80-ee2ce19a7090
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],SetDatabaseInformation method, ICertSrvSetup.SetDatabaseInformation, ICertSrvSetup::SetDatabaseInformation, SetDatabaseInformation, SetDatabaseInformation method [Security], SetDatabaseInformation method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetDatabaseInformation, security.icertsrvsetup_setdatabaseinformation
 ms.topic: method

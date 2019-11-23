@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d11.D3D11_ASYNC_GETDATA_FLAG
 title: D3D11_ASYNC_GETDATA_FLAG (d3d11.h)
-author: windows-sdk-content
+
 description: Optional flags that control the behavior of ID3D11DeviceContext::GetData.
 old-location: direct3d11\d3d11_async_getdata_flag.htm
 tech.root: direct3d11
 ms.assetid: e2e40719-58ff-4440-b162-34f5edee021d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_ASYNC_GETDATA_DONOTFLUSH, D3D11_ASYNC_GETDATA_FLAG, D3D11_ASYNC_GETDATA_FLAG enumeration [Direct3D 11], cdcec50d-b059-b1bc-451c-42024bc0ed26, d3d11/D3D11_ASYNC_GETDATA_DONOTFLUSH, d3d11/D3D11_ASYNC_GETDATA_FLAG, direct3d11.d3d11_async_getdata_flag
 ms.topic: enum

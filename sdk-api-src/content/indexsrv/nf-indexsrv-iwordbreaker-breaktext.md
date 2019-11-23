@@ -1,12 +1,12 @@
 ---
 UID: NF:indexsrv.IWordBreaker.BreakText
 title: IWordBreaker::BreakText (indexsrv.h)
-author: windows-sdk-content
+
 description: Parses text to identify words and phrases and provides the results to the IWordSink and IPhraseSink objects.
 old-location: search\_search_IWordBreaker_BreakText.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\breaktext.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BreakText, BreakText method [search], BreakText method [search],IWordBreaker interface, IWordBreaker interface [search],BreakText method, IWordBreaker.BreakText, IWordBreaker::BreakText, _search_IWordBreaker_BreakText, indexsrv/IWordBreaker::BreakText, search._search_IWordBreaker_BreakText
 ms.topic: method

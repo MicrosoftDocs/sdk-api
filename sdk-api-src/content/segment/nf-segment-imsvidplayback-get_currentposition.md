@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_CurrentPosition
 title: IMSVidPlayback::get_CurrentPosition (segment.h)
-author: windows-sdk-content
+
 description: The get_CurrentPosition method returns the current playback position of the source.
 old-location: mstv\imsvidplayback_get_currentposition.htm
 tech.root: mstv
 ms.assetid: 08facda5-3c17-4dac-b06f-6032f9490087
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_CurrentPosition method, IMSVidPlayback.get_CurrentPosition, IMSVidPlayback::get_CurrentPosition, IMSVidPlaybackget_CurrentPosition, get_CurrentPosition, get_CurrentPosition method [Microsoft TV Technologies], get_CurrentPosition method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_currentposition, segment/IMSVidPlayback::get_CurrentPosition
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:rpcdce._RPC_SECURITY_QOS
 title: RPC_SECURITY_QOS (rpcdce.h)
-author: windows-sdk-content
+
 description: The RPC_SECURITY_QOS structure defines security quality-of-service settings on a binding handle. See Remarks for version availability on Windows editions.
 old-location: rpc\rpc_security_qos.htm
 tech.root: Rpc
 ms.assetid: f7733b9d-ae32-44ff-b1ca-dd0292dd0ff6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PRPC_SECURITY_QOS, PRPC_SECURITY_QOS, PRPC_SECURITY_QOS structure pointer [RPC], RPC_C_IMP_LEVEL_ANONYMOUS, RPC_C_IMP_LEVEL_DEFAULT, RPC_C_IMP_LEVEL_DELEGATE, RPC_C_IMP_LEVEL_IDENTIFY, RPC_C_IMP_LEVEL_IMPERSONATE, RPC_C_QOS_CAPABILITIES_ANY_AUTHORITY, RPC_C_QOS_CAPABILITIES_DEFAULT, RPC_C_QOS_CAPABILITIES_IGNORE_DELEGATE_FAILURE, RPC_C_QOS_CAPABILITIES_LOCAL_MA_HINT, RPC_C_QOS_CAPABILITIES_MAKE_FULLSIC, RPC_C_QOS_CAPABILITIES_MUTUAL_AUTH, RPC_C_QOS_CAPABILITIES_SCHANNEL_FULL_AUTH_IDENTITY, RPC_C_QOS_IDENTITY_DYNAMIC, RPC_C_QOS_IDENTITY_STATIC, RPC_SECURITY_QOS, RPC_SECURITY_QOS structure [RPC], _rpc_rpc_security_qos, rpc.rpc_security_qos, rpcdce/PRPC_SECURITY_QOS, rpcdce/RPC_SECURITY_QOS'
 ms.topic: struct

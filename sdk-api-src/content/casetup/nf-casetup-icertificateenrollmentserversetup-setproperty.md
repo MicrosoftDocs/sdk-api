@@ -1,12 +1,12 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.SetProperty
 title: ICertificateEnrollmentServerSetup::SetProperty (casetup.h)
-author: windows-sdk-content
+
 description: Specifies a CESSetupProperty enumeration value for the Certificate Enrollment Web Service (CES) configuration.
 old-location: security\icertificateenrollmentserversetup_setproperty.htm
 tech.root: SecCrypto
 ms.assetid: D2E20195-D81F-4717-83D2-BF8DC1D1779B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],SetProperty method, ICertificateEnrollmentServerSetup.SetProperty, ICertificateEnrollmentServerSetup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::SetProperty, security.icertificateenrollmentserversetup_setproperty
 ms.topic: method

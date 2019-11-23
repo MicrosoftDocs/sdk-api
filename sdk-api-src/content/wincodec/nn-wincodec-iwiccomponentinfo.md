@@ -1,12 +1,12 @@
 ---
 UID: NN:wincodec.IWICComponentInfo
 title: IWICComponentInfo (wincodec.h)
-author: windows-sdk-content
+
 description: Exposes methods that provide component information.
 old-location: wic\_wic_codec_iwiccomponentinfo.htm
 tech.root: wic
 ms.assetid: a31267ed-60cd-4de9-9fed-26bb390b29e6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWICComponentInfo, IWICComponentInfo interface [Windows Imaging Component], IWICComponentInfo interface [Windows Imaging Component],described, _wic_codec_iwiccomponentinfo, wic._wic_codec_iwiccomponentinfo, wincodec/IWICComponentInfo
 ms.topic: interface

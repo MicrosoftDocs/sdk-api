@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPEvents.OpenStateChange
 title: IWMPEvents::OpenStateChange (wmp.h)
-author: windows-sdk-content
+
 description: The OpenStateChange event occurs when the Windows Media Player control changes state.
 old-location: wmp\iwmpevents_iwmpevents__openstatechange.htm
 tech.root: WMP
 ms.assetid: 6f228bc5-39a4-4bf8-a887-43ba13c1c414
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],OpenStateChange method, IWMPEvents.OpenStateChange, IWMPEvents::OpenStateChange, IWMPEventsOpenStateChange, OpenStateChange, OpenStateChange method [Windows Media Player], OpenStateChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__openstatechange, wmp/IWMPEvents::OpenStateChange
 ms.topic: method

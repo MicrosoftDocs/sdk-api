@@ -1,12 +1,12 @@
 ---
 UID: NF:amvideo.COLORS
 title: COLORS macro (amvideo.h)
-author: windows-sdk-content
+
 description: The COLORS macro retrieves the palette entries from a VIDEOINFO structure.
 old-location: dshow\colors.htm
 tech.root: DirectShow
 ms.assetid: 32541ee4-53ef-4f0a-b823-bb475a93a195
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: COLORS, COLORS function [DirectShow], amvideo/COLORS, dshow.colors
 ms.topic: macro

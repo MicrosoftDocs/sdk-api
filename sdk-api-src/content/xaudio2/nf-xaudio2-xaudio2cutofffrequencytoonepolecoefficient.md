@@ -1,12 +1,12 @@
 ---
 UID: NF:xaudio2.XAudio2CutoffFrequencyToOnePoleCoefficient
 title: XAudio2CutoffFrequencyToOnePoleCoefficient function (xaudio2.h)
-author: windows-sdk-content
+
 description: Inline function that converts from filter cutoff frequencies expressed in hertz to the filter coefficients used with the Frequency member of the XAUDIO2_FILTER_PARAMETERS structure.
 old-location: xaudio2\xaudio2cutofffrequencytoonepolecoefficient.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CutoffFrequencyToOnePoleCoefficient(float,UINT32)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XAudio2CutoffFrequencyToOnePoleCoefficient, XAudio2CutoffFrequencyToOnePoleCoefficient function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2cutofffrequencytoonepolecoefficient, xaudio2/XAudio2CutoffFrequencyToOnePoleCoefficient
 ms.topic: function

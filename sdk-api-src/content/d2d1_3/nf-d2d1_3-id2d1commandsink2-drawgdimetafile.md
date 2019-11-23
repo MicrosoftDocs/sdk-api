@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_3.ID2D1CommandSink2.DrawGdiMetafile
 title: ID2D1CommandSink2::DrawGdiMetafile (d2d1_3.h)
-author: windows-sdk-content
+
 description: Draws a metafile to the command sink using the given source and destination rectangles.
 old-location: direct2d\id2d1commandsink2_drawgdimetafile.htm
 tech.root: Direct2D
 ms.assetid: ecd1fb9e-0062-c1aa-8275-47b7453bc9ad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawGdiMetafile, DrawGdiMetafile method [Direct2D], DrawGdiMetafile method [Direct2D],ID2D1CommandSink2 interface, ID2D1CommandSink2 interface [Direct2D],DrawGdiMetafile method, ID2D1CommandSink2.DrawGdiMetafile, ID2D1CommandSink2::DrawGdiMetafile, d2d1_3/ID2D1CommandSink2::DrawGdiMetafile, direct2d.id2d1commandsink2_drawgdimetafile
 ms.topic: method

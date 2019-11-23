@@ -1,12 +1,12 @@
 ---
 UID: NF:cryptdlg.CertSelectCertificateW
 title: CertSelectCertificateW function (cryptdlg.h)
-author: windows-sdk-content
+
 description: Presents a dialog box that allows the user to select certificates from a set of certificates that match the given criteria.
 old-location: security\certselectcertificate.htm
 tech.root: SecCrypto
 ms.assetid: 8160ea08-c7c0-40f5-8771-6603f768744b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CertSelectCertificate, CertSelectCertificate function [Security], CertSelectCertificateA, CertSelectCertificateW, cryptdlg/CertSelectCertificate, cryptdlg/CertSelectCertificateA, cryptdlg/CertSelectCertificateW, security.certselectcertificate
 ms.topic: function

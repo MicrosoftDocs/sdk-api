@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IMDSPStorage3.GetMetadata
 title: IMDSPStorage3::GetMetadata (mswmdm.h)
-author: windows-sdk-content
+
 description: The GetMetadata method retrieves metadata from the service provider.
 old-location: wmdm\imdspstorage3_getmetadata.htm
 tech.root: WMDM
 ms.assetid: a341289b-79e6-4ac7-b0d3-72ad5953c1df
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMetadata, GetMetadata method [windows Media Device Manager], GetMetadata method [windows Media Device Manager],IMDSPStorage3 interface, IMDSPStorage3 interface [windows Media Device Manager],GetMetadata method, IMDSPStorage3.GetMetadata, IMDSPStorage3::GetMetadata, IMDSPStorage3GetMetadata, mswmdm/IMDSPStorage3::GetMetadata, wmdm.imdspstorage3_getmetadata
 ms.topic: method

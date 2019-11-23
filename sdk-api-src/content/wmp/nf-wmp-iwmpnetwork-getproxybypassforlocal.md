@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyBypassForLocal
 title: IWMPNetwork::getProxyBypassForLocal (wmp.h)
-author: windows-sdk-content
+
 description: The getProxyBypassForLocal method retrieves a value indicating whether the proxy server is bypassed if the origin server is on a local network.
 old-location: wmp\iwmpnetwork_getproxybypassforlocal.htm
 tech.root: WMP
 ms.assetid: 33cc24ab-9eb4-48ef-9483-058a3af04983
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyBypassForLocal method, IWMPNetwork.getProxyBypassForLocal, IWMPNetwork::getProxyBypassForLocal, IWMPNetworkgetProxyBypassForLocal, getProxyBypassForLocal, getProxyBypassForLocal method [Windows Media Player], getProxyBypassForLocal method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxybypassforlocal, wmp/IWMPNetwork::getProxyBypassForLocal
 ms.topic: method

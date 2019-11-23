@@ -1,12 +1,12 @@
 ---
 UID: NN:uianimation.IUIAnimationStoryboardEventHandler
 title: IUIAnimationStoryboardEventHandler (uianimation.h)
-author: windows-sdk-content
+
 description: Defines methods for handling status and update events for a storyboard.
 old-location: uianimation\iuianimationstoryboardeventhandler.htm
 tech.root: UIAnimation
 ms.assetid: f43f53f9-1491-4847-89ef-e65ba98a2127
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboardEventHandler, IUIAnimationStoryboardEventHandler interface [Windows Animation], IUIAnimationStoryboardEventHandler interface [Windows Animation],described, uianimation.iuianimationstoryboardeventhandler, uianimation/IUIAnimationStoryboardEventHandler
 ms.topic: interface

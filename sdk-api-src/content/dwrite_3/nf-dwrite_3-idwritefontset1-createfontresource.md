@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet1.CreateFontResource
 title: IDWriteFontSet1::CreateFontResource
-author: windows-sdk-content
+
 description: Creates the font resource of a single item.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],CreateFontResource method, IDWriteFontSet1.CreateFontResource, IDWriteFontSet1::CreateFontResource, CreateFontResource, CreateFontResource method [Direct Write], CreateFontResource method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_createfontresource, dwrite_3/IDWriteFontSet1::CreateFontResource
 ms.topic: method

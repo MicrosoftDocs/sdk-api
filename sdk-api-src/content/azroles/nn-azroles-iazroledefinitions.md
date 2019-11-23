@@ -1,12 +1,12 @@
 ---
 UID: NN:azroles.IAzRoleDefinitions
 title: IAzRoleDefinitions (azroles.h)
-author: windows-sdk-content
+
 description: Represents a collection of IAzRoleDefinition objects.
 old-location: security\iazroledefinitions.htm
 tech.root: SecAuthZ
 ms.assetid: 9d17647c-3ff9-4881-a02f-d7bcb508e102
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAzRoleDefinitions, IAzRoleDefinitions interface [Security], IAzRoleDefinitions interface [Security],described, azroles/IAzRoleDefinitions, security.iazroledefinitions
 ms.topic: interface

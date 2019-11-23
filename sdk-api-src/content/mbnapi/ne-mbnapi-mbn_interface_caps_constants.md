@@ -1,12 +1,12 @@
 ---
 UID: NE:mbnapi.MBN_INTERFACE_CAPS_CONSTANTS
 title: MBN_INTERFACE_CAPS_CONSTANTS (mbnapi.h)
-author: windows-sdk-content
+
 description: The MBN_INTERFACE_CAPS_CONSTANTS enumerated type defines the maximum length of string values used by assorted elements of the MBN_INTERFACE_CAPS structure.
 old-location: mbn\mbn_interface_caps_constants.htm
 tech.root: mbn
 ms.assetid: d5478721-7d7b-487e-b223-0240f3451aed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MBN_DEVICEID_LEN, MBN_FIRMWARE_LEN, MBN_INTERFACE_CAPS_CONSTANTS, MBN_INTERFACE_CAPS_CONSTANTS enumeration [Microsoft Broadband Networks], MBN_MANUFACTURER_LEN, MBN_MODEL_LEN, mbn.mbn_interface_caps_constants, mbnapi/MBN_DEVICEID_LEN, mbnapi/MBN_FIRMWARE_LEN, mbnapi/MBN_INTERFACE_CAPS_CONSTANTS, mbnapi/MBN_MANUFACTURER_LEN, mbnapi/MBN_MODEL_LEN
 ms.topic: enum

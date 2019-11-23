@@ -1,7 +1,7 @@
 ---
 UID: NA:certexit
 ms.assetid: 1782a23c-c631-39ea-9cab-4b29b4abdb98
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsFlushBody
 title: WsFlushBody function (webservices.h)
-author: windows-sdk-content
+
 description: Flushes all accumulated message body data that has been written.
 old-location: wsw\wsflushbody.htm
 tech.root: wsw
 ms.assetid: f94c409b-94c0-4440-8587-74322777261f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsFlushBody, WsFlushBody function [Web Services for Windows], webservices/WsFlushBody, wsw.wsflushbody
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.Advise
 title: IFileDialog::Advise (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Assigns an event handler that listens for events coming from the dialog.
 old-location: shell\IFileDialog_Advise.htm
 tech.root: shell
 ms.assetid: f5664a52-f26c-475d-84ef-0c657ae46e2e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],Advise method, IFileDialog.Advise, IFileDialog::Advise, shell.IFileDialog_Advise, shell_IFileDialog_Advise, shobjidl_core/IFileDialog::Advise
 ms.topic: method

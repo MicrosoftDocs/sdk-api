@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.DrawDibOpen
 title: DrawDibOpen function (vfw.h)
-author: windows-sdk-content
+
 description: The DrawDibOpen function opens the DrawDib library for use and creates a DrawDib DC for drawing.
 old-location: multimedia\drawdibopen.htm
 tech.root: Multimedia
 ms.assetid: bf0f0c56-df07-455e-9e00-38dc94ababb3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawDibOpen, DrawDibOpen function [Windows Multimedia], _win32_DrawDibOpen, multimedia.drawdibopen, vfw/DrawDibOpen
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IFileSystemBindData2.SetFileID
 title: IFileSystemBindData2::SetFileID (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Sets the unique file identifier for the current file.
 old-location: shell\IFileSystemBindData2_SetFileID.htm
 tech.root: shell
 ms.assetid: d3da2a22-cd45-4f3f-afcc-183a20f60f15
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileSystemBindData2 interface [Windows Shell],SetFileID method, IFileSystemBindData2.SetFileID, IFileSystemBindData2::SetFileID, SetFileID, SetFileID method [Windows Shell], SetFileID method [Windows Shell],IFileSystemBindData2 interface, _shell_IFileSystemBindData2_SetFileID, shell.IFileSystemBindData2_SetFileID, shobjidl_core/IFileSystemBindData2::SetFileID
 ms.topic: method

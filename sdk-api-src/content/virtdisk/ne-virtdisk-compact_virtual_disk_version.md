@@ -1,12 +1,12 @@
 ---
 UID: NE:virtdisk._COMPACT_VIRTUAL_DISK_VERSION
 title: COMPACT_VIRTUAL_DISK_VERSION (virtdisk.h)
-author: windows-sdk-content
+
 description: Contains the version of the virtual hard disk (VHD) COMPACT_VIRTUAL_DISK_PARAMETERS structure to use in calls to VHD functions.
 old-location: vhd\compact_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 79b8088a-8e30-44c8-8227-82eb1c03e77c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: COMPACT_VIRTUAL_DISK_VERSION, COMPACT_VIRTUAL_DISK_VERSION enumeration [VHD], COMPACT_VIRTUAL_DISK_VERSION_1, COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/COMPACT_VIRTUAL_DISK_VERSION, vdssys/COMPACT_VIRTUAL_DISK_VERSION_1, vdssys/COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.compact_virtual_disk_version, virtdisk/COMPACT_VIRTUAL_DISK_VERSION, virtdisk/COMPACT_VIRTUAL_DISK_VERSION_1, virtdisk/COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.topic: enum

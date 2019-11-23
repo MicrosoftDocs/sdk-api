@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplustypes.RectF.GetLocation
 title: RectF::GetLocation (gdiplustypes.h)
-author: windows-sdk-content
+
 description: The RectF::GetLocation method gets the coordinates of the upper-left corner of this rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetLocation_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getlocation_82point.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLocation, GetLocation method [GDI+], GetLocation method [GDI+],RectF class, RectF class [GDI+],GetLocation method, RectF.GetLocation, RectF::GetLocation, _gdiplus_CLASS_RectF_GetLocation_point_, gdiplus._gdiplus_CLASS_RectF_GetLocation_point_
 ms.topic: method

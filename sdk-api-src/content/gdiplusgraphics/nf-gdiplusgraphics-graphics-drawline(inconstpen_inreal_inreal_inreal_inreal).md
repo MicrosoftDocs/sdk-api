@@ -3,7 +3,7 @@ UID: NF:gdiplusgraphics.Graphics.DrawLine(IN const Pen,IN REAL,IN REAL,IN REAL,I
 title: Graphics::DrawLine
 description: The Graphics::DrawLine method draws a line that connects two points.
 ms.assetid: b245ba2b-4b52-40fa-b6f3-adcd25775b94
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawLine
 ms.topic: language-reference

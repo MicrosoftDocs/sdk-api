@@ -1,12 +1,12 @@
 ---
 UID: NF:lmserver.NetServerDiskEnum
 title: NetServerDiskEnum function (lmserver.h)
-author: windows-sdk-content
+
 description: The NetServerDiskEnum function retrieves a list of disk drives on a server. The function returns an array of three-character strings (a drive letter, a colon, and a terminating null character).
 old-location: netmgmt\netserverdiskenum.htm
 tech.root: NetMgmt
 ms.assetid: 56c981f4-7a1d-4465-bd7b-5996222c4210
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NetServerDiskEnum, NetServerDiskEnum function [Network Management], _win32_netserverdiskenum, lmserver/NetServerDiskEnum, netmgmt.netserverdiskenum
 ms.topic: function

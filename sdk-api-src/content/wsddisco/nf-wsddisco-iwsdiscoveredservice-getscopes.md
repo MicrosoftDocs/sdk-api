@@ -1,12 +1,12 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetScopes
 title: IWSDiscoveredService::GetScopes (wsddisco.h)
-author: windows-sdk-content
+
 description: Retrieves a list of WS-Discovery Scopes.
 old-location: ncd\iwsdiscoveredservice_getscopes.htm
 tech.root: WsdApi
 ms.assetid: 9b389ba3-9cc1-4bc2-949a-e7103378cbcc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetScopes, GetScopes method, GetScopes method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetScopes method, IWSDiscoveredService.GetScopes, IWSDiscoveredService::GetScopes, ncd.iwsdiscoveredservice_getscopes, wsddisco/IWSDiscoveredService::GetScopes
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumUnresolvedMethods
 title: IMetaDataImport::EnumUnresolvedMethods (rometadataapi.h)
-author: windows-sdk-content
+
 description: Enumerates MemberDef tokens representing the unresolved methods in the current metadata scope.
 old-location: winrt\imetadataimport_enumunresolvedmethods.htm
 tech.root: WinRT
 ms.assetid: 8c10a1af-93a5-44d0-818f-f307f5f81075
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumUnresolvedMethods, EnumUnresolvedMethods method [Windows Runtime], EnumUnresolvedMethods method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumUnresolvedMethods method, IMetaDataImport.EnumUnresolvedMethods, IMetaDataImport::EnumUnresolvedMethods, rometadataapi/IMetaDataImport::EnumUnresolvedMethods, winrt.imetadataimport_enumunresolvedmethods
 ms.topic: method

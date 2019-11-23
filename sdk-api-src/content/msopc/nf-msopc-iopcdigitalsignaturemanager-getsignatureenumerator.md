@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.GetSignatureEnumerator
 title: IOpcDigitalSignatureManager::GetSignatureEnumerator (msopc.h)
-author: windows-sdk-content
+
 description: Gets an enumerator of IOpcDigitalSignature interface pointers, which represent package signatures.
 old-location: opc\iopcdigitalsignaturemanager_getsignatureenumerator.htm
 tech.root: OPC
 ms.assetid: 44906f03-806f-400c-a7f3-0da5c330e1ff
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSignatureEnumerator, GetSignatureEnumerator method [Open Packaging Conventions], GetSignatureEnumerator method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, IOpcDigitalSignatureManager interface [Open Packaging Conventions],GetSignatureEnumerator method, IOpcDigitalSignatureManager.GetSignatureEnumerator, IOpcDigitalSignatureManager::GetSignatureEnumerator, msopc/IOpcDigitalSignatureManager::GetSignatureEnumerator, opc.iopcdigitalsignaturemanager_getsignatureenumerator
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.GdiTransparentBlt
 title: GdiTransparentBlt function (wingdi.h)
-author: windows-sdk-content
+
 description: The GdiTransparentBlt function performs a bit-block transfer of the color data corresponding to a rectangle of pixels from the specified source device context into a destination device context.
 old-location: gdi\gditransparentblt.htm
 tech.root: gdi
 ms.assetid: 82f6db79-f364-480a-ad9d-acf2ad94a295
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GdiTransparentBlt, GdiTransparentBlt function [Windows GDI], gdi.gditransparentblt, wingdi/GdiTransparentBlt
 ms.topic: function

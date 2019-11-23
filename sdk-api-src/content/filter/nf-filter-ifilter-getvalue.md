@@ -1,12 +1,12 @@
 ---
 UID: NF:filter.IFilter.GetValue
 title: IFilter::GetValue (filter.h)
-author: windows-sdk-content
+
 description: Retrieves a value (internal value-type property) from a chunk, which must have a CHUNKSTATE enumeration value of CHUNK_VALUE.
 old-location: indexsrv\ifilter_getvalue.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1cpx.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Indexing Service], GetValue method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetValue method, IFilter.GetValue, IFilter::GetValue, _idxs_IFilter_GetValue, filter/IFilter::GetValue, indexsrv.ifilter_getvalue
 ms.topic: method

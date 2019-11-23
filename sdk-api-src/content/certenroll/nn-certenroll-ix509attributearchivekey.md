@@ -1,12 +1,12 @@
 ---
 UID: NN:certenroll.IX509AttributeArchiveKey
 title: IX509AttributeArchiveKey (certenroll.h)
-author: windows-sdk-content
+
 description: Represents an attribute that contains an encrypted private key to be archived by a certification authority.
 old-location: security\ix509attributearchivekey.htm
 tech.root: seccertenroll
 ms.assetid: b42111e9-e39e-4192-9aba-47403fb627dc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeArchiveKey, IX509AttributeArchiveKey interface [Security], IX509AttributeArchiveKey interface [Security],described, certenroll/IX509AttributeArchiveKey, security.ix509attributearchivekey
 ms.topic: interface

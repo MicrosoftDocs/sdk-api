@@ -1,12 +1,12 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0001
 title: SYNC_PROVIDER_ROLE (winsync.h)
-author: windows-sdk-content
+
 description: Represents the role of a provider, relative to the other provider in the synchronization session.
 old-location: winsync\sync_provider_role.htm
 tech.root: winsync
 ms.assetid: 2409c8bf-c4fc-4986-8dde-cc11f0d52ed4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SPR_DESTINATION, SPR_SOURCE, SYNC_PROVIDER_ROLE, SYNC_PROVIDER_ROLE enumeration [Windows Sync], winsync.sync_provider_role, winsync/SPR_DESTINATION, winsync/SPR_SOURCE, winsync/SYNC_PROVIDER_ROLE
 ms.topic: enum

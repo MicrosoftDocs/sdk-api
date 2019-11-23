@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMCertifiedOutputProtection.ProtectionCommand
 title: IAMCertifiedOutputProtection::ProtectionCommand (strmif.h)
-author: windows-sdk-content
+
 description: The ProtectionCommand method sends a COPP command to the graphics driver.
 old-location: dshow\iamcertifiedoutputprotection_protectioncommand.htm
 tech.root: DirectShow
 ms.assetid: facf13b2-6650-4e81-97ba-eadacc514ef0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],ProtectionCommand method, IAMCertifiedOutputProtection.ProtectionCommand, IAMCertifiedOutputProtection::ProtectionCommand, IAMCertifiedOutputProtectionProtectionCommand, ProtectionCommand, ProtectionCommand method [DirectShow], ProtectionCommand method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_protectioncommand, strmif/IAMCertifiedOutputProtection::ProtectionCommand
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_IDW
 title: CM_Get_Device_IDW function (cfgmgr32.h)
-author: windows-sdk-content
+
 description: The CM_Get_Device_ID function retrieves the device instance ID for a specified device instance on the local machine.
 old-location: devinst\cm_get_device_id.htm
 tech.root: devinst
 ms.assetid: 924906ca-1119-428f-a42d-cb9a784af011
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_ID, CM_Get_Device_ID function [Device and Driver Installation], CM_Get_Device_IDW, cfgmgr32/CM_Get_Device_ID, cfgmgr32/CM_Get_Device_IDW, cfgmgrfn_9b900d97-f812-412b-b12c-d64b9aba3be7.xml, devinst.cm_get_device_id
 ms.topic: function

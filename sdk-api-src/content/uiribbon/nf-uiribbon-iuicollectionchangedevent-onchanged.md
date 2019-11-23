@@ -1,12 +1,12 @@
 ---
 UID: NF:uiribbon.IUICollectionChangedEvent.OnChanged
 title: IUICollectionChangedEvent::OnChanged (uiribbon.h)
-author: windows-sdk-content
+
 description: Called when an IUICollection changes.
 old-location: windowsribbon\windowsribbon_iuicollectionchangedevent_onchanged.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollectionchangedevent\onchanged.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUICollectionChangedEvent interface [Windows Ribbon],OnChanged method, IUICollectionChangedEvent.OnChanged, IUICollectionChangedEvent::OnChanged, OnChanged, OnChanged method [Windows Ribbon], OnChanged method [Windows Ribbon],IUICollectionChangedEvent interface, scenicintent_IUICollectionChangedEvent_OnChanged, uiribbon/IUICollectionChangedEvent::OnChanged, windowsribbon.windowsribbon_iuicollectionchangedevent_onchanged
 ms.topic: method

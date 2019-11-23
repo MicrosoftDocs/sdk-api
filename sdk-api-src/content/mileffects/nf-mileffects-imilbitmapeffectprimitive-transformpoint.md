@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.TransformPoint
 title: IMILBitmapEffectPrimitive::TransformPoint (mileffects.h)
-author: windows-sdk-content
+
 description: Transforms the given point.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_transformpoint.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\transformpoint.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],TransformPoint method, IMILBitmapEffectPrimitive.TransformPoint, IMILBitmapEffectPrimitive::TransformPoint, TransformPoint, TransformPoint method [WPF Bitmap Effects], TransformPoint method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, _wibe_imilbitmapeffectprimitive_transformpoint, mileffects/IMILBitmapEffectPrimitive::TransformPoint, wibe._wibe_imilbitmapeffectprimitive_transformpoint
 ms.topic: method

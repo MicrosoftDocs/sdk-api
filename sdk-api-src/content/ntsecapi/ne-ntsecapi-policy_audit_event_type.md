@@ -1,12 +1,12 @@
 ---
 UID: NE:ntsecapi._POLICY_AUDIT_EVENT_TYPE
 title: POLICY_AUDIT_EVENT_TYPE (ntsecapi.h)
-author: windows-sdk-content
+
 description: The POLICY_AUDIT_EVENT_TYPE enumeration defines values that indicate the types of events the system can audit.
 old-location: security\policy_audit_event_type.htm
 tech.root: SecMgmt
 ms.assetid: e8dbd1d5-37d5-4a97-9d1c-c645871dc7a5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PPOLICY_AUDIT_EVENT_TYPE, AuditCategoryAccountLogon, AuditCategoryAccountManagement, AuditCategoryDetailedTracking, AuditCategoryDirectoryServiceAccess, AuditCategoryLogon, AuditCategoryObjectAccess, AuditCategoryPolicyChange, AuditCategoryPrivilegeUse, AuditCategorySystem, POLICY_AUDIT_EVENT_TYPE, POLICY_AUDIT_EVENT_TYPE enumeration [Security], PPOLICY_AUDIT_EVENT_TYPE, PPOLICY_AUDIT_EVENT_TYPE enumeration pointer [Security], _lsa_policy_audit_event_type, ntsecapi/AuditCategoryAccountLogon, ntsecapi/AuditCategoryAccountManagement, ntsecapi/AuditCategoryDetailedTracking, ntsecapi/AuditCategoryDirectoryServiceAccess, ntsecapi/AuditCategoryLogon, ntsecapi/AuditCategoryObjectAccess, ntsecapi/AuditCategoryPolicyChange, ntsecapi/AuditCategoryPrivilegeUse, ntsecapi/AuditCategorySystem, ntsecapi/POLICY_AUDIT_EVENT_TYPE, ntsecapi/PPOLICY_AUDIT_EVENT_TYPE, security.policy_audit_event_type'
 ms.topic: enum

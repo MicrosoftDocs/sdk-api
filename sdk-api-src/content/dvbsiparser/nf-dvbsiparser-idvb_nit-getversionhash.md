@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetVersionHash
 title: IDVB_NIT::GetVersionHash (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit_getversionhash.htm
 tech.root: mstv
 ms.assetid: b12a2363-a8a6-49b4-8d12-1e947d659eee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetVersionHash method, IDVB_NIT.GetVersionHash, IDVB_NIT::GetVersionHash, IDVB_NITGetVersionHash, dvbsiparser/IDVB_NIT::GetVersionHash, mstv.idvb_nit_getversionhash
 ms.topic: method

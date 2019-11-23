@@ -1,12 +1,12 @@
 ---
 UID: NN:imapi.IDiscMasterProgressEvents
 title: IDiscMasterProgressEvents (imapi.h)
-author: windows-sdk-content
+
 description: The IDiscMasterProgressEvents interface provides a single interface for all callbacks that can be made from IMAPI to an application.
 old-location: imapi\idiscmasterprogressevents.htm
 tech.root: imapi
 ms.assetid: 68f7edbd-4a06-4e8d-a562-21a65767aff6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDiscMasterProgressEvents, IDiscMasterProgressEvents interface [IMAPI], IDiscMasterProgressEvents interface [IMAPI],described, _win32_idiscmasterprogressevents, base.idiscmasterprogressevents, imapi.idiscmasterprogressevents, imapi/IDiscMasterProgressEvents
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NN:wincodecsdk.IWICMetadataWriterInfo
 title: IWICMetadataWriterInfo (wincodecsdk.h)
-author: windows-sdk-content
+
 description: Exposes methods that provide basic information about the registered metadata writer.
 old-location: wic\_wic_codec_iwicmetadatawriterinfo.htm
 tech.root: wic
 ms.assetid: 467200e7-9b08-4372-9a01-660e56a15bfe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataWriterInfo, IWICMetadataWriterInfo interface [Windows Imaging Component], IWICMetadataWriterInfo interface [Windows Imaging Component],described, _wic_codec_iwicmetadatawriterinfo, wic._wic_codec_iwicmetadatawriterinfo, wincodecsdk/IWICMetadataWriterInfo
 ms.topic: interface

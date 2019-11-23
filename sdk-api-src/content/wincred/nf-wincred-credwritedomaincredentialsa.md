@@ -1,12 +1,12 @@
 ---
 UID: NF:wincred.CredWriteDomainCredentialsA
 title: CredWriteDomainCredentialsA function (wincred.h)
-author: windows-sdk-content
+
 description: Writes domain credentials to the user's credential set.
 old-location: security\credwritedomaincredentials.htm
 tech.root: SecAuthN
 ms.assetid: 6b54c14f-a736-4fb0-b4e4-97765a792a5e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CRED_PRESERVE_CREDENTIAL_BLOB, CredWriteDomainCredentials, CredWriteDomainCredentials function [Security], CredWriteDomainCredentialsA, CredWriteDomainCredentialsW, _cred_credwritedomaincredentials, security.credwritedomaincredentials, wincred/CredWriteDomainCredentials, wincred/CredWriteDomainCredentialsA, wincred/CredWriteDomainCredentialsW
 ms.topic: function

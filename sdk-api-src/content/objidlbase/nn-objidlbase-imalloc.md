@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.IMalloc
 title: IMalloc (objidlbase.h)
-author: windows-sdk-content
+
 description: Allocates, frees, and manages memory.
 old-location: com\imalloc.htm
 tech.root: com
 ms.assetid: 047f281e-2665-4d6d-9a0b-918cd3339447
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMalloc, IMalloc interface [COM], IMalloc interface [COM],described, _com_imalloc, com.imalloc, objidlbase/IMalloc
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NN:mfidl.IMFSequencerSource
 title: IMFSequencerSource (mfidl.h)
-author: windows-sdk-content
+
 description: Implemented by the Sequencer Source.
 old-location: mf\imfsequencersource.htm
 tech.root: medfound
 ms.assetid: ba5e8e7b-5b0e-4807-a459-75bd5727d1e2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFSequencerSource, IMFSequencerSource interface [Media Foundation], IMFSequencerSource interface [Media Foundation],described, ba5e8e7b-5b0e-4807-a459-75bd5727d1e2, mf.imfsequencersource, mfidl/IMFSequencerSource
 ms.topic: interface

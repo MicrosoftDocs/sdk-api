@@ -1,12 +1,12 @@
 ---
 UID: NF:netioapi.GetIpInterfaceEntry
 title: GetIpInterfaceEntry function (netioapi.h)
-author: windows-sdk-content
+
 description: Retrieves IP information for the specified interface on the local computer.
 old-location: iphlp\getipinterfaceentry.htm
 tech.root: IpHlp
 ms.assetid: 604e33fd-ab12-4861-a083-544045f46ef4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetIpInterfaceEntry, GetIpInterfaceEntry function [IP Helper], iphlp.getipinterfaceentry, netioapi/GetIpInterfaceEntry
 ms.topic: function

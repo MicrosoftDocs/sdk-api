@@ -1,12 +1,12 @@
 ---
 UID: NN:structuredquery.IRelationship
 title: IRelationship (structuredquery.h)
-author: windows-sdk-content
+
 description: Provides methods for retrieving information about a schema property.
 old-location: search\_search_IRelationship.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\irelationship.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRelationship, IRelationship interface [search], IRelationship interface [search],described, _search_IRelationship, search._search_IRelationship, structuredquery/IRelationship
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(uint8_t,uint8_t,uint8_t,uint8_t)
 title: XMUNIBBLE4::XMUNIBBLE4(uint8_t,uint8_t,uint8_t,uint8_t) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMUNIBBLE4 from four int8_t arguments.
 old-location: 
 tech.root: dxmath
 ms.assetid: 8e88294c-5e00-48f4-9d08-802dafb85b0e
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMUNIBBLE4, XMUNIBBLE4 constructor [DirectX Math Support APIs], XMUNIBBLE4 constructor [DirectX Math Support APIs],XMUNIBBLE4 structure, XMUNIBBLE4 structure [DirectX Math Support APIs],XMUNIBBLE4 constructor, XMUNIBBLE4.XMUNIBBLE4, XMUNIBBLE4.XMUNIBBLE4(), XMUNIBBLE4.XMUNIBBLE4(uint8_t,uint8_t,uint8_t,uint8_t), XMUNIBBLE4::XMUNIBBLE4, XMUNIBBLE4::XMUNIBBLE4(uint8_t,uint8_t,uint8_t,uint8_t), dxmath.xmunibble4_ctor_1
 ms.topic: method

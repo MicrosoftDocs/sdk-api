@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetClients
 title: DhcpEnumSubnetClients function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: The DhcpEnumSubnetClients function returns an enumerated list of clients with served IP addresses in the specified subnet.
 old-location: dhcp\dhcpenumsubnetclients.htm
 tech.root: DHCP
 ms.assetid: 04ef441e-0638-4ee7-a6a6-a35ab5cf7a44
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetClients, DhcpEnumSubnetClients function [DHCP], dhcp.dhcpenumsubnetclients, dhcpsapi/DhcpEnumSubnetClients
 ms.topic: function

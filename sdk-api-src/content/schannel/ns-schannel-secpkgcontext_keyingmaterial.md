@@ -1,12 +1,12 @@
 ---
 UID: NS:schannel._SecPkgContext_KeyingMaterial
 title: SecPkgContext_KeyingMaterial (schannel.h)
-author: windows-sdk-content
+
 description: The SecPkgContext_KeyingMaterial structure.
 old-location: security\secpkgcontext_keyingmaterial.htm
 tech.root: SecAuthN
 ms.assetid: 2F8C4316-FC03-473C-8A97-83665B3271AC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_KeyingMaterial, PSecPkgContext_KeyingMaterial, PSecPkgContext_KeyingMaterial structure pointer [Security], SecPkgContext_KeyingMaterial, SecPkgContext_KeyingMaterial structure [Security], SecPkgContext_KeyingMaterialA, SecPkgContext_KeyingMaterialW, _SecPkgContext_KeyingMaterialInfo, schannel/PSecPkgContext_KeyingMaterial, schannel/SecPkgContext_KeyingMaterial, schannel/SecPkgContext_KeyingMaterialA, schannel/SecPkgContext_KeyingMaterialW, security.secpkgcontext_keyingmaterial"
 ms.topic: struct

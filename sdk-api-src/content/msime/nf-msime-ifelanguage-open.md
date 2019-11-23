@@ -1,12 +1,12 @@
 ---
 UID: NF:msime.IFELanguage.Open
 title: IFELanguage::Open (msime.h)
-author: windows-sdk-content
+
 description: Initializes the IFELanguage object.
 old-location: intl\ifelanguage_open.htm
 tech.root: Intl
 ms.assetid: 2E1CEC6B-B0EA-4DBE-A122-D44606B467CC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFELanguage interface [Internationalization for Windows Applications],Open method, IFELanguage.Open, IFELanguage::Open, Open, Open method [Internationalization for Windows Applications], Open method [Internationalization for Windows Applications],IFELanguage interface, intl.ifelanguage_open, msime/IFELanguage::Open
 ms.topic: method

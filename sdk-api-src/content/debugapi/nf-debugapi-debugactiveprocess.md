@@ -1,12 +1,12 @@
 ---
 UID: NF:debugapi.DebugActiveProcess
 title: DebugActiveProcess function (debugapi.h)
-author: windows-sdk-content
+
 description: Enables a debugger to attach to an active process and debug it.
 old-location: base\debugactiveprocess.htm
 tech.root: Debug
 ms.assetid: 306a5b28-658a-4dab-a516-c638b73f4a77
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DebugActiveProcess, DebugActiveProcess function, _win32_debugactiveprocess, base.debugactiveprocess, debugapi/DebugActiveProcess
 ms.topic: function

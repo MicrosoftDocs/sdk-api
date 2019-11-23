@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontList2.GetFontSet
 title: IDWriteFontList2::GetFontSet
-author: windows-sdk-content
+
 description: Retrieves the underlying font set used by this list.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontList2 interface [Direct Write],GetFontSet method, IDWriteFontList2.GetFontSet, IDWriteFontList2::GetFontSet, GetFontSet, GetFontSet method [Direct Write], GetFontSet method [Direct Write],IDWriteFontList2 interface, directwrite.idwritefontlist2_getfontset, dwrite_3/IDWriteFontList2::GetFontSet
 ms.topic: method

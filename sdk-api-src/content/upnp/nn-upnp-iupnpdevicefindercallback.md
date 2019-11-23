@@ -1,12 +1,12 @@
 ---
 UID: NN:upnp.IUPnPDeviceFinderCallback
 title: IUPnPDeviceFinderCallback (upnp.h)
-author: windows-sdk-content
+
 description: The IUPnPDeviceFinderCallback interface allows the UPnP framework to communicate the results of an asynchronous search to an application.
 old-location: upnp\iupnpdevicefindercallback.htm
 tech.root: upnp
 ms.assetid: 02f1220b-d400-469e-8a28-64871f7fcbe2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceFinderCallback, IUPnPDeviceFinderCallback interface [UPnP APIs], IUPnPDeviceFinderCallback interface [UPnP APIs],described, _upnp_iupnpdevicefindercallback, upnp.iupnpdevicefindercallback, upnp/IUPnPDeviceFinderCallback
 ms.topic: interface

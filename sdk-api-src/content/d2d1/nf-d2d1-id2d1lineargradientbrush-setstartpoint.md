@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1.ID2D1LinearGradientBrush.SetStartPoint
 title: ID2D1LinearGradientBrush::SetStartPoint (d2d1.h)
-author: windows-sdk-content
+
 description: Sets the starting coordinates of the linear gradient in the brush's coordinate space.
 old-location: direct2d\ID2D1LinearGradientBrush_SetStartPoint.htm
 tech.root: Direct2D
 ms.assetid: f70ab519-f64f-4c33-8239-83e093560418
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1LinearGradientBrush interface [Direct2D],SetStartPoint method, ID2D1LinearGradientBrush.SetStartPoint, ID2D1LinearGradientBrush::SetStartPoint, SetStartPoint, SetStartPoint method [Direct2D], SetStartPoint method [Direct2D],ID2D1LinearGradientBrush interface, d2d1/ID2D1LinearGradientBrush::SetStartPoint, direct2d.ID2D1LinearGradientBrush_SetStartPoint
 ms.topic: method

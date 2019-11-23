@@ -1,12 +1,12 @@
 ---
 UID: NN:spatialaudioclient.IAudioFormatEnumerator
 title: IAudioFormatEnumerator (spatialaudioclient.h)
-author: windows-sdk-content
+
 description: Provides a list of supported audio formats. The most preferred format is first in the list. Get a reference to this interface by calling ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator.
 old-location: coreaudio\iaudioformatenumerator.htm
 tech.root: CoreAudio
 ms.assetid: 50434617-E70E-4931-B98E-61650E9DEA7E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioFormatEnumerator, IAudioFormatEnumerator interface [Core Audio], IAudioFormatEnumerator interface [Core Audio],described, coreaudio.iaudioformatenumerator, spatialaudioclient/IAudioFormatEnumerator
 ms.topic: interface

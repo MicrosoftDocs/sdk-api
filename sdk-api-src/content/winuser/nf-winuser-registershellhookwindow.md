@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.RegisterShellHookWindow
 title: RegisterShellHookWindow function (winuser.h)
-author: windows-sdk-content
+
 description: Registers a specified Shell window to receive certain messages for events or notifications that are useful to Shell applications.
 old-location: winmsg\registershellhookwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\registershellhookwindow.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RegisterShellHookWindow, RegisterShellHookWindow function [Windows and Messages], _win32_RegisterShellHookWindow, _win32_registershellhookwindow_cpp, winmsg.registershellhookwindow, winui._win32_registershellhookwindow, winuser/RegisterShellHookWindow
 ms.topic: function

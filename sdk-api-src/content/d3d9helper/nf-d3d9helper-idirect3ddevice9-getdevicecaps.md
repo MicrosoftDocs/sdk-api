@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetDeviceCaps
 title: IDirect3DDevice9::GetDeviceCaps (d3d9helper.h)
-author: windows-sdk-content
+
 description: Retrieves the capabilities of the rendering device.
 old-location: direct3d9\idirect3ddevice9__getdevicecaps.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getdevicecaps.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 1ca27ef9-f4c4-dcea-6966-4bbfcf987b8e, GetDeviceCaps, GetDeviceCaps method [Direct3D 9], GetDeviceCaps method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetDeviceCaps method, IDirect3DDevice9.GetDeviceCaps, IDirect3DDevice9::GetDeviceCaps, d3d9helper/IDirect3DDevice9::GetDeviceCaps, direct3d9.idirect3ddevice9__getdevicecaps
 ms.topic: method

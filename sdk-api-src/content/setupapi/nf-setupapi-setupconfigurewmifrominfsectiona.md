@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupConfigureWmiFromInfSectionA
 title: SetupConfigureWmiFromInfSectionA function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupConfigureWmiFromInfSection function configures the security of the WMI data that is exposed by an INF file when passed to the [DDInstall.WMI] section.
 old-location: setup\setupconfigurewmifrominfsection.htm
 tech.root: SetupApi
 ms.assetid: 1fcf9086-fde1-414c-9073-22452c3ffc6d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SCWMI_CLOBBER_SECURITY, SetupConfigureWmiFromInfSection, SetupConfigureWmiFromInfSection function [Setup API], SetupConfigureWmiFromInfSectionA, SetupConfigureWmiFromInfSectionW, _setupapi_setupuninstalloeminf, setup.setupconfigurewmifrominfsection, setupapi/SetupConfigureWmiFromInfSection, setupapi/SetupConfigureWmiFromInfSectionA, setupapi/SetupConfigureWmiFromInfSectionW
 ms.topic: function

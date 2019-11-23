@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.DrvCreateDeviceBitmap
 title: DrvCreateDeviceBitmap function (winddi.h)
-author: windows-sdk-content
+
 description: The DrvCreateDeviceBitmap function creates and manages bitmaps.
 old-location: display\drvcreatedevicebitmap.htm
 tech.root: display
 ms.assetid: 1f5f49ef-bf08-4311-9a1b-fdc37e6c2063
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrvCreateDeviceBitmap, DrvCreateDeviceBitmap function [Display Devices], ddifncs_b3a739da-4a9d-4e84-a4e8-8b1e790a06af.xml, display.drvcreatedevicebitmap, winddi/DrvCreateDeviceBitmap
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:ddkmapi._DDCLOSEHANDLE
 title: DDCLOSEHANDLE (ddkmapi.h)
-author: windows-sdk-content
+
 description: The DDCLOSEHANDLE structure contains the Microsoft DirectDraw object, surface, video port extensions (VPE) object, or VPE capture handle.
 old-location: display\ddclosehandle.htm
 tech.root: display
 ms.assetid: 180612e0-6014-4a14-82a7-3ab2058b1cf3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPDDCLOSEHANDLE, DDCLOSEHANDLE, DDCLOSEHANDLE structure [Display Devices], LPDDCLOSEHANDLE, LPDDCLOSEHANDLE structure pointer [Display Devices], ddkmapi/DDCLOSEHANDLE, ddkmapi/LPDDCLOSEHANDLE, ddstrcts_6f935c9b-9a18-4002-adcd-f9f203251e84.xml, display.ddclosehandle"
 ms.topic: struct

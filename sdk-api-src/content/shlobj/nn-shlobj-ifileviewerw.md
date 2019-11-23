@@ -1,12 +1,12 @@
 ---
 UID: NN:shlobj.IFileViewerW
 title: IFileViewerW
-author: windows-sdk-content
+
 description: Exposes methods that designate an interface that allows a registered file viewer to be notified when it must show or print a file.
 old-location: 
 tech.root: shell
 ms.assetid: 659f6ff8-1797-4f66-b0cc-ca2b9ee15a3a
-ms.author: windowssdkdev
+
 ms.date: 01/30/19
 ms.keywords: IFileViewerW
 ms.topic: language-reference

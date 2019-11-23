@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetMethod
 title: IWbemClassObject::GetMethod (wbemcli.h)
-author: windows-sdk-content
+
 description: Returns information about the requested method.
 old-location: wmi\iwbemclassobject_getmethod.htm
 tech.root: WmiSdk
 ms.assetid: d4775fe0-62bf-40a6-8e2c-7bc8c3d92e1f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMethod, GetMethod method [Windows Management Instrumentation], GetMethod method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethod method, IWbemClassObject.GetMethod, IWbemClassObject::GetMethod, _hmm_iwbemclassobject_getmethod, wbemcli/IWbemClassObject::GetMethod, wmi.iwbemclassobject_getmethod
 ms.topic: method

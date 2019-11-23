@@ -1,7 +1,7 @@
 ---
 UID: TP:lwef
 ms.assetid: 384117d0-d2cd-3434-b330-5f546ef90ab4
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

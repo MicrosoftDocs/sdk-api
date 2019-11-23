@@ -1,12 +1,12 @@
 ---
 UID: NF:msopc.IOpcFactory.CreateStreamOnFile
 title: IOpcFactory::CreateStreamOnFile (msopc.h)
-author: windows-sdk-content
+
 description: Creates a stream over a file.
 old-location: opc\iopcfactory_createstreamonfile.htm
 tech.root: OPC
 ms.assetid: d41bb51d-127c-4b24-8c93-4224404e0b2d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateStreamOnFile, CreateStreamOnFile method [Open Packaging Conventions], CreateStreamOnFile method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreateStreamOnFile method, IOpcFactory.CreateStreamOnFile, IOpcFactory::CreateStreamOnFile, msopc/IOpcFactory::CreateStreamOnFile, opc.iopcfactory_createstreamonfile
 ms.topic: method

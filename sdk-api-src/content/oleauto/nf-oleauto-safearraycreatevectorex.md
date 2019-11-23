@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.SafeArrayCreateVectorEx
 title: SafeArrayCreateVectorEx function (oleauto.h)
-author: windows-sdk-content
+
 description: Creates and returns a one-dimensional safe array of the specified VARTYPE and bounds.
 old-location: automat\safearraycreatevectorex.htm
 tech.root: automat
 ms.assetid: 45f2ba42-4189-42eb-9f6c-772198296906
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SafeArrayCreateVectorEx, SafeArrayCreateVectorEx function [Automation], _oa96_SafeArrayCreateVectorEx, automat.safearraycreatevectorex, oleauto/SafeArrayCreateVectorEx
 ms.topic: function

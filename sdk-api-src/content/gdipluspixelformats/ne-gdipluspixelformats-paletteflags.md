@@ -1,12 +1,12 @@
 ---
 UID: NE:gdipluspixelformats.PaletteFlags
 title: PaletteFlags (gdipluspixelformats.h)
-author: windows-sdk-content
+
 description: The PaletteFlags enumeration indicates attributes of the color data in a palette.
 old-location: gdiplus\_gdiplus_ENUM_PaletteFlags.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\paletteflags.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PaletteFlags, PaletteFlags enumeration [GDI+], PaletteFlagsGrayScale, PaletteFlagsHalftone, PaletteFlagsHasAlpha, _gdiplus_ENUM_PaletteFlags, gdiplus._gdiplus_ENUM_PaletteFlags, gdipluspixelformats/PaletteFlags, gdipluspixelformats/PaletteFlagsGrayScale, gdipluspixelformats/PaletteFlagsHalftone, gdipluspixelformats/PaletteFlagsHasAlpha
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetFontStyle
 title: IDWriteTextFormat::GetFontStyle (dwrite.h)
-author: windows-sdk-content
+
 description: Gets the font style of the text.
 old-location: directwrite\IDWriteTextFormat_GetFontStyle.htm
 tech.root: DirectWrite
 ms.assetid: 53a52196-6640-46b1-afdf-ee5ba9e1ef11
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFontStyle, GetFontStyle method [Direct Write], GetFontStyle method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontStyle method, IDWriteTextFormat.GetFontStyle, IDWriteTextFormat::GetFontStyle, directwrite.IDWriteTextFormat_GetFontStyle, dwrite/IDWriteTextFormat::GetFontStyle
 ms.topic: method

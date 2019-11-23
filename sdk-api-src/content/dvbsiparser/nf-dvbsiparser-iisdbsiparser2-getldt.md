@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbSiParser2.GetLDT
 title: IIsdbSiParser2::GetLDT (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets a linked description table (LDT) from an Integrated Services Digital Broadcast (ISDB) transport stream. An LDT contains data that is used to collect reference information from other tables.
 old-location: mstv\iisdbsiparser2_getldt.htm
 tech.root: mstv
 ms.assetid: b4b91e95-cf0f-488b-9941-4d1d81dc7661
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLDT, GetLDT method [Microsoft TV Technologies], GetLDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetLDT method, IIsdbSiParser2.GetLDT, IIsdbSiParser2::GetLDT, dvbsiparser/IIsdbSiParser2::GetLDT, mstv.iisdbsiparser2_getldt
 ms.topic: method

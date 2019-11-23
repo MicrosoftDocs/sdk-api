@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsVolumePlex.GetVolume
 title: IVdsVolumePlex::GetVolume (vds.h)
-author: windows-sdk-content
+
 description: Returns the volume to which the current plex is a member.
 old-location: base\ivdsvolumeplex_getvolume.htm
 tech.root: VDS
 ms.assetid: ddf6102b-81d4-4604-942e-ffb1c2c4730f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetVolume, GetVolume method [VDS], GetVolume method [VDS],IVdsVolumePlex interface, IVdsVolumePlex interface [VDS],GetVolume method, IVdsVolumePlex.GetVolume, IVdsVolumePlex::GetVolume, base.ivdsvolumeplex_getvolume, vds/IVdsVolumePlex::GetVolume
 ms.topic: method

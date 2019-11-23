@@ -1,12 +1,12 @@
 ---
 UID: NS:cpl.tagCPLINFO
 title: CPLINFO (cpl.h)
-author: windows-sdk-content
+
 description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
 old-location: shell\CPLINFO.htm
 tech.root: shell
 ms.assetid: 707950c9-c242-43b2-b665-c97a89e632c5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPCPLINFO, CPLINFO, CPLINFO structure [Windows Shell], _win32_CPLINFO, cpl/CPLINFO, shell.CPLINFO"
 ms.topic: struct

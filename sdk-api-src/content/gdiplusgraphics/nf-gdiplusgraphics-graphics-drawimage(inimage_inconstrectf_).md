@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN const RectF &)
 title: Graphics::DrawImage(IN Image,IN const RectF &) (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::DrawImage method draws an image.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage_55imageimage_rectfamprect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawImage, DrawImage method [GDI+], DrawImage method [GDI+],Graphics class, Graphics class [GDI+],DrawImage method, Graphics.DrawImage, Graphics.DrawImage(IN Image,IN const RectF &), Graphics.DrawImage(Image*,const RectF&), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN const RectF &), _gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_rect_, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_rect_
 ms.topic: method

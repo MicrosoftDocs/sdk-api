@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IDirectWriterLock.ReleaseWriteAccess
 title: IDirectWriterLock::ReleaseWriteAccess (objidl.h)
-author: windows-sdk-content
+
 description: The ReleaseWriteAccess method releases the write lock previously obtained.
 old-location: stg\idirectwriterlock_releasewriteaccess.htm
 tech.root: Stg
 ms.assetid: 849eeb79-60fd-4345-9e04-2ed7a7ede5ca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectWriterLock interface [Structured Storage],ReleaseWriteAccess method, IDirectWriterLock.ReleaseWriteAccess, IDirectWriterLock::ReleaseWriteAccess, ReleaseWriteAccess, ReleaseWriteAccess method [Structured Storage], ReleaseWriteAccess method [Structured Storage],IDirectWriterLock interface, _stg_idirectwriterlock_releasewriteaccess, objidl/IDirectWriterLock::ReleaseWriteAccess, stg.idirectwriterlock_releasewriteaccess
 ms.topic: method

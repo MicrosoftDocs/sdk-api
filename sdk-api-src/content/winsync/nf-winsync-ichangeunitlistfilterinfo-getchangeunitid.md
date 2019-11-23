@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IChangeUnitListFilterInfo.GetChangeUnitId
 title: IChangeUnitListFilterInfo::GetChangeUnitId (winsync.h)
-author: windows-sdk-content
+
 description: Gets the change unit ID that is stored at the specified index in the array of change unit IDs that define the filter.
 old-location: winsync\ichangeunitlistfilterinfo_getchangeunitid.htm
 tech.root: winsync
 ms.assetid: 67420b58-b3c9-4500-8395-4d176133c142
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],IChangeUnitListFilterInfo interface, IChangeUnitListFilterInfo interface [Windows Sync],GetChangeUnitId method, IChangeUnitListFilterInfo.GetChangeUnitId, IChangeUnitListFilterInfo::GetChangeUnitId, winsync.ichangeunitlistfilterinfo_getchangeunitid, winsync/IChangeUnitListFilterInfo::GetChangeUnitId
 ms.topic: method

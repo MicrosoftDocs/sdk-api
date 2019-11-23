@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_modrdn
 title: ldap_modrdn function (winldap.h)
-author: windows-sdk-content
+
 description: The ldap_modrdn function changes the relative distinguished name of an LDAP entry.
 old-location: ldap\ldap_modrdn.htm
 tech.root: ldap
 ms.assetid: 7a85eb4d-dcb1-4a5b-a7df-1d726215bde3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_modrdn, ldap.ldap__modrdn, ldap.ldap_modrdn, ldap_modrdn, ldap_modrdn function [LDAP], ldap_modrdnA, ldap_modrdnW, winldap/ldap_modrdn, winldap/ldap_modrdnA, winldap/ldap_modrdnW"
 ms.topic: function

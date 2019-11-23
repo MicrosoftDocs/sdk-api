@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.EditStreamPaste
 title: EditStreamPaste function (vfw.h)
-author: windows-sdk-content
+
 description: The EditStreamPaste function copies a stream (or a portion of it) from one stream and pastes it within another stream at a specified location.
 old-location: multimedia\editstreampaste.htm
 tech.root: Multimedia
 ms.assetid: c3c77ec1-0aa4-47ab-afc1-ed69d6aca201
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EditStreamPaste, EditStreamPaste function [Windows Multimedia], _win32_EditStreamPaste, multimedia.editstreampaste, vfw/EditStreamPaste
 ms.topic: function

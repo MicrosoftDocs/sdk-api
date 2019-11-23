@@ -1,12 +1,12 @@
 ---
 UID: NS:mstcpip._SOCKET_SECURITY_QUERY_INFO
 title: SOCKET_SECURITY_QUERY_INFO (mstcpip.h)
-author: windows-sdk-content
+
 description: Contains security information returned by the WSAQuerySocketSecurity function.
 old-location: winsock\socket_security_query_info.htm
 tech.root: WinSock
 ms.assetid: 90439ff6-e6a8-4124-b280-a65b9ca12787
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SOCKET_INFO_CONNECTION_ENCRYPTED, SOCKET_INFO_CONNECTION_SECURED, SOCKET_SECURITY_QUERY_INFO, SOCKET_SECURITY_QUERY_INFO structure [Winsock], mstcpip/SOCKET_SECURITY_QUERY_INFO, winsock.socket_security_query_info
 ms.topic: struct

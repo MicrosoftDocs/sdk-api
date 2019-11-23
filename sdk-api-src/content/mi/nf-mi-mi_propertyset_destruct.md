@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_PropertySet_Destruct
 title: MI_PropertySet_Destruct function (mi.h)
-author: windows-sdk-content
+
 description: Deletes the specified property list that was constructed on the stack.
 old-location: wmi_v2\mi_propertyset_destruct.htm
 tech.root: wmi_v2
 ms.assetid: b00eba60-5fff-4e31-acee-c9b148e9ab7c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_PropertySet_Destruct, MI_PropertySet_Destruct function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_Destruct, wmi_v2.mi_propertyset_destruct
 ms.topic: function

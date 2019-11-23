@@ -1,12 +1,12 @@
 ---
 UID: NN:faxcomex.IFaxOutgoingMessage2
 title: IFaxOutgoingMessage2 (faxcomex.h)
-author: windows-sdk-content
+
 description: Used by a fax client application to retrieve information about a sent fax message in the archive of outbound faxes.
 old-location: fax\_mfax_faxoutgoingmessage2_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingmessage2\faxinta_n_ifaxoutgoingmessage2_cpp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage2, IFaxOutgoingMessage2 interface [Fax Service], IFaxOutgoingMessage2 interface [Fax Service],described, _mfax_faxoutgoingmessage2_cpp, fax._mfax_faxoutgoingmessage2_cpp, faxcomex/IFaxOutgoingMessage2
 ms.topic: interface

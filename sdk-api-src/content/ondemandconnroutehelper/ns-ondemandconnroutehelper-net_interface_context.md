@@ -1,12 +1,12 @@
 ---
 UID: NS:ondemandconnroutehelper._NET_INTERFACE_CONTEXT
 title: NET_INTERFACE_CONTEXT (ondemandconnroutehelper.h)
-author: windows-sdk-content
+
 description: The interface context that is part of the NET_INTERFACE_CONTEXT_TABLE structure.
 old-location: nla\net_interface_context.htm
 tech.root: nla
 ms.assetid: 71342454-5AEF-4C96-8914-ED8859BD9D81
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NET_INTERFACE_CONTEXT, NET_INTERFACE_CONTEXT structure [Network Awareness], PNET_INTERFACE_CONTEXT, PNET_INTERFACE_CONTEXT structure pointer [Network Awareness], nla.net_interface_context, ondemandconnroutehelper/NET_INTERFACE_CONTEXT, ondemandconnroutehelper/PNET_INTERFACE_CONTEXT
 ms.topic: struct

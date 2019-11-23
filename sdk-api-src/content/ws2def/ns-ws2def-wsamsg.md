@@ -1,12 +1,12 @@
 ---
 UID: NS:ws2def._WSAMSG
 title: WSAMSG (ws2def.h)
-author: windows-sdk-content
+
 description: Used with the WSARecvMsg and WSASendMsg functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used to store message data.
 old-location: winsock\wsamsg_2.htm
 tech.root: WinSock
 ms.assetid: 105a6e2c-1edf-4ec0-a1c2-ac0bcafeda30
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPWSAMSG, *PWSAMSG, LPWSAMSG, LPWSAMSG structure pointer [Winsock], MSG_BCAST, MSG_CTRUNC, MSG_MCAST, MSG_PEEK, MSG_TRUNC, PWSAMSG, PWSAMSG structure pointer [Winsock], WSAMSG, WSAMSG structure [Winsock], _win32_wsamsg_2, mswsock/LPWSAMSG, mswsock/PWSAMSG, mswsock/WSAMSG, winsock.wsamsg_2, ws2def/LPWSAMSG, ws2def/PWSAMSG, ws2def/WSAMSG"
 ms.topic: struct

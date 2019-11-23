@@ -1,12 +1,12 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_UNLOADED_MODULE
 title: MINIDUMP_UNLOADED_MODULE (minidumpapiset.h)
-author: windows-sdk-content
+
 description: Contains information about a module that has been unloaded. This information can help diagnose problems calling code that is no longer loaded.
 old-location: base\minidump_unloaded_module_str.htm
 tech.root: Debug
 ms.assetid: d2ae58fa-561c-4135-a757-88598ebda57a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_UNLOADED_MODULE, MINIDUMP_UNLOADED_MODULE, MINIDUMP_UNLOADED_MODULE structure, PMINIDUMP_UNLOADED_MODULE, PMINIDUMP_UNLOADED_MODULE structure pointer, _MINIDUMP_UNLOADED_MODULE, _win32_minidump_unloaded_module_str, base.minidump_unloaded_module_str, minidumpapiset/MINIDUMP_UNLOADED_MODULE, minidumpapiset/PMINIDUMP_UNLOADED_MODULE'
 ms.topic: struct

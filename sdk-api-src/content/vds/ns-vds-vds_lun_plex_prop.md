@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_LUN_PLEX_PROP
 title: VDS_LUN_PLEX_PROP (vds.h)
-author: windows-sdk-content
+
 description: Defines the properties of a LUN plex object.
 old-location: base\vds_lun_plex_prop.htm
 tech.root: VDS
 ms.assetid: d79ce5a9-af5a-4691-b853-c18d4a4d04c7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_LUN_PLEX_PROP, VDS_H_FAILED, VDS_H_FAILED_REDUNDANCY, VDS_H_FAILED_REDUNDANCY_FAILING, VDS_H_FAILING, VDS_H_FAILING_REDUNDANCY, VDS_H_HEALTHY, VDS_H_REBUILDING, VDS_H_UNKNOWN, VDS_LUN_PLEX_PROP, VDS_LUN_PLEX_PROP structure [VDS], base.vds_lun_plex_prop, vds/_VDS_LUN_PLEX_PROP, vdshwprv/_VDS_LUN_PLEX_PROP'
 ms.topic: struct

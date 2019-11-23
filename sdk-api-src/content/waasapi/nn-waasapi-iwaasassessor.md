@@ -1,12 +1,12 @@
 ---
 UID: NN:waasapi.IWaaSAssessor
 title: IWaaSAssessor (waasapi.h)
-author: windows-sdk-content
+
 description: Gets the OS update assessment by comparing the latest build from Microsoft against the build running on the current device.
 old-location: base\iwaasassessor.htm
 tech.root: SysInfo
 ms.assetid: CE5D99C9-2348-4566-AC94-DFBA5B583503
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWaaSAssessor, IWaaSAssessor interface, IWaaSAssessor interface,described, base.iwaasassessor, waasapi/IWaaSAssessor
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarCyFromI4
 title: VarCyFromI4 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a long value to a currency value.
 old-location: automat\varcyfromi4.htm
 tech.root: automat
 ms.assetid: 5b9230fb-96c0-4b61-b932-e703a3611fbf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarCyFromI4, VarCyFromI4 function [Automation], _oa96_VarCyFromI4, automat.varcyfromi4, oleauto/VarCyFromI4
 ms.topic: function

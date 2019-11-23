@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IEnumSingleItemExceptions.Clone
 title: IEnumSingleItemExceptions::Clone (winsync.h)
-author: windows-sdk-content
+
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumsingleitemexceptions_clone.htm
 tech.root: winsync
 ms.assetid: 89a02939-e761-450e-9479-29e19a872da6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSingleItemExceptions interface, IEnumSingleItemExceptions interface [Windows Sync],Clone method, IEnumSingleItemExceptions.Clone, IEnumSingleItemExceptions::Clone, winsync.ienumsingleitemexceptions_clone, winsync/IEnumSingleItemExceptions::Clone
 ms.topic: method

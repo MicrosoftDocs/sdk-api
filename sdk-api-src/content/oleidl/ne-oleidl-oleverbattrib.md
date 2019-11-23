@@ -1,12 +1,12 @@
 ---
 UID: NE:oleidl.tagOLEVERBATTRIB
 title: OLEVERBATTRIB (oleidl.h)
-author: windows-sdk-content
+
 description: Describes the attributes of a specified verb for an object.
 old-location: com\oleverbattrib.htm
 tech.root: com
 ms.assetid: 797498ba-5ad6-4476-87d8-de85b30396f4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OLEVERBATTRIB, OLEVERBATTRIB enumeration [COM], OLEVERBATTRIB_NEVERDIRTIES, OLEVERBATTRIB_ONCONTAINERMENU, _ole_OLEVERBATTRIB, com.oleverbattrib, oleidl/OLEVERBATTRIB, oleidl/OLEVERBATTRIB_NEVERDIRTIES, oleidl/OLEVERBATTRIB_ONCONTAINERMENU
 ms.topic: enum

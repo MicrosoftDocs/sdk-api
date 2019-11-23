@@ -1,12 +1,12 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.DeleteAttachedSurface
 title: IDirectDrawSurface7::DeleteAttachedSurface (ddraw.h)
-author: windows-sdk-content
+
 description: Detaches one or more attached surfaces.
 old-location: directdraw\idirectdrawsurface7_deleteattachedsurface.htm
 tech.root: directdraw
 ms.assetid: 39cefecd-2ae0-42ba-8140-842acdaa1ad8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeleteAttachedSurface, DeleteAttachedSurface method [DirectDraw], DeleteAttachedSurface method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],DeleteAttachedSurface method, IDirectDrawSurface7.DeleteAttachedSurface, IDirectDrawSurface7::DeleteAttachedSurface, ddraw/IDirectDrawSurface7::DeleteAttachedSurface, directdraw.idirectdrawsurface7_deleteattachedsurface
 ms.topic: method

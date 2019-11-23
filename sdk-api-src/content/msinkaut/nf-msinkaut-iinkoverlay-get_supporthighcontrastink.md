@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_SupportHighContrastInk
 title: IInkOverlay::get_SupportHighContrastInk (msinkaut.h)
-author: windows-sdk-content
+
 description: Gets or sets a value that specifies whether ink is rendered as just one color when the system is in High Contrast mode.
 old-location: tablet\inkoverlay_supporthighcontrastink.htm
 tech.root: tablet
 ms.assetid: 69c0c628-e377-4c26-8fb7-1f0574fbff29
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],SupportHighContrastInk property, IInkOverlay.SupportHighContrastInk, IInkOverlay.get_SupportHighContrastInk, IInkOverlay::SupportHighContrastInk, IInkOverlay::get_SupportHighContrastInk, IInkOverlay::put_SupportHighContrastInk, InkOverlay.get_SupportHighContrastInk, InkOverlay.put_SupportHighContrastInk, SupportHighContrastInk property [Tablet PC], SupportHighContrastInk property [Tablet PC],IInkOverlay interface, get_SupportHighContrastInk, msinkaut/IInkOverlay::SupportHighContrastInk, msinkaut/IInkOverlay::get_SupportHighContrastInk, msinkaut/IInkOverlay::put_SupportHighContrastInk, put_SupportHighContrastInk, tablet.inkoverlay_supporthighcontrastink
 ms.topic: method

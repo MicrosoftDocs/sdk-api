@@ -1,12 +1,12 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetAlternateLocationMapping
 title: IVssExamineWriterMetadata::GetAlternateLocationMapping (vsbackup.h)
-author: windows-sdk-content
+
 description: The GetAlternateLocationMapping method obtains a specific alternate location mapping of a file set.
 old-location: base\ivssexaminewritermetadata_getalternatelocationmapping.htm
 tech.root: VSS
 ms.assetid: 1264d4bc-dd45-41e7-9f95-c6e9aebd4d22
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAlternateLocationMapping, GetAlternateLocationMapping method [VSS], GetAlternateLocationMapping method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetAlternateLocationMapping method, IVssExamineWriterMetadata.GetAlternateLocationMapping, IVssExamineWriterMetadata::GetAlternateLocationMapping, _win32_ivssexaminewritermetadata_getalternatelocationmapping, base.ivssexaminewritermetadata_getalternatelocationmapping, vsbackup/IVssExamineWriterMetadata::GetAlternateLocationMapping
 ms.topic: method

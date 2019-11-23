@@ -1,12 +1,12 @@
 ---
 UID: NN:mfidl.IMFMediaTypeHandler
 title: IMFMediaTypeHandler (mfidl.h)
-author: windows-sdk-content
+
 description: Gets and sets media types on an object, such as a media source or media sink.
 old-location: mf\imfmediatypehandler.htm
 tech.root: medfound
 ms.assetid: 5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36, IMFMediaTypeHandler, IMFMediaTypeHandler interface [Media Foundation], IMFMediaTypeHandler interface [Media Foundation],described, mf.imfmediatypehandler, mfidl/IMFMediaTypeHandler
 ms.topic: interface

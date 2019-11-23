@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.GetPrivateProfileIntW
 title: GetPrivateProfileIntW function (winbase.h)
-author: windows-sdk-content
+
 description: Retrieves an integer associated with a key in the specified section of an initialization file.
 old-location: base\getprivateprofileint.htm
 tech.root: SysInfo
 ms.assetid: dcb48ec3-7172-4bcc-a833-23e34a73d70b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPrivateProfileInt, GetPrivateProfileInt function, GetPrivateProfileIntA, GetPrivateProfileIntW, _win32_getprivateprofileint, base.getprivateprofileint, winbase/GetPrivateProfileInt, winbase/GetPrivateProfileIntA, winbase/GetPrivateProfileIntW
 ms.topic: function

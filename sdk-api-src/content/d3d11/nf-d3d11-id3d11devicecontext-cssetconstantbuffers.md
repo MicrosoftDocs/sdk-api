@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSSetConstantBuffers
 title: ID3D11DeviceContext::CSSetConstantBuffers (d3d11.h)
-author: windows-sdk-content
+
 description: Sets the constant buffers used by the compute-shader stage.
 old-location: direct3d11\id3d11devicecontext_cssetconstantbuffers.htm
 tech.root: direct3d11
 ms.assetid: 40970d1d-bad3-48e0-8f0e-6d45fe602594
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 75636b6c-7b80-b606-530c-50b7b27df917, CSSetConstantBuffers, CSSetConstantBuffers method [Direct3D 11], CSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetConstantBuffers method, ID3D11DeviceContext.CSSetConstantBuffers, ID3D11DeviceContext::CSSetConstantBuffers, d3d11/ID3D11DeviceContext::CSSetConstantBuffers, direct3d11.id3d11devicecontext_cssetconstantbuffers
 ms.topic: method

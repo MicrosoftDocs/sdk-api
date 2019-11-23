@@ -1,12 +1,12 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetCaption
 title: IFullScreenVideoEx::SetCaption (amvideo.h)
-author: windows-sdk-content
+
 description: The SetCaption method sets the caption associated with the full-screen window.
 old-location: dshow\ifullscreenvideoex_setcaption.htm
 tech.root: DirectShow
 ms.assetid: 6f520ab4-867f-4001-8f2f-25f0d8efe454
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetCaption method, IFullScreenVideoEx.SetCaption, IFullScreenVideoEx::SetCaption, IFullScreenVideoSetCaption, SetCaption, SetCaption method [DirectShow], SetCaption method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetCaption, dshow.ifullscreenvideoex_setcaption
 ms.topic: method

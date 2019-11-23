@@ -1,12 +1,12 @@
 ---
 UID: NF:combaseapi.CoDisableCallCancellation
 title: CoDisableCallCancellation function (combaseapi.h)
-author: windows-sdk-content
+
 description: Undoes the action of a call to CoEnableCallCancellation. Disables cancellation of synchronous calls on the calling thread when all calls to CoEnableCallCancellation are balanced by calls to CoDisableCallCancellation.
 old-location: com\codisablecallcancellation.htm
 tech.root: com
 ms.assetid: 33d99eab-a0bf-4e4d-93a4-5c03c41cebbb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CoDisableCallCancellation, CoDisableCallCancellation function [COM], _com_CoDisableCallCancellation, com.codisablecallcancellation, combaseapi/CoDisableCallCancellation
 ms.topic: function

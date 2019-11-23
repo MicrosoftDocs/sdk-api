@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.EngSetEvent
 title: EngSetEvent function (winddi.h)
-author: windows-sdk-content
+
 description: The EngSetEvent function sets the specified event object to the signaled state, and returns the event object's previous state.
 old-location: display\engsetevent.htm
 tech.root: display
 ms.assetid: 04e5d5e0-02b1-4335-9830-ecf04fdc0db1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngSetEvent, EngSetEvent function [Display Devices], display.engsetevent, gdifncs_1f6bd838-607b-47fa-bb1e-e21d92e65d39.xml, winddi/EngSetEvent
 ms.topic: function

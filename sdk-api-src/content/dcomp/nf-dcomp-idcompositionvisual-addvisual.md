@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.AddVisual
 title: IDCompositionVisual::AddVisual (dcomp.h)
-author: windows-sdk-content
+
 description: Adds a new child visual to the children list of this visual.
 old-location: directcomp\idcompositionvisual_addvisual.htm
 tech.root: directcomp
 ms.assetid: e1124df5-7795-49c3-a640-f218cfdd4f1d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddVisual, AddVisual method [DirectComposition], AddVisual method [DirectComposition],IDCompositionVisual interface, IDCompositionVisual interface [DirectComposition],AddVisual method, IDCompositionVisual.AddVisual, IDCompositionVisual::AddVisual, dcomp/IDCompositionVisual::AddVisual, directcomp.idcompositionvisual_addvisual
 ms.topic: method

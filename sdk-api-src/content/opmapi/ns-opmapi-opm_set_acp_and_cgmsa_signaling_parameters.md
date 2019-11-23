@@ -1,12 +1,12 @@
 ---
 UID: NS:opmapi._OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 title: OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS (opmapi.h)
-author: windows-sdk-content
+
 description: Contains information for the OPM_SET_ACP_AND_CGMSA_SIGNALING command in Output Protection Manager (OPM).
 old-location: mf\opm_set_acp_and_cgmsa_signaling_parameters.htm
 tech.root: medfound
 ms.assetid: bb7caedd-cd9e-4b36-b1a1-a457de44afb1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure [Media Foundation], mf.opm_set_acp_and_cgmsa_signaling_parameters, opmapi/OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 ms.topic: struct

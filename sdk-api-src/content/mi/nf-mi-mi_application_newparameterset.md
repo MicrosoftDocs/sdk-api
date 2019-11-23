@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_Application_NewParameterSet
 title: MI_Application_NewParameterSet function (mi.h)
-author: windows-sdk-content
+
 description: Creates a new parameter set.
 old-location: wmi_v2\mi_application_newparameterset.htm
 tech.root: wmi_v2
 ms.assetid: 9704ad73-78af-4d75-8da6-f327193ea0fa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewParameterSet, MI_Application_NewParameterSet function [Windows Management Infrastructure (MI)], mi/MI_Application_NewParameterSet, wmi_v2.mi_application_newparameterset
 ms.topic: function

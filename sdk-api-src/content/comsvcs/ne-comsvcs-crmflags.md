@@ -1,12 +1,12 @@
 ---
 UID: NE:comsvcs.tagCRMFLAGS
 title: CRMFLAGS (comsvcs.h)
-author: windows-sdk-content
+
 description: Provides information about when a particular log record to the CRM compensator was written.
 old-location: cos\crmflags.htm
 tech.root: cossdk
 ms.assetid: ef41c99c-9f57-430f-af43-ba0ee1eb7a03
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CRMFLAGS, CRMFLAGS enumeration [COM+], CRMFLAG_FORGETTARGET, CRMFLAG_REPLAYINPROGRESS, CRMFLAG_WRITTENDURINGABORT, CRMFLAG_WRITTENDURINGCOMMIT, CRMFLAG_WRITTENDURINGPREPARE, CRMFLAG_WRITTENDURINGRECOVERY, CRMFLAG_WRITTENDURINGREPLAY, _cos_CRMFLAGS, comsvcs/CRMFLAGS, comsvcs/CRMFLAG_FORGETTARGET, comsvcs/CRMFLAG_REPLAYINPROGRESS, comsvcs/CRMFLAG_WRITTENDURINGABORT, comsvcs/CRMFLAG_WRITTENDURINGCOMMIT, comsvcs/CRMFLAG_WRITTENDURINGPREPARE, comsvcs/CRMFLAG_WRITTENDURINGRECOVERY, comsvcs/CRMFLAG_WRITTENDURINGREPLAY, cos.crmflags
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NE:syncmgr.SYNCMGR_CONFLICT_ITEM_TYPE
 title: SYNCMGR_CONFLICT_ITEM_TYPE (syncmgr.h)
-author: windows-sdk-content
+
 description: Describes conflict item type.
 old-location: shell\SYNCMGR_CONFLICT_ITEM_TYPE.htm
 tech.root: shell
 ms.assetid: b0bc2285-b3a3-43a9-b169-611f587bb086
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_CIT_DELETED, SYNCMGR_CIT_UPDATED, SYNCMGR_CONFLICT_ITEM_TYPE, SYNCMGR_CONFLICT_ITEM_TYPE enumeration [Windows Shell], _shell_SYNCMGR_CONFLICT_ITEM_TYPE, shell.SYNCMGR_CONFLICT_ITEM_TYPE, syncmgr/SYNCMGR_CIT_DELETED, syncmgr/SYNCMGR_CIT_UPDATED, syncmgr/SYNCMGR_CONFLICT_ITEM_TYPE
 ms.topic: enum

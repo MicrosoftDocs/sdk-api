@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmGetVirtualKey
 title: ImmGetVirtualKey function (imm.h)
-author: windows-sdk-content
+
 description: Retrieves the original virtual key value associated with a key input message that the IME has already processed.
 old-location: intl\immgetvirtualkey.htm
 tech.root: Intl
 ms.assetid: 56c40e55-19e3-4c06-bac7-c4d0098e932a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ImmGetVirtualKey, ImmGetVirtualKey function [Internationalization for Windows Applications], _win32_ImmGetVirtualKey, imm/ImmGetVirtualKey, intl.immgetvirtualkey
 ms.topic: function

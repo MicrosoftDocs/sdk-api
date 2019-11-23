@@ -1,12 +1,12 @@
 ---
 UID: NE:wincodec.WICHeifProperties
 title: WICHeifProperties (wincodec.h)
-author: windows-sdk-content
+
 description: Specifies the properties of a High Efficiency Image Format (HEIF) image.
 old-location: wic\wicheifproperties.htm
 tech.root: wic
 ms.assetid: 171A2EDE-7545-4AC3-B3AC-3A65A22746E5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WICHeifOrientation, WICHeifProperties, WICHeifProperties enumeration [Windows Imaging Component], wic.wicheifproperties, wincodec/WICHeifOrientation, wincodec/WICHeifProperties
 ms.topic: enum

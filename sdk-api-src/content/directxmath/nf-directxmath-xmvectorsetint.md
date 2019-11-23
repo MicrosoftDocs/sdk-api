@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorSetInt
 title: XMVectorSetInt function (directxmath.h)
-author: windows-sdk-content
+
 description: Creates a vector with unsigned integer components.
 old-location: dxmath\xmvectorsetint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSetInt(uint32_t,uint32_t,uint32_t,uint32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetInt, XMVectorSetInt, XMVectorSetInt method [DirectX Math Support APIs], dxmath.xmvectorsetint
 ms.topic: function

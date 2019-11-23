@@ -1,12 +1,12 @@
 ---
 UID: NC:cryptxml.PFN_CRYPT_XML_ENUM_ALG_INFO
 title: PFN_CRYPT_XML_ENUM_ALG_INFO (cryptxml.h)
-author: windows-sdk-content
+
 description: Enumerates predefined and registered CRYPT_XML_ALGORITHM_INFO entries.
 old-location: security\pfn_crypt_xml_enum_alg_info.htm
 tech.root: SecCrypto
 ms.assetid: d4e4752a-347c-45b0-97f2-6a692088c908
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_XML_ENUM_ALG_INFO, PFN_CRYPT_XML_ENUM_ALG_INFO callback, PFN_CRYPT_XML_ENUM_ALG_INFO callback function [Security], cryptxml/PFN_CRYPT_XML_ENUM_ALG_INFO, security.pfn_crypt_xml_enum_alg_info
 ms.topic: callback

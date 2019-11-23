@@ -3,7 +3,7 @@ UID: NF:gdiplusheaders.Region.Union(IN const Rect &)
 title: Region::Union
 description: The Region::Union method updates this region.
 ms.assetid: dde2ebc1-cb66-41ac-81ef-5ef53f427ed7
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: Region::Union
 ms.topic: language-reference

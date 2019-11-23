@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.OnEndWriting
 title: IWMWriterSink::OnEndWriting (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The OnEndWriting method is called by the writer when writing is complete. This method should conclude operations for your sink. For example, the writer file sink closes and indexes the file.
 old-location: wmformat\iwmwritersink_onendwriting.htm
 tech.root: wmformat
 ms.assetid: e5f653cc-e756-4f33-a6ce-3158e83129c8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMWriterSink interface [windows Media Format],OnEndWriting method, IWMWriterSink.OnEndWriting, IWMWriterSink::OnEndWriting, IWMWriterSinkOnEndWriting, OnEndWriting, OnEndWriting method [windows Media Format], OnEndWriting method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_onendwriting, wmsdkidl/IWMWriterSink::OnEndWriting
 ms.topic: method

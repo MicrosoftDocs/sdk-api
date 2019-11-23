@@ -1,12 +1,12 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD_EX
 title: MINIDUMP_THREAD_EX (minidumpapiset.h)
-author: windows-sdk-content
+
 description: Contains extended information for a specific thread.
 old-location: base\minidump_thread_ex_str.htm
 tech.root: Debug
 ms.assetid: aa99bdf3-29b7-4865-8935-810388f3d2b3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PMINIDUMP_THREAD_EX, MINIDUMP_THREAD_EX, MINIDUMP_THREAD_EX structure, PMINIDUMP_THREAD_EX, PMINIDUMP_THREAD_EX structure pointer, _MINIDUMP_THREAD_EX, _win32_minidump_thread_ex_str, base.minidump_thread_ex_str, minidumpapiset/MINIDUMP_THREAD_EX, minidumpapiset/PMINIDUMP_THREAD_EX"
 ms.topic: struct

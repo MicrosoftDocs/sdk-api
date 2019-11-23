@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymFromToken
 title: SymFromToken function (dbghelp.h)
-author: windows-sdk-content
+
 description: Retrieves symbol information for the specified managed code token.
 old-location: base\symfromtoken.htm
 tech.root: Debug
 ms.assetid: ecef5213-9301-4ca0-852c-1e6be0d7b2a5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SymFromToken, SymFromToken function, SymFromTokenW, base.symfromtoken, dbghelp/SymFromToken, dbghelp/SymFromTokenW
 ms.topic: function

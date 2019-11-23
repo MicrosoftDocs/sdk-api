@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidRect.get_Width
 title: IMSVidRect::get_Width (segment.h)
-author: windows-sdk-content
+
 description: The get_Width method retrieves the width of the rectangle.
 old-location: mstv\imsvidrect_get_width.htm
 tech.root: mstv
 ms.assetid: 7b1d07b8-41e4-44f8-8c28-377c7a9e463d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Width method, IMSVidRect.get_Width, IMSVidRect::get_Width, IMSVidRectget_Width, get_Width, get_Width method [Microsoft TV Technologies], get_Width method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_width, segment/IMSVidRect::get_Width
 ms.topic: method

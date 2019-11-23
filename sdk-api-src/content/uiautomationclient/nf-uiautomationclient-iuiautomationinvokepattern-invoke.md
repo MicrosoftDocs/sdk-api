@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationInvokePattern.Invoke
 title: IUIAutomationInvokePattern::Invoke (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Invokes the action of a control, such as a button click.
 old-location: winauto\uiauto_IUIAutomationInvokePattern_Invoke.htm
 tech.root: WinAuto
 ms.assetid: dd04426c-edc5-4ee9-95ac-22f32fb14daa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationInvokePattern interface [Windows Accessibility],Invoke method, IUIAutomationInvokePattern.Invoke, IUIAutomationInvokePattern::Invoke, Invoke, Invoke method [Windows Accessibility], Invoke method [Windows Accessibility],IUIAutomationInvokePattern interface, uiauto.uiauto_IUIAutomationInvokePattern_Invoke, uiauto_IUIAutomationInvokePattern_Invoke, uiautomationclient/IUIAutomationInvokePattern::Invoke, winauto.uiauto_IUIAutomationInvokePattern_Invoke
 ms.topic: method

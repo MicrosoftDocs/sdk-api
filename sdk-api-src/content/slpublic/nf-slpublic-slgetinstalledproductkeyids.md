@@ -1,12 +1,12 @@
 ---
 UID: NF:slpublic.SLGetInstalledProductKeyIds
 title: SLGetInstalledProductKeyIds function (slpublic.h)
-author: windows-sdk-content
+
 description: This function returns a list of product key IDs associated with the specified Product SKU ID.
 old-location: security\slgetinstalledproductkeyids.htm
 tech.root: SecSLApi
 ms.assetid: 6d678ffa-ef67-41e6-bafa-bdca418c5f9f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SLGetInstalledProductKeyIds, SLGetInstalledProductKeyIds function [Security], security.slgetinstalledproductkeyids, slpublic/SLGetInstalledProductKeyIds
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:tsvirtualchannels.IWTSBitmapRenderer
 title: IWTSBitmapRenderer (tsvirtualchannels.h)
-author: windows-sdk-content
+
 description: Used by a dynamic virtual channel plug-in to render bitmaps.
 old-location: termserv\iwtsbitmaprenderer.htm
 tech.root: TermServ
 ms.assetid: 6930683e-bb9e-499c-b44f-27938faff3db
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWTSBitmapRenderer, IWTSBitmapRenderer interface [Remote Desktop Services], IWTSBitmapRenderer interface [Remote Desktop Services],described, termserv.iwtsbitmaprenderer, tsvirtualchannels/IWTSBitmapRenderer
 ms.topic: interface

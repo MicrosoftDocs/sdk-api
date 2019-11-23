@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetDeviceManufacturer
 title: IWICBitmapCodecInfo::GetDeviceManufacturer (wincodec.h)
-author: windows-sdk-content
+
 description: Retrieves the name of the device manufacture associated with the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer.htm
 tech.root: wic
 ms.assetid: a69e8195-5dc1-4a25-ab3c-9ea0cb3de074
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Imaging Component], GetDeviceManufacturer method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetDeviceManufacturer method, IWICBitmapCodecInfo.GetDeviceManufacturer, IWICBitmapCodecInfo::GetDeviceManufacturer, _wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer, wic._wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer, wincodec/IWICBitmapCodecInfo::GetDeviceManufacturer
 ms.topic: method

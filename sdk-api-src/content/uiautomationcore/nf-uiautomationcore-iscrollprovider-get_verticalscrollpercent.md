@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_VerticalScrollPercent
 title: IScrollProvider::get_VerticalScrollPercent (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Specifies the vertical scroll position.
 old-location: winauto\uiauto_IScrollProvider_VerticalScrollPercent.htm
 tech.root: WinAuto
 ms.assetid: 1bc153bf-1d8f-4ca6-88e0-882e063fe6a0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],VerticalScrollPercent property, IScrollProvider.VerticalScrollPercent, IScrollProvider.get_VerticalScrollPercent, IScrollProvider::VerticalScrollPercent, IScrollProvider::get_VerticalScrollPercent, VerticalScrollPercent property [Windows Accessibility], VerticalScrollPercent property [Windows Accessibility],IScrollProvider interface, get_VerticalScrollPercent, uiauto.uiauto_IScrollProvider_VerticalScrollPercent, uiauto_IScrollProvider_VerticalScrollPercent, uiautomationcore/IScrollProvider::VerticalScrollPercent, uiautomationcore/IScrollProvider::get_VerticalScrollPercent, winauto.uiauto_IScrollProvider_VerticalScrollPercent
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:ocidl.tagHITRESULT
 title: HITRESULT (ocidl.h)
-author: windows-sdk-content
+
 description: Indicates whether a location is within the image of an object.
 old-location: com\hitresult.htm
 tech.root: com
 ms.assetid: 44b070e4-5453-446c-a871-d977a8df8140
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: HITRESULT, HITRESULT enumeration [COM], HITRESULT_CLOSE, HITRESULT_HIT, HITRESULT_OUTSIDE, HITRESULT_TRANSPARENT, _ole_HITRESULT, com.hitresult, ocidl/HITRESULT, ocidl/HITRESULT_CLOSE, ocidl/HITRESULT_HIT, ocidl/HITRESULT_OUTSIDE, ocidl/HITRESULT_TRANSPARENT
 ms.topic: enum

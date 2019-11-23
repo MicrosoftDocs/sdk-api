@@ -1,12 +1,12 @@
 ---
 UID: NS:textstor.TS_STATUS
 title: TS_STATUS (textstor.h)
-author: windows-sdk-content
+
 description: The TS_STATUS structure contains document status data.
 old-location: tsf\ts_status.htm
 tech.root: TSF
 ms.assetid: d27d81f2-8599-4b65-866b-4e8fd2f589f5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TS_STATUS, TS_STATUS structure [Text Services Framework], _tsf_ts_status_ref, textstor/TS_STATUS, tsf.ts_status
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUSHORTN2.XMUSHORTN2(XMUSHORTN2 &&)
 title: XMUSHORTN2::XMUSHORTN2(XMUSHORTN2 &&) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A constructor for XMUSHORTN2.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMUSHORTN2, XMUSHORTN2 constructor [DirectX Math Support APIs], XMUSHORTN2 constructor [DirectX Math Support APIs],XMUSHORTN2 structure, XMUSHORTN2 structure [DirectX Math Support APIs],XMUSHORTN2 constructor, XMUSHORTN2.XMUSHORTN2, XMUSHORTN2.XMUSHORTN2(), XMUSHORTN2.XMUSHORTN2(XMUSHORTN2 &&), XMUSHORTN2::XMUSHORTN2, XMUSHORTN2::XMUSHORTN2(XMUSHORTN2 &&), dxmath.xmushortn2_ctor_1
 ms.topic: method

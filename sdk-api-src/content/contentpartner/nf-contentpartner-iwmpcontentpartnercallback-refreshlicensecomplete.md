@@ -1,12 +1,12 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.RefreshLicenseComplete
 title: IWMPContentPartnerCallback::RefreshLicenseComplete (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_refreshlicensecomplete.htm
 tech.root: WMP
 ms.assetid: 426941d9-8d10-4c30-bf2d-cae3f48b51c6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],RefreshLicenseComplete method, IWMPContentPartnerCallback.RefreshLicenseComplete, IWMPContentPartnerCallback::RefreshLicenseComplete, IWMPContentPartnerCallbackRefreshLicenseComplete, RefreshLicenseComplete, RefreshLicenseComplete method [Windows Media Player], RefreshLicenseComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::RefreshLicenseComplete, wmp.iwmpcontentpartnercallback_refreshlicensecomplete
 ms.topic: method

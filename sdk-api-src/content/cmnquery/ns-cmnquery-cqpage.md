@@ -1,12 +1,12 @@
 ---
 UID: NS:cmnquery._cqpage
 title: CQPAGE (cmnquery.h)
-author: windows-sdk-content
+
 description: Used to define a query page added to a form in the query dialog box with the CQAddPagesProc callback function.
 old-location: ad\cqpage.htm
 tech.root: ad
 ms.assetid: 09e407a2-7a58-483d-8422-4ae40c05b742
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPCQPAGE, CQPAGE, CQPAGE structure [Active Directory], LPCQPAGE, LPCQPAGE structure pointer [Active Directory], _glines_cqpage, ad.cqpage, cmnquery/CQPAGE, cmnquery/LPCQPAGE"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.ITransferSource
 title: ITransferSource (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Exposes methods to manipulate IShellItem, including copy, move, recycle, and others. This interface is offered to provide more control over file operations by providing an ITransferSource::Advise method.
 old-location: shell\ITransferSource.htm
 tech.root: shell
 ms.assetid: 341966d4-f9cf-457d-97ef-8e6107544283
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITransferSource, ITransferSource interface [Windows Shell], ITransferSource interface [Windows Shell],described, _shell_ITransferSource, shell.ITransferSource, shobjidl_core/ITransferSource
 ms.topic: interface

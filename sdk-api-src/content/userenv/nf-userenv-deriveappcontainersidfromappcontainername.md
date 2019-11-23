@@ -1,12 +1,12 @@
 ---
 UID: NF:userenv.DeriveAppContainerSidFromAppContainerName
 title: DeriveAppContainerSidFromAppContainerName function (userenv.h)
-author: windows-sdk-content
+
 description: Gets the SID of the specified profile.
 old-location: shell\deriveappcontainersidfromappcontainername.htm
 tech.root: shell
 ms.assetid: 233EFA95-289D-4D55-9D56-0630C015ABC7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeriveAppContainerSidFromAppContainerName, DeriveAppContainerSidFromAppContainerName function [Windows Shell], shell.deriveappcontainersidfromappcontainername, userenv/DeriveAppContainerSidFromAppContainerName
 ms.topic: function

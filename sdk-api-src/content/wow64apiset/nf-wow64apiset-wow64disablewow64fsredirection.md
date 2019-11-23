@@ -1,12 +1,12 @@
 ---
 UID: NF:wow64apiset.Wow64DisableWow64FsRedirection
 title: Wow64DisableWow64FsRedirection function (wow64apiset.h)
-author: windows-sdk-content
+
 description: Disables file system redirection for the calling thread. File system redirection is enabled by default.
 old-location: fs\wow64disablewow64fsredirection.htm
 tech.root: FileIO
 ms.assetid: 44bedfa3-5a92-4e78-9e38-8278a7efe9b7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Wow64DisableWow64FsRedirection, Wow64DisableWow64FsRedirection function [Files], base.wow64disablewow64fsredirection, fs.wow64disablewow64fsredirection, wow64apiset/Wow64DisableWow64FsRedirection
 ms.topic: function

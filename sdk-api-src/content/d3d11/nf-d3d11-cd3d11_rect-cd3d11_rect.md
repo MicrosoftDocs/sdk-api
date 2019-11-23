@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.CD3D11_RECT.CD3D11_RECT
 title: CD3D11_RECT::CD3D11_RECT (d3d11.h)
-author: windows-sdk-content
+
 description: Instantiates a new instance of an uninitialized CD3D11_RECT structure.
 old-location: direct3d11\cd3d11_rect_cd3d11_rect.htm
 tech.root: direct3d11
 ms.assetid: 44EB2EC1-78F4-414E-8F41-6EE0FDA566CC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RECT, CD3D11_RECT constructor [Direct3D 11], CD3D11_RECT constructor [Direct3D 11],CD3D11_RECT interface, CD3D11_RECT interface [Direct3D 11],CD3D11_RECT constructor, CD3D11_RECT.CD3D11_RECT, CD3D11_RECT::CD3D11_RECT, CD3D11_RECT::CD3D11_RECT(), d3d11/CD3D11_RECT::CD3D11_RECT, direct3d11.cd3d11_rect_cd3d11_rect
 ms.topic: method

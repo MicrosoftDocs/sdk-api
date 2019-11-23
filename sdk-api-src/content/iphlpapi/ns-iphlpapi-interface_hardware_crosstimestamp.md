@@ -1,12 +1,12 @@
 ---
 UID: NS:iphlpapi._INTERFACE_HARDWARE_CROSSTIMESTAMP
 title: INTERFACE_HARDWARE_CROSSTIMESTAMP (iphlpapi.h)
-author: windows-sdk-content
+
 description: This structure is reserved for system use, and you should not use it in your code.
 old-location: iphlp\interface_hardware_crosstimestamp.htm
 tech.root: IpHlp
 ms.assetid: DAEA7430-85C1-4FF5-8F85-C58EDF27BF3D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PINTERFACE_HARDWARE_CROSSTIMESTAMP, INTERFACE_HARDWARE_CROSSTIMESTAMP, INTERFACE_HARDWARE_CROSSTIMESTAMP structure [IP Helper], PINTERFACE_HARDWARE_CROSSTIMESTAMP, PINTERFACE_HARDWARE_CROSSTIMESTAMP structure pointer [IP Helper], iphlp.interface_hardware_crosstimestamp, iphlpapi/INTERFACE_HARDWARE_CROSSTIMESTAMP, iphlpapi/PINTERFACE_HARDWARE_CROSSTIMESTAMP"
 ms.topic: struct

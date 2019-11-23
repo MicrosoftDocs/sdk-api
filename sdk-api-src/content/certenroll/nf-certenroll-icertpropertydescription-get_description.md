@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICertPropertyDescription.get_Description
 title: ICertPropertyDescription::get_Description (certenroll.h)
-author: windows-sdk-content
+
 description: Retrieves a description of the certificate.
 old-location: security\icertpropertydescription_description_property.htm
 tech.root: seccertenroll
 ms.assetid: afc8c4f4-186b-4f00-b12b-54b50913865d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Description property [Security], Description property [Security],ICertPropertyDescription interface, ICertPropertyDescription interface [Security],Description property, ICertPropertyDescription.Description, ICertPropertyDescription.get_Description, ICertPropertyDescription::Description, ICertPropertyDescription::get_Description, certenroll/ICertPropertyDescription::Description, certenroll/ICertPropertyDescription::get_Description, get_Description, security.icertpropertydescription_description_property
 ms.topic: method

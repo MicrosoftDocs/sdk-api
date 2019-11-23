@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_OUTPUT_VIEW_DESC
 title: D3D11_VIDEO_PROCESSOR_OUTPUT_VIEW_DESC (d3d11.h)
-author: windows-sdk-content
+
 description: Describes a video processor output view.
 old-location: mf\d3d11_video_processor_output_view_desc.htm
 tech.root: medfound
 ms.assetid: 8E0D44C1-220C-4E70-8A60-591AEBC16A2B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_OUTPUT_VIEW_DESC, D3D11_VIDEO_PROCESSOR_OUTPUT_VIEW_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_VIEW_DESC, mf.d3d11_video_processor_output_view_desc
 ms.topic: struct

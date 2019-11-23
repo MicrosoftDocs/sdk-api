@@ -1,12 +1,12 @@
 ---
 UID: NN:windows.media.streaming.IBasicDevice
 title: IBasicDevice (windows.media.streaming.h)
-author: windows-sdk-content
+
 description: Encapsulates the methods and events needed to model a DLNA Device.
 old-location: mediastreaming\ibasicdevice.htm
 tech.root: mediastreaming
 ms.assetid: E4F99A11-4ED5-44CB-BE16-CBB558412ED4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBasicDevice, IBasicDevice interface [Media Streaming API], IBasicDevice interface [Media Streaming API],described, mediastreaming.ibasicdevice, windows/IBasicDevice
 ms.topic: interface

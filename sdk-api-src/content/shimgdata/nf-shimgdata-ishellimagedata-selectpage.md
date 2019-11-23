@@ -1,12 +1,12 @@
 ---
 UID: NF:shimgdata.IShellImageData.SelectPage
 title: IShellImageData::SelectPage (shimgdata.h)
-author: windows-sdk-content
+
 description: Selects a specified page in a multipage image.
 old-location: shell\IShellImageData_SelectPage.htm
 tech.root: shell
 ms.assetid: bc852087-59f7-4c84-861a-e270a6ecf840
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],SelectPage method, IShellImageData.SelectPage, IShellImageData::SelectPage, SelectPage, SelectPage method [Windows Shell], SelectPage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_SelectPage, shell.IShellImageData_SelectPage, shimgdata/IShellImageData::SelectPage
 ms.topic: method

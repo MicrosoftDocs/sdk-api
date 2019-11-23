@@ -1,12 +1,12 @@
 ---
 UID: NF:iscsidsc.SendScsiReadCapacity
 title: SendScsiReadCapacity function (iscsidsc.h)
-author: windows-sdk-content
+
 description: SendScsiReadCapacity function sends a SCSI READ CAPACITY command to the indicated target.
 old-location: iscsidisc\sendscsireadcapacity.htm
 tech.root: iSCSIDisc
 ms.assetid: 1a12848f-4b2d-45f6-971b-d8e4ccd00c21
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SendScsiReadCapacity, SendScsiReadCapacity function [iSCSI Discovery Library API], iscsidisc.sendscsireadcapacity, iscsidsc/SendScsiReadCapacity
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.GetFileInformationByHandleEx
 title: GetFileInformationByHandleEx function (winbase.h)
-author: windows-sdk-content
+
 description: Retrieves file information for the specified file.
 old-location: fs\getfileinformationbyhandleex.htm
 tech.root: FileIO
 ms.assetid: e261ea45-d084-490e-94b4-129bd76f6a04
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFileInformationByHandleEx, GetFileInformationByHandleEx function [Files], fileextd/GetFileInformationByHandleEx, fs.getfileinformationbyhandleex, winbase/GetFileInformationByHandleEx
 ms.topic: function

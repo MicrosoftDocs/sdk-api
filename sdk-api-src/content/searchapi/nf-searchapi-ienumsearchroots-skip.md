@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Skip
 title: IEnumSearchRoots::Skip (searchapi.h)
-author: windows-sdk-content
+
 description: Skips the specified number of elements.
 old-location: search\_search_IEnumSearchRoots_Skip.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\skip.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchRoots interface [search],Skip method, IEnumSearchRoots.Skip, IEnumSearchRoots::Skip, Skip, Skip method [search], Skip method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Skip, search._search_IEnumSearchRoots_Skip, searchapi/IEnumSearchRoots::Skip
 ms.topic: method

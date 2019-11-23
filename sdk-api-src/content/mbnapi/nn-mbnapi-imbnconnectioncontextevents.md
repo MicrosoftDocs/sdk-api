@@ -1,12 +1,12 @@
 ---
 UID: NN:mbnapi.IMbnConnectionContextEvents
 title: IMbnConnectionContextEvents (mbnapi.h)
-author: windows-sdk-content
+
 description: This notification interface is used to handle asynchronous provisioned context events.
 old-location: mbn\imbnconnectioncontextevents.htm
 tech.root: mbn
 ms.assetid: 1f73260b-04db-410a-ade0-a835805b2b0a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionContextEvents, IMbnConnectionContextEvents interface [Microsoft Broadband Networks], IMbnConnectionContextEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectioncontextevents, mbnapi/IMbnConnectionContextEvents
 ms.topic: interface

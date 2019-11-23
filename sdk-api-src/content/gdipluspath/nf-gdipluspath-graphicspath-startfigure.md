@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.StartFigure
 title: GraphicsPath::StartFigure (gdipluspath.h)
-author: windows-sdk-content
+
 description: The GraphicsPath::StartFigure method starts a new figure without closing the current figure. Subsequent points added to this path are added to the new figure.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_StartFigure_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\startfigure.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],StartFigure method, GraphicsPath.StartFigure, GraphicsPath::StartFigure, StartFigure, StartFigure method [GDI+], StartFigure method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_StartFigure_, gdiplus._gdiplus_CLASS_GraphicsPath_StartFigure_
 ms.topic: method

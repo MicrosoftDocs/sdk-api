@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxServer.get_DiscountRateStartMinute
 title: IFaxServer::get_DiscountRateStartMinute (faxcom.h)
-author: windows-sdk-content
+
 description: Sets or retrieves the DiscountRateStartMinute property for a FaxServer object. The DiscountRateStartMinute property is a number that represents the minute the discount period begins. The discount period applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_discountratestartminute_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2d7p.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DiscountRateStartMinute property [Fax Service], DiscountRateStartMinute property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],DiscountRateStartMinute property, IFaxServer.DiscountRateStartMinute, IFaxServer.get_DiscountRateStartMinute, IFaxServer.put_DiscountRateStartMinute, IFaxServer::DiscountRateStartMinute, IFaxServer::get_DiscountRateStartMinute, IFaxServer::put_DiscountRateStartMinute, _mfax_ifaxserver_get_discountratestartminute, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_discountratestartminute_cpp, fax._mfax_ifaxserver_get_discountratestartminute, faxcom/IFaxServer::DiscountRateStartMinute, faxcom/IFaxServer::get_DiscountRateStartMinute, faxcom/IFaxServer::put_DiscountRateStartMinute, get_DiscountRateStartMinute
 ms.topic: method

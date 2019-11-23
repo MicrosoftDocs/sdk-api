@@ -1,12 +1,12 @@
 ---
 UID: NF:proofofpossessioncookieinfo.IProofOfPossessionCookieInfoManager.GetCookieInfoForUri
 title: IProofOfPossessionCookieInfoManager::GetCookieInfoForUri (proofofpossessioncookieinfo.h)
-author: windows-sdk-content
+
 description: Gets cookie information for the supplied URI to be used for proof of possession cookies.
 old-location: wininet\iproofofpossessioncookieinfomanager_getcookieinfoforuri.htm
 tech.root: wininet
 ms.assetid: e7e22e0e-f84c-47e5-878f-b70459c921b8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCookieInfoForUri, GetCookieInfoForUri method [WinINet], GetCookieInfoForUri method [WinINet],IProofOfPossessionCookieInfoManager interface, IProofOfPossessionCookieInfoManager interface [WinINet],GetCookieInfoForUri method, IProofOfPossessionCookieInfoManager.GetCookieInfoForUri, IProofOfPossessionCookieInfoManager::GetCookieInfoForUri, proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager::GetCookieInfoForUri, wininet.iproofofpossessioncookieinfomanager_getcookieinfoforuri
 ms.topic: method

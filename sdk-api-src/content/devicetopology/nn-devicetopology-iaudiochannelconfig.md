@@ -1,12 +1,12 @@
 ---
 UID: NN:devicetopology.IAudioChannelConfig
 title: IAudioChannelConfig (devicetopology.h)
-author: windows-sdk-content
+
 description: The IAudioChannelConfig interface provides access to a hardware channel-configuration control.
 old-location: coreaudio\iaudiochannelconfig.htm
 tech.root: CoreAudio
 ms.assetid: b8e54e9e-a6eb-46e6-a71c-ff498c7e8f47
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAudioChannelConfig, IAudioChannelConfig interface [Core Audio], IAudioChannelConfig interface [Core Audio],described, coreaudio.iaudiochannelconfig, devicetopology/IAudioChannelConfig
 ms.topic: interface

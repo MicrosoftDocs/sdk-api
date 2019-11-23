@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxRecipients.Remove
 title: IFaxRecipients::Remove (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxRecipients::Remove method removes an item from the FaxRecipients collection.
 old-location: fax\_mfax_faxrecipients_cpp_mfax_faxrecipients_remove_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9c9x.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxRecipients interface [Fax Service],Remove method, IFaxRecipients.Remove, IFaxRecipients::Remove, Remove, Remove method [Fax Service], Remove method [Fax Service],IFaxRecipients interface, _mfax_faxrecipients.remove, fax._mfax_faxrecipients_cpp_mfax_faxrecipients_remove_cpp, fax._mfax_faxrecipients_remove, faxcomex/IFaxRecipients::Remove
 ms.topic: method

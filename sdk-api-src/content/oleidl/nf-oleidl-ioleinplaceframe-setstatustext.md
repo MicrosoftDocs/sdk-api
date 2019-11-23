@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.SetStatusText
 title: IOleInPlaceFrame::SetStatusText (oleidl.h)
-author: windows-sdk-content
+
 description: Sets and displays status text about the in-place object in the container's frame window status line.
 old-location: com\ioleinplaceframe_setstatustext.htm
 tech.root: com
 ms.assetid: e857bdbe-5510-4e35-ba73-d52b239e5b77
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceFrame interface [COM],SetStatusText method, IOleInPlaceFrame.SetStatusText, IOleInPlaceFrame::SetStatusText, SetStatusText, SetStatusText method [COM], SetStatusText method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_setstatustext, com.ioleinplaceframe_setstatustext, oleidl/IOleInPlaceFrame::SetStatusText
 ms.topic: method

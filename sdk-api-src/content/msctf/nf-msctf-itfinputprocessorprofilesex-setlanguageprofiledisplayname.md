@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfilesEx.SetLanguageProfileDisplayName
 title: ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName (msctf.h)
-author: windows-sdk-content
+
 description: Redistributable:\_Requires TSF 1.0 on Windows 2000.
 old-location: tsf\setlanguageprofiledisplayname.htm
 tech.root: TSF
 ms.assetid: ce762764-dcaf-4419-8ca0-44a8462a848e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfilesEx, ITfInputProcessorProfilesEx interface [Text Services Framework],SetLanguageProfileDisplayName method, ITfInputProcessorProfilesEx.SetLanguageProfileDisplayName, ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName, SetLanguageProfileDisplayName, SetLanguageProfileDisplayName method [Text Services Framework], SetLanguageProfileDisplayName method [Text Services Framework],ITfInputProcessorProfilesEx interface, msctf/ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName, tsf.itfinputprocessorprofilesex_setlanguageprofiledisplayname, tsf.setlanguageprofiledisplayname
 ms.topic: method

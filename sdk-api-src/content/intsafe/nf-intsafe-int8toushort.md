@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.Int8ToUShort
 title: Int8ToUShort function (intsafe.h)
-author: windows-sdk-content
+
 description: Converts a value of type INT8 to a value of type USHORT.
 old-location: shell\Int8ToUShort.htm
 tech.root: shell
 ms.assetid: 541363e2-a112-4070-af6d-3f5de60a3cd1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Int8ToUShort, Int8ToUShort function [Windows Shell], intsafe/Int8ToUShort, shell.Int8ToUShort
 ms.topic: function

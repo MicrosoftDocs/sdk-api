@@ -1,12 +1,12 @@
 ---
 UID: NF:ctfutb.IEnumTfLangBarItems.Next
 title: IEnumTfLangBarItems::Next (ctfutb.h)
-author: windows-sdk-content
+
 description: IEnumTfLangBarItems::Next method
 old-location: tsf\ienumtflangbaritems_next.htm
 tech.root: TSF
 ms.assetid: 46e24685-581c-4c68-80df-4465e90e3e36
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Next method, IEnumTfLangBarItems.Next, IEnumTfLangBarItems::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfLangBarItems interface, _tsf_ienumtflangbaritems_next_ref, ctfutb/IEnumTfLangBarItems::Next, tsf.ienumtflangbaritems_next
 ms.topic: method

@@ -1,11 +1,11 @@
 ---
 UID: NF:shlobj.IFileViewerW.ShowInitialize
 title: IFileViewerW::ShowInitialize
-author: windows-sdk-content
+
 description: Allows a file viewer to determine whether it can display a file.
 tech.root: shell
 ms.assetid: 28f7deb9-09aa-4041-ac6a-3956fdc59191
-ms.author: windowssdkdev
+
 ms.date: 01/30/19
 ms.keywords: IFileViewerW::ShowInitialize
 ms.topic: language-reference

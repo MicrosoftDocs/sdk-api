@@ -1,12 +1,12 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates2.get_Results
 title: IAutomaticUpdates2::get_Results (wuapi.h)
-author: windows-sdk-content
+
 description: Returns a pointer to an IAutomaticUpdatesResults interface.
 old-location: wua\iautomaticupdates2_results.htm
 tech.root: Wua_Sdk
 ms.assetid: b83f6833-5318-42ca-a1d6-30b6590873bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates2 interface [Windows Update Agent],get_Results method, IAutomaticUpdates2.get_Results, IAutomaticUpdates2::get_Results, get_Results, get_Results method [Windows Update Agent], get_Results method [Windows Update Agent],IAutomaticUpdates2 interface, wua.iautomaticupdates2_results, wuapi/IAutomaticUpdates2::get_Results
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidStreamBufferV2SourceEvent
 title: IMSVidStreamBufferV2SourceEvent (segment.h)
-author: windows-sdk-content
+
 description: Implements an event system for the Stream Buffer Engine, version 2 (SBE2) source filter that is wrapped in the Video Control. Each event corresponds to an event that the SBE2 source filter receives inside a DirectShow graph.
 old-location: mstv\imsvidstreambufferv2sourceevent.htm
 tech.root: mstv
 ms.assetid: ab463f6e-0718-4420-89bc-28b3c447f3a0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies], IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],described, mstv.imsvidstreambufferv2sourceevent, segment/IMSVidStreamBufferV2SourceEvent
 ms.topic: interface

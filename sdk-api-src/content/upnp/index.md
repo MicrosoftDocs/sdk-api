@@ -1,7 +1,7 @@
 ---
 UID: NA:upnp
 ms.assetid: 99e57801-310a-32df-bdd4-8cfc1004985b
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

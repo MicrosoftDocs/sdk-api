@@ -1,11 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODE_SUB_SAMPLE_MAPPING_BLOCK
 title: D3D12_VIDEO_DECODE_SUB_SAMPLE_MAPPING_BLOCK
-author: windows-sdk-content
+
 description: Defines the encryption byte mapping of sub samples for video decoding.
 tech.root: mf
 ms.assetid: c682488d-4b26-4cfe-9876-146c2cf3af67
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019 
 ms.topic: struct
 f1_keywords:

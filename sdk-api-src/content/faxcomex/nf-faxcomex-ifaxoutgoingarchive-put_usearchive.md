@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.put_UseArchive
 title: IFaxOutgoingArchive::put_UseArchive (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxOutgoingArchive::get_UseArchive property is a Boolean value that indicates whether the fax service archives outbound fax messages.
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_usearchive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4pk5.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingArchive interface [Fax Service],UseArchive property, IFaxOutgoingArchive.UseArchive, IFaxOutgoingArchive.get_UseArchive, IFaxOutgoingArchive.put_UseArchive, IFaxOutgoingArchive::UseArchive, IFaxOutgoingArchive::get_UseArchive, IFaxOutgoingArchive::put_UseArchive, UseArchive property [Fax Service], UseArchive property [Fax Service],IFaxOutgoingArchive interface, _mfax_faxoutgoingarchive.usearchive, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_usearchive_cpp, fax._mfax_faxoutgoingarchive_usearchive, faxcomex/IFaxOutgoingArchive::UseArchive, faxcomex/IFaxOutgoingArchive::get_UseArchive, faxcomex/IFaxOutgoingArchive::put_UseArchive, put_UseArchive
 ms.topic: method

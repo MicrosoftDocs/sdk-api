@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMatrixDeterminant
 title: XMMatrixDeterminant function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the determinant of a matrix.
 old-location: dxmath\xmmatrixdeterminant.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixDeterminant(XMMATRIX)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixDeterminant, XMMatrixDeterminant, XMMatrixDeterminant method [DirectX Math Support APIs], dxmath.xmmatrixdeterminant
 ms.topic: function

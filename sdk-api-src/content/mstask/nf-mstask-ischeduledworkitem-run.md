@@ -1,12 +1,12 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.Run
 title: IScheduledWorkItem::Run (mstask.h)
-author: windows-sdk-content
+
 description: Sends a request to the Task Scheduler service to run the work item.
 old-location: taskschd\ischeduledworkitem_run.htm
 tech.root: taskschd
 ms.assetid: f533fcf6-8ece-442f-b6d5-3702321db9e9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],Run method, IScheduledWorkItem.Run, IScheduledWorkItem::Run, Run, Run method [Task Scheduler], Run method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_run, mstask/IScheduledWorkItem::Run, taskschd.ischeduledworkitem_run
 ms.topic: method

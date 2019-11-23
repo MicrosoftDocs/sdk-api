@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsx.ComboBox_FindString
 title: ComboBox_FindString macro (windowsx.h)
-author: windows-sdk-content
+
 description: Finds the first string in a combo box list that begins with the specified string. You can use this macro or send the CB_FINDSTRING message explicitly.
 old-location: controls\ComboBox_FindString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_findstring.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ComboBox_FindString, ComboBox_FindString macro [Windows Controls], _win32_ComboBox_FindString, _win32_ComboBox_FindString_cpp, controls.ComboBox_FindString, controls._win32_ComboBox_FindString, windowsx/ComboBox_FindString
 ms.topic: macro

@@ -1,12 +1,12 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_ExposureRelative
 title: ICameraControl::getRange_ExposureRelative (vidcap.h)
-author: windows-sdk-content
+
 description: The getRange_ExposureRelative method returns the range of relative exposure times supported by the camera. The relative exposure time is expressed as a number of steps, where the absolute value of each step depends on the camera model.
 old-location: dshow\icameracontrol_getrange_exposurerelative.htm
 tech.root: DirectShow
 ms.assetid: ab46e893-037a-42bb-a3ae-bef943cd6a5e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_ExposureRelative method, ICameraControl.getRange_ExposureRelative, ICameraControl::getRange_ExposureRelative, ICameraControlgetRange_ExposureRelative, dshow.icameracontrol_getrange_exposurerelative, getRange_ExposureRelative, getRange_ExposureRelative method [DirectShow], getRange_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_ExposureRelative
 ms.topic: method

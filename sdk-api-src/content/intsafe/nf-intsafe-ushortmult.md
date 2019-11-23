@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.UShortMult
 title: UShortMult function (intsafe.h)
-author: windows-sdk-content
+
 description: Multiplies one value of type USHORT by another.
 old-location: shell\UShortMult.htm
 tech.root: shell
 ms.assetid: ecade442-3272-4886-87e1-057f82f465cf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UShortMult, UShortMult function [Windows Shell], WordMult, _shell_UShortMult, intsafe/UShortMult, shell.UShortMult
 ms.topic: function

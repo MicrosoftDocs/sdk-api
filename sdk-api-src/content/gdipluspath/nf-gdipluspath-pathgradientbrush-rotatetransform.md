@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.RotateTransform
 title: PathGradientBrush::RotateTransform (gdipluspath.h)
-author: windows-sdk-content
+
 description: The PathGradientBrush::RotateTransform method updates this brush's current transformation matrix with the product of itself and a rotation matrix.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_RotateTransform_angle_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\rotatetransform_38angle_order.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],RotateTransform method, PathGradientBrush.RotateTransform, PathGradientBrush::RotateTransform, RotateTransform, RotateTransform method [GDI+], RotateTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_RotateTransform_angle_order_, gdiplus._gdiplus_CLASS_PathGradientBrush_RotateTransform_angle_order_
 ms.topic: method

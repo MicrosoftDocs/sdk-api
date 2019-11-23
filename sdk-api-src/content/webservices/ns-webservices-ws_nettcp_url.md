@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_NETTCP_URL
 title: WS_NETTCP_URL (webservices.h)
-author: windows-sdk-content
+
 description: The URL subtype for specifying an net.tcp URL.
 old-location: wsw\ws_nettcp_url.htm
 tech.root: wsw
 ms.assetid: 62079e59-01c8-48fb-932a-ca01cc7b86ec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_NETTCP_URL, WS_NETTCP_URL structure [Web Services for Windows], webservices/WS_NETTCP_URL, wsw.ws_nettcp_url
 ms.topic: struct

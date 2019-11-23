@@ -1,12 +1,12 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0028
 title: MPEG_BCS_DEMUX (mpeg2structs.h)
-author: windows-sdk-content
+
 description: The MPEG_BCS_DEMUX structure identifies the filter graph that is providing the MPEG-2 data stream.
 old-location: mstv\mpeg_bcs_demux.htm
 tech.root: mstv
 ms.assetid: ecc4f3bb-16f5-4398-bcd5-3316da8529ec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MPEG_BCS_DEMUX, MPEG_BCS_DEMUX structure [Microsoft TV Technologies], mpeg2structs/MPEG_BCS_DEMUX, mstv.mpeg_bcs_demux
 ms.topic: struct

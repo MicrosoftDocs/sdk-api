@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMDRMMessageParser
 title: IWMDRMMessageParser (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMDRMMessageParser interface parses pertinent information from messages received from a device.An IWMDRMMessageParser interface exists for every device registration object.
 old-location: wmformat\iwmdrmmessageparser.htm
 tech.root: wmformat
 ms.assetid: 76e504e2-5978-4afd-9556-68f78c49a313
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDRMMessageParser, IWMDRMMessageParser interface [windows Media Format], IWMDRMMessageParser interface [windows Media Format],described, IWMDRMMessageParserInterface, wmformat.iwmdrmmessageparser, wmsdkidl/IWMDRMMessageParser
 ms.topic: interface

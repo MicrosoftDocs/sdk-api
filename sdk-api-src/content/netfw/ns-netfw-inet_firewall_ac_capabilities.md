@@ -1,12 +1,12 @@
 ---
 UID: NS:netfw._INET_FIREWALL_AC_CAPABILITIES
 title: INET_FIREWALL_AC_CAPABILITIES (netfw.h)
-author: windows-sdk-content
+
 description: Contains information about the capabilities of an app container.
 old-location: ics\inet_firewall_ac_capabilities.htm
 tech.root: ics
 ms.assetid: 37386225-0c64-49c0-a21c-cecd8bdb1f1f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PINET_FIREWALL_AC_CAPABILITIES, INET_FIREWALL_AC_CAPABILITIES, INET_FIREWALL_AC_CAPABILITIES structure [ICS/ICF], PINET_FIREWALL_AC_CAPABILITIES, PINET_FIREWALL_AC_CAPABILITIES structure pointer [ICS/ICF], _INET_FIREWALL_AC_CAPABILITIES, ics.inet_firewall_ac_capabilities, networkisolation/INET_FIREWALL_AC_CAPABILITIES, networkisolation/PINET_FIREWALL_AC_CAPABILITIES"
 ms.topic: struct

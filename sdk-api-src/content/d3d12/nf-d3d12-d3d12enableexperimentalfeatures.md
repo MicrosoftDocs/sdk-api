@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.D3D12EnableExperimentalFeatures
 title: D3D12EnableExperimentalFeatures function (d3d12.h)
-author: windows-sdk-content
+
 description: Enables a list of experimental features.
 old-location: direct3d12\d3d12enableexperimentalfeatures.htm
 tech.root: direct3d12
 ms.assetid: 290E147E-8545-4572-BB36-58481065C541
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12EnableExperimentalFeatures, D3D12EnableExperimentalFeatures function, d3d12/D3D12EnableExperimentalFeatures, direct3d12.d3d12enableexperimentalfeatures
 ms.topic: function

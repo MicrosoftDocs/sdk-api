@@ -1,12 +1,12 @@
 ---
 UID: NF:appxpackaging.IAppxManifestOptionalPackageInfo.GetMainPackageName
 title: IAppxManifestOptionalPackageInfo::GetMainPackageName (appxpackaging.h)
-author: windows-sdk-content
+
 description: Gets the main package name from the optional package.
 old-location: appxpkg\iappxmanifestoptionalpackageinfo_getmainpackagename.htm
 tech.root: appxpkg
 ms.assetid: 95CD6739-06B2-4862-8313-4133AFBFD583
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMainPackageName, GetMainPackageName method [App packaging and management], GetMainPackageName method [App packaging and management],IAppxManifestOptionalPackageInfo interface, IAppxManifestOptionalPackageInfo interface [App packaging and management],GetMainPackageName method, IAppxManifestOptionalPackageInfo.GetMainPackageName, IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpackaging/IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpkg.iappxmanifestoptionalpackageinfo_getmainpackagename
 ms.topic: method

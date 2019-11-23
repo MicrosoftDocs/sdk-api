@@ -1,12 +1,12 @@
 ---
 UID: NF:mssip.CryptSIPRetrieveSubjectGuid
 title: CryptSIPRetrieveSubjectGuid function (mssip.h)
-author: windows-sdk-content
+
 description: Retrieves a GUID based on the header information in a specified file.
 old-location: security\cryptsipretrievesubjectguid.htm
 tech.root: SecCrypto
 ms.assetid: b81472bc-6d9c-4634-a378-e39786a0ca09
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CryptSIPRetrieveSubjectGuid, CryptSIPRetrieveSubjectGuid function [Security], mssip/CryptSIPRetrieveSubjectGuid, security.cryptsipretrievesubjectguid
 ms.topic: function

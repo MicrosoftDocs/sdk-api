@@ -1,12 +1,12 @@
 ---
 UID: NS:wingdi.tagEMRRESIZEPALETTE
 title: EMRRESIZEPALETTE (wingdi.h)
-author: windows-sdk-content
+
 description: The EMRRESIZEPALETTE structure contains members for the ResizePalette enhanced metafile record.
 old-location: gdi\emrresizepalette.htm
 tech.root: gdi
 ms.assetid: b9c31591-bf9f-44d9-8c9a-9682d29fc541
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PEMRRESIZEPALETTE, EMRRESIZEPALETTE, EMRRESIZEPALETTE structure [Windows GDI], PEMRRESIZEPALETTE, PEMRRESIZEPALETTE structure pointer [Windows GDI], _win32_EMRRESIZEPALETTE_str, gdi.emrresizepalette, wingdi/EMRRESIZEPALETTE, wingdi/PEMRRESIZEPALETTE"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.RemoveWindowSubclass
 title: RemoveWindowSubclass function (commctrl.h)
-author: windows-sdk-content
+
 description: Removes a subclass callback from a window.
 old-location: shell\RemoveWindowSubclass.htm
 tech.root: shell
 ms.assetid: 09f27240-f3af-4791-afcb-a82bda79712a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RemoveWindowSubclass, RemoveWindowSubclass function [Windows Shell], commctrl/RemoveWindowSubclass, inet_RemoveWindowSubclass, shell.RemoveWindowSubclass
 ms.topic: function

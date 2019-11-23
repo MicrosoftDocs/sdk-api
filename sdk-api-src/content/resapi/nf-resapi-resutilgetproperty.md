@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ResUtilGetProperty
 title: ResUtilGetProperty function (resapi.h)
-author: windows-sdk-content
+
 description: Returns a specified property from the cluster database. The PRESUTIL_GET_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetproperty.htm
 tech.root: MsCS
 ms.assetid: f1c6f69c-fc64-4e64-9543-449fc8780eef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_PROPERTY, PRESUTIL_GET_PROPERTY function [Failover Cluster], ResUtilGetProperty, ResUtilGetProperty function [Failover Cluster], _wolf_resutilgetproperty, mscs.resutilgetproperty, resapi/PRESUTIL_GET_PROPERTY, resapi/ResUtilGetProperty
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_1.IDWriteFontFace1
 title: IDWriteFontFace1
-author: windows-sdk-content
+
 description: Contains font face type, appropriate file references, and face identification data.
 old-location: directwrite\idwritefontface1.htm
 tech.root: DirectWrite
 ms.assetid: 1DB7156F-0578-46A0-8C96-E1E34FF4E49E
-ms.author: windowssdkdev
+
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace1, IDWriteFontFace1 interface [Direct Write], IDWriteFontFace1 interface [Direct Write],described, directwrite.idwritefontface1, dwrite_1/IDWriteFontFace1
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbCableDeliverySystemDescriptor.GetFECOuter
 title: IDvbCableDeliverySystemDescriptor::GetFECOuter (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbcabledeliverysystemdescriptor_getfecouter.htm
 tech.root: mstv
 ms.assetid: cf6d094f-d394-43a3-b74e-a167759d5a10
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFECOuter, GetFECOuter method [Microsoft TV Technologies], GetFECOuter method [Microsoft TV Technologies],IDvbCableDeliverySystemDescriptor interface, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],GetFECOuter method, IDvbCableDeliverySystemDescriptor.GetFECOuter, IDvbCableDeliverySystemDescriptor::GetFECOuter, IDvbCableDeliverySystemDescriptorGetFECOuter, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetFECOuter, mstv.idvbcabledeliverysystemdescriptor_getfecouter
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0001
 title: OPC_URI_TARGET_MODE (msopc.h)
-author: windows-sdk-content
+
 description: Indicates the target mode of a relationship.
 old-location: opc\opc_uri_target_mode.htm
 tech.root: OPC
 ms.assetid: af052aa3-db7a-47de-938c-32895b8735e9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OPC_URI_TARGET_MODE, OPC_URI_TARGET_MODE enumeration [Open Packaging Conventions], OPC_URI_TARGET_MODE_EXTERNAL, OPC_URI_TARGET_MODE_INTERNAL, msopc/OPC_URI_TARGET_MODE, msopc/OPC_URI_TARGET_MODE_EXTERNAL, msopc/OPC_URI_TARGET_MODE_INTERNAL, opc.opc_uri_target_mode
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NE:ntsecapi._KERB_PROFILE_BUFFER_TYPE
 title: KERB_PROFILE_BUFFER_TYPE (ntsecapi.h)
-author: windows-sdk-content
+
 description: Lists the type of logon profile returned.
 old-location: security\kerb_profile_buffer_type.htm
 tech.root: SecAuthN
 ms.assetid: c590b6fd-c241-4ff8-9475-c8af7de7b431
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PKERB_PROFILE_BUFFER_TYPE, KERB_PROFILE_BUFFER_TYPE, KERB_PROFILE_BUFFER_TYPE enumeration [Security], KerbInteractiveProfile, KerbTicketProfile, PKERB_PROFILE_BUFFER_TYPE, PKERB_PROFILE_BUFFER_TYPE enumeration pointer [Security], _lsa_kerb_profile_buffer_type, ntsecapi/KERB_PROFILE_BUFFER_TYPE, ntsecapi/KerbInteractiveProfile, ntsecapi/KerbTicketProfile, ntsecapi/PKERB_PROFILE_BUFFER_TYPE, security.kerb_profile_buffer_type"
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NE:shobjidl_core.CM_SET_WIDTH_VALUE
 title: CM_SET_WIDTH_VALUE (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Specifies width values in pixels and includes special support for default and autosize. Used by members of the IColumnManager interface through the CM_COLUMNINFO structure.
 old-location: shell\CM_SET_WIDTH_VALUE.htm
 tech.root: shell
 ms.assetid: c5778bcc-fc9e-499a-b5e5-31c4f2df4871
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CM_SET_WIDTH_VALUE, CM_SET_WIDTH_VALUE enumeration [Windows Shell], CM_WIDTH_AUTOSIZE, CM_WIDTH_USEDEFAULT, shell.CM_SET_WIDTH_VALUE, shell_CM_SET_WIDTH_VALUE, shobjidl_core/CM_SET_WIDTH_VALUE, shobjidl_core/CM_WIDTH_AUTOSIZE, shobjidl_core/CM_WIDTH_USEDEFAULT
 ms.topic: enum

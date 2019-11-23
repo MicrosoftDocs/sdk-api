@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnInterface.SetPreferredProviders
 title: IMbnInterface::SetPreferredProviders (mbnapi.h)
-author: windows-sdk-content
+
 description: Updates the preferred providers list for the device.
 old-location: mbn\imbninterface_setpreferredproviders.htm
 tech.root: mbn
 ms.assetid: 2ea95b4a-07d9-40d6-bb82-091b49c965c4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],SetPreferredProviders method, IMbnInterface.SetPreferredProviders, IMbnInterface::SetPreferredProviders, SetPreferredProviders, SetPreferredProviders method [Microsoft Broadband Networks], SetPreferredProviders method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_setpreferredproviders, mbnapi/IMbnInterface::SetPreferredProviders
 ms.topic: method

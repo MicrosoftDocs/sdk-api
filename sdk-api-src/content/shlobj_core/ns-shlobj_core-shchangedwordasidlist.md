@@ -1,12 +1,12 @@
 ---
 UID: NS:shlobj_core._SHChangeDWORDAsIDList
 title: SHChangeDWORDAsIDList (shlobj_core.h)
-author: windows-sdk-content
+
 description: SHChangeDWORDAsIDList may be altered or unavailable.
 old-location: shell\SHChangeDWORDAsIDList.htm
 tech.root: shell
 ms.assetid: ebc05a9c-ed2b-41ff-93fb-9d8059fa360c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList structure pointer [Windows Shell], SHChangeDWORDAsIDList, SHChangeDWORDAsIDList structure [Windows Shell], _SHChangeDWORDAsIDList, _shell_SHChangeDWORDAsIDList, shell.SHChangeDWORDAsIDList, shlobj_core/LPSHChangeDWORDAsIDList, shlobj_core/SHChangeDWORDAsIDList'
 ms.topic: struct

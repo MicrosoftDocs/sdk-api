@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
 title: WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES (webservices.h)
-author: windows-sdk-content
+
 description: An array of XML prefixes that should be treated as inclusive prefixes during exclusive XML canonicalization. The treatment of inclusive prefixes is defined in RFC 3741.
 old-location: wsw\ws_xml_canonicalization_inclusive_prefixes.htm
 tech.root: wsw
 ms.assetid: 792ab726-6309-4f77-b40c-95dad2d991d9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES, WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES structure [Web Services for Windows], webservices/WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES, wsw.ws_xml_canonicalization_inclusive_prefixes
 ms.topic: struct

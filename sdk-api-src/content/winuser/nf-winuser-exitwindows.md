@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.ExitWindows
 title: ExitWindows macro (winuser.h)
-author: windows-sdk-content
+
 description: Calls the ExitWindowsEx function to log off the interactive user.
 old-location: base\exitwindows.htm
 tech.root: Shutdown
 ms.assetid: 7c76caac-459d-45df-ae00-bc208a9e7b22
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ExitWindows, ExitWindows macro, _win32_exitwindows, base.exitwindows, winuser/ExitWindows
 ms.topic: macro

@@ -1,12 +1,12 @@
 ---
 UID: NF:winusb.WinUsb_UnregisterIsochBuffer
 title: WinUsb_UnregisterIsochBuffer function (winusb.h)
-author: windows-sdk-content
+
 description: The WinUsb_UnregisterIsochBuffer function releases all of the resources that WinUsb_RegisterIsochBuffer allocated for isochronous transfers. This is a synchronous operation.
 old-location: buses\winusb_unregisterisochbuffer.htm
 tech.root: usbref
 ms.assetid: 1BAD13F5-A29E-4BA8-B924-85ACE7C8E34D
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WinUsb_UnregisterIsochBuffer, WinUsb_UnregisterIsochBuffer function [Buses], buses.winusb_unregisterisochbuffer, winusb/WinUsb_UnregisterIsochBuffer
 ms.topic: function

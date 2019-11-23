@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_META_COMMAND_PARAMETER_DESC
 title: D3D12_META_COMMAND_PARAMETER_DESC (d3d12.h)
-author: windows-sdk-content
+
 description: Describes a parameter to a meta command.
 old-location: direct3d12\d3d12_meta_command_parameter_desc.htm
 tech.root: direct3d12
 ms.assetid: F4314919-B7E1-4628-867D-462F8F9A48FA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_META_COMMAND_PARAMETER_DESC, D3D12_META_COMMAND_PARAMETER_DESC structure, d3d12/D3D12_META_COMMAND_PARAMETER_DESC, direct3d12.d3d12_meta_command_parameter_desc
 ms.topic: struct

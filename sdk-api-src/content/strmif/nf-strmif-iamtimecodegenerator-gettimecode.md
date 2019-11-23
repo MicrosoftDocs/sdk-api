@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.GetTimecode
 title: IAMTimecodeGenerator::GetTimecode (strmif.h)
-author: windows-sdk-content
+
 description: The GetTimecode method retrieves the most recent timecode and/or userbit value available in the stream.
 old-location: dshow\iamtimecodegenerator_gettimecode.htm
 tech.root: DirectShow
 ms.assetid: 40f24a99-5a6b-4aff-b22c-e05811c910f4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTimecode, GetTimecode method [DirectShow], GetTimecode method [DirectShow],IAMTimecodeGenerator interface, IAMTimecodeGenerator interface [DirectShow],GetTimecode method, IAMTimecodeGenerator.GetTimecode, IAMTimecodeGenerator::GetTimecode, IAMTimecodeGeneratorGetTimecode, dshow.iamtimecodegenerator_gettimecode, strmif/IAMTimecodeGenerator::GetTimecode
 ms.topic: method

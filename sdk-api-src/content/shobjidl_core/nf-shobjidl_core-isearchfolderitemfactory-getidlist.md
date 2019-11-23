@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.GetIDList
 title: ISearchFolderItemFactory::GetIDList (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Gets the search folder as an ITEMIDLIST.
 old-location: shell\ISearchFolderItemFactory_GetIDList.htm
 tech.root: shell
 ms.assetid: 9547c429-9396-474e-b772-6e3aa28d1937
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetIDList, GetIDList method [Windows Shell], GetIDList method [Windows Shell],ISearchFolderItemFactory interface, ISearchFolderItemFactory interface [Windows Shell],GetIDList method, ISearchFolderItemFactory.GetIDList, ISearchFolderItemFactory::GetIDList, _shell_ISearchFolderItemFactory_GetIDList, shell.ISearchFolderItemFactory_GetIDList, shobjidl_core/ISearchFolderItemFactory::GetIDList
 ms.topic: method

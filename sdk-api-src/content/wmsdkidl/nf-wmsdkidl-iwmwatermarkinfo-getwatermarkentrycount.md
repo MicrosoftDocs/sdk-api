@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMWatermarkInfo.GetWatermarkEntryCount
 title: IWMWatermarkInfo::GetWatermarkEntryCount (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetWatermarkEntryCount method retrieves the total number of installed watermarking systems of a specified type. Use this method in conjunction with IWMWatermarkInfo::GetWatermarkEntry to enumerate the installed watermarking DMOs.
 old-location: wmformat\iwmwatermarkinfo_getwatermarkentrycount.htm
 tech.root: wmformat
 ms.assetid: 27a102b7-a495-49ee-9d65-a0276ca2cf76
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetWatermarkEntryCount, GetWatermarkEntryCount method [windows Media Format], GetWatermarkEntryCount method [windows Media Format],IWMWatermarkInfo interface, IWMWatermarkInfo interface [windows Media Format],GetWatermarkEntryCount method, IWMWatermarkInfo.GetWatermarkEntryCount, IWMWatermarkInfo::GetWatermarkEntryCount, IWMWatermarkInfoGetWatermarkEntryCount, wmformat.iwmwatermarkinfo_getwatermarkentrycount, wmsdkidl/IWMWatermarkInfo::GetWatermarkEntryCount
 ms.topic: method

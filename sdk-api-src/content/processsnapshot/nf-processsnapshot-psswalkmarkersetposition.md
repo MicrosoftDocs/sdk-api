@@ -1,12 +1,12 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerSetPosition
 title: PssWalkMarkerSetPosition function (processsnapshot.h)
-author: windows-sdk-content
+
 description: Sets the position of a walk marker.
 old-location: proc_snap\psswalkmarkersetposition.htm
 tech.root: proc_snap
 ms.assetid: D89EA4DB-D8C6-43D1-B292-D24F1EAB2E43
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PssWalkMarkerSetPosition, PssWalkMarkerSetPosition function, proc_snap.psswalkmarkersetposition, processsnapshot/PssWalkMarkerSetPosition
 ms.topic: function

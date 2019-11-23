@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarI2FromI8
 title: VarI2FromI8 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts an 8-byte integer value to a short value.
 old-location: automat\vari2fromi8.htm
 tech.root: automat
 ms.assetid: 759dbab4-b99c-4e9b-a44b-f2ca0c187719
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarI2FromI8, VarI2FromI8 function [Automation], _oa96_VarI2FromI8, automat.vari2fromi8, oleauto/VarI2FromI8
 ms.topic: function

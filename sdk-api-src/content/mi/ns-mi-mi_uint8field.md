@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_Uint8Field
 title: MI_Uint8Field (mi.h)
-author: windows-sdk-content
+
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_uint8field.htm
 tech.root: wmi_v2
 ms.assetid: ba2dd5fe-4a1d-4a96-aab4-c823554f70dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint8Field, MI_Uint8Field structure [Windows Management Infrastructure (MI)], mi/MI_Uint8Field, wmi._mi_uint8field, wmi_v2.mi_uint8field
 ms.topic: struct

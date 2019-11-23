@@ -1,12 +1,12 @@
 ---
 UID: NN:syncmgr.IEnumSyncMgrEvents
 title: IEnumSyncMgrEvents (syncmgr.h)
-author: windows-sdk-content
+
 description: Exposes sync event enumeration methods.
 old-location: shell\IEnumSyncMgrEvents.htm
 tech.root: shell
 ms.assetid: 74d0c373-e9b1-4d9c-bdb6-caa743938e32
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrEvents, IEnumSyncMgrEvents interface [Windows Shell], IEnumSyncMgrEvents interface [Windows Shell],described, _shell_IEnumSyncMgrEvents, shell.IEnumSyncMgrEvents, syncmgr/IEnumSyncMgrEvents
 ms.topic: interface

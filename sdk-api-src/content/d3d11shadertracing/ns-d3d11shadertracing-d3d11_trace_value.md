@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_TRACE_VALUE
 title: D3D11_TRACE_VALUE (d3d11shadertracing.h)
-author: windows-sdk-content
+
 description: Describes a trace value.
 old-location: direct3d11\d3d11_trace_value.htm
 tech.root: direct3d11
 ms.assetid: 15AFA648-DCAC-42A1-9606-6E292E92C217
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_VALUE, D3D11_TRACE_VALUE structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_VALUE, direct3d11.d3d11_trace_value
 ms.topic: struct

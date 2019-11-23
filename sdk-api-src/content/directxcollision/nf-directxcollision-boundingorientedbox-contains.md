@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Contains
 title: BoundingOrientedBox::Contains
-author: windows-sdk-content
+
 description: Tests whether the BoundingOrientedBox contains a specified point.
 ms.date: 04/22/19
 ms.keywords: BoundingOrientedBox::Contains

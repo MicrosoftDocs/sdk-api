@@ -1,12 +1,12 @@
 ---
 UID: NF:fltuser.FilterVolumeInstanceFindNext
 title: FilterVolumeInstanceFindNext function (fltuser.h)
-author: windows-sdk-content
+
 description: The FilterVolumeInstanceFindNext function continues a minifilter driver instance or legacy filter driver search started by a call to FilterVolumeInstanceFindFirst.
 old-location: ifsk\filtervolumeinstancefindnext.htm
 tech.root: ifsk
 ms.assetid: e4bcd797-5a1a-45b9-a4f2-387ea1df7c2f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FilterVolumeInstanceFindNext, FilterVolumeInstanceFindNext function [Installable File System Drivers], FltWin32ApiRef_646e3187-31a8-42fb-b8a6-bca598605660.xml, fltuser/FilterVolumeInstanceFindNext, ifsk.filtervolumeinstancefindnext
 ms.topic: function

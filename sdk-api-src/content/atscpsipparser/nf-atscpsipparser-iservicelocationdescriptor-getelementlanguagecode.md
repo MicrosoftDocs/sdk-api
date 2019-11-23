@@ -1,12 +1,12 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetElementLanguageCode
 title: IServiceLocationDescriptor::GetElementLanguageCode (atscpsipparser.h)
-author: windows-sdk-content
+
 description: Gets the three-character ISO 639 language code for an Advanced Television Systems Committee (ATSC) service location descriptor.
 old-location: mstv\iservicelocationdescriptor_getelementlanguagecode.htm
 tech.root: mstv
 ms.assetid: 8ffc0c58-1305-49bf-bdbd-efb18805516f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetElementLanguageCode, GetElementLanguageCode method [Microsoft TV Technologies], GetElementLanguageCode method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementLanguageCode method, IServiceLocationDescriptor.GetElementLanguageCode, IServiceLocationDescriptor::GetElementLanguageCode, atscpsipparser/IServiceLocationDescriptor::GetElementLanguageCode, mstv.iservicelocationdescriptor_getelementlanguagecode
 ms.topic: method

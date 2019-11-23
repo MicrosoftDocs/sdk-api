@@ -1,12 +1,12 @@
 ---
 UID: NS:ipsectypes.IPSEC_AUTH_TRANSFORM0_
 title: IPSEC_AUTH_TRANSFORM0 (ipsectypes.h)
-author: windows-sdk-content
+
 description: Specifies hash specific information for an SA transform.
 old-location: fwp\ipsec_auth_transform0_struct.htm
 tech.root: fwp
 ms.assetid: 26464393-7dc4-4a94-af46-25148c61bdb5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AUTH_TRANSFORM0, IPSEC_AUTH_TRANSFORM0 structure [Filtering], IPSEC_AUTH_TRANSFORM_ID_GCM_AES_128, IPSEC_AUTH_TRANSFORM_ID_GCM_AES_192, IPSEC_AUTH_TRANSFORM_ID_GCM_AES_256, IPSEC_AUTH_TRANSFORM_ID_HMAC_MD5_96, IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_1_96, IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_256_128, fwp.ipsec_auth_transform0_struct, ipsectypes/IPSEC_AUTH_TRANSFORM0
 ms.topic: struct

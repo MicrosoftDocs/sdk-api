@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetTextAlignment
 title: IDWriteTextFormat::GetTextAlignment (dwrite.h)
-author: windows-sdk-content
+
 description: Gets the alignment option of text relative to the layout box's leading and trailing edge.
 old-location: directwrite\IDWriteTextFormat_GetTextAlignment.htm
 tech.root: DirectWrite
 ms.assetid: 0b6d58d8-2ddb-4e60-95ac-27a1aeec7602
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTextAlignment, GetTextAlignment method [Direct Write], GetTextAlignment method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetTextAlignment method, IDWriteTextFormat.GetTextAlignment, IDWriteTextFormat::GetTextAlignment, directwrite.IDWriteTextFormat_GetTextAlignment, dwrite/IDWriteTextFormat::GetTextAlignment
 ms.topic: method

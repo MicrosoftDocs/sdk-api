@@ -1,7 +1,7 @@
 ---
 UID: NA:waasapitypes
 ms.assetid: b0ec18f2-94f2-3b83-a0a4-9363197a1c35
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetFormatFlags
 title: StringFormat::GetFormatFlags (gdiplusstringformat.h)
-author: windows-sdk-content
+
 description: The StringFormat::GetFormatFlags method gets the string format flags for this StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetFormatFlags_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getformatflags.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFormatFlags, GetFormatFlags method [GDI+], GetFormatFlags method [GDI+],StringFormat class, StringFormat class [GDI+],GetFormatFlags method, StringFormat.GetFormatFlags, StringFormat::GetFormatFlags, _gdiplus_CLASS_StringFormat_GetFormatFlags_, gdiplus._gdiplus_CLASS_StringFormat_GetFormatFlags_
 ms.topic: method

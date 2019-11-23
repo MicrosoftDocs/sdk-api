@@ -1,12 +1,12 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.BrokenConnection
 title: IWTSProtocolConnectionCallback::BrokenConnection (wtsprotocol.h)
-author: windows-sdk-content
+
 description: IWTSProtocolConnectionCallback::BrokenConnection is no longer available. Instead, use IWRdsProtocolConnectionCallback::BrokenConnection.
 old-location: termserv\iwtsprotocolconnectioncallback_brokenconnection.htm
 tech.root: TermServ
 ms.assetid: a5878289-9335-4b3b-b66a-4c168b868f87
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BrokenConnection, BrokenConnection method [Remote Desktop Services], BrokenConnection method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, IWTSProtocolConnectionCallback interface [Remote Desktop Services],BrokenConnection method, IWTSProtocolConnectionCallback.BrokenConnection, IWTSProtocolConnectionCallback::BrokenConnection, termserv.iwtsprotocolconnectioncallback_brokenconnection, wtsprotocol/IWTSProtocolConnectionCallback::BrokenConnection
 ms.topic: method

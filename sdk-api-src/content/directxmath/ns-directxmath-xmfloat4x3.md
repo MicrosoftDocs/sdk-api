@@ -1,12 +1,12 @@
 ---
 UID: NS:directxmath.XMFLOAT4X3
 title: XMFLOAT4X3 (directxmath.h)
-author: windows-sdk-content
+
 description: A 4*3 floating point matrix.
 old-location: dxmath\xmfloat4x3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT4X3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X3, XMFLOAT4X3 structure [DirectX Math Support APIs], directxmath/XMFLOAT4X3, dxmath.xmfloat4x3
 ms.topic: struct

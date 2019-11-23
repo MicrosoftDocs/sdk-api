@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.MFCreatePresentationDescriptor
 title: MFCreatePresentationDescriptor function (mfidl.h)
-author: windows-sdk-content
+
 description: Creates a presentation descriptor.
 old-location: mf\mfcreatepresentationdescriptor.htm
 tech.root: medfound
 ms.assetid: 288ab078-5490-41a2-a3b5-87a97aa57739
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 288ab078-5490-41a2-a3b5-87a97aa57739, MFCreatePresentationDescriptor, MFCreatePresentationDescriptor function [Media Foundation], mf.mfcreatepresentationdescriptor, mfidl/MFCreatePresentationDescriptor
 ms.topic: function

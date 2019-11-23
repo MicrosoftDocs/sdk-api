@@ -1,12 +1,12 @@
 ---
 UID: NE:mbnapi.MBN_VOICE_CALL_STATE
 title: MBN_VOICE_CALL_STATE (mbnapi.h)
-author: windows-sdk-content
+
 description: The MBN_VOICE_CALL_STATE enumerated type specifies the current voice call state of the device.
 old-location: mbn\mbn_voice_call_state.htm
 tech.root: mbn
 ms.assetid: 1b94b210-e50f-4d7b-a738-9c372364c4f8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MBN_VOICE_CALL_STATE, MBN_VOICE_CALL_STATE enumeration [Microsoft Broadband Networks], MBN_VOICE_CALL_STATE_HANGUP, MBN_VOICE_CALL_STATE_IN_PROGRESS, MBN_VOICE_CALL_STATE_NONE, mbn.mbn_voice_call_state, mbnapi/MBN_VOICE_CALL_STATE, mbnapi/MBN_VOICE_CALL_STATE_HANGUP, mbnapi/MBN_VOICE_CALL_STATE_IN_PROGRESS, mbnapi/MBN_VOICE_CALL_STATE_NONE
 ms.topic: enum

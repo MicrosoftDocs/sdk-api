@@ -1,12 +1,12 @@
 ---
 UID: NC:ntsecpkg.CrediUnmarshalandDecodeStringFn
 title: CrediUnmarshalandDecodeStringFn (ntsecpkg.h)
-author: windows-sdk-content
+
 description: Transforms a marshaled string back into its original form, and decrypts the unmarshaled string.
 old-location: security\crediunmarshalanddecodestring.htm
 tech.root: SecAuthN
 ms.assetid: 15423c8d-ea3b-4981-b059-5828555a9e89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CrediUnmarshalandDecodeString, CrediUnmarshalandDecodeString callback function [Security], CrediUnmarshalandDecodeStringFn, CrediUnmarshalandDecodeStringFn callback, ntsecpkg/CrediUnmarshalandDecodeString, security.crediunmarshalanddecodestring
 ms.topic: callback

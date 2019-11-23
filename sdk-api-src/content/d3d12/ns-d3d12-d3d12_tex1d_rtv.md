@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_TEX1D_RTV
 title: D3D12_TEX1D_RTV (d3d12.h)
-author: windows-sdk-content
+
 description: Describes the subresource from a 1D texture to use in a render-target view.
 old-location: direct3d12\d3d12_tex1d_rtv.htm
 tech.root: direct3d12
 ms.assetid: F675EC46-C747-4F05-8676-ECB8745F5064
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_TEX1D_RTV, D3D12_TEX1D_RTV structure, d3d12/D3D12_TEX1D_RTV, direct3d12.d3d12_tex1d_rtv
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:control.IVideoWindow.get_AutoShow
 title: IVideoWindow::get_AutoShow (control.h)
-author: windows-sdk-content
+
 description: The get_AutoShow method queries whether the video renderer automatically shows the video window when it receives video data.
 old-location: dshow\ivideowindow_get_autoshow.htm
 tech.root: DirectShow
 ms.assetid: 6f42e37d-af67-4f9e-8a02-d1f4154df391
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_AutoShow method, IVideoWindow.get_AutoShow, IVideoWindow::get_AutoShow, IVideoWindowget_AutoShow, control/IVideoWindow::get_AutoShow, dshow.ivideowindow_get_autoshow, get_AutoShow, get_AutoShow method [DirectShow], get_AutoShow method [DirectShow],IVideoWindow interface
 ms.topic: method

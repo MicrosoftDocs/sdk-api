@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IDataTransferManagerInterop
 title: IDataTransferManagerInterop (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Enables access to DataTransferManager methods in a Windows Store app that manages multiple windows.
 old-location: shell\idatatransfermanagerinterop.htm
 tech.root: shell
 ms.assetid: C4F49401-C863-4D3B-80EE-D36F714E7D90
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDataTransferManagerInterop, IDataTransferManagerInterop interface [Windows Shell], IDataTransferManagerInterop interface [Windows Shell],described, shell.idatatransfermanagerinterop, shobjidl_core/IDataTransferManagerInterop
 ms.topic: interface

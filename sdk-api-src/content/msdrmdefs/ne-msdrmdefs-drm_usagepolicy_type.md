@@ -1,12 +1,12 @@
 ---
 UID: NE:msdrmdefs._DRM_USAGEPOLICY_TYPE
 title: DRM_USAGEPOLICY_TYPE (msdrmdefs.h)
-author: windows-sdk-content
+
 description: Used with the DRMGetUsagePolicy and DRMSetUsagePolicy functions to specify a type of usage policy.
 old-location: rm\drm_usagepolicy_type.htm
 tech.root: AdRms_Sdk
 ms.assetid: b7486f70-36da-4868-9b50-caa37f7a7539
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DRM_USAGEPOLICY_TYPE, DRM_USAGEPOLICY_TYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRM_USAGEPOLICY_TYPE_BYDIGEST, DRM_USAGEPOLICY_TYPE_BYNAME, DRM_USAGEPOLICY_TYPE_BYPUBLICKEY, DRM_USAGEPOLICY_TYPE_OSEXCLUSION, msdrmdefs/DRM_USAGEPOLICY_TYPE, msdrmdefs/DRM_USAGEPOLICY_TYPE_BYDIGEST, msdrmdefs/DRM_USAGEPOLICY_TYPE_BYNAME, msdrmdefs/DRM_USAGEPOLICY_TYPE_BYPUBLICKEY, msdrmdefs/DRM_USAGEPOLICY_TYPE_OSEXCLUSION, rm.drm_usagepolicy_type
 ms.topic: enum

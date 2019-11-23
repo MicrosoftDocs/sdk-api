@@ -1,12 +1,12 @@
 ---
 UID: NF:msrdc.IRdcFileWriter.Write
 title: IRdcFileWriter::Write (msrdc.h)
-author: windows-sdk-content
+
 description: Write bytes to a file starting at a given offset.
 old-location: rdc\irdcfilewriter_write.htm
 tech.root: rdc
 ms.assetid: be7f3f2c-017a-4ca5-9652-a9b091c168be
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRdcFileWriter interface [Remote Differential Compression],Write method, IRdcFileWriter.Write, IRdcFileWriter::Write, Write, Write method [Remote Differential Compression], Write method [Remote Differential Compression],IRdcFileWriter interface, fs.irdcfilewriter_write, msrdc/IRdcFileWriter::Write, rdc.irdcfilewriter_write
 ms.topic: method

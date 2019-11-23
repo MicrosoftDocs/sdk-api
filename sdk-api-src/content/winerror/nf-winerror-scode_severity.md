@@ -1,12 +1,12 @@
 ---
 UID: NF:winerror.SCODE_SEVERITY
 title: SCODE_SEVERITY macro (winerror.h)
-author: windows-sdk-content
+
 description: Extracts the severity field of the specified SCODE.
 old-location: com\scode_severity_macro.htm
 tech.root: com
 ms.assetid: a1193f0c-e53e-4e63-b801-f1237bee29a1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SCODE_SEVERITY, SCODE_SEVERITY macro [COM], _com_SCODE_SEVERITY, com.scode_severity, com.scode_severity_macro, winerror/SCODE_SEVERITY
 ms.topic: macro

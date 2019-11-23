@@ -1,12 +1,12 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.SetBorderColor
 title: IVMRWindowlessControl9::SetBorderColor (vmr9.h)
-author: windows-sdk-content
+
 description: The SetBorderColor method sets the border color to be used by the VMR.
 old-location: dshow\ivmrwindowlesscontrol9_setbordercolor.htm
 tech.root: DirectShow
 ms.assetid: 462b264d-1b4c-482a-b154-382748abaf92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],SetBorderColor method, IVMRWindowlessControl9.SetBorderColor, IVMRWindowlessControl9::SetBorderColor, IVMRWindowlessControl9SetBorderColor, SetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_setbordercolor, vmr9/IVMRWindowlessControl9::SetBorderColor
 ms.topic: method

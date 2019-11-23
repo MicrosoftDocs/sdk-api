@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsFreeListener
 title: WsFreeListener function (webservices.h)
-author: windows-sdk-content
+
 description: Releases the memory resource associated with a Listener object.
 old-location: wsw\wsfreelistener.htm
 tech.root: wsw
 ms.assetid: 3a8a4cd3-d98e-467b-bbed-5cbd66f892ed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsFreeListener, WsFreeListener function [Web Services for Windows], webservices/WsFreeListener, wsw.wsfreelistener
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteFontCollection.FindFamilyName
 title: IDWriteFontCollection::FindFamilyName (dwrite.h)
-author: windows-sdk-content
+
 description: Finds the font family with the specified family name.
 old-location: directwrite\IDWriteFontCollection_FindFamilyName.htm
 tech.root: DirectWrite
 ms.assetid: 5537988f-aba0-4477-be01-72a5f8e66395
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FindFamilyName, FindFamilyName method [Direct Write], FindFamilyName method [Direct Write],IDWriteFontCollection interface, IDWriteFontCollection interface [Direct Write],FindFamilyName method, IDWriteFontCollection.FindFamilyName, IDWriteFontCollection::FindFamilyName, directwrite.IDWriteFontCollection_FindFamilyName, dwrite/IDWriteFontCollection::FindFamilyName
 ms.topic: method

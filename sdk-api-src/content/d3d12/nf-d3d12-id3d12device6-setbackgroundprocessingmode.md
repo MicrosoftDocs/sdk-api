@@ -1,10 +1,10 @@
 ---
 UID: NF:d3d12.ID3D12Device6.SetBackgroundProcessingMode
 title: ID3D12Device6::SetBackgroundProcessingMode
-author: windows-sdk-content
+
 description: Sets the mode for driver background processing optimizations.
 tech.root: direct3d12
-ms.author: windowssdkdev
+
 ms.date: 10/14/2019
 ms.keywords: ID3D12Device6 interface,SetBackgroundProcessingMode method, ID3D12Device6.SetBackgroundProcessingMode, ID3D12Device6::SetBackgroundProcessingMode, SetBackgroundProcessingMode, SetBackgroundProcessingMode method, SetBackgroundProcessingMode method,ID3D12Device6 interface, direct3d12.id3d12device6_setbackgroundprocessingmode, d3d12/ID3D12Device6::SetBackgroundProcessingMode
 ms.topic: method

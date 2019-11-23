@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.EnumerateRoots
 title: ISearchCrawlScopeManager::EnumerateRoots (searchapi.h)
-author: windows-sdk-content
+
 description: Returns an enumeration of all the roots of which this instance of the ISearchCrawlScopeManager is aware.
 old-location: search\_search_ISearchCrawlScopeManager_EnumerateRoots.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\enumerateroots.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumerateRoots, EnumerateRoots method [search], EnumerateRoots method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],EnumerateRoots method, ISearchCrawlScopeManager.EnumerateRoots, ISearchCrawlScopeManager::EnumerateRoots, _search_ISearchCrawlScopeManager_EnumerateRoots, search._search_ISearchCrawlScopeManager_EnumerateRoots, searchapi/ISearchCrawlScopeManager::EnumerateRoots
 ms.topic: method

@@ -1,7 +1,7 @@
 ---
 UID: NA:windows.data.pdf.interop
 ms.assetid: 584689b0-caef-3a3e-a2cd-e0301f0f679d
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

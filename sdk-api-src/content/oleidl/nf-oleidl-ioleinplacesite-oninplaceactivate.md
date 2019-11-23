@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnInPlaceActivate
 title: IOleInPlaceSite::OnInPlaceActivate (oleidl.h)
-author: windows-sdk-content
+
 description: Notifies the container that one of its objects is being activated in place.
 old-location: com\ioleinplacesite_oninplaceactivate.htm
 tech.root: com
 ms.assetid: e5744911-1ea6-4482-988d-8def16229f4c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnInPlaceActivate method, IOleInPlaceSite.OnInPlaceActivate, IOleInPlaceSite::OnInPlaceActivate, OnInPlaceActivate, OnInPlaceActivate method [COM], OnInPlaceActivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_oninplaceactivate, com.ioleinplacesite_oninplaceactivate, oleidl/IOleInPlaceSite::OnInPlaceActivate
 ms.topic: method

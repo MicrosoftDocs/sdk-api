@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmEnumInputContext
 title: ImmEnumInputContext function (imm.h)
-author: windows-sdk-content
+
 description: Retrieves the input context for the specified thread.
 old-location: intl\immenuminputcontext.htm
 tech.root: Intl
 ms.assetid: b066af9a-5bcc-468b-bc1b-79b549a9e55c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0, 1, ImmEnumInputContext, ImmEnumInputContext function [Internationalization for Windows Applications], Thread ID, _win32_ImmEnumInputContext, imm/ImmEnumInputContext, intl.immenuminputcontext
 ms.topic: function

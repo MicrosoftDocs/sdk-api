@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.IAVIStreaming.Begin
 title: IAVIStreaming::Begin (vfw.h)
-author: windows-sdk-content
+
 description: The Begin method prepares for the streaming operation. Called when an application uses the AVIStreamBeginStreaming function.
 old-location: multimedia\iavistreaming_begin.htm
 tech.root: Multimedia
 ms.assetid: 9bd76fc3-6c31-4e29-b482-82ee0a505656
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Windows Multimedia], Begin method [Windows Multimedia],IAVIStreaming interface, IAVIStreaming interface [Windows Multimedia],Begin method, IAVIStreaming.Begin, IAVIStreaming::Begin, _win32_IAVIStreaming_Begin, multimedia.iavistreaming_begin, vfw/IAVIStreaming::Begin
 ms.topic: method

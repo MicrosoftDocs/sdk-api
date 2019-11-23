@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IEnumVdsObject.Clone
 title: IEnumVdsObject::Clone (vds.h)
-author: windows-sdk-content
+
 description: Creates an enumeration with the same state as the current enumeration.
 old-location: base\ienumvdsobject_clone.htm
 tech.root: VDS
 ms.assetid: 9d547011-2200-43fc-a8de-9b90ba94c39e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [VDS], Clone method [VDS],IEnumVdsObject interface, IEnumVdsObject interface [VDS],Clone method, IEnumVdsObject.Clone, IEnumVdsObject::Clone, base.ienumvdsobject_clone, vds/IEnumVdsObject::Clone, vdshwprv/IEnumVdsObject::Clone
 ms.topic: method

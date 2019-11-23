@@ -1,12 +1,12 @@
 ---
 UID: NF:mi.MI_Operation_Close
 title: MI_Operation_Close function (mi.h)
-author: windows-sdk-content
+
 description: Closes an operation handle.
 old-location: wmi_v2\mi_operation_close.htm
 tech.root: wmi_v2
 ms.assetid: 3e698e34-d537-4ea4-9345-cc4f493ff823
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_Operation_Close, MI_Operation_Close function [Windows Management Infrastructure (MI)], mi/MI_Operation_Close, wmi_v2.mi_operation_close
 ms.topic: function

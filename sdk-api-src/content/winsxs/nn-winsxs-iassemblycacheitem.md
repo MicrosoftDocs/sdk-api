@@ -1,12 +1,12 @@
 ---
 UID: NN:winsxs.IAssemblyCacheItem
 title: IAssemblyCacheItem (winsxs.h)
-author: windows-sdk-content
+
 description: The IAssemblyCacheItem interface can be used to install side-by-side assemblies into the side-by-side store using a stream-based installation.
 old-location: setup\iassemblycacheitem.htm
 tech.root: SbsCs
 ms.assetid: 9df9ee58-0354-49f0-af9c-5b92179cfaea
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAssemblyCacheItem, IAssemblyCacheItem interface [Side-by-side Assemblies], IAssemblyCacheItem interface [Side-by-side Assemblies],described, setup.iassemblycacheitem, winsxs/IAssemblyCacheItem
 ms.topic: interface

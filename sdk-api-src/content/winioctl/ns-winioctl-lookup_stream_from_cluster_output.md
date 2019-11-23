@@ -1,12 +1,12 @@
 ---
 UID: NS:winioctl._LOOKUP_STREAM_FROM_CLUSTER_OUTPUT
 title: LOOKUP_STREAM_FROM_CLUSTER_OUTPUT
-author: windows-sdk-content
+
 description: Received as output from the FSCTL_LOOKUP_STREAM_FROM_CLUSTER control code.
 old-location: fs\lookup_stream_from_cluster_output.htm
 tech.root: FileIO
 ms.assetid: 1e9b99eb-93a8-4f0c-98ee-ca9f58466400
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PLOOKUP_STREAM_FROM_CLUSTER_OUTPUT, LOOKUP_STREAM_FROM_CLUSTER_OUTPUT, LOOKUP_STREAM_FROM_CLUSTER_OUTPUT structure [Files], PLOOKUP_STREAM_FROM_CLUSTER_OUTPUT, PLOOKUP_STREAM_FROM_CLUSTER_OUTPUT structure pointer [Files], fs.lookup_stream_from_cluster_output, winioctl/LOOKUP_STREAM_FROM_CLUSTER_OUTPUT, winioctl/PLOOKUP_STREAM_FROM_CLUSTER_OUTPUT"
 ms.topic: struct

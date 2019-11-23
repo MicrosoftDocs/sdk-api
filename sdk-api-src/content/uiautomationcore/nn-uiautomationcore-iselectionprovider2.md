@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationcore.ISelectionProvider2
 title: ISelectionProvider2 (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Extends the ISelectionItemProvider interface to provide information about selected items.
 old-location: winauto\uiauto_ISelectionProvider2.htm
 tech.root: WinAuto
 ms.assetid: 1FC0406D-6924-4C24-8491-E18BA33DAFEB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISelectionProvider2, ISelectionProvider2 interface [Windows Accessibility], ISelectionProvider2 interface [Windows Accessibility],described, uiautomationcore/ISelectionProvider2, winauto.uiauto_ISelectionProvider2
 ms.topic: interface

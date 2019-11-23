@@ -1,12 +1,12 @@
 ---
 UID: NF:winddi.EngDeleteFile
 title: EngDeleteFile function (winddi.h)
-author: windows-sdk-content
+
 description: The EngDeleteFile function deletes a file.
 old-location: display\engdeletefile.htm
 tech.root: display
 ms.assetid: 2ed030cf-6d26-4bde-8d63-83fd6848ec0d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EngDeleteFile, EngDeleteFile function [Display Devices], display.engdeletefile, gdifncs_58a3395d-8a58-4a8a-b034-5dadc2dfc161.xml, winddi/EngDeleteFile
 ms.topic: function

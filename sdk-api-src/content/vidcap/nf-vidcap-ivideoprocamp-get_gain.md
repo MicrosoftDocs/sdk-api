@@ -1,12 +1,12 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Gain
 title: IVideoProcAmp::get_Gain (vidcap.h)
-author: windows-sdk-content
+
 description: The get_Gain method returns the camera's gain setting.
 old-location: dshow\ivideoprocamp_get_gain.htm
 tech.root: DirectShow
 ms.assetid: 36d84db9-4a53-4087-b389-e707ed3d5572
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Gain method, IVideoProcAmp.get_Gain, IVideoProcAmp::get_Gain, IVideoProcAmpget_Gain, dshow.ivideoprocamp_get_gain, get_Gain, get_Gain method [DirectShow], get_Gain method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Gain
 ms.topic: method

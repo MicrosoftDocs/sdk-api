@@ -1,12 +1,12 @@
 ---
 UID: NN:wsdxml.IWSDXMLContext
 title: IWSDXMLContext (wsdxml.h)
-author: windows-sdk-content
+
 description: Is a collection of namespaces and types used in a WSDAPI stack.
 old-location: ncd\iwsdxmlcontext.htm
 tech.root: WsdApi
 ms.assetid: 131fa170-4c19-4a7b-82e0-e9677b7f767a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSDXMLContext, IWSDXMLContext interface, IWSDXMLContext interface,described, ncd.iwsdxmlcontext, wsdxml/IWSDXMLContext
 ms.topic: interface

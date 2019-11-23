@@ -1,12 +1,12 @@
 ---
 UID: NN:mmdeviceapi.IActivateAudioInterfaceCompletionHandler
 title: IActivateAudioInterfaceCompletionHandler (mmdeviceapi.h)
-author: windows-sdk-content
+
 description: Provides a callback to indicate that activation of a WASAPI interface is complete.
 old-location: coreaudio\iactivateaudiointerfacecompletionhandler.htm
 tech.root: CoreAudio
 ms.assetid: 04ff7cbb-fd33-40d9-9c11-4f716c6423b0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IActivateAudioInterfaceCompletionHandler, IActivateAudioInterfaceCompletionHandler interface [Core Audio], IActivateAudioInterfaceCompletionHandler interface [Core Audio],described, coreaudio.iactivateaudiointerfacecompletionhandler, mmdeviceapi/IActivateAudioInterfaceCompletionHandler
 ms.topic: interface

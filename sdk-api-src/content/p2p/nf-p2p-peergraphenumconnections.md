@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerGraphEnumConnections
 title: PeerGraphEnumConnections function (p2p.h)
-author: windows-sdk-content
+
 description: The PeerGraphEnumConnections function creates and returns an enumeration handle used to enumerate the connections of a local node.
 old-location: p2p\peergraphenumconnections.htm
 tech.root: P2PSdk
 ms.assetid: ef4ea3e2-fd71-48d8-a9a8-db38ef06df20
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerGraphEnumConnections, PeerGraphEnumConnections function [Peer Networking], p2p.peergraphenumconnections, p2p/PeerGraphEnumConnections
 ms.topic: function

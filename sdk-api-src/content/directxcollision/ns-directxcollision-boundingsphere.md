@@ -1,12 +1,12 @@
 ---
 UID: NS:directxcollision.BoundingSphere
 title: BoundingSphere
-author: windows-sdk-content
+
 description: A bounding sphere object.
 old-location: dxmath\boundingsphere.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.BoundingSphere
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere, BoundingSphere structure [DirectX Math Support APIs], directxcollision/BoundingSphere, dxmath.boundingsphere
 ms.topic: struct

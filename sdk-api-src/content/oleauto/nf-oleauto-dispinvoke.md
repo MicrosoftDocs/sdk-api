@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.DispInvoke
 title: DispInvoke function (oleauto.h)
-author: windows-sdk-content
+
 description: Automatically calls member functions on an interface, given the type information for the interface.
 old-location: automat\dispinvoke.htm
 tech.root: automat
 ms.assetid: 69b89e5c-2a04-4a6a-beb0-18e68f8866ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, DispInvoke, DispInvoke function [Automation], _oa96_DispInvoke, automat.dispinvoke, oleauto/DispInvoke
 ms.topic: function

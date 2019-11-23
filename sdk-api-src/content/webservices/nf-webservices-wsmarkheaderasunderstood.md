@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsMarkHeaderAsUnderstood
 title: WsMarkHeaderAsUnderstood function (webservices.h)
-author: windows-sdk-content
+
 description: This function marks a header as &#0034;understood&#0034; by the application.
 old-location: wsw\wsmarkheaderasunderstood.htm
 tech.root: wsw
 ms.assetid: f119f85a-f6a7-4472-8177-a2e23b6d12f9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsMarkHeaderAsUnderstood, WsMarkHeaderAsUnderstood function [Web Services for Windows], webservices/WsMarkHeaderAsUnderstood, wsw.wsmarkheaderasunderstood
 ms.topic: function

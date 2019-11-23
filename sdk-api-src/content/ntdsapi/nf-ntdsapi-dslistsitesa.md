@@ -1,12 +1,12 @@
 ---
 UID: NF:ntdsapi.DsListSitesA
 title: DsListSitesA function (ntdsapi.h)
-author: windows-sdk-content
+
 description: Lists all the sites in the enterprise forest.
 old-location: ad\dslistsites.htm
 tech.root: ad
 ms.assetid: d424e750-6700-42b8-9d4f-e430cd0a7e4e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DsListSites, DsListSites function [Active Directory], DsListSitesA, DsListSitesW, _glines_dslistsites, ad.dslistsites, ntdsapi/DsListSites, ntdsapi/DsListSitesA, ntdsapi/DsListSitesW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.LookupIconIdFromDirectoryEx
 title: LookupIconIdFromDirectoryEx function (winuser.h)
-author: windows-sdk-content
+
 description: Searches through icon or cursor data for the icon or cursor that best fits the current display device.
 old-location: menurc\lookupiconidfromdirectoryex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\lookupiconidfromdirectoryex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LR_DEFAULTCOLOR, LR_MONOCHROME, LookupIconIdFromDirectoryEx, LookupIconIdFromDirectoryEx function [Menus and Other Resources], _win32_LookupIconIdFromDirectoryEx, _win32_lookupiconidfromdirectoryex_cpp, menurc.lookupiconidfromdirectoryex, winui._win32_lookupiconidfromdirectoryex, winuser/LookupIconIdFromDirectoryEx
 ms.topic: function

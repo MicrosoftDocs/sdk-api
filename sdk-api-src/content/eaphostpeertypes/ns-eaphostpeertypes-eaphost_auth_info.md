@@ -1,12 +1,12 @@
 ---
 UID: NS:eaphostpeertypes._EAPHOST_AUTH_INFO
 title: EAPHOST_AUTH_INFO (eaphostpeertypes.h)
-author: windows-sdk-content
+
 description: Describes current authentication information throughout different stages of the EAP authentication process.
 old-location: eaphost\eaphost_auth_info.htm
 tech.root: eaphost
 ms.assetid: b05a1862-9709-4459-a445-5ea4e00cab88
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EAPHOST_AUTH_INFO, EAPHOST_AUTH_INFO structure [EAPHost], eaphost.eaphost_auth_info, eaphostpeertypes/EAPHOST_AUTH_INFO
 ms.topic: struct

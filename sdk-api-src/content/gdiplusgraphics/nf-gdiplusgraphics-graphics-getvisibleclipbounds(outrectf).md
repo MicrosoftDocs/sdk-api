@@ -3,7 +3,7 @@ UID: NF:gdiplusgraphics.Graphics.GetVisibleClipBounds(OUT RectF)
 title: Graphics::GetVisibleClipBounds
 description: The Graphics::GetVisibleClipBounds method gets a rectangle that encloses the visible clipping region of this Graphics object.
 ms.assetid: dda12bab-2ffc-4fca-9280-3bc88798fac2
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: Graphics::GetVisibleClipBounds
 ms.topic: language-reference

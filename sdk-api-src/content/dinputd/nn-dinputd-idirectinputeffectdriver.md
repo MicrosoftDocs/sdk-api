@@ -1,12 +1,12 @@
 ---
 UID: NN:dinputd.IDirectInputEffectDriver
 title: IDirectInputEffectDriver (dinputd.h)
-author: windows-sdk-content
+
 description: These three methods allow additional interfaces to be added to the DirectInputEffectDriver object without affecting the functionality of the original interface.
 old-location: hid\idirectinputeffectdriver.htm
 tech.root: hid
 ms.assetid: 8071dcc8-21e3-4157-827c-18e4f2abf303
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectInputEffectDriver, IDirectInputEffectDriver interface [Human Input Devices], IDirectInputEffectDriver interface [Human Input Devices],described, di_ref_298f3a98-21fc-407e-8a6a-a50249fe6a12.xml, dinputd/IDirectInputEffectDriver, hid.idirectinputeffectdriver
 ms.topic: interface

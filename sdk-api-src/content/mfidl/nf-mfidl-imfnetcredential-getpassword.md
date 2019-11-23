@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFNetCredential.GetPassword
 title: IMFNetCredential::GetPassword (mfidl.h)
-author: windows-sdk-content
+
 description: Retrieves the password.
 old-location: mf\imfnetcredential_getpassword.htm
 tech.root: medfound
 ms.assetid: ab7a4999-4a08-472c-bb7e-7068f2e2ac34
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPassword, GetPassword method [Media Foundation], GetPassword method [Media Foundation],IMFNetCredential interface, IMFNetCredential interface [Media Foundation],GetPassword method, IMFNetCredential.GetPassword, IMFNetCredential::GetPassword, ab7a4999-4a08-472c-bb7e-7068f2e2ac34, mf.imfnetcredential_getpassword, mfidl/IMFNetCredential::GetPassword
 ms.topic: method

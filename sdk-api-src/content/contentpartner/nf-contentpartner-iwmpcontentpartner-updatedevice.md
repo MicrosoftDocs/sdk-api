@@ -1,12 +1,12 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.UpdateDevice
 title: IWMPContentPartner::UpdateDevice (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_updatedevice.htm
 tech.root: WMP
 ms.assetid: 893beb65-048f-4496-88e6-b0e0b8db0205
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],UpdateDevice method, IWMPContentPartner.UpdateDevice, IWMPContentPartner::UpdateDevice, IWMPContentPartnerUpdateDevice, UpdateDevice, UpdateDevice method [Windows Media Player], UpdateDevice method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::UpdateDevice, wmp.iwmpcontentpartner_updatedevice
 ms.topic: method

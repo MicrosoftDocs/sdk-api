@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetTimeStampOffset
 title: IMFSourceBuffer::GetTimeStampOffset (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Gets the timestamp offset for media segments appended to the IMFSourceBuffer.
 old-location: mf\imfsourcebuffer_gettimestampoffset.htm
 tech.root: medfound
 ms.assetid: bb8a237b-2602-40ad-921e-3b76fbac3ea8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTimeStampOffset, GetTimeStampOffset method [Media Foundation], GetTimeStampOffset method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetTimeStampOffset method, IMFSourceBuffer.GetTimeStampOffset, IMFSourceBuffer::GetTimeStampOffset, mf.imfsourcebuffer_gettimestampoffset, mfmediaengine/IMFSourceBuffer::GetTimeStampOffset
 ms.topic: method

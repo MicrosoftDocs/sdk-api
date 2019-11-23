@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN const PointF,IN INT)
 title: Graphics::DrawImage(IN Image,IN const PointF,IN INT) (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::DrawImage method draws an image.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destPoints_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage_44imageimage_pointfdestpoints_intcount.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawImage, DrawImage method [GDI+], DrawImage method [GDI+],Graphics class, Graphics class [GDI+],DrawImage method, Graphics.DrawImage, Graphics.DrawImage(IN Image,IN const PointF,IN INT), Graphics.DrawImage(Image*,const PointF*,INT), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN const PointF,IN INT), _gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destPoints_INT_count_, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destPoints_INT_count_
 ms.topic: method

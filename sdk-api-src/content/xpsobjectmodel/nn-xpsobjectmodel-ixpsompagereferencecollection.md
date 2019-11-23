@@ -1,12 +1,12 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPageReferenceCollection
 title: IXpsOMPageReferenceCollection (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: A collection of IXpsOMPageReference interface pointers.
 old-location: xps\ixpsompagereferencecollection.htm
 tech.root: printdocs
 ms.assetid: 4b51bc29-c653-41fa-bbd3-9ff529f84e4e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReferenceCollection, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging], IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],described, xps.ixpsompagereferencecollection, xpsobjectmodel/IXpsOMPageReferenceCollection
 ms.topic: interface

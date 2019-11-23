@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfRange.Collapse
 title: ITfRange::Collapse (msctf.h)
-author: windows-sdk-content
+
 description: The ITfRange::Collapse method clears the range of text by moving its start anchor and end anchor to the same position.
 old-location: tsf\itfrange_collapse.htm
 tech.root: TSF
 ms.assetid: 657b1ffe-a958-4eb0-8014-6c068711b809
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Collapse, Collapse method [Text Services Framework], Collapse method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],Collapse method, ITfRange.Collapse, ITfRange::Collapse, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_collapse_ref, msctf/ITfRange::Collapse, tsf.itfrange_collapse
 ms.topic: method

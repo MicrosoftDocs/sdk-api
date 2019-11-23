@@ -1,12 +1,12 @@
 ---
 UID: NF:ntmsapi.OpenNtmsSessionA
 title: OpenNtmsSessionA function (ntmsapi.h)
-author: windows-sdk-content
+
 description: The OpenNtmsSession function sets up a session with a RSM server.
 old-location: fs\openntmssession.htm
 tech.root: Rsm
 ms.assetid: 5a323911-e99c-4f81-9580-0feac2f0a54e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: OpenNtmsSession, OpenNtmsSession function [Files], OpenNtmsSessionA, OpenNtmsSessionW, _zaw_openntmssession, base.openntmssession, fs.openntmssession, ntmsapi/OpenNtmsSession, ntmsapi/OpenNtmsSessionA, ntmsapi/OpenNtmsSessionW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NE:wsrm.eWINDOW_ADVANCE_METHOD
 title: eWINDOW_ADVANCE_METHOD (wsrm.h)
-author: windows-sdk-content
+
 description: The eWINDOW_ADVANCE_METHOD enumeration specifies the window advance mode used for Reliable Multicast.
 old-location: winsock\ewindow_advance_method.htm
 tech.root: WinSock
 ms.assetid: cd6f0809-ca6b-4a83-ae21-aea1cb4a101a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: E_WINDOW_ADVANCE_BY_TIME, E_WINDOW_USE_AS_DATA_CACHE, eWINDOW_ADVANCE_METHOD, eWINDOW_ADVANCE_METHOD enumeration [Winsock], winsock.ewindow_advance_method, wsrm/E_WINDOW_ADVANCE_BY_TIME, wsrm/E_WINDOW_USE_AS_DATA_CACHE, wsrm/eWINDOW_ADVANCE_METHOD
 ms.topic: enum

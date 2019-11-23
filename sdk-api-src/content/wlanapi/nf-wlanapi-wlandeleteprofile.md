@@ -1,12 +1,12 @@
 ---
 UID: NF:wlanapi.WlanDeleteProfile
 title: WlanDeleteProfile function (wlanapi.h)
-author: windows-sdk-content
+
 description: Deletes a wireless profile for a wireless interface on the local computer.
 old-location: nwifi\wlandeleteprofile.htm
 tech.root: NativeWiFi
 ms.assetid: 2d1152ad-8106-4b8f-9856-9e6e36daa063
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WlanDeleteProfile, WlanDeleteProfile function [NativeWIFI], nwifi.wlandeleteprofile, wlanapi/WlanDeleteProfile
 ms.topic: function

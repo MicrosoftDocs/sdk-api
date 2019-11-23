@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.midiOutMessage
 title: midiOutMessage function (mmeapi.h)
-author: windows-sdk-content
+
 description: The midiOutMessage function sends a message to the MIDI device drivers. This function is used only for driver-specific messages that are not supported by the MIDI API.
 old-location: multimedia\midioutmessage.htm
 tech.root: Multimedia
 ms.assetid: bbc37692-ed85-4ac0-9b7c-4ea64a3d21a8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiOutMessage, midiOutMessage, midiOutMessage function [Windows Multimedia], mmeapi/midiOutMessage, multimedia.midioutmessage"
 ms.topic: function

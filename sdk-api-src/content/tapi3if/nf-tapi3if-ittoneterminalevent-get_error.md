@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITToneTerminalEvent.get_Error
 title: ITToneTerminalEvent::get_Error (tapi3if.h)
-author: windows-sdk-content
+
 description: The get_Error method returns an HRESULT cast of the error code involved in the event.
 old-location: tapi3\ittoneterminalevent_get_error.htm
 tech.root: Tapi
 ms.assetid: f91497b0-b340-4eb9-8d9f-364991343c3b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITToneTerminalEvent interface [TAPI 2.2],get_Error method, ITToneTerminalEvent.get_Error, ITToneTerminalEvent::get_Error, _tapi3_ittoneterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITToneTerminalEvent interface, tapi3.ittoneterminalevent_get_error, tapi3if/ITToneTerminalEvent::get_Error
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFOutputSchema.GetSchemaType
 title: IMFOutputSchema::GetSchemaType (mfidl.h)
-author: windows-sdk-content
+
 description: Retrieves the output protection system that is represented by this object. Output protection systems are identified by GUID value.
 old-location: mf\imfoutputschema_getschematype.htm
 tech.root: medfound
 ms.assetid: 6015e636-f1ea-4f4a-85d5-e8e896a0ec3c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 6015e636-f1ea-4f4a-85d5-e8e896a0ec3c, GetSchemaType, GetSchemaType method [Media Foundation], GetSchemaType method [Media Foundation],IMFOutputSchema interface, IMFOutputSchema interface [Media Foundation],GetSchemaType method, IMFOutputSchema.GetSchemaType, IMFOutputSchema::GetSchemaType, mf.imfoutputschema_getschematype, mfidl/IMFOutputSchema::GetSchemaType
 ms.topic: method

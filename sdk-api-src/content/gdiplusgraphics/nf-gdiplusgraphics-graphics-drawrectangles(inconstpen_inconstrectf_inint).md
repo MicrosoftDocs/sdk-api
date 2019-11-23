@@ -3,7 +3,7 @@ UID: NF:gdiplusgraphics.Graphics.DrawRectangles(IN const Pen,IN const RectF,IN I
 title: Graphics::DrawRectangles
 description: The Graphics::DrawRectangles method draws a sequence of rectangles.
 ms.assetid: d8a6725b-6382-48a4-b83b-0a61614af6c9
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawRectangles
 ms.topic: language-reference

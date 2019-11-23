@@ -1,12 +1,12 @@
 ---
 UID: NN:propsys.IObjectWithPropertyKey
 title: IObjectWithPropertyKey (propsys.h)
-author: windows-sdk-content
+
 description: Exposes methods for getting and setting the property key.
 old-location: shell\IObjectWithPropertyKey.htm
 tech.root: shell
 ms.assetid: 238c3e39-62ba-4e97-9a15-19ad2e2d12e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IObjectWithPropertyKey, IObjectWithPropertyKey interface [Windows Shell], IObjectWithPropertyKey interface [Windows Shell],described, _shell_IObjectWithPropertyKey, propsys/IObjectWithPropertyKey, shell.IObjectWithPropertyKey
 ms.topic: interface

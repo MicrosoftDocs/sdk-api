@@ -1,12 +1,12 @@
 ---
 UID: NF:sensorsapi.ISensorCollection.GetCount
 title: ISensorCollection::GetCount (sensorsapi.h)
-author: windows-sdk-content
+
 description: Retrieves the count of sensors in the collection.
 old-location: winsensors_com_ref\isensorcollection_getcount.htm
 tech.root: SensorsAPI
 ms.assetid: 40bcf993-55fb-4d75-91dc-44d770a0e226
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method, GetCount method,ISensorCollection interface, ISensorCollection interface,GetCount method, ISensorCollection.GetCount, ISensorCollection::GetCount, sensorsapi/ISensorCollection::GetCount, winsensors_com_ref.isensorcollection_getcount
 ms.topic: method

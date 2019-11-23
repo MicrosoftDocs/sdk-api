@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarCyNeg
 title: VarCyNeg function (oleauto.h)
-author: windows-sdk-content
+
 description: Performs a logical negation on a variant of type currency.
 old-location: automat\varcyneg.htm
 tech.root: automat
 ms.assetid: cbd9711b-45f4-4917-84ec-22ee5438579f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarCyNeg, VarCyNeg function [Automation], _oa96_VarCyNeg, automat.varcyneg, oleauto/VarCyNeg
 ms.topic: function

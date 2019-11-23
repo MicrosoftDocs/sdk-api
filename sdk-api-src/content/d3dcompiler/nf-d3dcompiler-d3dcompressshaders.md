@@ -1,12 +1,12 @@
 ---
 UID: NF:d3dcompiler.D3DCompressShaders
 title: D3DCompressShaders function (d3dcompiler.h)
-author: windows-sdk-content
+
 description: Compresses a set of shaders into a more compact form.
 old-location: direct3dhlsl\d3dcompressshaders.htm
 tech.root: direct3dhlsl
 ms.assetid: e53a0d36-3cd4-4327-8969-6a864b38a15b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3DCompressShaders, D3DCompressShaders function [HLSL], d3dcompiler/D3DCompressShaders, direct3dhlsl.d3dcompressshaders
 ms.topic: function

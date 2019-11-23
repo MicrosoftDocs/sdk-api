@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMBYTEN4.XMBYTEN4(int8_t,int8_t,int8_t,int8_t)
 title: XMBYTEN4::XMBYTEN4(int8_t,int8_t,int8_t,int8_t) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMBYTEN4 from four int8_t arguments.
 old-location: dxmath\xmbyten4_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTEN4.#ctor(int8_t,int8_t,int8_t,int8_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMBYTEN4, XMBYTEN4 constructor [DirectX Math Support APIs], XMBYTEN4 constructor [DirectX Math Support APIs],XMBYTEN4 structure, XMBYTEN4 structure [DirectX Math Support APIs],XMBYTEN4 constructor, XMBYTEN4.XMBYTEN4, XMBYTEN4.XMBYTEN4(int8_t,int8_t,int8_t,int8_t), XMBYTEN4::XMBYTEN4, XMBYTEN4::XMBYTEN4(int8_t,int8_t,int8_t,int8_t), dxmath.xmbyten4_ctor_3
 ms.topic: method

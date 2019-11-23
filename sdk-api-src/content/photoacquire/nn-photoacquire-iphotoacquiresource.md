@@ -1,12 +1,12 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireSource
 title: IPhotoAcquireSource (photoacquire.h)
-author: windows-sdk-content
+
 description: The IPhotoAcquireSource interface is used for acquisition of items from a device.
 old-location: picacq\iphotoacquiresource.htm
 tech.root: acquisition
 ms.assetid: 6671d550-8c12-40e3-bf6f-33203e69cff0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSource, IPhotoAcquireSource interface [Picture Acquisition], IPhotoAcquireSource interface [Picture Acquisition],described, IPhotoAcquireSourceInterface, photoacquire/IPhotoAcquireSource, picacq.iphotoacquiresource
 ms.topic: interface

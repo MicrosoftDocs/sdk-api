@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.CD3D11_RECT.~CD3D11_RECT
 title: CD3D11_RECT::~CD3D11_RECT (d3d11.h)
-author: windows-sdk-content
+
 description: Destroys an instance of a CD3D11_RECT structure.
 old-location: direct3d11\cd3d11_rect_cd3d11_rect_destructor.htm
 tech.root: direct3d11
 ms.assetid: CB9E906F-86AB-4099-B067-C0D545F5B076
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RECT interface [Direct3D 11],~CD3D11_RECT destructor, CD3D11_RECT.~CD3D11_RECT, CD3D11_RECT::~CD3D11_RECT, CD3D11_RECT::~CD3D11_RECT(), d3d11/CD3D11_RECT::~CD3D11_RECT, direct3d11.cd3d11_rect_cd3d11_rect_destructor, ~CD3D11_RECT, ~CD3D11_RECT destructor [Direct3D 11], ~CD3D11_RECT destructor [Direct3D 11],CD3D11_RECT interface
 ms.topic: method

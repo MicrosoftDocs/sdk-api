@@ -1,12 +1,12 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ServiceDeleted
 title: IGuideDataEvent::ServiceDeleted (bdatif.h)
-author: windows-sdk-content
+
 description: The ServiceDeleted method is called when a service has been deleted.
 old-location: mstv\iguidedataevent_servicedeleted.htm
 tech.root: mstv
 ms.assetid: bba15ebe-d1c5-4c71-b052-6b75a7825613
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ServiceDeleted method, IGuideDataEvent.ServiceDeleted, IGuideDataEvent::ServiceDeleted, IGuideDataEventServiceDeleted, ServiceDeleted, ServiceDeleted method [Microsoft TV Technologies], ServiceDeleted method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ServiceDeleted, mstv.iguidedataevent_servicedeleted
 ms.topic: method

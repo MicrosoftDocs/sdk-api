@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluspen.Pen.SetStartCap
 title: Pen::SetStartCap (gdipluspen.h)
-author: windows-sdk-content
+
 description: The Pen::SetStartCap method sets the start cap for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetStartCap_startCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setstartcap.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetStartCap method, Pen.SetStartCap, Pen::SetStartCap, SetStartCap, SetStartCap method [GDI+], SetStartCap method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetStartCap_startCap_, gdiplus._gdiplus_CLASS_Pen_SetStartCap_startCap_
 ms.topic: method

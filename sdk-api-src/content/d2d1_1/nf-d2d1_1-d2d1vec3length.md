@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1.D2D1Vec3Length
 title: D2D1Vec3Length function (d2d1_1.h)
-author: windows-sdk-content
+
 description: Returns the length of a 3 dimensional vector.
 old-location: direct2d\d2d1vec3length.htm
 tech.root: Direct2D
 ms.assetid: 0E305151-63EA-4865-B9C4-5F685D17FD5A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1Vec3Length, D2D1Vec3Length function [Direct2D], d2d1_1/D2D1Vec3Length, direct2d.d2d1vec3length
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NC:routprot.PGET_NEIGHBORS
 title: PGET_NEIGHBORS (routprot.h)
-author: windows-sdk-content
+
 description: The router manager calls the GetNeighbors function to obtain the querier for the network attached through the specified interface.
 old-location: rras\getneighbors.htm
 tech.root: RRAS
 ms.assetid: 31a28a43-3cfd-4d3c-813e-8f8289d99712
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNeighbors, GetNeighbors callback function [RAS], PGET_NEIGHBORS, PGET_NEIGHBORS callback, _mpr_getneighbors, routprot/GetNeighbors, rras.getneighbors
 ms.topic: callback

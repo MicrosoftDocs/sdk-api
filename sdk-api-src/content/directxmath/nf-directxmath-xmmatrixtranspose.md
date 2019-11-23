@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMMatrixTranspose
 title: XMMatrixTranspose function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the transpose of a matrix.
 old-location: dxmath\xmmatrixtranspose.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixTranspose(XMMATRIX)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixTranspose, XMMatrixTranspose, XMMatrixTranspose method [DirectX Math Support APIs], dxmath.xmmatrixtranspose
 ms.topic: function

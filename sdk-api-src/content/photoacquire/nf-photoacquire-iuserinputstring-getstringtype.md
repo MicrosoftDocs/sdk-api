@@ -1,12 +1,12 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetStringType
 title: IUserInputString::GetStringType (photoacquire.h)
-author: windows-sdk-content
+
 description: The GetStringType method retrieves a value indicating the type of string to obtain from the user.
 old-location: picacq\iuserinputstring_getstringtype.htm
 tech.root: acquisition
 ms.assetid: 57f0c750-9c66-4c30-adc1-0cfd23d878d1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetStringType, GetStringType method [Picture Acquisition], GetStringType method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetStringType method, IUserInputString.GetStringType, IUserInputString::GetStringType, IUserInputStringGetStringType, photoacquire/IUserInputString::GetStringType, picacq.iuserinputstring_getstringtype
 ms.topic: method

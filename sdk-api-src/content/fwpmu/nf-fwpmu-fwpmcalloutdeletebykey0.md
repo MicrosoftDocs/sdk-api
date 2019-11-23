@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmCalloutDeleteByKey0
 title: FwpmCalloutDeleteByKey0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Removes a callout object from the system.
 old-location: fwp\fwpmcalloutdeletebykey0_func.htm
 tech.root: fwp
 ms.assetid: b80b7d24-e126-4a8e-bb6d-d74b3f4ad07b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutDeleteByKey0, FwpmCalloutDeleteByKey0 function [Filtering], fwp.fwpmcalloutdeletebykey0_func, fwpmu/FwpmCalloutDeleteByKey0
 ms.topic: function

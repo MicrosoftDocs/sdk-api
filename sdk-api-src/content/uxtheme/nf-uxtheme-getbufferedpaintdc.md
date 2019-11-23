@@ -1,12 +1,12 @@
 ---
 UID: NF:uxtheme.GetBufferedPaintDC
 title: GetBufferedPaintDC function (uxtheme.h)
-author: windows-sdk-content
+
 description: Gets the paint device context (DC). This is the same value retrieved by BeginBufferedPaint.
 old-location: controls\GetBufferedPaintDC.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpaintdc.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBufferedPaintDC, GetBufferedPaintDC function [Windows Controls], _shell_GetBufferedPaintDC, _shell_GetBufferedPaintDC_cpp, controls.GetBufferedPaintDC, controls._shell_GetBufferedPaintDC, uxtheme/GetBufferedPaintDC
 ms.topic: function

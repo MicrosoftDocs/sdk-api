@@ -1,12 +1,12 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnections.GetInputConnector
 title: IMILBitmapEffectConnections::GetInputConnector (mileffects.h)
-author: windows-sdk-content
+
 description: Retrieves the input connector associated with the given pin index.
 old-location: wibe\_wibe_imilbitmapeffectconnections_getinputconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnections\getinputconnector.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInputConnector, GetInputConnector method [WPF Bitmap Effects], GetInputConnector method [WPF Bitmap Effects],IMILBitmapEffectConnections interface, IMILBitmapEffectConnections interface [WPF Bitmap Effects],GetInputConnector method, IMILBitmapEffectConnections.GetInputConnector, IMILBitmapEffectConnections::GetInputConnector, _wibe_imilbitmapeffectconnections_getinputconnector, mileffects/IMILBitmapEffectConnections::GetInputConnector, wibe._wibe_imilbitmapeffectconnections_getinputconnector
 ms.topic: method

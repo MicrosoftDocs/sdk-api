@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IAMBufferNegotiation
 title: IAMBufferNegotiation (strmif.h)
-author: windows-sdk-content
+
 description: The IAMBufferNegotiation interface requests the number of buffers for a filter to create and size of each buffer.
 old-location: dshow\iambuffernegotiation.htm
 tech.root: DirectShow
 ms.assetid: 68e98afd-3275-49bb-b165-48ed40026e76
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMBufferNegotiation, IAMBufferNegotiation interface [DirectShow], IAMBufferNegotiation interface [DirectShow],described, IAMBufferNegotiationInterface, dshow.iambuffernegotiation, strmif/IAMBufferNegotiation
 ms.topic: interface

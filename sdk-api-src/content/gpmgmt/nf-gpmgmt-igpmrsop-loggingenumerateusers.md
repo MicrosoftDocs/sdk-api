@@ -1,12 +1,12 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.LoggingEnumerateUsers
 title: IGPMRSOP::LoggingEnumerateUsers (gpmgmt.h)
-author: windows-sdk-content
+
 description: Enumerates all users who have logging mode data on a specific computer.
 old-location: gpmc\igpmrsop_loggingenumerateusers.htm
 tech.root: gpmc
 ms.assetid: 7cc794e6-1a8d-4e31-9bea-4ebc4cf51602
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GPMRSOP class [GPMC],LoggingEnumerateUsers method, IGPMRSOP interface [GPMC],LoggingEnumerateUsers method, IGPMRSOP.LoggingEnumerateUsers, IGPMRSOP::LoggingEnumerateUsers, LoggingEnumerateUsers, LoggingEnumerateUsers method [GPMC], LoggingEnumerateUsers method [GPMC],GPMRSOP class, LoggingEnumerateUsers method [GPMC],IGPMRSOP interface, _win32_igpmrsop_loggingenumerateusers, gpmc.igpmrsop_loggingenumerateusers, gpmgmt/IGPMRSOP::LoggingEnumerateUsers
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.GetObjectName
 title: IWMDMOperation::GetObjectName (mswmdm.h)
-author: windows-sdk-content
+
 description: Windows Media Device Manager calls GetObjectName before an object is written to the device in order to know what it should be named on the device.
 old-location: wmdm\iwmdmoperation_getobjectname.htm
 tech.root: WMDM
 ms.assetid: e66882ec-2fcf-44c7-b78a-a3b55d9e9ec4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetObjectName, GetObjectName method [windows Media Device Manager], GetObjectName method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],GetObjectName method, IWMDMOperation.GetObjectName, IWMDMOperation::GetObjectName, IWMDMOperationGetObjectName, mswmdm/IWMDMOperation::GetObjectName, wmdm.iwmdmoperation_getobjectname
 ms.topic: method

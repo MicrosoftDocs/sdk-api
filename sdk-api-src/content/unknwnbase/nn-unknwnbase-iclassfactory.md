@@ -1,12 +1,12 @@
 ---
 UID: NN:unknwnbase.IClassFactory
 title: IClassFactory (unknwnbase.h)
-author: windows-sdk-content
+
 description: Enables a class of objects to be created.
 old-location: com\iclassfactory.htm
 tech.root: com
 ms.assetid: f624f833-2b69-43bc-92cd-c4ecbe6051c5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IClassFactory, IClassFactory interface [COM], IClassFactory interface [COM],described, _com_iclassfactory, com.iclassfactory, unknwnbase/IClassFactory
 ms.topic: interface

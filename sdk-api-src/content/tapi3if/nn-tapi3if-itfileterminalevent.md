@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3if.ITFileTerminalEvent
 title: ITFileTerminalEvent (tapi3if.h)
-author: windows-sdk-content
+
 description: The ITFileTerminalEvent interface contains methods that retrieve the description of file terminal events that have occurred.
 old-location: tapi3\itfileterminalevent.htm
 tech.root: Tapi
 ms.assetid: cb6f2869-ec31-49ac-873b-35a0dcd2c8d7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITFileTerminalEvent, ITFileTerminalEvent interface [TAPI 2.2], ITFileTerminalEvent interface [TAPI 2.2],described, _tapi3_itfileterminalevent, tapi3.itfileterminalevent, tapi3if/ITFileTerminalEvent
 ms.topic: interface

@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFamily2.GetMatchingFonts
 title: IDWriteFontFamily2::GetMatchingFonts
-author: windows-sdk-content
+
 description: Retrieves a list of fonts in the font family, ranked in order of how well they match the specified axis values.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontFamily2 interface [Direct Write],GetMatchingFonts method, IDWriteFontFamily2.GetMatchingFonts, IDWriteFontFamily2::GetMatchingFonts, GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontFamily2 interface, directwrite.idwritefontfamily2_getmatchingfont, dwrite_3/IDWriteFontFamily2::GetMatchingFonts
 ms.topic: method

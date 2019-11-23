@@ -1,7 +1,7 @@
 ---
 UID: NA:wintrust
 ms.assetid: de0d201d-2eb7-3873-a003-d104b3cc7f57
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

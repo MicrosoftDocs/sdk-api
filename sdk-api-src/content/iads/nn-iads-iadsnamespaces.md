@@ -1,12 +1,12 @@
 ---
 UID: NN:iads.IADsNamespaces
 title: IADsNamespaces (iads.h)
-author: windows-sdk-content
+
 description: The IADsNamespaces interface is implemented by the ADs provider and is used for managing namespace objects.
 old-location: adsi\iadsnamespaces.htm
 tech.root: adsi
 ms.assetid: edac671e-9ab1-4211-9fd7-1a0b965196b4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IADsNamespaces, IADsNamespaces interface [ADSI], IADsNamespaces interface [ADSI],described, _ds_iadsnamespaces, adsi.iadsnamespaces, iads/IADsNamespaces
 ms.topic: interface

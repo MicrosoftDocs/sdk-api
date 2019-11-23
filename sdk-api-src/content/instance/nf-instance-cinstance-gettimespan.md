@@ -1,12 +1,12 @@
 ---
 UID: NF:instance.CInstance.GetTimeSpan
 title: CInstance::GetTimeSpan (instance.h)
-author: windows-sdk-content
+
 description: The GetTimeSpan method retrieves a property that represents a WMI time span.
 old-location: wmi\cinstance_gettimespan.htm
 tech.root: WmiSdk
 ms.assetid: b14c7a62-579b-4a96-b018-c62918c9c35e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetTimeSpan method, CInstance.GetTimeSpan, CInstance::GetTimeSpan, GetTimeSpan, GetTimeSpan method [Windows Management Instrumentation], GetTimeSpan method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_gettimespan, instance/CInstance::GetTimeSpan, wmi.cinstance_gettimespan
 ms.topic: method

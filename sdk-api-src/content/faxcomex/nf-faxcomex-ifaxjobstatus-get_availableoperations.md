@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_AvailableOperations
 title: IFaxJobStatus::get_AvailableOperations (faxcomex.h)
-author: windows-sdk-content
+
 description: The AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_availableoperations_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1xwz.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],IFaxJobStatus interface, IFaxJobStatus interface [Fax Service],AvailableOperations property, IFaxJobStatus.AvailableOperations, IFaxJobStatus.get_AvailableOperations, IFaxJobStatus::AvailableOperations, IFaxJobStatus::get_AvailableOperations, _mfax_faxjobstatus.availableoperations, fax._mfax_faxjobstatus_availableoperations, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_availableoperations_cpp, faxcomex/IFaxJobStatus::AvailableOperations, faxcomex/IFaxJobStatus::get_AvailableOperations, get_AvailableOperations
 ms.topic: method

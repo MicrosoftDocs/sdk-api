@@ -1,12 +1,12 @@
 ---
 UID: NE:inked.MouseButton
 title: MouseButton (inked.h)
-author: windows-sdk-content
+
 description: Specifies which mouse button was pressed.
 old-location: tablet\mousebutton.htm
 tech.root: tablet
 ms.assetid: cfcbee55-3489-44da-a726-71dc615fa7f5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LEFT_BUTTON, MIDDLE_BUTTON, MouseButton, MouseButton enumeration [Tablet PC], NO_BUTTON, RIGHT_BUTTON, cfcbee55-3489-44da-a726-71dc615fa7f5, inked/LEFT_BUTTON, inked/MIDDLE_BUTTON, inked/MouseButton, inked/NO_BUTTON, inked/RIGHT_BUTTON, tablet.mousebutton
 ms.topic: enum

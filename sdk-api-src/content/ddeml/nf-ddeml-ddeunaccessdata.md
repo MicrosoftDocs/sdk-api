@@ -1,12 +1,12 @@
 ---
 UID: NF:ddeml.DdeUnaccessData
 title: DdeUnaccessData function (ddeml.h)
-author: windows-sdk-content
+
 description: Unaccesses a Dynamic Data Exchange (DDE) object. An application must call this function after it has finished accessing the object.
 old-location: dataxchg\ddeunaccessdata.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeunaccessdata.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DdeUnaccessData, DdeUnaccessData function [Data Exchange], _win32_DdeUnaccessData, _win32_ddeunaccessdata_cpp, dataxchg.ddeunaccessdata, ddeml/DdeUnaccessData, winui._win32_ddeunaccessdata
 ms.topic: function

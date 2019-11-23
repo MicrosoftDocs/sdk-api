@@ -1,12 +1,12 @@
 ---
 UID: NN:mswmdm.IWMDeviceManager3
 title: IWMDeviceManager3 (mswmdm.h)
-author: windows-sdk-content
+
 description: The IWMDeviceManager3 interface extends the IWMDeviceManager2 interface by providing a method that sets the device enumeration preferences.
 old-location: wmdm\iwmdevicemanager3.htm
 tech.root: WMDM
 ms.assetid: 728f7e2f-7198-49e1-b6d9-0ac24a0b56e6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceManager3, IWMDeviceManager3 interface [windows Media Device Manager], IWMDeviceManager3 interface [windows Media Device Manager],described, IWMDeviceManager3Interface, mswmdm/IWMDeviceManager3, wmdm.iwmdevicemanager3
 ms.topic: interface

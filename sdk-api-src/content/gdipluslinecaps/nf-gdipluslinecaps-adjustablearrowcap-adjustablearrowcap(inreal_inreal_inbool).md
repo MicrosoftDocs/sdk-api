@@ -1,12 +1,12 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.AdjustableArrowCap(IN REAL,IN REAL,IN BOOL)
 title: AdjustableArrowCap::AdjustableArrowCap(IN REAL,IN REAL,IN BOOL) (gdipluslinecaps.h)
-author: windows-sdk-content
+
 description: Creates an adjustable arrow line cap with the specified height and width. The arrow line cap can be filled or nonfilled. The middle inset defaults to zero.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_height_width_isFilled_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcap_91height_width_isfilled.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap, AdjustableArrowCap class [GDI+],AdjustableArrowCap constructor, AdjustableArrowCap constructor [GDI+], AdjustableArrowCap constructor [GDI+],AdjustableArrowCap class, AdjustableArrowCap.AdjustableArrowCap, AdjustableArrowCap.AdjustableArrowCap(IN REAL,IN REAL,IN BOOL), AdjustableArrowCap::AdjustableArrowCap, AdjustableArrowCap::AdjustableArrowCap(IN REAL,IN REAL,IN BOOL), _gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_height_width_isFilled_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_AdjustableArrowCap_height_width_isFilled_
 ms.topic: method

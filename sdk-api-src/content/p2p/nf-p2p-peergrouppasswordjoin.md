@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerGroupPasswordJoin
 title: PeerGroupPasswordJoin function (p2p.h)
-author: windows-sdk-content
+
 description: Prepares a peer with an invitation and the correct password to join a password-protected peer group prior to calling PeerGroupConnect or PeerGroupConnectByAddress.
 old-location: p2p\peergrouppasswordjoin.htm
 tech.root: P2PSdk
 ms.assetid: aff8a462-a4cf-462b-a641-b1573311037b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerGroupPasswordJoin, PeerGroupPasswordJoin function [Peer Networking], p2p.peergrouppasswordjoin, p2p/PeerGroupPasswordJoin
 ms.topic: function

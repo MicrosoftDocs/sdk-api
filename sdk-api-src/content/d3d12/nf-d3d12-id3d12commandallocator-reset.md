@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12CommandAllocator.Reset
 title: ID3D12CommandAllocator::Reset (d3d12.h)
-author: windows-sdk-content
+
 description: Indicates to re-use the memory that is associated with the command allocator.
 old-location: direct3d12\id3d12commandallocator_reset.htm
 tech.root: direct3d12
 ms.assetid: B7477767-9110-45DE-962F-E56FDB635D17
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandAllocator interface,Reset method, ID3D12CommandAllocator.Reset, ID3D12CommandAllocator::Reset, Reset, Reset method, Reset method,ID3D12CommandAllocator interface, d3d12/ID3D12CommandAllocator::Reset, direct3d12.id3d12commandallocator_reset
 ms.topic: method

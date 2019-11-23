@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreRenameItem
 title: IFileOperationProgressSink::PreRenameItem (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Performs caller-implemented actions before the rename process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreRenameItem.htm
 tech.root: shell
 ms.assetid: 444fe15b-cbed-46d8-ae25-ab6a569d18e0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreRenameItem method, IFileOperationProgressSink.PreRenameItem, IFileOperationProgressSink::PreRenameItem, PreRenameItem, PreRenameItem method [Windows Shell], PreRenameItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreRenameItem, shell.IFileOperationProgressSink_PreRenameItem, shobjidl_core/IFileOperationProgressSink::PreRenameItem
 ms.topic: method

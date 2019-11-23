@@ -1,12 +1,12 @@
 ---
 UID: NS:mmc._SNodeID
 title: SNodeID (mmc.h)
-author: windows-sdk-content
+
 description: The SNodeID structure is introduced in MMC 1.1, and is replaced by the SNodeID2 structure in MMC 1.2.
 old-location: mmc\snodeid.htm
 tech.root: mmc
 ms.assetid: aeaee0d8-7abf-4549-b184-326ab130fcb7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SNodeID, SNodeID structure [MMC], _slate_snodeid, mmc.snodeid, mmc/SNodeID
 ms.topic: struct

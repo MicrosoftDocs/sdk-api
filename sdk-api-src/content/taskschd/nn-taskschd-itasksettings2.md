@@ -1,12 +1,12 @@
 ---
 UID: NN:taskschd.ITaskSettings2
 title: ITaskSettings2 (taskschd.h)
-author: windows-sdk-content
+
 description: Provides the extended settings that the Task Scheduler uses to run the task.
 old-location: taskschd\itasksettings2.htm
 tech.root: taskschd
 ms.assetid: ea08e599-5d4a-4919-abed-c35fe0977f3f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings2, ITaskSettings2 interface [Task Scheduler], ITaskSettings2 interface [Task Scheduler],described, taskschd.itasksettings2, taskschd/ITaskSettings2
 ms.topic: interface

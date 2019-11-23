@@ -1,12 +1,12 @@
 ---
 UID: NS:ipmib._MIB_IPSTATS_LH
 title: MIB_IPSTATS_LH (ipmib.h)
-author: windows-sdk-content
+
 description: Stores information about the IP protocol running on a particular computer.
 old-location: mib\mib_ipstats.htm
 tech.root: MIB
 ms.assetid: 920e71b6-247c-4442-9f66-704a6c878feb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_IPSTATS, *PMIB_IPSTATS_LH, MIB_IPSTATS, MIB_IPSTATS structure [MIB], MIB_IPSTATS_LH, MIB_IP_FORWARDING, MIB_IP_NOT_FORWARDING, MIB_USE_CURRENT_FORWARDING, PMIB_IPSTATS, PMIB_IPSTATS structure pointer [MIB], _mpr_mib_ipstats, ipmib/MIB_IPSTATS, ipmib/PMIB_IPSTATS, iprtrmib/MIB_IPSTATS, iprtrmib/PMIB_IPSTATS, mib.mib_ipstats, rras.mib_ipstats"
 ms.topic: struct

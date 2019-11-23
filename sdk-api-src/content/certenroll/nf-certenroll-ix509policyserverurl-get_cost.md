@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.get_Cost
 title: IX509PolicyServerUrl::get_Cost (certenroll.h)
-author: windows-sdk-content
+
 description: Specifies and retrieves an arbitrary cost for contacting the certificate enrollment policy server.
 old-location: security\ix509policyserverurl_cost.htm
 tech.root: seccertenroll
 ms.assetid: 8a188f11-6564-4d52-9b3d-ff7f14f9c127
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Cost property [Security], Cost property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],Cost property, IX509PolicyServerUrl.Cost, IX509PolicyServerUrl.get_Cost, IX509PolicyServerUrl::Cost, IX509PolicyServerUrl::get_Cost, IX509PolicyServerUrl::put_Cost, certenroll/IX509PolicyServerUrl::Cost, certenroll/IX509PolicyServerUrl::get_Cost, certenroll/IX509PolicyServerUrl::put_Cost, get_Cost, security.ix509policyserverurl_cost
 ms.topic: method

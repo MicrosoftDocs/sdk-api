@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetAsyncKeyState
 title: GetAsyncKeyState function (winuser.h)
-author: windows-sdk-content
+
 description: Determines whether a key is up or down at the time the function is called, and whether the key was pressed after a previous call to GetAsyncKeyState.
 old-location: inputdev\getasynckeystate.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getasynckeystate.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAsyncKeyState, GetAsyncKeyState function [Keyboard and Mouse Input], _win32_GetAsyncKeyState, _win32_getasynckeystate_cpp, inputdev.getasynckeystate, winui._win32_getasynckeystate, winuser/GetAsyncKeyState
 ms.topic: function

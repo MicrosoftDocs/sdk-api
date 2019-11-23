@@ -1,12 +1,12 @@
 ---
 UID: NF:wmpservices.IWMPConvert.GetErrorURL
 title: IWMPConvert::GetErrorURL (wmpservices.h)
-author: windows-sdk-content
+
 description: The GetErrorURL method is implemented by a conversion plug-in and called by Windows Media Player to retrieve the URL of a webpage that displays information to help the user correct the condition that caused an error.
 old-location: wmp\iwmpconvert_geterrorurl.htm
 tech.root: WMP
 ms.assetid: 27a2ff9a-0c95-4c82-8e4a-c91d2a595005
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetErrorURL, GetErrorURL method [Windows Media Player], GetErrorURL method [Windows Media Player],IWMPConvert interface, IWMPConvert interface [Windows Media Player],GetErrorURL method, IWMPConvert.GetErrorURL, IWMPConvert::GetErrorURL, IWMPConvertGetErrorURL, wmp.iwmpconvert_geterrorurl, wmpservices/IWMPConvert::GetErrorURL
 ms.topic: method

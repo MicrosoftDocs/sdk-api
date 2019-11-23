@@ -1,12 +1,12 @@
 ---
 UID: NF:wuapi.IUpdate.get_DownloadContents
 title: IUpdate::get_DownloadContents (wuapi.h)
-author: windows-sdk-content
+
 description: Gets file information about the download contents of the update.
 old-location: wua\iupdate_downloadcontents.htm
 tech.root: Wua_Sdk
 ms.assetid: dbeeaac7-3841-42ec-a3f3-bdf94694dbef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DownloadContents property [Windows Update Agent], DownloadContents property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DownloadContents property, IUpdate.DownloadContents, IUpdate.get_DownloadContents, IUpdate::DownloadContents, IUpdate::get_DownloadContents, get_DownloadContents, wua.iupdate_downloadcontents, wuapi/IUpdate::DownloadContents, wuapi/IUpdate::get_DownloadContents
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndPlay
 title: MCIWndPlay macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndPlay macro sends a command to an MCI device to start playing from the current position in the content. You can use this macro or explicitly send the MCI_PLAY command.
 old-location: multimedia\mciwndplay.htm
 tech.root: Multimedia
 ms.assetid: bfa88925-2f2a-4bbb-bd89-479515f759ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndPlay, MCIWndPlay macro [Windows Multimedia], _win32_MCIWndPlay, multimedia.mciwndplay, vfw/MCIWndPlay
 ms.topic: macro

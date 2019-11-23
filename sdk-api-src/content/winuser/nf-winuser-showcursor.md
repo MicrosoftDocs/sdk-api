@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.ShowCursor
 title: ShowCursor function (winuser.h)
-author: windows-sdk-content
+
 description: Displays or hides the cursor.
 old-location: menurc\showcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\showcursor.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ShowCursor, ShowCursor function [Menus and Other Resources], _win32_ShowCursor, _win32_showcursor_cpp, menurc.showcursor, winui._win32_showcursor, winuser/ShowCursor
 ms.topic: function

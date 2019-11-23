@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IAsynchronousDataRetriever.RegisterCallback
 title: IAsynchronousDataRetriever::RegisterCallback (winsync.h)
-author: windows-sdk-content
+
 description: Registers a callback interface that will be called by the IAsynchronousDataRetriever object when an asynchronous method finishes processing.
 old-location: winsync\iasynchronousdataretriever_registercallback.htm
 tech.root: winsync
 ms.assetid: 4148db4a-a460-40ca-863a-861065f89c5c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],RegisterCallback method, IAsynchronousDataRetriever.RegisterCallback, IAsynchronousDataRetriever::RegisterCallback, RegisterCallback, RegisterCallback method [Windows Sync], RegisterCallback method [Windows Sync],IAsynchronousDataRetriever interface, winsync.iasynchronousdataretriever_registercallback, winsync/IAsynchronousDataRetriever::RegisterCallback
 ms.topic: method

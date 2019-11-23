@@ -1,12 +1,12 @@
 ---
 UID: NS:fwpstypes.FWPS_DISCARD_METADATA0_
 title: FWPS_DISCARD_METADATA0 (fwpstypes.h)
-author: windows-sdk-content
+
 description: The FWPS_DISCARD_METADATA0 structure describes the data that was discarded by the filter engine, a network layer, or a transport layer.Note  FWPS_DISCARD_METADATA0 is a specific version of FWPS_DISCARD_METADATA.
 old-location: netvista\fwps_discard_metadata0.htm
 tech.root: NetVista
 ms.assetid: f17076d8-b669-4bb4-a871-10c7bdc6e370
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FWPS_DISCARD_METADATA0, FWPS_DISCARD_METADATA0 structure [Network Drivers Starting with Windows Vista], fwpstypes/FWPS_DISCARD_METADATA0, netvista.fwps_discard_metadata0, wfp_ref_3_struct_3_fwps_F-O_b2c71176-0655-45cf-ac72-3fbb690fb05b.xml
 ms.topic: struct

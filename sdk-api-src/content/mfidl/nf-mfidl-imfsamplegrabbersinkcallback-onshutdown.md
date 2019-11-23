@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFSampleGrabberSinkCallback.OnShutdown
 title: IMFSampleGrabberSinkCallback::OnShutdown (mfidl.h)
-author: windows-sdk-content
+
 description: Called when the sample-grabber sink is shut down.
 old-location: mf\imfsamplegrabbersinkcallback_onshutdown.htm
 tech.root: medfound
 ms.assetid: c6ab8ce3-fabb-4321-b90b-d9cdf03e7608
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFSampleGrabberSinkCallback interface [Media Foundation],OnShutdown method, IMFSampleGrabberSinkCallback.OnShutdown, IMFSampleGrabberSinkCallback::OnShutdown, OnShutdown, OnShutdown method [Media Foundation], OnShutdown method [Media Foundation],IMFSampleGrabberSinkCallback interface, c6ab8ce3-fabb-4321-b90b-d9cdf03e7608, mf.imfsamplegrabbersinkcallback_onshutdown, mfidl/IMFSampleGrabberSinkCallback::OnShutdown
 ms.topic: method

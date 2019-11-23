@@ -1,12 +1,12 @@
 ---
 UID: NF:provider.Provider.EnumerateInstances
 title: Provider::EnumerateInstances (provider.h)
-author: windows-sdk-content
+
 description: The EnumerateInstances method is called by WMI to retrieve all instances of a framework provider's class.
 old-location: wmi\provider_enumerateinstances.htm
 tech.root: WmiSdk
 ms.assetid: 9566acb0-d7bf-4d3d-b7da-5cfbce150a2c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "?EnumerateInstances@Provider@@MAEJPAVMethodContext@@J@Z, EnumerateInstances, EnumerateInstances method [Windows Management Instrumentation], EnumerateInstances method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],EnumerateInstances method, Provider.EnumerateInstances, Provider::EnumerateInstances, _hmm_provider_enumerateinstances, provider/Provider::EnumerateInstances, wmi.provider_enumerateinstances"
 ms.topic: method

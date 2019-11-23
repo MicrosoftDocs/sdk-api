@@ -1,12 +1,12 @@
 ---
 UID: NE:wbemcli.tag_WBEM_LIMITS
 title: WBEM_LIMITS (wbemcli.h)
-author: windows-sdk-content
+
 description: Defines some limit values.
 old-location: wmi\wbem_limits.htm
 tech.root: WmiSdk
 ms.assetid: CCEA9642-EAAF-47D2-9D1A-555227E23C41
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WBEM_LIMITS, WBEM_LIMITS enumeration [Windows Management Instrumentation], WBEM_MAX_IDENTIFIER, WBEM_MAX_OBJECT_NESTING, WBEM_MAX_PATH, WBEM_MAX_QUERY, WBEM_MAX_USER_PROPERTIES, wbemcli/WBEM_LIMITS, wbemcli/WBEM_MAX_IDENTIFIER, wbemcli/WBEM_MAX_OBJECT_NESTING, wbemcli/WBEM_MAX_PATH, wbemcli/WBEM_MAX_QUERY, wbemcli/WBEM_MAX_USER_PROPERTIES, wmi.wbem_limits
 ms.topic: enum

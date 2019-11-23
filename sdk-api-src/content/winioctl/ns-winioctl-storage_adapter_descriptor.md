@@ -1,12 +1,12 @@
 ---
 UID: NS:winioctl._STORAGE_ADAPTER_DESCRIPTOR
 title: STORAGE_ADAPTER_DESCRIPTOR
-author: windows-sdk-content
+
 description: Used with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve the storage adapter descriptor data for a device.
 old-location: fs\storage_adapter_descriptor.htm
 tech.root: FileIO
 ms.assetid: 8a5059d3-09a4-4411-8d86-d1257edb409a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_ADAPTER_DESCRIPTOR, PSTORAGE_ADAPTER_DESCRIPTOR, PSTORAGE_ADAPTER_DESCRIPTOR structure pointer [Files], SRB_TYPE_SCSI_REQUEST_BLOCK, SRB_TYPE_STORAGE_REQUEST_BLOCK, STORAGE_ADAPTER_DESCRIPTOR, STORAGE_ADAPTER_DESCRIPTOR structure [Files], STORAGE_ADDRESS_TYPE_BTL8, fs.storage_adapter_descriptor, winioctl/PSTORAGE_ADAPTER_DESCRIPTOR, winioctl/STORAGE_ADAPTER_DESCRIPTOR'
 ms.topic: struct

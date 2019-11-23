@@ -1,12 +1,12 @@
 ---
 UID: NS:eaptypes._EapCertificateCredential
 title: EapCertificateCredential (eaptypes.h)
-author: windows-sdk-content
+
 description: Contains information about the certificate that the EAP method uses for authentication.
 old-location: eaphost\eapcertificatecredential.htm
 tech.root: eaphost
 ms.assetid: 575967F4-E5CC-433D-919D-258B5849A5B1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EapCertificateCredential, EapCertificateCredential structure [EAPHost], eaphost.eapcertificatecredential, eaptypes/EapCertificateCredential
 ms.topic: struct

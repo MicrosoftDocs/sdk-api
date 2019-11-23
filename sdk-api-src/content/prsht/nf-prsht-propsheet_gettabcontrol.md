@@ -1,12 +1,12 @@
 ---
 UID: NF:prsht.PropSheet_GetTabControl
 title: PropSheet_GetTabControl macro (prsht.h)
-author: windows-sdk-content
+
 description: Retrieves the handle to the tab control of a property sheet. You can use this macro or send the PSM_GETTABCONTROL message explicitly.
 old-location: controls\PropSheet_GetTabControl.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_gettabcontrol.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PropSheet_GetTabControl, PropSheet_GetTabControl macro [Windows Controls], _win32_PropSheet_GetTabControl, _win32_PropSheet_GetTabControl_cpp, controls.PropSheet_GetTabControl, controls._win32_PropSheet_GetTabControl, prsht/PropSheet_GetTabControl
 ms.topic: macro

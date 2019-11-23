@@ -1,12 +1,12 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingBinary
 title: TraceLoggingBinary macro (traceloggingprovider.h)
-author: windows-sdk-content
+
 description: Wrapper macro for raw binary data.
 old-location: tracelogging\traceloggingbinary.htm
 tech.root: tracelogging
 ms.assetid: A1CE1481-7319-41BE-9639-E688365D4628
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingBinary, TraceLoggingBinary macro, tracelogging.traceloggingbinary, traceloggingprovider/TraceLoggingBinary
 ms.topic: macro

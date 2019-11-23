@@ -1,12 +1,12 @@
 ---
 UID: NF:clusapi.ClusterGroupControl
 title: ClusterGroupControl function (clusapi.h)
-author: windows-sdk-content
+
 description: Initiates an operation that affects a group. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clustergroupcontrol.htm
 tech.root: MsCS
 ms.assetid: 72896685-a1db-43d7-a5e3-ba380c0624f2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupControl, ClusterGroupControl function [Failover Cluster], _wolf_clustergroupcontrol, clusapi/ClusterGroupControl, mscs.clustergroupcontrol
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetPixelOffsetMode
 title: Graphics::GetPixelOffsetMode (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::GetPixelOffsetMode method gets the pixel offset mode currently set for this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetPixelOffsetMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getpixeloffsetmode.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPixelOffsetMode, GetPixelOffsetMode method [GDI+], GetPixelOffsetMode method [GDI+],Graphics class, Graphics class [GDI+],GetPixelOffsetMode method, Graphics.GetPixelOffsetMode, Graphics::GetPixelOffsetMode, _gdiplus_CLASS_Graphics_GetPixelOffsetMode_, gdiplus._gdiplus_CLASS_Graphics_GetPixelOffsetMode_
 ms.topic: method

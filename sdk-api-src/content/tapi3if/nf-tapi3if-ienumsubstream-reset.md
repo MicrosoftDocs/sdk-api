@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.IEnumSubStream.Reset
 title: IEnumSubStream::Reset (tapi3if.h)
-author: windows-sdk-content
+
 description: The Reset method resets to the beginning of the enumeration sequence.
 old-location: tapi3\ienumsubstream_reset.htm
 tech.root: Tapi
 ms.assetid: 72b91c81-8cfa-4879-bfcf-87fde38fcc79
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumSubStream interface [TAPI 2.2],Reset method, IEnumSubStream.Reset, IEnumSubStream::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumSubStream interface, _tapi3_ienumsubstream_reset, tapi3.ienumsubstream_reset, tapi3if/IEnumSubStream::Reset
 ms.topic: method

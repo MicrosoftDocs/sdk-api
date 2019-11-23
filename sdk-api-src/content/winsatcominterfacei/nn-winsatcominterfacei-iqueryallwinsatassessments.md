@@ -1,12 +1,12 @@
 ---
 UID: NN:winsatcominterfacei.IQueryAllWinSATAssessments
 title: IQueryAllWinSATAssessments (winsatcominterfacei.h)
-author: windows-sdk-content
+
 description: Retrieves details about all formal WinSAT assessments.
 old-location: winsat\iqueryallwinsatassessments.htm
 tech.root: WinSAT
 ms.assetid: b78cfaf1-0fce-449c-96f5-76d318f30384
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IQueryAllWinSATAssessments, IQueryAllWinSATAssessments interface [WinSAT], IQueryAllWinSATAssessments interface [WinSAT],described, winsat.iqueryallwinsatassessments, winsatcominterfacei/IQueryAllWinSATAssessments
 ms.topic: interface

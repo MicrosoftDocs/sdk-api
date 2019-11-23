@@ -1,12 +1,12 @@
 ---
 UID: NF:rend.IEnumDialableAddrs.Clone
 title: IEnumDialableAddrs::Clone (rend.h)
-author: windows-sdk-content
+
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumdialableaddrs_clone.htm
 tech.root: Tapi
 ms.assetid: 5d05bdfb-007a-451a-bf79-f5a8e4171f85
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDialableAddrs interface, IEnumDialableAddrs interface [TAPI 2.2],Clone method, IEnumDialableAddrs.Clone, IEnumDialableAddrs::Clone, _tapi3_ienumdialableaddrs_clone, rend/IEnumDialableAddrs::Clone, tapi3.ienumdialableaddrs_clone
 ms.topic: method

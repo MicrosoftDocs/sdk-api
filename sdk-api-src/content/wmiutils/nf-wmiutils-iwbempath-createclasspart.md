@@ -1,12 +1,12 @@
 ---
 UID: NF:wmiutils.IWbemPath.CreateClassPart
 title: IWbemPath::CreateClassPart (wmiutils.h)
-author: windows-sdk-content
+
 description: Initializes the class or key portion of the path.
 old-location: wmi\iwbempath_createclasspart.htm
 tech.root: WmiSdk
 ms.assetid: 6826bd2a-6036-4017-a58e-621fc2361031
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateClassPart, CreateClassPart method [Windows Management Instrumentation], CreateClassPart method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],CreateClassPart method, IWbemPath.CreateClassPart, IWbemPath::CreateClassPart, _hmm_iwbempath_createclasspart, wmi.iwbempath_createclasspart, wmiutils/IWbemPath::CreateClassPart
 ms.topic: method

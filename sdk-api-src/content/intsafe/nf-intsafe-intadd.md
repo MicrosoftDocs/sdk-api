@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.IntAdd
 title: IntAdd function (intsafe.h)
-author: windows-sdk-content
+
 description: Adds two values of type INT.
 old-location: shell\IntAdd.htm
 tech.root: shell
 ms.assetid: 0ae27240-2923-4caf-955a-0b10bd9e2515
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IntAdd, IntAdd function [Windows Shell], intsafe/IntAdd, shell.IntAdd
 ms.topic: function

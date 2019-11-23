@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_THREADING
 title: D3D11_FEATURE_DATA_THREADING (d3d11.h)
-author: windows-sdk-content
+
 description: Describes the multi-threading features that are supported by the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_threading.htm
 tech.root: direct3d11
 ms.assetid: 1ad7d4c4-9da2-42b0-a461-e514060e3005
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_THREADING, D3D11_FEATURE_DATA_THREADING structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_THREADING, direct3d11.d3d11_feature_data_threading, ef972430-170a-436c-cbf4-65409cc60040
 ms.topic: struct

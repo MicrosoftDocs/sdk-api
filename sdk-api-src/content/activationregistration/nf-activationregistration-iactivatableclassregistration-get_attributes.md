@@ -1,12 +1,12 @@
 ---
 UID: NF:activationregistration.IActivatableClassRegistration.get_Attributes
 title: IActivatableClassRegistration::get_Attributes (activationregistration.h)
-author: windows-sdk-content
+
 description: Gets the attributes associated with the current activatable class.
 old-location: winrt\iactivatableclassregistration_attributes.htm
 tech.root: WinRT
 ms.assetid: E058C71F-5F37-4089-89BD-28D8FF7E0711
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IActivatableClassRegistration interface [Windows Runtime],get_Attributes method, IActivatableClassRegistration.get_Attributes, IActivatableClassRegistration::get_Attributes, activationregistration/IActivatableClassRegistration::get_Attributes, get_Attributes, get_Attributes method [Windows Runtime], get_Attributes method [Windows Runtime],IActivatableClassRegistration interface, winrt.iactivatableclassregistration_attributes
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NE:audiosessiontypes._AudioSessionState
 title: AudioSessionState (audiosessiontypes.h)
-author: windows-sdk-content
+
 description: The AudioSessionState enumeration defines constants that indicate the current state of an audio session.
 old-location: coreaudio\audiosessionstate.htm
 tech.root: CoreAudio
 ms.assetid: a972fed6-425f-46c8-b0cc-6538460bb104
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AudioSessionState, AudioSessionState , AudioSessionState enumeration [Core Audio], AudioSessionStateActive, AudioSessionStateExpired, AudioSessionStateInactive, audiosessiontypes/AudioSessionState, audiosessiontypes/AudioSessionStateActive, audiosessiontypes/AudioSessionStateExpired, audiosessiontypes/AudioSessionStateInactive, coreaudio.audiosessionstate
 ms.topic: enum

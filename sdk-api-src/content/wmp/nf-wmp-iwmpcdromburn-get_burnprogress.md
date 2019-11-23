@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.get_burnProgress
 title: IWMPCdromBurn::get_burnProgress (wmp.h)
-author: windows-sdk-content
+
 description: The get_burnProgress method retrieves the CD burning progress as percent complete.
 old-location: wmp\iwmpcdromburn_get_burnprogress.htm
 tech.root: WMP
 ms.assetid: 4941e1be-1ed2-4d8e-ad16-79ddbdcd71bf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnProgress method, IWMPCdromBurn.get_burnProgress, IWMPCdromBurn::get_burnProgress, IWMPCdromBurnget_burnProgress, get_burnProgress, get_burnProgress method [Windows Media Player], get_burnProgress method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnprogress, wmp/IWMPCdromBurn::get_burnProgress
 ms.topic: method

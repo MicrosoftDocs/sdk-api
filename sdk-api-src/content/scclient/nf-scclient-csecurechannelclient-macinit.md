@@ -1,12 +1,12 @@
 ---
 UID: NF:scclient.CSecureChannelClient.MACInit
 title: CSecureChannelClient::MACInit (scclient.h)
-author: windows-sdk-content
+
 description: The MACInit method acquires a message authentication code (MAC) channel.
 old-location: wmdm\csecurechannelclient_macinit.htm
 tech.root: WMDM
 ms.assetid: d383d040-55f7-4ed7-b5b8-8e963b6cb16a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],MACInit method, CSecureChannelClient.MACInit, CSecureChannelClient::MACInit, CSecureChannelClientMACInit, MACInit, MACInit method [windows Media Device Manager], MACInit method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::MACInit, wmdm.csecurechannelclient_macinit
 ms.topic: method

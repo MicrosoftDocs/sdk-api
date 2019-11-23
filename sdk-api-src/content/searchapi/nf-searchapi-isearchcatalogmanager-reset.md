@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.Reset
 title: ISearchCatalogManager::Reset (searchapi.h)
-author: windows-sdk-content
+
 description: Resets the underlying catalog by rebuilding the databases and performing a full indexing.
 old-location: search\_search_ISearchCatalogManager_Reset.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reset.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],Reset method, ISearchCatalogManager.Reset, ISearchCatalogManager::Reset, Reset, Reset method [search], Reset method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_Reset, search._search_ISearchCatalogManager_Reset, searchapi/ISearchCatalogManager::Reset
 ms.topic: method

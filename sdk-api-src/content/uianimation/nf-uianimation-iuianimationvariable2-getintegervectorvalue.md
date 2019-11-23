@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetIntegerVectorValue
 title: IUIAnimationVariable2::GetIntegerVectorValue (uianimation.h)
-author: windows-sdk-content
+
 description: Gets the integer value of the animation variable for the specified dimension.
 old-location: uianimation\iuianimationvariable2_getintegervectorvalue.htm
 tech.root: UIAnimation
 ms.assetid: 63832D4C-C1AB-4073-AE36-1539671F0F59
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetIntegerVectorValue, GetIntegerVectorValue method [Windows Animation], GetIntegerVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetIntegerVectorValue method, IUIAnimationVariable2.GetIntegerVectorValue, IUIAnimationVariable2::GetIntegerVectorValue, uianimation.iuianimationvariable2_getintegervectorvalue, uianimation/IUIAnimationVariable2::GetIntegerVectorValue
 ms.topic: method

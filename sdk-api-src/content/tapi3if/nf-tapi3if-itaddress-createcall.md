@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITAddress.CreateCall
 title: ITAddress::CreateCall (tapi3if.h)
-author: windows-sdk-content
+
 description: The CreateCall method creates a new Call object that can be used to make an outgoing call and returns a pointer to the object's ITBasicCallControl interface. The newly created call is in the CS_IDLE state and has no media or terminals selected.
 old-location: tapi3\itaddress_createcall.htm
 tech.root: Tapi
 ms.assetid: 1b5a755c-fdaf-42ca-9747-9b34efbd0ac3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateCall, CreateCall method [TAPI 2.2], CreateCall method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],CreateCall method, ITAddress.CreateCall, ITAddress::CreateCall, _tapi3_itaddress_createcall, tapi3.itaddress_createcall, tapi3if/ITAddress::CreateCall
 ms.topic: method

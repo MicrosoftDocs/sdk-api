@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj.IColumnProvider.GetItemData
 title: IColumnProvider::GetItemData (shlobj.h)
-author: windows-sdk-content
+
 description: Requests column data for a specified file.
 old-location: shell\IColumnProvider_GetItemData.htm
 tech.root: shell
 ms.assetid: 88e76f03-acc3-46b1-ad03-d2343f4f3dac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetItemData, GetItemData method [Windows Shell], GetItemData method [Windows Shell],IColumnProvider interface, IColumnProvider interface [Windows Shell],GetItemData method, IColumnProvider.GetItemData, IColumnProvider::GetItemData, _win32_IColumnProvider_GetItemData, shell.IColumnProvider_GetItemData, shlobj/IColumnProvider::GetItemData
 ms.topic: method

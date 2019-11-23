@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_POLICY_DESCRIPTION
 title: WS_TCP_SSPI_POLICY_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: Describes the policy specifying TCP channel binding with windows SSPI.
 old-location: wsw\ws_tcp_sspi_policy_description.htm
 tech.root: wsw
 ms.assetid: b6a6c7ce-4d97-4da5-801a-6c48b83fb22a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_TCP_SSPI_POLICY_DESCRIPTION, WS_TCP_SSPI_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_TCP_SSPI_POLICY_DESCRIPTION, wsw.ws_tcp_sspi_policy_description
 ms.topic: struct

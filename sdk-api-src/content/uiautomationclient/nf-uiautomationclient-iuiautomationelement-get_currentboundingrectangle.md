@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentBoundingRectangle
 title: IUIAutomationElement::get_CurrentBoundingRectangle (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the coordinates of the rectangle that completely encloses the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentBoundingRectangle.htm
 tech.root: WinAuto
 ms.assetid: bf3e96ca-1fda-417a-9614-6a1a3923ce7e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CurrentBoundingRectangle property [Windows Accessibility], CurrentBoundingRectangle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentBoundingRectangle property, IUIAutomationElement.CurrentBoundingRectangle, IUIAutomationElement.get_CurrentBoundingRectangle, IUIAutomationElement::CurrentBoundingRectangle, IUIAutomationElement::get_CurrentBoundingRectangle, get_CurrentBoundingRectangle, uiauto.uiauto_IUIAutomationElement_CurrentBoundingRectangle, uiauto_IUIAutomationElement_CurrentBoundingRectangle, uiautomationclient/IUIAutomationElement::CurrentBoundingRectangle, uiautomationclient/IUIAutomationElement::get_CurrentBoundingRectangle, winauto.uiauto_IUIAutomationElement_CurrentBoundingRectangle
 ms.topic: method

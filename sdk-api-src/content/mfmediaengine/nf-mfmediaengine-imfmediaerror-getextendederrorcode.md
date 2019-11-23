@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFMediaError.GetExtendedErrorCode
 title: IMFMediaError::GetExtendedErrorCode (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Gets the extended error code.
 old-location: mf\imfmediaerror_getextendederrorcode.htm
 tech.root: medfound
 ms.assetid: 73B414F2-F17E-418E-9F8B-A7C378F80090
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetExtendedErrorCode, GetExtendedErrorCode method [Media Foundation], GetExtendedErrorCode method [Media Foundation],IMFMediaError interface, IMFMediaError interface [Media Foundation],GetExtendedErrorCode method, IMFMediaError.GetExtendedErrorCode, IMFMediaError::GetExtendedErrorCode, mf.imfmediaerror_getextendederrorcode, mfmediaengine/IMFMediaError::GetExtendedErrorCode
 ms.topic: method

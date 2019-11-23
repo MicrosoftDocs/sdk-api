@@ -1,12 +1,12 @@
 ---
 UID: NF:shlwapi.StrCatChainW
 title: StrCatChainW function (shlwapi.h)
-author: windows-sdk-content
+
 description: Concatenates two Unicode strings. Used when repeated concatenations to the same buffer are required.
 old-location: shell\StrCatChainW.htm
 tech.root: shell
 ms.assetid: 8df35616-f6f3-45eb-9a83-89fc84938fd7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: StrCatChainW, StrCatChainW function [Windows Shell], _shell_StrCatChainW, shell.StrCatChainW, shlwapi/StrCatChainW
 ms.topic: function

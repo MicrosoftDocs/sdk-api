@@ -1,12 +1,12 @@
 ---
 UID: NE:uxtheme.THEMESIZE
 title: THEMESIZE (uxtheme.h)
-author: windows-sdk-content
+
 description: Identifies the type of size value to retrieve for a visual style part.
 old-location: controls\THEME_SIZE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\themesize.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: THEMESIZE, THEMESIZE enumeration [Windows Controls], THEME_SIZE, THEME_SIZE enumeration [Windows Controls], TS_DRAW, TS_MIN, TS_TRUE, controls.THEME_SIZE, controls.inet_THEME_SIZE, inet_THEME_SIZE, inet_THEME_SIZE_cpp, uxtheme/THEMESIZE, uxtheme/TS_DRAW, uxtheme/TS_MIN, uxtheme/TS_TRUE
 ms.topic: enum

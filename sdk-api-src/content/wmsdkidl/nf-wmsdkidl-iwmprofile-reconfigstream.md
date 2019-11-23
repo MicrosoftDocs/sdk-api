@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.ReconfigStream
 title: IWMProfile::ReconfigStream (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The ReconfigStream method enables changes made to a stream configuration to be included in the profile. Use this method when you have made changes to a stream that has already been included in the profile.
 old-location: wmformat\iwmprofile_reconfigstream.htm
 tech.root: wmformat
 ms.assetid: ac6de14b-b754-4f61-9f9a-656885641fbc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMProfile interface [windows Media Format],ReconfigStream method, IWMProfile.ReconfigStream, IWMProfile2 interface [windows Media Format],ReconfigStream method, IWMProfile2::ReconfigStream, IWMProfile3 interface [windows Media Format],ReconfigStream method, IWMProfile3::ReconfigStream, IWMProfile::ReconfigStream, IWMProfileReconfigStream, ReconfigStream, ReconfigStream method [windows Media Format], ReconfigStream method [windows Media Format],IWMProfile interface, ReconfigStream method [windows Media Format],IWMProfile2 interface, ReconfigStream method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_reconfigstream, wmsdkidl/IWMProfile2::ReconfigStream, wmsdkidl/IWMProfile3::ReconfigStream, wmsdkidl/IWMProfile::ReconfigStream
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearColorMatrices
 title: ImageAttributes::ClearColorMatrices (gdiplusimageattributes.h)
-author: windows-sdk-content
+
 description: The ImageAttributes::ClearColorMatrices method clears the color-adjustment matrix and the grayscale-adjustment matrix for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearColorMatrices_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearcolormatrices.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClearColorMatrices, ClearColorMatrices method [GDI+], ClearColorMatrices method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearColorMatrices method, ImageAttributes.ClearColorMatrices, ImageAttributes::ClearColorMatrices, _gdiplus_CLASS_ImageAttributes_ClearColorMatrices_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearColorMatrices_type_
 ms.topic: method

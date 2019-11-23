@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1AnalysisTransform
 title: ID2D1AnalysisTransform (d2d1effectauthor.h)
-author: windows-sdk-content
+
 description: Supplies data to an analysis effect.
 old-location: direct2d\id2d1analysistransform.htm
 tech.root: Direct2D
 ms.assetid: 64CDA0A7-2790-436C-9EFC-3A74D09602B9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1AnalysisTransform, ID2D1AnalysisTransform interface [Direct2D], ID2D1AnalysisTransform interface [Direct2D],described, d2d1effectauthor/ID2D1AnalysisTransform, direct2d.id2d1analysistransform
 ms.topic: interface

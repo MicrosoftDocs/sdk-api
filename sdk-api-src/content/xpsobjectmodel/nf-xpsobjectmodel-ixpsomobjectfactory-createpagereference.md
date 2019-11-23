@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePageReference
 title: IXpsOMObjectFactory::CreatePageReference (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Creates an IXpsOMPageReference interface that enables the virtualization of pages.
 old-location: xps\ixpsomobjectfactory_createpagereference.htm
 tech.root: printdocs
 ms.assetid: 037a7926-def4-4be3-b7c5-3c4c588e75ae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreatePageReference, CreatePageReference method [XPS Documents and Packaging], CreatePageReference method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePageReference method, IXpsOMObjectFactory.CreatePageReference, IXpsOMObjectFactory::CreatePageReference, xps.ixpsomobjectfactory_createpagereference, xpsobjectmodel/IXpsOMObjectFactory::CreatePageReference
 ms.topic: method

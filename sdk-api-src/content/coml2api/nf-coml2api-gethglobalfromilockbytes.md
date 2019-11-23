@@ -1,12 +1,12 @@
 ---
 UID: NF:coml2api.GetHGlobalFromILockBytes
 title: GetHGlobalFromILockBytes function (coml2api.h)
-author: windows-sdk-content
+
 description: The GetHGlobalFromILockBytes function retrieves a global memory handle to a byte array object created using the CreateILockBytesOnHGlobal function.
 old-location: stg\gethglobalfromilockbytes.htm
 tech.root: Stg
 ms.assetid: 084fcd1d-5b85-448c-862a-378353e1e2e6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetHGlobalFromILockBytes, GetHGlobalFromILockBytes function [Structured Storage], _stg_gethglobalfromilockbytes, coml2api/GetHGlobalFromILockBytes, stg.gethglobalfromilockbytes
 ms.topic: function

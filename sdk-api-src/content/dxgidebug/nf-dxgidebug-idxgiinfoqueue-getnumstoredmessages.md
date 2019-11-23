@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumStoredMessages
 title: IDXGIInfoQueue::GetNumStoredMessages (dxgidebug.h)
-author: windows-sdk-content
+
 description: Gets the number of messages currently stored in the message queue.
 old-location: direct3ddxgi\idxgiinfoqueue_getnumstoredmessages.htm
 tech.root: direct3ddxgi
 ms.assetid: 81556BB3-D8B8-4868-8B21-C9E01C3F183E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNumStoredMessages, GetNumStoredMessages method [DXGI], GetNumStoredMessages method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumStoredMessages method, IDXGIInfoQueue.GetNumStoredMessages, IDXGIInfoQueue::GetNumStoredMessages, direct3ddxgi.idxgiinfoqueue_getnumstoredmessages, dxgidebug/IDXGIInfoQueue::GetNumStoredMessages
 ms.topic: method

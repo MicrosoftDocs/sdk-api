@@ -1,12 +1,12 @@
 ---
 UID: NF:netcon.NcIsValidConnectionName
 title: NcIsValidConnectionName function (netcon.h)
-author: windows-sdk-content
+
 description: The NcIsValidConnectionName function verifies if the passed in connection name is valid.
 old-location: ics\ncisvalidconnectionname.htm
 tech.root: ics
 ms.assetid: 08fe9ba2-3314-45ff-8aea-742dd5b15560
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NcIsValidConnectionName, NcIsValidConnectionName function [ICS/ICF], ics.ncisvalidconnectionname, netcon/NcIsValidConnectionName
 ms.topic: function

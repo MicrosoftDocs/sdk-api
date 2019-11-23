@@ -3,7 +3,7 @@ UID: NF:directxmath.XMVECTORI32.operator __m128i
 title: XMVECTORI32::operator __m128i
 description: Returns the object implementing the current instance of XMVECTORI32 cast to a __m128i instance of.
 ms.assetid: 6442dc17-d1db-401a-bc3e-5edb9e91051f
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: XMVECTORI32::operator __m128i
 ms.topic: language-reference

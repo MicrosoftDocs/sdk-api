@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.SetTag
 title: IUIAnimationVariable::SetTag (uianimation.h)
-author: windows-sdk-content
+
 description: Sets the tag for an animation variable.
 old-location: uianimation\iuianimationvariable_settag.htm
 tech.root: UIAnimation
 ms.assetid: 176b0047-cac8-474b-9126-fdab4bc41537
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetTag method, IUIAnimationVariable.SetTag, IUIAnimationVariable::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_settag, uianimation/IUIAnimationVariable::SetTag
 ms.topic: method

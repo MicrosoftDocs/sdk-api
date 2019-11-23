@@ -1,12 +1,12 @@
 ---
 UID: NS:directxpackedvector.XMUBYTEN4
 title: XMUBYTEN4 (directxpackedvector.h)
-author: windows-sdk-content
+
 description: A 3D vector for storing unsigned, normalized values as signed 8-bits (1 byte) integers.
 old-location: dxmath\xmubyten4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUBYTEN4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMUBYTEN4, XMUBYTEN4 structure [DirectX Math Support APIs], directxpackedvector/XMUBYTEN4, dxmath.xmubyten4
 ms.topic: struct

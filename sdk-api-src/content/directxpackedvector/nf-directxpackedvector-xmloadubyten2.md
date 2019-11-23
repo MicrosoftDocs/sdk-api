@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMLoadUByteN2
 title: XMLoadUByteN2 function (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Loads an XMUBYTEN2 into an XMVECTOR.
 old-location: dxmath\xmloadubyten2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUByteN2(const XMUBYTEN2)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadUByteN2, XMLoadUByteN2, XMLoadUByteN2 method [DirectX Math Support APIs], dxmath.xmloadubyten2
 ms.topic: function

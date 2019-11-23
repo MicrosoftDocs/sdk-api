@@ -1,12 +1,12 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.EnumerateFarms
 title: ITsSbGlobalStore::EnumerateFarms (sbtsv.h)
-author: windows-sdk-content
+
 description: Enumerates all the farms that have been added by the specified resource plug-in.
 old-location: termserv\itssbglobalstore_enumeratefarms.htm
 tech.root: TermServ
 ms.assetid: 51c59f35-667c-4723-aa7b-e8250bbdabe9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumerateFarms, EnumerateFarms method [Remote Desktop Services], EnumerateFarms method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],EnumerateFarms method, ITsSbGlobalStore.EnumerateFarms, ITsSbGlobalStore::EnumerateFarms, sbtsv/ITsSbGlobalStore::EnumerateFarms, termserv.itssbglobalstore_enumeratefarms
 ms.topic: method

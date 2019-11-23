@@ -1,12 +1,12 @@
 ---
 UID: NF:mprapi.MprConfigBufferFree
 title: MprConfigBufferFree function (mprapi.h)
-author: windows-sdk-content
+
 description: The MprConfigBufferFree function frees buffers. MprConfigXEnum, MprConfigXGetInfo
 old-location: rras\mprconfigbufferfree.htm
 tech.root: RRAS
 ms.assetid: d7df56ee-72e4-4b0c-87a3-a1f66d791b62
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MprConfigBufferFree, MprConfigBufferFree function [RAS], _mpr_mprconfigbufferfree, mprapi/MprConfigBufferFree, rras.mprconfigbufferfree
 ms.topic: function

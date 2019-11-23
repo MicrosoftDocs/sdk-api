@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpGetMibInfoV6
 title: DhcpGetMibInfoV6 function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Retrieves the IPv6 counter values of the DHCP server.
 old-location: dhcp\dhcpgetmibinfov6.htm
 tech.root: DHCP
 ms.assetid: fcc61321-2edd-4ea8-bcd7-7237fbc90b74
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpGetMibInfoV6, DhcpGetMibInfoV6 function [DHCP], dhcp.dhcpgetmibinfov6, dhcpsapi/DhcpGetMibInfoV6
 ms.topic: function

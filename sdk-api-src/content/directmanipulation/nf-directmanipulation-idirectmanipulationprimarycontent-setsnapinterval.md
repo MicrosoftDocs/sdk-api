@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetSnapInterval
 title: IDirectManipulationPrimaryContent::SetSnapInterval (directmanipulation.h)
-author: windows-sdk-content
+
 description: Specifies snap points for the inertia end position at uniform intervals.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setsnapinterval.htm
 tech.root: directmanipulation
 ms.assetid: 99d039fe-017a-47c5-95a1-5000efe92ba0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapInterval method, IDirectManipulationPrimaryContent.SetSnapInterval, IDirectManipulationPrimaryContent::SetSnapInterval, SetSnapInterval, SetSnapInterval method [Direct Manipulation], SetSnapInterval method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnapinterval, directmanipulation/IDirectManipulationPrimaryContent::SetSnapInterval
 ms.topic: method

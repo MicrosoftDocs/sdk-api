@@ -1,12 +1,12 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1TransformNode
 title: ID2D1TransformNode (d2d1effectauthor.h)
-author: windows-sdk-content
+
 description: Describes a node in a transform topology.
 old-location: direct2d\id2d1transformnode.htm
 tech.root: Direct2D
 ms.assetid: 2ACF65DA-A812-4983-B044-71103A9AA450
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformNode, ID2D1TransformNode interface [Direct2D], ID2D1TransformNode interface [Direct2D],described, d2d1effectauthor/ID2D1TransformNode, direct2d.id2d1transformnode
 ms.topic: interface

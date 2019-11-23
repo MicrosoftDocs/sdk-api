@@ -1,12 +1,12 @@
 ---
 UID: NE:shlobj_core.__unnamed_enum_7
 title: SHARD (shlobj_core.h)
-author: windows-sdk-content
+
 description: Indicates the interpretation of the data passed by SHAddToRecentDocs in its pv parameter to identify the item whose usage statistics are being tracked.
 old-location: shell\SHARD.htm
 tech.root: shell
 ms.assetid: efc9e018-41bb-44ef-9ca8-85d9e34c9899
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHARD, SHARD enumeration [Windows Shell], SHARD_APPIDINFO, SHARD_APPIDINFOIDLIST, SHARD_APPIDINFOLINK, SHARD_LINK, SHARD_PATHA, SHARD_PATHW, SHARD_PIDL, SHARD_SHELLITEM, _shell_SHARD, shell.SHARD, shlobj_core/SHARD, shlobj_core/SHARD_APPIDINFO, shlobj_core/SHARD_APPIDINFOIDLIST, shlobj_core/SHARD_APPIDINFOLINK, shlobj_core/SHARD_LINK, shlobj_core/SHARD_PATHA, shlobj_core/SHARD_PATHW, shlobj_core/SHARD_PIDL, shlobj_core/SHARD_SHELLITEM
 ms.topic: enum

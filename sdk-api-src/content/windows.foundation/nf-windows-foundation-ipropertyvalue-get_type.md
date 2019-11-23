@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.get_Type
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-author: windows-sdk-content
+
 description: Gets the data type of the value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_type.htm
 tech.root: WinRT
 ms.assetid: 8C6C042A-53AA-439B-8D8D-F67DB45CC3C6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPropertyValue interface [Windows Runtime],Type property, IPropertyValue.IPropertyValue, IPropertyValue.Type, IPropertyValue.get_Type, IPropertyValue::IPropertyValue, IPropertyValue::Type, IPropertyValue::get_Type, Type property [Windows Runtime], Type property [Windows Runtime],IPropertyValue interface, get_Type, windows/IPropertyValue::Type, windows/IPropertyValue::get_Type, winrt.ipropertyvalue_type
 ms.topic: method

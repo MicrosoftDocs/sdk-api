@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IAMTVAudioNotification
 title: IAMTVAudioNotification (strmif.h)
-author: windows-sdk-content
+
 description: Note  This callback interface has been deprecated, because the TV Audio filter does not implement the callback mechanism. .
 old-location: dshow\iamtvaudionotification.htm
 tech.root: DirectShow
 ms.assetid: 4f84586f-7384-4dd7-99ce-325fb609daae
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMTVAudioNotification, IAMTVAudioNotification interface [DirectShow], IAMTVAudioNotification interface [DirectShow],described, IAMTVAudioNotificationInterface, dshow.iamtvaudionotification, strmif/IAMTVAudioNotification
 ms.topic: interface

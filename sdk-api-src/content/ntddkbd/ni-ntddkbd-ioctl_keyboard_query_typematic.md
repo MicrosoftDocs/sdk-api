@@ -1,12 +1,12 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_QUERY_TYPEMATIC
 title: IOCTL_KEYBOARD_QUERY_TYPEMATIC (ntddkbd.h)
-author: windows-sdk-content
+
 description: The IOCTL_KEYBOARD_QUERY_TYPEMATIC request returns the keyboard typematic settings.
 old-location: hid\ioctl_keyboard_query_typematic2.htm
 tech.root: hid
 ms.assetid: c27c6bfb-026d-43ab-b394-9bba7df01511
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOCTL_KEYBOARD_QUERY_TYPEMATIC, IOCTL_KEYBOARD_QUERY_TYPEMATIC control, IOCTL_KEYBOARD_QUERY_TYPEMATIC control code [Human Input Devices], hid.ioctl_keyboard_query_typematic2, i8042ref_4aaa5c7a-3a1e-4f50-950f-3e03c0a0c034.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_TYPEMATIC
 ms.topic: ioctl

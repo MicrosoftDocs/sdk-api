@@ -1,12 +1,12 @@
 ---
 UID: NE:mmstream.__MIDL___MIDL_itf_mmstream_0000_0000_0001
 title: STREAM_TYPE (mmstream.h)
-author: windows-sdk-content
+
 description: Note  This API is deprecated. New applications should not use it. Defines the direction of data flow for the stream.
 old-location: dshow\stream_type.htm
 tech.root: DirectShow
 ms.assetid: 07ab5ded-28b8-4cac-b4da-76f07ad351ef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: STREAMTYPE_READ, STREAMTYPE_TRANSFORM, STREAMTYPE_WRITE, STREAM_TYPE, STREAM_TYPE enumeration [DirectShow], dshow.stream_type, mmstream/STREAMTYPE_READ, mmstream/STREAMTYPE_TRANSFORM, mmstream/STREAMTYPE_WRITE, mmstream/STREAM_TYPE
 ms.topic: enum

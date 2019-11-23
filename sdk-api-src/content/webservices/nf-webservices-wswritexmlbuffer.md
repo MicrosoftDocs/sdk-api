@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsWriteXmlBuffer
 title: WsWriteXmlBuffer function (webservices.h)
-author: windows-sdk-content
+
 description: Writes a WS_XML_BUFFER to a writer.
 old-location: wsw\wswritexmlbuffer.htm
 tech.root: wsw
 ms.assetid: a0845072-95dc-4d81-8322-514b8acff32a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsWriteXmlBuffer, WsWriteXmlBuffer function [Web Services for Windows], webservices/WsWriteXmlBuffer, wsw.wswritexmlbuffer
 ms.topic: function

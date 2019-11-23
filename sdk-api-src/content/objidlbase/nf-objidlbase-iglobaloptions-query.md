@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IGlobalOptions.Query
 title: IGlobalOptions::Query (objidlbase.h)
-author: windows-sdk-content
+
 description: Queries the specified global property of the COM runtime.
 old-location: com\iglobaloptions_query.htm
 tech.root: com
 ms.assetid: ee16e59d-c629-45c1-afe6-fb4e37eba5d1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGlobalOptions interface [COM],Query method, IGlobalOptions.Query, IGlobalOptions::Query, Query, Query method [COM], Query method [COM],IGlobalOptions interface, _com_iglobaloptions_query, com.iglobaloptions_query, objidlbase/IGlobalOptions::Query
 ms.topic: method

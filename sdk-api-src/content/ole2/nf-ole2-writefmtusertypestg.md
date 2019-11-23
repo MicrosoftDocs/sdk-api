@@ -1,12 +1,12 @@
 ---
 UID: NF:ole2.WriteFmtUserTypeStg
 title: WriteFmtUserTypeStg function (ole2.h)
-author: windows-sdk-content
+
 description: The WriteFmtUserTypeStg function writes a clipboard format and user type to the storage object.
 old-location: stg\writefmtusertypestg.htm
 tech.root: Stg
 ms.assetid: ef60493c-164e-4633-a248-05c4afade937
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WriteFmtUserTypeStg, WriteFmtUserTypeStg function [Structured Storage], _stg_writefmtusertypestg, ole2/WriteFmtUserTypeStg, stg.writefmtusertypestg
 ms.topic: function

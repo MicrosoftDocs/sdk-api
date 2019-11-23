@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat3.GetAutomaticFontAxes
 title: IDWriteTextFormat3::GetAutomaticFontAxes
-author: windows-sdk-content
+
 description: Retrieves the automatic axis options.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/16/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],GetAutomaticFontAxes method, IDWriteTextFormat3.GetAutomaticFontAxes, IDWriteTextFormat3::GetAutomaticFontAxes, GetAutomaticFontAxes, GetAutomaticFontAxes method [Direct Write], GetAutomaticFontAxes method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_getautomaticfontaxes, dwrite_3/IDWriteTextFormat3::GetAutomaticFontAxes
 ms.topic: method

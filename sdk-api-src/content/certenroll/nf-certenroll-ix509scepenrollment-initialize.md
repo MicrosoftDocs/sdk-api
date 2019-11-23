@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.Initialize
 title: IX509SCEPEnrollment::Initialize (certenroll.h)
-author: windows-sdk-content
+
 description: Initialize the instance in preparation for a new request.
 old-location: security\ix509scepenrollment_initialize.htm
 tech.root: seccertenroll
 ms.assetid: dcb887ab-c8b7-42e7-8b49-93755d24ba70
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],Initialize method, IX509SCEPEnrollment.Initialize, IX509SCEPEnrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Initialize, security.ix509scepenrollment_initialize
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcndr.NdrContextHandleMemorySize
 title: NdrContextHandleMemorySize function (rpcndr.h)
-author: windows-sdk-content
+
 description: Returns the size of the supplied RPC context handle as represented in local memory.
 old-location: rpc\ndrcontexthandlememorysize.htm
 tech.root: Rpc
 ms.assetid: f1dd8d13-8d10-4c5c-bb31-b51d38834e88
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NdrContextHandleMemorySize, NdrContextHandleMemorySize function [RPC], rpc.ndrcontexthandlememorysize, rpcndr/NdrContextHandleMemorySize
 ms.topic: function

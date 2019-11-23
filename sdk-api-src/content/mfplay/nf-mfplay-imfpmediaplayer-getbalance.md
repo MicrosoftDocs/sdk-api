@@ -1,12 +1,12 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetBalance
 title: IMFPMediaPlayer::GetBalance (mfplay.h)
-author: windows-sdk-content
+
 description: Gets the current audio balance.
 old-location: mf\imfpmediaplayer_getbalance.htm
 tech.root: medfound
 ms.assetid: 27deeb41-5347-4a6d-bfd4-4e4444540651
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetBalance, GetBalance method [Media Foundation], GetBalance method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetBalance method, IMFPMediaPlayer.GetBalance, IMFPMediaPlayer::GetBalance, mf.imfpmediaplayer_getbalance, mfplay/IMFPMediaPlayer::GetBalance
 ms.topic: method

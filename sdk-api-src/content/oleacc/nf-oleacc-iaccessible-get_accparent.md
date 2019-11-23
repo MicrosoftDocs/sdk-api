@@ -1,12 +1,12 @@
 ---
 UID: NF:oleacc.IAccessible.get_accParent
 title: IAccessible::get_accParent (oleacc.h)
-author: windows-sdk-content
+
 description: The IAccessible::get_accParent method retrieves the IDispatch of the object's parent. All objects support this property.
 old-location: winauto\iaccessible_iaccessible__get_accparent.htm
 tech.root: WinAuto
 ms.assetid: 7c8c5208-ea77-47b2-913d-314ade0313f5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accParent method, IAccessible.get_accParent, IAccessible::get_accParent, _msaa_IAccessible_get_accParent, get_accParent, get_accParent method [Windows Accessibility], get_accParent method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accparent, oleacc/IAccessible::get_accParent, winauto.iaccessible_iaccessible__get_accparent
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.GetSnapshotProperties
 title: IVssFileShareSnapshotProvider::GetSnapshotProperties (vsprov.h)
-author: windows-sdk-content
+
 description: Gets the VSS_SNAPSHOT_PROP structure for a file share snapshot.
 old-location: base\ivssfilesharesnapshotprovider_getsnapshotproperties.htm
 tech.root: VSS
 ms.assetid: db133f55-ed26-4e10-8de1-305bb52de84c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSnapshotProperties, GetSnapshotProperties method [VSS], GetSnapshotProperties method [VSS],IVssFileShareSnapshotProvider interface, IVssFileShareSnapshotProvider interface [VSS],GetSnapshotProperties method, IVssFileShareSnapshotProvider.GetSnapshotProperties, IVssFileShareSnapshotProvider::GetSnapshotProperties, base.ivssfilesharesnapshotprovider_getsnapshotproperties, vsprov/IVssFileShareSnapshotProvider::GetSnapshotProperties
 ms.topic: method

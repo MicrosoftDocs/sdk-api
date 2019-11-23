@@ -1,10 +1,10 @@
 ---
 UID: NS:d3d12.D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA
 title: D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA
-author: windows-sdk-content
+
 description: Represents versioned Device Removed Extended Data (DRED) data.
 tech.root: direct3d12
-ms.author: windowssdkdev
+
 ms.date: 02/06/2019
 ms.keywords: D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA, D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA structure, d3d12/D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA, direct3d12.d3d12_versioned_device_removed_extended_data
 ms.topic: struct

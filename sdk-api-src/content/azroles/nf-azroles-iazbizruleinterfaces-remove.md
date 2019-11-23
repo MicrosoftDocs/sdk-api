@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.Remove
 title: IAzBizRuleInterfaces::Remove (azroles.h)
-author: windows-sdk-content
+
 description: Removes the specified interface from the list of interfaces The number of interfaces in the list of interfaces that can be called by BizRule scripts.
 old-location: security\iazbizruleinterfaces_remove_method.htm
 tech.root: SecAuthZ
 ms.assetid: 398e4151-aeda-48d0-b6f5-e0ea749d0720
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAzBizRuleInterfaces interface [Security],Remove method, IAzBizRuleInterfaces.Remove, IAzBizRuleInterfaces::Remove, Remove, Remove method [Security], Remove method [Security],IAzBizRuleInterfaces interface, azroles/IAzBizRuleInterfaces::Remove, security.iazbizruleinterfaces_remove_method
 ms.topic: method

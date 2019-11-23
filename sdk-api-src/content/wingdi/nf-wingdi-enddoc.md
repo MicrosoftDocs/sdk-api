@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.EndDoc
 title: EndDoc function (wingdi.h)
-author: windows-sdk-content
+
 description: The EndDoc function ends a print job.
 old-location: gdi\enddoc.htm
 tech.root: printdocs
 ms.assetid: bf63ea0f-cc73-4943-9c84-52b3b77e141c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EndDoc, EndDoc function [Windows GDI], _win32_EndDoc, gdi.enddoc, wingdi/EndDoc
 ms.topic: function

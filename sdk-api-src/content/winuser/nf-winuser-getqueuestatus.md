@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetQueueStatus
 title: GetQueueStatus function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the type of messages found in the calling thread's message queue.
 old-location: winmsg\getqueuestatus.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getqueuestatus.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetQueueStatus, GetQueueStatus function [Windows and Messages], QS_ALLEVENTS, QS_ALLINPUT, QS_ALLPOSTMESSAGE, QS_HOTKEY, QS_INPUT, QS_KEY, QS_MOUSE, QS_MOUSEBUTTON, QS_MOUSEMOVE, QS_PAINT, QS_POSTMESSAGE, QS_RAWINPUT, QS_SENDMESSAGE, QS_TIMER, _win32_GetQueueStatus, _win32_getqueuestatus_cpp, winmsg.getqueuestatus, winui._win32_getqueuestatus, winuser/GetQueueStatus
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.EnumChildWindows
 title: EnumChildWindows function (winuser.h)
-author: windows-sdk-content
+
 description: Enumerates the child windows that belong to the specified parent window by passing the handle to each child window, in turn, to an application-defined callback function.
 old-location: winmsg\enumchildwindows.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\enumchildwindows.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumChildWindows, EnumChildWindows function [Windows and Messages], _win32_EnumChildWindows, _win32_enumchildwindows_cpp, winmsg.enumchildwindows, winui._win32_enumchildwindows, winuser/EnumChildWindows
 ms.topic: function

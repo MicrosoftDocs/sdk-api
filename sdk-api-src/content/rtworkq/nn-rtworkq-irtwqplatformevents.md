@@ -1,12 +1,12 @@
 ---
 UID: NN:rtworkq.IRtwqPlatformEvents
 title: IRtwqPlatformEvents (rtworkq.h)
-author: windows-sdk-content
+
 description: Provides events related platform work queue.
 old-location: base\irtwqplatformevents.htm
 tech.root: ProcThread
 ms.assetid: 9184D930-9305-4CA0-8E89-0CBAA5E4D53F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRtwqPlatformEvents, IRtwqPlatformEvents interface, IRtwqPlatformEvents interface,described, base.irtwqplatformevents, rtworkq/IRtwqPlatformEvents
 ms.topic: interface

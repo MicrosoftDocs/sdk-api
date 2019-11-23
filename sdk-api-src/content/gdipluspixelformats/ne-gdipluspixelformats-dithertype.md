@@ -1,12 +1,12 @@
 ---
 UID: NE:gdipluspixelformats.DitherType
 title: DitherType (gdipluspixelformats.h)
-author: windows-sdk-content
+
 description: The DitherType enumeration identifies the available algorithms for dithering when a bitmap is converted.
 old-location: gdiplus\_gdiplus_ENUM_DitherType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\dithertype.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DitherType, DitherType enumeration [GDI+], DitherTypeDualSpiral4x4, DitherTypeDualSpiral8x8, DitherTypeErrorDiffusion, DitherTypeNone, DitherTypeOrdered16x16, DitherTypeOrdered4x4, DitherTypeOrdered8x8, DitherTypeOrdered91x91, DitherTypeSolid, DitherTypeSpiral4x4, DitherTypeSpiral8x8, _gdiplus_ENUM_DitherType, gdiplus._gdiplus_ENUM_DitherType, gdipluspixelformats/DitherType, gdipluspixelformats/DitherTypeDualSpiral4x4, gdipluspixelformats/DitherTypeDualSpiral8x8, gdipluspixelformats/DitherTypeErrorDiffusion, gdipluspixelformats/DitherTypeNone, gdipluspixelformats/DitherTypeOrdered16x16, gdipluspixelformats/DitherTypeOrdered4x4, gdipluspixelformats/DitherTypeOrdered8x8, gdipluspixelformats/DitherTypeOrdered91x91, gdipluspixelformats/DitherTypeSolid, gdipluspixelformats/DitherTypeSpiral4x4, gdipluspixelformats/DitherTypeSpiral8x8
 ms.topic: enum

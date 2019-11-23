@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextRange
 title: IUIAutomationTextRange (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Provides access to a span of continuous text in a container that supports the IUIAutomationTextPattern interface. Client applications can use the IUIAutomationTextRange interface to select, compare, and retrieve embedded objects from the text span.
 old-location: winauto\uiauto_IUIAutomationTextRange.htm
 tech.root: WinAuto
 ms.assetid: 1037919d-c8df-4d46-b3ce-62ee23c92145
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], IUIAutomationTextRange interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTextRange, uiauto_IUIAutomationTextRange, uiautomationclient/IUIAutomationTextRange, winauto.uiauto_IUIAutomationTextRange
 ms.topic: interface

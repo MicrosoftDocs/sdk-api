@@ -1,12 +1,12 @@
 ---
 UID: NF:indexsrv.IWordBreaker.GetLicenseToUse
 title: IWordBreaker::GetLicenseToUse (indexsrv.h)
-author: windows-sdk-content
+
 description: Gets a pointer to the license information for this implementation of the IWordBreaker interface.
 old-location: search\_search_IWordBreaker_GetLicenseToUse.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\getlicensetouse.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse method [search],IWordBreaker interface, IWordBreaker interface [search],GetLicenseToUse method, IWordBreaker.GetLicenseToUse, IWordBreaker::GetLicenseToUse, _search_IWordBreaker_GetLicenseToUse, indexsrv/IWordBreaker::GetLicenseToUse, search._search_IWordBreaker_GetLicenseToUse
 ms.topic: method

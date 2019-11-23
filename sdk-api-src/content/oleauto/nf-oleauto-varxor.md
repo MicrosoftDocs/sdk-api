@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarXor
 title: VarXor function (oleauto.h)
-author: windows-sdk-content
+
 description: Performs a logical exclusion on two variants.
 old-location: automat\varxor.htm
 tech.root: automat
 ms.assetid: 5a9ebe42-07a0-4bb8-afb7-24d18ce32768
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarXor, VarXor function [Automation], _oa96_VarXor, automat.varxor, oleauto/VarXor
 ms.topic: function

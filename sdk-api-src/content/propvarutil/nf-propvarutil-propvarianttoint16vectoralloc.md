@@ -1,12 +1,12 @@
 ---
 UID: NF:propvarutil.PropVariantToInt16VectorAlloc
 title: PropVariantToInt16VectorAlloc function (propvarutil.h)
-author: windows-sdk-content
+
 description: Extracts data from a PROPVARIANT structure into a newly allocated Int16 vector.
 old-location: properties\PropVariantToInt16VectorAlloc.htm
 tech.root: properties
 ms.assetid: 489aff33-2faa-480a-a146-67f6ef4b8b93
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt16VectorAlloc, PropVariantToInt16VectorAlloc function [Windows Properties], _shell_PropVariantToInt16VectorAlloc, properties.PropVariantToInt16VectorAlloc, propvarutil/PropVariantToInt16VectorAlloc, shell.PropVariantToInt16VectorAlloc
 ms.topic: function

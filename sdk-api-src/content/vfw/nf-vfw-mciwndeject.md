@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndEject
 title: MCIWndEject macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndEject macro sends a command to an MCI device to eject its media. You can use this macro or explicitly send the MCIWNDM_EJECT message.
 old-location: multimedia\mciwndeject.htm
 tech.root: Multimedia
 ms.assetid: 7d86cc61-849d-40a3-9e8f-e319b0c9ea48
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndEject, MCIWndEject macro [Windows Multimedia], _win32_MCIWndEject, multimedia.mciwndeject, vfw/MCIWndEject
 ms.topic: macro

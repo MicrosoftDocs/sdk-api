@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.GetCurrentTransform
 title: IDWriteBitmapRenderTarget::GetCurrentTransform (dwrite.h)
-author: windows-sdk-content
+
 description: Gets the transform that maps abstract coordinates to DIPs. By default this is the identity transform. Note that this is unrelated to the world transform of the underlying device context.
 old-location: directwrite\IDWriteBitmapRenderTarget_GetCurrentTransform.htm
 tech.root: DirectWrite
 ms.assetid: 7f84e38e-f0e8-4cf7-bad0-d41f24ce9499
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCurrentTransform, GetCurrentTransform method [Direct Write], GetCurrentTransform method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetCurrentTransform method, IDWriteBitmapRenderTarget.GetCurrentTransform, IDWriteBitmapRenderTarget::GetCurrentTransform, directwrite.IDWriteBitmapRenderTarget_GetCurrentTransform, dwrite/IDWriteBitmapRenderTarget::GetCurrentTransform
 ms.topic: method

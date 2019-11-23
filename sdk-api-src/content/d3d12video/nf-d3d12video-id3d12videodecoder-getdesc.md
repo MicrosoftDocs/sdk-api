@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecoder.GetDesc
 title: ID3D12VideoDecoder::GetDesc
-author: windows-sdk-content
+
 description: Gets the D3D12_VIDEO_DECODER_DESC structure that was passed into ID3D12VideoDevice::CreateVideoDecoder when the ID3D12VideoDecoder was created.
 tech.root: mf
 ms.assetid: 235bcf2c-52b6-4390-821e-10d1e2d78bb6
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

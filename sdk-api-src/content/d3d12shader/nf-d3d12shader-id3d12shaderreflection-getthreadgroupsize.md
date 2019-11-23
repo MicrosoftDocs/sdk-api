@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetThreadGroupSize
 title: ID3D12ShaderReflection::GetThreadGroupSize (d3d12shader.h)
-author: windows-sdk-content
+
 description: Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the shader's thread-group grid.
 old-location: direct3d12\id3d12shaderreflection_getthreadgroupsize.htm
 tech.root: direct3d12
 ms.assetid: C34A76B7-2410-4F0D-B2EC-8C62CD70DFE0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetThreadGroupSize, GetThreadGroupSize method, GetThreadGroupSize method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetThreadGroupSize method, ID3D12ShaderReflection.GetThreadGroupSize, ID3D12ShaderReflection::GetThreadGroupSize, d3d12shader/ID3D12ShaderReflection::GetThreadGroupSize, direct3d12.id3d12shaderreflection_getthreadgroupsize
 ms.topic: method

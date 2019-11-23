@@ -1,12 +1,12 @@
 ---
 UID: NC:dhcpssdk.LPDHCP_GIVE_ADDRESS
 title: LPDHCP_GIVE_ADDRESS (dhcpssdk.h)
-author: windows-sdk-content
+
 description: The DhcpAddressOfferHook function is called by Microsoft DHCP Server directly before Microsoft DHCP Server sends an acknowledgement (ACK) to a DHCP REQUEST message.
 old-location: dhcp\dhcpaddressofferhook.htm
 tech.root: DHCP
 ms.assetid: 1c122657-a92a-4232-879a-12105dc967e1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DHCP_CLIENT_BOOTP, DHCP_CLIENT_DHCP, DhcpAddressOfferHook, DhcpAddressOfferHook callback function [DHCP], LPDHCP_GIVE_ADDRESS, LPDHCP_GIVE_ADDRESS callback, _dhcp_dhcpaddressofferhook, dhcp.dhcpaddressofferhook, dhcpssdk/DhcpAddressOfferHook
 ms.topic: callback

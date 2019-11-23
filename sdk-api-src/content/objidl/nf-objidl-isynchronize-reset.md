@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.ISynchronize.Reset
 title: ISynchronize::Reset (objidl.h)
-author: windows-sdk-content
+
 description: Sets the synchronization object to the nonsignaled state.
 old-location: com\isynchronize_reset.htm
 tech.root: com
 ms.assetid: 33c56a33-9954-4612-ba0f-396ccdc48bf3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISynchronize interface [COM],Reset method, ISynchronize.Reset, ISynchronize::Reset, Reset, Reset method [COM], Reset method [COM],ISynchronize interface, _com_isynchronize_reset, com.isynchronize_reset, objidlbase/ISynchronize::Reset
 ms.topic: method

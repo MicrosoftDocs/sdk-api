@@ -1,12 +1,12 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetworkNotificationSink.OnConnectFail
 title: IDot11AdHocNetworkNotificationSink::OnConnectFail (adhoc.h)
-author: windows-sdk-content
+
 description: Notifies the client that a connection attempt failed.
 old-location: nwifi\idot11adhocnetworknotificationsink_onconnectfail.htm
 tech.root: NativeWiFi
 ms.assetid: b38143c8-4e90-4f5d-b9f5-15bd1fd7e1c5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocNetworkNotificationSink interface [NativeWIFI],OnConnectFail method, IDot11AdHocNetworkNotificationSink.OnConnectFail, IDot11AdHocNetworkNotificationSink::OnConnectFail, OnConnectFail, OnConnectFail method [NativeWIFI], OnConnectFail method [NativeWIFI],IDot11AdHocNetworkNotificationSink interface, adhoc/IDot11AdHocNetworkNotificationSink::OnConnectFail, nwifi.idot11adhocnetworknotificationsink_onconnectfail
 ms.topic: method

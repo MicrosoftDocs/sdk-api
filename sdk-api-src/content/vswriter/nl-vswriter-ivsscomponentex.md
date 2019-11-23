@@ -1,12 +1,12 @@
 ---
 UID: NL:vswriter.IVssComponentEx
 title: IVssComponentEx (vswriter.h)
-author: windows-sdk-content
+
 description: Defines additional methods for examining and modifying information about components contained in a requester's Backup Components Document.
 old-location: base\ivsscomponentex.htm
 tech.root: VSS
 ms.assetid: b11f65b0-2de2-478b-88b6-4696a8da2419
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx, IVssComponentEx interface, IVssComponentEx interface,described, base.ivsscomponentex, vswriter/IVssComponentEx
 ms.topic: class

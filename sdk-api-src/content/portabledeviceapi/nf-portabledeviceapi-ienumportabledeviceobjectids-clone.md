@@ -1,12 +1,12 @@
 ---
 UID: NF:portabledeviceapi.IEnumPortableDeviceObjectIDs.Clone
 title: IEnumPortableDeviceObjectIDs::Clone (portabledeviceapi.h)
-author: windows-sdk-content
+
 description: The Clone method duplicates the current IEnumPortableDeviceObjectIDs interface.
 old-location: wpdsdk\ienumportabledeviceobjectids_clone.htm
 tech.root: wpd_sdk
 ms.assetid: 70287534-501f-480d-85ee-64049a0938fb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Portable Devices SDK], Clone method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Clone method, IEnumPortableDeviceObjectIDs.Clone, IEnumPortableDeviceObjectIDs::Clone, IEnumPortableDeviceObjectIDsClone, portabledeviceapi/IEnumPortableDeviceObjectIDs::Clone, wpdsdk.ienumportabledeviceobjectids_clone
 ms.topic: method

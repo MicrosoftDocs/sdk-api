@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediacapture.IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings
 title: IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings (mfmediacapture.h)
-author: windows-sdk-content
+
 description: Gets the advanced media capture settings.
 old-location: mf\iadvancedmediacapture_getadvancedmediacapturesettings.htm
 tech.root: medfound
 ms.assetid: 88c65141-9cc3-4da3-adee-06727152ba8b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAdvancedMediaCaptureSettings, GetAdvancedMediaCaptureSettings method [Media Foundation], GetAdvancedMediaCaptureSettings method [Media Foundation],IAdvancedMediaCapture interface, IAdvancedMediaCapture interface [Media Foundation],GetAdvancedMediaCaptureSettings method, IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings, IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings, mf.iadvancedmediacapture_getadvancedmediacapturesettings, mfmediacapture/IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings
 ms.topic: method

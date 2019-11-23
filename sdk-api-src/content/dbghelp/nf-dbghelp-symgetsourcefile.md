@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymGetSourceFile
 title: SymGetSourceFile function (dbghelp.h)
-author: windows-sdk-content
+
 description: Retrieves the specified source file from the source server.
 old-location: base\symgetsourcefile.htm
 tech.root: Debug
 ms.assetid: 1d2115fb-2725-4fae-abb7-ff1b8a802c69
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SymGetSourceFile, SymGetSourceFile function, SymGetSourceFileW, base.symgetsourcefile, dbghelp/SymGetSourceFile, dbghelp/SymGetSourceFileW
 ms.topic: function

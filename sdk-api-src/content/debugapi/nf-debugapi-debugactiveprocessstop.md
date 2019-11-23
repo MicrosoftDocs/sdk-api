@@ -1,12 +1,12 @@
 ---
 UID: NF:debugapi.DebugActiveProcessStop
 title: DebugActiveProcessStop function (debugapi.h)
-author: windows-sdk-content
+
 description: Stops the debugger from debugging the specified process.
 old-location: base\debugactiveprocessstop.htm
 tech.root: Debug
 ms.assetid: 29d1a6d1-0c10-43c1-bef1-b063f07b16a4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DebugActiveProcessStop, DebugActiveProcessStop function, _win32_debugactiveprocessstop, base.debugactiveprocessstop, debugapi/DebugActiveProcessStop
 ms.topic: function

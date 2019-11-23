@@ -1,12 +1,12 @@
 ---
 UID: NS:winioctl._FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 title: FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
-author: windows-sdk-content
+
 description: Contains the integrity information for a file or directory.
 old-location: fs\fsctl_get_integrity_information_buffer.htm
 tech.root: FileIO
 ms.assetid: ab87f987-b734-4ad0-af16-1ba967db48d7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER, CHECKSUM_TYPE_CRC64, CHECKSUM_TYPE_NONE, FSCTL_GET_INTEGRITY_INFORMATION_BUFFER, FSCTL_GET_INTEGRITY_INFORMATION_BUFFER structure [Files], FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF, PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER, PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER structure pointer [Files], fs.fsctl_get_integrity_information_buffer, winioctl/FSCTL_GET_INTEGRITY_INFORMATION_BUFFER, winioctl/PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER"
 ms.topic: struct

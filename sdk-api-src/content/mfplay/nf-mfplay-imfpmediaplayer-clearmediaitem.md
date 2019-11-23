@@ -1,12 +1,12 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.ClearMediaItem
 title: IMFPMediaPlayer::ClearMediaItem (mfplay.h)
-author: windows-sdk-content
+
 description: Clears the current media item.
 old-location: mf\imfpmediaplayer_clearmediaitem.htm
 tech.root: medfound
 ms.assetid: 2c2b23ab-b282-445f-a5a0-4291ee6f22ba
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClearMediaItem, ClearMediaItem method [Media Foundation], ClearMediaItem method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],ClearMediaItem method, IMFPMediaPlayer.ClearMediaItem, IMFPMediaPlayer::ClearMediaItem, mf.imfpmediaplayer_clearmediaitem, mfplay/IMFPMediaPlayer::ClearMediaItem
 ms.topic: method

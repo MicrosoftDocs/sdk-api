@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet3.GetFontSourceNameLength
 title: IDWriteFontSet3::GetFontSourceNameLength
-author: windows-sdk-content
+
 description: Retrieves the length of the font source name for the specified font.
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet3 interface [Direct Write],GetFontSourceNameLength method, IDWriteFontSet3.GetFontSourceNameLength, IDWriteFontSet3::GetFontSourceNameLength, GetFontSourceNameLength, GetFontSourceNameLength method [Direct Write], GetFontSourceNameLength method [Direct Write],IDWriteFontSet3 interface, directwrite.idwritefontset3_getfontsourcenamelength, dwrite_3/IDWriteFontSet3::GetFontSourceNameLength
 ms.topic: method

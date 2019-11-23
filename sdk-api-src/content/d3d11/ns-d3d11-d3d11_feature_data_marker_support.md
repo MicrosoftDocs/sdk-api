@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_MARKER_SUPPORT
 title: D3D11_FEATURE_DATA_MARKER_SUPPORT (d3d11.h)
-author: windows-sdk-content
+
 description: Describes whether a GPU profiling technique is supported.
 old-location: direct3d11\d3d11_feature_data_marker_support.htm
 tech.root: direct3d11
 ms.assetid: 950381BB-E8F6-416D-8F36-CC3591E71703
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_MARKER_SUPPORT, D3D11_FEATURE_DATA_MARKER_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_MARKER_SUPPORT, direct3d11.d3d11_feature_data_marker_support
 ms.topic: struct

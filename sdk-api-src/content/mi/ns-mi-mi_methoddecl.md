@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_MethodDecl
 title: MI_MethodDecl (mi.h)
-author: windows-sdk-content
+
 description: Represents a CIM method.
 old-location: wmi_v2\mi_methoddecl.htm
 tech.root: wmi_v2
 ms.assetid: 50087394-44C2-4CE5-8952-9795FE9B236A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_METHOD, MI_FLAG_STATIC, MI_MethodDecl, MI_MethodDecl structure [Windows Management Infrastructure (MI)], mi/MI_MethodDecl, wmi_v2.mi_methoddecl
 ms.topic: struct

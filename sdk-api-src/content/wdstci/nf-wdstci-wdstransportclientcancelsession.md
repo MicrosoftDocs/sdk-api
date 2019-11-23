@@ -1,12 +1,12 @@
 ---
 UID: NF:wdstci.WdsTransportClientCancelSession
 title: WdsTransportClientCancelSession function (wdstci.h)
-author: windows-sdk-content
+
 description: Releases the resources associated with a session in the client.
 old-location: wds\wdstransportclientcancelsession.htm
 tech.root: wds
 ms.assetid: 96348bbf-e1b6-4889-a2a6-59d265c1a031
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientCancelSession, WdsTransportClientCancelSession function [Windows Deployment Services], wds.wdstransportclientcancelsession, wdstci/WdsTransportClientCancelSession
 ms.topic: function

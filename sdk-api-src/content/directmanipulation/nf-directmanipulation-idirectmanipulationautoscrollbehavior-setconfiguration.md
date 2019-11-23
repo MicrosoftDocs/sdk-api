@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationAutoScrollBehavior.SetConfiguration
 title: IDirectManipulationAutoScrollBehavior::SetConfiguration (directmanipulation.h)
-author: windows-sdk-content
+
 description: Performs the auto-scroll animation for the viewport this behavior is attached to.
 old-location: directmanipulation\idirectmanipulationautoscrollbehavior_setconfiguration.htm
 tech.root: directmanipulation
 ms.assetid: 2DE988EA-8690-4AF2-A545-8226032D6E83
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationAutoScrollBehavior interface [Direct Manipulation],SetConfiguration method, IDirectManipulationAutoScrollBehavior.SetConfiguration, IDirectManipulationAutoScrollBehavior::SetConfiguration, SetConfiguration, SetConfiguration method [Direct Manipulation], SetConfiguration method [Direct Manipulation],IDirectManipulationAutoScrollBehavior interface, directmanipulation.idirectmanipulationautoscrollbehavior_setconfiguration, directmanipulation/IDirectManipulationAutoScrollBehavior::SetConfiguration
 ms.topic: method

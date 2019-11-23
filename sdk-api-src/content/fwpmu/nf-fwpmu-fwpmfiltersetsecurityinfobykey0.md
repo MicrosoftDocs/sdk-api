@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmFilterSetSecurityInfoByKey0
 title: FwpmFilterSetSecurityInfoByKey0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Sets specified security information in the security descriptor of a filter object.
 old-location: fwp\fwpmfiltersetsecurityinfobykey0_func.htm
 tech.root: fwp
 ms.assetid: 01dac90a-98a0-46b7-8d9e-ce5fdf8014a9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterSetSecurityInfoByKey0, FwpmFilterSetSecurityInfoByKey0 function [Filtering], fwp.fwpmfiltersetsecurityinfobykey0_func, fwpmu/FwpmFilterSetSecurityInfoByKey0
 ms.topic: function

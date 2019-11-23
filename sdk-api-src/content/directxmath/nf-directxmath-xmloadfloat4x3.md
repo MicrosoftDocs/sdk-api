@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMLoadFloat4x3
 title: XMLoadFloat4x3 function (directxmath.h)
-author: windows-sdk-content
+
 description: Loads an XMFLOAT4X3 into an XMMATRIX.
 old-location: dxmath\xmloadfloat4x3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat4x3(const XMFLOAT4X3)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadFloat4x3, XMLoadFloat4x3, XMLoadFloat4x3 method [DirectX Math Support APIs], dxmath.xmloadfloat4x3
 ms.topic: function

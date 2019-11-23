@@ -1,12 +1,12 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetTemplate
 title: IWMPContentPartner::GetTemplate (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_gettemplate.htm
 tech.root: WMP
 ms.assetid: 4bfe7d84-9f65-4bd4-867a-65c96291397d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTemplate, GetTemplate method [Windows Media Player], GetTemplate method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetTemplate method, IWMPContentPartner.GetTemplate, IWMPContentPartner::GetTemplate, IWMPContentPartnerGetTemplate, contentpartner/IWMPContentPartner::GetTemplate, wmp.iwmpcontentpartner_gettemplate
 ms.topic: method

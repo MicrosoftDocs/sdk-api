@@ -1,12 +1,12 @@
 ---
 UID: NF:xamlom.IBitmapData.CopyBytesTo
 title: IBitmapData::CopyBytesTo (xamlom.h)
-author: windows-sdk-content
+
 description: Copies up to the specified maximum number of bytes from the given offset in the bitmap data into the caller’s buffer (pvBytes), and returns the number of bytes copied.
 old-location: xaml_diagnostics\ibitmapdata_copybytesto.htm
 tech.root: xaml_diagnostics
 ms.assetid: 8E8CB014-D394-4457-8AC7-773A87EE2643
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CopyBytesTo, CopyBytesTo method, CopyBytesTo method,IBitmapData interface, IBitmapData interface,CopyBytesTo method, IBitmapData.CopyBytesTo, IBitmapData::CopyBytesTo, xaml_diagnostics.ibitmapdata_copybytesto, xamlom/IBitmapData::CopyBytesTo
 ms.topic: method

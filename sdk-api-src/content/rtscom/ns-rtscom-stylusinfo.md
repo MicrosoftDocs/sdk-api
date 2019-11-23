@@ -1,12 +1,12 @@
 ---
 UID: NS:rtscom.StylusInfo
 title: StylusInfo (rtscom.h)
-author: windows-sdk-content
+
 description: Provides information about the stylus.
 old-location: tablet\stylusinfo.htm
 tech.root: tablet
 ms.assetid: d2642082-e18c-4f91-b08c-e25aa388a2a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: StylusInfo, StylusInfo structure [Tablet PC], d2642082-e18c-4f91-b08c-e25aa388a2a3, rtscom/StylusInfo, tablet.stylusinfo
 ms.topic: struct

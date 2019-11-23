@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpGetOptionInfoV5
 title: DhcpGetOptionInfoV5 function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: The DhcpGetOptionInfoV5 function returns information on a specific DHCP option.
 old-location: dhcp\dhcpgetoptioninfov5.htm
 tech.root: DHCP
 ms.assetid: bf7b744d-da02-4c2f-b29a-e2b9b3fe3881
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionInfoV5, DhcpGetOptionInfoV5 function [DHCP], dhcp.dhcpgetoptioninfov5, dhcpsapi/DhcpGetOptionInfoV5
 ms.topic: function

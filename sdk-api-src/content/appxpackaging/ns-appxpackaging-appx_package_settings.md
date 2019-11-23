@@ -1,12 +1,12 @@
 ---
 UID: NS:appxpackaging.APPX_PACKAGE_SETTINGS
 title: APPX_PACKAGE_SETTINGS (appxpackaging.h)
-author: windows-sdk-content
+
 description: Represents package settings used to create a package.
 old-location: appxpkg\appx_package_settings.htm
 tech.root: appxpkg
 ms.assetid: 85874BCD-44EF-4442-96B8-F22AC4247DB4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: APPX_PACKAGE_SETTINGS, APPX_PACKAGE_SETTINGS structure [App packaging and management], appxpackaging/APPX_PACKAGE_SETTINGS, appxpkg.appx_package_settings
 ms.topic: struct

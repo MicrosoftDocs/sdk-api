@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_SET_ZERO_DATA
 title: FSCTL_SET_ZERO_DATA
-author: windows-sdk-content
+
 description: Fills a specified range of a file with zeros (0).
 old-location: fs\fsctl_set_zero_data.htm
 tech.root: FileIO
 ms.assetid: ee32f836-682e-4c26-b7d6-82e3b7b234f9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_ZERO_DATA, FSCTL_SET_ZERO_DATA control, FSCTL_SET_ZERO_DATA control code [Files], _win32_fsctl_set_zero_data, base.fsctl_set_zero_data, fs.fsctl_set_zero_data, winioctl/FSCTL_SET_ZERO_DATA
 ms.topic: ioctl

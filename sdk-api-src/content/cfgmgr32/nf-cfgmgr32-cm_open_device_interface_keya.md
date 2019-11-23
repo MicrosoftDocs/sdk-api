@@ -1,12 +1,12 @@
 ---
 UID: NF:cfgmgr32.CM_Open_Device_Interface_KeyA
 title: CM_Open_Device_Interface_KeyA function (cfgmgr32.h)
-author: windows-sdk-content
+
 description: The CM_Open_Device_Interface_Key function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.
 old-location: devinst\cm_open_device_interface_key.htm
 tech.root: devinst
 ms.assetid: 71802D33-9024-4D7F-9120-8EEFECA53A60
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CM_Open_Device_Interface_Key, CM_Open_Device_Interface_Key function [Device and Driver Installation], CM_Open_Device_Interface_KeyA, CM_Open_Device_Interface_KeyW, cfgmgr32/CM_Open_Device_Interface_Key, cfgmgr32/CM_Open_Device_Interface_KeyA, cfgmgr32/CM_Open_Device_Interface_KeyW, devinst.cm_open_device_interface_key
 ms.topic: function

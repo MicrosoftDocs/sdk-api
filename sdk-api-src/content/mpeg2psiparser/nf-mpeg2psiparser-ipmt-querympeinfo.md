@@ -1,12 +1,12 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.QueryMPEInfo
 title: IPMT::QueryMPEInfo (mpeg2psiparser.h)
-author: windows-sdk-content
+
 description: The QueryMPEInfo method returns the multi-protocol encapsulation (MPE) information in the PMT, if any.
 old-location: mstv\ipmt_querympeinfo.htm
 tech.root: mstv
 ms.assetid: 14611397-7885-4553-905e-db56404f5e97
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],QueryMPEInfo method, IPMT.QueryMPEInfo, IPMT::QueryMPEInfo, IPMTQueryMPEInfo, QueryMPEInfo, QueryMPEInfo method [Microsoft TV Technologies], QueryMPEInfo method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::QueryMPEInfo, mstv.ipmt_querympeinfo
 ms.topic: method

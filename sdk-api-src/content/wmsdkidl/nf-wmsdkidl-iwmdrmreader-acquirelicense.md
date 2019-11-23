@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.AcquireLicense
 title: IWMDRMReader::AcquireLicense (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The AcquireLicense method begins the license acquisition process.
 old-location: wmformat\iwmdrmreader_acquirelicense.htm
 tech.root: wmformat
 ms.assetid: 757e0926-81aa-48f2-9820-67c8dd51579d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AcquireLicense, AcquireLicense method [windows Media Format], AcquireLicense method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],AcquireLicense method, IWMDRMReader.AcquireLicense, IWMDRMReader::AcquireLicense, IWMDRMReaderAcquireLicense, wmformat.iwmdrmreader_acquirelicense, wmsdkidl/IWMDRMReader::AcquireLicense
 ms.topic: method

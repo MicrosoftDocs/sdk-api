@@ -1,12 +1,12 @@
 ---
 UID: NS:wtsdefs._WTS_DISPLAY_IOCTL
 title: WTS_DISPLAY_IOCTL (wtsdefs.h)
-author: windows-sdk-content
+
 description: Contains information about the client display.
 old-location: termserv\wts_display_ioctl.htm
 tech.root: TermServ
 ms.assetid: 1a052b7c-8c15-4921-8548-8fa461210e9a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_DISPLAY_IOCTL, PWRDS_DISPLAY_IOCTL, PWRDS_DISPLAY_IOCTL structure pointer [Remote Desktop Services], PWTS_DISPLAY_IOCTL, PWTS_DISPLAY_IOCTL structure pointer [Remote Desktop Services], WRDS_DISPLAY_IOCTL, WRDS_DISPLAY_IOCTL structure [Remote Desktop Services], WTS_DISPLAY_IOCTL, WTS_DISPLAY_IOCTL structure [Remote Desktop Services], termserv.wts_display_ioctl, wtsdefs/PWRDS_DISPLAY_IOCTL, wtsdefs/PWTS_DISPLAY_IOCTL, wtsdefs/WRDS_DISPLAY_IOCTL, wtsdefs/WTS_DISPLAY_IOCTL"
 ms.topic: struct

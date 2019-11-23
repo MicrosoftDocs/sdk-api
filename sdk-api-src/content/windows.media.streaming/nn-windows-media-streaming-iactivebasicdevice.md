@@ -1,12 +1,12 @@
 ---
 UID: NN:windows.media.streaming.IActiveBasicDevice
 title: IActiveBasicDevice (windows.media.streaming.h)
-author: windows-sdk-content
+
 description: Represents an active IBasicDevice that is associated with a UPnP device.
 old-location: mediastreaming\iactivebasicdevice.htm
 tech.root: mediastreaming
 ms.assetid: 97544BF4-188F-4CE3-9436-EB7F3E706E94
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IActiveBasicDevice, IActiveBasicDevice interface [Media Streaming API], IActiveBasicDevice interface [Media Streaming API],described, mediastreaming.iactivebasicdevice, windows/IActiveBasicDevice
 ms.topic: interface

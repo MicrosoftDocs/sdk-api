@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.TextPattern_get_SupportedTextSelection
 title: TextPattern_get_SupportedTextSelection function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Ascertains whether the text container's contents can be selected and deselected.
 old-location: winauto\uiauto_TextPattern_get_SupportedTextSelectionConPat.htm
 tech.root: WinAuto
 ms.assetid: d938197b-9500-4744-a0d7-0d0ac5dd58b9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TextPattern_get_SupportedTextSelection, TextPattern_get_SupportedTextSelection function [Windows Accessibility], uiauto.uiauto_TextPattern_get_SupportedTextSelectionConPat, uiauto_TextPattern_get_SupportedTextSelectionConPat, uiautomationcoreapi/TextPattern_get_SupportedTextSelection, winauto.uiauto_TextPattern_get_SupportedTextSelectionConPat
 ms.topic: function

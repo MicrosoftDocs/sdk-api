@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcoreapi.UiaReturnRawElementProvider
 title: UiaReturnRawElementProvider function (uiautomationcoreapi.h)
-author: windows-sdk-content
+
 description: Gets an interface to the UI Automation provider for a window.
 old-location: winauto\uiauto_UiaReturnRawElementProviderFunction.htm
 tech.root: WinAuto
 ms.assetid: 800dfad2-2263-4069-a1fe-f737842b3357
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: UiaReturnRawElementProvider, UiaReturnRawElementProvider function [Windows Accessibility], uiauto.uiauto_UiaReturnRawElementProviderFunction, uiauto_UiaReturnRawElementProviderFunction, uiautomationcoreapi/UiaReturnRawElementProvider, winauto.uiauto_UiaReturnRawElementProviderFunction
 ms.topic: function

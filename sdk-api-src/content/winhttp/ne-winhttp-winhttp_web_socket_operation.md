@@ -1,12 +1,12 @@
 ---
 UID: NE:winhttp._WINHTTP_WEB_SOCKET_OPERATION
 title: WINHTTP_WEB_SOCKET_OPERATION (winhttp.h)
-author: windows-sdk-content
+
 description: The WINHTTP_WEB_SOCKET_OPERATION enumeration includes the WebSocket operation type.
 old-location: http\winhttp_web_socket_operation.htm
 tech.root: WinHttp
 ms.assetid: 0db68b44-dbf4-4aa2-9bb7-3a5502ef39e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_WEB_SOCKET_CLOSE_OPERATION, WINHTTP_WEB_SOCKET_OPERATION, WINHTTP_WEB_SOCKET_OPERATION enumeration [HTTP], WINHTTP_WEB_SOCKET_RECEIVE_OPERATION, WINHTTP_WEB_SOCKET_SEND_OPERATION, WINHTTP_WEB_SOCKET_SHUTDOWN_OPERATION, http.winhttp_web_socket_operation, winhttp/WINHTTP_WEB_SOCKET_CLOSE_OPERATION, winhttp/WINHTTP_WEB_SOCKET_OPERATION, winhttp/WINHTTP_WEB_SOCKET_RECEIVE_OPERATION, winhttp/WINHTTP_WEB_SOCKET_SEND_OPERATION, winhttp/WINHTTP_WEB_SOCKET_SHUTDOWN_OPERATION
 ms.topic: enum

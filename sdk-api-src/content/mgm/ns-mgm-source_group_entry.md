@@ -1,12 +1,12 @@
 ---
 UID: NS:mgm._SOURCE_GROUP_ENTRY
 title: SOURCE_GROUP_ENTRY (mgm.h)
-author: windows-sdk-content
+
 description: The SOURCE_GROUP_ENTRY structure describes the entry returned by the group enumeration function MgmGroupEnumerationGetNext.
 old-location: rras\source_group_entry_str.htm
 tech.root: RRAS
 ms.assetid: 4964ccd9-e169-4afa-a9b3-1e4e4afb88c4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PSOURCE_GROUP_ENTRY, PSOURCE_GROUP_ENTRY, PSOURCE_GROUP_ENTRY structure pointer [RAS], SOURCE_GROUP_ENTRY, SOURCE_GROUP_ENTRY structure [RAS], _mpr_source_group_entry_str, mgm/PSOURCE_GROUP_ENTRY, mgm/SOURCE_GROUP_ENTRY, rras.source_group_entry_str'
 ms.topic: struct

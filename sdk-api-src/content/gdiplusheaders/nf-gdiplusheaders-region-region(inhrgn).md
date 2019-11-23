@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Region.Region(IN HRGN)
 title: Region::Region(IN HRGN) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: Creates a region that is identical to the region that is specified by a handle to a Windows Graphics Device Interface (GDI) region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Region_hRgn_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_79hrgn.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(HRGN), Region.Region(IN HRGN), Region::Region, Region::Region(IN HRGN), _gdiplus_CLASS_Region_Region_hRgn_, gdiplus._gdiplus_CLASS_Region_Region_hRgn_
 ms.topic: method

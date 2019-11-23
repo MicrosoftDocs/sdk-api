@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList1.ProcessFrames1
 title: ID3D12VideoProcessCommandList1::ProcessFrames1
-author: windows-sdk-content
+
 description: Records a video processing operation to the command list, operating on one or more input samples and writing the result to an output surface.
 tech.root: mf
 ms.assetid: a0310ab9-bf11-4a40-a463-6ad6cf7fd3eb
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

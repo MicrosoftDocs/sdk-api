@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IOleObject.InitFromData
 title: IOleObject::InitFromData (oleidl.h)
-author: windows-sdk-content
+
 description: Initializes a newly created object with data from a specified data object, which can reside either in the same container or on the Clipboard.
 old-location: com\ioleobject_initfromdata.htm
 tech.root: com
 ms.assetid: 8bbda602-4421-4f79-a33a-63ded9a8bf90
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],InitFromData method, IOleObject.InitFromData, IOleObject::InitFromData, InitFromData, InitFromData method [COM], InitFromData method [COM],IOleObject interface, _ole_ioleobject_initfromdata, com.ioleobject_initfromdata, oleidl/IOleObject::InitFromData
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:indexsrv.IPhraseSink
 title: IPhraseSink (indexsrv.h)
-author: windows-sdk-content
+
 description: Handles phrases that word breakers parse from query text during query time.
 old-location: indexsrv\iphrasesink.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_3asr.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPhraseSink, IPhraseSink interface [Indexing Service], IPhraseSink interface [Indexing Service],described, _idxs_PhraseSink, indexsrv.iphrasesink, indexsrv/IPhraseSink
 ms.topic: interface

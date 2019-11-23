@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadSessionProvider.CreateHttpDownloadSession
 title: IMFHttpDownloadSessionProvider::CreateHttpDownloadSession (mfidl.h)
-author: windows-sdk-content
+
 description: Called by the Microsoft Media Foundation to open HTTP or HTTPS URLs instead of using the default implementation.
 old-location: mf\imfhttpdownloadsessionprovider_createhttpdownloadsession.htm
 tech.root: medfound
 ms.assetid: D9DAE789-1C0E-42B4-87B6-593D3B67FE1F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateHttpDownloadSession, CreateHttpDownloadSession method [Media Foundation], CreateHttpDownloadSession method [Media Foundation],IMFHttpDownloadSessionProvider interface, IMFHttpDownloadSessionProvider interface [Media Foundation],CreateHttpDownloadSession method, IMFHttpDownloadSessionProvider.CreateHttpDownloadSession, IMFHttpDownloadSessionProvider::CreateHttpDownloadSession, mf.imfhttpdownloadsessionprovider_createhttpdownloadsession, mfidl/IMFHttpDownloadSessionProvider::CreateHttpDownloadSession
 ms.topic: method

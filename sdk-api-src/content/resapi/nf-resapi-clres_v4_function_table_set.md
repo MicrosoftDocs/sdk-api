@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.CLRES_V4_FUNCTION_TABLE_SET
 title: CLRES_V4_FUNCTION_TABLE_SET macro (resapi.h)
-author: windows-sdk-content
+
 description: Initializes a function table for version 4.0 of the Resource API.
 old-location: mscs\clres_v4_function_table_set.htm
 tech.root: MsCS
 ms.assetid: 85A3B088-0F69-4879-A844-E8834F832ED6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CLRES_V4_FUNCTION_TABLE_SET, CLRES_V4_FUNCTION_TABLE_SET macro [Failover Cluster], mscs.clres_v4_function_table_set, resapi/CLRES_V4_FUNCTION_TABLE_SET
 ms.topic: macro

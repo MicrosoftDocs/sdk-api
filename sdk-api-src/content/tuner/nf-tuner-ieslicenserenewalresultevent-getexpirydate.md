@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetExpiryDate
 title: IESLicenseRenewalResultEvent::GetExpiryDate (tuner.h)
-author: windows-sdk-content
+
 description: Gets the expiry date of a renewed protected-content license from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent_getexpirydate.htm
 tech.root: mstv
 ms.assetid: b237eeb3-d04f-432a-8c7a-538882b5ad02
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetExpiryDate, GetExpiryDate method [DirectShow], GetExpiryDate method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetExpiryDate method, IESLicenseRenewalResultEvent.GetExpiryDate, IESLicenseRenewalResultEvent::GetExpiryDate, mstv.ieslicenserenewalresultevent_getexpirydate, tuner/IESLicenseRenewalResultEvent::GetExpiryDate
 ms.topic: method

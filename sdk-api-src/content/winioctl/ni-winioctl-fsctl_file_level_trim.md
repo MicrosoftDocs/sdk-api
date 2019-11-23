@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_FILE_LEVEL_TRIM
 title: FSCTL_FILE_LEVEL_TRIM
-author: windows-sdk-content
+
 description: Indicates to the storage system which ranges in the file are not needed to be stored.
 old-location: fs\fsctl_file_level_trim.htm
 tech.root: FileIO
 ms.assetid: 2d466a98-f7b2-4638-942c-1cf9016d0bf9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_FILE_LEVEL_TRIM, FSCTL_FILE_LEVEL_TRIM control, FSCTL_FILE_LEVEL_TRIM control code [Files], fs.fsctl_file_level_trim, winioctl/FSCTL_FILE_LEVEL_TRIM
 ms.topic: ioctl

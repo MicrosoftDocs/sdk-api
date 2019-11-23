@@ -1,12 +1,12 @@
 ---
 UID: NF:winhttp.WinHttpWebSocketCompleteUpgrade
 title: WinHttpWebSocketCompleteUpgrade function (winhttp.h)
-author: windows-sdk-content
+
 description: Completes a WebSocket handshake started by WinHttpSendRequest.
 old-location: http\winhttpwebsocketcompleteupgrade.htm
 tech.root: WinHttp
 ms.assetid: a5d5971b-ac76-4be5-b884-a0e5ef9a495a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketCompleteUpgrade, WinHttpWebSocketCompleteUpgrade function [WinHTTP], http.winhttpwebsocketcompleteupgrade, winhttp/WinHttpWebSocketCompleteUpgrade
 ms.topic: function

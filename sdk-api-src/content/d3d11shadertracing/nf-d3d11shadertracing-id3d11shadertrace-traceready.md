@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.TraceReady
 title: ID3D11ShaderTrace::TraceReady (d3d11shadertracing.h)
-author: windows-sdk-content
+
 description: Specifies that the shader trace recorded and is ready to use.
 old-location: direct3d11\id3d11shadertrace_traceready.htm
 tech.root: direct3d11
 ms.assetid: BCC2BCC2-9E98-413D-B173-37664A82140B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D11ShaderTrace interface [Direct3D 11],TraceReady method, ID3D11ShaderTrace.TraceReady, ID3D11ShaderTrace::TraceReady, TraceReady, TraceReady method [Direct3D 11], TraceReady method [Direct3D 11],ID3D11ShaderTrace interface, d3d11shadertracing/ID3D11ShaderTrace::TraceReady, direct3d11.id3d11shadertrace_traceready
 ms.topic: method

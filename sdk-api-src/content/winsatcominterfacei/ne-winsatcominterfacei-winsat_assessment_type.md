@@ -1,12 +1,12 @@
 ---
 UID: NE:winsatcominterfacei.__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0003
 title: WINSAT_ASSESSMENT_TYPE (winsatcominterfacei.h)
-author: windows-sdk-content
+
 description: Defines the possible subcomponents of an assessment.
 old-location: winsat\winsat_assessment_type.htm
 tech.root: WinSAT
 ms.assetid: 7e54df13-4415-42b8-b140-e35ea440ef68
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WINSAT_ASSESSMENT_CPU, WINSAT_ASSESSMENT_D3D, WINSAT_ASSESSMENT_DISK, WINSAT_ASSESSMENT_GRAPHICS, WINSAT_ASSESSMENT_MEMORY, WINSAT_ASSESSMENT_TYPE, WINSAT_ASSESSMENT_TYPE enumeration [WinSAT], winsat.winsat_assessment_type, winsatcominterfacei/WINSAT_ASSESSMENT_CPU, winsatcominterfacei/WINSAT_ASSESSMENT_D3D, winsatcominterfacei/WINSAT_ASSESSMENT_DISK, winsatcominterfacei/WINSAT_ASSESSMENT_GRAPHICS, winsatcominterfacei/WINSAT_ASSESSMENT_MEMORY, winsatcominterfacei/WINSAT_ASSESSMENT_TYPE
 ms.topic: enum

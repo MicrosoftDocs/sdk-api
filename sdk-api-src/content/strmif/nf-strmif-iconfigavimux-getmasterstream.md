@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IConfigAviMux.GetMasterStream
 title: IConfigAviMux::GetMasterStream (strmif.h)
-author: windows-sdk-content
+
 description: The GetMasterStream method queries which stream will be used to synchronize the other streams in the file.
 old-location: dshow\iconfigavimux_getmasterstream.htm
 tech.root: DirectShow
 ms.assetid: 2085a510-16d5-4a82-b372-824026203ef6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMasterStream, GetMasterStream method [DirectShow], GetMasterStream method [DirectShow],IConfigAviMux interface, IConfigAviMux interface [DirectShow],GetMasterStream method, IConfigAviMux.GetMasterStream, IConfigAviMux::GetMasterStream, IConfigAviMuxGetMasterStream, dshow.iconfigavimux_getmasterstream, strmif/IConfigAviMux::GetMasterStream
 ms.topic: method

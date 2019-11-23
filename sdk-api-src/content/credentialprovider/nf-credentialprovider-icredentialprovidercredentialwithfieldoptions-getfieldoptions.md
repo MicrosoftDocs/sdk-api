@@ -1,12 +1,12 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialWithFieldOptions.GetFieldOptions
 title: ICredentialProviderCredentialWithFieldOptions::GetFieldOptions (credentialprovider.h)
-author: windows-sdk-content
+
 description: Retrieves the current option set for a specified field in a logon or credential UI. Called by the credential provider framework.
 old-location: shell\ICredentialProviderCredentialWithFieldOptions_GetFieldOptions.htm
 tech.root: shell
 ms.assetid: DE5E6F0E-F4FD-43ce-A1EB-F45C04C85239
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFieldOptions, GetFieldOptions method [Windows Shell], GetFieldOptions method [Windows Shell],ICredentialProviderCredentialWithFieldOptions interface, ICredentialProviderCredentialWithFieldOptions interface [Windows Shell],GetFieldOptions method, ICredentialProviderCredentialWithFieldOptions.GetFieldOptions, ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, credentialprovider/ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, shell.ICredentialProviderCredentialWithFieldOptions_GetFieldOptions
 ms.topic: method

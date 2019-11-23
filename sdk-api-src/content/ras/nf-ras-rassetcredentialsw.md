@@ -1,12 +1,12 @@
 ---
 UID: NF:ras.RasSetCredentialsW
 title: RasSetCredentialsW function (ras.h)
-author: windows-sdk-content
+
 description: Sets the user credentials associated with a specified RAS phone-book entry.
 old-location: rras\rassetcredentials.htm
 tech.root: RRAS
 ms.assetid: 5ebfffb7-9158-4414-982c-e187600aa1ab
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RasSetCredentials, RasSetCredentials function [RAS], RasSetCredentialsA, RasSetCredentialsW, _ras_rassetcredentials, ras/RasSetCredentials, ras/RasSetCredentialsA, ras/RasSetCredentialsW, rras.rassetcredentials
 ms.topic: function

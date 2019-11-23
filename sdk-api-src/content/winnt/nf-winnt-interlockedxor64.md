@@ -1,12 +1,12 @@
 ---
 UID: NF:winnt.InterlockedXor64
 title: InterlockedXor64 function (winnt.h)
-author: windows-sdk-content
+
 description: Performs an atomic XOR operation on the specified LONGLONG values.
 old-location: base\interlockedxor64.htm
 tech.root: Sync
 ms.assetid: b0eef2c9-5b28-462b-91cb-20a337efca7e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InterlockedXor64, InterlockedXor64 function, base.interlockedxor64, winnt/InterlockedXor64
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:ntquery.CITextToFullTree
 title: CITextToFullTree function (ntquery.h)
-author: windows-sdk-content
+
 description: Creates a full command tree using Query Language 1.
 old-location: indexsrv\citexttofulltree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1mw5.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CITextToFullTree, CITextToFullTree function [Indexing Service], _idxs_CITextToFullTree, indexsrv.citexttofulltree, ntquery/CITextToFullTree
 ms.topic: function

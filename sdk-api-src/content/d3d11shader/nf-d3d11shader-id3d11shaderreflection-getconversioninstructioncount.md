@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetConversionInstructionCount
 title: ID3D11ShaderReflection::GetConversionInstructionCount (d3d11shader.h)
-author: windows-sdk-content
+
 description: Gets the number of conversion instructions.
 old-location: direct3d11\id3d11shaderreflection_getconversioninstructioncount.htm
 tech.root: direct3d11
 ms.assetid: 4876bcc8-44b6-4e26-9f0e-cd915b39acb8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetConversionInstructionCount, GetConversionInstructionCount method [Direct3D 11], GetConversionInstructionCount method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetConversionInstructionCount method, ID3D11ShaderReflection.GetConversionInstructionCount, ID3D11ShaderReflection::GetConversionInstructionCount, d3d11shader/ID3D11ShaderReflection::GetConversionInstructionCount, db140140-cbc5-e74e-f018-bca611e3b03f, direct3d11.id3d11shaderreflection_getconversioninstructioncount
 ms.topic: method

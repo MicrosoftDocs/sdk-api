@@ -1,12 +1,12 @@
 ---
 UID: NF:slpublic.SLGetPKeyId
 title: SLGetPKeyId function (slpublic.h)
-author: windows-sdk-content
+
 description: Gets the registered product key ID associated with the product.
 old-location: security\slgetpkeyid.htm
 tech.root: SecSLApi
 ms.assetid: 6255b66f-d121-47a9-a5a6-eca5483b14dd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SLGetPKeyId, SLGetPKeyId function [Security], security.slgetpkeyid, slpublic/SLGetPKeyId
 ms.topic: function

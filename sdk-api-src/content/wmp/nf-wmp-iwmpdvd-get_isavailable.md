@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPDVD.get_isAvailable
 title: IWMPDVD::get_isAvailable (wmp.h)
-author: windows-sdk-content
+
 description: The get_isAvailable method indicates whether a specified type of information is available or a specified action can be performed.
 old-location: wmp\iwmpdvd_get_isavailable.htm
 tech.root: WMP
 ms.assetid: bc8ce504-c387-4e3b-a227-926ae26ea78b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],get_isAvailable method, IWMPDVD.get_isAvailable, IWMPDVD::get_isAvailable, IWMPDVDget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_get_isavailable, wmp/IWMPDVD::get_isAvailable
 ms.topic: method

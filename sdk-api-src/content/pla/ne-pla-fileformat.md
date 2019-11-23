@@ -1,12 +1,12 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0002
 title: FileFormat (pla.h)
-author: windows-sdk-content
+
 description: Defines the format of the data in the log file.
 old-location: pla\fileformat.htm
 tech.root: PLA
 ms.assetid: 8ec50a96-0c8c-401a-8849-e3753fe15952
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FileFormat, FileFormat enumeration [PLA], base.fileformat, pla.fileformat, pla/FileFormat, pla/plaBinary, pla/plaCommaSeparated, pla/plaSql, pla/plaTabSeparated, plaBinary, plaCommaSeparated, plaSql, plaTabSeparated
 ms.topic: enum

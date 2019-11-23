@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_2.IDWriteFactory2
 title: IDWriteFactory2 (dwrite_2.h)
-author: windows-sdk-content
+
 description: The root factory interface for all DirectWrite objects.
 old-location: directwrite\idwritefactory2.htm
 tech.root: DirectWrite
 ms.assetid: 1D3EEC28-EAB3-4FA2-98E9-7A8FDAF6E6FE
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory1, IDWriteFactory1 interface [Direct Write], IDWriteFactory1 interface [Direct Write],described, IDWriteFactory2, directwrite.idwritefactory2, dwrite_2/IDWriteFactory2
 ms.topic: interface

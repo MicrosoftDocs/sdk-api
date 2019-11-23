@@ -1,12 +1,12 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolManager.CreateListener
 title: IWTSProtocolManager::CreateListener (wtsprotocol.h)
-author: windows-sdk-content
+
 description: IWTSProtocolManager::CreateListener is no longer available. Instead, use IWRdsProtocolManager::CreateListener.
 old-location: termserv\iwtsprotocolmanager_createlistener.htm
 tech.root: TermServ
 ms.assetid: 2c947181-5cac-40c1-b993-537b580efafe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWTSProtocolManager interface, IWTSProtocolManager interface [Remote Desktop Services],CreateListener method, IWTSProtocolManager.CreateListener, IWTSProtocolManager::CreateListener, termserv.iwtsprotocolmanager_createlistener, wtsprotocol/IWTSProtocolManager::CreateListener
 ms.topic: method

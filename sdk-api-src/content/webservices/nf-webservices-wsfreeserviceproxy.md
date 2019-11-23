@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsFreeServiceProxy
 title: WsFreeServiceProxy function (webservices.h)
-author: windows-sdk-content
+
 description: Releases the memory associated with a Service Proxy resource.
 old-location: wsw\wsfreeserviceproxy.htm
 tech.root: wsw
 ms.assetid: fb200cf8-c1d4-4a97-afef-f7c4ed5efb10
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsFreeServiceProxy, WsFreeServiceProxy function [Web Services for Windows], webservices/WsFreeServiceProxy, wsw.wsfreeserviceproxy
 ms.topic: function

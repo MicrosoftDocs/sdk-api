@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl._TTGETTITLE
 title: TTGETTITLE (commctrl.h)
-author: windows-sdk-content
+
 description: Provides information about the title of a tooltip control.
 old-location: controls\TTGETTITLE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\ttgettitle.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PTTGETTITLE, PTTGETTITLE, PTTGETTITLE structure pointer [Windows Controls], TTGETTITLE, TTGETTITLE structure [Windows Controls], commctrl/PTTGETTITLE, commctrl/TTGETTITLE, controls.TTGETTITLE, controls.inet_TTGETTITLE, inet_TTGETTITLE, inet_TTGETTITLE_cpp"
 ms.topic: struct

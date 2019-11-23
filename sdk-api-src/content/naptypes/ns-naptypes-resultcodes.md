@@ -1,12 +1,12 @@
 ---
 UID: NS:naptypes.tagResultCodes
 title: ResultCodes (naptypes.h)
-author: windows-sdk-content
+
 description: Defines a list of result codes.
 old-location: nap\resultcodes_struct.htm
 tech.root: NAP
 ms.assetid: 9d608f0a-9841-48e6-8856-2d8c1afc3e5d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ResultCodes, ResultCodes structure [NAP], nap.resultcodes_struct, naptypes/ResultCodes
 ms.topic: struct

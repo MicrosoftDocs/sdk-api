@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetGraphicsRootUnorderedAccessView
 title: ID3D12GraphicsCommandList::SetGraphicsRootUnorderedAccessView (d3d12.h)
-author: windows-sdk-content
+
 description: Sets a CPU descriptor handle for the unordered-access-view resource in the graphics root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setgraphicsrootunorderedaccessview.htm
 tech.root: direct3d12
 ms.assetid: 7EF90634-0A33-42F5-880D-8E22910FAB47
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRootUnorderedAccessView method, ID3D12GraphicsCommandList.SetGraphicsRootUnorderedAccessView, ID3D12GraphicsCommandList::SetGraphicsRootUnorderedAccessView, SetGraphicsRootUnorderedAccessView, SetGraphicsRootUnorderedAccessView method, SetGraphicsRootUnorderedAccessView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootUnorderedAccessView, direct3d12.id3d12graphicscommandlist_setgraphicsrootunorderedaccessview
 ms.topic: method

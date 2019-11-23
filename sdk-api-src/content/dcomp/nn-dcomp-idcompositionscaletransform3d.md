@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionScaleTransform3D
 title: IDCompositionScaleTransform3D (dcomp.h)
-author: windows-sdk-content
+
 description: Represents a 3D transformation effect that affects the scale of a visual along the x-axis, y-axis, and z-axis. The coordinate system is scaled from the specified center point.
 old-location: directcomp\idcompositionscaletransform3d.htm
 tech.root: directcomp
 ms.assetid: 0526B772-EA84-40B2-88D6-CFB1A70A1D5A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D, IDCompositionScaleTransform3D interface [DirectComposition], IDCompositionScaleTransform3D interface [DirectComposition],described, dcomp/IDCompositionScaleTransform3D, directcomp.idcompositionscaletransform3d
 ms.topic: interface

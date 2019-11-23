@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IAMDecoderCaps
 title: IAMDecoderCaps (strmif.h)
-author: windows-sdk-content
+
 description: The IAMDecoderCaps interface returns capabilities information from an MPEG decoder filter.
 old-location: dshow\iamdecodercaps.htm
 tech.root: DirectShow
 ms.assetid: 3951200b-5a81-4832-9dae-021a76c1ab20
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMDecoderCaps, IAMDecoderCaps interface [DirectShow], IAMDecoderCaps interface [DirectShow],described, IAMDecoderCapsInterface, dshow.iamdecodercaps, strmif/IAMDecoderCaps
 ms.topic: interface

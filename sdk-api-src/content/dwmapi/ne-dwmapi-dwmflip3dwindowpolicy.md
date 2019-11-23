@@ -1,12 +1,12 @@
 ---
 UID: NE:dwmapi.DWMFLIP3DWINDOWPOLICY
 title: DWMFLIP3DWINDOWPOLICY (dwmapi.h)
-author: windows-sdk-content
+
 description: Flags used by the DwmSetWindowAttribute function to specify the Flip3D window policy.
 old-location: dwm\dwmflip3dwindowpolicy.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwmflip3dwindowpolicy.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DWMFLIP3DWINDOWPOLICY, DWMFLIP3DWINDOWPOLICY enumeration [Desktop Window Manager], DWMFLIP3D_DEFAULT, DWMFLIP3D_EXCLUDEABOVE, DWMFLIP3D_EXCLUDEBELOW, DWMFLIP3D_LAST, _udwm_dwmflip3dwindowpolicy, _udwm_dwmflip3dwindowpolicy_cpp, dwm.dwmflip3dwindowpolicy, dwmapi/DWMFLIP3DWINDOWPOLICY, dwmapi/DWMFLIP3D_DEFAULT, dwmapi/DWMFLIP3D_EXCLUDEABOVE, dwmapi/DWMFLIP3D_EXCLUDEBELOW, dwmapi/DWMFLIP3D_LAST, winui._udwm_dwmflip3dwindowpolicy
 ms.topic: enum

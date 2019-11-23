@@ -1,12 +1,12 @@
 ---
 UID: NN:searchapi.IOpLockStatus
 title: IOpLockStatus (searchapi.h)
-author: windows-sdk-content
+
 description: Provides methods to check the opportunistic lock that is used by Microsoft Windows Desktop Search (WDS) on items while indexing.
 old-location: search\_search_IOpLockStatus.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\ioplockstatus\ioplockstatus.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOpLockStatus, IOpLockStatus interface [search], IOpLockStatus interface [search],described, _search_IOpLockStatus, search._search_IOpLockStatus, searchapi/IOpLockStatus
 ms.topic: interface

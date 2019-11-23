@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndGetSpeed
 title: MCIWndGetSpeed macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndGetSpeed macro retrieves the playback speed of an MCI device. You can use this macro or explicitly send the MCIWNDM_GETSPEED message.
 old-location: multimedia\mciwndgetspeed.htm
 tech.root: Multimedia
 ms.assetid: d327b649-8c1e-4219-a1ec-8f89e3a9a33e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetSpeed, MCIWndGetSpeed macro [Windows Multimedia], _win32_MCIWndGetSpeed, multimedia.mciwndgetspeed, vfw/MCIWndGetSpeed
 ms.topic: macro

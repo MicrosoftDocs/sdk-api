@@ -1,12 +1,12 @@
 ---
 UID: NF:mapi.MAPIFreeBuffer
 title: MAPIFreeBuffer function (mapi.h)
-author: windows-sdk-content
+
 description: The MAPIFreeBuffer function frees memory allocated by the messaging system.
 old-location: mapi\mapifreebuffer.htm
 tech.root: WindowsMAPI
 ms.assetid: b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MAPIFreeBuffer, MAPIFreeBuffer callback, MAPIFreeBuffer callback function, mapi.mapifreebuffer, wabmem/MAPIFreeBuffer
 ms.topic: function

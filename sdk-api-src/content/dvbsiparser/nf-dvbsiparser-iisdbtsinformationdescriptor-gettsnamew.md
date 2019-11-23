@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetTSNameW
 title: IIsdbTSInformationDescriptor::GetTSNameW (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the transport stream name from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor, in Unicode string format.
 old-location: mstv\iisdbtsinformationdescriptor_gettsnamew.htm
 tech.root: mstv
 ms.assetid: 4c8900d1-1047-4b11-87e0-da1a72f511f7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTSNameW, GetTSNameW method [Microsoft TV Technologies], GetTSNameW method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetTSNameW method, IIsdbTSInformationDescriptor.GetTSNameW, IIsdbTSInformationDescriptor::GetTSNameW, dvbsiparser/IIsdbTSInformationDescriptor::GetTSNameW, mstv.iisdbtsinformationdescriptor_gettsnamew
 ms.topic: method

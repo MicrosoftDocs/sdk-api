@@ -1,12 +1,12 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpool
 title: CreateThreadpool function (threadpoolapiset.h)
-author: windows-sdk-content
+
 description: Allocates a new pool of threads to execute callbacks.
 old-location: base\createthreadpool.htm
 tech.root: ProcThread
 ms.assetid: cc00d7bf-ac52-44ff-a6a8-76c8eaace5e6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateThreadpool, CreateThreadpool function, base.createthreadpool, threadpoolapiset/CreateThreadpool, winbase/CreateThreadpool
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetBlendingParameter
 title: IMixerPinConfig::SetBlendingParameter (mpconfig.h)
-author: windows-sdk-content
+
 description: The SetBlendingParameter method sets the blending parameter that defines how a secondary stream is blended with a primary stream.
 old-location: dshow\imixerpinconfig_setblendingparameter.htm
 tech.root: DirectShow
 ms.assetid: 262814eb-386b-409e-b22c-48f9f2a845b4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetBlendingParameter method, IMixerPinConfig.SetBlendingParameter, IMixerPinConfig::SetBlendingParameter, IMixerPinConfigSetBlendingParameter, SetBlendingParameter, SetBlendingParameter method [DirectShow], SetBlendingParameter method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setblendingparameter, mpconfig/IMixerPinConfig::SetBlendingParameter
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.WICCreateBitmapFromSection
 title: WICCreateBitmapFromSection function (wincodec.h)
-author: windows-sdk-content
+
 description: Returns a IWICBitmapSource that is backed by the pixels of a Windows Graphics Device Interface (GDI) section handle.
 old-location: wic\_wic_codec_wiccreatebitmapfromsection.htm
 tech.root: wic
 ms.assetid: a14022a0-7af6-4c06-9afa-4709b81efc96
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WICCreateBitmapFromSection, WICCreateBitmapFromSection function [Windows Imaging Component], _wic_codec_wiccreatebitmapfromsection, wic._wic_codec_wiccreatebitmapfromsection, wincodec/WICCreateBitmapFromSection
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMColorAdjustContrast
 title: XMColorAdjustContrast function (directxmath.h)
-author: windows-sdk-content
+
 description: Adjusts the contrast value of a color.
 old-location: dxmath\xmcoloradjustcontrast.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorAdjustContrast(XMVECTOR,float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorAdjustContrast, XMColorAdjustContrast, XMColorAdjustContrast method [DirectX Math Support APIs], dxmath.xmcoloradjustcontrast
 ms.topic: function

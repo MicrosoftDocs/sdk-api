@@ -1,12 +1,12 @@
 ---
 UID: NF:shdeprecated.ITravelLog.UpdateEntry
 title: ITravelLog::UpdateEntry (shdeprecated.h)
-author: windows-sdk-content
+
 description: Deprecated. Saves the browser state of the current entry in preparation for a pending navigation.
 old-location: shell\ITravelLog_UpdateEntry.htm
 tech.root: shell
 ms.assetid: 63fe398d-c0e8-4350-9b57-fe9f11e24e47
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FALSE, ITravelLog interface [Windows Shell],UpdateEntry method, ITravelLog.UpdateEntry, ITravelLog::UpdateEntry, TRUE, UpdateEntry, UpdateEntry method [Windows Shell], UpdateEntry method [Windows Shell],ITravelLog interface, shdeprecated/ITravelLog::UpdateEntry, shell.ITravelLog_UpdateEntry, zone_ITravelLog_UpdateEntry
 ms.topic: method

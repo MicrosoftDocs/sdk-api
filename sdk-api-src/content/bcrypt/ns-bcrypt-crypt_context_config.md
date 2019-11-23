@@ -1,12 +1,12 @@
 ---
 UID: NS:bcrypt._CRYPT_CONTEXT_CONFIG
 title: CRYPT_CONTEXT_CONFIG (bcrypt.h)
-author: windows-sdk-content
+
 description: Contains configuration information for a CNG context.
 old-location: security\crypt_context_config.htm
 tech.root: SecCNG
 ms.assetid: 3e07b7ae-84ef-4b77-bd49-d96906eaa4f8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG structure [Security], CRYPT_EXCLUSIVE, CRYPT_OVERRIDE, PCRYPT_CONTEXT_CONFIG, PCRYPT_CONTEXT_CONFIG structure pointer [Security], bcrypt/CRYPT_CONTEXT_CONFIG, bcrypt/PCRYPT_CONTEXT_CONFIG, security.crypt_context_config"
 ms.topic: struct

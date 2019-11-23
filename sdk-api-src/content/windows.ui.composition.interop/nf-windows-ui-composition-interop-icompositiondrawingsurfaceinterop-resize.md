@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.Resize
 title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
-author: windows-sdk-content
+
 description: Changes the size of the surface.
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_resize.htm
 tech.root: w_ui_comp
 ms.assetid: DFD0812F-3AD2-4E33-BD23-9D392BFAB467
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICompositionDrawingSurfaceInterop interface,Resize method, ICompositionDrawingSurfaceInterop.Resize, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::Resize, ICompositionDrawingSurfaceInterop::composition, Resize, Resize method, Resize method,ICompositionDrawingSurfaceInterop interface, w_ui_comp.icompositiondrawingsurfaceinterop_resize, windows/ICompositionDrawingSurfaceInterop::Resize
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalClassInfo.get_Name
 title: ITPluggableTerminalClassInfo::get_Name (tapi3if.h)
-author: windows-sdk-content
+
 description: The get_Name method gets the terminal's friendly name.
 old-location: tapi3\itpluggableterminalclassinfo_get_name.htm
 tech.root: Tapi
 ms.assetid: 97bd38f3-27d8-4618-9138-bd972db9abb9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_Name method, ITPluggableTerminalClassInfo.get_Name, ITPluggableTerminalClassInfo::get_Name, _tapi3_itpluggableterminalclassinfo_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_name, tapi3if/ITPluggableTerminalClassInfo::get_Name
 ms.topic: method

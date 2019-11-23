@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.MFCreateMediaSession
 title: MFCreateMediaSession function (mfidl.h)
-author: windows-sdk-content
+
 description: Creates the Media Session in the application's process.
 old-location: mf\mfcreatemediasession.htm
 tech.root: medfound
 ms.assetid: 86b2b5ec-231c-4943-9add-1a5a60e72268
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 86b2b5ec-231c-4943-9add-1a5a60e72268, MFCreateMediaSession, MFCreateMediaSession function [Media Foundation], mf.mfcreatemediasession, mfidl/MFCreateMediaSession
 ms.topic: function

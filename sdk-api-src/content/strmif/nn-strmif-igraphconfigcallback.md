@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IGraphConfigCallback
 title: IGraphConfigCallback (strmif.h)
-author: windows-sdk-content
+
 description: The IGraphConfigCallback interface contains the callback method passed to IGraphConfig::Reconfigure. The caller (an application or filter) implements this interface. For more information, see IGraphConfig.
 old-location: dshow\igraphconfigcallback.htm
 tech.root: DirectShow
 ms.assetid: b7856181-1616-4984-bf5e-402140ab7b4e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IGraphConfigCallback, IGraphConfigCallback interface [DirectShow], IGraphConfigCallback interface [DirectShow],described, IGraphConfigCallbackInterface, dshow.igraphconfigcallback, strmif/IGraphConfigCallback
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.RotateTransform
 title: LinearGradientBrush::RotateTransform (gdiplusbrush.h)
-author: windows-sdk-content
+
 description: The LinearGradientBrush::RotateTransform method updates this brush's current transformation matrix with the product of itself and a rotation matrix.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_RotateTransform_angle_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\rotatetransform_86angle_order.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush class [GDI+],RotateTransform method, LinearGradientBrush.RotateTransform, LinearGradientBrush::RotateTransform, RotateTransform, RotateTransform method [GDI+], RotateTransform method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_RotateTransform_angle_order_, gdiplus._gdiplus_CLASS_LinearGradientBrush_RotateTransform_angle_order_
 ms.topic: method

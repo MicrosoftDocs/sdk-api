@@ -1,12 +1,12 @@
 ---
 UID: NF:propidlbase.IPropertyStorage.ReadMultiple
 title: IPropertyStorage::ReadMultiple (propidlbase.h)
-author: windows-sdk-content
+
 description: Reads specified properties from the current property set.
 old-location: stg\ipropertystorage_readmultiple.htm
 tech.root: Stg
 ms.assetid: a3d708fe-53af-4f1b-94ac-edc40d59a034
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPropertyStorage [Strctd Stg],ReadMultiple, IPropertyStorage interface [Structured Storage],ReadMultiple method, IPropertyStorage.ReadMultiple, IPropertyStorage::ReadMultiple, ReadMultiple, ReadMultiple method [Structured Storage], ReadMultiple method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_readmultiple, propidl/IPropertyStorage::ReadMultiple, stg.ipropertystorage_readmultiple
 ms.topic: method

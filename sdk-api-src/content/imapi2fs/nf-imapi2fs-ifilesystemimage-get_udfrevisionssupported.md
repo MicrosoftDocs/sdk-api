@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_UDFRevisionsSupported
 title: IFileSystemImage::get_UDFRevisionsSupported (imapi2fs.h)
-author: windows-sdk-content
+
 description: Retrieves a list of supported UDF revision levels.
 old-location: imapi\ifilesystemimage_get_udfrevisionssupported.htm
 tech.root: imapi
 ms.assetid: ad9b4a68-5fef-4092-9cef-4b5ebd9c5093
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_UDFRevisionsSupported method, IFileSystemImage.get_UDFRevisionsSupported, IFileSystemImage::get_UDFRevisionsSupported, get_UDFRevisionsSupported, get_UDFRevisionsSupported method [IMAPI], get_UDFRevisionsSupported method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_udfrevisionssupported, imapi2fs/IFileSystemImage::get_UDFRevisionsSupported
 ms.topic: method

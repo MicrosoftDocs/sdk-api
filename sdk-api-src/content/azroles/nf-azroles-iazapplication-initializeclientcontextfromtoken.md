@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzApplication.InitializeClientContextFromToken
 title: IAzApplication::InitializeClientContextFromToken (azroles.h)
-author: windows-sdk-content
+
 description: Gets an IAzClientContext object pointer from the specified client token.
 old-location: security\iazapplication_initializeclientcontextfromtoken.htm
 tech.root: SecAuthZ
 ms.assetid: 0002804d-0e97-4648-8aa1-14eba09a90fa
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],InitializeClientContextFromToken method, IAzApplication interface [Security],InitializeClientContextFromToken method, IAzApplication.InitializeClientContextFromToken, IAzApplication::InitializeClientContextFromToken, InitializeClientContextFromToken, InitializeClientContextFromToken method [Security], InitializeClientContextFromToken method [Security],AzApplication object, InitializeClientContextFromToken method [Security],IAzApplication interface, azroles/IAzApplication::InitializeClientContextFromToken, security.iazapplication_initializeclientcontextfromtoken
 ms.topic: method

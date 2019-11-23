@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.GetCountOfTableDescriptors
 title: IDVB_BAT::GetCountOfTableDescriptors (dvbsiparser.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_getcountoftabledescriptors.htm
 tech.root: mstv
 ms.assetid: 8f373cbe-9d07-41c2-83a5-c25bc66f6263
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IDVB_BAT.GetCountOfTableDescriptors, IDVB_BAT::GetCountOfTableDescriptors, IDVB_BATGetCountOfTableDescriptors, dvbsiparser/IDVB_BAT::GetCountOfTableDescriptors, mstv.idvb_bat_getcountoftabledescriptors
 ms.topic: method

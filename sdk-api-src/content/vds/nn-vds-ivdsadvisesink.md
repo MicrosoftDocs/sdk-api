@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsAdviseSink
 title: IVdsAdviseSink (vds.h)
-author: windows-sdk-content
+
 description: Receives VDS notifications.
 old-location: base\ivdsadvisesink.htm
 tech.root: VDS
 ms.assetid: 8e9b7c95-0b59-4268-a274-5d16812075a6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsAdviseSink, IVdsAdviseSink interface [VDS], IVdsAdviseSink interface [VDS],described, base.ivdsadvisesink, vds/IVdsAdviseSink, vdshwprv/IVdsAdviseSink
 ms.topic: interface

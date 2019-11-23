@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.CD3D11_SHADER_RESOURCE_VIEW_DESC.operator const D3D11_SHADER_RESOURCE_VIEW_DESC&
 title: CD3D11_SHADER_RESOURCE_VIEW_DESC::operator const D3D11_SHADER_RESOURCE_VIEW_DESC& (d3d11.h)
-author: windows-sdk-content
+
 description: This operator returns the address of a D3D11_SHADER_RESOURCE_VIEW_DESC structure that contains the data from the CD3D11_SHADER_RESOURCE_VIEW_DESC instance.
 old-location: direct3d11\cd3d11_shader_resource_view_desc_d3d11_shader_resource_view_desc__.htm
 tech.root: direct3d11
 ms.assetid: 319D6AD4-7ADC-4176-BBD6-21B924474933
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CD3D11_SHADER_RESOURCE_VIEW_DESC interface [Direct3D 11],operator const D3D11_SHADER_RESOURCE_VIEW_DESC& method, CD3D11_SHADER_RESOURCE_VIEW_DESC.operator const D3D11_SHADER_RESOURCE_VIEW_DESC&, CD3D11_SHADER_RESOURCE_VIEW_DESC::operator const D3D11_SHADER_RESOURCE_VIEW_DESC&, CD3D11_SHADER_RESOURCE_VIEW_DESC::operator const D3D11_SHADER_RESOURCE_VIEW_DESC&(), d3d11/CD3D11_SHADER_RESOURCE_VIEW_DESC::operator const D3D11_SHADER_RESOURCE_VIEW_DESC&, direct3d11.cd3d11_shader_resource_view_desc_d3d11_shader_resource_view_desc__, operator const D3D11_SHADER_RESOURCE_VIEW_DESC&, operator const D3D11_SHADER_RESOURCE_VIEW_DESC& method [Direct3D 11], operator const D3D11_SHADER_RESOURCE_VIEW_DESC& method [Direct3D 11],CD3D11_SHADER_RESOURCE_VIEW_DESC interface
 ms.topic: method

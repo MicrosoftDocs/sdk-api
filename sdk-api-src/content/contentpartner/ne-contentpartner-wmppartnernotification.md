@@ -1,12 +1,12 @@
 ---
 UID: NE:contentpartner.WMPPartnerNotification
 title: WMPPartnerNotification (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPPartnerNotification enumeration defines operational states of an online store.
 old-location: wmp\wmppartnernotification.htm
 tech.root: WMP
 ms.assetid: a9292277-5283-41b8-86a6-f7059aa38a69
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WMPPartnerNotification, WMPPartnerNotification enumeration [Windows Media Player], contentpartner/WMPPartnerNotification, contentpartner/wmpsnBackgroundProcessingBegin, contentpartner/wmpsnBackgroundProcessingEnd, contentpartner/wmpsnCatalogDownloadComplete, contentpartner/wmpsnCatalogDownloadFailure, enumeration [Windows Media Player], wmp.wmppartnernotification, wmpsnBackgroundProcessingBegin, wmpsnBackgroundProcessingEnd, wmpsnCatalogDownloadComplete, wmpsnCatalogDownloadFailure
 ms.topic: enum

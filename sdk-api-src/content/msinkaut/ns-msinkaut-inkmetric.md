@@ -1,12 +1,12 @@
 ---
 UID: NS:msinkaut.tagINKMETRIC
 title: INKMETRIC (msinkaut.h)
-author: windows-sdk-content
+
 description: Specifies display properties for a text ink object (tInk).
 old-location: tablet\inkmetric.htm
 tech.root: tablet
 ms.assetid: 27d56034-725d-4b05-9c43-6b3180d7411b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PINKMETRIC, 27d56034-725d-4b05-9c43-6b3180d7411b, IMF_BOLD, IMF_FONT_SELECTED_IN_HDC, IMF_ITALIC, INKMETRIC, INKMETRIC structure [Tablet PC], PINKMETRIC, PINKMETRIC structure pointer [Tablet PC], msinkaut/INKMETRIC, msinkaut/PINKMETRIC, tablet.inkmetric"
 ms.topic: struct

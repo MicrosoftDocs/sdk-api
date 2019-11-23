@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetTextLength
 title: IDvbDataBroadcastDescriptor::GetTextLength (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets length of the text description, in bytes, from a Digital Video Broadcast (DVB) data broadcast descriptor.
 old-location: mstv\idvbdatabroadcastdescriptor_gettextlength.htm
 tech.root: mstv
 ms.assetid: a5ae91ff-d984-4955-aa1c-d166fb491d79
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTextLength, GetTextLength method [Microsoft TV Technologies], GetTextLength method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetTextLength method, IDvbDataBroadcastDescriptor.GetTextLength, IDvbDataBroadcastDescriptor::GetTextLength, dvbsiparser/IDvbDataBroadcastDescriptor::GetTextLength, mstv.idvbdatabroadcastdescriptor_gettextlength
 ms.topic: method

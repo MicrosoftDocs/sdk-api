@@ -1,12 +1,12 @@
 ---
 UID: NF:sspi.ApplyControlToken
 title: ApplyControlToken function (sspi.h)
-author: windows-sdk-content
+
 description: Provides a way to apply a control token to a security context.
 old-location: security\applycontroltoken.htm
 tech.root: SecAuthN
 ms.assetid: 5ce13a05-874c-4e1a-9be8-aed98609791e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ApplyControlToken, ApplyControlToken function [Security], _ssp_applycontroltoken, security.applycontroltoken, sspi/ApplyControlToken
 ms.topic: function

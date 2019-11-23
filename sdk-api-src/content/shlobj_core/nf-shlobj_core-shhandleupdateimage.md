@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.SHHandleUpdateImage
 title: SHHandleUpdateImage function (shlobj_core.h)
-author: windows-sdk-content
+
 description: SHHandleUpdateImage may be altered or unavailable.
 old-location: shell\SHHandleUpdateImage.htm
 tech.root: shell
 ms.assetid: 9d43e28a-bce0-4da4-98c9-5a6a199b4d8e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHHandleUpdateImage, SHHandleUpdateImage function [Windows Shell], _win32_SHHandleUpdateImage, shell.SHHandleUpdateImage, shlobj_core/SHHandleUpdateImage
 ms.topic: function

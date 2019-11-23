@@ -1,12 +1,12 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.GetCollection
 title: ICOMAdminCatalog::GetCollection (comadmin.h)
-author: windows-sdk-content
+
 description: Retrieves a top-level collection on the COM+ catalog.
 old-location: cos\icomadmincatalog_getcollection.htm
 tech.root: cossdk
 ms.assetid: 6f01a7a7-d8f3-470f-8eb3-aa698b353af1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetCollection, GetCollection method [COM+], GetCollection method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetCollection method, ICOMAdminCatalog.GetCollection, ICOMAdminCatalog::GetCollection, _cos_ICOMAdminCatalog_GetCollection, comadmin/ICOMAdminCatalog::GetCollection, cos.icomadmincatalog_getcollection
 ms.topic: method

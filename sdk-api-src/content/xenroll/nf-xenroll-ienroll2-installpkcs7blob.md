@@ -1,12 +1,12 @@
 ---
 UID: NF:xenroll.IEnroll2.InstallPKCS7Blob
 title: IEnroll2::InstallPKCS7Blob (xenroll.h)
-author: windows-sdk-content
+
 description: Processes a certificate or chain of certificates, placing them into the appropriate certificate stores. This method differs from the acceptPKCS7Blob method in that InstallPKCS7Blob does not receive a request certificate.
 old-location: security\ienroll4_installpkcs7blob.htm
 tech.root: SecCrypto
 ms.assetid: fa704c5e-f6ec-4187-b787-7b15cc7d4eb4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnroll2 interface [Security],InstallPKCS7Blob method, IEnroll2.InstallPKCS7Blob, IEnroll2::InstallPKCS7Blob, InstallPKCS7Blob, InstallPKCS7Blob method [Security], InstallPKCS7Blob method [Security],IEnroll2 interface, security.ienroll4_installpkcs7blob, xenroll/IEnroll2::InstallPKCS7Blob
 ms.topic: method

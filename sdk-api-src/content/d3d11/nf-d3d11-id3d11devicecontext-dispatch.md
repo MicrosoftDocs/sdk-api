@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.Dispatch
 title: ID3D11DeviceContext::Dispatch (d3d11.h)
-author: windows-sdk-content
+
 description: Execute a command list from a thread group.
 old-location: direct3d11\id3d11devicecontext_dispatch.htm
 tech.root: direct3d11
 ms.assetid: 7d3401bb-521f-4ab0-8833-e5caf712d0c9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 4643b8d4-3b6b-6d21-52bd-96e849a3eba7, Dispatch, Dispatch method [Direct3D 11], Dispatch method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],Dispatch method, ID3D11DeviceContext.Dispatch, ID3D11DeviceContext::Dispatch, d3d11/ID3D11DeviceContext::Dispatch, direct3d11.id3d11devicecontext_dispatch
 ms.topic: method

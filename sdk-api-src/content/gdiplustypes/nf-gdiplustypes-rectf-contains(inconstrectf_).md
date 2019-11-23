@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplustypes.RectF.Contains(IN const RectF &)
 title: RectF::Contains(IN const RectF &) (gdiplustypes.h)
-author: windows-sdk-content
+
 description: The RectF::Contains method determines whether another rectangle is inside this rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Contains_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfcontainsmethods\contains_10rect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Contains, Contains method [GDI+], Contains method [GDI+],RectF class, RectF class [GDI+],Contains method, RectF.Contains, RectF.Contains(IN const RectF &), RectF.Contains(const RectF&), RectF::Contains, RectF::Contains(IN const RectF &), _gdiplus_CLASS_RectF_Contains_rect_, gdiplus._gdiplus_CLASS_RectF_Contains_rect_
 ms.topic: method

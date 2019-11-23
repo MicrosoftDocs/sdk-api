@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsSetOutput
 title: WsSetOutput function (webservices.h)
-author: windows-sdk-content
+
 description: Sets the encoding and output callbacks for the writer. The callbacks are used to provides buffers to the writer and to perform asynchronous i/o.
 old-location: wsw\wssetoutput.htm
 tech.root: wsw
 ms.assetid: f0b47817-0ad1-408c-a6da-9a7b0fb2e34b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsSetOutput, WsSetOutput function [Web Services for Windows], webservices/WsSetOutput, wsw.wssetoutput
 ms.topic: function

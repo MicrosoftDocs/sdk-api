@@ -1,12 +1,12 @@
 ---
 UID: NE:d2d1effects.D2D1_MORPHOLOGY_PROP
 title: D2D1_MORPHOLOGY_PROP (d2d1effects.h)
-author: windows-sdk-content
+
 description: Identifiers for properties of the Morphology effect.
 old-location: direct2d\d2d1_morphology_prop.htm
 tech.root: Direct2D
 ms.assetid: D5916AD4-F19A-42F0-BA24-B61BA9786013
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_MORPHOLOGY_PROP, D2D1_MORPHOLOGY_PROP enumeration [Direct2D], D2D1_MORPHOLOGY_PROP_HEIGHT, D2D1_MORPHOLOGY_PROP_MODE, D2D1_MORPHOLOGY_PROP_WIDTH, d2d1effects/D2D1_MORPHOLOGY_PROP, d2d1effects/D2D1_MORPHOLOGY_PROP_HEIGHT, d2d1effects/D2D1_MORPHOLOGY_PROP_MODE, d2d1effects/D2D1_MORPHOLOGY_PROP_WIDTH, direct2d.d2d1_morphology_prop
 ms.topic: enum

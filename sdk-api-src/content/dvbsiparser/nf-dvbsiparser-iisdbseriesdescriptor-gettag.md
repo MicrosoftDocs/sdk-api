@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetTag
 title: IIsdbSeriesDescriptor::GetTag (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 7f67fcf4-76b6-4e1c-99a1-e09b406b5bd9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbSeriesDescriptor.GetTag, IIsdbSeriesDescriptor::GetTag, dvbsiparser/IIsdbSeriesDescriptor::GetTag, mstv.iisdbseriesdescriptor_gettag
 ms.topic: method

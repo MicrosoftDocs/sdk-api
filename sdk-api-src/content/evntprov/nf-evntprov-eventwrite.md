@@ -1,12 +1,12 @@
 ---
 UID: NF:evntprov.EventWrite
 title: EventWrite function (evntprov.h)
-author: windows-sdk-content
+
 description: Use this function to write an event.
 old-location: etw\eventwrite_func.htm
 tech.root: ETW
 ms.assetid: 93070eb7-c167-4419-abff-e861877dad07
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EventWrite, EventWrite function [ETW], base.eventwrite_func, etw.eventwrite_func, evntprov/EventWrite
 ms.topic: function

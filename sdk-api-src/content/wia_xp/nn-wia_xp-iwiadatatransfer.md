@@ -1,12 +1,12 @@
 ---
 UID: NN:wia_xp.IWiaDataTransfer
 title: IWiaDataTransfer (wia_xp.h)
-author: windows-sdk-content
+
 description: The IWiaDataTransfer interface is a high performance data transfer interface.
 old-location: wia\_wia_IWiaDataTransfer.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\iwiadatatransfer.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer, IWiaDataTransfer interface [WIA], IWiaDataTransfer interface [WIA],described, _wia_IWiaDataTransfer, wia._wia_IWiaDataTransfer, wia_xp/IWiaDataTransfer
 ms.topic: interface

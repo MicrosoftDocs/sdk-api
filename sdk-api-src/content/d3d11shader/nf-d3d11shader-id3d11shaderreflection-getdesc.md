@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetDesc
 title: ID3D11ShaderReflection::GetDesc (d3d11shader.h)
-author: windows-sdk-content
+
 description: Get a shader description.
 old-location: direct3d11\id3d11shaderreflection_getdesc.htm
 tech.root: direct3d11
 ms.assetid: 88bebd52-5da0-473e-8f26-63a82ce99938
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetDesc method, ID3D11ShaderReflection.GetDesc, ID3D11ShaderReflection::GetDesc, af085ff0-7b2a-4e9e-cdad-aaa679defcc1, d3d11shader/ID3D11ShaderReflection::GetDesc, direct3d11.id3d11shaderreflection_getdesc
 ms.topic: method

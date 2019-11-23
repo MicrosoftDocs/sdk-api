@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_COMMAND_QUEUE_DESC
 title: D3D12_COMMAND_QUEUE_DESC (d3d12.h)
-author: windows-sdk-content
+
 description: Describes a command queue.
 old-location: direct3d12\d3d12_command_queue_desc.htm
 tech.root: direct3d12
 ms.assetid: 8C43C45B-0A7B-4336-B546-1E6F13D153F3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_COMMAND_QUEUE_DESC, D3D12_COMMAND_QUEUE_DESC structure, d3d12/D3D12_COMMAND_QUEUE_DESC, direct3d12.d3d12_command_queue_desc
 ms.topic: struct

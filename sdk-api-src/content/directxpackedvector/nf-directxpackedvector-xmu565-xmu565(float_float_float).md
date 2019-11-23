@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565(float,float,float)
 title: XMU565::XMU565(float,float,float) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMU565 from three float arguments.
 old-location: dxmath\xmu565_ctor_5.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.#ctor(float,float,float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(float,float,float), XMU565::XMU565, XMU565::XMU565(float,float,float), dxmath.xmu565_ctor_5
 ms.topic: method

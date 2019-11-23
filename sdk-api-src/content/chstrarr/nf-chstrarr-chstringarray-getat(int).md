@@ -1,12 +1,12 @@
 ---
 UID: NF:chstrarr.CHStringArray.GetAt(int)
 title: CHStringArray::GetAt(int) (chstrarr.h)
-author: windows-sdk-content
+
 description: Gets the array element at the specified index.
 old-location: wmi\chstringarray_getat.htm
 tech.root: WmiSdk
 ms.assetid: a950bc1e-1c13-4880-aee7-9a4606979993
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],GetAt method, CHStringArray.GetAt, CHStringArray.GetAt(int), CHStringArray::GetAt, CHStringArray::GetAt(int), GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getat, chstrarr/CHStringArray::GetAt, wmi.chstringarray_getat
 ms.topic: method

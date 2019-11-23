@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateOrConditionFromNativeArray
 title: IUIAutomation::CreateOrConditionFromNativeArray (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Creates a combination of two or more conditions where a match exists if any one of the conditions is true.
 old-location: winauto\uiauto_IUIAutomation_CreateOrConditionFromNativeArray.htm
 tech.root: WinAuto
 ms.assetid: 393c777c-f262-462b-ac59-035f590bee1c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateOrConditionFromNativeArray, CreateOrConditionFromNativeArray method [Windows Accessibility], CreateOrConditionFromNativeArray method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateOrConditionFromNativeArray method, IUIAutomation.CreateOrConditionFromNativeArray, IUIAutomation::CreateOrConditionFromNativeArray, uiauto.uiauto_IUIAutomation_CreateOrConditionFromNativeArray, uiauto_IUIAutomation_CreateOrConditionFromNativeArray, uiautomationclient/IUIAutomation::CreateOrConditionFromNativeArray, winauto.uiauto_IUIAutomation_CreateOrConditionFromNativeArray
 ms.topic: method

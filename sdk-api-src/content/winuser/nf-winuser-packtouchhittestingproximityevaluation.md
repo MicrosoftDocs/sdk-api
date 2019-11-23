@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.PackTouchHitTestingProximityEvaluation
 title: PackTouchHitTestingProximityEvaluation function (winuser.h)
-author: windows-sdk-content
+
 description: Returns the proximity evaluation score and the adjusted touch-point coordinates as a packed value for the WM_TOUCHHITTESTING callback.
 old-location: input_touchhittest\packtouchhittestingproximityevaluation.htm
 tech.root: Input_TouchHitTest
 ms.assetid: c4061285-2d0f-4404-9b63-bda2ec61b764
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PackTouchHitTestingProximityEvaluation, PackTouchHitTestingProximityEvaluation function, input_touchhittest.packtouchhittestingproximityevaluation, touch_hittest.packtouchhittestingproximityevaluation, winuser/PackTouchHitTestingProximityEvaluation
 ms.topic: function

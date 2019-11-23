@@ -1,12 +1,12 @@
 ---
 UID: NS:wabdefs._SRow
 title: SRow (wabdefs.h)
-author: windows-sdk-content
+
 description: Do not use. Describes a row from a table containing selected properties for a specific object.
 old-location: wab\_wab_SRow.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srow.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*LPSRow, LPSRow, LPSRow structure pointer [Windows Address Book], SRow, SRow structure [Windows Address Book], _wab_SRow, wab._wab_SRow, wabdefs/LPSRow, wabdefs/SRow'
 ms.topic: struct

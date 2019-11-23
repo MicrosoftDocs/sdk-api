@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearGamma
 title: ImageAttributes::ClearGamma (gdiplusimageattributes.h)
-author: windows-sdk-content
+
 description: The ImageAttributes::ClearGamma method disables gamma correction for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearGamma_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\cleargamma.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClearGamma, ClearGamma method [GDI+], ClearGamma method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearGamma method, ImageAttributes.ClearGamma, ImageAttributes::ClearGamma, _gdiplus_CLASS_ImageAttributes_ClearGamma_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearGamma_type_
 ms.topic: method

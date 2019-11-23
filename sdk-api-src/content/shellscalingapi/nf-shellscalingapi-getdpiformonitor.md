@@ -1,12 +1,12 @@
 ---
 UID: NF:shellscalingapi.GetDpiForMonitor
 title: GetDpiForMonitor function (shellscalingapi.h)
-author: windows-sdk-content
+
 description: Queries the dots per inch (dpi) of a display.
 old-location: hidpi\getdpiformonitor.htm
 tech.root: hidpi
 ms.assetid: AB741D14-0BA1-4C33-91D8-1331BE96DE95
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDpiForMonitor, GetDpiForMonitor function [High DPI], hidpi.getdpiformonitor, shellscalingapi/GetDpiForMonitor
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.QueryPathOfRegTypeLib
 title: QueryPathOfRegTypeLib function (oleauto.h)
-author: windows-sdk-content
+
 description: Retrieves the path of a registered type library.
 old-location: automat\querypathofregtypelib.htm
 tech.root: automat
 ms.assetid: a71dc182-2fbf-48bd-9c9a-c662b9b0a6ec
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: QueryPathOfRegTypeLib, QueryPathOfRegTypeLib function [Automation], _oa96_QueryPathOfRegTypeLib, automat.querypathofregtypelib, oleauto/QueryPathOfRegTypeLib
 ms.topic: function

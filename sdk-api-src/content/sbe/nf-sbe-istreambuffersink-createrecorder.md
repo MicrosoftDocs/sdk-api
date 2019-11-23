@@ -1,12 +1,12 @@
 ---
 UID: NF:sbe.IStreamBufferSink.CreateRecorder
 title: IStreamBufferSink::CreateRecorder (sbe.h)
-author: windows-sdk-content
+
 description: This topic applies only to Windows XP Service Pack 1 or later.
 old-location: mstv\istreambuffersink_createrecorder.htm
 tech.root: mstv
 ms.assetid: a9f3b7e1-4f54-4802-af24-4b791ee646fc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateRecorder, CreateRecorder method [Microsoft TV Technologies], CreateRecorder method [Microsoft TV Technologies],IStreamBufferSink interface, IStreamBufferSink interface [Microsoft TV Technologies],CreateRecorder method, IStreamBufferSink.CreateRecorder, IStreamBufferSink::CreateRecorder, IStreamBufferSinkCreateRecorder, mstv.istreambuffersink_createrecorder, sbe/IStreamBufferSink::CreateRecorder
 ms.topic: method

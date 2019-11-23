@@ -1,12 +1,12 @@
 ---
 UID: NF:peerdist.PeerDistRegisterForStatusChangeNotificationEx
 title: PeerDistRegisterForStatusChangeNotificationEx function (peerdist.h)
-author: windows-sdk-content
+
 description: The PeerDistRegisterForStatusChangeNotificationEx function requests the Peer Distribution service status change notification.
 old-location: p2p\peerdistregisterforstatuschangenotificationex.htm
 tech.root: P2PSdk
 ms.assetid: 84de2b23-5536-43e9-9336-0c1d3b70891d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerDistRegisterForStatusChangeNotificationEx, PeerDistRegisterForStatusChangeNotificationEx function [Peer Networking], p2p.peerdistregisterforstatuschangenotificationex, peerdist/PeerDistRegisterForStatusChangeNotificationEx
 ms.topic: function

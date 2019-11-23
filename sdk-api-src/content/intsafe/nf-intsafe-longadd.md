@@ -1,12 +1,12 @@
 ---
 UID: NF:intsafe.LongAdd
 title: LongAdd function (intsafe.h)
-author: windows-sdk-content
+
 description: Adds two values of type LONG.
 old-location: shell\LongAdd.htm
 tech.root: shell
 ms.assetid: 3cc13a46-3168-44fd-b759-06250eb1117f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: LongAdd, LongAdd function [Windows Shell], intsafe/LongAdd, shell.LongAdd
 ms.topic: function

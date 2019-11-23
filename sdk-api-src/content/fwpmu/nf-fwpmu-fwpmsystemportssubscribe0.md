@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmSystemPortsSubscribe0
 title: FwpmSystemPortsSubscribe0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Is used to request the delivery of notifications regarding a particular system port.
 old-location: fwp\fwpmsystemportssubscribe0.htm
 tech.root: fwp
 ms.assetid: e0eecf0e-e6b2-4df9-8a8e-766ee5c8189f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmSystemPortsSubscribe0, FwpmSystemPortsSubscribe0 function [Filtering], fwp.fwpmsystemportssubscribe0, fwpmu/FwpmSystemPortsSubscribe0
 ms.topic: function

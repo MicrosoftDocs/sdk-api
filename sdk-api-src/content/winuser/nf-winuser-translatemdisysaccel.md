@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.TranslateMDISysAccel
 title: TranslateMDISysAccel function (winuser.h)
-author: windows-sdk-content
+
 description: Processes accelerator keystrokes for window menu commands of the multiple-document interface (MDI) child windows associated with the specified MDI client window.
 old-location: winmsg\translatemdisysaccel.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\translatemdisysaccel.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TranslateMDISysAccel, TranslateMDISysAccel function [Windows and Messages], _win32_TranslateMDISysAccel, _win32_translatemdisysaccel_cpp, winmsg.translatemdisysaccel, winui._win32_translatemdisysaccel, winuser/TranslateMDISysAccel
 ms.topic: function

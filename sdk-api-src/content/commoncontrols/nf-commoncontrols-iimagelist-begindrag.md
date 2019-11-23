@@ -1,12 +1,12 @@
 ---
 UID: NF:commoncontrols.IImageList.BeginDrag
 title: IImageList::BeginDrag (commoncontrols.h)
-author: windows-sdk-content
+
 description: Begins dragging an image.
 old-location: controls\IImageList_BeginDrag.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\begindrag.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BeginDrag, BeginDrag method [Windows Controls], BeginDrag method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],BeginDrag method, IImageList.BeginDrag, IImageList::BeginDrag, comctl_IImageList_BeginDrag, comctl_IImageList_BeginDrag_cpp, commoncontrols/IImageList::BeginDrag, controls.IImageList_BeginDrag, controls.comctl_IImageList_BeginDrag
 ms.topic: method

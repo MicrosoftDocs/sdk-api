@@ -1,12 +1,12 @@
 ---
 UID: NS:cmdtree.tagDBCONTENTTABLE
 title: DBCONTENTTABLE (cmdtree.h)
-author: windows-sdk-content
+
 description: The DBCONTENTTABLE structure represents the machine and catalog names for a command tree.
 old-location: indexsrv\dbcontenttable.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_1zs5.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTTABLE, DBCONTENTTABLE structure [Indexing Service], _idxs_DBCONTENTTABLE, cmdtree/DBCONTENTTABLE, indexsrv.dbcontenttable, tagDBCONTENTTABLE
 ms.topic: struct

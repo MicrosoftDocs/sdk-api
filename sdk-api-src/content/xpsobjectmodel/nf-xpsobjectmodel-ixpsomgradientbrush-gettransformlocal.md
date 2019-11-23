@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetTransformLocal
 title: IXpsOMGradientBrush::GetTransformLocal (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the local, unshared, resolved matrix transform for the brush.
 old-location: xps\ixpsomgradientbrush_gettransformlocal.htm
 tech.root: printdocs
 ms.assetid: dfdd6797-b7e6-46fa-92b1-d9c418e8a510
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMGradientBrush.GetTransformLocal, IXpsOMGradientBrush::GetTransformLocal, xps.ixpsomgradientbrush_gettransformlocal, xpsobjectmodel/IXpsOMGradientBrush::GetTransformLocal
 ms.topic: method

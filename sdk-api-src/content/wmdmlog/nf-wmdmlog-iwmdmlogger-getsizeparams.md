@@ -1,12 +1,12 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.GetSizeParams
 title: IWMDMLogger::GetSizeParams (wmdmlog.h)
-author: windows-sdk-content
+
 description: The GetSizeParams method retrieves the current size parameters of the current log file.
 old-location: wmdm\iwmdmlogger_getsizeparams.htm
 tech.root: WMDM
 ms.assetid: c8775cea-3764-44cf-a977-c4c529e2133e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSizeParams, GetSizeParams method [windows Media Device Manager], GetSizeParams method [windows Media Device Manager],IWMDMLogger interface, IWMDMLogger interface [windows Media Device Manager],GetSizeParams method, IWMDMLogger.GetSizeParams, IWMDMLogger::GetSizeParams, IWMDMLoggerGetSizeParams, wmdm.iwmdmlogger_getsizeparams, wmdmlog/IWMDMLogger::GetSizeParams
 ms.topic: method

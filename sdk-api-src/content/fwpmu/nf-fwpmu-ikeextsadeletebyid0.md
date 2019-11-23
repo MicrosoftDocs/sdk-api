@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.IkeextSaDeleteById0
 title: IkeextSaDeleteById0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: The IkeextSaDeleteById0 function removes a security association (SA) from the database.
 old-location: fwp\ikeextsadeletebyid0.htm
 tech.root: fwp
 ms.assetid: de3d1f4e-7b8a-46f5-9c3a-c6a504d5aabb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IkeextSaDeleteById0, IkeextSaDeleteById0 function [Filtering], fwp.ikeextsadeletebyid0, fwpmu/IkeextSaDeleteById0
 ms.topic: function

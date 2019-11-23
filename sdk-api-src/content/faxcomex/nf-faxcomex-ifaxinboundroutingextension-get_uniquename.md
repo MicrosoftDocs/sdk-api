@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_UniqueName
 title: IFaxInboundRoutingExtension::get_UniqueName (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxInboundRoutingExtension::get_UniqueName property is a null-terminated string that contains a unique name for the fax routing extension. The fax service uses this name internally to identify fax routing extensions.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_uniquename_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_32jp.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],UniqueName property, IFaxInboundRoutingExtension.UniqueName, IFaxInboundRoutingExtension.get_UniqueName, IFaxInboundRoutingExtension::UniqueName, IFaxInboundRoutingExtension::get_UniqueName, UniqueName property [Fax Service], UniqueName property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.uniquename, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_uniquename_cpp, fax._mfax_faxinboundroutingextension_uniquename, faxcomex/IFaxInboundRoutingExtension::UniqueName, faxcomex/IFaxInboundRoutingExtension::get_UniqueName, get_UniqueName
 ms.topic: method

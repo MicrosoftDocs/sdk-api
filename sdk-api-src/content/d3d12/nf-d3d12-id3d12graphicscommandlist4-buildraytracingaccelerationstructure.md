@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.BuildRaytracingAccelerationStructure
 title: ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure (d3d12.h)
-author: windows-sdk-content
+
 description: Performs a raytracing acceleration structure build on the GPU and optionally outputs post-build information immediately after the build.
 old-location: direct3d12\id3d12graphicscommandlist4_buildraytracingaccelerationstructure.htm
 tech.root: direct3d12
 ms.assetid: B714530C-40E6-4C67-8908-373BB26E6635
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BuildRaytracingAccelerationStructure, BuildRaytracingAccelerationStructure method, BuildRaytracingAccelerationStructure method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,BuildRaytracingAccelerationStructure method, ID3D12GraphicsCommandList4.BuildRaytracingAccelerationStructure, ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure, d3d12/ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure, direct3d12.id3d12graphicscommandlist4_buildraytracingaccelerationstructure
 ms.topic: method

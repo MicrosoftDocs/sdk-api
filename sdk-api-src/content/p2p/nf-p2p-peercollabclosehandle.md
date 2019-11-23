@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerCollabCloseHandle
 title: PeerCollabCloseHandle function (p2p.h)
-author: windows-sdk-content
+
 description: Closes the handle to a Peer Collaboration activity invitation.
 old-location: p2p\peercollabclosehandle.htm
 tech.root: P2PSdk
 ms.assetid: fbcf65c7-a133-44b9-b5bb-309b1c257a90
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerCollabCloseHandle, PeerCollabCloseHandle function [Peer Networking], p2p.peercollabclosehandle, p2p/PeerCollabCloseHandle
 ms.topic: function

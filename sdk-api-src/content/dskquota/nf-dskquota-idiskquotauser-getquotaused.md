@@ -1,12 +1,12 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaUsed
 title: IDiskQuotaUser::GetQuotaUsed (dskquota.h)
-author: windows-sdk-content
+
 description: Retrieves the user's quota used value on the volume.
 old-location: fs\idiskquotauser_getquotaused.htm
 tech.root: FileIO
 ms.assetid: 3787648e-7788-4d09-a236-fe28a693a8ff
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetQuotaUsed, GetQuotaUsed method [Files], GetQuotaUsed method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaUsed method, IDiskQuotaUser.GetQuotaUsed, IDiskQuotaUser::GetQuotaUsed, _win32_idiskquotauser_getquotaused, base.idiskquotauser_getquotaused, dskquota/IDiskQuotaUser::GetQuotaUsed, fs.idiskquotauser_getquotaused
 ms.topic: method

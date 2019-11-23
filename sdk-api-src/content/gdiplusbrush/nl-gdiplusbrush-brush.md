@@ -1,12 +1,12 @@
 ---
 UID: NL:gdiplusbrush.Brush
 title: Brush (gdiplusbrush.h)
-author: windows-sdk-content
+
 description: The Brush class is an abstract base class that defines a Brush object. A Brush object is used to paint the interior of graphics shapes, such as rectangles, ellipses, pies, polygons, and paths.
 old-location: gdiplus\_gdiplus_CLASS_Brush_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brush.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Brush, Brush class [GDI+], Brush class [GDI+],described, _gdiplus_CLASS_Brush_Class, gdiplus._gdiplus_CLASS_Brush_Class, gdiplusbrush/Brush
 ms.topic: class

@@ -1,12 +1,12 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireItem
 title: IPhotoAcquireItem (photoacquire.h)
-author: windows-sdk-content
+
 description: The IPhotoAcquireItem interface provides methods for working with items as they are acquired from a device.
 old-location: picacq\iphotoacquireitem.htm
 tech.root: acquisition
 ms.assetid: 57e099eb-bf8d-4465-af4d-fcfc3eee3b5b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireItem, IPhotoAcquireItem interface [Picture Acquisition], IPhotoAcquireItem interface [Picture Acquisition],described, IPhotoAcquireItemInterface, photoacquire/IPhotoAcquireItem, picacq.iphotoacquireitem
 ms.topic: interface

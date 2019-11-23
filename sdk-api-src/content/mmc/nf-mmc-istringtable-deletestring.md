@@ -1,12 +1,12 @@
 ---
 UID: NF:mmc.IStringTable.DeleteString
 title: IStringTable::DeleteString (mmc.h)
-author: windows-sdk-content
+
 description: Enables a snap-in to delete a specified string from the snap-in string table.
 old-location: mmc\istringtable_deletestring.htm
 tech.root: mmc
 ms.assetid: 57d04890-5dd8-45e5-9b46-b982ea3a4f36
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeleteString, DeleteString method [MMC], DeleteString method [MMC],IStringTable interface, IStringTable interface [MMC],DeleteString method, IStringTable.DeleteString, IStringTable::DeleteString, _slate_istringtable_deletestring, mmc.istringtable_deletestring, mmc/IStringTable::DeleteString
 ms.topic: method

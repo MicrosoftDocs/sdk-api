@@ -1,12 +1,12 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteFuncDescByMemId
 title: ICreateTypeInfo2::DeleteFuncDescByMemId (oaidl.h)
-author: windows-sdk-content
+
 description: Deletes the specified function description (FUNCDESC).
 old-location: automat\icreatetypeinfo2_deletefuncdescbymemid.htm
 tech.root: automat
 ms.assetid: 75de562b-3c08-4bab-957a-3a9eab16fb3f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DeleteFuncDescByMemId, DeleteFuncDescByMemId method [Automation], DeleteFuncDescByMemId method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteFuncDescByMemId method, ICreateTypeInfo2.DeleteFuncDescByMemId, ICreateTypeInfo2::DeleteFuncDescByMemId, _oa96_ICreateTypeInfo2_DeleteFuncDescByMemId, automat.icreatetypeinfo2_deletefuncdescbymemid, oaidl/ICreateTypeInfo2::DeleteFuncDescByMemId
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.get_CachedCanSelectMultiple
 title: IUIAutomationSelectionPattern::get_CachedCanSelectMultiple (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves a cached value that indicates whether more than one item in the container can be selected at one time.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple.htm
 tech.root: WinAuto
 ms.assetid: e32051ef-5605-485c-94f9-d79f385cd6d6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CachedCanSelectMultiple property [Windows Accessibility], CachedCanSelectMultiple property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CachedCanSelectMultiple property, IUIAutomationSelectionPattern.CachedCanSelectMultiple, IUIAutomationSelectionPattern.get_CachedCanSelectMultiple, IUIAutomationSelectionPattern::CachedCanSelectMultiple, IUIAutomationSelectionPattern::get_CachedCanSelectMultiple, get_CachedCanSelectMultiple, uiauto.uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple, uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::CachedCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::get_CachedCanSelectMultiple, winauto.uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.DrawGdiMetafile(ID2D1GdiMetafile,const D2D1_RECT_F &,const D2D1_RECT_F)
 title: ID2D1DeviceContext2::DrawGdiMetafile(ID2D1GdiMetafile,const D2D1_RECT_F &,const D2D1_RECT_F) (d2d1_3.h)
-author: windows-sdk-content
+
 description: Draws a metafile to the device context using the given source and destination rectangles.
 old-location: direct2d\id2d1devicecontext2_drawgdimetafile3.htm
 tech.root: Direct2D
 ms.assetid: 05de3273-7313-ff52-39bb-376661b9c283
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawGdiMetafile, DrawGdiMetafile method [Direct2D], DrawGdiMetafile method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],DrawGdiMetafile method, ID2D1DeviceContext2.DrawGdiMetafile, ID2D1DeviceContext2.DrawGdiMetafile(ID2D1GdiMetafile,const D2D1_RECT_F &,const D2D1_RECT_F), ID2D1DeviceContext2::DrawGdiMetafile, ID2D1DeviceContext2::DrawGdiMetafile(ID2D1GdiMetafile,const D2D1_RECT_F &,const D2D1_RECT_F), d2d1_3/ID2D1DeviceContext2::DrawGdiMetafile, direct2d.id2d1devicecontext2_drawgdimetafile3
 ms.topic: method

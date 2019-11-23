@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Contains(const BoundingSphere &)
 title: BoundingOrientedBox::Contains(const BoundingSphere &)
-author: windows-sdk-content
+
 description: Tests whether the BoundingOrientedBox contains a BoundingSphere.
 old-location: dxmath\boundingorientedbox_contains_5.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.Contains(BoundingSphere)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],Contains method, BoundingOrientedBox.Contains, BoundingOrientedBox.Contains(const BoundingSphere &), BoundingOrientedBox.Contains(const BoundingSphere&), BoundingOrientedBox::Contains, BoundingOrientedBox::Contains(const BoundingSphere &), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_contains_5
 ms.topic: method

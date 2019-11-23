@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.IBroadcastEventEx.FireEx
 title: IBroadcastEventEx::FireEx (tuner.h)
-author: windows-sdk-content
+
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\ibroadcasteventex_fireex.htm
 tech.root: mstv
 ms.assetid: b9ad8d9d-9827-44f9-9d2b-3f662c32eb9b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FireEx, FireEx method [Microsoft TV Technologies], FireEx method [Microsoft TV Technologies],IBroadcastEventEx interface, IBroadcastEventEx interface [Microsoft TV Technologies],FireEx method, IBroadcastEventEx.FireEx, IBroadcastEventEx::FireEx, IBroadcastEventExFireEx, mstv.ibroadcasteventex_fireex, tuner/IBroadcastEventEx::FireEx
 ms.topic: method

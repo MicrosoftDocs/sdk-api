@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.GetSignatureBlocks
 title: IXpsSignatureManager::GetSignatureBlocks (xpsdigitalsignature.h)
-author: windows-sdk-content
+
 description: Gets a pointer to an IXpsSignatureBlockCollection interface that contains a collection of signature blocks.
 old-location: xps\ixpssignaturemanager_getsignatureblocks.htm
 tech.root: printdocs
 ms.assetid: 6f7ba22f-7c3b-47bf-8cb5-2e4e4a548dc2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetSignatureBlocks, GetSignatureBlocks method [XPS Documents and Packaging], GetSignatureBlocks method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatureBlocks method, IXpsSignatureManager.GetSignatureBlocks, IXpsSignatureManager::GetSignatureBlocks, xps.ixpssignaturemanager_getsignatureblocks, xpsdigitalsignature/IXpsSignatureManager::GetSignatureBlocks
 ms.topic: method

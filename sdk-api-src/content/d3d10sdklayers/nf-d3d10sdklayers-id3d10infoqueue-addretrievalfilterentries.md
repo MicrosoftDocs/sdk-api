@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.AddRetrievalFilterEntries
 title: ID3D10InfoQueue::AddRetrievalFilterEntries (d3d10sdklayers.h)
-author: windows-sdk-content
+
 description: Add storage filters to the top of the retrieval-filter stack.
 old-location: direct3d10\id3d10infoqueue_addretrievalfilterentries.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_addretrievalfilterentries.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 5ea15176-4f13-65d2-afa6-3051b0d0908a, AddRetrievalFilterEntries, AddRetrievalFilterEntries method [Direct3D 10], AddRetrievalFilterEntries method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],AddRetrievalFilterEntries method, ID3D10InfoQueue.AddRetrievalFilterEntries, ID3D10InfoQueue::AddRetrievalFilterEntries, d3d10sdklayers/ID3D10InfoQueue::AddRetrievalFilterEntries, direct3d10.id3d10infoqueue_addretrievalfilterentries
 ms.topic: method

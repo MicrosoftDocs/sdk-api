@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.IDataCollectorCollection.CreateDataCollector
 title: IDataCollectorCollection::CreateDataCollector (pla.h)
-author: windows-sdk-content
+
 description: Creates a data collector of the specified type.
 old-location: pla\idatacollectorcollection_createdatacollector.htm
 tech.root: PLA
 ms.assetid: b6d98361-3af3-4fb2-ad0b-4449b81d6e9e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateDataCollector, CreateDataCollector method [PLA], CreateDataCollector method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],CreateDataCollector method, IDataCollectorCollection.CreateDataCollector, IDataCollectorCollection::CreateDataCollector, pla.idatacollectorcollection_createdatacollector, pla/IDataCollectorCollection::CreateDataCollector
 ms.topic: method

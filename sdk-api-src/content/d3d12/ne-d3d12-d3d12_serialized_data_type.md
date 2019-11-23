@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d12.D3D12_SERIALIZED_DATA_TYPE
 title: D3D12_SERIALIZED_DATA_TYPE (d3d12.h)
-author: windows-sdk-content
+
 description: Specifies the type of serialized data. Use a value from this enumeration when calling ID3D12Device5::CheckDriverMatchingIdentifier.
 old-location: direct3d12\d3d12_serialized_data_type.htm
 tech.root: direct3d12
 ms.assetid: A1A64D1C-64F9-4317-9BA3-AD4CC0D9F2BF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_SERIALIZED_DATA_RAYTRACING_ACCELERATION_STRUCTURE, D3D12_SERIALIZED_DATA_TYPE, D3D12_SERIALIZED_DATA_TYPE enumeration, d3d12/D3D12_SERIALIZED_DATA_RAYTRACING_ACCELERATION_STRUCTURE, d3d12/D3D12_SERIALIZED_DATA_TYPE, direct3d12.d3d12_serialized_data_type
 ms.topic: enum

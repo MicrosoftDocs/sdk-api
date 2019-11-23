@@ -1,12 +1,12 @@
 ---
 UID: NF:winstring.WindowsTrimStringEnd
 title: WindowsTrimStringEnd function (winstring.h)
-author: windows-sdk-content
+
 description: Removes all trailing occurrences of a specified set of characters from the source string.
 old-location: winrt\windowstrimstringend.htm
 tech.root: WinRT
 ms.assetid: C6DC080D-04EA-43DF-AD6F-58419D4EB1B2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WindowsTrimStringEnd, WindowsTrimStringEnd function [Windows Runtime], winrt.windowstrimstringend, winstring/WindowsTrimStringEnd
 ms.topic: function

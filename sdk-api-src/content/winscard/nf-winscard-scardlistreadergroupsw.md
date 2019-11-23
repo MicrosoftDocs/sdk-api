@@ -1,12 +1,12 @@
 ---
 UID: NF:winscard.SCardListReaderGroupsW
 title: SCardListReaderGroupsW function (winscard.h)
-author: windows-sdk-content
+
 description: Provides the list of reader groups that have previously been introduced to the system.
 old-location: security\scardlistreadergroups.htm
 tech.root: SecAuthN
 ms.assetid: df01fa4b-8053-4d3a-ae2e-66eeb6583225
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardListReaderGroups, SCardListReaderGroups function [Security], SCardListReaderGroupsA, SCardListReaderGroupsW, _smart_scardlistreadergroups, security.scardlistreadergroups, winscard/SCardListReaderGroups, winscard/SCardListReaderGroupsA, winscard/SCardListReaderGroupsW
 ms.topic: function

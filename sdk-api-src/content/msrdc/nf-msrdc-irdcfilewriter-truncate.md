@@ -1,12 +1,12 @@
 ---
 UID: NF:msrdc.IRdcFileWriter.Truncate
 title: IRdcFileWriter::Truncate (msrdc.h)
-author: windows-sdk-content
+
 description: Truncates a file to zero length.
 old-location: rdc\irdcfilewriter_truncate.htm
 tech.root: rdc
 ms.assetid: 71a9a573-a354-47ce-89a0-ebc5acd86159
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRdcFileWriter interface [Remote Differential Compression],Truncate method, IRdcFileWriter.Truncate, IRdcFileWriter::Truncate, Truncate, Truncate method [Remote Differential Compression], Truncate method [Remote Differential Compression],IRdcFileWriter interface, fs.irdcfilewriter_truncate, msrdc/IRdcFileWriter::Truncate, rdc.irdcfilewriter_truncate
 ms.topic: method

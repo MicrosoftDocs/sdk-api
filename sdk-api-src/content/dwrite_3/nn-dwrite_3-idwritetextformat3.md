@@ -2,9 +2,9 @@
 UID: NN:dwrite_3.IDWriteTextFormat3
 title: IDWriteTextFormat3
 description: Describes the font and paragraph properties used to format text, and it describes locale information.
-author: windows-sdk-content
+
 tech.root: DirectWrite
-ms.author: windowssdkdev
+
 ms.date: 09/16/2019
 ms.keywords: IDWriteTextFormat3, IDWriteTextFormat3 interface [Direct Write], IDWriteTextFormat3 interface [Direct Write],described, directwrite.idwritetextformat3, dwrite_3/IDWriteTextFormat3
 ms.topic: interface

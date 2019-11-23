@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorSetIntW
 title: XMVectorSetIntW function (directxmath.h)
-author: windows-sdk-content
+
 description: Set the value of the w component of an XMVECTOR Data Type.
 old-location: dxmath\xmvectorsetintw.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntW(XMVECTOR,uint32_t)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetIntW, XMVectorSetIntW, XMVectorSetIntW method [DirectX Math Support APIs], dxmath.xmvectorsetintw
 ms.topic: function

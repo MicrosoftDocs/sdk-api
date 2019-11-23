@@ -1,12 +1,12 @@
 ---
 UID: NL:gdipluseffects.Effect
 title: Effect (gdipluseffects.h)
-author: windows-sdk-content
+
 description: The Effect class serves as a base class for eleven classes that you can use to apply effects and adjustments to bitmaps. The following classes descend from Effect.
 old-location: gdiplus\_gdiplus_CLASS_Effect_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Effect, Effect class [GDI+], Effect class [GDI+],described, _gdiplus_CLASS_Effect_Class, gdiplus._gdiplus_CLASS_Effect_Class, gdipluseffects/Effect
 ms.topic: class

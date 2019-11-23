@@ -1,12 +1,12 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.Create
 title: IPhotoProgressDialog::Create (photoacquire.h)
-author: windows-sdk-content
+
 description: The Create method creates and displays a progress dialog box that can be shown during image enumeration and acquisition.
 old-location: picacq\iphotoprogressdialog_create.htm
 tech.root: acquisition
 ms.assetid: e68ac203-f97b-4459-b344-c845f0ac0f1b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Picture Acquisition], Create method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],Create method, IPhotoProgressDialog.Create, IPhotoProgressDialog::Create, IPhotoProgressDialogCreate, photoacquire/IPhotoProgressDialog::Create, picacq.iphotoprogressdialog_create
 ms.topic: method

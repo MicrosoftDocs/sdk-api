@@ -1,12 +1,12 @@
 ---
 UID: NF:recapis.DestroyAlternate
 title: DestroyAlternate function (recapis.h)
-author: windows-sdk-content
+
 description: This function is obsolete and need not be implemented by custom application recognizers.
 old-location: tablet\destroyalternate.htm
 tech.root: tablet
 ms.assetid: d355d377-2021-4e74-b3bb-2058271c9be9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DestroyAlternate, DestroyAlternate function [Tablet PC], d355d377-2021-4e74-b3bb-2058271c9be9, recapis/DestroyAlternate, tablet.destroyalternate
 ms.topic: function

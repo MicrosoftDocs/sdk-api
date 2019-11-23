@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_HTTP_MESSAGE_MAPPING
 title: WS_HTTP_MESSAGE_MAPPING (webservices.h)
-author: windows-sdk-content
+
 description: How an HTTP request or response should be represented in a message object.
 old-location: wsw\ws_http_message_mapping.htm
 tech.root: wsw
 ms.assetid: dff8217e-769d-4f0b-acf2-02d6e43589cf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_MESSAGE_MAPPING, WS_HTTP_MESSAGE_MAPPING structure [Web Services for Windows], webservices/WS_HTTP_MESSAGE_MAPPING, wsw.ws_http_message_mapping
 ms.topic: struct

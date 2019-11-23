@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVectorSetWPtr
 title: XMVectorSetWPtr function (directxmath.h)
-author: windows-sdk-content
+
 description: Sets the w component of an XMVECTOR containing floating-point data, with a value contained in an instance of float referred to by a pointer.
 old-location: dxmath\xmvectorsetwptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetWPtr(XMVECTOR,const float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetWPtr, XMVectorSetWPtr, XMVectorSetWPtr method [DirectX Math Support APIs], dxmath.xmvectorsetwptr
 ms.topic: function

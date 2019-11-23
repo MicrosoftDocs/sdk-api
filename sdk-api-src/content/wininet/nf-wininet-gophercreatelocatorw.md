@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.GopherCreateLocatorW
 title: GopherCreateLocatorW function (wininet.h)
-author: windows-sdk-content
+
 description: Creates a Gopher or Gopher+ locator string from the selector string's component parts.
 old-location: wininet\gophercreatelocator.htm
 tech.root: wininet
 ms.assetid: 972a4ff9-efda-4784-9ac8-c76e679e8032
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GopherCreateLocator, GopherCreateLocator function [WinINet], GopherCreateLocatorA, GopherCreateLocatorW, _inet_gophercreatelocator_function, wininet.gophercreatelocator, wininet/GopherCreateLocator, wininet/GopherCreateLocatorA, wininet/GopherCreateLocatorW
 ms.topic: function

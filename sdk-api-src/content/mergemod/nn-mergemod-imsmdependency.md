@@ -1,12 +1,12 @@
 ---
 UID: NN:mergemod.IMsmDependency
 title: IMsmDependency (mergemod.h)
-author: windows-sdk-content
+
 description: The IMsmDependency interface retrieves details for a single module dependency.
 old-location: setup\imsmdependency_interface.htm
 tech.root: Msi
 ms.assetid: 517cf174-418a-4717-a25f-1736225016a1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMsmDependency, IMsmDependency interface, IMsmDependency interface,described, mergemod/IMsmDependency, setup.imsmdependency_interface
 ms.topic: interface

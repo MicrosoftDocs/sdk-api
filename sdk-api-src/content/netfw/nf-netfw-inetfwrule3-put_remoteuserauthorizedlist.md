@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.INetFwRule3.put_RemoteUserAuthorizedList
 title: INetFwRule3::put_RemoteUserAuthorizedList (netfw.h)
-author: windows-sdk-content
+
 description: Specifies a list of remote users who are authorized to access an app container.
 old-location: ics\inetfwrule3_remoteuserauthorizedlist.htm
 tech.root: ics
 ms.assetid: 9364d317-b32a-4b8d-b67a-32a34b64a5ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],RemoteUserAuthorizedList property, INetFwRule3.RemoteUserAuthorizedList, INetFwRule3.put_RemoteUserAuthorizedList, INetFwRule3::RemoteUserAuthorizedList, INetFwRule3::get_RemoteUserAuthorizedList, INetFwRule3::put_RemoteUserAuthorizedList, RemoteUserAuthorizedList property [ICS/ICF], RemoteUserAuthorizedList property [ICS/ICF],INetFwRule3 interface, ics.inetfwrule3_remoteuserauthorizedlist, netfw/INetFwRule3::RemoteUserAuthorizedList, netfw/INetFwRule3::get_RemoteUserAuthorizedList, netfw/INetFwRule3::put_RemoteUserAuthorizedList, put_RemoteUserAuthorizedList
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:strsafe.StringCbVPrintfExA
 title: StringCbVPrintfExA function (strsafe.h)
-author: windows-sdk-content
+
 description: Writes formatted data to the specified string using a pointer to a list of arguments.
 old-location: menurc\stringcbvprintfex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbvprintfex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbVPrintfEx, StringCbVPrintfEx function [Menus and Other Resources], StringCbVPrintfExA, StringCbVPrintfExW, _shell_StringCbVPrintfEx, _shell_stringcbvprintfex_cpp, menurc.stringcbvprintfex, strsafe/StringCbVPrintfEx, strsafe/StringCbVPrintfExA, strsafe/StringCbVPrintfExW, winui._shell_stringcbvprintfex
 ms.topic: function

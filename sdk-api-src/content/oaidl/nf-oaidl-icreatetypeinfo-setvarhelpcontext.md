@@ -1,12 +1,12 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetVarHelpContext
 title: ICreateTypeInfo::SetVarHelpContext (oaidl.h)
-author: windows-sdk-content
+
 description: Sets the Help context ID for the variable with the specified index.
 old-location: automat\icreatetypeinfo_setvarhelpcontext.htm
 tech.root: automat
 ms.assetid: ab15e7fc-63fa-433f-9191-c7087143a7c1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVarHelpContext method, ICreateTypeInfo.SetVarHelpContext, ICreateTypeInfo::SetVarHelpContext, SetVarHelpContext, SetVarHelpContext method [Automation], SetVarHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVarHelpContext, automat.icreatetypeinfo_setvarhelpcontext, oaidl/ICreateTypeInfo::SetVarHelpContext
 ms.topic: method

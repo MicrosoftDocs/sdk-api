@@ -1,12 +1,12 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0001
 title: InteractionMode (peninputpanel.h)
-author: windows-sdk-content
+
 description: Specifies the interaction modes that can be chosen by the user for the Tablet PC Input Panel.
 old-location: tablet\interactionmode.htm
 tech.root: tablet
 ms.assetid: 8e01c1fd-3351-47f1-beae-c84d9f7969a8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 8e01c1fd-3351-47f1-beae-c84d9f7969a8, InteractionMode, InteractionMode enumeration [Tablet PC], InteractionMode_DockedBottom, InteractionMode_DockedTop, InteractionMode_Floating, InteractionMode_InPlace, peninputpanel/InteractionMode, peninputpanel/InteractionMode_DockedBottom, peninputpanel/InteractionMode_DockedTop, peninputpanel/InteractionMode_Floating, peninputpanel/InteractionMode_InPlace, tablet.interactionmode
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusimagecodec.GetImageEncoders
 title: GetImageEncoders function (gdiplusimagecodec.h)
-author: windows-sdk-content
+
 description: The GetImageEncoders function gets an array of ImageCodecInfo objects that contain information about the available image encoders.
 old-location: gdiplus\_gdiplus_FUNC_GetImageEncoders_numEncoders_size_encoders_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getimageencoders.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetImageEncoders, GetImageEncoders function [GDI+], _gdiplus_FUNC_GetImageEncoders_numEncoders_size_encoders_, gdiplus._gdiplus_FUNC_GetImageEncoders_numEncoders_size_encoders_, gdiplusimagecodec/GetImageEncoders
 ms.topic: function

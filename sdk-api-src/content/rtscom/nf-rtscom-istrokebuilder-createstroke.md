@@ -1,12 +1,12 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.CreateStroke
 title: IStrokeBuilder::CreateStroke (rtscom.h)
-author: windows-sdk-content
+
 description: Creates strokes on an ink object by using packet data that came from a RealTimeStylus Class object.
 old-location: tablet\istrokebuilder_createstroke.htm
 tech.root: tablet
 ms.assetid: f7c6f177-3d89-4f27-b2c0-937b08591305
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateStroke, CreateStroke method [Tablet PC], CreateStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],CreateStroke method, IStrokeBuilder.CreateStroke, IStrokeBuilder::CreateStroke, f7c6f177-3d89-4f27-b2c0-937b08591305, rtscom/IStrokeBuilder::CreateStroke, tablet.istrokebuilder_createstroke
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NS:mmeapi.tagMIXERCAPSW
 title: MIXERCAPSW (mmeapi.h)
-author: windows-sdk-content
+
 description: The MIXERCAPS structure describes the capabilities of a mixer device.
 old-location: multimedia\mixercaps.htm
 tech.root: Multimedia
 ms.assetid: 4a4220cb-fdb1-4afe-821f-27f5adb51530
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPMIXERCAPSW, *PMIXERCAPSW, MIXERCAPS, MIXERCAPS structure [Windows Multimedia], MIXERCAPSW, _win32_MIXERCAPS_str, mmeapi/MIXERCAPS, multimedia.mixercaps, tMIXERCAPS, tagMIXERCAPSA, tagMIXERCAPSW"
 ms.topic: struct

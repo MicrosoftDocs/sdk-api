@@ -1,12 +1,12 @@
 ---
 UID: NF:comcat.IEnumCATEGORYINFO.Reset
 title: IEnumCATEGORYINFO::Reset (comcat.h)
-author: windows-sdk-content
+
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumcategoryinfo_reset.htm
 tech.root: com
 ms.assetid: 55b9197e-4138-4cd5-9d06-4f31f1f5781a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumCATEGORYINFO interface [COM],Reset method, IEnumCATEGORYINFO.Reset, IEnumCATEGORYINFO::Reset, Reset, Reset method [COM], Reset method [COM],IEnumCATEGORYINFO interface, _com_ienumcategoryinfo_reset, com.ienumcategoryinfo_reset, comcat/IEnumCATEGORYINFO::Reset
 ms.topic: method

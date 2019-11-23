@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.VarR8FromI4
 title: VarR8FromI4 function (oleauto.h)
-author: windows-sdk-content
+
 description: Converts a long value to a double value.
 old-location: automat\varr8fromi4.htm
 tech.root: automat
 ms.assetid: fb82e742-b855-4451-aac1-0f111686fcdd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: VarR8FromI4, VarR8FromI4 function [Automation], _oa96_VarR8FromI4, automat.varr8fromi4, oleauto/VarR8FromI4
 ms.topic: function

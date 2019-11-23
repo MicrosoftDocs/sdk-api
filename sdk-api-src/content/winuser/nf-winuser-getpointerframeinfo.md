@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetPointerFrameInfo
 title: GetPointerFrameInfo function (winuser.h)
-author: windows-sdk-content
+
 description: Gets the entire frame of information for the specified pointers associated with the current message.
 old-location: inputmsg\getpointerframeinfo.htm
 tech.root: InputMsg
 ms.assetid: 6b7f450d-6ab1-4991-b2f9-a1db3f065711
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPointerFrameInfo, GetPointerFrameInfo function [Input Messages and Notifications], inputmsg.getpointerframeinfo, winuser/GetPointerFrameInfo
 ms.topic: function

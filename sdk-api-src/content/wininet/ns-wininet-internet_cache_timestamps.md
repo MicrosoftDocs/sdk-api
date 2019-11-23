@@ -1,12 +1,12 @@
 ---
 UID: NS:wininet._INTERNET_CACHE_TIMESTAMPS
 title: INTERNET_CACHE_TIMESTAMPS (wininet.h)
-author: windows-sdk-content
+
 description: Contains the LastModified and Expire times for a resource stored in the Internet cache.
 old-location: wininet\internet_cache_timestamps.htm
 tech.root: wininet
 ms.assetid: e0fc2d73-95b9-4466-8a80-ca3211fc58e1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPINTERNET_CACHE_TIMESTAMPS, INTERNET_CACHE_TIMESTAMPS, INTERNET_CACHE_TIMESTAMPS structure [WinINet], LPINTERNET_CACHE_TIMESTAMPS, LPINTERNET_CACHE_TIMESTAMPS structure pointer [WinINet], _inet_internet_cache_timestamps_structure, wininet.internet_cache_timestamps, wininet/INTERNET_CACHE_TIMESTAMPS, wininet/LPINTERNET_CACHE_TIMESTAMPS"
 ms.topic: struct

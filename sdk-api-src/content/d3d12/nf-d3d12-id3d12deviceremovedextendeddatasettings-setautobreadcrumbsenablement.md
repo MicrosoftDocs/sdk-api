@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12.ID3D12DeviceRemovedExtendedDataSettings.SetAutoBreadcrumbsEnablement
 title: ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement
-author: windows-sdk-content
+
 description: Configures the enablement settings for Device Removed Extended Data (DRED) auto-breadcrumbs.
 old-location: direct3d12\id3d12deviceremovedextendeddatasettings_setautobreadcrumbsenablement.htm
 tech.root: direct3d12
-ms.author: windowssdkdev
+
 ms.date: 02/08/2019
 ms.keywords: SetAutoBreadcrumbsEnablement, SetAutoBreadcrumbsEnablement method, ID3D12DeviceRemovedExtendedDataSettings, ID3D12DeviceRemovedExtendedDataSettings interface, ID3D12DeviceRemovedExtendedDataSettings.SetAutoBreadcrumbsEnablement, ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement, d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement, direct3d12.id3d12deviceremovedextendeddatasettings_setautobreadcrumbsenablement
 ms.topic: method

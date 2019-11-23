@@ -1,12 +1,12 @@
 ---
 UID: NF:wincrypt.CryptVerifyMessageHash
 title: CryptVerifyMessageHash function (wincrypt.h)
-author: windows-sdk-content
+
 description: The CryptVerifyMessageHash function verifies the hash of specified content.
 old-location: security\cryptverifymessagehash.htm
 tech.root: SecCrypto
 ms.assetid: 3b5185b9-e24b-4302-a60c-74ccbd19077c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyMessageHash, CryptVerifyMessageHash function [Security], _crypto2_cryptverifymessagehash, security.cryptverifymessagehash, wincrypt/CryptVerifyMessageHash
 ms.topic: function

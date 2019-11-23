@@ -1,12 +1,12 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetPcrPid
 title: IPMT::GetPcrPid (mpeg2psiparser.h)
-author: windows-sdk-content
+
 description: The GetPcrPid method returns the packet identifier (PID) of the packets that contain the Program Clock Reference (PCR) fields for this program.
 old-location: mstv\ipmt_getpcrpid.htm
 tech.root: mstv
 ms.assetid: 0099e5b3-d573-47b9-9581-fbb9fee3ca16
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPcrPid, GetPcrPid method [Microsoft TV Technologies], GetPcrPid method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetPcrPid method, IPMT.GetPcrPid, IPMT::GetPcrPid, IPMTGetPcrPid, mpeg2psiparser/IPMT::GetPcrPid, mstv.ipmt_getpcrpid
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerCollabRefreshEndpointData
 title: PeerCollabRefreshEndpointData function (p2p.h)
-author: windows-sdk-content
+
 description: Updates the calling peer node with new endpoint data.
 old-location: p2p\peercollabrefreshendpointdata.htm
 tech.root: P2PSdk
 ms.assetid: ba841da4-de7f-4288-84b7-a06370b55e3c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerCollabRefreshEndpointData, PeerCollabRefreshEndpointData function [Peer Networking], p2p.peercollabrefreshendpointdata, p2p/PeerCollabRefreshEndpointData
 ms.topic: function

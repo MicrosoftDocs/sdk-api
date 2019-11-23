@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.ISeekingPassThru.Init
 title: ISeekingPassThru::Init (strmif.h)
-author: windows-sdk-content
+
 description: The Init method initializes the seeking helper object.
 old-location: dshow\iseekingpassthru_init.htm
 tech.root: DirectShow
 ms.assetid: bb32c20c-bbae-403a-885b-f07c6dcf46f4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISeekingPassThru interface [DirectShow],Init method, ISeekingPassThru.Init, ISeekingPassThru::Init, ISeekingPassThruInit, Init, Init method [DirectShow], Init method [DirectShow],ISeekingPassThru interface, dshow.iseekingpassthru_init, strmif/ISeekingPassThru::Init
 ms.topic: method

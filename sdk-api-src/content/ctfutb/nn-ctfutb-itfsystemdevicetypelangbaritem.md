@@ -1,12 +1,12 @@
 ---
 UID: NN:ctfutb.ITfSystemDeviceTypeLangBarItem
 title: ITfSystemDeviceTypeLangBarItem (ctfutb.h)
-author: windows-sdk-content
+
 description: The ITfSystemDeviceTypeLangBarItem interface is implemented by a system language bar item and used by an application or text service to control how the system item displays its icon.
 old-location: tsf\itfsystemdevicetypelangbaritem.htm
 tech.root: TSF
 ms.assetid: 0dc32f10-eecd-4203-992c-80eb0f991615
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfSystemDeviceTypeLangBarItem, ITfSystemDeviceTypeLangBarItem interface [Text Services Framework], ITfSystemDeviceTypeLangBarItem interface [Text Services Framework],described, _tsf_itfsystemdevicetypelangbaritem_ref, ctfutb/ITfSystemDeviceTypeLangBarItem, tsf.itfsystemdevicetypelangbaritem
 ms.topic: interface

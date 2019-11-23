@@ -1,12 +1,12 @@
 ---
 UID: NF:appmodel.GetPackageApplicationIds
 title: GetPackageApplicationIds function (appmodel.h)
-author: windows-sdk-content
+
 description: Gets the IDs of apps in the specified package.
 old-location: appxpkg\getpackageapplicationids.htm
 tech.root: appxpkg
 ms.assetid: F08135F9-FF45-4309-84B5-77F4AFD7FC0C
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPackageApplicationIds, GetPackageApplicationIds function [App packaging and management], appmodel/GetPackageApplicationIds, appxpkg.getpackageapplicationids
 ms.topic: function

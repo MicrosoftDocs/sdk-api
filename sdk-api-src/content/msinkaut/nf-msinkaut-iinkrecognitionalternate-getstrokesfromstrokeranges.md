@@ -1,12 +1,12 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.GetStrokesFromStrokeRanges
 title: IInkRecognitionAlternate::GetStrokesFromStrokeRanges (msinkaut.h)
-author: windows-sdk-content
+
 description: Retrieves the smallest InkStrokes collection that contains a known input InkStrokes collection and for which the IInkRecognizer object can provide alternates.
 old-location: tablet\iinkrecognitionalternate_getstrokesfromstrokeranges.htm
 tech.root: tablet
 ms.assetid: 25079651-4fcd-4f13-b73f-7d5ffefa871e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 25079651-4fcd-4f13-b73f-7d5ffefa871e, GetStrokesFromStrokeRanges, GetStrokesFromStrokeRanges method [Tablet PC], GetStrokesFromStrokeRanges method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],GetStrokesFromStrokeRanges method, IInkRecognitionAlternate.GetStrokesFromStrokeRanges, IInkRecognitionAlternate::GetStrokesFromStrokeRanges, msinkaut/IInkRecognitionAlternate::GetStrokesFromStrokeRanges, tablet.iinkrecognitionalternate_getstrokesfromstrokeranges
 ms.topic: method

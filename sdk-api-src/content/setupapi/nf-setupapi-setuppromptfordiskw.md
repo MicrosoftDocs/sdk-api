@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupPromptForDiskW
 title: SetupPromptForDiskW function (setupapi.h)
-author: windows-sdk-content
+
 description: The SetupPromptForDisk function displays a dialog box that prompts the user for a disk.
 old-location: setup\setuppromptfordisk.htm
 tech.root: SetupApi
 ms.assetid: 65ccd3d1-1846-48cb-9fe6-ab5c69845e01
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetupPromptForDisk, SetupPromptForDisk function [Setup API], SetupPromptForDiskA, SetupPromptForDiskW, _setupapi_setuppromptfordisk, setup.setuppromptfordisk, setupapi/SetupPromptForDisk, setupapi/SetupPromptForDiskA, setupapi/SetupPromptForDiskW
 ms.topic: function

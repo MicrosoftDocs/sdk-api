@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.PopAxisAlignedClip
 title: ID2D1CommandSink::PopAxisAlignedClip (d2d1_1.h)
-author: windows-sdk-content
+
 description: Removes an axis-aligned clip from the layer and clip stack.
 old-location: direct2d\id2d1commandsink_popaxisalignedclip.htm
 tech.root: Direct2D
 ms.assetid: 602cede8-dce1-4032-b099-b8088bc57459
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],PopAxisAlignedClip method, ID2D1CommandSink.PopAxisAlignedClip, ID2D1CommandSink::PopAxisAlignedClip, PopAxisAlignedClip, PopAxisAlignedClip method [Direct2D], PopAxisAlignedClip method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::PopAxisAlignedClip, direct2d.id2d1commandsink_popaxisalignedclip
 ms.topic: method

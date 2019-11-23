@@ -1,12 +1,12 @@
 ---
 UID: NS:lmshare._CONNECTION_INFO_0
 title: CONNECTION_INFO_0 (lmshare.h)
-author: windows-sdk-content
+
 description: Contains the identification number of a connection.
 old-location: fs\connection_info_0_str.htm
 tech.root: NetShare
 ms.assetid: aebafe24-1216-48ab-92db-df8f77d36f26
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPCONNECTION_INFO_0, *PCONNECTION_INFO_0, CONNECTION_INFO_0, CONNECTION_INFO_0 structure [Files], LPCONNECTION_INFO_0, LPCONNECTION_INFO_0 structure pointer [Files], PCONNECTION_INFO_0, PCONNECTION_INFO_0 structure pointer [Files], _win32_connection_info_0_str, fs.connection_info_0_str, lmshare/CONNECTION_INFO_0, lmshare/LPCONNECTION_INFO_0, lmshare/PCONNECTION_INFO_0, netmgmt.connection_info_0_str"
 ms.topic: struct

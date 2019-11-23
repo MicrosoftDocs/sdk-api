@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetTopLeftRadiusX(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetTopLeftRadiusX(IDCompositionAnimation) (dcomp.h)
-author: windows-sdk-content
+
 description: Animates the value of the TopLeftRadiusX property of this clip. The TopLeftRadiusX property specifies the x radius of the ellipse that rounds the top-left corner of the clip.
 old-location: directcomp\idcompositionrectangleclip_settopleftradiusx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 802C5F88-F160-422E-99CC-D573471B119B
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTopLeftRadiusX method, IDCompositionRectangleClip.SetTopLeftRadiusX, IDCompositionRectangleClip.SetTopLeftRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetTopLeftRadiusX, IDCompositionRectangleClip::SetTopLeftRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetTopLeftRadiusX(IDCompositionAnimation*), SetTopLeftRadiusX, SetTopLeftRadiusX method [DirectComposition], SetTopLeftRadiusX method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTopLeftRadiusX, directcomp.idcompositionrectangleclip_settopleftradiusx_idcompositionanimation
 ms.topic: method

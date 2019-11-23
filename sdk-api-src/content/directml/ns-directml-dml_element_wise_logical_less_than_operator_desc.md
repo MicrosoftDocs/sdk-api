@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_LOGICAL_LESS_THAN_OPERATOR_DESC
 title: DML_ELEMENT_WISE_LOGICAL_LESS_THAN_OPERATOR_DESC
-author: windows-sdk-content
+
 description: Describes a DirectML math operator that performs a logical less-than function between every element in ATensor and its corresponding element in BTensor, f(a, b) = (a &lt; b).
 old-location: direct3d12\dml_element_wise_logical_less_than_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 41EA76EF-CC5E-4C35-B797-41E91F12BA15
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_LOGICAL_LESS_THAN_OPERATOR_DESC, DML_ELEMENT_WISE_LOGICAL_LESS_THAN_OPERATOR_DESC structure, direct3d12.dml_element_wise_logical_less_than_operator_desc, directml/DML_ELEMENT_WISE_LOGICAL_LESS_THAN_OPERATOR_DESC
 ms.topic: struct

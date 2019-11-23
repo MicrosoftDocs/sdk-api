@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_Password
 title: ISearchRoot::get_Password (searchapi.h)
-author: windows-sdk-content
+
 description: Not implemented.
 old-location: search\_search_ISearchRoot_get_Password.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_password.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],get_Password method, ISearchRoot.get_Password, ISearchRoot::get_Password, _search_ISearchRoot_get_Password, get_Password, get_Password method [search], get_Password method [search],ISearchRoot interface, search._search_ISearchRoot_get_Password, searchapi/ISearchRoot::get_Password
 ms.topic: method

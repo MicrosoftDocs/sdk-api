@@ -1,12 +1,12 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.GetNameChoice
 title: ICertEncodeAltName::GetNameChoice (certenc.h)
-author: windows-sdk-content
+
 description: Returns the name choice at a specified index of an alternate name array.
 old-location: security\icertencodealtname_getnamechoice.htm
 tech.root: SecCrypto
 ms.assetid: 3b21fbc7-cba1-49b1-bad6-232f717e3056
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeAltName object [Security],GetNameChoice method, GetNameChoice, GetNameChoice method [Security], GetNameChoice method [Security],CCertEncodeAltName object, GetNameChoice method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetNameChoice method, ICertEncodeAltName.GetNameChoice, ICertEncodeAltName::GetNameChoice, _certsrv_icertencodealtname_getnamechoice, certenc/ICertEncodeAltName::GetNameChoice, security.icertencodealtname_getnamechoice
 ms.topic: method

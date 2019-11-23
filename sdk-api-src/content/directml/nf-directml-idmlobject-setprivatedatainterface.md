@@ -1,12 +1,12 @@
 ---
 UID: NF:directml.IDMLObject.SetPrivateDataInterface
 title: IDMLObject::SetPrivateDataInterface
-author: windows-sdk-content
+
 description: Associates an IUnknown-derived interface with the DirectML device object, and associates that interface with an application-defined GUID.
 old-location: direct3d12\idmlobject_setprivatedatainterface.htm
 tech.root: direct3d12
 ms.assetid: 18D36A5A-07C4-4926-8B31-BBB75EAEC6A9
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: IDMLObject interface,SetPrivateDataInterface method, IDMLObject.SetPrivateDataInterface, IDMLObject::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method, SetPrivateDataInterface method,IDMLObject interface, direct3d12.idmlobject_setprivatedatainterface, directml/IDMLObject::SetPrivateDataInterface
 ms.topic: method

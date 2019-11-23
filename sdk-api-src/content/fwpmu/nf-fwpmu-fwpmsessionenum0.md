@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmSessionEnum0
 title: FwpmSessionEnum0 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Returns the next page of results from the session enumerator.
 old-location: fwp\fwpmsessionenum0_func.htm
 tech.root: fwp
 ms.assetid: fb67d74a-dd96-434c-b218-a34ca6043cb1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmSessionEnum0, FwpmSessionEnum0 function [Filtering], fwp.fwpmsessionenum0_func, fwpmu/FwpmSessionEnum0
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxmath.XMVector3ReciprocalLength
 title: XMVector3ReciprocalLength function (directxmath.h)
-author: windows-sdk-content
+
 description: Computes the reciprocal of the length of a 3D vector.
 old-location: dxmath\xmvector3reciprocallength.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3ReciprocalLength(XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3ReciprocalLength, XMVector3ReciprocalLength, XMVector3ReciprocalLength method [DirectX Math Support APIs], dxmath.xmvector3reciprocallength
 ms.topic: function

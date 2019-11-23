@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.AddKeyframeAfterTransition
 title: IUIAnimationStoryboard::AddKeyframeAfterTransition (uianimation.h)
-author: windows-sdk-content
+
 description: Adds a keyframe at the end of the specified transition.
 old-location: uianimation\iuianimationstoryboard_addkeyframeaftertransition.htm
 tech.root: UIAnimation
 ms.assetid: 055206d8-ea9e-4013-89ee-2929bfeb2731
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddKeyframeAfterTransition, AddKeyframeAfterTransition method [Windows Animation], AddKeyframeAfterTransition method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddKeyframeAfterTransition method, IUIAnimationStoryboard.AddKeyframeAfterTransition, IUIAnimationStoryboard::AddKeyframeAfterTransition, uianimation.iuianimationstoryboard_addkeyframeaftertransition, uianimation/IUIAnimationStoryboard::AddKeyframeAfterTransition
 ms.topic: method

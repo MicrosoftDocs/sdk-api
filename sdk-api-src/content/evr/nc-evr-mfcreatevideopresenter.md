@@ -1,12 +1,12 @@
 ---
 UID: NC:evr.MFCreateVideoPresenter
 title: MFCreateVideoPresenter (evr.h)
-author: windows-sdk-content
+
 description: Creates the default video presenter for the enhanced video renderer (EVR).
 old-location: mf\mfcreatevideopresenter.htm
 tech.root: medfound
 ms.assetid: 04a1ce0d-f1ed-4b8a-827c-600297660442
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 04a1ce0d-f1ed-4b8a-827c-600297660442, MFCreateVideoPresenter, MFCreateVideoPresenter callback, MFCreateVideoPresenter callback function [Media Foundation], evr/MFCreateVideoPresenter, mf.mfcreatevideopresenter
 ms.topic: callback

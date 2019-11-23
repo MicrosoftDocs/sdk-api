@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl_core.SHLoadLibraryFromParsingName
 title: SHLoadLibraryFromParsingName function (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Creates and loads an IShellLibrary object for a specified path.
 old-location: shell\SHLoadLibraryFromParsingName.htm
 tech.root: shell
 ms.assetid: 49433938-d31e-49f8-9dc7-3df5fb3bfcad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHLoadLibraryFromParsingName, SHLoadLibraryFromParsingName function [Windows Shell], _shell_SHLoadLibraryFromParsingName, shell.SHLoadLibraryFromParsingName, shobjidl_core/SHLoadLibraryFromParsingName
 ms.topic: function

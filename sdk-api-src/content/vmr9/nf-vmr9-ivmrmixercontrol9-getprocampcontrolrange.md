@@ -1,12 +1,12 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetProcAmpControlRange
 title: IVMRMixerControl9::GetProcAmpControlRange (vmr9.h)
-author: windows-sdk-content
+
 description: The GetProcAmpControlRange method retrieves the range of values for an image adjustment setting, such as brightness, contrast, hue, or saturation.
 old-location: dshow\ivmrmixercontrol9_getprocampcontrolrange.htm
 tech.root: DirectShow
 ms.assetid: e7db2b22-b3d2-4c6f-84fc-5a287761ed7a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetProcAmpControlRange, GetProcAmpControlRange method [DirectShow], GetProcAmpControlRange method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetProcAmpControlRange method, IVMRMixerControl9.GetProcAmpControlRange, IVMRMixerControl9::GetProcAmpControlRange, IVMRMixerControl9GetProcAmpControlRange, dshow.ivmrmixercontrol9_getprocampcontrolrange, vmr9/IVMRMixerControl9::GetProcAmpControlRange
 ms.topic: method

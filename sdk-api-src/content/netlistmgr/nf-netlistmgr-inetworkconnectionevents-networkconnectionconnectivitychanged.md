@@ -1,12 +1,12 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionEvents.NetworkConnectionConnectivityChanged
 title: INetworkConnectionEvents::NetworkConnectionConnectivityChanged (netlistmgr.h)
-author: windows-sdk-content
+
 description: The NetworkConnectionConnectivityChanged method notifies a client when connectivity change events occur on a network connection level.
 old-location: nla\inetworkconnectionevents_networkconnectionconnectivitychanged.htm
 tech.root: nla
 ms.assetid: 0b245a6e-918c-41de-b33e-87723491e900
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetworkConnectionEvents interface [Network Awareness],NetworkConnectionConnectivityChanged method, INetworkConnectionEvents.NetworkConnectionConnectivityChanged, INetworkConnectionEvents::NetworkConnectionConnectivityChanged, NetworkConnectionConnectivityChanged, NetworkConnectionConnectivityChanged method [Network Awareness], NetworkConnectionConnectivityChanged method [Network Awareness],INetworkConnectionEvents interface, netlistmgr/INetworkConnectionEvents::NetworkConnectionConnectivityChanged, nla.inetworkconnectionevents_networkconnectionconnectivitychanged
 ms.topic: method

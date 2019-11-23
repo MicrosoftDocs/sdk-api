@@ -1,12 +1,12 @@
 ---
 UID: NS:winioctl._FILE_LEVEL_TRIM_OUTPUT
 title: FILE_LEVEL_TRIM_OUTPUT
-author: windows-sdk-content
+
 description: Used as output to the FSCTL_FILE_LEVEL_TRIM control code.
 old-location: fs\file_level_trim_output.htm
 tech.root: FileIO
 ms.assetid: 3d293d09-8d41-495d-9095-f2f24bf6ac6b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PFILE_LEVEL_TRIM_OUTPUT, FILE_LEVEL_TRIM_OUTPUT, FILE_LEVEL_TRIM_OUTPUT structure [Files], PFILE_LEVEL_TRIM_OUTPUT, PFILE_LEVEL_TRIM_OUTPUT structure pointer [Files], fs.file_level_trim_output, winioctl/FILE_LEVEL_TRIM_OUTPUT, winioctl/PFILE_LEVEL_TRIM_OUTPUT"
 ms.topic: struct

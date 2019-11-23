@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerGroupRegisterEvent
 title: PeerGroupRegisterEvent function (p2p.h)
-author: windows-sdk-content
+
 description: The PeerGroupRegisterEvent function registers a peer for specific peer group events.
 old-location: p2p\peergroupregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: a4dc100a-d3dc-408e-a425-bded11d04db5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerGroupRegisterEvent, PeerGroupRegisterEvent function [Peer Networking], p2p.peergroupregisterevent, p2p/PeerGroupRegisterEvent
 ms.topic: function

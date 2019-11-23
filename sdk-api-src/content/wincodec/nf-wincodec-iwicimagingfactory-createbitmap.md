@@ -1,12 +1,12 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmap
 title: IWICImagingFactory::CreateBitmap (wincodec.h)
-author: windows-sdk-content
+
 description: Creates an IWICBitmap object.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmap.htm
 tech.root: wic
 ms.assetid: 76741d1e-3e1b-4018-b092-b668ecfd43c9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateBitmap, CreateBitmap method [Windows Imaging Component], CreateBitmap method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmap method, IWICImagingFactory.CreateBitmap, IWICImagingFactory::CreateBitmap, WICBitmapCacheOnDemand, WICBitmapCacheOnLoad, WICBitmapNoCache, _wic_codec_iwicimagingfactory_createbitmap, wic._wic_codec_iwicimagingfactory_createbitmap, wincodec/IWICImagingFactory::CreateBitmap
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Contains(const BoundingFrustum &)
 title: BoundingSphere::Contains(const BoundingFrustum &)
-author: windows-sdk-content
+
 description: Tests whether the BoundingSphere contains the specified BoundingFrustum.
 old-location: dxmath\boundingsphere_contains_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.Contains(BoundingFrustum)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],Contains method, BoundingSphere.Contains, BoundingSphere.Contains(const BoundingFrustum &), BoundingSphere.Contains(const BoundingFrustum&), BoundingSphere::Contains, BoundingSphere::Contains(const BoundingFrustum &), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingSphere interface, dxmath.boundingsphere_contains_1
 ms.topic: method

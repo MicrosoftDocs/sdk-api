@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetColor
 title: IDCompositionShadowEffect::SetColor (dcomp.h)
-author: windows-sdk-content
+
 description: Sets color of the shadow.
 old-location: directcomp\idcompositionshadoweffect_setcolor.htm
 tech.root: directcomp
 ms.assetid: 1C08E464-087A-41BF-9B0E-E1370576E64A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetColor method, IDCompositionShadowEffect.SetColor, IDCompositionShadowEffect::SetColor, SetColor, SetColor method [DirectComposition], SetColor method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetColor, directcomp.idcompositionshadoweffect_setcolor
 ms.topic: method

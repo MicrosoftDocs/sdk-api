@@ -1,12 +1,12 @@
 ---
 UID: NS:dcommon.D2D_RECT_F
 title: D2D_RECT_F (dcommon.h)
-author: windows-sdk-content
+
 description: Represents a rectangle defined by the coordinates of the upper-left corner (left, top) and the coordinates of the lower-right corner (right, bottom).
 old-location: direct2d\D2D_RECT_F.htm
 tech.root: Direct2D
 ms.assetid: 84bd7ab0-f273-46f8-b261-86cd1d7f3868
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D2D1_RECT_F, D2D_RECT_F, D2D_RECT_F structure [Direct2D], dcommon/D2D_RECT_F, direct2d.D2D_RECT_F
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.AdjustWindowRect
 title: AdjustWindowRect function (winuser.h)
-author: windows-sdk-content
+
 description: Calculates the required size of the window rectangle, based on the desired client-rectangle size. The window rectangle can then be passed to the CreateWindow function to create a window whose client area is the desired size.
 old-location: winmsg\adjustwindowrect.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\adjustwindowrect.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AdjustWindowRect, AdjustWindowRect function [Windows and Messages], _win32_AdjustWindowRect, _win32_adjustwindowrect_cpp, winmsg.adjustwindowrect, winui._win32_adjustwindowrect, winuser/AdjustWindowRect
 ms.topic: function

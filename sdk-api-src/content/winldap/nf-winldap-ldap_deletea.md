@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_deleteA
 title: ldap_deleteA function (winldap.h)
-author: windows-sdk-content
+
 description: The ldap_delete function deletes an entry from the directory tree.
 old-location: ldap\ldap_delete.htm
 tech.root: ldap
 ms.assetid: 314f3128-ab09-45a7-a678-779d5b7d4d72
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_delete, ldap.ldap__delete, ldap.ldap_delete, ldap_delete, ldap_delete function [LDAP], ldap_deleteA, ldap_deleteW, winldap/ldap_delete, winldap/ldap_deleteA, winldap/ldap_deleteW"
 ms.topic: function

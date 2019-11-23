@@ -1,12 +1,12 @@
 ---
 UID: NF:sbe.ISBE2Crossbar.GetInitialProfile
 title: ISBE2Crossbar::GetInitialProfile (sbe.h)
-author: windows-sdk-content
+
 description: Gets the initial profile that lists the media types that are present in the currently loaded WTV file.
 old-location: mstv\isbe2crossbar_getinitialprofile.htm
 tech.root: mstv
 ms.assetid: 6a4bec40-2c6d-49fb-8977-3c3db2b2b4df
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInitialProfile, GetInitialProfile method [Microsoft TV Technologies], GetInitialProfile method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],GetInitialProfile method, ISBE2Crossbar.GetInitialProfile, ISBE2Crossbar::GetInitialProfile, mstv.isbe2crossbar_getinitialprofile, sbe/ISBE2Crossbar::GetInitialProfile
 ms.topic: method

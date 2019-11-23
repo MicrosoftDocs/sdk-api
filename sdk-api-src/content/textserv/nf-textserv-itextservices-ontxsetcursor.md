@@ -1,12 +1,12 @@
 ---
 UID: NF:textserv.ITextServices.OnTxSetCursor
 title: ITextServices::OnTxSetCursor (textserv.h)
-author: windows-sdk-content
+
 description: Notifies the text services object to set the cursor.
 old-location: controls\ITextServices_OnTxSetCursor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxsetcursor.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, ITextServices interface [Windows Controls],OnTxSetCursor method, ITextServices.OnTxSetCursor, ITextServices::OnTxSetCursor, OnTxSetCursor, OnTxSetCursor method [Windows Controls], OnTxSetCursor method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxSetCursor, _win32_ITextServices_OnTxSetCursor_cpp, controls.ITextServices_OnTxSetCursor, controls._win32_ITextServices_OnTxSetCursor, textserv/ITextServices::OnTxSetCursor
 ms.topic: method

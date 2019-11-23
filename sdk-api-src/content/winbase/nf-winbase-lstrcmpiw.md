@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.lstrcmpiW
 title: lstrcmpiW function (winbase.h)
-author: windows-sdk-content
+
 description: Compares two character strings. The comparison is not case-sensitive.
 old-location: menurc\lstrcmpi.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcmpi.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_lstrcmpi, _win32_lstrcmpi_cpp, lstrcmpi, lstrcmpi function [Menus and Other Resources], lstrcmpiA, lstrcmpiW, menurc.lstrcmpi, winbase/lstrcmpi, winbase/lstrcmpiA, winbase/lstrcmpiW, winui._win32_lstrcmpi"
 ms.topic: function

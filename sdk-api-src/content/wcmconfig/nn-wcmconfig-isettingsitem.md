@@ -1,12 +1,12 @@
 ---
 UID: NN:wcmconfig.ISettingsItem
 title: ISettingsItem (wcmconfig.h)
-author: windows-sdk-content
+
 description: Navigates the settings tree, retrieves the metadata for a particular setting, and retrieves or modify its value.
 old-location: smi\isettingsitem.htm
 tech.root: SMI
 ms.assetid: a743d942-69f9-426b-be88-adf88b9bb1e0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISettingsItem, ISettingsItem interface [SMI], ISettingsItem interface [SMI],described, smi.isettingsitem, wcmconfig/ISettingsItem
 ms.topic: interface

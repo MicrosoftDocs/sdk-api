@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1DrawInfo.SetResourceTexture
 title: ID2D1DrawInfo::SetResourceTexture (d2d1effectauthor.h)
-author: windows-sdk-content
+
 description: Sets the resource texture corresponding to the given shader texture index.
 old-location: direct2d\id2d1drawinfo_setresourcetexture.htm
 tech.root: Direct2D
 ms.assetid: 6E53577B-AD97-4530-8260-4A99B90E0581
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1DrawInfo interface [Direct2D],SetResourceTexture method, ID2D1DrawInfo.SetResourceTexture, ID2D1DrawInfo::SetResourceTexture, SetResourceTexture, SetResourceTexture method [Direct2D], SetResourceTexture method [Direct2D],ID2D1DrawInfo interface, d2d1effectauthor/ID2D1DrawInfo::SetResourceTexture, direct2d.id2d1drawinfo_setresourcetexture
 ms.topic: method

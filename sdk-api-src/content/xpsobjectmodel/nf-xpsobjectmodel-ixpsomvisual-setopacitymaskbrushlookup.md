@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetOpacityMaskBrushLookup
 title: IXpsOMVisual::SetOpacityMaskBrushLookup (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Sets the lookup key name of a shared opacity mask brush in a resource dictionary.
 old-location: xps\ixpsomvisual_setopacitymaskbrushlookup.htm
 tech.root: printdocs
 ms.assetid: 93c76649-dc48-4ccf-b1c5-2fb223c93513
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacityMaskBrushLookup method, IXpsOMVisual.SetOpacityMaskBrushLookup, IXpsOMVisual::SetOpacityMaskBrushLookup, SetOpacityMaskBrushLookup, SetOpacityMaskBrushLookup method [XPS Documents and Packaging], SetOpacityMaskBrushLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacitymaskbrushlookup, xpsobjectmodel/IXpsOMVisual::SetOpacityMaskBrushLookup
 ms.topic: method

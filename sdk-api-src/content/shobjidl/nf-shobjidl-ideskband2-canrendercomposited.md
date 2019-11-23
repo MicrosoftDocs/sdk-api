@@ -1,12 +1,12 @@
 ---
 UID: NF:shobjidl.IDeskBand2.CanRenderComposited
 title: IDeskBand2::CanRenderComposited (shobjidl.h)
-author: windows-sdk-content
+
 description: Indicates the deskband's ability to be displayed as translucent.
 old-location: shell\IDeskBand2_CanRenderComposited.htm
 tech.root: shell
 ms.assetid: af42c03f-04aa-42b2-9be4-b3bfa0a8c47e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CanRenderComposited, CanRenderComposited method [Windows Shell], CanRenderComposited method [Windows Shell],IDeskBand2 interface, IDeskBand2 interface [Windows Shell],CanRenderComposited method, IDeskBand2.CanRenderComposited, IDeskBand2::CanRenderComposited, _shell_IDeskBand2_CanRenderComposited, shell.IDeskBand2_CanRenderComposited, shobjidl/IDeskBand2::CanRenderComposited
 ms.topic: method

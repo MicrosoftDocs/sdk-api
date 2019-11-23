@@ -1,12 +1,12 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.Play
 title: IMFPMediaPlayer::Play (mfplay.h)
-author: windows-sdk-content
+
 description: Starts playback.
 old-location: mf\imfpmediaplayer_play.htm
 tech.root: medfound
 ms.assetid: 24d6e8a0-d910-46f9-8172-dfcb68c4f364
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Play method, IMFPMediaPlayer.Play, IMFPMediaPlayer::Play, Play, Play method [Media Foundation], Play method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_play, mfplay/IMFPMediaPlayer::Play
 ms.topic: method

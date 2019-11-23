@@ -1,12 +1,12 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetNativeCallConvFromSig
 title: IMetaDataImport::GetNativeCallConvFromSig (rometadataapi.h)
-author: windows-sdk-content
+
 description: Gets the native calling convention for the method that is represented by the specified signature pointer.
 old-location: winrt\imetadataimport_getnativecallconvfromsig.htm
 tech.root: WinRT
 ms.assetid: 90e09d3d-c77e-44c3-b4d0-6b2aee995b1e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetNativeCallConvFromSig, GetNativeCallConvFromSig method [Windows Runtime], GetNativeCallConvFromSig method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetNativeCallConvFromSig method, IMetaDataImport.GetNativeCallConvFromSig, IMetaDataImport::GetNativeCallConvFromSig, rometadataapi/IMetaDataImport::GetNativeCallConvFromSig, winrt.imetadataimport_getnativecallconvfromsig
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_REQUEST_BATCH_OPLOCK
 title: FSCTL_REQUEST_BATCH_OPLOCK
-author: windows-sdk-content
+
 description: Requests a batch opportunistic lock on a file.
 old-location: fs\fsctl_request_batch_oplock.htm
 tech.root: FileIO
 ms.assetid: d52e5a33-5ef7-4a07-babb-3bfac5dd88e8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_REQUEST_BATCH_OPLOCK, FSCTL_REQUEST_BATCH_OPLOCK control, FSCTL_REQUEST_BATCH_OPLOCK control code [Files], _win32_fsctl_request_batch_oplock, base.fsctl_request_batch_oplock, fs.fsctl_request_batch_oplock, winioctl/FSCTL_REQUEST_BATCH_OPLOCK
 ms.topic: ioctl

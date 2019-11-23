@@ -1,12 +1,12 @@
 ---
 UID: NF:inputpanelconfiguration.IInputPanelInvocationConfiguration.RequireTouchInEditControl
 title: IInputPanelInvocationConfiguration::RequireTouchInEditControl (inputpanelconfiguration.h)
-author: windows-sdk-content
+
 description: Requires an explicit user tap in an edit field before the touch keyboard invokes.
 old-location: shell\iinputpanelinvocationconfiguration_requiretouchineditcontrol.htm
 tech.root: shell
 ms.assetid: FAFF0DC8-DD18-47A2-B3BD-24A69B75A100
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IInputPanelInvocationConfiguration interface [Windows Shell],RequireTouchInEditControl method, IInputPanelInvocationConfiguration.RequireTouchInEditControl, IInputPanelInvocationConfiguration::RequireTouchInEditControl, RequireTouchInEditControl, RequireTouchInEditControl method [Windows Shell], RequireTouchInEditControl method [Windows Shell],IInputPanelInvocationConfiguration interface, inputpanelconfiguration/IInputPanelInvocationConfiguration::RequireTouchInEditControl, shell.iinputpanelinvocationconfiguration_requiretouchineditcontrol
 ms.topic: method

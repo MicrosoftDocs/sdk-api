@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationcore.ITransformProvider
 title: ITransformProvider (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Provides access to controls that can be moved, resized, and/or rotated within a two-dimensional space.
 old-location: winauto\uiauto_ITransformProvider.htm
 tech.root: WinAuto
 ms.assetid: cdc2f81b-cf69-469f-9139-e9a73cf8c730
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider, ITransformProvider interface [Windows Accessibility], ITransformProvider interface [Windows Accessibility],described, uiauto.uiauto_ITransformProvider, uiauto_ITransformProvider, uiautomationcore/ITransformProvider, winauto.uiauto_ITransformProvider
 ms.topic: interface

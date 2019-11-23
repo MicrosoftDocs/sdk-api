@@ -1,12 +1,12 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetVideoProcessorMode
 title: IMFVideoProcessor::GetVideoProcessorMode (evr9.h)
-author: windows-sdk-content
+
 description: Retrieves the application's preferred video processor mode. To set the preferred mode, call IMFVideoProcessor::SetVideoProcessorMode.
 old-location: mf\imfvideoprocessor_getvideoprocessormode.htm
 tech.root: medfound
 ms.assetid: df45c379-f525-4018-b2c2-88a52b13dff5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorMode, GetVideoProcessorMode method [Media Foundation], GetVideoProcessorMode method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetVideoProcessorMode method, IMFVideoProcessor.GetVideoProcessorMode, IMFVideoProcessor::GetVideoProcessorMode, df45c379-f525-4018-b2c2-88a52b13dff5, evr9/IMFVideoProcessor::GetVideoProcessorMode, mf.imfvideoprocessor_getvideoprocessormode
 ms.topic: method

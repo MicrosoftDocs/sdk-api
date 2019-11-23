@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.midiInUnprepareHeader
 title: midiInUnprepareHeader function (mmeapi.h)
-author: windows-sdk-content
+
 description: The midiInUnprepareHeader function cleans up the preparation performed by the midiInPrepareHeader function.
 old-location: multimedia\midiinunprepareheader.htm
 tech.root: Multimedia
 ms.assetid: d78aa6ab-caa7-44ec-8953-c64613b04430
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiInUnprepareHeader, midiInUnprepareHeader, midiInUnprepareHeader function [Windows Multimedia], mmeapi/midiInUnprepareHeader, multimedia.midiinunprepareheader"
 ms.topic: function

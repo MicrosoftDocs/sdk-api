@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationcore.IGridProvider.get_ColumnCount
 title: IGridProvider::get_ColumnCount (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Specifies the total number of columns in the grid.
 old-location: winauto\uiauto_IGridProvider_ColumnCount.htm
 tech.root: WinAuto
 ms.assetid: 8d180781-d797-4db4-82bd-92f3646da495
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ColumnCount property [Windows Accessibility], ColumnCount property [Windows Accessibility],IGridProvider interface, IGridProvider interface [Windows Accessibility],ColumnCount property, IGridProvider.ColumnCount, IGridProvider.get_ColumnCount, IGridProvider::ColumnCount, IGridProvider::get_ColumnCount, get_ColumnCount, uiauto.uiauto_IGridProvider_ColumnCount, uiauto_IGridProvider_ColumnCount, uiautomationcore/IGridProvider::ColumnCount, uiautomationcore/IGridProvider::get_ColumnCount, winauto.uiauto_IGridProvider_ColumnCount
 ms.topic: method

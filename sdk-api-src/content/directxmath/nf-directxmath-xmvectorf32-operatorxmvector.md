@@ -3,7 +3,7 @@ UID: NF:directxmath.XMVECTORF32.operator XMVECTOR
 title: XMVECTORF32::operator XMVECTOR
 description: Returns the instance of XMVECTOR implementing the current instance of XMVECTORF32.
 ms.assetid: 94dd9676-f570-45bf-a3ff-b8fc4449a7db
-ms.author: windowssdkdev
+
 ms.date: 05/13/2019
 ms.keywords: XMVECTORF32::operator XMVECTOR
 ms.topic: language-reference

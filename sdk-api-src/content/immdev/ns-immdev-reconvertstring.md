@@ -1,12 +1,12 @@
 ---
 UID: NS:immdev.tagRECONVERTSTRING
 title: RECONVERTSTRING (immdev.h)
-author: windows-sdk-content
+
 description: Defines the strings for IME reconversion. It is the first item in a memory block that contains the strings for reconversion.
 old-location: intl\reconvertstring.htm
 tech.root: Intl
 ms.assetid: 66c97e0d-d196-4062-8094-f31012b9bbb7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPRECONVERTSTRING, *NPRECONVERTSTRING, *PRECONVERTSTRING, PRECONVERTSTRING, PRECONVERTSTRING structure pointer [Internationalization for Windows Applications], RECONVERTSTRING, RECONVERTSTRING structure [Internationalization for Windows Applications], _win32_RECONVERTSTRING_str, imm/PRECONVERTSTRING, imm/RECONVERTSTRING, intl.reconvertstring, tagRECONVERTSTRING"
 ms.topic: struct

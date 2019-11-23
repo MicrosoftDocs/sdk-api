@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IMediaPropertyBag
 title: IMediaPropertyBag (strmif.h)
-author: windows-sdk-content
+
 description: The IMediaPropertyBag interface is exposed by the Media Property Bag object.
 old-location: dshow\imediapropertybag.htm
 tech.root: DirectShow
 ms.assetid: 6f134160-b0aa-44fd-b1b9-938f11349eac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMediaPropertyBag, IMediaPropertyBag interface [DirectShow], IMediaPropertyBag interface [DirectShow],described, IMediaPropertyBagInterface, dshow.imediapropertybag, strmif/IMediaPropertyBag
 ms.topic: interface

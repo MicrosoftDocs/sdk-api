@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.WriteBufferImmediate
 title: ID3D12VideoDecodeCommandList::WriteBufferImmediate
-author: windows-sdk-content
+
 description: Writes a number of 32-bit immediate values to the specified buffer locations directly from the command stream.
 tech.root: mf
 ms.assetid: cdc54874-4d54-4595-8f19-17dc35ff670c
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

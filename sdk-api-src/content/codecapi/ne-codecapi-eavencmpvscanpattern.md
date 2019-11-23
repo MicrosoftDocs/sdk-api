@@ -1,12 +1,12 @@
 ---
 UID: NE:codecapi.eAVEncMPVScanPattern
 title: eAVEncMPVScanPattern (codecapi.h)
-author: windows-sdk-content
+
 description: Specifies the macroblock scan pattern. This enumeration is used with the AVEncMPVScanPattern property.
 old-location: dshow\eavencmpvscanpattern.htm
 tech.root: DirectShow
 ms.assetid: 8204705e-b944-4479-b8c8-d64ab9a4d5f2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPVScanPattern, codecapi/eAVEncMPVScanPattern_AlternateScan, codecapi/eAVEncMPVScanPattern_Auto, codecapi/eAVEncMPVScanPattern_ZigZagScan, dshow.eavencmpvscanpattern, eAVEncMPVScanPattern, eAVEncMPVScanPattern enumeration [DirectShow], eAVEncMPVScanPatternEnumeration, eAVEncMPVScanPattern_AlternateScan, eAVEncMPVScanPattern_Auto, eAVEncMPVScanPattern_ZigZagScan
 ms.topic: enum

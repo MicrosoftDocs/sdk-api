@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.SHChangeNotifyDeregister
 title: SHChangeNotifyDeregister function (shlobj_core.h)
-author: windows-sdk-content
+
 description: Unregisters the client's window process from receiving SHChangeNotify messages.
 old-location: shell\SHChangeNotifyDeregister.htm
 tech.root: shell
 ms.assetid: fad021dc-8199-4384-b623-c98bc618799f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NTSHChangeNotifyDeregister, SHChangeNotifyDeregister, SHChangeNotifyDeregister function [Windows Shell], _win32_SHChangeNotifyDeregister, shell.SHChangeNotifyDeregister, shlobj_core/NTSHChangeNotifyDeregister, shlobj_core/SHChangeNotifyDeregister
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NS:netioapi._MIB_MULTICASTIPADDRESS_ROW
 title: MIB_MULTICASTIPADDRESS_ROW (netioapi.h)
-author: windows-sdk-content
+
 description: Stores information about a multicast IP address.
 old-location: mib\mib_multicastipaddress_row.htm
 tech.root: MIB
 ms.assetid: 2b75d1bd-2867-43e1-94e6-626fc761dac6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_MULTICASTIPADDRESS_ROW, MIB_MULTICASTIPADDRESS_ROW, MIB_MULTICASTIPADDRESS_ROW structure [MIB], PMIB_MULTICASTIPADDRESS_ROW, PMIB_MULTICASTIPADDRESS_ROW structure pointer [MIB], mib.mib_multicastipaddress_row, netioapi/MIB_MULTICASTIPADDRESS_ROW, netioapi/PMIB_MULTICASTIPADDRESS_ROW"
 ms.topic: struct

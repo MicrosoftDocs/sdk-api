@@ -1,12 +1,12 @@
 ---
 UID: NS:ras._RAS_PROJECTION_INFO
 title: RAS_PROJECTION_INFO (ras.h)
-author: windows-sdk-content
+
 description: Contains the Point-to-Point (PPP) or Internet Key Exchange version 2 (IKEv2) projection information for a RAS connection.
 old-location: rras\ras_projection_info.htm
 tech.root: RRAS
 ms.assetid: ca4fbaff-f035-4340-8d29-7dcddaf1b1bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PRAS_PROJECTION_INFO, PRAS_PROJECTION_INFO, PRAS_PROJECTION_INFO structure pointer [RAS], RAS_PROJECTION_INFO, RAS_PROJECTION_INFO structure [RAS], ras/PRAS_PROJECTION_INFO, ras/RAS_PROJECTION_INFO, rras.ras_projection_info'
 ms.topic: struct

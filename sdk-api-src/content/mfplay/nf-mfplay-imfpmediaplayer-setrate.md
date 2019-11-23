@@ -1,12 +1,12 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetRate
 title: IMFPMediaPlayer::SetRate (mfplay.h)
-author: windows-sdk-content
+
 description: Sets the playback rate.
 old-location: mf\imfpmediaplayer_setrate.htm
 tech.root: medfound
 ms.assetid: 7e9d4a0d-b61f-47d9-af47-d8a07cd728f6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetRate method, IMFPMediaPlayer.SetRate, IMFPMediaPlayer::SetRate, SetRate, SetRate method [Media Foundation], SetRate method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setrate, mfplay/IMFPMediaPlayer::SetRate
 ms.topic: method

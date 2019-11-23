@@ -1,12 +1,12 @@
 ---
 UID: NF:directxpackedvector.XMUBYTEN2.XMUBYTEN2(const float)
 title: XMUBYTEN2::XMUBYTEN2(const float) (directxpackedvector.h)
-author: windows-sdk-content
+
 description: Initializes a new instance of XMUBYTEN2 from a two-element float array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: 2063bde1-65f3-4962-8846-5eda52da8baa
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: XMUBYTEN2, XMUBYTEN2 constructor [DirectX Math Support APIs], XMUBYTEN2 constructor [DirectX Math Support APIs],XMUBYTEN2 structure, XMUBYTEN2 structure [DirectX Math Support APIs],XMUBYTEN2 constructor, XMUBYTEN2.XMUBYTEN2, XMUBYTEN2.XMUBYTEN2(), XMUBYTEN2.XMUBYTEN2(const float), XMUBYTEN2::XMUBYTEN2, XMUBYTEN2::XMUBYTEN2(const float), dxmath.xmubyten2_ctor_1
 ms.topic: method

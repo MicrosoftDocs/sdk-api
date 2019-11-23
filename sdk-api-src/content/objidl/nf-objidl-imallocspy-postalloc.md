@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IMallocSpy.PostAlloc
 title: IMallocSpy::PostAlloc (objidl.h)
-author: windows-sdk-content
+
 description: Performs operations required after calling IMalloc::Alloc.
 old-location: com\imallocspy_postalloc.htm
 tech.root: com
 ms.assetid: eaf2cb92-afdb-4f1f-a46a-83b6c72db07f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PostAlloc method, IMallocSpy.PostAlloc, IMallocSpy::PostAlloc, PostAlloc, PostAlloc method [COM], PostAlloc method [COM],IMallocSpy interface, _com_imallocspy_postalloc, com.imallocspy_postalloc, objidl/IMallocSpy::PostAlloc
 ms.topic: method

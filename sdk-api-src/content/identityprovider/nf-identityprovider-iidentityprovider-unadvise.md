@@ -1,12 +1,12 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.UnAdvise
 title: IIdentityProvider::UnAdvise (identityprovider.h)
-author: windows-sdk-content
+
 description: Deletes a connection created by calling the Advise method.
 old-location: security\iidentityprovider_unadvise.htm
 tech.root: SecAuthN
 ms.assetid: ba8a12fc-ea4c-45b5-8339-9cbc88c160db
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IIdentityProvider interface [Security],UnAdvise method, IIdentityProvider.UnAdvise, IIdentityProvider::UnAdvise, UnAdvise, UnAdvise method [Security], UnAdvise method [Security],IIdentityProvider interface, identityprovider/IIdentityProvider::UnAdvise, security.iidentityprovider_unadvise
 ms.topic: method

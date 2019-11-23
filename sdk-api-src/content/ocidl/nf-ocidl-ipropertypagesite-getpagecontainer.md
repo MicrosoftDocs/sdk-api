@@ -1,12 +1,12 @@
 ---
 UID: NF:ocidl.IPropertyPageSite.GetPageContainer
 title: IPropertyPageSite::GetPageContainer (ocidl.h)
-author: windows-sdk-content
+
 description: Retrieves a pointer to the object representing the entire property frame dialog box that contains all the pages. Calling this method could potentially allow one page to navigate to another.
 old-location: com\ipropertypagesite_getpagecontainer.htm
 tech.root: com
 ms.assetid: 88cbefe6-51c7-4c09-80bb-677c83f97cac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPageContainer, GetPageContainer method [COM], GetPageContainer method [COM],IPropertyPageSite interface, IPropertyPageSite interface [COM],GetPageContainer method, IPropertyPageSite.GetPageContainer, IPropertyPageSite::GetPageContainer, _ctrl_ipropertypagesite_getpagecontainer, com.ipropertypagesite_getpagecontainer, ocidl/IPropertyPageSite::GetPageContainer
 ms.topic: method

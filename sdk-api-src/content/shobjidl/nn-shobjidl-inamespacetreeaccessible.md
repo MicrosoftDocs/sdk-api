@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl.INameSpaceTreeAccessible
 title: INameSpaceTreeAccessible (shobjidl.h)
-author: windows-sdk-content
+
 description: Exposes methods that perform accessibility actions on a Shell item from a namespace tree control.
 old-location: shell\INameSpaceTreeAccessible.htm
 tech.root: shell
 ms.assetid: b14dfe40-e21a-4208-835f-e0febef60783
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeAccessible, INameSpaceTreeAccessible interface [Windows Shell], INameSpaceTreeAccessible interface [Windows Shell],described, _shell_INameSpaceTreeAccessible, shell.INameSpaceTreeAccessible, shobjidl/INameSpaceTreeAccessible
 ms.topic: interface

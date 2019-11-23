@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationcore.IItemContainerProvider
 title: IItemContainerProvider (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Provides access to controls that act as containers of other controls, such as a virtual list-view.
 old-location: winauto\uiauto_IItemContainerProvider.htm
 tech.root: WinAuto
 ms.assetid: 403436f5-7540-455b-965e-e2e3b64ef7e0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IItemContainerProvider, IItemContainerProvider interface [Windows Accessibility], IItemContainerProvider interface [Windows Accessibility],described, uiauto.uiauto_IItemContainerProvider, uiauto_IItemContainerProvider, uiautomationcore/IItemContainerProvider, winauto.uiauto_IItemContainerProvider
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:commoncontrols.IImageList.Clone
 title: IImageList::Clone (commoncontrols.h)
-author: windows-sdk-content
+
 description: Clones an existing image list.
 old-location: controls\IImageList_Clone.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\clone.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Controls], Clone method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Clone method, IImageList.Clone, IImageList::Clone, comctl_IImageList_Clone, comctl_IImageList_Clone_cpp, commoncontrols/IImageList::Clone, controls.IImageList_Clone, controls.comctl_IImageList_Clone
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IFilterGraph2.ReconnectEx
 title: IFilterGraph2::ReconnectEx (strmif.h)
-author: windows-sdk-content
+
 description: The ReconnectEx method breaks the existing pin connection and reconnects it to the same pin, using a specified media type.
 old-location: dshow\ifiltergraph2_reconnectex.htm
 tech.root: DirectShow
 ms.assetid: a72cf427-056b-4751-9c4a-665251e549f8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph2 interface [DirectShow],ReconnectEx method, IFilterGraph2.ReconnectEx, IFilterGraph2::ReconnectEx, IFilterGraph2ReconnectEx, ReconnectEx, ReconnectEx method [DirectShow], ReconnectEx method [DirectShow],IFilterGraph2 interface, dshow.ifiltergraph2_reconnectex, strmif/IFilterGraph2::ReconnectEx
 ms.topic: method

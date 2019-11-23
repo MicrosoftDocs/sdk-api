@@ -1,12 +1,12 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0004
 title: WcmSettingType (wcmconfig.h)
-author: windows-sdk-content
+
 description: Describes setting types that are returned from the ISettingsItem::GetSettingType method and defines the object model type for the calling ISettingsItem interface.
 old-location: smi\wcmsettingtype.htm
 tech.root: SMI
 ms.assetid: e7dbe536-778a-445c-929b-56e490fdeffb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WcmSettingType, WcmSettingType enumeration [SMI], settingTypeComplex, settingTypeList, settingTypeScalar, smi.wcmsettingtype, wcmconfig/WcmSettingType, wcmconfig/settingTypeComplex, wcmconfig/settingTypeList, wcmconfig/settingTypeScalar
 ms.topic: enum

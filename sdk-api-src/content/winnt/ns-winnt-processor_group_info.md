@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._PROCESSOR_GROUP_INFO
 title: PROCESSOR_GROUP_INFO (winnt.h)
-author: windows-sdk-content
+
 description: Represents the number and affinity of processors in a processor group.
 old-location: base\processor_group_info.htm
 tech.root: ProcThread
 ms.assetid: 6ff9cc3c-34e7-4dc4-94cd-6ed278dfaa03
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESSOR_GROUP_INFO, PPROCESSOR_GROUP_INFO, PPROCESSOR_GROUP_INFO structure pointer, PROCESSOR_GROUP_INFO, PROCESSOR_GROUP_INFO structure, _PROCESSOR_GROUP_INFO, base.processor_group_info, winnt/PPROCESSOR_GROUP_INFO, winnt/PROCESSOR_GROUP_INFO'
 ms.topic: struct

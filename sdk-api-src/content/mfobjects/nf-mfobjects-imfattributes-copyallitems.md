@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMFAttributes.CopyAllItems
 title: IMFAttributes::CopyAllItems (mfobjects.h)
-author: windows-sdk-content
+
 description: Copies all of the attributes from this object into another attribute store.
 old-location: mf\imfattributes_copyallitems.htm
 tech.root: medfound
 ms.assetid: 111b55bc-fb8e-45b5-a709-703acd23c4be
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 111b55bc-fb8e-45b5-a709-703acd23c4be, CopyAllItems, CopyAllItems method [Media Foundation], CopyAllItems method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],CopyAllItems method, IMFAttributes.CopyAllItems, IMFAttributes::CopyAllItems, mf.imfattributes_copyallitems, mfobjects/IMFAttributes::CopyAllItems
 ms.topic: method

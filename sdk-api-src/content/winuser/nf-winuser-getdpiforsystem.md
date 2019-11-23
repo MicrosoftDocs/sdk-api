@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetDpiForSystem
 title: GetDpiForSystem function (winuser.h)
-author: windows-sdk-content
+
 description: Returns the system DPI.
 old-location: hidpi\getdpiforsystem.htm
 tech.root: hidpi
 ms.assetid: B744EC4A-DB78-4654-B50F-C27CB7702899
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDpiForSystem, GetDpiForSystem function [High DPI], hidpi.getdpiforsystem, winuser/GetDpiForSystem
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.MFCreateTranscodeTopologyFromByteStream
 title: MFCreateTranscodeTopologyFromByteStream function (mfidl.h)
-author: windows-sdk-content
+
 description: Creates a topology for transcoding to a byte stream.
 old-location: mf\mfcreatetranscodetopologyfrombytestream.htm
 tech.root: medfound
 ms.assetid: FBA9E0A1-7763-4566-8245-D626C82D0355
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFCreateTranscodeTopologyFromByteStream, MFCreateTranscodeTopologyFromByteStream function [Media Foundation], mf.mfcreatetranscodetopologyfrombytestream, mfidl/MFCreateTranscodeTopologyFromByteStream
 ms.topic: function

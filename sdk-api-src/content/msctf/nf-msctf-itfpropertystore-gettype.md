@@ -1,12 +1,12 @@
 ---
 UID: NF:msctf.ITfPropertyStore.GetType
 title: ITfPropertyStore::GetType (msctf.h)
-author: windows-sdk-content
+
 description: ITfPropertyStore::GetType method
 old-location: tsf\itfpropertystore_gettype.htm
 tech.root: TSF
 ms.assetid: e0b6b1b7-1994-4876-9f15-7e1c6a4f0e4b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Text Services Framework], GetType method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],GetType method, ITfPropertyStore.GetType, ITfPropertyStore::GetType, _tsf_itfpropertystore_gettype_ref, msctf/ITfPropertyStore::GetType, tsf.itfpropertystore_gettype
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.GetByPartName
 title: IXpsOMColorProfileResourceCollection::GetByPartName (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets an IXpsOMColorProfileResource interface pointer from the collection by matching the interface's part name.
 old-location: xps\ixpsomcolorprofileresourcecollection_getbypartname.htm
 tech.root: printdocs
 ms.assetid: 9c9dc7d0-af93-4bf3-b8ba-799c1e4bb273
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMColorProfileResourceCollection.GetByPartName, IXpsOMColorProfileResourceCollection::GetByPartName, xps.ixpsomcolorprofileresourcecollection_getbypartname, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetByPartName
 ms.topic: method

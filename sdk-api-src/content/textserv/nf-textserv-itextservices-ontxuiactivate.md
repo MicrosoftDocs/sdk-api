@@ -1,12 +1,12 @@
 ---
 UID: NF:textserv.ITextServices.OnTxUIActivate
 title: ITextServices::OnTxUIActivate (textserv.h)
-author: windows-sdk-content
+
 description: Informs the text services object that the control is now UI active.
 old-location: controls\ITextServices_OnTxUIActivate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxuiactivate.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],OnTxUIActivate method, ITextServices.OnTxUIActivate, ITextServices::OnTxUIActivate, OnTxUIActivate, OnTxUIActivate method [Windows Controls], OnTxUIActivate method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxUIActivate, _win32_ITextServices_OnTxUIActivate_cpp, controls.ITextServices_OnTxUIActivate, controls._win32_ITextServices_OnTxUIActivate, textserv/ITextServices::OnTxUIActivate
 ms.topic: method

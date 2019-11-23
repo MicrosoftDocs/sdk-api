@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsVolume.RemovePlex
 title: IVdsVolume::RemovePlex (vds.h)
-author: windows-sdk-content
+
 description: Removes one or more specified plexes from the current volume, releasing the extents.
 old-location: base\ivdsvolume_removeplex.htm
 tech.root: VDS
 ms.assetid: 724f80e7-4656-4956-aaad-9f778329f139
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IVdsVolume interface [VDS],RemovePlex method, IVdsVolume.RemovePlex, IVdsVolume::RemovePlex, RemovePlex, RemovePlex method [VDS], RemovePlex method [VDS],IVdsVolume interface, base.ivdsvolume_removeplex, vds/IVdsVolume::RemovePlex
 ms.topic: method

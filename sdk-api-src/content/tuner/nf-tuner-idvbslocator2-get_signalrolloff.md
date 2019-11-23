@@ -1,12 +1,12 @@
 ---
 UID: NF:tuner.IDVBSLocator2.get_SignalRollOff
 title: IDVBSLocator2::get_SignalRollOff (tuner.h)
-author: windows-sdk-content
+
 description: Specifies the roll-off factor for a Digital Video Broadcasting-Satellite, Second Generation (DVB-S2) signal.
 old-location: mstv\idvbslocator2_signalrolloff.htm
 tech.root: mstv
 ms.assetid: 2c6ac5ef-4d89-430c-a6df-bef8dd00b89f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],SignalRollOff property, IDVBSLocator2.SignalRollOff, IDVBSLocator2.get_SignalRollOff, IDVBSLocator2::SignalRollOff, IDVBSLocator2::get_SignalRollOff, IDVBSLocator2::put_SignalRollOff, SignalRollOff property [Microsoft TV Technologies], SignalRollOff property [Microsoft TV Technologies],IDVBSLocator2 interface, get_SignalRollOff, mstv.idvbslocator2_signalrolloff, tuner/IDVBSLocator2::SignalRollOff, tuner/IDVBSLocator2::get_SignalRollOff, tuner/IDVBSLocator2::put_SignalRollOff
 ms.topic: method

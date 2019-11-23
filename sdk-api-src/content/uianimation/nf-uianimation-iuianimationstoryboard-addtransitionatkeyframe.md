@@ -1,12 +1,12 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.AddTransitionAtKeyframe
 title: IUIAnimationStoryboard::AddTransitionAtKeyframe (uianimation.h)
-author: windows-sdk-content
+
 description: Adds a transition that starts at the specified keyframe.
 old-location: uianimation\iuianimationstoryboard_addtransitionatkeyframe.htm
 tech.root: UIAnimation
 ms.assetid: 94a9aafc-fe5a-49a8-8e14-9e7c4624869a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddTransitionAtKeyframe, AddTransitionAtKeyframe method [Windows Animation], AddTransitionAtKeyframe method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddTransitionAtKeyframe method, IUIAnimationStoryboard.AddTransitionAtKeyframe, IUIAnimationStoryboard::AddTransitionAtKeyframe, uianimation.iuianimationstoryboard_addtransitionatkeyframe, uianimation/IUIAnimationStoryboard::AddTransitionAtKeyframe
 ms.topic: method

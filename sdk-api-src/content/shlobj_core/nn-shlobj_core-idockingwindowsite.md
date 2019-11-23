@@ -1,12 +1,12 @@
 ---
 UID: NN:shlobj_core.IDockingWindowSite
 title: IDockingWindowSite (shlobj_core.h)
-author: windows-sdk-content
+
 description: Exposes methods that manage the border space for one or more IDockingWindow objects. This interface is implemented by the browser and is similar to the IOleInPlaceUIWindow interface.
 old-location: shell\IDockingWindowSite.htm
 tech.root: shell
 ms.assetid: 7418a6af-74ce-4435-8ed9-af106df0f95b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDockingWindowSite, IDockingWindowSite interface [Windows Shell], IDockingWindowSite interface [Windows Shell],described, _win32_IDockingWindowSite, shell.IDockingWindowSite, shlobj_core/IDockingWindowSite
 ms.topic: interface

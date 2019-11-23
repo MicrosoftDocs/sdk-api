@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IShellItemResources
 title: IShellItemResources (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Exposes methods to manipulate and query Shell item resources.
 old-location: shell\IShellItemResources.htm
 tech.root: shell
 ms.assetid: 4ca4a01e-e3c2-46aa-a700-b4b2a1e0112e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellItemResources, IShellItemResources interface [Windows Shell], IShellItemResources interface [Windows Shell],described, _shell_IShellItemResources, shell.IShellItemResources, shobjidl_core/IShellItemResources
 ms.topic: interface

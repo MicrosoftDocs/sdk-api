@@ -1,12 +1,12 @@
 ---
 UID: NS:eapauthenticatoractiondefine.tagEapPeerMethodOuput
 title: EapPeerMethodOutput (eapauthenticatoractiondefine.h)
-author: windows-sdk-content
+
 description: Contains the action information returned by an EAP peer method.
 old-location: eaphost\eappeermethodoutput.htm
 tech.root: eaphost
 ms.assetid: fb3d423e-8509-4478-87d5-86bcbd90a8e7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EapPeerMethodOutput, EapPeerMethodOutput structure [EAPHost], eapauthenticatoractiondefine/EapPeerMethodOutput, eaphost.eappeermethodoutput
 ms.topic: struct

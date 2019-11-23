@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IEnumFsiItems.Skip
 title: IEnumFsiItems::Skip (imapi2fs.h)
-author: windows-sdk-content
+
 description: Skips a specified number of items in the enumeration sequence.
 old-location: imapi\ienumfsiitems_skip.htm
 tech.root: imapi
 ms.assetid: f1bf8542-12b9-4228-9e0e-1defbb57cac3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IEnumFsiItems interface [IMAPI],Skip method, IEnumFsiItems.Skip, IEnumFsiItems::Skip, Skip, Skip method [IMAPI], Skip method [IMAPI],IEnumFsiItems interface, imapi.ienumfsiitems_skip, imapi2fs/IEnumFsiItems::Skip
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPSyncDevice3.estimateSyncSize
 title: IWMPSyncDevice3::estimateSyncSize (wmp.h)
-author: windows-sdk-content
+
 description: The estimateSyncSize method initiates the estimation of the size required on the device to synchronize a specified playlist.
 old-location: wmp\iwmpsyncdevice3_estimatesyncsize.htm
 tech.root: WMP
 ms.assetid: 49b07233-df9d-4fd0-836e-62b992408018
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice3 interface [Windows Media Player],estimateSyncSize method, IWMPSyncDevice3.estimateSyncSize, IWMPSyncDevice3::estimateSyncSize, estimateSyncSize, estimateSyncSize method [Windows Media Player], estimateSyncSize method [Windows Media Player],IWMPSyncDevice3 interface, wmp.iwmpsyncdevice3_estimatesyncsize, wmp/IWMPSyncDevice3::estimateSyncSize
 ms.topic: method

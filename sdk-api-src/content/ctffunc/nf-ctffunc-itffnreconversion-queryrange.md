@@ -1,12 +1,12 @@
 ---
 UID: NF:ctffunc.ITfFnReconversion.QueryRange
 title: ITfFnReconversion::QueryRange (ctffunc.h)
-author: windows-sdk-content
+
 description: The ITfFnReconversion::QueryRange method obtains the range of text that the reconversion applies to.
 old-location: tsf\itffnreconversion_queryrange.htm
 tech.root: TSF
 ms.assetid: 022d0ad7-5359-48df-b83b-2319eb1a84bf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITfFnReconversion interface [Text Services Framework],QueryRange method, ITfFnReconversion.QueryRange, ITfFnReconversion::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnReconversion interface, _tsf_itffnreconversion_queryrange_ref, ctffunc/ITfFnReconversion::QueryRange, tsf.itffnreconversion_queryrange
 ms.topic: method

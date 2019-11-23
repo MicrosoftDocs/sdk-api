@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.get_SMTPServer
 title: IFaxReceiptOptions::get_SMTPServer (faxcomex.h)
-author: windows-sdk-content
+
 description: The IFaxReceiptOptions::get_SMTPServer property is a null-terminated string that contains the name of the Simple Mail Transport Protocol (SMTP) server.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpserver_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_83aq.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPServer property, IFaxReceiptOptions.SMTPServer, IFaxReceiptOptions.get_SMTPServer, IFaxReceiptOptions.put_SMTPServer, IFaxReceiptOptions::SMTPServer, IFaxReceiptOptions::get_SMTPServer, IFaxReceiptOptions::put_SMTPServer, SMTPServer property [Fax Service], SMTPServer property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.smtpserver, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpserver_cpp, fax._mfax_faxreceiptoptions_smtpserver, faxcomex/IFaxReceiptOptions::SMTPServer, faxcomex/IFaxReceiptOptions::get_SMTPServer, faxcomex/IFaxReceiptOptions::put_SMTPServer, get_SMTPServer
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NN:taskschd.ITaskNamedValuePair
 title: ITaskNamedValuePair (taskschd.h)
-author: windows-sdk-content
+
 description: Creates a name-value pair in which the name is associated with the value.
 old-location: taskschd\itasknamedvaluepair.htm
 tech.root: taskschd
 ms.assetid: b9d186a3-017d-409e-9d67-e74dc69a486a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITaskNamedValuePair, ITaskNamedValuePair interface [Task Scheduler], ITaskNamedValuePair interface [Task Scheduler],described, taskschd.itasknamedvaluepair, taskschd/ITaskNamedValuePair
 ms.topic: interface

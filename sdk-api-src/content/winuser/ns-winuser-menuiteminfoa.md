@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser.tagMENUITEMINFOA
 title: MENUITEMINFOA (winuser.h)
-author: windows-sdk-content
+
 description: Contains information about a menu item.
 old-location: menurc\menuiteminfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuiteminfo.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPMENUITEMINFOA, HBMMENU_CALLBACK, HBMMENU_MBAR_CLOSE, HBMMENU_MBAR_CLOSE_D, HBMMENU_MBAR_MINIMIZE, HBMMENU_MBAR_MINIMIZE_D, HBMMENU_MBAR_RESTORE, HBMMENU_POPUP_CLOSE, HBMMENU_POPUP_MAXIMIZE, HBMMENU_POPUP_MINIMIZE, HBMMENU_POPUP_RESTORE, HBMMENU_SYSTEM, LPMENUITEMINFO, LPMENUITEMINFO structure pointer [Menus and Other Resources], MENUITEMINFO, MENUITEMINFO structure [Menus and Other Resources], MENUITEMINFOA, MENUITEMINFOW, MFS_CHECKED, MFS_DEFAULT, MFS_DISABLED, MFS_ENABLED, MFS_GRAYED, MFS_HILITE, MFS_UNCHECKED, MFS_UNHILITE, MFT_BITMAP, MFT_MENUBARBREAK, MFT_MENUBREAK, MFT_OWNERDRAW, MFT_RADIOCHECK, MFT_RIGHTJUSTIFY, MFT_RIGHTORDER, MFT_SEPARATOR, MFT_STRING, MIIM_BITMAP, MIIM_CHECKMARKS, MIIM_DATA, MIIM_FTYPE, MIIM_ID, MIIM_STATE, MIIM_STRING, MIIM_SUBMENU, MIIM_TYPE, _win32_MENUITEMINFO_str, _win32_menuiteminfo_str_cpp, menurc.menuiteminfo, winui._win32_menuiteminfo_str, winuser/LPMENUITEMINFO, winuser/MENUITEMINFO, winuser/MENUITEMINFOA, winuser/MENUITEMINFOW"
 ms.topic: struct

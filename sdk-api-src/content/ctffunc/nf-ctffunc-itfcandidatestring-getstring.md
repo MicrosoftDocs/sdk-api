@@ -1,12 +1,12 @@
 ---
 UID: NF:ctffunc.ITfCandidateString.GetString
 title: ITfCandidateString::GetString (ctffunc.h)
-author: windows-sdk-content
+
 description: ITfCandidateString::GetString method
 old-location: tsf\itfcandidatestring_getstring.htm
 tech.root: TSF
 ms.assetid: 157dc848-858c-462f-8e41-78d6bfe20705
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfCandidateString interface, ITfCandidateString interface [Text Services Framework],GetString method, ITfCandidateString.GetString, ITfCandidateString::GetString, _tsf_itfcandidatestring_getstring_ref, ctffunc/ITfCandidateString::GetString, tsf.itfcandidatestring_getstring
 ms.topic: method

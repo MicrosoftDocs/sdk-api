@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetTag
 title: IDvbComponentDescriptor::GetTag (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the tag that identifies a Digital Video Broadcast (DVB) component descriptor.
 old-location: mstv\idvbcomponentdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 680be3c5-ed02-4719-a510-cf84615f8738
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbComponentDescriptor.GetTag, IDvbComponentDescriptor::GetTag, dvbsiparser/IDvbComponentDescriptor::GetTag, mstv.idvbcomponentdescriptor_gettag
 ms.topic: method

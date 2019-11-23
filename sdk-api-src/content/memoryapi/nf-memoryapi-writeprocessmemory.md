@@ -1,12 +1,12 @@
 ---
 UID: NF:memoryapi.WriteProcessMemory
 title: WriteProcessMemory function (memoryapi.h)
-author: windows-sdk-content
+
 description: Writes data to an area of memory in a specified process. The entire area to be written to must be accessible or the operation fails.
 old-location: base\writeprocessmemory.htm
 tech.root: Debug
 ms.assetid: 9cd91f1c-58ce-4adc-b027-45748543eb06
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WriteProcessMemory, WriteProcessMemory function, _win32_writeprocessmemory, base.writeprocessmemory, memoryapi/WriteProcessMemory
 ms.topic: function

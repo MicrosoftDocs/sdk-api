@@ -1,12 +1,12 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval
 title: IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval (dvbsiparser.h)
-author: windows-sdk-content
+
 description: Gets the guard interval from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getguardinterval.htm
 tech.root: mstv
 ms.assetid: f1016fd4-bcd9-4678-b59c-c6c8207f242d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGuardInterval, GetGuardInterval method [Microsoft TV Technologies], GetGuardInterval method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetGuardInterval method, IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval, IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval, mstv.iisdbterrestrialdeliverysystemdescriptor_getguardinterval
 ms.topic: method

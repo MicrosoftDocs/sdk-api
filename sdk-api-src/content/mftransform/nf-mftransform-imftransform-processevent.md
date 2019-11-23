@@ -1,12 +1,12 @@
 ---
 UID: NF:mftransform.IMFTransform.ProcessEvent
 title: IMFTransform::ProcessEvent (mftransform.h)
-author: windows-sdk-content
+
 description: Sends an event to an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_processevent.htm
 tech.root: medfound
 ms.assetid: 28366df3-c414-45ff-bb15-c5483f11de85
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 28366df3-c414-45ff-bb15-c5483f11de85, IMFTransform interface [Media Foundation],ProcessEvent method, IMFTransform.ProcessEvent, IMFTransform::ProcessEvent, ProcessEvent, ProcessEvent method [Media Foundation], ProcessEvent method [Media Foundation],IMFTransform interface, mf.imftransform_processevent, mftransform/IMFTransform::ProcessEvent
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetPageUnit
 title: Graphics::SetPageUnit (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::SetPageUnit method sets the unit of measure for this Graphics object. The page unit belongs to the page transformation, which converts page coordinates to device coordinates.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetPageUnit_unit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setpageunit.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],SetPageUnit method, Graphics.SetPageUnit, Graphics::SetPageUnit, SetPageUnit, SetPageUnit method [GDI+], SetPageUnit method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetPageUnit_unit_, gdiplus._gdiplus_CLASS_Graphics_SetPageUnit_unit_
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport2.RemoveBehavior
 title: IDirectManipulationViewport2::RemoveBehavior (directmanipulation.h)
-author: windows-sdk-content
+
 description: Removes a behavior from the viewport that matches the given cookie.
 old-location: directmanipulation\idirectmanipulationviewport2_removebehavior.htm
 tech.root: directmanipulation
 ms.assetid: CA5FF0FC-6ED9-4964-9751-90387650A198
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport2 interface [Direct Manipulation],RemoveBehavior method, IDirectManipulationViewport2.RemoveBehavior, IDirectManipulationViewport2::RemoveBehavior, RemoveBehavior, RemoveBehavior method [Direct Manipulation], RemoveBehavior method [Direct Manipulation],IDirectManipulationViewport2 interface, directmanipulation.idirectmanipulationviewport2_removebehavior, directmanipulation/IDirectManipulationViewport2::RemoveBehavior
 ms.topic: method

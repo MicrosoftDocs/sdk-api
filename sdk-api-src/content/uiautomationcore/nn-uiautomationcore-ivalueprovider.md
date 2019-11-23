@@ -1,12 +1,12 @@
 ---
 UID: NN:uiautomationcore.IValueProvider
 title: IValueProvider (uiautomationcore.h)
-author: windows-sdk-content
+
 description: Provides access to controls that have an intrinsic value that does not span a range, and that can be represented as a string.
 old-location: winauto\uiauto_IValueProvider.htm
 tech.root: WinAuto
 ms.assetid: e6adbc23-dbfe-4dd2-82d9-66ce16de3338
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IValueProvider, IValueProvider interface [Windows Accessibility], IValueProvider interface [Windows Accessibility],described, uiauto.uiauto_IValueProvider, uiauto_IValueProvider, uiautomationcore/IValueProvider, winauto.uiauto_IValueProvider
 ms.topic: interface

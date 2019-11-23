@@ -1,12 +1,12 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR)
 title: BoundingOrientedBox::Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR)
-author: windows-sdk-content
+
 description: Tests whether the BoundingOrientedBox contains a triangle.
 old-location: dxmath\boundingorientedbox_contains_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.Contains(XMVECTOR,XMVECTOR,XMVECTOR)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],Contains method, BoundingOrientedBox.Contains, BoundingOrientedBox.Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR), BoundingOrientedBox.Contains(XMVECTOR,XMVECTOR,XMVECTOR), BoundingOrientedBox::Contains, BoundingOrientedBox::Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_contains_2
 ms.topic: method

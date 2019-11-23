@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,FLOAT)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,FLOAT) (d2d1svg.h)
-author: windows-sdk-content
+
 description: Sets an attribute of this element using a float.
 old-location: direct2d\id2d1svgelement_setattributevalue_4.htm
 tech.root: Direct2D
 ms.assetid: FC7AF14F-16B3-498F-A2E3-F8ACF836DAAC
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,FLOAT), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,FLOAT), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_4
 ms.topic: method

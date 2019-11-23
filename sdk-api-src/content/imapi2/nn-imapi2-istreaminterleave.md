@@ -1,12 +1,12 @@
 ---
 UID: NN:imapi2.IStreamInterleave
 title: IStreamInterleave (imapi2.h)
-author: windows-sdk-content
+
 description: Use this interface to combine several data streams into a single stream by alternately interspersing portions of each.
 old-location: imapi\istreaminterleave.htm
 tech.root: imapi
 ms.assetid: 2d0f03e5-a47d-4b46-a177-f462bbafe153
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IStreamInterleave, IStreamInterleave interface [IMAPI], IStreamInterleave interface [IMAPI],described, imapi.istreaminterleave, imapi2/IStreamInterleave
 ms.topic: interface

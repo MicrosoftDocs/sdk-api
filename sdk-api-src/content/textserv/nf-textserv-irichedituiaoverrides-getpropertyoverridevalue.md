@@ -1,12 +1,12 @@
 ---
 UID: NF:textserv.IRicheditUiaOverrides.GetPropertyOverrideValue
 title: IRicheditUiaOverrides::GetPropertyOverrideValue (textserv.h)
-author: windows-sdk-content
+
 description: Retrieves the host container's override value for the specified Microsoft UI Automation accessibility property of a windowless rich edit control.
 old-location: controls\irichedituiaoverrides_getpropertyoverridevalue.htm
 tech.root: Controls
 ms.assetid: C949A3DA-F98E-4035-8986-A76EB8F54558
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPropertyOverrideValue, GetPropertyOverrideValue method [Windows Controls], GetPropertyOverrideValue method [Windows Controls],IRicheditUiaOverrides interface, IRicheditUiaOverrides interface [Windows Controls],GetPropertyOverrideValue method, IRicheditUiaOverrides.GetPropertyOverrideValue, IRicheditUiaOverrides::GetPropertyOverrideValue, controls.irichedituiaoverrides_getpropertyoverridevalue, textserv/IRicheditUiaOverrides::GetPropertyOverrideValue
 ms.topic: method

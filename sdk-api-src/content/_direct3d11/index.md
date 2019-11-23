@@ -1,7 +1,7 @@
 ---
 UID: TP:direct3d11
 ms.assetid: b11d0120-422b-381b-b4ce-ba3e6eb45625
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

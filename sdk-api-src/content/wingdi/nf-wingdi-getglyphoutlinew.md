@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.GetGlyphOutlineW
 title: GetGlyphOutlineW function (wingdi.h)
-author: windows-sdk-content
+
 description: The GetGlyphOutline function retrieves the outline or bitmap for a character in the TrueType font that is selected into the specified device context.
 old-location: gdi\getglyphoutline.htm
 tech.root: gdi
 ms.assetid: 08f06007-5b21-44ab-b234-21a58c94ed4e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GGO_BEZIER, GGO_BITMAP, GGO_GLYPH_INDEX, GGO_GRAY2_BITMAP, GGO_GRAY4_BITMAP, GGO_GRAY8_BITMAP, GGO_METRICS, GGO_NATIVE, GGO_UNHINTED, GetGlyphOutline, GetGlyphOutline function [Windows GDI], GetGlyphOutlineA, GetGlyphOutlineW, _win32_GetGlyphOutline, gdi.getglyphoutline, wingdi/GetGlyphOutline, wingdi/GetGlyphOutlineA, wingdi/GetGlyphOutlineW
 ms.topic: function

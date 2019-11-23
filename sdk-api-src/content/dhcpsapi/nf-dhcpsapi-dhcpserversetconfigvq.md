@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpServerSetConfigVQ
 title: DhcpServerSetConfigVQ function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Sets or updates DHCP server settings.
 old-location: dhcp\dhcpserversetconfigvq.htm
 tech.root: DHCP
 ms.assetid: 3498b674-5771-47b6-9dfa-a8e3e10bca40
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpServerSetConfigVQ, DhcpServerSetConfigVQ function [DHCP], dhcp.dhcpserversetconfigvq, dhcpsapi/DhcpServerSetConfigVQ
 ms.topic: function

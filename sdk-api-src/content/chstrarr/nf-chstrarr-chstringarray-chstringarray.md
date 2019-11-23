@@ -1,12 +1,12 @@
 ---
 UID: NF:chstrarr.CHStringArray.CHStringArray
 title: CHStringArray::CHStringArray (chstrarr.h)
-author: windows-sdk-content
+
 description: The CHStringArray constructor constructs an empty CHStringArray array.
 old-location: wmi\chstringarray_chstringarray.htm
 tech.root: WmiSdk
 ms.assetid: b20e3476-7caa-4fcf-98cc-44ffafafe94a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "??0CHStringArray@@QAE@XZ, ??0CHStringArray@@QEAA@XZ, CHStringArray, CHStringArray interface [Windows Management Instrumentation],CHStringArray method, CHStringArray method [Windows Management Instrumentation], CHStringArray method [Windows Management Instrumentation],CHStringArray interface, CHStringArray.CHStringArray, CHStringArray::CHStringArray, _hmm_chstringarray_chstringarray, chstrarr/CHStringArray::CHStringArray, wmi.chstringarray_chstringarray"
 ms.topic: method

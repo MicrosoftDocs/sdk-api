@@ -1,12 +1,12 @@
 ---
 UID: NF:oleidl.IOleObject.EnumVerbs
 title: IOleObject::EnumVerbs (oleidl.h)
-author: windows-sdk-content
+
 description: Exposes a pull-down menu listing the verbs available for an object in ascending order by verb number.
 old-location: com\ioleobject_enumverbs.htm
 tech.root: com
 ms.assetid: c67770d0-e478-41dc-9028-1e0a6cb9e3c7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumVerbs, EnumVerbs method [COM], EnumVerbs method [COM],IOleObject interface, IOleObject interface [COM],EnumVerbs method, IOleObject.EnumVerbs, IOleObject::EnumVerbs, _ole_ioleobject_enumverbs, com.ioleobject_enumverbs, oleidl/IOleObject::EnumVerbs
 ms.topic: method

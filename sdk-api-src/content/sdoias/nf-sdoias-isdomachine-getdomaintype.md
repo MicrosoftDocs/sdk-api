@@ -1,12 +1,12 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetDomainType
 title: ISdoMachine::GetDomainType (sdoias.h)
-author: windows-sdk-content
+
 description: The GetDomainType retrieves the type of domain in which the SDO computer resides.
 old-location: nps\SDO_isdomachine_getdomaintype.htm
 tech.root: Nps
 ms.assetid: 9c22ec67-4a12-4487-bac5-8f0e666b8029
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDomainType, GetDomainType method [Network Policy Server], GetDomainType method [Network Policy Server],ISdoMachine interface, GetDomainType method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetDomainType method, ISdoMachine.GetDomainType, ISdoMachine::GetDomainType, SdoMachine object [Network Policy Server],GetDomainType method, _sdo_isdomachine_getdomaintype, nps.SDO_isdomachine_getdomaintype, sdo.isdomachine_getdomaintype, sdoias/ISdoMachine::GetDomainType
 ms.topic: method

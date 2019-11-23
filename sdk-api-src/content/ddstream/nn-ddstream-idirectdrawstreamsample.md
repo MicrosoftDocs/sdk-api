@@ -1,12 +1,12 @@
 ---
 UID: NN:ddstream.IDirectDrawStreamSample
 title: IDirectDrawStreamSample (ddstream.h)
-author: windows-sdk-content
+
 description: Note  This interface is deprecated.
 old-location: dshow\idirectdrawstreamsample.htm
 tech.root: DirectShow
 ms.assetid: afc8ac84-4629-4c5d-b4b2-59c1eb1af35d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawStreamSample, IDirectDrawStreamSample interface [DirectShow], IDirectDrawStreamSample interface [DirectShow],described, IDirectDrawStreamSampleInterface, ddstream/IDirectDrawStreamSample, dshow.idirectdrawstreamsample
 ms.topic: interface

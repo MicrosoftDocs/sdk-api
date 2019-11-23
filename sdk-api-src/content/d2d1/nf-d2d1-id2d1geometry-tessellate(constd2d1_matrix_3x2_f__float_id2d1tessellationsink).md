@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.Tessellate(const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1TessellationSink)
 title: ID2D1Geometry::Tessellate(const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1TessellationSink) (d2d1.h)
-author: windows-sdk-content
+
 description: Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance.
 old-location: direct2d\ID2D1Geometry_Tessellate_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1TessellationSink.htm
 tech.root: Direct2D
 ms.assetid: 0efa4d4f-ebda-49e1-9d94-dcada7374109
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID2D1Geometry interface [Direct2D],Tessellate method, ID2D1Geometry.Tessellate, ID2D1Geometry.Tessellate(const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1TessellationSink), ID2D1Geometry::Tessellate, ID2D1Geometry::Tessellate(const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1TessellationSink), Tessellate, Tessellate method [Direct2D], Tessellate method [Direct2D],ID2D1Geometry interface, d2d1/ID2D1Geometry::Tessellate, direct2d.ID2D1Geometry_Tessellate_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1TessellationSink
 ms.topic: method

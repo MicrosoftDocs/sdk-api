@@ -1,12 +1,12 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmap.DrawBitmap
 title: ITfLangBarItemBitmap::DrawBitmap (ctfutb.h)
-author: windows-sdk-content
+
 description: ITfLangBarItemBitmap::DrawBitmap method
 old-location: tsf\itflangbaritembitmap_drawbitmap.htm
 tech.root: TSF
 ms.assetid: ac8c384e-1d92-4092-940d-17a88a316a4d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DrawBitmap, DrawBitmap method [Text Services Framework], DrawBitmap method [Text Services Framework],ITfLangBarItemBitmap interface, ITfLangBarItemBitmap interface [Text Services Framework],DrawBitmap method, ITfLangBarItemBitmap.DrawBitmap, ITfLangBarItemBitmap::DrawBitmap, _tsf_itflangbaritembitmap_drawbitmap_ref, ctfutb/ITfLangBarItemBitmap::DrawBitmap, tsf.itflangbaritembitmap_drawbitmap
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:processthreadsapi.GetThreadPriorityBoost
 title: GetThreadPriorityBoost function (processthreadsapi.h)
-author: windows-sdk-content
+
 description: Retrieves the priority boost control state of the specified thread.
 old-location: base\getthreadpriorityboost.htm
 tech.root: ProcThread
 ms.assetid: 44edf5e3-7543-482f-89ff-ae9daf495ff3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetThreadPriorityBoost, GetThreadPriorityBoost function, _win32_getthreadpriorityboost, base.getthreadpriorityboost, processthreadsapi/GetThreadPriorityBoost, winbase/GetThreadPriorityBoost
 ms.topic: function

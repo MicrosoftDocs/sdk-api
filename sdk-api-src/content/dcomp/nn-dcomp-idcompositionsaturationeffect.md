@@ -1,12 +1,12 @@
 ---
 UID: NN:dcomp.IDCompositionSaturationEffect
 title: IDCompositionSaturationEffect (dcomp.h)
-author: windows-sdk-content
+
 description: This effect is used to alter the saturation of an image. The saturation effect is a specialization of the color matrix effect.
 old-location: directcomp\idcompositionsaturationeffect.htm
 tech.root: directcomp
 ms.assetid: ADA7C54C-E237-4455-8808-962A631B37E0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSaturationEffect, IDCompositionSaturationEffect interface [DirectComposition], IDCompositionSaturationEffect interface [DirectComposition],described, dcomp/IDCompositionSaturationEffect, directcomp.idcompositionsaturationeffect
 ms.topic: interface

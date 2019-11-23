@@ -1,12 +1,12 @@
 ---
 UID: NS:wincrypt._CRYPT_ENROLLMENT_NAME_VALUE_PAIR
 title: CRYPT_ENROLLMENT_NAME_VALUE_PAIR (wincrypt.h)
-author: windows-sdk-content
+
 description: Used to create certificate requests on behalf of a user.
 old-location: security\crypt_enrollment_name_value_pair.htm
 tech.root: SecCrypto
 ms.assetid: 996bd28e-73c1-494e-957c-8dd4c7b8e064
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_ENROLLMENT_NAME_VALUE_PAIR, CRYPT_ENROLLMENT_NAME_VALUE_PAIR, CRYPT_ENROLLMENT_NAME_VALUE_PAIR structure [Security], _crypto2_crypt_enrollment_name_value_pair, security.crypt_enrollment_name_value_pair, wincrypt/CRYPT_ENROLLMENT_NAME_VALUE_PAIR"
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:locationapi.ILocation.SetDesiredAccuracy
 title: ILocation::SetDesiredAccuracy (locationapi.h)
-author: windows-sdk-content
+
 description: Specifies the accuracy to be used.
 old-location: winlocation\ilocation_setdesiredaccuracy.htm
 tech.root: locationapi
 ms.assetid: 85623570-3b48-42ea-babd-fe4282629d92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ILocation interface [WinLocation],SetDesiredAccuracy method, ILocation.SetDesiredAccuracy, ILocation::SetDesiredAccuracy, SetDesiredAccuracy, SetDesiredAccuracy method [WinLocation], SetDesiredAccuracy method [WinLocation],ILocation interface, locationapi/ILocation::SetDesiredAccuracy, winlocation.ilocation_setdesiredaccuracy
 ms.topic: method

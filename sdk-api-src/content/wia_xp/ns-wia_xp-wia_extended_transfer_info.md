@@ -1,12 +1,12 @@
 ---
 UID: NS:wia_xp._WIA_EXTENDED_TRANSFER_INFO
 title: WIA_EXTENDED_TRANSFER_INFO (wia_xp.h)
-author: windows-sdk-content
+
 description: The WIA_EXTENDED_TRANSFER_INFO structure specifies extended transfer information for the IWiaDataTransfer::idtGetExtendedTransferInfo method.
 old-location: wia\_wia_WIA_EXTENDED_TRANSFER_INFO.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_extended_transfer_info.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PWIA_EXTENDED_TRANSFER_INFO, PWIA_EXTENDED_TRANSFER_INFO, PWIA_EXTENDED_TRANSFER_INFO structure pointer [WIA], WIA_EXTENDED_TRANSFER_INFO, WIA_EXTENDED_TRANSFER_INFO structure [WIA], _wia_WIA_EXTENDED_TRANSFER_INFO, wia._wia_WIA_EXTENDED_TRANSFER_INFO, wia_xp/PWIA_EXTENDED_TRANSFER_INFO, wia_xp/WIA_EXTENDED_TRANSFER_INFO"
 ms.topic: struct

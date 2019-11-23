@@ -1,12 +1,12 @@
 ---
 UID: NS:projectedfslib.PRJ_CALLBACK_DATA
 title: PRJ_CALLBACK_DATA (projectedfslib.h)
-author: windows-sdk-content
+
 description: Defines the standard information passed to a provider for every operation callback.
 old-location: projfs\prj_callback_data.htm
 tech.root: ProjFS
 ms.assetid: 569204FF-97F5-4FE2-9885-94C88AB5A6FE
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRJ_CALLBACK_DATA, PRJ_CALLBACK_DATA structure, ProjFS.prj_callback_data, projectedfslib/PRJ_CALLBACK_DATA
 ms.topic: struct

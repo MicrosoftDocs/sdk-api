@@ -1,12 +1,12 @@
 ---
 UID: NF:wincred.CredProtectA
 title: CredProtectA function (wincred.h)
-author: windows-sdk-content
+
 description: Encrypts the specified credentials so that only the current security context can decrypt them.
 old-location: security\credprotect.htm
 tech.root: SecAuthN
 ms.assetid: 1e299dfb-2ffe-463c-9e2c-b7774a2216e3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CredProtect, CredProtect function [Security], CredProtectA, CredProtectW, security.credprotect, wincred/CredProtect, wincred/CredProtectA, wincred/CredProtectW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateArithmeticCompositeEffect
 title: IDCompositionDevice3::CreateArithmeticCompositeEffect (dcomp.h)
-author: windows-sdk-content
+
 description: Creates an instance of IDCompositionArithmeticCompositeEffect.
 old-location: directcomp\idcompositiondevice3_createarithmeticcompositeeffect.htm
 tech.root: directcomp
 ms.assetid: 0A06A546-7FD6-4B3C-86C8-0C5B9417D450
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateArithmeticCompositeEffect, CreateArithmeticCompositeEffect method [DirectComposition], CreateArithmeticCompositeEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateArithmeticCompositeEffect method, IDCompositionDevice3.CreateArithmeticCompositeEffect, IDCompositionDevice3::CreateArithmeticCompositeEffect, dcomp/IDCompositionDevice3::CreateArithmeticCompositeEffect, directcomp.idcompositiondevice3_createarithmeticcompositeeffect
 ms.topic: method

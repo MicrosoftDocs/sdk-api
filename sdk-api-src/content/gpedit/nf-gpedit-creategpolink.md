@@ -1,12 +1,12 @@
 ---
 UID: NF:gpedit.CreateGPOLink
 title: CreateGPOLink function (gpedit.h)
-author: windows-sdk-content
+
 description: The CreateGPOLink function creates a link between the specified GPO and the specified site, domain, or organizational unit.
 old-location: policy\creategpolink.htm
 tech.root: Policy
 ms.assetid: 25d1035d-4ece-4f57-88f2-139f39dbdb86
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateGPOLink, CreateGPOLink function [Group Policy], _win32_creategpolink, gpedit/CreateGPOLink, policy.creategpolink
 ms.topic: function

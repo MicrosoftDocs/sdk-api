@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.SetFocus
 title: SetFocus function (winuser.h)
-author: windows-sdk-content
+
 description: Sets the keyboard focus to the specified window. The window must be attached to the calling thread's message queue.
 old-location: inputdev\setfocus.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\setfocus.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SetFocus, SetFocus function [Keyboard and Mouse Input], _win32_SetFocus, _win32_setfocus_cpp, inputdev.setfocus, winui._win32_setfocus, winuser/SetFocus
 ms.topic: function

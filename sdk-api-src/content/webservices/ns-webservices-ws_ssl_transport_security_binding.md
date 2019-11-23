@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_SSL_TRANSPORT_SECURITY_BINDING
 title: WS_SSL_TRANSPORT_SECURITY_BINDING (webservices.h)
-author: windows-sdk-content
+
 description: The security binding subtype for specifying the use of SSL/TLS protocol based transport security.
 old-location: wsw\ws_ssl_transport_security_binding.htm
 tech.root: wsw
 ms.assetid: 078efc1d-a1bc-4035-919c-f927a8ceb8e6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_SSL_TRANSPORT_SECURITY_BINDING, WS_SSL_TRANSPORT_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_SSL_TRANSPORT_SECURITY_BINDING, wsw.ws_ssl_transport_security_binding
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:wmdxva.IWMCodecAMVideoAccelerator.SetAcceleratorInterface
 title: IWMCodecAMVideoAccelerator::SetAcceleratorInterface (wmdxva.h)
-author: windows-sdk-content
+
 description: The SetAcceleratorInterface method is called by the output pin on the player's source filter to pass the IAMVideoAccelerator interface on the Video Mixing Renderer (VMR) to the decoder DMO.
 old-location: wmformat\iwmcodecamvideoaccelerator_setacceleratorinterface.htm
 tech.root: wmformat
 ms.assetid: 6ffaa2dc-65d6-4ba0-9688-8b59fe593ecd
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMCodecAMVideoAccelerator interface [windows Media Format],SetAcceleratorInterface method, IWMCodecAMVideoAccelerator.SetAcceleratorInterface, IWMCodecAMVideoAccelerator::SetAcceleratorInterface, IWMCodecAMVideoAcceleratorSetAcceleratorInterface, SetAcceleratorInterface, SetAcceleratorInterface method [windows Media Format], SetAcceleratorInterface method [windows Media Format],IWMCodecAMVideoAccelerator interface, wmdxva/IWMCodecAMVideoAccelerator::SetAcceleratorInterface, wmformat.iwmcodecamvideoaccelerator_setacceleratorinterface
 ms.topic: method

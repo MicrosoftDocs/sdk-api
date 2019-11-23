@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_SERVICE_ENDPOINT_PROPERTY
 title: WS_SERVICE_ENDPOINT_PROPERTY (webservices.h)
-author: windows-sdk-content
+
 description: Specifies a service specific setting.
 old-location: wsw\ws_service_endpoint_property.htm
 tech.root: wsw
 ms.assetid: 4342d1d2-3126-401b-8019-c7dd243d4ac4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_ENDPOINT_PROPERTY, WS_SERVICE_ENDPOINT_PROPERTY structure [Web Services for Windows], webservices/WS_SERVICE_ENDPOINT_PROPERTY, wsw.ws_service_endpoint_property
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:netcon.INetConnectionProps.get_MediaType
 title: INetConnectionProps::get_MediaType (netcon.h)
-author: windows-sdk-content
+
 description: The get_MediaType method retrieves the media type for the connection.
 old-location: ics\inetconnectionprops_get_mediatype.htm
 tech.root: ics
 ms.assetid: cefaee7c-22ce-4171-8789-fe6befc7e313
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_MediaType method, INetConnectionProps.get_MediaType, INetConnectionProps::get_MediaType, _ics_inetconnectionprops_get_mediatype, get_MediaType, get_MediaType method [ICS/ICF], get_MediaType method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_mediatype, netcon/INetConnectionProps::get_MediaType
 ms.topic: method

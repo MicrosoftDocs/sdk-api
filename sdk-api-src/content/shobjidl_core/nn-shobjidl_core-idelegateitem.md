@@ -1,12 +1,12 @@
 ---
 UID: NN:shobjidl_core.IDelegateItem
 title: IDelegateItem (shobjidl_core.h)
-author: windows-sdk-content
+
 description: Used to obtain the immediately underlying representation of an item's path.
 old-location: shell\IDelegateItem.htm
 tech.root: shell
 ms.assetid: aca76587-5f1d-4154-a68b-df162c38624e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDelegateItem, IDelegateItem interface [Windows Shell], IDelegateItem interface [Windows Shell],described, _shell_IDelegateItem, shell.IDelegateItem, shobjidl_core/IDelegateItem
 ms.topic: interface

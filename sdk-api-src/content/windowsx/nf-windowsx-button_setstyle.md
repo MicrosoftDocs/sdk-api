@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsx.Button_SetStyle
 title: Button_SetStyle macro (windowsx.h)
-author: windows-sdk-content
+
 description: Sets the style of a button. You can use this macro or send the BM_SETSTYLE message explicitly.
 old-location: controls\Button_SetStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setstyle.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Button_SetStyle, Button_SetStyle macro [Windows Controls], _win32_Button_SetStyle, _win32_Button_SetStyle_cpp, controls.Button_SetStyle, controls._win32_Button_SetStyle, windowsx/Button_SetStyle
 ms.topic: macro

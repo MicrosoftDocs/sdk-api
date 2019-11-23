@@ -1,12 +1,12 @@
 ---
 UID: NN:structuredquery.IQueryParserManager
 title: IQueryParserManager (structuredquery.h)
-author: windows-sdk-content
+
 description: Provides methods to create, initialize, and change options for an IQueryParser object.
 old-location: search\_search_IQueryParserManager.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\iqueryparsermanager.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IQueryParserManager, IQueryParserManager interface [search], IQueryParserManager interface [search],described, _search_IQueryParserManager, search._search_IQueryParserManager, structuredquery/IQueryParserManager
 ms.topic: interface

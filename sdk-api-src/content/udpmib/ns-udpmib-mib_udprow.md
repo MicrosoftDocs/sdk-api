@@ -1,12 +1,12 @@
 ---
 UID: NS:udpmib._MIB_UDPROW
 title: MIB_UDPROW (udpmib.h)
-author: windows-sdk-content
+
 description: Contains an entry from the User Datagram Protocol (UDP) listener table for IPv4 on the local computer.
 old-location: mib\mib_udprow.htm
 tech.root: MIB
 ms.assetid: db366802-962f-4e83-838e-1e2f51beab92
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_UDPROW, MIB_UDPROW, MIB_UDPROW structure [MIB], PMIB_UDPROW, PMIB_UDPROW structure pointer [MIB], _mpr_mib_udprow, iprtrmib/MIB_UDPROW, iprtrmib/PMIB_UDPROW, mib.mib_udprow, rras.mib_udprow, udpmib/MIB_UDPROW, udpmib/PMIB_UDPROW'
 ms.topic: struct

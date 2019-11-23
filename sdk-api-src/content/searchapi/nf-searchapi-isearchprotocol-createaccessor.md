@@ -1,12 +1,12 @@
 ---
 UID: NF:searchapi.ISearchProtocol.CreateAccessor
 title: ISearchProtocol::CreateAccessor (searchapi.h)
-author: windows-sdk-content
+
 description: Creates and initializes an IUrlAccessor object.
 old-location: search\_search_ISearchProtocol_CreateAccessor.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\createaccessor.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateAccessor, CreateAccessor method [search], CreateAccessor method [search],ISearchProtocol interface, ISearchProtocol interface [search],CreateAccessor method, ISearchProtocol.CreateAccessor, ISearchProtocol::CreateAccessor, _search_ISearchProtocol_CreateAccessor, search._search_ISearchProtocol_CreateAccessor, searchapi/ISearchProtocol::CreateAccessor
 ms.topic: method

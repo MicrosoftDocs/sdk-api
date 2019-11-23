@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.GetMiterLimit
 title: GetMiterLimit function (wingdi.h)
-author: windows-sdk-content
+
 description: The GetMiterLimit function retrieves the miter limit for the specified device context.
 old-location: gdi\getmiterlimit.htm
 tech.root: gdi
 ms.assetid: 51b1fb95-dd44-47f8-9311-2c6dc9c57bbc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMiterLimit, GetMiterLimit function [Windows GDI], _win32_GetMiterLimit, gdi.getmiterlimit, wingdi/GetMiterLimit
 ms.topic: function

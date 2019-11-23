@@ -1,12 +1,12 @@
 ---
 UID: NF:iphlpapi.AddIPAddress
 title: AddIPAddress function (iphlpapi.h)
-author: windows-sdk-content
+
 description: The AddIPAddress function adds the specified IPv4 address to the specified adapter.
 old-location: iphlp\addipaddress.htm
 tech.root: IpHlp
 ms.assetid: 669264cd-a43c-4681-9416-2704d4232685
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddIPAddress, AddIPAddress function [IP Helper], _iphlp_addipaddress, iphlp.addipaddress, iphlpapi/AddIPAddress
 ms.topic: function

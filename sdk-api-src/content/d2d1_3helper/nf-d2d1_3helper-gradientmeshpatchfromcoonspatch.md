@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1_3helper.GradientMeshPatchFromCoonsPatch
 title: GradientMeshPatchFromCoonsPatch function (d2d1_3helper.h)
-author: windows-sdk-content
+
 description: Creates a D2D1_GRADIENT_MESH_PATCH from a given Coons patch description.
 old-location: direct2d\gradientmeshpatchfromcoonspatch.htm
 tech.root: Direct2D
 ms.assetid: 12469ab9-890c-e4a9-57b2-41a804712052
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GradientMeshPatchFromCoonsPatch, GradientMeshPatchFromCoonsPatch function [Direct2D], d2d1_3helper/GradientMeshPatchFromCoonsPatch, direct2d.gradientmeshpatchfromcoonspatch
 ms.topic: function

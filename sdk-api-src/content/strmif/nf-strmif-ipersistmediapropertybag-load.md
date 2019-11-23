@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IPersistMediaPropertyBag.Load
 title: IPersistMediaPropertyBag::Load (strmif.h)
-author: windows-sdk-content
+
 description: The Load method loads properties from the media property bag into the filter.
 old-location: dshow\ipersistmediapropertybag_load.htm
 tech.root: DirectShow
 ms.assetid: 02ee3911-0b85-404d-81c9-7d0e6b3ccd5d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],Load method, IPersistMediaPropertyBag.Load, IPersistMediaPropertyBag::Load, IPersistMediaPropertyBagLoad, Load, Load method [DirectShow], Load method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_load, strmif/IPersistMediaPropertyBag::Load
 ms.topic: method

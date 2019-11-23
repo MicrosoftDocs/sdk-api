@@ -1,12 +1,12 @@
 ---
 UID: NS:clfs._CLS_IO_STATISTICS
 title: CLS_IO_STATISTICS (clfs.h)
-author: windows-sdk-content
+
 description: Defines the statistics that are reported by GetLogIoStatistics.
 old-location: fs\clfs_io_statistics.htm
 tech.root: Clfs
 ms.assetid: 99544331-0a7c-4efd-93a7-e94011375394
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCLFS_IO_STATISTICS, *PCLS_IO_STATISTICS, CLFS_IO_STATISTICS, CLFS_IO_STATISTICS structure [Files], CLS_IO_STATISTICS, PCLFS_IO_STATISTICS, PCLFS_IO_STATISTICS structure pointer [Files], PPCLFS_IO_STATISTICS, PPCLFS_IO_STATISTICS structure pointer [Files], PPCLS_IO_STATISTICS, clfs/PCLFS_IO_STATISTICS, clfs/PPCLFS_IO_STATISTICS, clfs/_CLFS_IO_STATISTICS, fs.clfs_io_statistics'
 ms.topic: struct

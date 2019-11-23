@@ -1,12 +1,12 @@
 ---
 UID: NF:docobj.IOleDocumentView.CloseView
 title: IOleDocumentView::CloseView (docobj.h)
-author: windows-sdk-content
+
 description: Instructs a document view to close itself and release its IOleInPlaceSite pointer.
 old-location: com\ioledocumentview_closeview.htm
 tech.root: com
 ms.assetid: d2f443de-929e-4bd4-bfb3-2a28c119c176
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CloseView, CloseView method [COM], CloseView method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],CloseView method, IOleDocumentView.CloseView, IOleDocumentView::CloseView, _ole_ioledocumentview_closeview, com.ioledocumentview_closeview, docobj/IOleDocumentView::CloseView
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyAutoDetect
 title: IWSManConnectionOptionsEx2::ProxyAutoDetect (wsmandisp.h)
-author: windows-sdk-content
+
 description: Returns the value of the proxy access type flag WSManProxyAutoDetect for use in the accessType parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyautodetect.htm
 tech.root: winrm
 ms.assetid: 8c277ce3-2655-4efc-abb4-224c28531d97
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAutoDetect method, IWSManConnectionOptionsEx2.ProxyAutoDetect, IWSManConnectionOptionsEx2::ProxyAutoDetect, ProxyAutoDetect, ProxyAutoDetect method [Windows Remote Management], ProxyAutoDetect method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyautodetect, wsmandisp/IWSManConnectionOptionsEx2::ProxyAutoDetect
 ms.topic: method

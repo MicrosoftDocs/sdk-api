@@ -1,12 +1,12 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE
 title: CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE (credentialprovider.h)
-author: windows-sdk-content
+
 description: Describes the state of a field and how it a user can interact with it. Fields can be displayed by a credential provider in a variety of different interactive states.
 old-location: shell\CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE.htm
 tech.root: shell
 ms.assetid: 745ac5f0-fcfe-4f42-ab4c-c933f1d3870b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CPFIS_DISABLED, CPFIS_FOCUSED, CPFIS_NONE, CPFIS_READONLY, CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE, CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE enumeration [Windows Shell], _shell_CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE, credentialprovider/CPFIS_DISABLED, credentialprovider/CPFIS_FOCUSED, credentialprovider/CPFIS_NONE, credentialprovider/CPFIS_READONLY, credentialprovider/CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE, shell.CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE
 ms.topic: enum

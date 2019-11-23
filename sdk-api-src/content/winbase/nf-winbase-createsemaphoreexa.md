@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.CreateSemaphoreExA
 title: CreateSemaphoreExA function (winbase.h)
-author: windows-sdk-content
+
 description: Creates or opens a named or unnamed semaphore object and returns a handle to the object.
 old-location: base\createsemaphoreexa.htm
 tech.root: Sync
 ms.assetid: C66C9236-229F-4EBB-83F1-4BCB1957FF76
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateSemaphoreExA, CreateSemaphoreExA function, CreateSemaphoreExW, base.createsemaphoreexa, winbase/CreateSemaphoreExA, winbase/CreateSemaphoreExW
 ms.topic: function

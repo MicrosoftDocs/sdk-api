@@ -1,12 +1,12 @@
 ---
 UID: NF:winsync.IRequestFilteredSync.SpecifyFilter
 title: IRequestFilteredSync::SpecifyFilter (winsync.h)
-author: windows-sdk-content
+
 description: When implemented by a derived class, negotiates which filter is used by the source provider during change enumeration.
 old-location: winsync\irequestfilteredsync_specifyfilter.htm
 tech.root: winsync
 ms.assetid: 653e953f-3f08-4d65-85d5-3c5466361ea5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRequestFilteredSync interface [Windows Sync],SpecifyFilter method, IRequestFilteredSync.SpecifyFilter, IRequestFilteredSync::SpecifyFilter, SpecifyFilter, SpecifyFilter method [Windows Sync], SpecifyFilter method [Windows Sync],IRequestFilteredSync interface, winsync.irequestfilteredsync_specifyfilter, winsync/IRequestFilteredSync::SpecifyFilter
 ms.topic: method

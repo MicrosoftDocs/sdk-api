@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ResUtilGetDwordProperty
 title: ResUtilGetDwordProperty function (resapi.h)
-author: windows-sdk-content
+
 description: Retrieves a DWORD property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_DWORD_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetdwordproperty.htm
 tech.root: MsCS
 ms.assetid: d67f73f8-a5ce-4922-956f-392c27ee3b1d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_DWORD_PROPERTY, PRESUTIL_GET_DWORD_PROPERTY function [Failover Cluster], ResUtilGetDwordProperty, ResUtilGetDwordProperty function [Failover Cluster], _wolf_resutilgetdwordproperty, mscs.resutilgetdwordproperty, resapi/PRESUTIL_GET_DWORD_PROPERTY, resapi/ResUtilGetDwordProperty
 ms.topic: function

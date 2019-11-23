@@ -1,12 +1,12 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyAuthenticationUseBasic
 title: IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic (wsmandisp.h)
-author: windows-sdk-content
+
 description: Returns the value of the proxy authentication flag WSManFlagProxyAuthenticationUseBasic for use in the authenticationMechanism parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyauthenticationusebasic.htm
 tech.root: winrm
 ms.assetid: 4bfce6f5-9980-4158-be1d-0f3ec081a9b2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAuthenticationUseBasic method, IWSManConnectionOptionsEx2.ProxyAuthenticationUseBasic, IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic, ProxyAuthenticationUseBasic, ProxyAuthenticationUseBasic method [Windows Remote Management], ProxyAuthenticationUseBasic method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusebasic, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic
 ms.topic: method

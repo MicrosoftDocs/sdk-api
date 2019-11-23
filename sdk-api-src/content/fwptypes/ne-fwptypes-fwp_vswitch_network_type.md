@@ -1,12 +1,12 @@
 ---
 UID: NE:fwptypes.FWP_VSWITCH_NETWORK_TYPE_
 title: FWP_VSWITCH_NETWORK_TYPE (fwptypes.h)
-author: windows-sdk-content
+
 description: Specifies the network type of a vSwitch.
 old-location: fwp\fwp_vswitch_network_type.htm
 tech.root: fwp
 ms.assetid: bcb0d138-516c-4877-abe7-a826b8e812f8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FWP_VSWITCH_NETWORK_TYPE, FWP_VSWITCH_NETWORK_TYPE enumeration [Filtering], FWP_VSWITCH_NETWORK_TYPE_EXTERNAL, FWP_VSWITCH_NETWORK_TYPE_INTERNAL, FWP_VSWITCH_NETWORK_TYPE_PRIVATE, FWP_VSWITCH_NETWORK_TYPE_UNKNOWN, fwp.fwp_vswitch_network_type, fwptypes/FWP_VSWITCH_NETWORK_TYPE, fwptypes/FWP_VSWITCH_NETWORK_TYPE_EXTERNAL, fwptypes/FWP_VSWITCH_NETWORK_TYPE_INTERNAL, fwptypes/FWP_VSWITCH_NETWORK_TYPE_PRIVATE, fwptypes/FWP_VSWITCH_NETWORK_TYPE_UNKNOWN
 ms.topic: enum

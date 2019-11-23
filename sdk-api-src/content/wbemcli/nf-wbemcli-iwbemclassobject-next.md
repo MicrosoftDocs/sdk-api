@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.Next
 title: IWbemClassObject::Next (wbemcli.h)
-author: windows-sdk-content
+
 description: The IWbemClassObject::Next method retrieves the next property in an enumeration that started with IWbemClassObject::BeginEnumeration.
 old-location: wmi\iwbemclassobject_next.htm
 tech.root: WmiSdk
 ms.assetid: 6d0e8aa3-ae64-4934-9000-2c526ceb7fb6
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Next method, IWbemClassObject.Next, IWbemClassObject::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IWbemClassObject interface, WBEM_FLAVOR_ORIGIN_LOCAL, WBEM_FLAVOR_ORIGIN_PROPAGATED, WBEM_FLAVOR_ORIGIN_SYSTEM, _hmm_iwbemclassobject_next, wbemcli/IWbemClassObject::Next, wmi.iwbemclassobject_next
 ms.topic: method

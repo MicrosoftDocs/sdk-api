@@ -1,12 +1,12 @@
 ---
 UID: NF:dsadmin.IDsAdminCreateObj.CreateModal
 title: IDsAdminCreateObj::CreateModal (dsadmin.h)
-author: windows-sdk-content
+
 description: The IDsAdminCreateObj::CreateModal method displays the object creation wizard and returns the newly created object. The IDsAdminCreateObj::Initialize method must be called before IDsAdminCreateObj::CreateModal can be called.
 old-location: ad\idsadmincreateobj_createmodal.htm
 tech.root: ad
 ms.assetid: 8c157dd8-b569-4171-bd23-b9bce80dbc21
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateModal, CreateModal method [Active Directory], CreateModal method [Active Directory],IDsAdminCreateObj interface, IDsAdminCreateObj interface [Active Directory],CreateModal method, IDsAdminCreateObj.CreateModal, IDsAdminCreateObj::CreateModal, _glines_idsadmincreateobj_createmodal, ad.idsadmincreateobj__createmodal, ad.idsadmincreateobj_createmodal, dsadmin/IDsAdminCreateObj::CreateModal
 ms.topic: method

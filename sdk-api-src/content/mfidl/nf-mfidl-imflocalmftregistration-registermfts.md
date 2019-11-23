@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFLocalMFTRegistration.RegisterMFTs
 title: IMFLocalMFTRegistration::RegisterMFTs (mfidl.h)
-author: windows-sdk-content
+
 description: Registers one or more Media Foundation transforms (MFTs) in the caller's process.
 old-location: mf\imflocalmftregistration_registermfts.htm
 tech.root: medfound
 ms.assetid: 3f77b5b9-94af-42b1-83ca-cb3310083632
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFLocalMFTRegistration interface [Media Foundation],RegisterMFTs method, IMFLocalMFTRegistration.RegisterMFTs, IMFLocalMFTRegistration::RegisterMFTs, RegisterMFTs, RegisterMFTs method [Media Foundation], RegisterMFTs method [Media Foundation],IMFLocalMFTRegistration interface, mf.imflocalmftregistration_registermfts, mfidl/IMFLocalMFTRegistration::RegisterMFTs
 ms.topic: method

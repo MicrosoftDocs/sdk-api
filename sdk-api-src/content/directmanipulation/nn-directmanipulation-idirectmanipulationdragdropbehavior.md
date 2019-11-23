@@ -1,12 +1,12 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationDragDropBehavior
 title: IDirectManipulationDragDropBehavior (directmanipulation.h)
-author: windows-sdk-content
+
 description: Represents behaviors for drag and drop interactions, which are triggered by cross-slide or press-and-hold gestures.
 old-location: directmanipulation\idirectmanipulationdragdropbehavior.htm
 tech.root: directmanipulation
 ms.assetid: 99D99BB6-1DA1-4B49-88F8-16A9561A9098
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationDragDropBehavior, IDirectManipulationDragDropBehavior interface [Direct Manipulation], IDirectManipulationDragDropBehavior interface [Direct Manipulation],described, directmanipulation.idirectmanipulationdragdropbehavior, directmanipulation/IDirectManipulationDragDropBehavior
 ms.topic: interface

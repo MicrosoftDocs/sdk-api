@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetGestureExtraArgs
 title: GetGestureExtraArgs function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves additional information about a gesture from its GESTUREINFO handle.
 old-location: wintouch\getgestureextraargs.htm
 tech.root: wintouch
 ms.assetid: f7775d88-6a5b-4283-ab40-65c2da218f81
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGestureExtraArgs, GetGestureExtraArgs function [Windows Touch], wintouch.getgestureextraargs, winuser/GetGestureExtraArgs
 ms.topic: function

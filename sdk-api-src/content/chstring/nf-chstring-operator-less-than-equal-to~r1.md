@@ -3,7 +3,7 @@ UID: NF:chstring.operator-less-than-equal-to~r1
 title: operator<=
 description: 
 ms.assetid: 2e79b59d-a8fd-4fab-8850-6d95eef08c95
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: operator<=
 ms.topic: language-reference

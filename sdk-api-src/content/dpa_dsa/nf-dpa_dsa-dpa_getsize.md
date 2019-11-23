@@ -1,12 +1,12 @@
 ---
 UID: NF:dpa_dsa.DPA_GetSize
 title: DPA_GetSize function (dpa_dsa.h)
-author: windows-sdk-content
+
 description: Gets the size of a dynamic pointer array (DPA).
 old-location: controls\DPA_GetSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getsize.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DPA_GetSize, DPA_GetSize function [Windows Controls], _shell_DPA_GetSize, _shell_DPA_GetSize_cpp, controls.DPA_GetSize, controls._shell_DPA_GetSize, dpa_dsa/DPA_GetSize
 ms.topic: function

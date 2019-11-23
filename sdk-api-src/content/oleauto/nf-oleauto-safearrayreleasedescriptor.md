@@ -1,12 +1,12 @@
 ---
 UID: NF:oleauto.SafeArrayReleaseDescriptor
 title: SafeArrayReleaseDescriptor function (oleauto.h)
-author: windows-sdk-content
+
 description: Decreases the pinning reference count for the descriptor of the specified safe array by one. When that count reaches 0, the memory for that descriptor is no longer prevented from being freed.
 old-location: automat\safearrayreleasedescriptor.htm
 tech.root: automat
 ms.assetid: D6678B17-B537-46CF-AC64-4D0C0DC4CDF3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SafeArrayReleaseDescriptor, SafeArrayReleaseDescriptor function [Automation], automat.safearrayreleasedescriptor, oleauto/SafeArrayReleaseDescriptor
 ms.topic: function

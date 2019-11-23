@@ -1,12 +1,12 @@
 ---
 UID: NF:sensapi.IsNetworkAlive
 title: IsNetworkAlive function (sensapi.h)
-author: windows-sdk-content
+
 description: The IsNetworkAlive function determines whether or not a local system is connected to a network, and identifies the type of network connection, for example, a LAN, WAN, or both.
 old-location: sens\isnetworkalive.htm
 tech.root: Sens
 ms.assetid: 1a2f3acd-0626-4fb2-8c5f-f3a0704cc0b4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IsNetworkAlive, IsNetworkAlive function [SENS], _zaw_isnetworkalive, sens.isnetworkalive, sensapi/IsNetworkAlive, syncmgr.isnetworkalive
 ms.topic: function

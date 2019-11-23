@@ -1,12 +1,12 @@
 ---
 UID: NS:cmnquery.__unnamed_struct_0
 title: CQFORM (cmnquery.h)
-author: windows-sdk-content
+
 description: Used to define a query form added to the query dialog box with the CQAddFormsProc callback function.
 old-location: ad\cqform.htm
 tech.root: ad
 ms.assetid: 65cf2e9c-8f88-4e84-8bf2-2b0fd246a835
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPCQFORM, CQFF_ISOPTIONAL, CQFF_NOGLOBALPAGES, CQFORM, CQFORM structure [Active Directory], LPCQFORM, LPCQFORM structure pointer [Active Directory], _glines_cqform, ad.cqform, cmnquery/CQFORM, cmnquery/LPCQFORM"
 ms.topic: struct

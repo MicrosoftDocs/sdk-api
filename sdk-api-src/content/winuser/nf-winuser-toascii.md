@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.ToAscii
 title: ToAscii function (winuser.h)
-author: windows-sdk-content
+
 description: Translates the specified virtual-key code and keyboard state to the corresponding character or characters.
 old-location: inputdev\toascii.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\toascii.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ToAscii, ToAscii function [Keyboard and Mouse Input], _win32_ToAscii, _win32_toascii_cpp, inputdev.toascii, winui._win32_toascii, winuser/ToAscii
 ms.topic: function

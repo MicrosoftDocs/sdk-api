@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgi1_2.IDXGIResource1.CreateSubresourceSurface
 title: IDXGIResource1::CreateSubresourceSurface (dxgi1_2.h)
-author: windows-sdk-content
+
 description: Creates a subresource surface object.
 old-location: direct3ddxgi\idxgiresource1_createsubresourcesurface.htm
 tech.root: direct3ddxgi
 ms.assetid: 99730AB1-C5D9-41D6-8001-495FF26E8232
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateSubresourceSurface, CreateSubresourceSurface method [DXGI], CreateSubresourceSurface method [DXGI],IDXGIResource1 interface, IDXGIResource1 interface [DXGI],CreateSubresourceSurface method, IDXGIResource1.CreateSubresourceSurface, IDXGIResource1::CreateSubresourceSurface, direct3ddxgi.idxgiresource1_createsubresourcesurface, dxgi1_2/IDXGIResource1::CreateSubresourceSurface
 ms.topic: method

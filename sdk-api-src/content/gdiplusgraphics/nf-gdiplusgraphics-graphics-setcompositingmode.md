@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetCompositingMode
 title: Graphics::SetCompositingMode (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::SetCompositingMode method sets the compositing mode of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setcompositingmode.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],SetCompositingMode method, Graphics.SetCompositingMode, Graphics::SetCompositingMode, SetCompositingMode, SetCompositingMode method [GDI+], SetCompositingMode method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode_, gdiplus._gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode_
 ms.topic: method

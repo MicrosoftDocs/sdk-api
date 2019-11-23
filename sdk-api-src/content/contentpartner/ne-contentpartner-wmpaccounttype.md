@@ -1,12 +1,12 @@
 ---
 UID: NE:contentpartner.WMPAccountType
 title: WMPAccountType (contentpartner.h)
-author: windows-sdk-content
+
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPAccountType enumeration defines account types for an online store.
 old-location: wmp\wmpaccounttype.htm
 tech.root: WMP
 ms.assetid: daab6937-0906-4b69-8d00-c68e43b8214f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WMPAccountType, WMPAccountType enumeration [Windows Media Player], contentpartner/WMPAccountType, contentpartner/wmpatBuyOnly, contentpartner/wmpatJanus, contentpartner/wmpatSubscription, enumeration [Windows Media Player], wmp.wmpaccounttype, wmpatBuyOnly, wmpatJanus, wmpatSubscription
 ms.topic: enum

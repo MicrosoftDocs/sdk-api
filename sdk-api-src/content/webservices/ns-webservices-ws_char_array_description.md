@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_CHAR_ARRAY_DESCRIPTION
 title: WS_CHAR_ARRAY_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: Specifies constraints on the set of values which can be deserialized.
 old-location: wsw\ws_char_array_description.htm
 tech.root: wsw
 ms.assetid: 3a489963-9ed3-40ca-be42-485415e7fa4a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_CHAR_ARRAY_DESCRIPTION, WS_CHAR_ARRAY_DESCRIPTION structure [Web Services for Windows], webservices/WS_CHAR_ARRAY_DESCRIPTION, wsw.ws_char_array_description
 ms.topic: struct

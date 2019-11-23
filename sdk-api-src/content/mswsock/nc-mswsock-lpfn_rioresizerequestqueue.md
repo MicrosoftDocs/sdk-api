@@ -1,12 +1,12 @@
 ---
 UID: NC:mswsock.LPFN_RIORESIZEREQUESTQUEUE
 title: LPFN_RIORESIZEREQUESTQUEUE
-author: windows-sdk-content
+
 description: Resizes a request queue to be either larger or smaller for use with the Winsock registered I/O extensions.
 old-location: 
 tech.root: WinSock
 ms.assetid: 4A20B1E3-ED99-4429-A9C1-35C9330CB108
-ms.author: windowssdkdev
+
 ms.date: 01/30/19
 ms.keywords: LPFN_RIORESIZEREQUESTQUEUE
 ms.topic: language-reference

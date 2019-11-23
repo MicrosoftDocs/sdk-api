@@ -1,12 +1,12 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.SetFullscreenState
 title: IDXGISwapChain::SetFullscreenState (dxgi.h)
-author: windows-sdk-content
+
 description: Sets the display state to windowed or full screen.
 old-location: direct3ddxgi\idxgiswapchain_setfullscreenstate.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_setfullscreenstate.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain interface [DXGI],SetFullscreenState method, IDXGISwapChain.SetFullscreenState, IDXGISwapChain::SetFullscreenState, SetFullscreenState, SetFullscreenState method [DXGI], SetFullscreenState method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_setfullscreenstate, dxgi/IDXGISwapChain::SetFullscreenState, f276366b-1618-a552-fa8f-29c081ebbe6d
 ms.topic: method

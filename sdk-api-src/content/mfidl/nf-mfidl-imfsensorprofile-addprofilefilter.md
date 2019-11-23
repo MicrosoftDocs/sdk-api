@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFSensorProfile.AddProfileFilter
 title: IMFSensorProfile::AddProfileFilter (mfidl.h)
-author: windows-sdk-content
+
 description: Adds a profile filter to the specified media stream.
 old-location: mf\imfsensorprofile_addprofilefilter.htm
 tech.root: medfound
 ms.assetid: D79C83AA-A105-4320-80D8-F7A3753DF4C4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddProfileFilter, AddProfileFilter method [Media Foundation], AddProfileFilter method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],AddProfileFilter method, IMFSensorProfile.AddProfileFilter, IMFSensorProfile::AddProfileFilter, mf.imfsensorprofile_addprofilefilter, mfidl/IMFSensorProfile::AddProfileFilter
 ms.topic: method

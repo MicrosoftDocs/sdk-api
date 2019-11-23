@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsOpenServiceHost
 title: WsOpenServiceHost function (webservices.h)
-author: windows-sdk-content
+
 description: Opens a Service Host for communication and starts the Listeners on all the endpoints. Client applications cannot connect to Service endpoints until WsOpenSerivceHost is called.
 old-location: wsw\wsopenservicehost.htm
 tech.root: wsw
 ms.assetid: 4e6ef553-7f0e-4ed7-bbdd-e85d4e0a095c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsOpenServiceHost, WsOpenServiceHost function [Web Services for Windows], webservices/WsOpenServiceHost, wsw.wsopenservicehost
 ms.topic: function

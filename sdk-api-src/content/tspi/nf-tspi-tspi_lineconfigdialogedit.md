@@ -1,12 +1,12 @@
 ---
 UID: NF:tspi.TSPI_lineConfigDialogEdit
 title: TSPI_lineConfigDialogEdit function (tspi.h)
-author: windows-sdk-content
+
 description: The TSPI_lineConfigDialogEdit function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_lineConfigDialogEdit.
 old-location: tspi\tspi_lineconfigdialogedit.htm
 tech.root: Tapi
 ms.assetid: 7248050c-0e59-406a-b75c-d06c0ce7bdc5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineConfigDialogEdit, TSPI_lineConfigDialogEdit function [TAPI 2.2], _tspi_tspi_lineconfigdialogedit, tspi.tspi_lineconfigdialogedit, tspi/TSPI_lineConfigDialogEdit
 ms.topic: function

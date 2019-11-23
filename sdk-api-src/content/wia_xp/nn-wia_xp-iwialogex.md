@@ -1,12 +1,12 @@
 ---
 UID: NN:wia_xp.IWiaLogEx
 title: IWiaLogEx (wia_xp.h)
-author: windows-sdk-content
+
 description: This interface is not supported.
 old-location: wia\_wia_IWiaLogEx.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\iwialogex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWiaLogEx, IWiaLogEx interface [WIA], IWiaLogEx interface [WIA],described, _wia_IWiaLogEx, wia._wia_IWiaLogEx, wia_xp/IWiaLogEx
 ms.topic: interface

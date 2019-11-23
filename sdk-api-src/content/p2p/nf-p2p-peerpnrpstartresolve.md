@@ -1,12 +1,12 @@
 ---
 UID: NF:p2p.PeerPnrpStartResolve
 title: PeerPnrpStartResolve function (p2p.h)
-author: windows-sdk-content
+
 description: Starts an asynchronous peer name resolution operation.
 old-location: p2p\peerpnrpstartresolve.htm
 tech.root: P2PSdk
 ms.assetid: 140ecca5-85fe-480e-bc69-86e0bc69ad2e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpStartResolve, PeerPnrpStartResolve function [Peer Networking], p2p.peerpnrpstartresolve, p2p/PeerPnrpStartResolve
 ms.topic: function

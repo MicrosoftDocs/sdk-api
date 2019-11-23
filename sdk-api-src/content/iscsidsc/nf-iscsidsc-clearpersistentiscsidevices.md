@@ -1,12 +1,12 @@
 ---
 UID: NF:iscsidsc.ClearPersistentIScsiDevices
 title: ClearPersistentIScsiDevices function (iscsidsc.h)
-author: windows-sdk-content
+
 description: ClearPersistentIscsiDevices function removes all volumes and devices from the list of persistently bound iSCSI volumes.
 old-location: iscsidisc\clearpersistentiscsidevices.htm
 tech.root: iSCSIDisc
 ms.assetid: 9e21dde6-face-40ae-803b-2aa7861e6f4f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClearPersistentIScsiDevices, ClearPersistentiScsiDevices, ClearPersistentiScsiDevices function [iSCSI Discovery Library API], iscsidisc.clearpersistentiscsidevices, iscsidsc/ClearPersistentiScsiDevices
 ms.topic: function

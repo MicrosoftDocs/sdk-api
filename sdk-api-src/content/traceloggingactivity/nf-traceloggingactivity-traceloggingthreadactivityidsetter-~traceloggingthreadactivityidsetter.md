@@ -1,12 +1,12 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingThreadActivityIdSetter.~TraceLoggingThreadActivityIdSetter
 title: TraceLoggingThreadActivityIdSetter::~TraceLoggingThreadActivityIdSetter (traceloggingactivity.h)
-author: windows-sdk-content
+
 description: Restores the original activity ID to the thread.
 old-location: tracelogging\traceloggingthreadactivity__traceloggingthreadactivityidsetter.htm
 tech.root: tracelogging
 ms.assetid: 5B400757-40D7-4DF3-AF9C-C436DE86C7F9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingThreadActivityIdSetter interface,~TraceLoggingThreadActivityIdSetter method, TraceLoggingThreadActivityIdSetter.~TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter::~TraceLoggingThreadActivityIdSetter, tracelogging.traceloggingthreadactivity__traceloggingthreadactivityidsetter, traceloggingactivity/TraceLoggingThreadActivityIdSetter::~TraceLoggingThreadActivityIdSetter, ~TraceLoggingThreadActivityIdSetter, ~TraceLoggingThreadActivityIdSetter method, ~TraceLoggingThreadActivityIdSetter method,TraceLoggingThreadActivityIdSetter interface
 ms.topic: method

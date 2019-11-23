@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_partnershipIndex
 title: IWMPSyncDevice::get_partnershipIndex (wmp.h)
-author: windows-sdk-content
+
 description: The get_partnershipIndex method retrieves the index of the device partnership.
 old-location: wmp\iwmpsyncdevice_get_partnershipindex.htm
 tech.root: WMP
 ms.assetid: a7f04b97-8a09-4feb-b776-649aa9d6f407
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_partnershipIndex method, IWMPSyncDevice.get_partnershipIndex, IWMPSyncDevice::get_partnershipIndex, IWMPSyncDeviceget_partnershipIndex, get_partnershipIndex, get_partnershipIndex method [Windows Media Player], get_partnershipIndex method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_partnershipindex, wmp/IWMPSyncDevice::get_partnershipIndex
 ms.topic: method

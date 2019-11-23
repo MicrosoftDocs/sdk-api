@@ -1,12 +1,12 @@
 ---
 UID: NS:ntsecapi._LSA_TRANSLATED_SID
 title: LSA_TRANSLATED_SID (ntsecapi.h)
-author: windows-sdk-content
+
 description: Used with the LsaLookupNames function to return information about the SID that identifies an account.
 old-location: security\lsa_translated_sid.htm
 tech.root: SecMgmt
 ms.assetid: 1fa8fb74-3e61-4982-aa6b-a0ffe979abd4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PLSA_TRANSLATED_SID, LSA_TRANSLATED_SID, LSA_TRANSLATED_SID structure [Security], PLSA_TRANSLATED_SID, PLSA_TRANSLATED_SID structure pointer [Security], SidTypeDomain, SidTypeInvalid, SidTypeUnknown, _LSA_TRANSLATED_SID, _lsa_lsa_translated_sid, ntsecapi/LSA_TRANSLATED_SID, ntsecapi/PLSA_TRANSLATED_SID, security.lsa_translated_sid'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateVisualBrush
 title: IXpsOMObjectFactory::CreateVisualBrush (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Creates an IXpsOMVisualBrush interface, which is an IXpsOMTileBrush that uses a visual object.
 old-location: xps\ixpsomobjectfactory_createvisualbrush.htm
 tech.root: printdocs
 ms.assetid: ad19841a-629f-4127-a6ea-890168e0c53c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateVisualBrush, CreateVisualBrush method [XPS Documents and Packaging], CreateVisualBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateVisualBrush method, IXpsOMObjectFactory.CreateVisualBrush, IXpsOMObjectFactory::CreateVisualBrush, xps.ixpsomobjectfactory_createvisualbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateVisualBrush
 ms.topic: method

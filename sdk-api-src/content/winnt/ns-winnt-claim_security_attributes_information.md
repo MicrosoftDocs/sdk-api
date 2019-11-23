@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._CLAIM_SECURITY_ATTRIBUTES_INFORMATION
 title: CLAIM_SECURITY_ATTRIBUTES_INFORMATION (winnt.h)
-author: windows-sdk-content
+
 description: Defines the security attributes for the claim.
 old-location: security\claim_security_attributes_information.htm
 tech.root: SecAuthZ
 ms.assetid: D7D9816E-1ECE-48CA-9F2F-0955572A0FCA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCLAIM_SECURITY_ATTRIBUTES_INFORMATION, CLAIM_SECURITY_ATTRIBUTES_INFORMATION, CLAIM_SECURITY_ATTRIBUTES_INFORMATION structure [Security], PCLAIM_SECURITY_ATTRIBUTES_INFORMATION, PCLAIM_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTES_INFORMATION, security.claim_security_attributes_information, winnt/CLAIM_SECURITY_ATTRIBUTES_INFORMATION, winnt/PCLAIM_SECURITY_ATTRIBUTES_INFORMATION'
 ms.topic: struct

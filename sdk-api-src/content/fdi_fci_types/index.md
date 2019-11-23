@@ -1,7 +1,7 @@
 ---
 UID: NA:fdi_fci_types
 ms.assetid: 912c8328-9a99-3cdb-90f4-3abc27dcb0da
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

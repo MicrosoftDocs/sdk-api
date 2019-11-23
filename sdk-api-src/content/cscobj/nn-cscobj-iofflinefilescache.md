@@ -1,12 +1,12 @@
 ---
 UID: NN:cscobj.IOfflineFilesCache
 title: IOfflineFilesCache (cscobj.h)
-author: windows-sdk-content
+
 description: Used to manage the Offline Files cache.
 old-location: of\iofflinefilescache.htm
 tech.root: offlinefiles
 ms.assetid: 7b1b5ef6-355a-4760-9d54-ec73cc66fb8a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache, IOfflineFilesCache interface [Offline Files], IOfflineFilesCache interface [Offline Files],described, cscobj/IOfflineFilesCache, of.iofflinefilescache
 ms.topic: interface

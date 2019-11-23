@@ -1,12 +1,12 @@
 ---
 UID: NE:winnt._PROCESSOR_CACHE_TYPE
 title: PROCESSOR_CACHE_TYPE (winnt.h)
-author: windows-sdk-content
+
 description: Represents the type of processor cache identified in the corresponding CACHE_DESCRIPTOR structure.
 old-location: base\processor_cache_type.htm
 tech.root: ProcThread
 ms.assetid: 23044f67-e944-43c2-8c75-3d2fba87cb3c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CacheData, CacheInstruction, CacheTrace, CacheUnified, PROCESSOR_CACHE_TYPE, PROCESSOR_CACHE_TYPE enumeration, base.processor_cache_type, winnt/CacheData, winnt/CacheInstruction, winnt/CacheTrace, winnt/CacheUnified, winnt/PROCESSOR_CACHE_TYPE
 ms.topic: enum

@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetPosition
 title: IMFTimedTextRegion::GetPosition (mfmediaengine.h)
-author: windows-sdk-content
+
 description: Gets the position of the region.
 old-location: mf\imftimedtextregion_getposition.htm
 tech.root: medfound
 ms.assetid: 1DEE0689-A428-4121-9ED5-5E4D1376461E
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Media Foundation], GetPosition method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetPosition method, IMFTimedTextRegion.GetPosition, IMFTimedTextRegion::GetPosition, mf.imftimedtextregion_getposition, mfmediaengine/IMFTimedTextRegion::GetPosition
 ms.topic: method

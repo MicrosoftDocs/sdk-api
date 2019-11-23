@@ -1,12 +1,12 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.WaitForClassificationCompletion
 title: IFsrmClassificationManager::WaitForClassificationCompletion (fsrmpipeline.h)
-author: windows-sdk-content
+
 description: Waits for the specified period of time or until classification has finished running.
 old-location: fsrm\ifsrmclassificationmanager_waitforclassificationcompletion.htm
 tech.root: fsrm
 ms.assetid: d288f84c-5078-40e3-ad32-6794f82157d5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],WaitForClassificationCompletion method, IFsrmClassificationManager interface [File Server Resource Manager],WaitForClassificationCompletion method, IFsrmClassificationManager.WaitForClassificationCompletion, IFsrmClassificationManager2 interface [File Server Resource Manager],WaitForClassificationCompletion method, IFsrmClassificationManager2::WaitForClassificationCompletion, IFsrmClassificationManager::WaitForClassificationCompletion, WaitForClassificationCompletion, WaitForClassificationCompletion method [File Server Resource Manager], WaitForClassificationCompletion method [File Server Resource Manager],FsrmClassificationManager class, WaitForClassificationCompletion method [File Server Resource Manager],IFsrmClassificationManager interface, WaitForClassificationCompletion method [File Server Resource Manager],IFsrmClassificationManager2 interface, fs.ifsrmclassificationmanager_waitforclassificationcompletion, fsrm.ifsrmclassificationmanager_waitforclassificationcompletion, fsrmpipeline/IFsrmClassificationManager2::WaitForClassificationCompletion, fsrmpipeline/IFsrmClassificationManager::WaitForClassificationCompletion
 ms.topic: method

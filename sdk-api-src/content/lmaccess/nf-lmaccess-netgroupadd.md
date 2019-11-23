@@ -1,12 +1,12 @@
 ---
 UID: NF:lmaccess.NetGroupAdd
 title: NetGroupAdd function (lmaccess.h)
-author: windows-sdk-content
+
 description: The NetGroupAdd function creates a global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupadd.htm
 tech.root: NetMgmt
 ms.assetid: fbf90758-79fd-4959-b6d0-ad3872e77242
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetGroupAdd, NetGroupAdd function [Network Management], _win32_netgroupadd, lmaccess/NetGroupAdd, netmgmt.netgroupadd
 ms.topic: function

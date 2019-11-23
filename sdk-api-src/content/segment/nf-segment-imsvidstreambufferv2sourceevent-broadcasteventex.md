@@ -1,12 +1,12 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.BroadcastEventEx
 title: IMSVidStreamBufferV2SourceEvent::BroadcastEventEx (segment.h)
-author: windows-sdk-content
+
 description: Fired when an SBE2 source filter receives any event fired by a call to IBroadcastEventEx::FireEx.
 old-location: mstv\imsvidstreambufferv2sourceevent_broadcasteventex.htm
 tech.root: mstv
 ms.assetid: 731baecc-72f9-4ecd-bc01-40ad31c67051
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BroadcastEventEx, BroadcastEventEx method [Microsoft TV Technologies], BroadcastEventEx method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],BroadcastEventEx method, IMSVidStreamBufferV2SourceEvent.BroadcastEventEx, IMSVidStreamBufferV2SourceEvent::BroadcastEventEx, mstv.imsvidstreambufferv2sourceevent_broadcasteventex, segment/IMSVidStreamBufferV2SourceEvent::BroadcastEventEx
 ms.topic: method

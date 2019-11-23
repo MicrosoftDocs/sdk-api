@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAdvanced6
 title: IWMReaderAdvanced6 (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMReaderAdvanced6 interface enables sample protection.An IWMReaderAdvanced6 interface exists for every reader object.
 old-location: wmformat\iwmreaderadvanced6.htm
 tech.root: wmformat
 ms.assetid: 95e8c151-9aae-4930-824c-8809dfc07705
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced6, IWMReaderAdvanced6 interface [windows Media Format], IWMReaderAdvanced6 interface [windows Media Format],described, IWMReaderAdvanced6Interface, wmformat.iwmreaderadvanced6, wmsdkidl/IWMReaderAdvanced6
 ms.topic: interface

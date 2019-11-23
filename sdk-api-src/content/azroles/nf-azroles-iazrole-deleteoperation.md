@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzRole.DeleteOperation
 title: IAzRole::DeleteOperation (azroles.h)
-author: windows-sdk-content
+
 description: Removes the IAzOperation object with the specified name from the role.
 old-location: security\iazrole_deleteoperation.htm
 tech.root: SecAuthZ
 ms.assetid: d3486a12-7059-47b8-9f06-a025d5756b70
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],DeleteOperation method, DeleteOperation, DeleteOperation method [Security], DeleteOperation method [Security],AzRole object, DeleteOperation method [Security],IAzRole interface, IAzRole interface [Security],DeleteOperation method, IAzRole.DeleteOperation, IAzRole::DeleteOperation, azroles/IAzRole::DeleteOperation, security.iazrole_deleteoperation
 ms.topic: method

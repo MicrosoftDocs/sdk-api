@@ -1,12 +1,12 @@
 ---
 UID: NF:winefs.DuplicateEncryptionInfoFile
 title: DuplicateEncryptionInfoFile function (winefs.h)
-author: windows-sdk-content
+
 description: Copies the EFS metadata from one file or directory to another.
 old-location: fs\duplicateencryptioninfofile.htm
 tech.root: FileIO
 ms.assetid: c830ae98-3649-4981-9369-7d4cb019b50f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CREATE_ALWAYS, CREATE_NEW, DuplicateEncryptionInfoFile, DuplicateEncryptionInfoFile function [Files], _win32_duplicateencryptioninfofile, base.duplicateencryptioninfofile, fs.duplicateencryptioninfofile, winefs/DuplicateEncryptionInfoFile
 ms.topic: function

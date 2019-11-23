@@ -1,12 +1,12 @@
 ---
 UID: NE:structuredquery.tagQUERY_PARSER_MANAGER_OPTION
 title: QUERY_PARSER_MANAGER_OPTION (structuredquery.h)
-author: windows-sdk-content
+
 description: Used by IQueryParserManager::SetOption to set parsing options. This can be used to specify schemas and localization options.
 old-location: search\_search_QUERY_PARSER_MANAGER_OPTION.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\query_parser_manager_option.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: QPMO_APPEND_LCID_TO_LOCALIZED_PATH, QPMO_LOCALIZED_SCHEMA_BINARY_PATH, QPMO_LOCALIZER_SUPPORT, QPMO_PRELOCALIZED_SCHEMA_BINARY_PATH, QPMO_SCHEMA_BINARY_NAME, QPMO_UNLOCALIZED_SCHEMA_BINARY_PATH, QUERY_PARSER_MANAGER_OPTION, QUERY_PARSER_MANAGER_OPTION enumeration [search], _search_QUERY_PARSER_MANAGER_OPTION, search._search_QUERY_PARSER_MANAGER_OPTION, structuredquery/QPMO_APPEND_LCID_TO_LOCALIZED_PATH, structuredquery/QPMO_LOCALIZED_SCHEMA_BINARY_PATH, structuredquery/QPMO_LOCALIZER_SUPPORT, structuredquery/QPMO_PRELOCALIZED_SCHEMA_BINARY_PATH, structuredquery/QPMO_SCHEMA_BINARY_NAME, structuredquery/QPMO_UNLOCALIZED_SCHEMA_BINARY_PATH, structuredquery/QUERY_PARSER_MANAGER_OPTION
 ms.topic: enum

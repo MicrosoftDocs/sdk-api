@@ -1,12 +1,12 @@
 ---
 UID: NN:wmsdkidl.IWMIndexer
 title: IWMIndexer (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IWMIndexer interface is used to create an index for ASF files to enable seeking.
 old-location: wmformat\iwmindexer.htm
 tech.root: wmformat
 ms.assetid: 00627b0c-4484-417a-8680-0fd97aac41fe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMIndexer, IWMIndexer interface [windows Media Format], IWMIndexer interface [windows Media Format],described, IWMIndexerInterface, wmformat.iwmindexer, wmsdkidl/IWMIndexer
 ms.topic: interface

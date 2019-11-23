@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcndr.NdrConformantArrayUnmarshall
 title: NdrConformantArrayUnmarshall function (rpcndr.h)
-author: windows-sdk-content
+
 description: The NdrConformantArrayUnmarshall function unmarshals a conformant array.
 old-location: rpc\ndrconformantarrayunmarshall.htm
 tech.root: Rpc
 ms.assetid: 09acbea7-a835-4365-917f-4b12b2602bf0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: NdrConformantArrayUnmarshall, NdrConformantArrayUnmarshall, pStubMsg, pStubMsg function [RPC], rpc.ndrconformantarrayunmarshall, rpcndr/pStubMsg
 ms.topic: function

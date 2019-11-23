@@ -1,12 +1,12 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_EnableUDP
 title: IAMNetShowConfig::put_EnableUDP (qnetwork.h)
-author: windows-sdk-content
+
 description: The put_EnableUDP method enables or disablles UDP-based streaming.
 old-location: dshow\iamnetshowconfig_put_enableudp.htm
 tech.root: DirectShow
 ms.assetid: 2573573e-97e0-4ed4-b702-8c54ef47c5f4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableUDP method, IAMNetShowConfig.put_EnableUDP, IAMNetShowConfig::put_EnableUDP, IAMNetShowConfigput_EnableUDP, dshow.iamnetshowconfig_put_enableudp, put_EnableUDP, put_EnableUDP method [DirectShow], put_EnableUDP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableUDP
 ms.topic: method

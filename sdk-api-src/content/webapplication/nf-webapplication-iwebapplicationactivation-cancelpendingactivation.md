@@ -1,12 +1,12 @@
 ---
 UID: NF:webapplication.IWebApplicationActivation.CancelPendingActivation
 title: IWebApplicationActivation::CancelPendingActivation (webapplication.h)
-author: windows-sdk-content
+
 description: Cancels a pending activation.
 old-location: debug\iwebapplicationactivation_cancelpendingactivation.htm
 tech.root: debug_wwahost
 ms.assetid: FBBA086D-1B20-4F70-B162-DD922DC5C4BF
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CancelPendingActivation, CancelPendingActivation method [Debugging Windows Store apps], CancelPendingActivation method [Debugging Windows Store apps],IWebApplicationActivation interface, IWebApplicationActivation interface [Debugging Windows Store apps],CancelPendingActivation method, IWebApplicationActivation.CancelPendingActivation, IWebApplicationActivation::CancelPendingActivation, debug.iwebapplicationactivation_cancelpendingactivation, webapplication/IWebApplicationActivation::CancelPendingActivation
 ms.topic: method

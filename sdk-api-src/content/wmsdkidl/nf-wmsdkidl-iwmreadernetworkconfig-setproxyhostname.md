@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyHostName
 title: IWMReaderNetworkConfig::SetProxyHostName (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The SetProxyHostName method specifies the proxy host name.
 old-location: wmformat\iwmreadernetworkconfig_setproxyhostname.htm
 tech.root: wmformat
 ms.assetid: 5638a5d6-30f3-43eb-b054-cab85948796c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyHostName method, IWMReaderNetworkConfig.SetProxyHostName, IWMReaderNetworkConfig::SetProxyHostName, IWMReaderNetworkConfigSetProxyHostName, SetProxyHostName, SetProxyHostName method [windows Media Format], SetProxyHostName method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxyhostname, wmsdkidl/IWMReaderNetworkConfig::SetProxyHostName
 ms.topic: method

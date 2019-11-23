@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetMinIdealVideoSize
 title: IVMRWindowlessControl::GetMinIdealVideoSize (strmif.h)
-author: windows-sdk-content
+
 description: The GetMinIdealVideoSize method retrieves the minimum video size that the VMR can display without incurring significant performance or image quality degradation.
 old-location: dshow\ivmrwindowlesscontrol_getminidealvideosize.htm
 tech.root: DirectShow
 ms.assetid: 602e32d4-41d6-4139-aa64-4b53caa50859
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMinIdealVideoSize, GetMinIdealVideoSize method [DirectShow], GetMinIdealVideoSize method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetMinIdealVideoSize method, IVMRWindowlessControl.GetMinIdealVideoSize, IVMRWindowlessControl::GetMinIdealVideoSize, IVMRWindowlessControlGetMinIdealVideoSize, dshow.ivmrwindowlesscontrol_getminidealvideosize, strmif/IVMRWindowlessControl::GetMinIdealVideoSize
 ms.topic: method

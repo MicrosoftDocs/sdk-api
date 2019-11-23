@@ -1,12 +1,12 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnEmergencyModeChange
 title: IMbnInterfaceEvents::OnEmergencyModeChange (mbnapi.h)
-author: windows-sdk-content
+
 description: This notification method is called by the Mobile Broadband service to indicate that the emergency mode has changed.
 old-location: mbn\imbninterfaceevents_onemergencymodechange.htm
 tech.root: mbn
 ms.assetid: 637e0f6b-102f-436c-b0ec-edef16245675
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnEmergencyModeChange method, IMbnInterfaceEvents.OnEmergencyModeChange, IMbnInterfaceEvents::OnEmergencyModeChange, OnEmergencyModeChange, OnEmergencyModeChange method [Microsoft Broadband Networks], OnEmergencyModeChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onemergencymodechange, mbnapi/IMbnInterfaceEvents::OnEmergencyModeChange
 ms.topic: method

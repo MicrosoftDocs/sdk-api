@@ -1,12 +1,12 @@
 ---
 UID: NF:locationapi.ILocationPower.Disconnect
 title: ILocationPower::Disconnect (locationapi.h)
-author: windows-sdk-content
+
 description: Used by Windows Store app browsers in Windows 8 to notify the location platform that an app has been suspended (disconnect) and restored (connect).
 old-location: winlocation_com_ref\ilocationpower_disconnect.htm
 tech.root: locationapi
 ms.assetid: 8bf9bc29-4e81-4d80-8de5-317678b34792
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [WinLocation], Disconnect method [WinLocation],ILocationPower interface, ILocationPower interface [WinLocation],Disconnect method, ILocationPower.Disconnect, ILocationPower::Disconnect, WinLocation_COM_Ref.ilocationpower_disconnect, locationapi/ILocationPower::Disconnect, winlocation.ilocationpower_disconnect
 ms.topic: method

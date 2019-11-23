@@ -1,12 +1,12 @@
 ---
 UID: NN:wuapi.IUpdateServiceCollection
 title: IUpdateServiceCollection (wuapi.h)
-author: windows-sdk-content
+
 description: Represents a list of IUpdateService interfaces.
 old-location: wua\iupdateservicecollection.htm
 tech.root: Wua_Sdk
 ms.assetid: ae742fe2-c9f3-4116-b98a-3cf3906cfda2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceCollection, IUpdateServiceCollection interface [Windows Update Agent], IUpdateServiceCollection interface [Windows Update Agent],described, wua.iupdateservicecollection, wuapi/IUpdateServiceCollection
 ms.topic: interface

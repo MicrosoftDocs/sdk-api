@@ -1,12 +1,12 @@
 ---
 UID: NN:ndhelper.INetDiagHelperUtilFactory
 title: INetDiagHelperUtilFactory (ndhelper.h)
-author: windows-sdk-content
+
 description: Provides a reserved method that is used by the Network Diagnostics Framework (NDF).
 old-location: ndf\inetdiaghelperutilfactory.htm
 tech.root: NDF
 ms.assetid: 5e97ff3b-0dd5-4370-bf28-72fc92818564
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperUtilFactory, INetDiagHelperUtilFactory interface [NDF], INetDiagHelperUtilFactory interface [NDF],described, ndf.inetdiaghelperutilfactory, ndhelper/INetDiagHelperUtilFactory
 ms.topic: interface

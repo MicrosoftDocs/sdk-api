@@ -1,12 +1,12 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GeneratePresentationDescriptor
 title: IMFASFContentInfo::GeneratePresentationDescriptor (wmcontainer.h)
-author: windows-sdk-content
+
 description: Creates a presentation descriptor for ASF content.
 old-location: mf\imfasfcontentinfo_generatepresentationdescriptor.htm
 tech.root: medfound
 ms.assetid: f22cb48d-1346-4182-8ca2-f57a7fdc76e4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GeneratePresentationDescriptor, GeneratePresentationDescriptor method [Media Foundation], GeneratePresentationDescriptor method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GeneratePresentationDescriptor method, IMFASFContentInfo.GeneratePresentationDescriptor, IMFASFContentInfo::GeneratePresentationDescriptor, f22cb48d-1346-4182-8ca2-f57a7fdc76e4, mf.imfasfcontentinfo_generatepresentationdescriptor, wmcontainer/IMFASFContentInfo::GeneratePresentationDescriptor
 ms.topic: method

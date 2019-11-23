@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.graphics.effects.interop.IGraphicsEffectD2D1Interop.GetPropertyCount
 title: IGraphicsEffectD2D1Interop::effects (windows.graphics.effects.interop.h)
-author: windows-sdk-content
+
 description: Retrieve the property count for the effect.
 old-location: w_graph_fx\igraphicseffectd2d1interop_getpropertycount.htm
 tech.root: w_graph_fx
 ms.assetid: B1A89551-72B3-4C30-B75F-5159DD774E04
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPropertyCount, GetPropertyCount method, GetPropertyCount method,IGraphicsEffectD2D1Interop interface, IGraphicsEffectD2D1Interop interface,GetPropertyCount method, IGraphicsEffectD2D1Interop.GetPropertyCount, IGraphicsEffectD2D1Interop.effects, IGraphicsEffectD2D1Interop::GetPropertyCount, IGraphicsEffectD2D1Interop::effects, w_graph_fx.igraphicseffectd2d1interop_getpropertycount, windows/IGraphicsEffectD2D1Interop::GetPropertyCount
 ms.topic: method

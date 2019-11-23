@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.WindowFromPhysicalPoint
 title: WindowFromPhysicalPoint function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves a handle to the window that contains the specified physical point.
 old-location: winmsg\windowfromphysicalpoint.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\windowfromphysicalpoint.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WindowFromPhysicalPoint, WindowFromPhysicalPoint function [Windows and Messages], _win32_WindowFromPhysicalPoint, _win32_windowfromphysicalpoint_cpp, winmsg.windowfromphysicalpoint, winui._win32_windowfromphysicalpoint, winuser/WindowFromPhysicalPoint
 ms.topic: function

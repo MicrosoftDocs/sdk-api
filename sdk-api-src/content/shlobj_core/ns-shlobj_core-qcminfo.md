@@ -1,12 +1,12 @@
 ---
 UID: NS:shlobj_core._QCMINFO
 title: QCMINFO (shlobj_core.h)
-author: windows-sdk-content
+
 description: Contains information for merging menu items into Windows Explorer menus.
 old-location: shell\QCMINFO_str.htm
 tech.root: shell
 ms.assetid: 3f991ebb-d66c-4bdc-b9d2-2bf6bb5a269a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPQCMINFO, QCMINFO, QCMINFO structure [Windows Shell], _QCMINFO, _win32_QCMINFO_str, shell.QCMINFO_str, shlobj_core/QCMINFO"
 ms.topic: struct

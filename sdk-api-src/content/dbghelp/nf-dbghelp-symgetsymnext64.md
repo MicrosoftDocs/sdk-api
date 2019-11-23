@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymGetSymNext64
 title: SymGetSymNext64 function (dbghelp.h)
-author: windows-sdk-content
+
 description: Retrieves the symbol information for the next symbol.
 old-location: base\symgetsymnext64.htm
 tech.root: Debug
 ms.assetid: e58f21b9-c2fc-48f6-af45-3c9ec42809c1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SymGetSymNext, SymGetSymNext function, SymGetSymNext64, SymGetSymNext64 function, _win32_symgetsymnext64, base.symgetsymnext64, dbghelp/SymGetSymNext, dbghelp/SymGetSymNext64
 ms.topic: function

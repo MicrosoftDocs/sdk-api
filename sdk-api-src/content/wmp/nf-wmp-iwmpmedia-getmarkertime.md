@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPMedia.getMarkerTime
 title: IWMPMedia::getMarkerTime (wmp.h)
-author: windows-sdk-content
+
 description: The getMarkerTime method retrieves the time of the marker at the specified index.
 old-location: wmp\iwmpmedia_getmarkertime.htm
 tech.root: WMP
 ms.assetid: e6c2484d-8167-4305-9467-f9b2b7fedc32
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],getMarkerTime method, IWMPMedia.getMarkerTime, IWMPMedia2 interface [Windows Media Player],getMarkerTime method, IWMPMedia2::getMarkerTime, IWMPMedia3 interface [Windows Media Player],getMarkerTime method, IWMPMedia3::getMarkerTime, IWMPMedia::getMarkerTime, IWMPMediagetMarkerTime, getMarkerTime, getMarkerTime method [Windows Media Player], getMarkerTime method [Windows Media Player],IWMPMedia interface, getMarkerTime method [Windows Media Player],IWMPMedia2 interface, getMarkerTime method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getmarkertime, wmp/IWMPMedia2::getMarkerTime, wmp/IWMPMedia3::getMarkerTime, wmp/IWMPMedia::getMarkerTime
 ms.topic: method

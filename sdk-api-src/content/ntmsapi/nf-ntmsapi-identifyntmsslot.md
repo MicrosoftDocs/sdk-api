@@ -1,12 +1,12 @@
 ---
 UID: NF:ntmsapi.IdentifyNtmsSlot
 title: IdentifyNtmsSlot function (ntmsapi.h)
-author: windows-sdk-content
+
 description: The IdentifyNtmsSlot function identifies the media in the specified slot in a library. The command returns when the identification is complete.
 old-location: fs\identifyntmsslot.htm
 tech.root: Rsm
 ms.assetid: 8fdddce9-34fa-4223-b55e-17620db9bbfc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IdentifyNtmsSlot, IdentifyNtmsSlot function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_identifyntmsslot, base.identifyntmsslot, fs.identifyntmsslot, ntmsapi/IdentifyNtmsSlot
 ms.topic: function

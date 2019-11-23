@@ -1,12 +1,12 @@
 ---
 UID: NS:winreg.value_entA
 title: VALENTA (winreg.h)
-author: windows-sdk-content
+
 description: Contains information about a registry value. The RegQueryMultipleValues function uses this structure.
 old-location: base\valent_str.htm
 tech.root: SysInfo
 ms.assetid: 7881eea8-e4e3-48cf-ba8f-b5c23910ae7d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PVALENTA, PVALENT, PVALENT structure pointer, VALENT, VALENT structure, VALENTA, VALENTW, _win32_valent_str, base.valent_str, winreg/PVALENT, winreg/VALENT, winreg/VALENTA, winreg/VALENTW"
 ms.topic: struct

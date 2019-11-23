@@ -1,12 +1,12 @@
 ---
 UID: NF:control.IMediaControl.AddSourceFilter
 title: IMediaControl::AddSourceFilter (control.h)
-author: windows-sdk-content
+
 description: The AddSourceFilter method adds a source filter to the filter graph.
 old-location: dshow\imediacontrol_addsourcefilter.htm
 tech.root: DirectShow
 ms.assetid: b0d59a47-23a7-4e59-adfa-e01945a5d014
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddSourceFilter, AddSourceFilter method [DirectShow], AddSourceFilter method [DirectShow],IMediaControl interface, IMediaControl interface [DirectShow],AddSourceFilter method, IMediaControl.AddSourceFilter, IMediaControl::AddSourceFilter, IMediaControlAddSourceFilter, control/IMediaControl::AddSourceFilter, dshow.imediacontrol_addsourcefilter
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsInitializeMessage
 title: WsInitializeMessage function (webservices.h)
-author: windows-sdk-content
+
 description: This function initializes the headers for the message in preparation for processing.
 old-location: wsw\wsinitializemessage.htm
 tech.root: wsw
 ms.assetid: 26eafc5f-6636-4f96-a037-7935cdac5900
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsInitializeMessage, WsInitializeMessage function [Web Services for Windows], webservices/WsInitializeMessage, wsw.wsinitializemessage
 ms.topic: function

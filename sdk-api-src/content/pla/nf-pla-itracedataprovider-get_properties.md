@@ -1,12 +1,12 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_Properties
 title: ITraceDataProvider::get_Properties (pla.h)
-author: windows-sdk-content
+
 description: Retrieves the list of extended data items that Event Tracing for Windows (ETW) includes with the event.
 old-location: pla\itracedataprovider_properties.htm
 tech.root: PLA
 ms.assetid: 1dc21423-fa55-4312-b86a-63d4f59e4cf1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider interface [PLA],Properties property, ITraceDataProvider.Properties, ITraceDataProvider.get_Properties, ITraceDataProvider::Properties, ITraceDataProvider::get_Properties, Properties property [PLA], Properties property [PLA],ITraceDataProvider interface, base.itracedataprovider_properties, get_Properties, pla.itracedataprovider_properties, pla/ITraceDataProvider::Properties, pla/ITraceDataProvider::get_Properties
 ms.topic: method

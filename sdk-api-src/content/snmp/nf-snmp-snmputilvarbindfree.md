@@ -1,12 +1,12 @@
 ---
 UID: NF:snmp.SnmpUtilVarBindFree
 title: SnmpUtilVarBindFree function (snmp.h)
-author: windows-sdk-content
+
 description: The SnmpUtilVarBindFree function frees the memory allocated for an SnmpVarBind structure. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilvarbindfree.htm
 tech.root: SNMP
 ms.assetid: 6e3d0a04-34f8-4342-837d-c0d357a1d1a3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilVarBindFree, SnmpUtilVarBindFree function [SNMP], _snmp_snmputilvarbindfree, snmp.snmputilvarbindfree, snmp/SnmpUtilVarBindFree
 ms.topic: function

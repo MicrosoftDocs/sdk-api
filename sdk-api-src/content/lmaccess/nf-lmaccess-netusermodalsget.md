@@ -1,12 +1,12 @@
 ---
 UID: NF:lmaccess.NetUserModalsGet
 title: NetUserModalsGet function (lmaccess.h)
-author: windows-sdk-content
+
 description: The NetUserModalsGet function retrieves global information for all users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netusermodalsget.htm
 tech.root: NetMgmt
 ms.assetid: 5bb18144-82a6-4e9b-8321-c06a667bdd03
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetUserModalsGet, NetUserModalsGet function [Network Management], _win32_netusermodalsget, lmaccess/NetUserModalsGet, netmgmt.netusermodalsget
 ms.topic: function

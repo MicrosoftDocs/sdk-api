@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpAddSubnetElementV5
 title: DhcpAddSubnetElementV5 function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: The DhcpAddSubnetElementV5 function adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database. Windows 2000 and earlier:  This function is not available.
 old-location: dhcp\dhcpaddsubnetelementv5.htm
 tech.root: DHCP
 ms.assetid: 200fc8da-d05c-4502-9cfc-d1092c5d0417
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpAddSubnetElementV5, DhcpAddSubnetElementV5 function [DHCP], dhcp.dhcpaddsubnetelementv5, dhcpsapi/DhcpAddSubnetElementV5
 ms.topic: function

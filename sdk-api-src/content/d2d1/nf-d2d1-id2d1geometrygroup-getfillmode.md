@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1.ID2D1GeometryGroup.GetFillMode
 title: ID2D1GeometryGroup::GetFillMode (d2d1.h)
-author: windows-sdk-content
+
 description: Indicates how the intersecting areas of the geometries contained in this geometry group are combined.
 old-location: direct2d\ID2D1GeometryGroup_GetFillMode.htm
 tech.root: Direct2D
 ms.assetid: e248d28e-861b-49b9-a3f7-789604f8eedf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetFillMode, GetFillMode method [Direct2D], GetFillMode method [Direct2D],ID2D1GeometryGroup interface, ID2D1GeometryGroup interface [Direct2D],GetFillMode method, ID2D1GeometryGroup.GetFillMode, ID2D1GeometryGroup::GetFillMode, d2d1/ID2D1GeometryGroup::GetFillMode, direct2d.ID2D1GeometryGroup_GetFillMode
 ms.topic: method

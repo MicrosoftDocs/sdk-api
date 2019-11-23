@@ -1,12 +1,12 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.ProposeItem
 title: ISyncMgrSyncCallback::ProposeItem (syncmgr.h)
-author: windows-sdk-content
+
 description: Proposes the addition of a new item to the set of items previously enumerated.
 old-location: shell\ISyncMgrSyncCallback_ProposeItem.htm
 tech.root: shell
 ms.assetid: d0c73950-f80e-4831-9c56-4316561a269b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ProposeItem method, ISyncMgrSyncCallback.ProposeItem, ISyncMgrSyncCallback::ProposeItem, ProposeItem, ProposeItem method [Windows Shell], ProposeItem method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ProposeItem, shell.ISyncMgrSyncCallback_ProposeItem, syncmgr/ISyncMgrSyncCallback::ProposeItem
 ms.topic: method

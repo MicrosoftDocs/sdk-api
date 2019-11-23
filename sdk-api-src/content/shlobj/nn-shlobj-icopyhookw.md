@@ -1,12 +1,12 @@
 ---
 UID: NN:shlobj.ICopyHookW
 title: ICopyHookW
-author: windows-sdk-content
+
 description: Exposes a method that creates a copy hook handler.
 old-location: 
 tech.root: shell
 ms.assetid: c3ffa682-250f-458b-8ad5-b25871b3901b
-ms.author: windowssdkdev
+
 ms.date: 01/30/19
 ms.keywords: ICopyHookW
 ms.topic: language-reference

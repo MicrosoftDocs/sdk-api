@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdControl.ChapterPlay
 title: IDvdControl::ChapterPlay (strmif.h)
-author: windows-sdk-content
+
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Plays the media file with the specified title index and chapter value.
 old-location: dshow\idvdcontrol_chapterplay.htm
 tech.root: DirectShow
 ms.assetid: c51524d0-5935-4e14-bcaf-4739fd0f21bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ChapterPlay, ChapterPlay method [DirectShow], ChapterPlay method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ChapterPlay method, IDvdControl.ChapterPlay, IDvdControl::ChapterPlay, IDvdControlChapterPlay, dshow.idvdcontrol_chapterplay, strmif/IDvdControl::ChapterPlay
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetDictionaryResource
 title: IXpsOMCanvas::GetDictionaryResource (xpsobjectmodel.h)
-author: windows-sdk-content
+
 description: Gets a pointer to the IXpsOMRemoteDictionaryResource interface of the remote dictionary resource.
 old-location: xps\ixpsomcanvas_getdictionaryresource.htm
 tech.root: printdocs
 ms.assetid: 96fa8c03-ce00-4d10-8a88-228600fdcae7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetDictionaryResource, GetDictionaryResource method [XPS Documents and Packaging], GetDictionaryResource method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetDictionaryResource method, IXpsOMCanvas.GetDictionaryResource, IXpsOMCanvas::GetDictionaryResource, xps.ixpsomcanvas_getdictionaryresource, xpsobjectmodel/IXpsOMCanvas::GetDictionaryResource
 ms.topic: method

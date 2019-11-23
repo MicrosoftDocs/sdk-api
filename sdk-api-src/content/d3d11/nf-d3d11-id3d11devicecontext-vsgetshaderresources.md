@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSGetShaderResources
 title: ID3D11DeviceContext::VSGetShaderResources (d3d11.h)
-author: windows-sdk-content
+
 description: Get the vertex shader resources.
 old-location: direct3d11\id3d11devicecontext_vsgetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: 9b7974ea-3194-412d-8040-2d93280f77ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],VSGetShaderResources method, ID3D11DeviceContext.VSGetShaderResources, ID3D11DeviceContext::VSGetShaderResources, VSGetShaderResources, VSGetShaderResources method [Direct3D 11], VSGetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::VSGetShaderResources, direct3d11.id3d11devicecontext_vsgetshaderresources, ef920fa4-92e7-a2e3-a7a7-0b1beaa77e26
 ms.topic: method

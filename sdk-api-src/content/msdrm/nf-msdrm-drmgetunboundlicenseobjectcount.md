@@ -1,12 +1,12 @@
 ---
 UID: NF:msdrm.DRMGetUnboundLicenseObjectCount
 title: DRMGetUnboundLicenseObjectCount function (msdrm.h)
-author: windows-sdk-content
+
 description: Counts the instances of an object within a specified branch of the license.
 old-location: rm\drmgetunboundlicenseobjectcount.htm
 tech.root: AdRms_Sdk
 ms.assetid: a1c2ae7e-a0be-482d-a366-70988cbc4616
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DRMGetUnboundLicenseObjectCount, DRMGetUnboundLicenseObjectCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUnboundLicenseObjectCount, rm.drmgetunboundlicenseobjectcount
 ms.topic: function

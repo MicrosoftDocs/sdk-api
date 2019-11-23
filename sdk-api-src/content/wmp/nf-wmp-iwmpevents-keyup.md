@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPEvents.KeyUp
 title: IWMPEvents::KeyUp (wmp.h)
-author: windows-sdk-content
+
 description: The KeyUp event occurs when a key is released.
 old-location: wmp\iwmpevents_iwmpevents__keyup.htm
 tech.root: WMP
 ms.assetid: e76e11d8-6cb9-488e-b5ca-1b5b11898d4b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],KeyUp method, IWMPEvents.KeyUp, IWMPEvents::KeyUp, IWMPEventsKeyUp, KeyUp, KeyUp method [Windows Media Player], KeyUp method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keyup, wmp/IWMPEvents::KeyUp
 ms.topic: method

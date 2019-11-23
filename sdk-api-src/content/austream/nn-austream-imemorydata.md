@@ -1,12 +1,12 @@
 ---
 UID: NN:austream.IMemoryData
 title: IMemoryData (austream.h)
-author: windows-sdk-content
+
 description: Note  This interface is deprecated.
 old-location: dshow\imemorydata.htm
 tech.root: DirectShow
 ms.assetid: 0e809ae7-381c-4ada-8940-5d42bf5c03da
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMemoryData, IMemoryData interface [DirectShow], IMemoryData interface [DirectShow],described, IMemoryDataInterface, austream/IMemoryData, dshow.imemorydata
 ms.topic: interface

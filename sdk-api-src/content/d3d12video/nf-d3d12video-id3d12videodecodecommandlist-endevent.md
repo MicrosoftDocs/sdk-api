@@ -1,11 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.EndEvent
 title: ID3D12VideoDecodeCommandList::EndEvent
-author: windows-sdk-content
+
 description: For internal use only. Not intended to be called directly.
 tech.root: mf
 ms.assetid: 726e14bf-a98a-4554-8ad9-3bd931bc9fd9
-ms.author: windowssdkdev
+
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:

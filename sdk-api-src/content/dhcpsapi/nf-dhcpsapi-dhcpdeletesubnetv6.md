@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteSubnetV6
 title: DhcpDeleteSubnetV6 function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: The DhcpDeleteSubnetV6 function deletes a subnet from the DHCP server.
 old-location: dhcp\dhcpdeletesubnetv6.htm
 tech.root: DHCP
 ms.assetid: f2c10d8c-ab5f-4a61-89aa-20f2db89db36
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteSubnetV6, DhcpDeleteSubnetV6 function [DHCP], dhcp.dhcpdeletesubnetv6, dhcpsapi/DhcpDeleteSubnetV6
 ms.topic: function

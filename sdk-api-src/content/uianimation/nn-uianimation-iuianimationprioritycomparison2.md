@@ -1,12 +1,12 @@
 ---
 UID: NN:uianimation.IUIAnimationPriorityComparison2
 title: IUIAnimationPriorityComparison2 (uianimation.h)
-author: windows-sdk-content
+
 description: Defines a method that resolves scheduling conflicts through priority comparison.
 old-location: uianimation\iuianimationprioritycomparison2.htm
 tech.root: UIAnimation
 ms.assetid: B19E9BAF-A91E-4A58-A6F0-058B03153D10
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationPriorityComparison2, IUIAnimationPriorityComparison2 interface [Windows Animation], IUIAnimationPriorityComparison2 interface [Windows Animation],described, uianimation.iuianimationprioritycomparison2, uianimation/IUIAnimationPriorityComparison2
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_GET_OBJECT_ID
 title: FSCTL_GET_OBJECT_ID
-author: windows-sdk-content
+
 description: Retrieves the object identifier for the specified file or directory.
 old-location: fs\fsctl_get_object_id.htm
 tech.root: FileIO
 ms.assetid: 60eb4218-424e-4101-a012-3fde66f4f4fe
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_OBJECT_ID, FSCTL_GET_OBJECT_ID control, FSCTL_GET_OBJECT_ID control code [Files], _win32_fsctl_get_object_id, base.fsctl_get_object_id, fs.fsctl_get_object_id, winioctl/FSCTL_GET_OBJECT_ID
 ms.topic: ioctl

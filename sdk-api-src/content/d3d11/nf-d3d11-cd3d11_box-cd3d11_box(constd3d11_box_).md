@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11.CD3D11_BOX.CD3D11_BOX(const D3D11_BOX &)
 title: CD3D11_BOX::CD3D11_BOX(const D3D11_BOX &) (d3d11.h)
-author: windows-sdk-content
+
 description: Instantiates a new instance of a **CD3D11_BOX** structure that is initialized with a **CD3D11_BOX** structure.
 old-location: 
 tech.root: direct3d11
 ms.assetid: 3830A242-CC73-42DF-9324-07AADCC82785
-ms.author: windowssdkdev
+
 ms.date: 05/06/2019
 ms.keywords: CD3D11_BOX, CD3D11_BOX constructor [Direct3D 11], CD3D11_BOX constructor [Direct3D 11],CD3D11_BOX interface, CD3D11_BOX interface [Direct3D 11],CD3D11_BOX constructor, CD3D11_BOX.CD3D11_BOX, CD3D11_BOX.CD3D11_BOX(const D3D11_BOX &), CD3D11_BOX::CD3D11_BOX, CD3D11_BOX::CD3D11_BOX(), CD3D11_BOX::CD3D11_BOX(const D3D11_BOX &), d3d11/CD3D11_BOX::CD3D11_BOX, direct3d11.cd3d11_box_cd3d11_box
 ms.topic: method

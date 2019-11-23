@@ -1,12 +1,12 @@
 ---
 UID: NS:mfapi.tagMFASYNCRESULT
 title: MFASYNCRESULT (mfapi.h)
-author: windows-sdk-content
+
 description: Contains data that is needed to implement the IMFAsyncResult interface.
 old-location: mf\mfasyncresult.htm
 tech.root: medfound
 ms.assetid: fffa32d6-5e9f-42a1-9978-04f5726528bc
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFASYNCRESULT, MFASYNCRESULT structure [Media Foundation], fffa32d6-5e9f-42a1-9978-04f5726528bc, mf.mfasyncresult, mfapi/MFASYNCRESULT
 ms.topic: struct

@@ -3,7 +3,7 @@ UID: NF:gdiplusheaders.Bitmap.ApplyEffect(Effect,RECT)
 title: Bitmap::ApplyEffect
 description: The Bitmap::ApplyEffect method alters this Bitmap object by applying a specified effect.
 ms.assetid: fff2c151-92df-477e-aafd-6aaca27df414
-ms.author: windowssdkdev
+
 ms.date: 05/20/2019
 ms.keywords: Bitmap::ApplyEffect
 ms.topic: language-reference

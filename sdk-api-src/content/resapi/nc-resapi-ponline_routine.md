@@ -1,12 +1,12 @@
 ---
 UID: NC:resapi.PONLINE_ROUTINE
 title: PONLINE_ROUTINE (resapi.h)
-author: windows-sdk-content
+
 description: Marks a resource as available for use.
 old-location: mscs\online.htm
 tech.root: MsCS
 ms.assetid: b406ef44-0622-4625-a6cf-462b6ea6018d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Online, Online callback, Online callback function [Failover Cluster], PONLINE_ROUTINE, PONLINE_ROUTINE callback function [Failover Cluster], _wolf_online, mscs.online, resapi/Online, resapi/PONLINE_ROUTINE
 ms.topic: callback

@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_ImportedVolumeName
 title: IFileSystemImage::get_ImportedVolumeName (imapi2fs.h)
-author: windows-sdk-content
+
 description: Retrieves the volume name provided from an imported file system.
 old-location: imapi\ifilesystemimage_get_importedvolumename.htm
 tech.root: imapi
 ms.assetid: 57d66dd3-2525-4102-bba7-00bad76a3d9c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_ImportedVolumeName method, IFileSystemImage.get_ImportedVolumeName, IFileSystemImage::get_ImportedVolumeName, get_ImportedVolumeName, get_ImportedVolumeName method [IMAPI], get_ImportedVolumeName method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_importedvolumename, imapi2fs/IFileSystemImage::get_ImportedVolumeName
 ms.topic: method

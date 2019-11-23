@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d10.ID3D10Resource
 title: ID3D10Resource (d3d10.h)
-author: windows-sdk-content
+
 description: A resource interface provides common actions on all resources.
 old-location: direct3d10\id3d10resource.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10resource.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ID3D10Resource, ID3D10Resource interface [Direct3D 10], ID3D10Resource interface [Direct3D 10],described, a827797e-b4b8-c82b-c567-463061c6d963, d3d10/ID3D10Resource, direct3d10.id3d10resource
 ms.topic: interface

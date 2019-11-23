@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IRunningObjectTable.IsRunning
 title: IRunningObjectTable::IsRunning (objidl.h)
-author: windows-sdk-content
+
 description: Determines whether the object identified by the specified moniker is currently running.
 old-location: com\irunningobjecttable_isrunning.htm
 tech.root: com
 ms.assetid: 44564e70-b157-4f60-9b51-337613f6a4c9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable interface [COM],IsRunning method, IRunningObjectTable.IsRunning, IRunningObjectTable::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IRunningObjectTable interface, _com_irunningobjecttable_isrunning, com.irunningobjecttable_isrunning, objidl/IRunningObjectTable::IsRunning
 ms.topic: method

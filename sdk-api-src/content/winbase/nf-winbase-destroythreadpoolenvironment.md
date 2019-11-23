@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.DestroyThreadpoolEnvironment
 title: DestroyThreadpoolEnvironment function (winbase.h)
-author: windows-sdk-content
+
 description: Deletes the specified callback environment. Call this function when the callback environment is no longer needed for creating new thread pool objects.
 old-location: base\destroythreadpoolenvironment.htm
 tech.root: ProcThread
 ms.assetid: b6a635f3-a603-4c2f-9aa9-1baa51922394
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DestroyThreadpoolEnvironment, DestroyThreadpoolEnvironment function, base.destroythreadpoolenvironment, winbase/DestroyThreadpoolEnvironment
 ms.topic: function

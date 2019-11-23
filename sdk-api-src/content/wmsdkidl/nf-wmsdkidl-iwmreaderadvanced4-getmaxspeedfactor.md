@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.GetMaxSpeedFactor
 title: IWMReaderAdvanced4::GetMaxSpeedFactor (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The GetMaxSpeedFactor method retrieves the maximum playback rate that can be delivered by the source. For network content, this value reflects the available bandwidth relative to the maximum bit rate of the content.
 old-location: wmformat\iwmreaderadvanced4_getmaxspeedfactor.htm
 tech.root: wmformat
 ms.assetid: 5617304f-30ed-4072-a0d7-28463ef90a10
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetMaxSpeedFactor, GetMaxSpeedFactor method [windows Media Format], GetMaxSpeedFactor method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetMaxSpeedFactor method, IWMReaderAdvanced4.GetMaxSpeedFactor, IWMReaderAdvanced4::GetMaxSpeedFactor, IWMReaderAdvanced4GetMaxSpeedFactor, wmformat.iwmreaderadvanced4_getmaxspeedfactor, wmsdkidl/IWMReaderAdvanced4::GetMaxSpeedFactor
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_MultisessionInterfaces
 title: IFileSystemImage::get_MultisessionInterfaces (imapi2fs.h)
-author: windows-sdk-content
+
 description: Retrieves the list of multi-session interfaces for the optical media.
 old-location: imapi\ifilesystemimage_get_multisessioninterfaces.htm
 tech.root: imapi
 ms.assetid: 10c0b02e-965e-47ca-95f4-237c21b505ad
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_MultisessionInterfaces method, IFileSystemImage.get_MultisessionInterfaces, IFileSystemImage::get_MultisessionInterfaces, get_MultisessionInterfaces, get_MultisessionInterfaces method [IMAPI], get_MultisessionInterfaces method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_multisessioninterfaces, imapi2fs/IFileSystemImage::get_MultisessionInterfaces
 ms.topic: method

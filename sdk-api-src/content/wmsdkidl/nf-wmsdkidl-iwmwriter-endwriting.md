@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.EndWriting
 title: IWMWriter::EndWriting (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The EndWriting method performs tasks required at the end of a writing session.
 old-location: wmformat\iwmwriter_endwriting.htm
 tech.root: wmformat
 ms.assetid: 020e2c9d-9581-48c9-bc7b-a0e9e5a60c63
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EndWriting, EndWriting method [windows Media Format], EndWriting method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],EndWriting method, IWMWriter.EndWriting, IWMWriter::EndWriting, IWMWriterEndWriting, wmformat.iwmwriter_endwriting, wmsdkidl/IWMWriter::EndWriting
 ms.topic: method

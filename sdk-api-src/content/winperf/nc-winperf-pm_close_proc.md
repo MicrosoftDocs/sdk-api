@@ -1,12 +1,12 @@
 ---
 UID: NC:winperf.PM_CLOSE_PROC
 title: PM_CLOSE_PROC (winperf.h)
-author: windows-sdk-content
+
 description: Performs the cleanup required by your performance DLL.
 old-location: perf\closeperformancedata.htm
 tech.root: perfctrs
 ms.assetid: fb97f68d-4992-4969-9b6b-ace26dcd3155
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ClosePerformanceData, ClosePerformanceData callback function [Perf], PM_CLOSE_PROC, PM_CLOSE_PROC callback, base.closeperformancedata, perf.closeperformancedata, winperf/ClosePerformanceData
 ms.topic: callback

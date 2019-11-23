@@ -1,12 +1,12 @@
 ---
 UID: NS:mmc._RDCOMPARE
 title: RDCOMPARE (mmc.h)
-author: windows-sdk-content
+
 description: The RDCOMPARE structure is introduced in MMC 1.2.
 old-location: mmc\rdcompare.htm
 tech.root: mmc
 ms.assetid: 78f0648b-1d1b-4786-89fa-ef51b7743a2d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: RDCOMPARE, RDCOMPARE structure [MMC], _slate_rdcompare, mmc.rdcompare, mmc/RDCOMPARE
 ms.topic: struct

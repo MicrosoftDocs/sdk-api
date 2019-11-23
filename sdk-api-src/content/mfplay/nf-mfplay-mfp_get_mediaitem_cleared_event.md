@@ -1,12 +1,12 @@
 ---
 UID: NF:mfplay.MFP_GET_MEDIAITEM_CLEARED_EVENT
 title: MFP_GET_MEDIAITEM_CLEARED_EVENT macro (mfplay.h)
-author: windows-sdk-content
+
 description: Casts an MFP_EVENT_HEADER pointer to an MEDIAITEM_CLEARED_EVENT pointer.
 old-location: mf\mfp_get_mediaitem_cleared_event.htm
 tech.root: medfound
 ms.assetid: 1e3c0882-2a8a-4fe9-9f05-5a343acea456
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_MEDIAITEM_CLEARED_EVENT, MFP_GET_MEDIAITEM_CLEARED_EVENT macro [Media Foundation], mf.mfp_get_mediaitem_cleared_event, mfplay/MFP_GET_MEDIAITEM_CLEARED_EVENT
 ms.topic: macro

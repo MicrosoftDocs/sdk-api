@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetAutomationObject
 title: IShellFolderView::SetAutomationObject (shlobj_core.h)
-author: windows-sdk-content
+
 description: Replaces the internal automation object of the IShellView.
 old-location: shell\IShellFolderView_SetAutomationObject.htm
 tech.root: shell
 ms.assetid: 742b0d93-5cdf-4498-80c2-2d33359f146f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetAutomationObject method, IShellFolderView.SetAutomationObject, IShellFolderView::SetAutomationObject, SetAutomationObject, SetAutomationObject method [Windows Shell], SetAutomationObject method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetAutomationObject, shell.IShellFolderView_SetAutomationObject, shlobj_core/IShellFolderView::SetAutomationObject
 ms.topic: method

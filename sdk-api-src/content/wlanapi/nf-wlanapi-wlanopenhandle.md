@@ -1,12 +1,12 @@
 ---
 UID: NF:wlanapi.WlanOpenHandle
 title: WlanOpenHandle function (wlanapi.h)
-author: windows-sdk-content
+
 description: Opens a connection to the server.
 old-location: nwifi\wlanopenhandle.htm
 tech.root: NativeWiFi
 ms.assetid: 27bfa0c1-4443-47a4-a374-326f553fa3bb
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WlanOpenHandle, WlanOpenHandle function [NativeWIFI], nwifi.wlanopenhandle, wlanapi/WlanOpenHandle
 ms.topic: function

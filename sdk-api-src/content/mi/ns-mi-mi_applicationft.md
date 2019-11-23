@@ -1,12 +1,12 @@
 ---
 UID: NS:mi._MI_ApplicationFT
 title: MI_ApplicationFT (mi.h)
-author: windows-sdk-content
+
 description: A support structure used in the MI_Application structure. Use the functions with the name prefix &#0034;MI_Application_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_applicationft.htm
 tech.root: wmi_v2
 ms.assetid: 0c7d3902-a180-4d71-a223-8f8a68bc9d0b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MI_ApplicationFT, MI_ApplicationFT structure [Windows Management Infrastructure (MI)], mi/MI_ApplicationFT, wmi_v2.mi_applicationft
 ms.topic: struct

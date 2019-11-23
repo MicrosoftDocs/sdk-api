@@ -1,7 +1,7 @@
 ---
 UID: NA:natupnp
 ms.assetid: ae744464-3199-3f47-8a25-33051e201798
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

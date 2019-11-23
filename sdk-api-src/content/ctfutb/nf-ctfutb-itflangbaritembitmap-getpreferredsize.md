@@ -1,12 +1,12 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmap.GetPreferredSize
 title: ITfLangBarItemBitmap::GetPreferredSize (ctfutb.h)
-author: windows-sdk-content
+
 description: ITfLangBarItemBitmap::GetPreferredSize method
 old-location: tsf\itflangbaritembitmap_getpreferredsize.htm
 tech.root: TSF
 ms.assetid: 4dd173de-6b54-4d03-b458-0dd5186d1d83
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetPreferredSize, GetPreferredSize method [Text Services Framework], GetPreferredSize method [Text Services Framework],ITfLangBarItemBitmap interface, ITfLangBarItemBitmap interface [Text Services Framework],GetPreferredSize method, ITfLangBarItemBitmap.GetPreferredSize, ITfLangBarItemBitmap::GetPreferredSize, _tsf_itflangbaritembitmap_getpreferredsize_ref, ctfutb/ITfLangBarItemBitmap::GetPreferredSize, tsf.itflangbaritembitmap_getpreferredsize
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoCollection.Count
 title: IComTrackingInfoCollection::Count (comsvcs.h)
-author: windows-sdk-content
+
 description: Retrieves the number of objects in a tracking information collection.
 old-location: cos\icomtrackinginfocollection_count.htm
 tech.root: cossdk
 ms.assetid: 72578a4e-bc23-4bc8-ab40-346ba9c5a6d7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [COM+], Count method [COM+],IComTrackingInfoCollection interface, IComTrackingInfoCollection interface [COM+],Count method, IComTrackingInfoCollection.Count, IComTrackingInfoCollection::Count, _dtc_IComTrackingInfoCollection_Count, comsvcs/IComTrackingInfoCollection::Count, cos.icomtrackinginfocollection_count
 ms.topic: method

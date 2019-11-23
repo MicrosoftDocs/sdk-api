@@ -1,12 +1,12 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.IsApproved
 title: IWMRegisteredDevice::IsApproved (wmsdkidl.h)
-author: windows-sdk-content
+
 description: The IsApproved method retrieves the approval status of the device. Approved devices are able to receive and play media data.
 old-location: wmformat\iwmregistereddevice_isapproved.htm
 tech.root: wmformat
 ms.assetid: ab90468e-743f-4367-a49b-d494bf9be28f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsApproved method, IWMRegisteredDevice.IsApproved, IWMRegisteredDevice::IsApproved, IWMRegisteredDeviceIsApproved, IsApproved, IsApproved method [windows Media Format], IsApproved method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_isapproved, wmsdkidl/IWMRegisteredDevice::IsApproved
 ms.topic: method

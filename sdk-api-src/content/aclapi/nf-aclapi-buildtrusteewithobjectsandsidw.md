@@ -1,12 +1,12 @@
 ---
 UID: NF:aclapi.BuildTrusteeWithObjectsAndSidW
 title: BuildTrusteeWithObjectsAndSidW function (aclapi.h)
-author: windows-sdk-content
+
 description: Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values.
 old-location: security\buildtrusteewithobjectsandsid.htm
 tech.root: SecAuthZ
 ms.assetid: e940a87f-013e-458c-bdc1-9e81c7d905e0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BuildTrusteeWithObjectsAndSid, BuildTrusteeWithObjectsAndSid function [Security], BuildTrusteeWithObjectsAndSidA, BuildTrusteeWithObjectsAndSidW, _win32_buildtrusteewithobjectsandsid, aclapi/BuildTrusteeWithObjectsAndSid, aclapi/BuildTrusteeWithObjectsAndSidA, aclapi/BuildTrusteeWithObjectsAndSidW, security.buildtrusteewithobjectsandsid
 ms.topic: function

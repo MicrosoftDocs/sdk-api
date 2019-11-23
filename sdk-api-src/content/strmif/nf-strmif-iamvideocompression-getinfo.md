@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMVideoCompression.GetInfo
 title: IAMVideoCompression::GetInfo (strmif.h)
-author: windows-sdk-content
+
 description: The GetInfo method retrieves information about the filter's compression properties, including capabilities and default values.
 old-location: dshow\iamvideocompression_getinfo.htm
 tech.root: DirectShow
 ms.assetid: d8ba2ba2-510a-4fb8-844e-48059ec4ef0d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IAMVideoCompression interface, IAMVideoCompression interface [DirectShow],GetInfo method, IAMVideoCompression.GetInfo, IAMVideoCompression::GetInfo, IAMVideoCompressionGetInfo, dshow.iamvideocompression_getinfo, strmif/IAMVideoCompression::GetInfo
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.MCIWndSetTimeFormat
 title: MCIWndSetTimeFormat macro (vfw.h)
-author: windows-sdk-content
+
 description: The MCIWndSetTimeFormat macro sets the time format of an MCI device. You can use this macro or explicitly send the MCIWNDM_SETTIMEFORMAT message.
 old-location: multimedia\mciwndsettimeformat.htm
 tech.root: Multimedia
 ms.assetid: dcf70d76-6f53-4e05-ab05-3f9136294d7a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetTimeFormat, MCIWndSetTimeFormat macro [Windows Multimedia], _win32_MCIWndSetTimeFormat, multimedia.mciwndsettimeformat, vfw/MCIWndSetTimeFormat
 ms.topic: macro

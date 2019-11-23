@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10shader.D3D10GetGeometryShaderProfile
 title: D3D10GetGeometryShaderProfile function (d3d10shader.h)
-author: windows-sdk-content
+
 description: Get the geometry shader profile best suited to a given device.
 old-location: direct3d10\d3d10getgeometryshaderprofile.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10getgeometryshaderprofile.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D10GetGeometryShaderProfile, D3D10GetGeometryShaderProfile function [Direct3D 10], ba175c86-099a-e747-2120-b83c9b421a82, d3d10shader/D3D10GetGeometryShaderProfile, direct3d10.d3d10getgeometryshaderprofile
 ms.topic: function

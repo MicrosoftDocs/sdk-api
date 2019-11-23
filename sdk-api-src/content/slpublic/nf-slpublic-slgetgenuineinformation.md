@@ -1,12 +1,12 @@
 ---
 UID: NF:slpublic.SLGetGenuineInformation
 title: SLGetGenuineInformation function (slpublic.h)
-author: windows-sdk-content
+
 description: Gets information about the genuine state of a Windows computer.
 old-location: security\slgetgenuineinformation.htm
 tech.root: SecSLApi
 ms.assetid: 8dcc6ef1-1839-49c6-8119-1e3a8135fce2
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SLGetGenuineInformation, SLGetGenuineInformation function [Security], SL_BRT_COMMIT, SL_BRT_DATA, SL_GENUINE_RESULT, SL_NONGENUINE_GRACE_FLAG, security.slgetgenuineinformation, slpublic/SLGetGenuineInformation
 ms.topic: function

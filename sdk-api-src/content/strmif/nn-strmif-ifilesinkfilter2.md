@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IFileSinkFilter2
 title: IFileSinkFilter2 (strmif.h)
-author: windows-sdk-content
+
 description: The IFileSinkFilter2 interface extends the IFileSinkFilter interface.
 old-location: dshow\ifilesinkfilter2.htm
 tech.root: DirectShow
 ms.assetid: 1339c441-2b10-461f-87f3-4835c1692740
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IFileSinkFilter2, IFileSinkFilter2 interface [DirectShow], IFileSinkFilter2 interface [DirectShow],described, IFileSinkFilter2Interface, dshow.ifilesinkfilter2, strmif/IFileSinkFilter2
 ms.topic: interface

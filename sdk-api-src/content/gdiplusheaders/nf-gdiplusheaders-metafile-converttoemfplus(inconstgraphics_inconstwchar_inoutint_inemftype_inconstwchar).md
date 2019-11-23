@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusheaders.Metafile.ConvertToEmfPlus(IN const Graphics,IN const WCHAR,IN OUT INT,IN EmfType,IN const WCHAR)
 title: Metafile::ConvertToEmfPlus(IN const Graphics,IN const WCHAR,IN OUT INT,IN EmfType,IN const WCHAR) (gdiplusheaders.h)
-author: windows-sdk-content
+
 description: The Metafile::ConvertToEmfPlus method converts this Metafile object to the EMF+ format.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_WCHAR_filename_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafileconverttoemfplusmethods\converttoemfplus_graphicsrefgraphics_wcharfilename.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ConvertToEmfPlus, ConvertToEmfPlus method [GDI+], ConvertToEmfPlus method [GDI+],Metafile class, Metafile class [GDI+],ConvertToEmfPlus method, Metafile.ConvertToEmfPlus, Metafile.ConvertToEmfPlus(IN const Graphics,IN const WCHAR,IN OUT INT,IN EmfType,IN const WCHAR), Metafile::ConvertToEmfPlus, Metafile::ConvertToEmfPlus(IN const Graphics,IN const WCHAR,IN OUT INT,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_WCHAR_filename_, gdiplus._gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_WCHAR_filename_
 ms.topic: method

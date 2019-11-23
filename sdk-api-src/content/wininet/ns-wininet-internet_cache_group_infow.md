@@ -1,12 +1,12 @@
 ---
 UID: NS:wininet._INTERNET_CACHE_GROUP_INFOW
 title: INTERNET_CACHE_GROUP_INFOW (wininet.h)
-author: windows-sdk-content
+
 description: Contains the information for a particular cache group.
 old-location: wininet\internet_cache_group_info.htm
 tech.root: wininet
 ms.assetid: d1c30fee-b8a3-472d-91a5-9d081f66b007
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*LPINTERNET_CACHE_GROUP_INFOW, INTERNET_CACHE_GROUP_INFO, INTERNET_CACHE_GROUP_INFO structure [WinINet], INTERNET_CACHE_GROUP_INFOA, INTERNET_CACHE_GROUP_INFOW, LPINTERNET_CACHE_GROUP_INFO, LPINTERNET_CACHE_GROUP_INFO structure pointer [WinINet], _inet_internet_cache_group_info_structure, wininet.internet_cache_group_info, wininet/INTERNET_CACHE_GROUP_INFO, wininet/INTERNET_CACHE_GROUP_INFOA, wininet/INTERNET_CACHE_GROUP_INFOW, wininet/LPINTERNET_CACHE_GROUP_INFO"
 ms.topic: struct

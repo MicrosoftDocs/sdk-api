@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.IMaintenanceSettings.get_Deadline
 title: IMaintenanceSettings::get_Deadline (taskschd.h)
-author: windows-sdk-content
+
 description: Gets or sets the amount of time after which the Task scheduler attempts to run the task during emergency Automatic maintenance, if the task failed to complete during regular Automatic maintenance.
 old-location: taskschd\imaintenancesettings_deadline.htm
 tech.root: taskschd
 ms.assetid: 1F0B77C8-82BA-4A7B-A411-CFEFDC9B4CE5
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: Deadline property [Task Scheduler], Deadline property [Task Scheduler],IMaintenanceSettings interface, IMaintenanceSettings interface [Task Scheduler],Deadline property, IMaintenanceSettings.Deadline, IMaintenanceSettings.get_Deadline, IMaintenanceSettings::Deadline, IMaintenanceSettings::get_Deadline, IMaintenanceSettings::put_Deadline, get_Deadline, taskschd.imaintenancesettings_deadline, taskschd/IMaintenanceSettings::Deadline, taskschd/IMaintenanceSettings::get_Deadline, taskschd/IMaintenanceSettings::put_Deadline
 ms.topic: method

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IDvdInfo.GetAudioLanguage
 title: IDvdInfo::GetAudioLanguage (strmif.h)
-author: windows-sdk-content
+
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the language of the specified audio stream within the current title.
 old-location: dshow\idvdinfo_getaudiolanguage.htm
 tech.root: DirectShow
 ms.assetid: 7bb75657-d22e-47db-9389-99b51b16ca80
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAudioLanguage, GetAudioLanguage method [DirectShow], GetAudioLanguage method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetAudioLanguage method, IDvdInfo.GetAudioLanguage, IDvdInfo::GetAudioLanguage, IDvdInfoGetAudioLanguage, dshow.idvdinfo_getaudiolanguage, strmif/IDvdInfo::GetAudioLanguage
 ms.topic: method

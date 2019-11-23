@@ -1,12 +1,12 @@
 ---
 UID: NF:infotech.IITPropList.SetPersist(BOOL)
 title: IITPropList::SetPersist(BOOL) (infotech.h)
-author: windows-sdk-content
+
 description: Sets the persistence state on or off for all properties.
 old-location: htmlhelp\iitproplist_setpersist2.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsetpersist.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],SetPersist method, IITPropList.SetPersist, IITPropList.SetPersist(BOOL), IITPropList::SetPersist, IITPropList::SetPersist(BOOL), SetPersist, SetPersist method [HTML Help Workshop], SetPersist method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_setpersist2, infotech/IITPropList::SetPersist, refIITPropListSetPersist
 ms.topic: method

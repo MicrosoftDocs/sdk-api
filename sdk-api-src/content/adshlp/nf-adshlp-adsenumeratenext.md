@@ -1,12 +1,12 @@
 ---
 UID: NF:adshlp.ADsEnumerateNext
 title: ADsEnumerateNext function (adshlp.h)
-author: windows-sdk-content
+
 description: The ADsEnumerateNext function enumerates through a specified number of elements from the current cursor position of the enumerator.
 old-location: adsi\adsenumeratenext.htm
 tech.root: adsi
 ms.assetid: 9bfc98a5-f4f0-4127-89c9-b8ed01bfde4e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ADsEnumerateNext, ADsEnumerateNext function [ADSI], _ds_adsenumeratenext, adshlp/ADsEnumerateNext, adsi.adsenumeratenext
 ms.topic: function

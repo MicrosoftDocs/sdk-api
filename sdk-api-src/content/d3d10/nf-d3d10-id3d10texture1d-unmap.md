@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d10.ID3D10Texture1D.Unmap
 title: ID3D10Texture1D::Unmap (d3d10.h)
-author: windows-sdk-content
+
 description: Invalidate the pointer to a resource that was retrieved by ID3D10Texture1D::Map, and re-enable the GPU's access to that resource.
 old-location: direct3d10\id3d10texture1d_unmap.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture1d_unmap.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 19252c0c-8539-ab86-d402-c4d9d235f30e, ID3D10Texture1D interface [Direct3D 10],Unmap method, ID3D10Texture1D.Unmap, ID3D10Texture1D::Unmap, Unmap, Unmap method [Direct3D 10], Unmap method [Direct3D 10],ID3D10Texture1D interface, d3d10/ID3D10Texture1D::Unmap, direct3d10.id3d10texture1d_unmap
 ms.topic: method

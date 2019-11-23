@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.DlgDirSelectExA
 title: DlgDirSelectExA function (winuser.h)
-author: windows-sdk-content
+
 description: Retrieves the current selection from a single-selection list box. It assumes that the list box has been filled by the DlgDirList function and that the selection is a drive letter, filename, or directory name.
 old-location: controls\DlgDirSelectEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\dlgdirselectex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DlgDirSelectEx, DlgDirSelectEx function [Windows Controls], DlgDirSelectExA, DlgDirSelectExW, _win32_DlgDirSelectEx, _win32_DlgDirSelectEx_cpp, controls.DlgDirSelectEx, controls._win32_DlgDirSelectEx, winuser/DlgDirSelectEx, winuser/DlgDirSelectExA, winuser/DlgDirSelectExW
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:wmp.IWMPCore.get_openState
 title: IWMPCore::get_openState (wmp.h)
-author: windows-sdk-content
+
 description: The get_openState method retrieves an enumeration value indicating the state of the content source.
 old-location: wmp\iwmpcore_get_openstate.htm
 tech.root: WMP
 ms.assetid: 66c7e52a-d7b4-4c37-a863-fb42f5415c0a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_openState method, IWMPCore.get_openState, IWMPCore::get_openState, IWMPCoreget_openState, get_openState, get_openState method [Windows Media Player], get_openState method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_openstate, wmp/IWMPCore::get_openState
 ms.topic: method

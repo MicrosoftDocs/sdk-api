@@ -1,7 +1,7 @@
 ---
 UID: NA:bcrypt
 ms.assetid: 33473f2e-8390-3a76-961e-16c6167959ef
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

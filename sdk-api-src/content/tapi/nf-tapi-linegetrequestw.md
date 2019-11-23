@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetRequestW
 title: lineGetRequestW function (tapi.h)
-author: windows-sdk-content
+
 description: Retrieves the next by-proxy request for the specified request mode.
 old-location: tapi2\linegetrequest.htm
 tech.root: Tapi
 ms.assetid: c72ed61f-abbe-4a6d-9f8d-95afbd5dfb04
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetrequest, lineGetRequest, lineGetRequest function [TAPI 2.2], lineGetRequestA, lineGetRequestW, tapi/lineGetRequest, tapi/lineGetRequestA, tapi/lineGetRequestW, tapi2.linegetrequest"
 ms.topic: function

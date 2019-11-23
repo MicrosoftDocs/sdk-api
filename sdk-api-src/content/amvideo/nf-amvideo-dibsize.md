@@ -1,12 +1,12 @@
 ---
 UID: NF:amvideo.DIBSIZE
 title: DIBSIZE macro (amvideo.h)
-author: windows-sdk-content
+
 description: The DIBSIZE macro calculates the number of bytes required by a device-independent bitmap (DIB).
 old-location: dshow\dibsize.htm
 tech.root: DirectShow
 ms.assetid: a1feaa57-f403-46d0-b9a4-56e94ff2ceee
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DIBSIZE, DIBSIZE macro [DirectShow], amvideo/DIBSIZE, dshow.dibsize
 ms.topic: macro

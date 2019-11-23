@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzOperation.get_Writable
 title: IAzOperation::get_Writable (azroles.h)
-author: windows-sdk-content
+
 description: Retrieves a value that indicates whether the operation can be modified by the user context that initialized it.
 old-location: security\iazoperation_writable.htm
 tech.root: SecAuthZ
 ms.assetid: 16745237-23d9-4818-b8f8-de93405ae9ac
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AzOperation object [Security],Writable property, IAzOperation interface [Security],Writable property, IAzOperation.Writable, IAzOperation.get_Writable, IAzOperation::Writable, IAzOperation::get_Writable, Writable property [Security], Writable property [Security],AzOperation object, Writable property [Security],IAzOperation interface, azroles/IAzOperation::Writable, azroles/IAzOperation::get_Writable, get_Writable, security.iazoperation_writable
 ms.topic: method

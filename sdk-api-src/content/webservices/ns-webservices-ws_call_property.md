@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_CALL_PROPERTY
 title: WS_CALL_PROPERTY (webservices.h)
-author: windows-sdk-content
+
 description: Specifies a proxy property.
 old-location: wsw\ws_call_property.htm
 tech.root: wsw
 ms.assetid: 2ab778b2-c6d0-41ea-aa3a-a6c16c87a9e9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_CALL_PROPERTY, WS_CALL_PROPERTY structure [Web Services for Windows], webservices/WS_CALL_PROPERTY, wsw.ws_call_property
 ms.topic: struct

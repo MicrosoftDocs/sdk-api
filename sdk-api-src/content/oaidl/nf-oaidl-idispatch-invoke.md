@@ -1,12 +1,12 @@
 ---
 UID: NF:oaidl.IDispatch.Invoke
 title: IDispatch::Invoke (oaidl.h)
-author: windows-sdk-content
+
 description: Provides access to properties and methods exposed by an object.
 old-location: automat\idispatch_invoke.htm
 tech.root: automat
 ms.assetid: 964ade8e-9d8a-4d32-bd47-aa678912a54d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IDispatch interface [Automation],Invoke method, IDispatch.Invoke, IDispatch::Invoke, Invoke, Invoke method [Automation], Invoke method [Automation],IDispatch interface, _oa96_IDispatch::Invoke, automat.idispatch_invoke, oaidl/IDispatch::Invoke
 ms.topic: method

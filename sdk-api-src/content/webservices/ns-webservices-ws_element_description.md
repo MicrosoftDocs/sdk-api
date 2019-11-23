@@ -1,12 +1,12 @@
 ---
 UID: NS:webservices._WS_ELEMENT_DESCRIPTION
 title: WS_ELEMENT_DESCRIPTION (webservices.h)
-author: windows-sdk-content
+
 description: Represents a mapping between a C data type and an XML element.
 old-location: wsw\ws_element_description.htm
 tech.root: wsw
 ms.assetid: 17035b64-9b2c-40d3-bdce-45e9b132e9f1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WS_ELEMENT_DESCRIPTION, WS_ELEMENT_DESCRIPTION structure [Web Services for Windows], webservices/WS_ELEMENT_DESCRIPTION, wsw.ws_element_description
 ms.topic: struct

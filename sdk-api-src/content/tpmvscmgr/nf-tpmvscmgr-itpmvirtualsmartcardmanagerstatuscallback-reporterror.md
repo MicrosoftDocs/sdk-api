@@ -1,12 +1,12 @@
 ---
 UID: NF:tpmvscmgr.ITpmVirtualSmartCardManagerStatusCallback.ReportError
 title: ITpmVirtualSmartCardManagerStatusCallback::ReportError (tpmvscmgr.h)
-author: windows-sdk-content
+
 description: Reports any errors from the requested operation.
 old-location: security\itpmvirtualsmartcardmanagerstatuscallback_reporterror.htm
 tech.root: SecAuthN
 ms.assetid: 936F22EA-1C9F-4328-B71F-FA7720396F6F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITpmVirtualSmartCardManagerStatusCallback interface [Security],ReportError method, ITpmVirtualSmartCardManagerStatusCallback.ReportError, ITpmVirtualSmartCardManagerStatusCallback::ReportError, ReportError, ReportError method [Security], ReportError method [Security],ITpmVirtualSmartCardManagerStatusCallback interface, security.itpmvirtualsmartcardmanagerstatuscallback_reporterror, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportError
 ms.topic: method

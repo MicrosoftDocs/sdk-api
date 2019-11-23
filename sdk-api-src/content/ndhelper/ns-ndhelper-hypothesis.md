@@ -1,12 +1,12 @@
 ---
 UID: NS:ndhelper.tagHYPOTHESIS
 title: HYPOTHESIS (ndhelper.h)
-author: windows-sdk-content
+
 description: The HYPOTHESIS structure contains data used to submit a hypothesis to NDF for another helper class.
 old-location: ndf\hypothesis.htm
 tech.root: NDF
 ms.assetid: 8f137633-8501-404c-9540-d558be9beeca
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "*PHYPOTHESIS, HYPOTHESIS, HYPOTHESIS structure [NDF], HYPOTHESIS,*PHYPOTHESIS, HYPOTHESIS,*PHYPOTHESIS structure [NDF], ndf.hypothesis, ndhelper/HYPOTHESIS"
 ms.topic: struct

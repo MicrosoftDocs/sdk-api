@@ -1,12 +1,12 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Pause
 title: IMSVidCtl::Pause (msvidctl.h)
-author: windows-sdk-content
+
 description: The Pause method pauses the filter graph.
 old-location: mstv\imsvidctl_pause.htm
 tech.root: mstv
 ms.assetid: fd7687d8-325f-4a51-ab57-ffcc45a9157b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Pause method, IMSVidCtl.Pause, IMSVidCtl::Pause, IMSVidCtlPause, Pause, Pause method [Microsoft TV Technologies], Pause method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_pause, msvidctl/IMSVidCtl::Pause
 ms.topic: method

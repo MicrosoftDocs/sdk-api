@@ -1,12 +1,12 @@
 ---
 UID: NS:wintrust._CRYPT_REGISTER_ACTIONID
 title: CRYPT_REGISTER_ACTIONID (wintrust.h)
-author: windows-sdk-content
+
 description: Provides information about the functions of a provider.
 old-location: security\crypt_register_actionid.htm
 tech.root: SecCrypto
 ms.assetid: 0b2b482f-f087-4be7-b17f-91c287c3460d
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_REGISTER_ACTIONID, CRYPT_REGISTER_ACTIONID, CRYPT_REGISTER_ACTIONID structure [Security], PCRYPT_REGISTER_ACTIONID, PCRYPT_REGISTER_ACTIONID structure pointer [Security], security.crypt_register_actionid, wintrust/CRYPT_REGISTER_ACTIONID, wintrust/PCRYPT_REGISTER_ACTIONID'
 ms.topic: struct

@@ -1,12 +1,12 @@
 ---
 UID: NF:vidcap.IKsNodeControl.put_KsControl
 title: IKsNodeControl::put_KsControl (vidcap.h)
-author: windows-sdk-content
+
 description: Provides an instance of the IKsControl interface to the extension unit.
 old-location: dshow\iksnodecontrol_put_kscontrol.htm
 tech.root: DirectShow
 ms.assetid: 145967fc-3124-4e3b-b1ce-a381ea97cb89
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IKsNodeControl interface [DirectShow],put_KsControl method, IKsNodeControl.put_KsControl, IKsNodeControl::put_KsControl, IKsNodeControlput_KsControl, dshow.iksnodecontrol_put_kscontrol, put_KsControl, put_KsControl method [DirectShow], put_KsControl method [DirectShow],IKsNodeControl interface, vidcap/IKsNodeControl::put_KsControl
 ms.topic: method

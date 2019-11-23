@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.ReportEventA
 title: ReportEventA function (winbase.h)
-author: windows-sdk-content
+
 description: Writes an entry at the end of the specified event log.
 old-location: base\reportevent.htm
 tech.root: EventLog
 ms.assetid: e39273c3-9e42-41a1-9ec1-1cdff2ab7b55
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EVENTLOG_AUDIT_FAILURE, EVENTLOG_AUDIT_SUCCESS, EVENTLOG_ERROR_TYPE, EVENTLOG_INFORMATION_TYPE, EVENTLOG_SUCCESS, EVENTLOG_WARNING_TYPE, ReportEvent, ReportEvent function, ReportEventA, ReportEventW, _win32_reportevent, base.reportevent, winbase/ReportEvent, winbase/ReportEventA, winbase/ReportEventW
 ms.topic: function

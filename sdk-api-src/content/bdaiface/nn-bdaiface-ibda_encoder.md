@@ -1,12 +1,12 @@
 ---
 UID: NN:bdaiface.IBDA_Encoder
 title: IBDA_Encoder (bdaiface.h)
-author: windows-sdk-content
+
 description: Provides access to a device's Encoder Service.
 old-location: mstv\ibda_encoder.htm
 tech.root: mstv
 ms.assetid: 43ed9d91-c769-4fb3-bcd9-e5239ec5d9c7
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IBDA_Encoder, IBDA_Encoder interface [Microsoft TV Technologies], IBDA_Encoder interface [Microsoft TV Technologies],described, bdaiface/IBDA_Encoder, mstv.ibda_encoder
 ms.topic: interface

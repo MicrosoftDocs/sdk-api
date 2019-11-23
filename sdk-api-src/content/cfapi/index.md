@@ -1,7 +1,7 @@
 ---
 UID: NA:cfapi
 ms.assetid: 56c4ab54-b144-3bc5-8780-138dc8b528e4
-ms.author: windowssdkdev
+
 ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows

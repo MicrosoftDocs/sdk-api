@@ -1,12 +1,12 @@
 ---
 UID: NE:directml.DML_EXECUTION_FLAGS
 title: DML_EXECUTION_FLAGS
-author: windows-sdk-content
+
 description: Supplies options to DirectML to control execution of operators. These flags can be bitwise OR'd together to specify multiple flags at once.
 old-location: direct3d12\dml_execution_flags.htm
 tech.root: direct3d12
 ms.assetid: 753E51EE-8739-4263-8257-FBC13718B71F
-ms.author: windowssdkdev
+
 ms.date: 12/5/2018
 ms.keywords: DML_EXECUTION_FLAGS, DML_EXECUTION_FLAGS enumeration, DML_EXECUTION_FLAG_ALLOW_HALF_PRECISION_COMPUTATION, DML_EXECUTION_FLAG_DESCRIPTORS_VOLATILE, DML_EXECUTION_FLAG_DISABLE_META_COMMANDS, DML_EXECUTION_FLAG_NONE, direct3d12.dml_execution_flags, directml/DML_EXECUTION_FLAGS, directml/DML_EXECUTION_FLAG_ALLOW_HALF_PRECISION_COMPUTATION, directml/DML_EXECUTION_FLAG_DESCRIPTORS_VOLATILE, directml/DML_EXECUTION_FLAG_DISABLE_META_COMMANDS, directml/DML_EXECUTION_FLAG_NONE
 ms.topic: enum

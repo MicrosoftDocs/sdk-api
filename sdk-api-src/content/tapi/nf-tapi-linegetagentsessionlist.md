@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetAgentSessionList
 title: lineGetAgentSessionList function (tapi.h)
-author: windows-sdk-content
+
 description: The lineGetAgentSessionList function returns a list of agent sessions created for the specified agent.
 old-location: tapi2\linegetagentsessionlist.htm
 tech.root: Tapi
 ms.assetid: 6473d5dd-e08e-47f8-acad-b60943525b83
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetagentsessionlist, lineGetAgentSessionList, lineGetAgentSessionList function [TAPI 2.2], tapi/lineGetAgentSessionList, tapi2.linegetagentsessionlist"
 ms.topic: function

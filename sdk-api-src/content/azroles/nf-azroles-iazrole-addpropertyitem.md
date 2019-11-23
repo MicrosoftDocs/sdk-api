@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzRole.AddPropertyItem
 title: IAzRole::AddPropertyItem (azroles.h)
-author: windows-sdk-content
+
 description: Adds the specified entity to the specified list.
 old-location: security\iazrole_addpropertyitem.htm
 tech.root: SecAuthZ
 ms.assetid: 3d9cb227-a3e8-4cd3-806a-5b7a38661b71
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_ROLE_APP_MEMBERS, AZ_PROP_ROLE_MEMBERS, AZ_PROP_ROLE_MEMBERS_NAME, AZ_PROP_ROLE_OPERATIONS, AZ_PROP_ROLE_TASKS, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzRole object, AddPropertyItem method [Security],IAzRole interface, AzRole object [Security],AddPropertyItem method, IAzRole interface [Security],AddPropertyItem method, IAzRole.AddPropertyItem, IAzRole::AddPropertyItem, azroles/IAzRole::AddPropertyItem, security.iazrole_addpropertyitem
 ms.topic: method

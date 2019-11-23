@@ -1,12 +1,12 @@
 ---
 UID: NF:msports.ComDBResizeDatabase
 title: ComDBResizeDatabase function (msports.h)
-author: windows-sdk-content
+
 description: ComDBResizeDatabase resizes the COM port database.
 old-location: serports\comdbresizedatabase.htm
 tech.root: serports
 ms.assetid: fef761be-57c5-4188-8de9-dbca31d91870
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ComDBResizeDatabase, ComDBResizeDatabase function [Serial Ports], comdb_b0a32b8b-517e-45af-970a-7f192e5434fb.xml, msports/ComDBResizeDatabase, serports.comdbresizedatabase
 ms.topic: function

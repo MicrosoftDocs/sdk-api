@@ -1,12 +1,12 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.IsSecurityEnabled
 title: ISecurityCallContext::IsSecurityEnabled (comsvcs.h)
-author: windows-sdk-content
+
 description: Determines whether security is enabled for the object.
 old-location: cos\isecuritycallcontext_issecurityenabled.htm
 tech.root: cossdk
 ms.assetid: b247d430-56b1-40be-a85a-5ed141d90c85
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallContext interface [COM+],IsSecurityEnabled method, ISecurityCallContext.IsSecurityEnabled, ISecurityCallContext::IsSecurityEnabled, IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+],ISecurityCallContext interface, _cos_ISecurityCallContext_IsSecurityEnabled, comsvcs/ISecurityCallContext::IsSecurityEnabled, cos.isecuritycallcontext_issecurityenabled
 ms.topic: method

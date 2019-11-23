@@ -1,12 +1,12 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextGetById1
 title: FwpmProviderContextGetById1 function (fwpmu.h)
-author: windows-sdk-content
+
 description: Retrieves a provider context.
 old-location: fwp\fwpmprovidercontextgetbyid1_func.htm
 tech.root: fwp
 ms.assetid: 76353efa-844e-4c7f-9f9a-0bf2e247c58b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextGetById1, FwpmProviderContextGetById1 function [Filtering], fwp.fwpmprovidercontextgetbyid1_func, fwpmu/FwpmProviderContextGetById1
 ms.topic: function

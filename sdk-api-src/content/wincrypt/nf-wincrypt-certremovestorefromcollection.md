@@ -1,12 +1,12 @@
 ---
 UID: NF:wincrypt.CertRemoveStoreFromCollection
 title: CertRemoveStoreFromCollection function (wincrypt.h)
-author: windows-sdk-content
+
 description: Removes a sibling certificate store from a collection store.
 old-location: security\certremovestorefromcollection.htm
 tech.root: SecCrypto
 ms.assetid: e1564848-8b39-4ea9-9148-142ceaaaed15
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CertRemoveStoreFromCollection, CertRemoveStoreFromCollection function [Security], _crypto2_certremovestorefromcollection, security.certremovestorefromcollection, wincrypt/CertRemoveStoreFromCollection
 ms.topic: function

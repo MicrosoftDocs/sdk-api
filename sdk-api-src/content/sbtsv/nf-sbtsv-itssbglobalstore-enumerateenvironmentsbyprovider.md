@@ -1,12 +1,12 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.EnumerateEnvironmentsByProvider
 title: ITsSbGlobalStore::EnumerateEnvironmentsByProvider (sbtsv.h)
-author: windows-sdk-content
+
 description: Returns an array that contains the environments present on the specified provider.
 old-location: termserv\itssbglobalstore_enumerateenvironmentsbyprovider.htm
 tech.root: TermServ
 ms.assetid: 4fb29524-61e3-4d1a-be98-45f61b796e9e
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: EnumerateEnvironmentsByProvider, EnumerateEnvironmentsByProvider method [Remote Desktop Services], EnumerateEnvironmentsByProvider method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],EnumerateEnvironmentsByProvider method, ITsSbGlobalStore.EnumerateEnvironmentsByProvider, ITsSbGlobalStore::EnumerateEnvironmentsByProvider, sbtsv/ITsSbGlobalStore::EnumerateEnvironmentsByProvider, termserv.itssbglobalstore_enumerateenvironmentsbyprovider
 ms.topic: method

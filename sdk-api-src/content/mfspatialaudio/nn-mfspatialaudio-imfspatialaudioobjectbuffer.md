@@ -1,12 +1,12 @@
 ---
 UID: NN:mfspatialaudio.IMFSpatialAudioObjectBuffer
 title: IMFSpatialAudioObjectBuffer (mfspatialaudio.h)
-author: windows-sdk-content
+
 description: Represents a section of audio data with associated positional and rendering metadata. Spatial audio objects are stored in IMFSpatialAudioSample instances, and allow passing of spatial audio information between Media Foundation components.
 old-location: mf\imfspatialaudioobjectbuffer.htm
 tech.root: medfound
 ms.assetid: 61E9BC6A-2120-4874-9053-E1D232DF1CCA
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFSpatialAudioObjectBuffer, IMFSpatialAudioObjectBuffer interface [Media Foundation], IMFSpatialAudioObjectBuffer interface [Media Foundation],described, mf.imfspatialaudioobjectbuffer, mfspatialaudio/IMFSpatialAudioObjectBuffer
 ms.topic: interface

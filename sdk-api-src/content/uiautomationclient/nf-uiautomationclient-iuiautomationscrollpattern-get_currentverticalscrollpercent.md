@@ -1,12 +1,12 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CurrentVerticalScrollPercent
 title: IUIAutomationScrollPattern::get_CurrentVerticalScrollPercent (uiautomationclient.h)
-author: windows-sdk-content
+
 description: Retrieves the vertical scroll position.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent.htm
 tech.root: WinAuto
 ms.assetid: 45b45faa-a147-4c05-82ca-878d46c71af0
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CurrentVerticalScrollPercent property [Windows Accessibility], CurrentVerticalScrollPercent property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentVerticalScrollPercent property, IUIAutomationScrollPattern.CurrentVerticalScrollPercent, IUIAutomationScrollPattern.get_CurrentVerticalScrollPercent, IUIAutomationScrollPattern::CurrentVerticalScrollPercent, IUIAutomationScrollPattern::get_CurrentVerticalScrollPercent, get_CurrentVerticalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent, uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CurrentVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CurrentVerticalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent
 ms.topic: method

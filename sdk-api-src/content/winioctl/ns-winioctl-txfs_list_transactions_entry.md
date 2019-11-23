@@ -1,12 +1,12 @@
 ---
 UID: NS:winioctl._TXFS_LIST_TRANSACTIONS_ENTRY
 title: TXFS_LIST_TRANSACTIONS_ENTRY
-author: windows-sdk-content
+
 description: Contains information about a transaction.
 old-location: fs\txfs_list_transactions_entry.htm
 tech.root: FileIO
 ms.assetid: 7de14fb1-1972-4bf0-b0e2-f0344e963eef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: '*PTXFS_LIST_TRANSACTIONS_ENTRY, PTXFS_LIST_TRANSACTIONS_ENTRY, PTXFS_LIST_TRANSACTIONS_ENTRY structure pointer [Files], TXFS_LIST_TRANSACTIONS_ENTRY, TXFS_LIST_TRANSACTIONS_ENTRY structure [Files], fs.txfs_list_transactions_entry, winioctl/PTXFS_LIST_TRANSACTIONS_ENTRY, winioctl/TXFS_LIST_TRANSACTIONS_ENTRY'
 ms.topic: struct

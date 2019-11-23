@@ -1,12 +1,12 @@
 ---
 UID: NS:gdipluseffects.ColorLUTParams
 title: ColorLUTParams (gdipluseffects.h)
-author: windows-sdk-content
+
 description: A ColorLUTParams structure contains members (color lookup tables) that specify color adjustments to a bitmap.
 old-location: gdiplus\_gdiplus_STRUC_ColorLUTParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorlutparams.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ColorLUTParams, ColorLUTParams structure [GDI+], _gdiplus_STRUC_ColorLUTParams, gdiplus._gdiplus_STRUC_ColorLUTParams, gdipluseffects/ColorLUTParams
 ms.topic: struct

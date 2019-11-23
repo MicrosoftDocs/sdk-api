@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeleteApplicationGroup
 title: IAzAuthorizationStore::DeleteApplicationGroup (azroles.h)
-author: windows-sdk-content
+
 description: Removes the IAzApplicationGroup object with the specified name from the AzAuthorizationStore object.
 old-location: security\azauthorizationstore_deleteapplicationgroup.htm
 tech.root: SecAuthZ
 ms.assetid: f2b89378-9b4e-411f-b856-51053b649996
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],DeleteApplicationGroup method, DeleteApplicationGroup, DeleteApplicationGroup method [Security], DeleteApplicationGroup method [Security],AzAuthorizationStore object, DeleteApplicationGroup method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeleteApplicationGroup method, IAzAuthorizationStore.DeleteApplicationGroup, IAzAuthorizationStore::DeleteApplicationGroup, azroles/IAzAuthorizationStore::DeleteApplicationGroup, security.azauthorizationstore_deleteapplicationgroup
 ms.topic: method

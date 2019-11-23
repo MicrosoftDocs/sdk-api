@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetAvailable
 title: IMediaSeeking::GetAvailable (strmif.h)
-author: windows-sdk-content
+
 description: The GetAvailable method retrieves the range of times in which seeking is efficient.
 old-location: dshow\imediaseeking_getavailable.htm
 tech.root: DirectShow
 ms.assetid: 8c4114e5-ff82-421a-a7fb-9382d4182388
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetAvailable, GetAvailable method [DirectShow], GetAvailable method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetAvailable method, IMediaSeeking.GetAvailable, IMediaSeeking::GetAvailable, IMediaSeekingGetAvailable, dshow.imediaseeking_getavailable, strmif/IMediaSeeking::GetAvailable
 ms.topic: method

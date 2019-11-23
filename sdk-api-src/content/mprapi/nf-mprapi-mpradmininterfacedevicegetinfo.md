@@ -1,12 +1,12 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceDeviceGetInfo
 title: MprAdminInterfaceDeviceGetInfo function (mprapi.h)
-author: windows-sdk-content
+
 description: The MprAdminInterfaceDeviceGetInfo retrieves information about a device that is used in a router demand-dial interface.
 old-location: rras\mpradmininterfacedevicegetinfo.htm
 tech.root: RRAS
 ms.assetid: edff88dd-80ae-4704-b320-925006346dda
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceDeviceGetInfo, MprAdminInterfaceDeviceGetInfo function [RAS], _mpr_mpradmininterfacedevicegetinfo, mprapi/MprAdminInterfaceDeviceGetInfo, rras.mpradmininterfacedevicegetinfo
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NE:propsys.PROPDESC_COLUMNINDEX_TYPE
 title: PROPDESC_COLUMNINDEX_TYPE (propsys.h)
-author: windows-sdk-content
+
 description: Indicates whether or how a property can be indexed.
 old-location: properties\PROPDESC_COLUMNINDEX_TYPE.htm
 tech.root: properties
 ms.assetid: 71ba7578-a902-47ee-883c-0947751d278c
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: PDCIT_INMEMORY, PDCIT_NONE, PDCIT_ONDEMAND, PDCIT_ONDISK, PDCIT_ONDISKALL, PDCIT_ONDISKVECTOR, PROPDESC_COLUMNINDEX_TYPE, PROPDESC_COLUMNINDEX_TYPE enumeration [Windows Properties], _shell_PROPDESC_COLUMNINDEX_TYPE, properties.PROPDESC_COLUMNINDEX_TYPE, propsys/PDCIT_INMEMORY, propsys/PDCIT_NONE, propsys/PDCIT_ONDEMAND, propsys/PDCIT_ONDISK, propsys/PDCIT_ONDISKALL, propsys/PDCIT_ONDISKVECTOR, propsys/PROPDESC_COLUMNINDEX_TYPE, shell.PROPDESC_COLUMNINDEX_TYPE
 ms.topic: enum

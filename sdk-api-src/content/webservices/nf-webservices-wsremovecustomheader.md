@@ -1,12 +1,12 @@
 ---
 UID: NF:webservices.WsRemoveCustomHeader
 title: WsRemoveCustomHeader function (webservices.h)
-author: windows-sdk-content
+
 description: Removes a custom header from the message. This function is designed to handle types of headers that appear once in the message and are targeted at the ultimate receiver. Headers targeted with a role other than ultimate receiver are ignored.
 old-location: wsw\wsremovecustomheader.htm
 tech.root: wsw
 ms.assetid: def38214-2de9-4a26-93cb-e2f34d8dd6ef
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: WsRemoveCustomHeader, WsRemoveCustomHeader function [Web Services for Windows], webservices/WsRemoveCustomHeader, wsw.wsremovecustomheader
 ms.topic: function

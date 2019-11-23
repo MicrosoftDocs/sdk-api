@@ -1,12 +1,12 @@
 ---
 UID: NE:strmif._AM_DVD_STREAM_FLAGS
 title: AM_DVD_STREAM_FLAGS (strmif.h)
-author: windows-sdk-content
+
 description: Describes a DVD stream type (video, audio, or subpicture).
 old-location: dshow\am_dvd_stream_flags.htm
 tech.root: DirectShow
 ms.assetid: 3fb3e57f-7c0b-4a49-b83d-798c84b2d5d1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AM_DVD_STREAM_AUDIO, AM_DVD_STREAM_FLAGS, AM_DVD_STREAM_FLAGS , AM_DVD_STREAM_FLAGS enumeration [DirectShow], AM_DVD_STREAM_FLAGSEnumeration, AM_DVD_STREAM_SUBPIC, AM_DVD_STREAM_VIDEO, dshow.am_dvd_stream_flags, strmif/AM_DVD_STREAM_AUDIO, strmif/AM_DVD_STREAM_FLAGS, strmif/AM_DVD_STREAM_SUBPIC, strmif/AM_DVD_STREAM_VIDEO
 ms.topic: enum

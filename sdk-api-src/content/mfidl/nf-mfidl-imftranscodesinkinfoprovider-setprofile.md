@@ -1,12 +1,12 @@
 ---
 UID: NF:mfidl.IMFTranscodeSinkInfoProvider.SetProfile
 title: IMFTranscodeSinkInfoProvider::SetProfile (mfidl.h)
-author: windows-sdk-content
+
 description: Sets the transcoding profile on the transcode sink activation object.
 old-location: mf\imftranscodesinkinfoprovider_setprofile.htm
 tech.root: medfound
 ms.assetid: 81137d8c-70b2-4a0a-a1b4-16a2f50f134b
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeSinkInfoProvider interface [Media Foundation],SetProfile method, IMFTranscodeSinkInfoProvider.SetProfile, IMFTranscodeSinkInfoProvider::SetProfile, SetProfile, SetProfile method [Media Foundation], SetProfile method [Media Foundation],IMFTranscodeSinkInfoProvider interface, mf.imftranscodesinkinfoprovider_setprofile, mfidl/IMFTranscodeSinkInfoProvider::SetProfile
 ms.topic: method

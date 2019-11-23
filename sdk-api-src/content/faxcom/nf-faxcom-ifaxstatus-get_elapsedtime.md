@@ -1,12 +1,12 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_ElapsedTime
 title: IFaxStatus::get_ElapsedTime (faxcom.h)
-author: windows-sdk-content
+
 description: Retrieves the ElapsedTime property for the FaxStatus object of a parent FaxPort object. The ElapsedTime property is a number that represents the elapsed time for an active fax job.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_elapsedtime_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2en9.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ElapsedTime property [Fax Service], ElapsedTime property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],ElapsedTime property, IFaxStatus.ElapsedTime, IFaxStatus.get_ElapsedTime, IFaxStatus::ElapsedTime, IFaxStatus::get_ElapsedTime, _mfax_ifaxstatus_get_elapsedtime, fax._mfax_ifaxstatus_get_elapsedtime, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_elapsedtime_cpp, faxcom/IFaxStatus::ElapsedTime, faxcom/IFaxStatus::get_ElapsedTime, get_ElapsedTime
 ms.topic: method

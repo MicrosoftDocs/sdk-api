@@ -1,12 +1,12 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyJob4.GetPeerCachingFlags
 title: IBackgroundCopyJob4::GetPeerCachingFlags (bits3_0.h)
-author: windows-sdk-content
+
 description: Retrieves flags that determine if the files of the job can be cached and served to peers and if BITS can download content for the job from peers.
 old-location: bits\ibackgroundcopyjob4_getpeercachingflags.htm
 tech.root: Bits
 ms.assetid: 1b9cdd81-91e8-4d24-a451-61bed51289d4
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: BG_JOB_ENABLE_PEERCACHING_CLIENT, BG_JOB_ENABLE_PEERCACHING_SERVER, GetPeerCachingFlags, GetPeerCachingFlags method [BITS], GetPeerCachingFlags method [BITS],IBackgroundCopyJob4 interface, IBackgroundCopyJob4 interface [BITS],GetPeerCachingFlags method, IBackgroundCopyJob4.GetPeerCachingFlags, IBackgroundCopyJob4::GetPeerCachingFlags, bits.ibackgroundcopyjob4_getpeercachingflags, bits3_0/IBackgroundCopyJob4::GetPeerCachingFlags
 ms.topic: method

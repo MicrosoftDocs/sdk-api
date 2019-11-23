@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.SHBindToObject
 title: SHBindToObject function (shlobj_core.h)
-author: windows-sdk-content
+
 description: Retrieves and binds to a specified object by using the Shell namespace IShellFolder::BindToObject method.
 old-location: shell\SHBindToObject.htm
 tech.root: shell
 ms.assetid: acc16097-8301-4118-8cb5-00aa2705306a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: SHBindToObject, SHBindToObject function [Windows Shell], _shell_SHBindToObject, shell.SHBindToObject, shlobj_core/SHBindToObject
 ms.topic: function

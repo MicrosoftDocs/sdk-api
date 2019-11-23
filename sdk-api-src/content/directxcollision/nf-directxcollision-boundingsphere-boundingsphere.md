@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingSphere.BoundingSphere
 title: BoundingSphere::BoundingSphere
-author: windows-sdk-content
+
 description: Creates an instance of the BoundingSphere class.
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::BoundingSphere

@@ -1,12 +1,12 @@
 ---
 UID: NF:dhcpsapi.DhcpV6GetStatelessStoreParams
 title: DhcpV6GetStatelessStoreParams function (dhcpsapi.h)
-author: windows-sdk-content
+
 description: Retrieves the current DHCPv6 stateless client inventory configuration settings at the server or scope level.
 old-location: dhcp\dhcpv6getstatelessstoreparams.htm
 tech.root: DHCP
 ms.assetid: 80a32132-a032-452f-9438-52a1eb280fdf
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: DhcpV6GetStatelessStoreParams, DhcpV6GetStatelessStoreParams function [DHCP], dhcp.dhcpv6getstatelessstoreparams, dhcpsapi/DhcpV6GetStatelessStoreParams
 ms.topic: function

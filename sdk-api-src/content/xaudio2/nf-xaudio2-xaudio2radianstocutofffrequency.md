@@ -1,12 +1,12 @@
 ---
 UID: NF:xaudio2.XAudio2RadiansToCutoffFrequency
 title: XAudio2RadiansToCutoffFrequency function (xaudio2.h)
-author: windows-sdk-content
+
 description: Inline function that converts from the radian frequencies used in XAUDIO2_FILTER_PARAMETERS back to absolute frequencies in hertz.
 old-location: xaudio2\xaudio2radianstocutofffrequency.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2RadiansToCutoffFrequency(float,float)
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: XAudio2RadiansToCutoffFrequency, XAudio2RadiansToCutoffFrequency function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2radianstocutofffrequency, xaudio2/XAudio2RadiansToCutoffFrequency
 ms.topic: function

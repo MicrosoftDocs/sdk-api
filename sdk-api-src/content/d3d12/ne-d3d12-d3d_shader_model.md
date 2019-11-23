@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d12.D3D_SHADER_MODEL
 title: D3D_SHADER_MODEL (d3d12.h)
-author: windows-sdk-content
+
 description: Specifies a shader model.
 old-location: direct3d12\d3d_shader_model.htm
 tech.root: direct3d12
 ms.assetid: 8C0674AF-CFDD-4511-B621-AB817A81B9BB
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D_SHADER_MODEL, D3D_SHADER_MODEL enumeration, D3D_SHADER_MODEL_5_1, D3D_SHADER_MODEL_6_0, D3D_SHADER_MODEL_6_1, d3d12/D3D_SHADER_MODEL, d3d12/D3D_SHADER_MODEL_5_1, d3d12/D3D_SHADER_MODEL_6_0, d3d12/D3D_SHADER_MODEL_6_1, direct3d12.d3d_shader_model
 ms.topic: enum

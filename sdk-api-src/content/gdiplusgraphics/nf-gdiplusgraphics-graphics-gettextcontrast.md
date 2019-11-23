@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetTextContrast
 title: Graphics::GetTextContrast (gdiplusgraphics.h)
-author: windows-sdk-content
+
 description: The Graphics::GetTextContrast method gets the contrast value currently set for this Graphics object. The contrast value is used for antialiasing text.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetTextContrast_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gettextcontrast.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetTextContrast, GetTextContrast method [GDI+], GetTextContrast method [GDI+],Graphics class, Graphics class [GDI+],GetTextContrast method, Graphics.GetTextContrast, Graphics::GetTextContrast, _gdiplus_CLASS_Graphics_GetTextContrast_, gdiplus._gdiplus_CLASS_Graphics_GetTextContrast_
 ms.topic: method

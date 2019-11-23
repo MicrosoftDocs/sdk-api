@@ -1,12 +1,12 @@
 ---
 UID: NN:segment.IMSVidAudioRendererEvent
 title: IMSVidAudioRendererEvent (segment.h)
-author: windows-sdk-content
+
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidaudiorendererevent.htm
 tech.root: mstv
 ms.assetid: 50b43d78-7df0-4b23-86c5-76655e22425f
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRendererEvent, IMSVidAudioRendererEvent interface [Microsoft TV Technologies], IMSVidAudioRendererEvent interface [Microsoft TV Technologies],described, IMSVidAudioRendererEventInterface, mstv.imsvidaudiorendererevent, segment/IMSVidAudioRendererEvent
 ms.topic: interface

@@ -1,12 +1,12 @@
 ---
 UID: NF:strsafe.StringCchCatNExA
 title: StringCchCatNExA function (strsafe.h)
-author: windows-sdk-content
+
 description: Concatenates the specified number of characters from one string to another string.
 old-location: menurc\stringcchcatnex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcatnex.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchCatNEx, StringCchCatNEx function [Menus and Other Resources], StringCchCatNExA, StringCchCatNExW, _shell_StringCchCatNEx, _shell_stringcchcatnex_cpp, menurc.stringcchcatnex, strsafe/StringCchCatNEx, strsafe/StringCchCatNExA, strsafe/StringCchCatNExW, winui._shell_stringcchcatnex
 ms.topic: function

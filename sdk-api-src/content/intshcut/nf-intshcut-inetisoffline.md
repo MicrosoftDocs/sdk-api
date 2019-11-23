@@ -1,12 +1,12 @@
 ---
 UID: NF:intshcut.InetIsOffline
 title: InetIsOffline function (intshcut.h)
-author: windows-sdk-content
+
 description: Determines whether the system is connected to the Internet.
 old-location: shell\InetIsOffline.htm
 tech.root: shell
 ms.assetid: e0afac1c-c083-4b60-a30f-5dfc1a4b8fd3
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: InetIsOffline, InetIsOffline function [Windows Shell], _win32_InetIsOffline, intshcut/InetIsOffline, shell.InetIsOffline
 ms.topic: function

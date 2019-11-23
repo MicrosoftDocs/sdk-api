@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetThreadDpiAwarenessContext
 title: GetThreadDpiAwarenessContext function (winuser.h)
-author: windows-sdk-content
+
 description: Gets the DPI_AWARENESS_CONTEXT for the current thread.
 old-location: hidpi\getthreaddpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: DE86D551-974F-4A03-BDBE-348592CAB81F
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetThreadDpiAwarenessContext, GetThreadDpiAwarenessContext function [High DPI], hidpi.getthreaddpiawarenesscontext, winuser/GetThreadDpiAwarenessContext
 ms.topic: function

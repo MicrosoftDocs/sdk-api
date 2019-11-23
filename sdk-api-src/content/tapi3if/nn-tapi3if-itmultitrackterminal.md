@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3if.ITMultiTrackTerminal
 title: ITMultiTrackTerminal (tapi3if.h)
-author: windows-sdk-content
+
 description: This ITMultiTrackTerminal interface is exposed on all multitrack terminals. The interface includes methods for enumerating, creating, and removing tracks. The ITMultiTrackTerminal interface is created by calling QueryInterface on ITTerminal.
 old-location: tapi3\itmultitrackterminal.htm
 tech.root: Tapi
 ms.assetid: c9e5d8a4-78a6-4449-9c11-c780e72ab925
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITMultiTrackTerminal, ITMultiTrackTerminal interface [TAPI 2.2], ITMultiTrackTerminal interface [TAPI 2.2],described, _tapi3_itmultitrackterminal, tapi3.itmultitrackterminal, tapi3if/ITMultiTrackTerminal
 ms.topic: interface

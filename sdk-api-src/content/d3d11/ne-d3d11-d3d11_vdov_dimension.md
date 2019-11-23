@@ -1,12 +1,12 @@
 ---
 UID: NE:d3d11.D3D11_VDOV_DIMENSION
 title: D3D11_VDOV_DIMENSION (d3d11.h)
-author: windows-sdk-content
+
 description: Specifies how to access a resource that is used in a video decoding output view.
 old-location: mf\d3d11_vdov_dimension.htm
 tech.root: medfound
 ms.assetid: 079460EB-A7D4-4C8C-B7CA-9A6FFB3B0FA8
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D11_VDOV_DIMENSION, D3D11_VDOV_DIMENSION enumeration [Media Foundation], D3D11_VDOV_DIMENSION_TEXTURE2D, D3D11_VDOV_DIMENSION_UNKNOWN, d3d11/D3D11_VDOV_DIMENSION, d3d11/D3D11_VDOV_DIMENSION_TEXTURE2D, d3d11/D3D11_VDOV_DIMENSION_UNKNOWN, mf.d3d11_vdov_dimension
 ms.topic: enum

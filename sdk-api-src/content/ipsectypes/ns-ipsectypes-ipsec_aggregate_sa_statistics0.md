@@ -1,12 +1,12 @@
 ---
 UID: NS:ipsectypes.IPSEC_AGGREGATE_SA_STATISTICS0_
 title: IPSEC_AGGREGATE_SA_STATISTICS0 (ipsectypes.h)
-author: windows-sdk-content
+
 description: Stores aggregate IPsec kernel security association (SA) statistics.
 old-location: fwp\ipsec_aggregate_sa_statistics0_struct.htm
 tech.root: fwp
 ms.assetid: f0318061-40f9-4380-9681-34db70659c49
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AGGREGATE_SA_STATISTICS0, IPSEC_AGGREGATE_SA_STATISTICS0 structure [Filtering], fwp.ipsec_aggregate_sa_statistics0_struct, ipsectypes/IPSEC_AGGREGATE_SA_STATISTICS0
 ms.topic: struct

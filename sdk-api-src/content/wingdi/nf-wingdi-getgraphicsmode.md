@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.GetGraphicsMode
 title: GetGraphicsMode function (wingdi.h)
-author: windows-sdk-content
+
 description: The GetGraphicsMode function retrieves the current graphics mode for the specified device context.
 old-location: gdi\getgraphicsmode.htm
 tech.root: gdi
 ms.assetid: 62e2960b-d414-4e84-a94f-60b192071402
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: GetGraphicsMode, GetGraphicsMode function [Windows GDI], _win32_GetGraphicsMode, gdi.getgraphicsmode, wingdi/GetGraphicsMode
 ms.topic: function

@@ -1,12 +1,12 @@
 ---
 UID: NF:lmwksta.NetWkstaTransportAdd
 title: NetWkstaTransportAdd function (lmwksta.h)
-author: windows-sdk-content
+
 description: Not supported.
 old-location: netmgmt\netwkstatransportadd.htm
 tech.root: NetMgmt
 ms.assetid: 016060ea-eae1-421f-b708-5c2ddd2000c1
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: 0, NetWkstaTransportAdd, NetWkstaTransportAdd function [Network Management], _win32_netwkstatransportadd, lmwksta/NetWkstaTransportAdd, netmgmt.netwkstatransportadd
 ms.topic: function

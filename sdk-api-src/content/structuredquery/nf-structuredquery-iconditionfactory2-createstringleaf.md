@@ -1,12 +1,12 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateStringLeaf
 title: IConditionFactory2::CreateStringLeaf (structuredquery.h)
-author: windows-sdk-content
+
 description: Creates a leaf condition node for a string value that represents a comparison of property value and constant value. The returned object supports ICondition and ICondition2.
 old-location: search\_search_IConditionFactory2_CreateStringLeaf.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createstringleaf.htm
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: CreateStringLeaf, CreateStringLeaf method [search], CreateStringLeaf method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateStringLeaf method, IConditionFactory2.CreateStringLeaf, IConditionFactory2::CreateStringLeaf, _search_IConditionFactory2_CreateStringLeaf, search._search_IConditionFactory2_CreateStringLeaf, structuredquery/IConditionFactory2::CreateStringLeaf
 ms.topic: method

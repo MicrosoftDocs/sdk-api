@@ -1,12 +1,12 @@
 ---
 UID: NF:docobj.IOleDocumentView.ApplyViewState
 title: IOleDocumentView::ApplyViewState (docobj.h)
-author: windows-sdk-content
+
 description: Initializes a view with view state previously saved in call to IOleDocumentView::SaveViewState.
 old-location: com\ioledocumentview_applyviewstate.htm
 tech.root: com
 ms.assetid: f78526b4-977a-4dde-8a2f-7ae0a1c5c7f9
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ApplyViewState, ApplyViewState method [COM], ApplyViewState method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],ApplyViewState method, IOleDocumentView.ApplyViewState, IOleDocumentView::ApplyViewState, _ole_ioledocumentview_applyviewstate, com.ioledocumentview_applyviewstate, docobj/IOleDocumentView::ApplyViewState
 ms.topic: method

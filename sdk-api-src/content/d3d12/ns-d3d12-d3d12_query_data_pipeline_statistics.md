@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d12.D3D12_QUERY_DATA_PIPELINE_STATISTICS
 title: D3D12_QUERY_DATA_PIPELINE_STATISTICS (d3d12.h)
-author: windows-sdk-content
+
 description: Query information about graphics-pipeline activity in between calls to BeginQuery and EndQuery.
 old-location: direct3d12\d3d12_query_data_pipeline_statistics.htm
 tech.root: direct3d12
 ms.assetid: 0A84A3C8-0F6F-420E-88C9-26EC03F03179
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: D3D12_QUERY_DATA_PIPELINE_STATISTICS, D3D12_QUERY_DATA_PIPELINE_STATISTICS structure, d3d12/D3D12_QUERY_DATA_PIPELINE_STATISTICS, direct3d12.d3d12_query_data_pipeline_statistics
 ms.topic: struct

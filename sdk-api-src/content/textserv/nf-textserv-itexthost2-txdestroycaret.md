@@ -1,12 +1,12 @@
 ---
 UID: NF:textserv.ITextHost2.TxDestroyCaret
 title: ITextHost2::TxDestroyCaret (textserv.h)
-author: windows-sdk-content
+
 description: Destroys the caret (Direct2D only).
 old-location: controls\itexthost2_txdestroycaret.htm
 tech.root: Controls
 ms.assetid: 627FEF54-FD74-4A41-89FC-E02EBD29D18A
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxDestroyCaret method, ITextHost2.TxDestroyCaret, ITextHost2::TxDestroyCaret, TxDestroyCaret, TxDestroyCaret method [Windows Controls], TxDestroyCaret method [Windows Controls],ITextHost2 interface, controls.itexthost2_txdestroycaret, textserv/ITextHost2::TxDestroyCaret
 ms.topic: method

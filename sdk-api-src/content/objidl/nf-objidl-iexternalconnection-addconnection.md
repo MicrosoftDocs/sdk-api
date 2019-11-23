@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IExternalConnection.AddConnection
 title: IExternalConnection::AddConnection (objidl.h)
-author: windows-sdk-content
+
 description: Increments the count of an object's strong external connections.
 old-location: com\iexternalconnection_addconnection.htm
 tech.root: com
 ms.assetid: 7439cb16-1da3-4fab-a16d-519f9ce1053a
-ms.author: windowssdkdev
+
 ms.date: 12/05/2018
 ms.keywords: AddConnection, AddConnection method [COM], AddConnection method [COM],IExternalConnection interface, IExternalConnection interface [COM],AddConnection method, IExternalConnection.AddConnection, IExternalConnection::AddConnection, _com_iexternalconnection_addconnection, com.iexternalconnection_addconnection, objidlbase/IExternalConnection::AddConnection
 ms.topic: method
