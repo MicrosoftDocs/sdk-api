@@ -50,28 +50,20 @@ ms.custom: 19H1
 
 # WerRegisterAppLocalDump function
 
-
 ## -description
 
-
-Registers a path relative to the local app store for the calling application where Windows Error Reporting (WER) should save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding.
-
+Registers a path, relative to the [LocalFolder](https://docs.microsoft.com/uwp/api/windows.storage.applicationdata.localfolder) of the packaged application, where a copy of the diagnostic memory dump that Windows Error Reporting (WER) collects when one of the processes for the application stops responding should be saved.
 
 ## -parameters
 
-
-
-
 ### -param localAppDataRelativePath [in]
 
-The path relative to the local app store for the calling application where WER should save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding. The maximum length for this relative path in characters is <b>WER_MAX_LOCAL_DUMP_SUBPATH_LENGTH</b>, which has a value of 64. This maximum length includes the null-termination character.
+The path relative to the local app store for the calling application where WER should save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding. The maximum length for this relative path in characters is **WER_MAX_LOCAL_DUMP_SUBPATH_LENGTH**, which has a value of 64. This maximum length includes the null-termination character.
 
 
 ## -returns
 
-
-
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error codes.
+This function returns **S_OK** on success or an error code on failure, including the following error codes.
 
 <table>
 <tr>
@@ -81,7 +73,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 <tr>
 <td width="40%">
 <dl>
-<dt><b>WER_E_INVALID_STATE</b></dt>
+<dt>**WER_E_INVALID_STATE**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -92,7 +84,7 @@ The process cannot store the memory dump, or WER cannot create a location to sto
 <tr>
 <td width="40%">
 <dl>
-<dt><b>E_INVALIDARG</b></dt>
+<dt>**E_INVALIDARG**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -101,29 +93,13 @@ The <i>localAppDataRelativePath</i> parameter is NULL or is longer than 64 chara
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A packaged application calls <b>WerRegisterAppLocalDump</b> when the application launches to request a copy of the diagnostic memory dump that WER collects  if or when one of the processes  for the application stops responding.
+A packaged application calls **WerRegisterAppLocalDump** when the application launches to request a copy of the diagnostic memory dump that WER collects  if or when one of the processes  for the application stops responding.
 
 WER does not manage storage at the location that the relative path specifies or the number of memory dumps that are collected for the application.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregisterapplocaldump">WerUnregisterAppLocalDump</a>
- 
-
- 
-
+[WerUnregisterAppLocalDump function](nf-werapi-werunregisterapplocaldump.md)
