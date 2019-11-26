@@ -11,7 +11,6 @@ dev_langs:
 f1_keywords:
  - "wbemglue/CWbemGlueFactory::~CWbemGlueFactory"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

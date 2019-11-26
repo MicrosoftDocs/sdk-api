@@ -4,8 +4,6 @@ ms.assetid: a01433cf-71ee-3901-a4c5-9de9add9d979
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: projfs
 ---

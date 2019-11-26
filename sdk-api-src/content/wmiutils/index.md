@@ -4,8 +4,6 @@ ms.assetid: 22f6e95f-ec03-39be-94c4-81ea966f50da
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: lwef
 ---

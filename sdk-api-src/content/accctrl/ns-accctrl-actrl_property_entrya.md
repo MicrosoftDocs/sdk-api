@@ -42,7 +42,6 @@ api_name:
  - ACTRL_PROPERTY_ENTRY
  - ACTRL_PROPERTY_ENTRYA
  - ACTRL_PROPERTY_ENTRYW
-product: Windows
 targetos: Windows
 req.typenames: ACTRL_PROPERTY_ENTRYA, *PACTRL_PROPERTY_ENTRYA
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
  - AccCtrl.h
 api_name:
  - TRUSTEE_FORM
-product: Windows
 targetos: Windows
 req.typenames: TRUSTEE_FORM
 req.redist: 

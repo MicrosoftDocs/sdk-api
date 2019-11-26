@@ -40,7 +40,6 @@ api_location:
 - AccCtrl.h
 api_name:
 - ACCESS_MODE
-product: Windows
 targetos: Windows
 req.typenames: ACCESS_MODE
 req.redist: 

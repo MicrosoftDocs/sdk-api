@@ -4,8 +4,6 @@ ms.assetid: 84a9101d-928d-31d6-bdda-1eeb41a87e0a
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: controls
 ---

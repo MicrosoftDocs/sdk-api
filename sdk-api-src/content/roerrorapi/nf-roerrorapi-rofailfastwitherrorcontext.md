@@ -9,8 +9,6 @@ ms.assetid: 1BD47795-1B5E-42A4-B88F-7DE5160668E7
 
 ms.date: 12/5/2018
 ms.keywords: RoFailFastWithErrorContext, RoFailFastWithErrorContext function [Windows Runtime], roerrorapi/RoFailFastWithErrorContext, winrt.rofailfastwitherrorcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 f1_keywords: 
  - "roerrorapi/RoFailFastWithErrorContext"

@@ -4,8 +4,6 @@ ms.assetid: b14ee319-c6d4-3d23-b828-1d9777a9ca03
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: secbiomet
 ---

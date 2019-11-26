@@ -4,8 +4,6 @@ ms.assetid: 0d23718a-e379-3023-8412-598fbba7b01b
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: eaphost
 ---

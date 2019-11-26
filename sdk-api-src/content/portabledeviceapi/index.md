@@ -4,8 +4,6 @@ ms.assetid: 3ed45925-7f08-3e59-8a9f-1fa770403c30
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wpdsdk
 ---

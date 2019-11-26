@@ -4,8 +4,6 @@ ms.assetid: 09811379-f587-3506-b48b-4debc80ecdca
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: battery
 ---

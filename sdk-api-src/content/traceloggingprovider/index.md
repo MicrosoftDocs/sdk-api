@@ -4,8 +4,6 @@ ms.assetid: 9f0e53a0-c646-3851-b09a-e5e45c361a3c
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: tracelogging
 ---

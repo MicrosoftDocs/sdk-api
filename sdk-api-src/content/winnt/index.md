@@ -4,8 +4,6 @@ ms.assetid: 800710c2-56cd-36a6-a445-b2520f403001
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: backup
 ---

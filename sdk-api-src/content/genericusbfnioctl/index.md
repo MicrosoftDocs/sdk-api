@@ -4,8 +4,6 @@ ms.assetid: b457291b-e7cf-39db-9412-32cd4e08f8da
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: buses
 ---

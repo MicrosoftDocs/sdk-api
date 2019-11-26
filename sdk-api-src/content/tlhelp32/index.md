@@ -4,8 +4,6 @@ ms.assetid: fdc911c8-e8cf-30ab-b7bc-44818efde7ab
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: toolhelp
 ---

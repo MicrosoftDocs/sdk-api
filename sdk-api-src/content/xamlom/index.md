@@ -4,8 +4,6 @@ ms.assetid: 95070ea0-5efb-36e5-b388-2bf9d19e9de5
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: xaml_diagnostics
 ---

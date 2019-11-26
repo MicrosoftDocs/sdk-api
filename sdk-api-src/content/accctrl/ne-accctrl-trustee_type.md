@@ -40,7 +40,6 @@ api_location:
  - AccCtrl.h
 api_name:
  - TRUSTEE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: TRUSTEE_TYPE
 req.redist: 

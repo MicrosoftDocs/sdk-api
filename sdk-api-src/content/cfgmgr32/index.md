@@ -4,8 +4,6 @@ ms.assetid: ab99e470-13e6-3d96-9554-82cb2ffcfbaf
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: devinst
 ---

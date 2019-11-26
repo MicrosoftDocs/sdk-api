@@ -4,8 +4,6 @@ ms.assetid: 9fecc8de-4b0b-3d1e-9525-ef036e769a5e
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: tapi3
 ---

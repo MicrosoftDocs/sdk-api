@@ -4,8 +4,6 @@ ms.assetid: 2b698fce-bd98-3a50-89b5-2a40b928f028
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winprog
 ---

@@ -42,7 +42,6 @@ api_name:
 - TRUSTEE
 - TRUSTEE_A
 - TRUSTEE_W
-product: Windows
 targetos: Windows
 req.typenames: TRUSTEE_A, *PTRUSTEE_A, TRUSTEEA, *PTRUSTEEA
 req.redist: 

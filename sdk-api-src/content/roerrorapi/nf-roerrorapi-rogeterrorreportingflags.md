@@ -9,8 +9,6 @@ ms.assetid: 0DCF6693-5066-46E3-A7F9-5CF0780FA87C
 
 ms.date: 12/5/2018
 ms.keywords: RoGetErrorReportingFlags, RoGetErrorReportingFlags function [Windows Runtime], WinRTGetErrorReportingFlags, roerrorapi/RoGetErrorReportingFlags, roerrorapi/WinRTGetErrorReportingFlags, winrt.rogeterrorreportingflags, winrt.winrtgeterrorreportingflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 f1_keywords: 
  - "roerrorapi/RoGetErrorReportingFlags"

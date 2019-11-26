@@ -42,7 +42,6 @@ api_name:
 - EXPLICIT_ACCESS
 - EXPLICIT_ACCESS_A
 - EXPLICIT_ACCESS_W
-product: Windows
 targetos: Windows
 req.typenames: EXPLICIT_ACCESS_A, *PEXPLICIT_ACCESS_A, EXPLICIT_ACCESSA, *PEXPLICIT_ACCESSA
 req.redist: 

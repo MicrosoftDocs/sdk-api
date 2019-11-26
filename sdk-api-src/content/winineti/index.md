@@ -4,8 +4,6 @@ ms.assetid: 5bab60d1-106e-33c7-98c8-c939d66a155d
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wininet
 ---

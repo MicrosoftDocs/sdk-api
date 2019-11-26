@@ -4,8 +4,6 @@ ms.assetid: 19d4ee08-e74d-31d3-afd7-3bfc6f7380b2
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: imapi
 ---

@@ -4,8 +4,6 @@ ms.assetid: 53ebaf75-681b-37e7-ad63-dd0466c53914
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: machinelearning
 archived: true

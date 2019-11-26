@@ -4,8 +4,6 @@ ms.assetid: 6f102f30-dc60-3106-8d84-e0a9a81401c2
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dlgbox
 ---

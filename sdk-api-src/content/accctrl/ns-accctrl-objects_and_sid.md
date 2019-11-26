@@ -40,7 +40,6 @@ api_location:
 - AccCtrl.h
 api_name:
 - OBJECTS_AND_SID
-product: Windows
 targetos: Windows
 req.typenames: OBJECTS_AND_SID, *POBJECTS_AND_SID
 req.redist: 

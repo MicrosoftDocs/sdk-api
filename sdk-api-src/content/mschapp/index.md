@@ -4,8 +4,6 @@ ms.assetid: e31f3d03-846d-3fab-aaaa-517230a772e7
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mschap
 ---

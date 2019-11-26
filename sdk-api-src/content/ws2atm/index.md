@@ -4,8 +4,6 @@ ms.assetid: fcbc2a0c-da3b-380a-bb46-c237a3d33317
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winsock
 ---

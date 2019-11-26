@@ -40,7 +40,6 @@ api_location:
  - AccCtrl.h
 api_name:
  - MULTIPLE_TRUSTEE_OPERATION
-product: Windows
 targetos: Windows
 req.typenames: MULTIPLE_TRUSTEE_OPERATION
 req.redist: 

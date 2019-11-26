@@ -4,8 +4,6 @@ ms.assetid: e9c15545-1ec5-3729-82d6-6e67aa7717fa
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: shell
 ---

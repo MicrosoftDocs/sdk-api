@@ -4,8 +4,6 @@ ms.assetid: 6feaabdc-e689-384d-86fa-32f15377de37
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mstv
 archived: true

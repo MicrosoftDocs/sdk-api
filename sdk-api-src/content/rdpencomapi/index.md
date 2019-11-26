@@ -4,8 +4,6 @@ ms.assetid: 319da130-d8d3-329d-a985-0c9eccf7efad
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: rdp
 ---

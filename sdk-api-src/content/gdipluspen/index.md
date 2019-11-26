@@ -4,8 +4,6 @@ ms.assetid: e8cc414b-0375-3d05-a43d-1c37d63982c3
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: gdiplus
 ---

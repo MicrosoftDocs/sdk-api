@@ -4,8 +4,6 @@ ms.assetid: d267af05-aa29-38b4-af7e-fb8a8b4524c3
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dhcp
 ---

@@ -4,8 +4,6 @@ ms.assetid: b37109dc-4bfd-32a5-8382-30f9516d3f3d
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: rras
 ---

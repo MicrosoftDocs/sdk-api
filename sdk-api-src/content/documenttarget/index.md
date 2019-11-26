@@ -4,8 +4,6 @@ ms.assetid: 0b7bf40d-d4f4-3d23-a23f-b05a91ee4700
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: xps
 ---

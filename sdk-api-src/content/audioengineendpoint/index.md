@@ -4,8 +4,6 @@ ms.assetid: e3f686f9-6316-396c-adf4-e0ac9e6d8ad8
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: coreaudio
 ---

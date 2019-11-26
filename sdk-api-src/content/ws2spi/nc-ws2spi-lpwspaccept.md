@@ -6,7 +6,6 @@ ms.date: 9/9/2019
 ms.keywords: LPWSPACCEPT, WSPACCEPT
 ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

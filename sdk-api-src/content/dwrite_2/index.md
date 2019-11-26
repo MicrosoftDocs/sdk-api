@@ -4,8 +4,6 @@ ms.assetid: 8804b1ea-b645-30a9-955e-4424e89e813e
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: directwrite
 ---

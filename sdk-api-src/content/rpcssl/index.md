@@ -4,8 +4,6 @@ ms.assetid: 34f302e0-163f-3d55-b9a2-d6eb98934856
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: rpc
 ---

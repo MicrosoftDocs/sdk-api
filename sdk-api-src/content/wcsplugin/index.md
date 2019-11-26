@@ -4,8 +4,6 @@ ms.assetid: cd24e38d-d9a9-3363-bc85-29c88508da9d
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wcs
 ---

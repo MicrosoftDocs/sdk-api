@@ -4,8 +4,6 @@ ms.assetid: 3613131a-c116-3995-accb-050d1c0c8353
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wmformat
 archived: true

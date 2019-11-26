@@ -4,8 +4,6 @@ ms.assetid: 5a3ff1d8-c935-36e2-a2b1-5f2a6d17ef0d
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: xaudio2
 ---

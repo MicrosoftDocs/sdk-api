@@ -9,8 +9,6 @@ ms.assetid: ED647880-5A18-4F75-B7E5-3B9BF36229D3
 
 ms.date: 12/5/2018
 ms.keywords: RoOriginateError, RoOriginateError function [Windows Runtime], WinRTOriginateError, roerrorapi/RoOriginateError, roerrorapi/WinRTOriginateError, winrt.rooriginateerror, winrt.winrtoriginateerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 f1_keywords: 
  - "roerrorapi/RoOriginateError"

@@ -4,8 +4,6 @@ ms.assetid: a32832d5-ede2-3438-b5ba-e272f47e11a1
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: audio
 ---

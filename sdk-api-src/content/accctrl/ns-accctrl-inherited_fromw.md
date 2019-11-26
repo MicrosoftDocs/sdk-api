@@ -42,7 +42,6 @@ api_name:
  - INHERITED_FROM
  - INHERITED_FROMA
  - INHERITED_FROMW
-product: Windows
 targetos: Windows
 req.typenames: INHERITED_FROMW, *PINHERITED_FROMW
 req.redist: 

@@ -4,8 +4,6 @@ ms.assetid: 1e610fa4-9bc1-3bf8-895c-6c81bad7aff6
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 ---
 

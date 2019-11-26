@@ -40,7 +40,6 @@ api_location:
  - AccCtrl.h
 api_name:
  - PROG_INVOKE_SETTING
-product: Windows
 targetos: Windows
 req.typenames: PROG_INVOKE_SETTING, *PPROG_INVOKE_SETTING
 req.redist: 

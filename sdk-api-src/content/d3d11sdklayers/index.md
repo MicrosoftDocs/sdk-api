@@ -4,8 +4,6 @@ ms.assetid: 81a17040-0fcd-3587-a0f7-35ea4040440b
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: direct3d11
 ---

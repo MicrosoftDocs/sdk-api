@@ -4,8 +4,6 @@ ms.assetid: aac31f17-22ba-3534-a0bf-99947d893f79
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wmi_v2
 ---
