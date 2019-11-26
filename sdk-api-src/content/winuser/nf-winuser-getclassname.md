@@ -88,17 +88,8 @@ Type: **int**
 
 If the function succeeds, the return value is the number of characters copied to the buffer, not including the terminating null character.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call [GetLastError function](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 ## -see-also
 
-**Conceptual**
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-findwindowa">FindWindow</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoa">GetClassInfo</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclasslonga">GetClassLong</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassword">GetClassWord</a>
-
-**Reference**
-
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
+[FindWindowA function](nf-winuser-findwindowa.md), [GetClassInfoA function](nf-winuser-getclassinfoa.md), [GetClassLongA function](nf-winuser-getclasslonga.md), [GetClassWord function](nf-winuser-getclassword.md), [Window Classes](https://docs.microsoft.com/windows/desktop/winmsg/window-classes)
