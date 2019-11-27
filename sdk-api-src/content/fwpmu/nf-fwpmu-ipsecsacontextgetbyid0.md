@@ -76,7 +76,7 @@ A runtime identifier for the SA context. This identifier was received from the s
 
 ### -param saContext [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context0_">IPSEC_SA_CONTEXT0</a>**</b>
+Type: [IPSEC_SA_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context0)a>**</b>
 
 Address of the IPsec SA context.
 
@@ -150,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context0_">IPSEC_SA_CONTEXT0</a>
+[IPSEC_SA_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context0)a>
 
 
 

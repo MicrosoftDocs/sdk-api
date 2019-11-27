@@ -150,7 +150,7 @@ Multiple processes can have handles of the same semaphore object, enabling use o
 <li>A process can specify the semaphore-object handle in a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function to create a duplicate handle that can be used by another process.</li>
 <li>A process can specify the name of a semaphore object in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a> or 
+[OpenSemaphore](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait)a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createsemaphoreexa">CreateSemaphoreEx</a> function.</li>
 </ul>
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The semaphore object is destroyed when its last handle has been closed.

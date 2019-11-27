@@ -83,7 +83,7 @@ Number of connection objects requested.
 
 ### -param entries [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0_">FWPM_CONNECTION0</a>***</b>
+Type: [FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)a>***</b>
 
 Addresses of enumeration entries.
 
@@ -166,7 +166,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0_">FWPM_CONNECTION0</a>
+[FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)a>
 
 
 

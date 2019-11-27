@@ -76,7 +76,7 @@ The runtime identifier for the callout. This identifier was received from the sy
 
 ### -param callout [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0_">FWPM_CALLOUT0</a>**</b>
+Type: [FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)a>**</b>
 
 Information about the state associated with the callout.
 
@@ -152,7 +152,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0_">FWPM_CALLOUT0</a>
+[FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)a>
 
 
 

@@ -62,7 +62,7 @@ The <b>IPSEC_AUTH_TRANSFORM_ID0</b> structure is used to uniquely identify the h
 
 ### -field authType
 
-The type of the hash algorithm as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_auth_type_">IPSEC_AUTH_TYPE</a>.
+The type of the hash algorithm as specified by [IPSEC_AUTH_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_auth_type)a>.
 
 
 ### -field authConfig

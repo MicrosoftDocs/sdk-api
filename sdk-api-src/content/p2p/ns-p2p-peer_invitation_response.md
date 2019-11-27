@@ -63,7 +63,7 @@ The <b>PEER_INVITATION_RESPONSE</b> structure contains a response to an invitati
 ### -field action
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_invitation_response_type_tag">PEER_INVITATION_RESPONSE_TYPE</a> enumeration value that specifies the action the peer takes in response to the invitation.
+[PEER_INVITATION_RESPONSE_TYPE](/windows/win32/api/p2p/ne-p2p-peer_invitation_response_type)a> enumeration value that specifies the action the peer takes in response to the invitation.
 
 
 ### -field pwzMessage

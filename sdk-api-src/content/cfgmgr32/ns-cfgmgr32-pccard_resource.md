@@ -62,7 +62,7 @@ The PCCARD_RESOURCE structure is used for specifying either a resource list or a
 
 ### -field PcCard_Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_des_s">PCCARD_DES</a> structure.
+A [PCCARD_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_des)a> structure.
 
 
 ## -see-also
@@ -70,7 +70,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_des_s">PCCARD_DES</a>
+[PCCARD_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_des)a>
  
 
  

@@ -94,14 +94,14 @@ Adds a point-to-point tunnel to the system.
 
 ### -param mainModePolicy [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0_">FWPM_PROVIDER_CONTEXT0</a>*</b>
+Type: [FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)a>*</b>
 
 The Main Mode policy for the IPsec tunnel.
 
 
 ### -param tunnelPolicy [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0_">FWPM_PROVIDER_CONTEXT0</a>*</b>
+Type: [FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)a>*</b>
 
 The Quick Mode policy for the IPsec tunnel.
 
@@ -115,7 +115,7 @@ Number of filter conditions present in the <i>filterConditions</i> parameter.
 
 ### -param filterConditions [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0_">FWPM_FILTER_CONDITION0</a>*</b>
+Type: [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)a>*</b>
 
 Array of filter conditions that describe the traffic which should be tunneled by IPsec.
 
@@ -208,11 +208,11 @@ with <b>FWP_E_INCOMPATIBLE_TXN</b>. See <a href="https://docs.microsoft.com/wind
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0_">FWPM_FILTER_CONDITION0</a>
+[FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0_">FWPM_PROVIDER_CONTEXT0</a>
+[FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)a>
  
 
  

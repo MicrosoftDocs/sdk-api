@@ -79,7 +79,7 @@ An array of 14 bytes that contains the transport address data.
 The SOCKADDR structure is large enough to contain a transport address for most address families. For a
     structure that is guaranteed to be large enough to contain a transport address for all possible address
     families, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a>.
+    [SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)a>.
 
 A WSK application typically does not access the 
     <b>sa_data</b> member directly. Instead, a pointer to a SOCKADDR structure is normally cast to a pointer
@@ -93,7 +93,7 @@ A WSK application typically does not access the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a>
+[SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)a>
 
 
 

@@ -64,7 +64,7 @@ The <b>FWPM_PROVIDER_CHANGE0</b> structure specifies a change notification dispa
 
 Type of change.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type_">FWPM_CHANGE_TYPE</a> for more information.
+See [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a> for more information.
 
 
 ### -field providerKey
@@ -86,7 +86,7 @@ GUID of the provider that changed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type_">FWPM_CHANGE_TYPE</a>
+[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a>
 
 
 

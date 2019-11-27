@@ -103,7 +103,7 @@ Retrieves the underlying bitmap image source from the Windows Imaging Component 
 
 
 Create an an instance of ID2D1ImageSourceFromWic 
-          using <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-createimagesourcefromwic">ID2D1DeviceContext2::CreateImageSourceFromWic</a>.
+          using [ID2D1DeviceContext2::CreateImageSourceFromWic](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromwic(iwicbitmapsource_d2d1_image_source_loading_options_d2d1_alpha_mode_id2d1imagesourcefromwic))a>.
         
 
 

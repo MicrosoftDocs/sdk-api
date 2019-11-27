@@ -110,7 +110,7 @@ The class-specific signature identified by <b>CSD_SignatureLength</b> and <b>CSD
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_resource_s">CS_RESOURCE</a>
+[CS_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_resource)a>
  
 
  

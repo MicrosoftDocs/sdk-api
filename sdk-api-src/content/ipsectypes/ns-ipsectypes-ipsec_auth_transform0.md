@@ -62,7 +62,7 @@ The <b>IPSEC_AUTH_TRANSFORM0</b> structure specifies hash specific information f
 
 ### -field authTransformId
 
-The identifier of the hash algorithm as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform_id0_">IPSEC_AUTH_TRANSFORM_ID0</a>.
+The identifier of the hash algorithm as specified by [IPSEC_AUTH_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform_id0)a>.
 
 Possible values:
 
@@ -172,7 +172,7 @@ Unused parameter, always set this to <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform_id0_">IPSEC_AUTH_TRANSFORM_ID0</a>
+[IPSEC_AUTH_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform_id0)a>
 
 
 

@@ -87,7 +87,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a> structure
+    [FWPS_DISCARD_METADATA0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0)a> structure
     contains a member of type FWPS_DISCARD_MODULE0 that specifies the type of module that discarded the
     data.
 
@@ -99,7 +99,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a>
+[FWPS_DISCARD_METADATA0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0)a>
  
 
  

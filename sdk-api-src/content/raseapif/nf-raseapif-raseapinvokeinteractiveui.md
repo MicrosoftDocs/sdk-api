@@ -142,15 +142,15 @@ The interactive user interface must support
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-functions">EAP Functions</a>
+[EAP Functions](https://docs.microsoft.com/windows/win32/eap/eap-functions)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference">Extensible Authentication Protocol Reference</a>
+[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/interactive-user-interface">Interactive User Interface</a>
+[Interactive User Interface](https://docs.microsoft.com/windows/win32/eap/interactive-user-interface)a>
 
 
 

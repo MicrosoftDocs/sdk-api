@@ -76,7 +76,7 @@ Pointer to a GUID that uniquely identifies the provider context. This is a point
 
 ### -param providerContext [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2_">FWPM_PROVIDER_CONTEXT2</a>**</b>
+Type: [FWPM_PROVIDER_CONTEXT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2)a>**</b>
 
 The provider context information.
 
@@ -150,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2_">FWPM_PROVIDER_CONTEXT2</a>
+[FWPM_PROVIDER_CONTEXT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2)a>
 
 
 

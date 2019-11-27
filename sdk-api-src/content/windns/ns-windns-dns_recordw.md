@@ -182,37 +182,37 @@ The RR data type is <a href="https://docs.microsoft.com/previous-versions/window
 
 #### ATMA, Atma
 
-The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw4">DNS_ATMA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_ATMA</b>.
+The RR data type is [DNS_ATMA_DATA](/windows/win32/api/windns/ns-windns-dns_atma_data)a>. The value of <b>wType</b> is <b>DNS_TYPE_ATMA</b>.
 
 
 
 #### NXT, Nxt
 
-The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data8">DNS_NXT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NXT</b>.
+The RR data type is [DNS_NXT_DATA](/windows/win32/api/windns/ns-windns-dns_nxt_dataa)a>. The value of <b>wType</b> is <b>DNS_TYPE_NXT</b>.
 
 
 
 #### SRV, Srv
 
-The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw0">DNS_SRV_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SRV</b>.
+The RR data type is [DNS_SRV_DATA](/windows/win32/api/windns/ns-windns-dns_srv_dataa)a>. The value of <b>wType</b> is <b>DNS_TYPE_SRV</b>.
 
 
 
 #### NAPTR, Naptr
 
-The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw2">DNS_NAPTR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NAPTR</b>.
+The RR data type is [DNS_NAPTR_DATA](/windows/win32/api/windns/ns-windns-dns_naptr_dataa)a>. The value of <b>wType</b> is <b>DNS_TYPE_NAPTR</b>.
 
 
 
 #### OPT, Opt
 
-Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data6">DNS_OPT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_OPT</b>.
+Windows 7 or later: The RR data type is [DNS_OPT_DATA](/windows/win32/api/windns/ns-windns-dns_opt_data)a>. The value of <b>wType</b> is <b>DNS_TYPE_OPT</b>.
 
 
 
 #### DS, Ds
 
-Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data5">DNS_DS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DS</b>.
+Windows 7 or later: The RR data type is [DNS_DS_DATA](/windows/win32/api/windns/ns-windns-dns_ds_data)a>. The value of <b>wType</b> is <b>DNS_TYPE_DS</b>.
 
 
 
@@ -224,7 +224,7 @@ Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/win
 
 #### NSEC, Nsec
 
-Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data0">DNS_NSEC_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NSEC</b>.
+Windows 7 or later: The RR data type is [DNS_NSEC_DATA](/windows/win32/api/windns/ns-windns-dns_nsec_dataa)a>. The value of <b>wType</b> is <b>DNS_TYPE_NSEC</b>.
 
 
 
@@ -236,13 +236,13 @@ Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/pre
 
 #### TKEY, Tkey
 
-The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw5">DNS_TKEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_TKEY</b>.
+The RR data type is [DNS_TKEY_DATA](/windows/win32/api/windns/ns-windns-dns_tkey_dataa)a>. The value of <b>wType</b> is <b>DNS_TYPE_TKEY</b>.
 
 
 
 #### TSIG, Tsig
 
-The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw7">DNS_TSIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_TSIG</b>.
+The RR data type is [DNS_TSIG_DATA](/windows/win32/api/windns/ns-windns-dns_tsig_dataa)a>. The value of <b>wType</b> is <b>DNS_TYPE_TSIG</b>.
 
 
 
@@ -681,7 +681,7 @@ Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/win
 
 ##### - Data.ATMA, Atma
 
-The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw4">DNS_ATMA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_ATMA</b>.
+The RR data type is [DNS_ATMA_DATA](/windows/win32/api/windns/ns-windns-dns_atma_data)a>. The value of <b>wType</b> is <b>DNS_TYPE_ATMA</b>.
 
 
 ##### - Data.DNSKEY, Dnskey
@@ -691,7 +691,7 @@ Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/pre
 
 ##### - Data.DS, Ds
 
-Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data5">DNS_DS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DS</b>.
+Windows 7 or later: The RR data type is [DNS_DS_DATA](/windows/win32/api/windns/ns-windns-dns_ds_data)a>. The value of <b>wType</b> is <b>DNS_TYPE_DS</b>.
 
 
 ##### - Data.HINFO, Hinfo, ISDN, Isdn, TXT, Txt, X25
@@ -716,22 +716,22 @@ The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns
 
 ##### - Data.NAPTR, Naptr
 
-The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw2">DNS_NAPTR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NAPTR</b>.
+The RR data type is [DNS_NAPTR_DATA](/windows/win32/api/windns/ns-windns-dns_naptr_dataa)a>. The value of <b>wType</b> is <b>DNS_TYPE_NAPTR</b>.
 
 
 ##### - Data.NSEC, Nsec
 
-Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data0">DNS_NSEC_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NSEC</b>.
+Windows 7 or later: The RR data type is [DNS_NSEC_DATA](/windows/win32/api/windns/ns-windns-dns_nsec_dataa)a>. The value of <b>wType</b> is <b>DNS_TYPE_NSEC</b>.
 
 
 ##### - Data.NXT, Nxt
 
-The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data8">DNS_NXT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NXT</b>.
+The RR data type is [DNS_NXT_DATA](/windows/win32/api/windns/ns-windns-dns_nxt_dataa)a>. The value of <b>wType</b> is <b>DNS_TYPE_NXT</b>.
 
 
 ##### - Data.OPT, Opt
 
-Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data6">DNS_OPT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_OPT</b>.
+Windows 7 or later: The RR data type is [DNS_OPT_DATA](/windows/win32/api/windns/ns-windns-dns_opt_data)a>. The value of <b>wType</b> is <b>DNS_TYPE_OPT</b>.
 
 
 ##### - Data.PTR, Ptr, NS, Ns, CNAME, Cname, DNAME, Dname, MB, Mb, MD, Md, MF, Mf, MG, Mg, MR, Mr
@@ -756,17 +756,17 @@ The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns
 
 ##### - Data.SRV, Srv
 
-The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw0">DNS_SRV_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SRV</b>.
+The RR data type is [DNS_SRV_DATA](/windows/win32/api/windns/ns-windns-dns_srv_dataa)a>. The value of <b>wType</b> is <b>DNS_TYPE_SRV</b>.
 
 
 ##### - Data.TKEY, Tkey
 
-The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw5">DNS_TKEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_TKEY</b>.
+The RR data type is [DNS_TKEY_DATA](/windows/win32/api/windns/ns-windns-dns_tkey_dataa)a>. The value of <b>wType</b> is <b>DNS_TYPE_TKEY</b>.
 
 
 ##### - Data.TSIG, Tsig
 
-The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw7">DNS_TSIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_TSIG</b>.
+The RR data type is [DNS_TSIG_DATA](/windows/win32/api/windns/ns-windns-dns_tsig_dataa)a>. The value of <b>wType</b> is <b>DNS_TYPE_TSIG</b>.
 
 
 ##### - Data.WINS, Wins
@@ -804,7 +804,7 @@ When building a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw4">DNS_ATMA_DATA</a>
+[DNS_ATMA_DATA](/windows/win32/api/windns/ns-windns-dns_atma_data)a>
 
 
 
@@ -820,7 +820,7 @@ When building a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data5">DNS_DS_DATA</a>
+[DNS_DS_DATA](/windows/win32/api/windns/ns-windns-dns_ds_data)a>
 
 
 
@@ -828,7 +828,7 @@ When building a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data7">DNS_LOC_DATA</a>
+[DNS_LOC_DATA](/windows/win32/api/windns/ns-windns-dns_loc_data)a>
 
 
 
@@ -840,11 +840,11 @@ When building a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw2">DNS_NAPTR_DATA</a>
+[DNS_NAPTR_DATA](/windows/win32/api/windns/ns-windns-dns_naptr_dataa)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data0">DNS_NSEC_DATA</a>
+[DNS_NSEC_DATA](/windows/win32/api/windns/ns-windns-dns_nsec_dataa)a>
 
 
 
@@ -852,11 +852,11 @@ When building a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data8">DNS_NXT_DATA</a>
+[DNS_NXT_DATA](/windows/win32/api/windns/ns-windns-dns_nxt_dataa)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data6">DNS_OPT_DATA</a>
+[DNS_OPT_DATA](/windows/win32/api/windns/ns-windns-dns_opt_data)a>
 
 
 
@@ -876,15 +876,15 @@ When building a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw0">DNS_SRV_DATA</a>
+[DNS_SRV_DATA](/windows/win32/api/windns/ns-windns-dns_srv_dataa)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw5">DNS_TKEY_DATA</a>
+[DNS_TKEY_DATA](/windows/win32/api/windns/ns-windns-dns_tkey_dataa)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw7">DNS_TSIG_DATA</a>
+[DNS_TSIG_DATA](/windows/win32/api/windns/ns-windns-dns_tsig_dataa)a>
 
 
 

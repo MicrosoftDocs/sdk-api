@@ -73,7 +73,7 @@ Handle to the ACM driver to query for waveform-audio filter details. If this par
 
 ### -param pafd
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfilterdetails">ACMFILTERDETAILS</a> structure that contains the filter details when it is passed to the function specified by <i>fnCallback</i>. When your application calls <b>acmFilterEnum</b>, the <b>cbStruct</b>, <b>pwfltr</b>, and <b>cbwfltr</b> members of this structure must be initialized. The <b>dwFilterTag</b> member must also be initialized to either WAVE_FILTER_UNKNOWN or a valid filter tag.
+Pointer to the [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a> structure that contains the filter details when it is passed to the function specified by <i>fnCallback</i>. When your application calls <b>acmFilterEnum</b>, the <b>cbStruct</b>, <b>pwfltr</b>, and <b>cbwfltr</b> members of this structure must be initialized. The <b>dwFilterTag</b> member must also be initialized to either WAVE_FILTER_UNKNOWN or a valid filter tag.
 
 
 ### -param fnCallback
@@ -99,7 +99,7 @@ Flags for enumerating the filters for a given filter tag. The following values a
 </tr>
 <tr>
 <td>ACM_FILTERENUMF_DWFILTERTAG</td>
-<td>The <b>dwFilterTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter">WAVEFILTER</a> structure pointed to by the <b>pwfltr</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfilterdetails">ACMFILTERDETAILS</a> structure is valid. The enumerator will enumerate only a filter that conforms to this attribute. The <b>dwFilterTag</b> member of the <b>ACMFILTERDETAILS</b> structure must be equal to the <b>dwFilterTag</b> member of the <b>WAVEFILTER</b> structure.</td>
+[ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a> structure is valid. The enumerator will enumerate only a filter that conforms to this attribute. The <b>dwFilterTag</b> member of the <b>ACMFILTERDETAILS</b> structure must be equal to the <b>dwFilterTag</b> member of the <b>WAVEFILTER</b> structure.</td>
 </tr>
 </table>
  

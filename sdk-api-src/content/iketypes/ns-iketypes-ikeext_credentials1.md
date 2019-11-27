@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_CREDENTIALS1</b> structure is used to store multiple credential pairs.
-<div class="alert"><b>Note</b>  <b>IKEEXT_CREDENTIALS1</b> is the specific implementation of IKEEXT_CREDENTIALS used in Windows 7. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials2_">IKEEXT_CREDENTIALS2</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials0_">IKEEXT_CREDENTIALS0</a> is available.</div><div> </div>
+[IKEEXT_CREDENTIALS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials0)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -62,14 +62,14 @@ The <b>IKEEXT_CREDENTIALS1</b> structure is used to store multiple credential pa
 
 ### -field numCredentials
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1_">IKEEXT_CREDENTIAL_PAIR1</a> structures in the array.
+Number of [IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1)a> structures in the array.
 
 
 ### -field credentials
 
 [size_is(numCredentials)]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1_">IKEEXT_CREDENTIAL_PAIR1</a> structures.
+Pointer to an array of [IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1)a> structures.
 
 
 ## -remarks
@@ -94,7 +94,7 @@ is index 1.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1_">IKEEXT_CREDENTIAL_PAIR1</a>
+[IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1)a>
 
 
 

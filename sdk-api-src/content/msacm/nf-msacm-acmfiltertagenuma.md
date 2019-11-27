@@ -73,7 +73,7 @@ Handle to the ACM driver to query for waveform-audio filter tag details. If this
 
 ### -param paftd
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfiltertagdetails">ACMFILTERTAGDETAILS</a> structure that contains the filter tag details when it is passed to the <b>fnCallback</b> function. When your application calls <b>acmFilterTagEnum</b>, the <b>cbStruct</b> member of this structure must be initialized.
+Pointer to the [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails)a> structure that contains the filter tag details when it is passed to the <b>fnCallback</b> function. When your application calls <b>acmFilterTagEnum</b>, the <b>cbStruct</b> member of this structure must be initialized.
 
 
 ### -param fnCallback

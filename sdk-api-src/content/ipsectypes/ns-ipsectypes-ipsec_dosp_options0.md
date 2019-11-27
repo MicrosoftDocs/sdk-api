@@ -230,12 +230,12 @@ Pointer to an array of internal network facing interface identifiers for which D
 
 ### -field publicV6AddrMask
 
-Optional public IPv6 address or subnet for this policy, as specified in <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask_">FWP_V6_ADDR_AND_MASK</a>.
+Optional public IPv6 address or subnet for this policy, as specified in [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a>.
 
 
 ### -field internalV6AddrMask
 
-Optional internal IPv6 address or subnet for this policy, as specified in <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask_">FWP_V6_ADDR_AND_MASK</a>.
+Optional internal IPv6 address or subnet for this policy, as specified in [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a>.
 
 
 ## -remarks
@@ -252,7 +252,7 @@ Optional internal IPv6 address or subnet for this policy, as specified in <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask_">FWP_V6_ADDR_AND_MASK</a>
+[FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a>
 
 
 

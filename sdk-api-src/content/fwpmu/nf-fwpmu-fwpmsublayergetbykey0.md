@@ -76,7 +76,7 @@ Unique identifier of  the sublayer. This is the same GUID that was specified whe
 
 ### -param subLayer [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0_">FWPM_SUBLAYER0</a>**</b>
+Type: [FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)a>**</b>
 
 The sublayer information.
 
@@ -152,7 +152,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0_">FWPM_SUBLAYER0</a>
+[FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)a>
 
 
 

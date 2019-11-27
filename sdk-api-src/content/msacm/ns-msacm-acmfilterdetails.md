@@ -70,7 +70,7 @@ Size, in bytes, of the <b>ACMFILTERDETAILS</b> structure. This member must be in
 
 ### -field dwFilterIndex
 
-Index of the filter about which details will be retrieved. The index ranges from zero to one less than the number of standard filters supported by an ACM driver for a filter tag. The number of standard filters supported by a driver for a filter tag is contained in the <b>cStandardFilters</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfiltertagdetails">ACMFILTERTAGDETAILS</a> structure. The <b>dwFilterIndex</b> member is used only when querying standard filter details about a driver by index; otherwise, this member should be zero. Also, this member will be set to zero by the ACM when an application queries for details on a filter; in other words, this member is used only for input and is never returned by the ACM or an ACM driver.
+Index of the filter about which details will be retrieved. The index ranges from zero to one less than the number of standard filters supported by an ACM driver for a filter tag. The number of standard filters supported by a driver for a filter tag is contained in the [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a> structure. The <b>dwFilterIndex</b> member is used only when querying standard filter details about a driver by index; otherwise, this member should be zero. Also, this member will be set to zero by the ACM when an application queries for details on a filter; in other words, this member is used only for input and is never returned by the ACM or an ACM driver.
 
 
 ### -field dwFilterTag
@@ -80,7 +80,7 @@ Waveform-audio filter tag that the <b>ACMFILTERDETAILS</b> structure describes. 
 
 ### -field fdwSupport
 
-Driver-support flags specific to the specified filter. These flags are identical to the <b>fdwSupport</b> flags of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure, but they are specific to the filter that is being queried. This member can be a combination of the following values and identifies which operations the driver supports for the filter tag:
+Driver-support flags specific to the specified filter. These flags are identical to the [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure, but they are specific to the filter that is being queried. This member can be a combination of the following values and identifies which operations the driver supports for the filter tag:
 
 <table>
 <tr>
@@ -161,11 +161,11 @@ String that describes the filter for the <b>dwFilterTag</b> type. If the <a href
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a>
+[ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfiltertagdetails">ACMFILTERTAGDETAILS</a>
+[ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a>
 
 
 

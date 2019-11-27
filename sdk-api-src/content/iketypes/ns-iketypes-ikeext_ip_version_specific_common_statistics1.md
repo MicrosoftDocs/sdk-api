@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1</b> structure contains various statistics common to the keying module (IKE,  Authip, and IKEv2).
-<div class="alert"><b>Note</b>  <b>IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1</b> is the specific implementation of IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics0">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics0_">IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0</a> is available.</div><div> </div>
+[IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics0)a> is available.</div><div> </div>
 
 ## -struct-fields
 

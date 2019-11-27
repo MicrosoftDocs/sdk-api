@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_STATISTICS0</b> structure stores various IKE/AuthIP statistics.
-<div class="alert"><b>Note</b>  <b>IKEEXT_STATISTICS0</b> is the specific implementation of IKEEXT_STATISTICS used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_statistics1_">IKEEXT_STATISTICS1</a> is available.</div><div> </div>
+[IKEEXT_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_statistics1)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -64,21 +64,21 @@ The <b>IKEEXT_STATISTICS0</b> structure stores various IKE/AuthIP statistics.
 
 Statistics specific to IKE.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0_">IKEEXT_KEYMODULE_STATISTICS0</a> for more information.
+See [IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0)a> for more information.
 
 
 ### -field authipStatistics
 
 Statistics specific to AuthIP.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0_">IKEEXT_KEYMODULE_STATISTICS0</a> for more information.
+See [IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0)a> for more information.
 
 
 ### -field commonStatistics
 
 Statistics common to IKE and AuthIP.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics0_">IKEEXT_COMMON_STATISTICS0</a> for more information.
+See [IKEEXT_COMMON_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics0)a> for more information.
 
 
 ## -see-also
@@ -86,7 +86,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0_">IKEEXT_KEYMODULE_STATISTICS0</a>
+[IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0)a>
 
 
 

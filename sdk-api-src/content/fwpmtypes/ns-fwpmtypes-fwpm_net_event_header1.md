@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_HEADER1</b> structure contains information common to all events. Reserved.
-<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_HEADER1</b> is a specific implementation of FWPM_NET_EVENT_HEADER that is reserved for system use. For Windows Vista and Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0_">FWPM_NET_EVENT_HEADER0</a> is available. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2_">FWPM_NET_EVENT_HEADER2</a> is available. </div><div> </div>
+[FWPM_NET_EVENT_HEADER2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2)a> is available. </div><div> </div>
 
 ## -struct-fields
 
@@ -174,7 +174,7 @@ The <b>ipVersion</b> member is set.
 
 ### -field ipVersion
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a> value that specifies the IP version being used. 
+An [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a> value that specifies the IP version being used. 
 
 
 ### -field ipProtocol
@@ -191,7 +191,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field localAddrV6
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16_">FWP_BYTE_ARRAY16</a> structure that specifies an IPv6 local address.
+A [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a> structure that specifies an IPv6 local address.
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
@@ -205,7 +205,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field remoteAddrV6
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16_">FWP_BYTE_ARRAY16</a> structure that specifies an IPv6 remote address.
+An [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a> structure that specifies an IPv6 remote address.
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
@@ -227,7 +227,7 @@ IPv6 scope ID.
 
 ### -field appId
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> that specifies the application ID of the local application associated with the event.
+An [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> that specifies the application ID of the local application associated with the event.
 
 
 ### -field userId
@@ -354,7 +354,7 @@ The interface LUID corresponding to the network interface with which this packet
 
 
 
-This structure is reserved for system use. <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0_">FWPM_NET_EVENT_HEADER0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2_">FWPM_NET_EVENT_HEADER2</a> should be used in place of <b>FWPM_NET_EVENT_HEADER1</b>.
+This structure is reserved for system use. [FWPM_NET_EVENT_HEADER2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2)a> should be used in place of <b>FWPM_NET_EVENT_HEADER1</b>.
 
 
 
@@ -364,11 +364,11 @@ This structure is reserved for system use. <a href="https://docs.microsoft.com/w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0_">FWPM_NET_EVENT_HEADER0</a>
+[FWPM_NET_EVENT_HEADER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2_">FWPM_NET_EVENT_HEADER2</a>
+[FWPM_NET_EVENT_HEADER2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2)a>
  
 
  

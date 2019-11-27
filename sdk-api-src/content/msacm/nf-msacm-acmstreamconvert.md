@@ -179,7 +179,7 @@ At least one parameter is invalid.
 
 You must use the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a> function to prepare the source and destination buffers before they are passed to <b>acmStreamConvert</b>.
 
-If an asynchronous conversion request is successfully queued by the ACM or driver and the conversion is later determined to be impossible, the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmstreamheader">ACMSTREAMHEADER</a> structure is posted back to the application's callback function with the <b>cbDstLengthUsed</b> member set to zero.
+If an asynchronous conversion request is successfully queued by the ACM or driver and the conversion is later determined to be impossible, the [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader)a> structure is posted back to the application's callback function with the <b>cbDstLengthUsed</b> member set to zero.
 
 
 

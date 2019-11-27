@@ -69,14 +69,14 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param eventType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type_">FWPM_CONNECTION_EVENT_TYPE</a></b>
+Type: [FWPM_CONNECTION_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type)a></b>
 
 The type of connection object change event.
 
 
 ### -param *connection [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0_">FWPM_CONNECTION0</a>*</b>
+Type: [FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)a>*</b>
 
 The connection object change information.
 
@@ -104,11 +104,11 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpm
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0_">FWPM_CONNECTION0</a>
+[FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type_">FWPM_CONNECTION_EVENT_TYPE</a>
+[FWPM_CONNECTION_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type)a>
 
 
 

@@ -137,11 +137,11 @@ Specifies the data transmitted by this packet. If the packet is a request or a r
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-structures">EAP Structures</a>
+[EAP Structures](https://docs.microsoft.com/windows/win32/eap/eap-structures)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference">Extensible Authentication Protocol Reference</a>
+[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
 
 
 

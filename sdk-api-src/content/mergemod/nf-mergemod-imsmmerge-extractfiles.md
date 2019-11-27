@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 The 
 <b>ExtractFiles</b> method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see  the 
-<a href="https://docs.microsoft.com/windows/desktop/api/advpub/nf-advpub-extractfilesa">ExtractFiles</a> method of the 
+[ExtractFiles](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-extractfiles)a> method of the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object.  
 
 <b>IMsmMerge2::ExtractFiles</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::ExtractFiles</b>      All Mergemod.dll versions.

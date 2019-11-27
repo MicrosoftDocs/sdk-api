@@ -64,7 +64,7 @@ The <b>FWPM_SUBLAYER_SUBSCRIPTION0</b> structure is used to subscribe for change
 
  Enumeration template for limiting the subscription.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0_">FWPM_SUBLAYER_ENUM_TEMPLATE0</a> for more information.
+See [FWPM_SUBLAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0)a> for more information.
 
 
 ### -field flags
@@ -124,7 +124,7 @@ If
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0_">FWPM_SUBLAYER_ENUM_TEMPLATE0</a>
+[FWPM_SUBLAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0)a>
 
 
 

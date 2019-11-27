@@ -62,7 +62,7 @@ The BUSNUMBER_RESOURCE structure specifies either a resource list or a resource 
 
 ### -field BusNumber_Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des_s">BUSNUMBER_DES</a> structure.
+A [BUSNUMBER_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des)a> structure.
 
 
 ### -field BusNumber_Data
@@ -79,7 +79,7 @@ Zero.
 
 #### For a resource requirements list:
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range_s">BUSNUMBER_RANGE</a> array.
+A [BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range)a> array.
 
 
 ## -see-also
@@ -87,11 +87,11 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des_s">BUSNUMBER_DES</a>
+[BUSNUMBER_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range_s">BUSNUMBER_RANGE</a>
+[BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range)a>
  
 
  

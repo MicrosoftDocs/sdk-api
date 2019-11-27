@@ -69,7 +69,7 @@ Uniquely identifies the Key Manager.
 
 ### -field displayData
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a></b>
+Type: [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a></b>
 
 Contains annotations associated with the filter.
 
@@ -111,7 +111,7 @@ Time, in seconds, after which the <b>keyDictation</b> callback must return in or
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a>
+[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a>
 
 
 

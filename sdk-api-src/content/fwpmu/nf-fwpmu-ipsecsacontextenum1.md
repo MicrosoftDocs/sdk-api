@@ -83,7 +83,7 @@ Number of SA contexts requested.
 
 ### -param entries [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1_">IPSEC_SA_CONTEXT1</a>***</b>
+Type: [IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)a>***</b>
 
 Addresses of the enumeration entries.
 
@@ -164,7 +164,7 @@ The returned array of entries (but not the individual entries themselves) must b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1_">IPSEC_SA_CONTEXT1</a>
+[IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)a>
 
 
 

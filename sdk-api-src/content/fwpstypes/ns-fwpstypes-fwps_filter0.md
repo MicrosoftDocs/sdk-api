@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>FWPS_FILTER0</b> structure defines a run-time filter in the filter engine.
-<div class="alert"><b>Note</b>  <b>FWPS_FILTER0</b> is the specific version of <b>FWPS_FILTER</b> used in Windows Vista and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2_">FWPS_FILTER2</a> is available. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a> is available.</div><div> </div>
+[FWPS_FILTER2](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2)a> is available. For Windows 7, [FWPS_FILTER1](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -133,7 +133,7 @@ This flag indicates to a callout's
 ### -field numFilterConditions
 
 The number of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0_">FWPS_FILTER_CONDITION0</a> structures in
+     [FWPS_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0)a> structures in
      the array pointed to by the 
      <b>filterCondition</b> member. This member can be zero.
 
@@ -141,7 +141,7 @@ The number of
 ### -field filterCondition
 
 A pointer to an array of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0_">FWPS_FILTER_CONDITION0</a> structures.
+     [FWPS_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0)a> structures.
      These structures define the run-time filtering conditions for the filter. If the 
      <b>numFilterConditions</b> member is zero, then this pointer will be <b>NULL</b>.
 
@@ -149,7 +149,7 @@ A pointer to an array of
 ### -field action
 
 An 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0_">FWPS_ACTION0</a> structure that specifies the
+     [FWPS_ACTION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0)a> structure that specifies the
      action that the filter should take if all of the filter's filtering conditions are true.
 
 
@@ -198,19 +198,19 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0_">FWPS_ACTION0</a>
+[FWPS_ACTION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
+[FWPS_FILTER1](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2_">FWPS_FILTER2</a>
+[FWPS_FILTER2](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0_">FWPS_FILTER_CONDITION0</a>
+[FWPS_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0)a>
 
 
 

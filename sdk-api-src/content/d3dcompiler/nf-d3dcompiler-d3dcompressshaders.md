@@ -69,9 +69,9 @@ The number of shaders to compress.
 
 ### -param pShaderData [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d-shader-data">D3D_SHADER_DATA</a>*</b>
+Type: [D3D_SHADER_DATA](/windows/win32/api/d3dcompiler/ns-d3dcompiler-d3d_shader_data)a>*</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d-shader-data">D3D_SHADER_DATA</a> structures that describe the set of shaders to compress.
+An array of [D3D_SHADER_DATA](/windows/win32/api/d3dcompiler/ns-d3dcompiler-d3d_shader_data)a> structures that describe the set of shaders to compress.
 
 
 ### -param uFlags [in]

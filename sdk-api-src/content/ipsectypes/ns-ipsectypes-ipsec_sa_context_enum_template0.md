@@ -62,16 +62,16 @@ The <b>IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</b>	structure is an enumeration template 
 
 ### -field localSubNet
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0_">FWP_CONDITION_VALUE0</a> structure that specifies a subnet from which SA contexts that contain a local address will be returned.  This member may be empty.
+An [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a> structure that specifies a subnet from which SA contexts that contain a local address will be returned.  This member may be empty.
 
-Acceptable type values for this member are: <b>FWP_UINT32</b>, <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16_">FWP_BYTE_ARRAY16_TYPE</a>, <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v4_addr_and_mask_">FWP_V4_ADDR_AND_MASK</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask_">FWP_V6_ADDR_AND_MASK</a>.
+Acceptable type values for this member are: [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a>.
 
 
 ### -field remoteSubNet
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0_">FWP_CONDITION_VALUE0</a> structure that specifies a subnet from which SA contexts that contain a remote address will be returned.  This member may be empty.
+An [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a> structure that specifies a subnet from which SA contexts that contain a remote address will be returned.  This member may be empty.
 
-Acceptable type values for this member are: <b>FWP_UINT32</b>, <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16_">FWP_BYTE_ARRAY16_TYPE</a>, <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v4_addr_and_mask_">FWP_V4_ADDR_AND_MASK</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask_">FWP_V6_ADDR_AND_MASK</a>.
+Acceptable type values for this member are: [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a>.
 
 
 ## -remarks
@@ -88,7 +88,7 @@ Acceptable type values for this member are: <b>FWP_UINT32</b>, <a href="https://
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0_">FWP_CONDITION_VALUE0</a>
+[FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a>
  
 
  

@@ -66,7 +66,7 @@ Retrieves the flags that indicate the selected indexer options.
 
 ### -param pdwFlags [out]
 
-Receives a bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_indexerflags">MFASF_INDEXER_FLAGS</a> enumeration.
+Receives a bitwise OR of zero or more flags from the [MFASF_INDEXER_FLAGS](/windows/win32/api/wmcontainer/ne-wmcontainer-mfasf_indexer_flags)a> enumeration.
 
 
 ## -returns

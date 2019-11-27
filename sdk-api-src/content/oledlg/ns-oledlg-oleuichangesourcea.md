@@ -129,7 +129,7 @@ Pointer to a hook function that processes messages intended for the dialog box. 
 
 ### -field lCustData
 
-Application-defined data that the library passes to the hook function pointed to by the <b>lpfnHook</b> member. The library passes a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuichangeicona">OLEUICHANGEICON</a> structure in the <i>lParam</i> parameter of the WM_INITDIALOG message; this pointer can be used to retrieve the <b>lCustData</b> member. 
+Application-defined data that the library passes to the hook function pointed to by the [OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)a> structure in the <i>lParam</i> parameter of the WM_INITDIALOG message; this pointer can be used to retrieve the <b>lCustData</b> member. 
 
 
 ### -field hInstance

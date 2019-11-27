@@ -88,7 +88,7 @@ The format of the network address is a string in Internet standard hexadecimal e
 
 The <b>NET_ADDRESS_FORMAT</b> enumeration is defined on Windows Vista and later. 
 
-The <b>NET_ADDRESS_FORMAT</b> enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info_">NET_ADDRESS_INFO</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a> function. 
+The [NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-parsenetworkstring">ParseNetworkString</a> function. 
 
 
 
@@ -98,7 +98,7 @@ The <b>NET_ADDRESS_FORMAT</b> enumeration is used in the <a href="https://docs.m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info_">NET_ADDRESS_INFO</a>
+[NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)a>
 
 
 

@@ -62,7 +62,7 @@ The CS_RESOURCE structure is used for specifying a resource list that describes 
 
 ### -field CS_Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des_s">CS_DES</a> structure.
+A [CS_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des)a> structure.
 
 
 ## -see-also
@@ -70,7 +70,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des_s">CS_DES</a>
+[CS_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des)a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerDistClientFlushContent</b> function allows a client to remove content  added to the local cache with the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientadddata">PeerDistClientAddData</a> function using the associated <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_content_tag_tag">PEERDIST_CONTENT_TAG</a>.
+The [PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag)a>.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.co
 
 ### -param pContentTag [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_content_tag_tag">PEERDIST_CONTENT_TAG</a> structure that contains the tag supplied when <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> is called.
+Pointer to a [PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag)a> structure that contains the tag supplied when <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> is called.
 
 
 ### -param hCompletionPort [in, optional]
@@ -160,7 +160,7 @@ The <i>pContentTag</i> is a client supplied tag passed to <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_content_tag_tag">PEERDIST_CONTENT_TAG</a>
+[PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag)a>
 
 
 

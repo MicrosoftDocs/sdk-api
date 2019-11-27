@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the version of the virtual hard disk (VHD) <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info">STORAGE_DEPENDENCY_INFO</a> structure to use in calls to VHD functions.
+Contains the version of the virtual hard disk (VHD) [STORAGE_DEPENDENCY_INFO](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info)a> structure to use in calls to VHD functions.
 
 
 ## -enum-fields

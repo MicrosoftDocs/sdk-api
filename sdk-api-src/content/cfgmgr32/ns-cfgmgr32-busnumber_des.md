@@ -74,7 +74,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range_s">BUSNUMBER_RANGE</a> array that is included in the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource_s">BUSNUMBER_RESOURCE</a> structure.
+The number of elements in the [BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range)a> array that is included in the [BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)a> structure.
 
 
 ### -field BUSD_Type
@@ -125,7 +125,7 @@ Zero.
 
 
 
-The BUSNUMBER_DES structure is included as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource_s">BUSNUMBER_RESOURCE</a> structure.
+The BUSNUMBER_DES structure is included as a member of the [BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)a> structure.
 
 
 
@@ -135,11 +135,11 @@ The BUSNUMBER_DES structure is included as a member of the <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range_s">BUSNUMBER_RANGE</a>
+[BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource_s">BUSNUMBER_RESOURCE</a>
+[BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)a>
  
 
  

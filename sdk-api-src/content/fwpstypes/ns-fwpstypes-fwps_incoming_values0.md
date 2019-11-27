@@ -73,7 +73,7 @@ The run-time filtering layer identifier for the filtering layer at which the dat
 ### -field valueCount
 
 The number of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0_">FWPS_INCOMING_VALUE0</a> structures in the
+     [FWPS_INCOMING_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0)a> structures in the
      array pointed to by the 
      <b>incomingValue</b> member.
 
@@ -81,7 +81,7 @@ The number of
 ### -field incomingValue
 
 A pointer to an array of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0_">FWPS_INCOMING_VALUE0</a> structures that
+     [FWPS_INCOMING_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0)a> structures that
      contain the data values.
 
 
@@ -100,7 +100,7 @@ The filter engine passes a pointer to an FWPS_INCOMING_VALUES0 structure to a ca
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0_">FWPS_INCOMING_VALUE0</a>
+[FWPS_INCOMING_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_value0)a>
 
 
 

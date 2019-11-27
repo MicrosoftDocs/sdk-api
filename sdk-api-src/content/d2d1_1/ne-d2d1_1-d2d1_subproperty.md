@@ -113,11 +113,11 @@ An index sub-property used by the elements of the <b>D2D1_SUBPROPERTY_FIELDS</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertynamelength(u_)">ID2D1Properties::GetPropertyNameLength</a>
+[ID2D1Properties::GetPropertyNameLength](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertynamelength(u))a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getsubproperties(u_id2d1properties_)">ID2D1Properties::GetSubProperties</a>
+[ID2D1Properties::GetSubProperties](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getsubproperties(u_id2d1properties))a>
 
 
 

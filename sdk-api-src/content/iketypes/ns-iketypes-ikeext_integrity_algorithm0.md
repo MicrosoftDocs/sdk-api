@@ -64,7 +64,7 @@ The <b>IKEEXT_INTEGRITY_ALGORITHM0</b> structure stores the IKE/AuthIP hash algo
 
 The type of hash algorithm.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type_">IKEEXT_INTEGRITY_TYPE</a> for more information.
+See [IKEEXT_INTEGRITY_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type)a> for more information.
 
 
 ## -remarks
@@ -81,7 +81,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type_">IKEEXT_INTEGRITY_TYPE</a>
+[IKEEXT_INTEGRITY_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type)a>
 
 
 

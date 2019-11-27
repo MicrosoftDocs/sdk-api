@@ -64,14 +64,14 @@ The <b>EAP_UI_DATA_FORMAT</b> union specifies the value of the attribute stored 
 
 case(<i>EapCredReq</i>)
 
-If <i>dwDataType</i> specifies a credential request type (<i>EapCredReq</i>), then the data pointed to by this parameter is defined by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-cred-req">EAP_CRED_REQ </a>structure. 
+If [EAP_CRED_REQ](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-req)a>structure. 
 
  
 
 
 case(<i>EapCredResp</i>)
 
-If <i>dwDataType</i> specifies a credential response type (<i>EapCredResp</i>), then the data pointed to by this parameter is defined by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-cred-resp">EAP_CRED_RESP</a> structure
+If [EAP_CRED_RESP](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-resp)a> structure
 
 
 ### -field credExpiryData
@@ -89,12 +89,12 @@ If <i>dwDataType</i> specifies a credential expiry response type (<i>eapCredExpi
 
 case(<i>EapCredLogonReq</i>)
 
-If <i>dwDataType</i> specifies a logon credential request type (<i>EapCredLogonReq</i>),  the data pointed to by this parameter is defined by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-cred-logon-req">EAP_CRED_LOGON_REQ</a> structure. 
+If [EAP_CRED_LOGON_REQ](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-logon-req)a> structure. 
 
 
 case(<i>EapCredLogonResp</i>)
 
-If <i>dwDataType</i> specifies a logon credential response type (<i>EapCredLogonResp</i>), the data pointed to by this parameter is defined by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-cred-logon-resp">EAP_CRED_LOGON_RESP</a> structure
+If [EAP_CRED_LOGON_RESP](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-logon-resp)a> structure
 
 
 
@@ -111,11 +111,11 @@ If <i>dwDataType</i> specifies a logon credential response type (<i>EapCredLogon
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-cred-req">EAP_CRED_REQ</a>
+[EAP_CRED_REQ](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-req)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-cred-resp">EAP_CRED_RESP</a>
+[EAP_CRED_RESP](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-resp)a>
 
 
 

@@ -67,7 +67,7 @@ Not used. Set to 0.
 
 ### -param pCredentialsDoc [in]
 
- A pointer to an XML node of a document that contains credentials which are either user or machine credentials depending on the configuration passed in. The XML document is created with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphostusercredentialsschema-schema">EapHostUserCredentials Schema</a>.
+ A pointer to an XML node of a document that contains credentials which are either user or machine credentials depending on the configuration passed in. The XML document is created with the [EapHostUserCredentials Schema](https://docs.microsoft.com/windows/win32/eaphost/eaphostusercredentialsschema-schema)a>.
 
 
 ### -param dwSizeOfConfigIn [in]
@@ -127,7 +127,7 @@ The configuration BLOB is originally returned by one of the following methods.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-configuration-functions">EAPHost Supplicant Configuration Functions</a>
+[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
 
 
 

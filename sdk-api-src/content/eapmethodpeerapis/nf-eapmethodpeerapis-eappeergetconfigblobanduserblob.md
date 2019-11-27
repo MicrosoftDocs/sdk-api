@@ -62,7 +62,7 @@ The <b>EapPeerGetConfigBlobAndUserBlob</b> method allows EAP method developers t
 
 ### -param dwFlags [in]
 
-A combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-flags">EAP flags</a> that describe the EAP authentication session behavior.
+A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the EAP authentication session behavior.
 
 
 ### -param eapMethodType [in]
@@ -123,7 +123,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-flags">EAP flags</a>
+[EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a>
 
 
 

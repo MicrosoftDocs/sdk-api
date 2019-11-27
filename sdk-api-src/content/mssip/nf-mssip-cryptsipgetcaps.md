@@ -62,7 +62,7 @@ The <b>CryptSIPGetCaps</b> function retrieves the capabilities of a <a href="htt
 
 ### -param pSubjInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure that specifies subject information data to the SIP APIs.
+Pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that specifies subject information data to the SIP APIs.
 
 
 ### -param pCaps [in, out]
@@ -74,7 +74,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-ms
 
 
 
-Unlike other SIP functions, <b>CryptSIPGetCaps</b> is not registered in the dispatch table. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info_">SIP_DISPATCH_INFO</a> structure. Instead, callers must map the object identifier (OID) to the function entry point. 
+Unlike other SIP functions, [SIP_DISPATCH_INFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info)a> structure. Instead, callers must map the object identifier (OID) to the function entry point. 
 
 
 
@@ -88,7 +88,7 @@ Unlike other SIP functions, <b>CryptSIPGetCaps</b> is not registered in the disp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a>
+[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a>
 
 
 

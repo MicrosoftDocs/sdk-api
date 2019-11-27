@@ -64,7 +64,7 @@ Invokes the standard <b>Change Icon</b> dialog box, which allows the user to sel
 
 ### -param Arg1 [in]
 
- Pointer to the In/Out <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuichangeicona">OLEUICHANGEICON</a> structure for this dialog box.
+ Pointer to the In/Out [OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)a> structure for this dialog box.
 
 
 ## -returns
@@ -405,7 +405,7 @@ The <i>szIconExe</i> value was invalid.
 
 
 
-<b>OleUIChangeIcon</b> uses information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuichangeicona">OLEUICHANGEICON</a> structure.
+[OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)a> structure.
 
 
 
@@ -416,7 +416,7 @@ The <i>szIconExe</i> value was invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuichangeicona">OLEUICHANGEICON</a>
+[OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)a>
  
 
  

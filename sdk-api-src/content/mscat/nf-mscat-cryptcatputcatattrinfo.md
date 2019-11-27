@@ -176,7 +176,7 @@ A pointer to a memory buffer that contains the attribute value.
 
 
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute_">CRYPTCATATTRIBUTE</a> structure that contains the catalog attribute. The caller must not free this pointer or any of its members.
+A pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a> structure that contains the catalog attribute. The caller must not free this pointer or any of its members.
 
 
 If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.

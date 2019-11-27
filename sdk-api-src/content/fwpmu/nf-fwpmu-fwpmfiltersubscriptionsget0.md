@@ -69,7 +69,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param entries [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0_">FWPM_FILTER_SUBSCRIPTION0</a>***</b>
+Type: [FWPM_FILTER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)a>***</b>
 
 The current filter change notification subscriptions.
 
@@ -152,7 +152,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0_">FWPM_FILTER_SUBSCRIPTION0</a>
+[FWPM_FILTER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)a>
  
 
  

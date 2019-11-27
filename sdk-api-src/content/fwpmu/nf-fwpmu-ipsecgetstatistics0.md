@@ -69,7 +69,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param ipsecStatistics [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics0_">IPSEC_STATISTICS0</a>*</b>
+Type: [IPSEC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics0)a>*</b>
 
 Top-level object of IPsec statistics organization.
 
@@ -144,7 +144,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics0_">IPSEC_STATISTICS0</a>
+[IPSEC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics0)a>
  
 
  

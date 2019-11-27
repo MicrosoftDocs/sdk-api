@@ -163,12 +163,12 @@ Pointer to a string to be placed in the title bar of the dialog box. If this mem
 
 ### -field szFormatTag
 
-Buffer containing a null-terminated string describing the format tag of the format selection when the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function returns. This string is equivalent to the <b>szFormatTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformattagdetails">ACMFORMATTAGDETAILS</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
+Buffer containing a null-terminated string describing the format tag of the format selection when the [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails)a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
 
 
 ### -field szFormat
 
-Buffer containing a null-terminated string describing the format attributes of the format selection when the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function returns. This string is equivalent to the <b>szFormat</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatdetails">acmFormatDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
+Buffer containing a null-terminated string describing the format attributes of the format selection when the [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatdetails">acmFormatDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
 
 
 ### -field pszName
@@ -314,11 +314,11 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a>
+[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformattagdetails">ACMFORMATTAGDETAILS</a>
+[ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails)a>
 
 
 

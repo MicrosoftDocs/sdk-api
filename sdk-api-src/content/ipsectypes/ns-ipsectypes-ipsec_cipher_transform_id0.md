@@ -62,7 +62,7 @@ The <b>IPSEC_CIPHER_TRANSFORM_ID0</b> structure specifies information used to un
 
 ### -field cipherType
 
-The type of the encryption algorithm as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_cipher_type_">IPSEC_CIPHER_TYPE</a>.
+The type of the encryption algorithm as specified by [IPSEC_CIPHER_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_cipher_type)a>.
 
 
 ### -field cipherConfig
@@ -196,7 +196,7 @@ GCM (Galois Counter Mode) mode of operation.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_cipher_type_">IPSEC_CIPHER_TYPE</a>
+[IPSEC_CIPHER_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_cipher_type)a>
 
 
 

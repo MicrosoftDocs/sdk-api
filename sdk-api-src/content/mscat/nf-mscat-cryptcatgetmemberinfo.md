@@ -76,7 +76,7 @@ A pointer to a <b>null</b>-terminated string that represents the reference tag f
 
 
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember_">CRYPTCATMEMBER</a> structure that contains the member information or <b>NULL</b>, if no information can be found.
+A pointer to the [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)a> structure that contains the member information or <b>NULL</b>, if no information can be found.
 
 
 

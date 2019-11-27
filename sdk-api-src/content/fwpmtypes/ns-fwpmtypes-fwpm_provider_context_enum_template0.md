@@ -69,7 +69,7 @@ Uniquely identifies a provider. If this value is non-NULL, only options with the
 
 Only return provider contexts of the specified type.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type_">FWPM_PROVIDER_CONTEXT_TYPE</a> for more information.
+See [FWPM_PROVIDER_CONTEXT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type)a> for more information.
 
 
 ## -remarks
@@ -86,7 +86,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtyp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type_">FWPM_PROVIDER_CONTEXT_TYPE</a>
+[FWPM_PROVIDER_CONTEXT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type)a>
 
 
 

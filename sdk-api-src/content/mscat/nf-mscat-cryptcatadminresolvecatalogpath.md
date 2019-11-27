@@ -74,7 +74,7 @@ The name of the catalog file for which to retrieve the fully qualified path.
 
 ### -param psCatInfo [in, out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-catalog_info_">CATALOG_INFO</a> structure. This value cannot be <b>NULL</b>. Upon return from this function, the <i>wszCatalogFile</i> member of the <b>CATALOG_INFO</b> structure contains the catalog file name.
+A pointer to the [CATALOG_INFO](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-catalog_info)a> structure. This value cannot be <b>NULL</b>. Upon return from this function, the <i>wszCatalogFile</i> member of the <b>CATALOG_INFO</b> structure contains the catalog file name.
 
 
 ### -param dwFlags [in]

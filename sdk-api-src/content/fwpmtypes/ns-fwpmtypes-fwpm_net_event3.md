@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT3</b> structure contains information about all event types.
-<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT3</b> is the specific implementation of FWPM_NET_EVENT used in Windows 10, version 1607. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.  For  Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2_">FWPM_NET_EVENT2</a> is available. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1_">FWPM_NET_EVENT1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0_">FWPM_NET_EVENT0</a> is available.</div><div> </div>
+[FWPM_NET_EVENT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2)a> is available. For Windows 7, [FWPM_NET_EVENT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1)a> is available. For Windows Vista, [FWPM_NET_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0)a> is available.</div><div> </div>
 
 ## -struct-fields
 

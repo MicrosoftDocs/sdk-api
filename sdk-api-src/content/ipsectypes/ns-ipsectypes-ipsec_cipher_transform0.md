@@ -62,7 +62,7 @@ The <b>IPSEC_CIPHER_TRANSFORM0</b> structure is used to store encryption specifi
 
 ### -field cipherTransformId
 
-The identifier of the encryption algorithm as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0_">IPSEC_CIPHER_TRANSFORM_ID0</a>.
+The identifier of the encryption algorithm as specified by [IPSEC_CIPHER_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0)a>.
 
 Possible values:
 
@@ -196,7 +196,7 @@ Unused parameter, always set this to <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0_">IPSEC_CIPHER_TRANSFORM_ID0</a>
+[IPSEC_CIPHER_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0)a>
 
 
 

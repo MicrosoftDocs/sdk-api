@@ -75,7 +75,7 @@ The size, in bytes, of <b>value</b>.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-structures">EAPHost Supplicant Structures</a>
+[EAPHost Supplicant Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-structures)a>
 
 
 

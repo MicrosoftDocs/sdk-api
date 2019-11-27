@@ -76,7 +76,7 @@ Unique identifier of the layer. See <a href="https://docs.microsoft.com/windows/
 
 ### -param layer [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0_">FWPM_LAYER0</a>**</b>
+Type: [FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0)a>**</b>
 
 The layer information.
 
@@ -152,7 +152,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0_">FWPM_LAYER0</a>
+[FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0)a>
 
 
 

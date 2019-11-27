@@ -64,7 +64,7 @@ The <b>IPSEC_SA_ENUM_TEMPLATE0</b> structure specifies a  template used for rest
 
 Direction of the SA.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction_">FWP_DIRECTION</a> for more information.
+See [FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)a> for more information.
 
 
 ## -remarks
@@ -81,7 +81,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction_">FWP_DIRECTION</a>
+[FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)a>
 
 
 

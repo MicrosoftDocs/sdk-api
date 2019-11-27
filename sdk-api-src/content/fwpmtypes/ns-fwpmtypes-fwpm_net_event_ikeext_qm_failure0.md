@@ -67,39 +67,39 @@ Windows error code for the failure.
 
 ### -field failurePoint
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point_">IPSEC_FAILURE_POINT</a> value that indicates the IPsec state when the failure occurred.
+An [IPSEC_FAILURE_POINT](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point)a> value that indicates the IPsec state when the failure occurred.
 
 
 ### -field keyingModuleType
 
- An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type_">IKEEXT_KEY_MODULE_TYPE</a> value that specifies the type of keying module.
+ An [IKEEXT_KEY_MODULE_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type)a> value that specifies the type of keying module.
 
 
 ### -field qmState
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_qm_sa_state_">IKEEXT_QM_SA_STATE</a> value that specifies the QM state when the failure occurred.
+An [IKEEXT_QM_SA_STATE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_qm_sa_state)a> value that specifies the QM state when the failure occurred.
 
 
 ### -field saRole
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role_">IKEEXT_SA_ROLE</a> value that specifies the SA role when the failure occurred.
+An [IKEEXT_SA_ROLE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role)a> value that specifies the SA role when the failure occurred.
 
 
 ### -field saTrafficType
 
- An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type_">IPSEC_TRAFFIC_TYPE</a> value that specifies the type of traffic.
+ An [IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)a> value that specifies the type of traffic.
 
 
 ### -field localSubNet
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0_">FWP_CONDITION_VALUE0</a> structure that contains values that conditions can use when testing for matches.
+An [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a> structure that contains values that conditions can use when testing for matches.
 
 Available when <b>saTrafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TUNNEL</b>.
 
 
 ### -field remoteSubNet
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0_">FWP_CONDITION_VALUE0</a> structure that contains values that conditions can use when testing for matches.
+An [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a> structure that contains values that conditions can use when testing for matches.
 
 Available when <b>saTrafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TUNNEL</b>.
 

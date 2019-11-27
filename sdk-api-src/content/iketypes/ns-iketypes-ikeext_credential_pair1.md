@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_CREDENTIAL_PAIR1</b> structure is  used to store credential information used for the authentication.
-<div class="alert"><b>Note</b>  <b>IKEEXT_CREDENTIAL_PAIR1</b> is the specific implementation of IKEEXT_CREDENTIAL_PAIR used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2_">IKEEXT_CREDENTIAL_PAIR2</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair0_">IKEEXT_CREDENTIAL_PAIR0</a> is available.</div><div> </div>
+[IKEEXT_CREDENTIAL_PAIR2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2)a> is available. For Windows Vista, [IKEEXT_CREDENTIAL_PAIR0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair0)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -64,14 +64,14 @@ The <b>IKEEXT_CREDENTIAL_PAIR1</b> structure is  used to store credential inform
 
 Local credentials used for authentication.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1_">IKEEXT_CREDENTIAL1</a> for more information.
+See [IKEEXT_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1)a> for more information.
 
 
 ### -field peerCredentials
 
 Peer credentials used for authentication.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1_">IKEEXT_CREDENTIAL1</a> for more information.
+See [IKEEXT_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1)a> for more information.
 
 
 ## -see-also
@@ -79,7 +79,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1_">IKEEXT_CREDENTIAL1</a>
+[IKEEXT_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1)a>
 
 
 

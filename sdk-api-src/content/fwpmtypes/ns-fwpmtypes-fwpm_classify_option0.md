@@ -62,12 +62,12 @@ The <b>FWPM_CLASSIFY_OPTION0</b> structure is used to define unicast and multica
 
 ### -field type
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type_">FWP_CLASSIFY_OPTION_TYPE</a> value.
+An [FWP_CLASSIFY_OPTION_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type)a> value.
 
 
 ### -field value
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0_">FWP_VALUE0</a> structure.
+An [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a> structure.
 
 
 ## -remarks
@@ -139,15 +139,15 @@ The following table lists possible values for the members of a <b>FWPM_CLASSIFY_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_options0_">FWPM_CLASSIFY_OPTIONS0</a>
+[FWPM_CLASSIFY_OPTIONS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_options0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type_">FWP_CLASSIFY_OPTION_TYPE</a>
+[FWP_CLASSIFY_OPTION_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0_">FWP_VALUE0</a>
+[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a>
 
 
 

@@ -100,7 +100,7 @@ Contents of the 8-bit PCMCIA Configuration Option Register.
 
 ### -field PMF_IoResourceIndex
 
-Zero-based index indicating the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource_s">IO_RESOURCE</a> structure that describes the I/O resources for the hardware function being described by this MFCARD_DES structure.
+Zero-based index indicating the [IO_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)a> structure that describes the I/O resources for the hardware function being described by this MFCARD_DES structure.
 
 
 ### -field PMF_Reserved
@@ -118,7 +118,7 @@ Offset from the beginning of the card's attribute memory space to the base confi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource_s">IO_RESOURCE</a>
+[IO_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)a>
  
 
  

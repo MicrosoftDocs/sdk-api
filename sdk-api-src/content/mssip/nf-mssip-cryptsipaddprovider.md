@@ -62,7 +62,7 @@ The <b>CryptSIPAddProvider</b> function registers functions that are exported by
 
 ### -param psNewProv [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_add_newprovider_">SIP_ADD_NEWPROVIDER</a> structure that specifies the DLL file and function names to register.
+A pointer to a [SIP_ADD_NEWPROVIDER](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_add_newprovider)a> structure that specifies the DLL file and function names to register.
 
 
 ## -returns

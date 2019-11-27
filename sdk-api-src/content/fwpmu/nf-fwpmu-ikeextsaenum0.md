@@ -83,7 +83,7 @@ Number of enumeration entries requested.
 
 ### -param entries [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details0_">IKEEXT_SA_DETAILS0</a>***</b>
+Type: [IKEEXT_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details0)a>***</b>
 
 Addresses of the enumeration entries.
 
@@ -172,7 +172,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details0_">IKEEXT_SA_DETAILS0</a>
+[IKEEXT_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details0)a>
 
 
 

@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MPRAPI_OBJECT_HEADER</b> structure is used as a header field for structures and defines the structure version for the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_ex0">MPR_SERVER_EX</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection_">RAS_UPDATE_CONNECTION</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-auth_validation_ex">AUTH_VALIDATION_EX</a> structures,  and the structure version used by the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionenumex">MprAdminConnectionEnumEx</a> method.
+The [RAS_UPDATE_CONNECTION](https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection)a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-auth_validation_ex">AUTH_VALIDATION_EX</a> structures,  and the structure version used by the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionenumex">MprAdminConnectionEnumEx</a> method.
 
 
 ## -struct-fields

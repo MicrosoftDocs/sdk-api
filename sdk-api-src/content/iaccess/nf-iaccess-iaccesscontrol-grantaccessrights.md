@@ -62,7 +62,7 @@ Merges the new list of access rights with the existing access rights on the obje
 
 ### -param pAccessList [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_alista">ACTRL_ACCESS</a> structure that contains an array of access lists for the object.
+A pointer to the [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a)a> structure that contains an array of access lists for the object.
 
 
 ## -returns
@@ -88,7 +88,7 @@ Following a merge, the access rights on an object are ordered as follows:
 <li>[New Access Allowed]</li>
 <li>[Old Access Allowed]</li>
 </ol>
-The system-supplied implementation of <b>GrantAccessRights</b> (CLSID_DCOMAccessControl) requires that the <b>cEntries</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_alista">ACTRL_ACCESSW</a> structure be set to 1. In addition, the <b>lpProperty</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_property_entrya">ACTRL_PROPERTY_ENTRYW</a> structure must be <b>NULL</b> to indicate that the access entry list applies to the object itself.
+The system-supplied implementation of [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a)a> structure be set to 1. In addition, the <b>lpProperty</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_property_entrya">ACTRL_PROPERTY_ENTRYW</a> structure must be <b>NULL</b> to indicate that the access entry list applies to the object itself.
 
 
 

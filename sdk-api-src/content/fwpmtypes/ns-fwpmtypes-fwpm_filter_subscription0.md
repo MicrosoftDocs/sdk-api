@@ -62,7 +62,7 @@ The <b>FWPM_FILTER_SUBSCRIPTION0</b> structure is used to subscribe for change n
 
 ### -field enumTemplate
 
-A  <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_enum_template0_">FWPM_FILTER_ENUM_TEMPLATE0</a> structure used to limit the subscription.
+A  [FWPM_FILTER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_enum_template0)a> structure used to limit the subscription.
 
 
 ### -field flags
@@ -122,7 +122,7 @@ If
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_enum_template0_">FWPM_FILTER_ENUM_TEMPLATE0</a>
+[FWPM_FILTER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_enum_template0)a>
 
 
 

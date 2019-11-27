@@ -69,7 +69,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param idpStatistics [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_statistics0_">IPSEC_DOSP_STATISTICS0</a>*</b>
+Type: [IPSEC_DOSP_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_statistics0)a>*</b>
 
 Top-level object of IPsec DoS Protection statistics organization.
 
@@ -146,7 +146,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_statistics0_">IPSEC_DOSP_STATISTICS0</a>
+[IPSEC_DOSP_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_statistics0)a>
  
 
  

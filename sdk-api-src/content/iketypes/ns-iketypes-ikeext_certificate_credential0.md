@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_CERTIFICATE_CREDENTIAL0</b> structure is used to store credential information specific to certificate authentication.
-<div class="alert"><b>Note</b>  <b>IKEEXT_CERTIFICATE_CREDENTIAL0</b> is the specific implementation of IKEEXT_CERTIFICATE_CREDENTIAL used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential1_">IKEEXT_CERTIFICATE_CREDENTIAL1</a> is available.</div><div> </div>
+[IKEEXT_CERTIFICATE_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential1)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -64,14 +64,14 @@ The <b>IKEEXT_CERTIFICATE_CREDENTIAL0</b> structure is used to store credential 
 
 Encoded subject name of the certificate used for authentication.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
 
 
 ### -field certHash
 
 SHA thumbprint of the certificate.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
 
 
 ### -field flags

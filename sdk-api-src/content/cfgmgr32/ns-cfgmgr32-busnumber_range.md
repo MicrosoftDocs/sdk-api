@@ -84,7 +84,7 @@ The number of contiguous bus numbers required by the device.
 
 
 
-The BUSNUMBER_RANGE structure is included as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource_s">BUSNUMBER_RESOURCE</a> structure.
+The BUSNUMBER_RANGE structure is included as a member of the [BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)a> structure.
 
 
 
@@ -94,7 +94,7 @@ The BUSNUMBER_RANGE structure is included as a member of the <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource_s">BUSNUMBER_RESOURCE</a>
+[BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)a>
  
 
  

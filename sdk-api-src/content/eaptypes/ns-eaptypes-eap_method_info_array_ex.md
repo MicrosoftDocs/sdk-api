@@ -75,11 +75,11 @@ Pointer to the address of the first element in an array of <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/common-eap-host-api-structures">Common EAPHost API Structures</a>
+[Common EAPHost API Structures](https://docs.microsoft.com/windows/win32/eaphost/common-eap-host-api-structures)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-properties">EAP Method Properties</a>
+[EAP Method Properties](https://docs.microsoft.com/windows/win32/eaphost/eap-method-properties)a>
 
 
 

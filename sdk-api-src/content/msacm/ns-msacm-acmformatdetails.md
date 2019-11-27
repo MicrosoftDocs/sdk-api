@@ -68,7 +68,7 @@ Size, in bytes, of the <b>ACMFORMATDETAILS</b> structure. This member must be in
 
 ### -field dwFormatIndex
 
-Index of the format to retrieve details for. The index ranges from zero to one less than the number of standard formats supported by an ACM driver for a format tag. The number of standard formats supported by a driver for a format tag is contained in the <b>cStandardFormats</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformattagdetails">ACMFORMATTAGDETAILS</a> structure. The <b>dwFormatIndex</b> member is used only when an application queries standard format details about a driver by index; otherwise, this member should be zero. Also, this member will be set to zero by the ACM when an application queries for details on a format; in other words, this member is used only for input and is never returned by the ACM or an ACM driver.
+Index of the format to retrieve details for. The index ranges from zero to one less than the number of standard formats supported by an ACM driver for a format tag. The number of standard formats supported by a driver for a format tag is contained in the [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails)a> structure. The <b>dwFormatIndex</b> member is used only when an application queries standard format details about a driver by index; otherwise, this member should be zero. Also, this member will be set to zero by the ACM when an application queries for details on a format; in other words, this member is used only for input and is never returned by the ACM or an ACM driver.
 
 
 ### -field dwFormatTag
@@ -78,7 +78,7 @@ Waveform-audio format tag that the <b>ACMFORMATDETAILS</b> structure describes. 
 
 ### -field fdwSupport
 
-Driver-support flags specific to the specified format. These flags are identical to the <b>fdwSupport</b> flags of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure. This member can be a combination of the following values and indicates which operations the driver supports for the format tag:
+Driver-support flags specific to the specified format. These flags are identical to the [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure. This member can be a combination of the following values and indicates which operations the driver supports for the format tag:
 
 <table>
 <tr>
@@ -159,11 +159,11 @@ String that describes the format for the <b>dwFormatTag</b> type. If the <a href
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a>
+[ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformattagdetails">ACMFORMATTAGDETAILS</a>
+[ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails)a>
 
 
 

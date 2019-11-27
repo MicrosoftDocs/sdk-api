@@ -79,7 +79,7 @@ A pointer to the size, in bytes, of the configuration BLOB.
 
 ### -param ppConfigOut [out]
 
-A pointer to a pointer to a byte buffer that contains the configuration data converted from XML. The configuration data is created inside <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphostconfigschema-schema">EapHostConfig Schema</a> element. The buffer is of size <i>pdwSizeOfConfigOut</i>. After consuming the data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory">EapHostPeerFreeMemory</a>.  
+A pointer to a pointer to a byte buffer that contains the configuration data converted from XML. The configuration data is created inside [EapHostConfig Schema](https://docs.microsoft.com/windows/win32/eaphost/eaphostconfigschema-schema)a> element. The buffer is of size <i>pdwSizeOfConfigOut</i>. After consuming the data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory">EapHostPeerFreeMemory</a>.  
 
 
 ### -param pEapMethodType [out]
@@ -97,7 +97,7 @@ A pointer a pointer to an <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-configuration-functions">EAPHost Supplicant Configuration Functions</a>
+[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
 
 
 

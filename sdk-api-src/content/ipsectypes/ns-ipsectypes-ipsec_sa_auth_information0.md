@@ -62,12 +62,12 @@ The <b>IPSEC_SA_AUTH_INFORMATION0</b> structure stores information about the aut
 
 ### -field authTransform
 
-Authentication algorithm details as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0_">IPSEC_AUTH_TRANSFORM0</a>.
+Authentication algorithm details as specified by [IPSEC_AUTH_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0)a>.
 
 
 ### -field authKey
 
-Key used for the authentication algorithm stored in a <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> structure.
+Key used for the authentication algorithm stored in a [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> structure.
 
 
 ## -remarks
@@ -84,11 +84,11 @@ Key used for the authentication algorithm stored in a <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0_">IPSEC_AUTH_TRANSFORM0</a>
+[IPSEC_AUTH_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0)a>
 
 
 

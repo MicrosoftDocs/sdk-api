@@ -62,12 +62,12 @@ The <b>IPSEC_SA_CIPHER_INFORMATION0</b> structure stores information about the e
 
 ### -field cipherTransform
 
-Encryption algorithm specific details as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform0_">IPSEC_CIPHER_TRANSFORM0</a>.
+Encryption algorithm specific details as specified by [IPSEC_CIPHER_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform0)a>.
 
 
 ### -field cipherKey
 
-Key used for the encryption algorithm as specified by <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>.
+Key used for the encryption algorithm as specified by [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>.
 
 
 ## -remarks
@@ -84,11 +84,11 @@ Key used for the encryption algorithm as specified by <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform0_">IPSEC_CIPHER_TRANSFORM0</a>
+[IPSEC_CIPHER_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform0)a>
 
 
 

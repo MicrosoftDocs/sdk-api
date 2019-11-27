@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_POLICY0</b> structure is used to store the IKE/AuthIP main mode negotiation policy.
-<div class="alert"><b>Note</b>  <b>IKEEXT_POLICY0</b> is the specific implementation of IKEEXT_POLICY used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy1_">IKEEXT_POLICY1</a> is available.  For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy2_">IKEEXT_POLICY2</a> is available.</div><div> </div>
+[IKEEXT_POLICY1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy1)a> is available.  For Windows 8, [IKEEXT_POLICY2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy2)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -74,7 +74,7 @@ Number of authentication methods.
 
 Array of acceptable authentication methods.
 
-See  <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method0_">IKEEXT_AUTHENTICATION_METHOD0</a> for more information.
+See  [IKEEXT_AUTHENTICATION_METHOD0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method0)a> for more information.
 
 
 ### -field initiatorImpersonationType
@@ -93,7 +93,7 @@ Number of main mode proposals.
 
 Array of main mode proposals. 
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0_">IKEEXT_PROPOSAL0</a> for more information.
+See [IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)a> for more information.
 
 
 ### -field flags

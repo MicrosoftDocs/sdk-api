@@ -68,7 +68,7 @@ A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.co
 
 ### -param pContentTag [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_content_tag_tag">PEERDIST_CONTENT_TAG</a> structure that contains a 16 byte client specified identifier. This parameter is used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientflushcontent">PeerDistClientFlushContent</a> function.  
+Pointer to a [PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag)a> structure that contains a 16 byte client specified identifier. This parameter is used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientflushcontent">PeerDistClientFlushContent</a> function.  
 
 
 ### -param hCompletionPort [in, optional]

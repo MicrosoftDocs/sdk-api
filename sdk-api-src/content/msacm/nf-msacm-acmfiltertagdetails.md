@@ -73,7 +73,7 @@ Handle to the ACM driver to query for waveform-audio filter tag details. If this
 
 ### -param paftd
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfiltertagdetails">ACMFILTERTAGDETAILS</a> structure that is to receive the filter tag details.
+Pointer to the [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails)a> structure that is to receive the filter tag details.
 
 
 ### -param fdwDetails
@@ -89,11 +89,11 @@ Flags for getting the details. The following values are defined.
 </tr>
 <tr>
 <td>ACM_FILTERTAGDETAILSF_FILTERTAG</td>
-<td>A filter tag was given in the <b>dwFilterTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfiltertagdetails">ACMFILTERTAGDETAILS</a> structure. The filter tag details will be returned in the structure pointed to by <i>paftd</i>. If an application specifies an ACM driver handle for <i>had</i>, details on the filter tag will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
+[ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails)a> structure. The filter tag details will be returned in the structure pointed to by <i>paftd</i>. If an application specifies an ACM driver handle for <i>had</i>, details on the filter tag will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
 </tr>
 <tr>
 <td>ACM_FILTERTAGDETAILSF_INDEX</td>
-<td>A filter tag index was given in the <b>dwFilterTagIndex</b> member of the <b>ACMFILTERTAGDETAILS</b> structure. The filter tag and details will be returned in the structure pointed to by <i>paftd</i>. The index ranges from zero to one less than the <b>cFilterTags</b> member returned in the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure for an ACM driver. An application must specify a driver handle for <i>had</i> when retrieving filter tag details with this flag.</td>
+[ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure for an ACM driver. An application must specify a driver handle for <i>had</i> when retrieving filter tag details with this flag.</td>
 </tr>
 <tr>
 <td>ACM_FILTERTAGDETAILSF_LARGESTSIZE</td>

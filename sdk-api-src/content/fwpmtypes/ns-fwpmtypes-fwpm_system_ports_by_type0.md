@@ -62,7 +62,7 @@ The <b>FWPM_SYSTEM_PORTS_BY_TYPE0</b> structure  contains information about the 
 
 ### -field type
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_system_port_type_">FWPM_SYSTEM_PORT_TYPE</a> enumeration that specifies the type of port.
+An [FWPM_SYSTEM_PORT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_system_port_type)a> enumeration that specifies the type of port.
 
 
 ### -field numPorts
@@ -89,7 +89,7 @@ Array of IP port numbers for the specified type.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_system_port_type_">FWPM_SYSTEM_PORT_TYPE</a>
+[FWPM_SYSTEM_PORT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_system_port_type)a>
 
 
 

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_IKEEXT_EM_FAILURE0</b> structure contains information that describes an IKE Extended Mode (EM) failure.
-<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_IKEEXT_EM_FAILURE0</b> is the specific implementation of FWPM_NET_EVENT_IKEEXT_EM_FAILURE used in Windows Vista. See <a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure1">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure1_">FWPM_NET_EVENT_IKEEXT_EM_FAILURE1</a> is available.</div><div> </div>
+[FWPM_NET_EVENT_IKEEXT_EM_FAILURE1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure1)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -67,7 +67,7 @@ Windows error code for the failure.
 
 ### -field failurePoint
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point_">IPSEC_FAILURE_POINT</a> value that indicates the IPsec state when the failure occurred.
+An [IPSEC_FAILURE_POINT](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point)a> value that indicates the IPsec state when the failure occurred.
 
 
 ### -field flags
@@ -95,12 +95,12 @@ Indicates that multiple IKE EM failure events have been reported.
 
 ### -field emState
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state_">IKEEXT_EM_SA_STATE</a> value that indicates the EM state when the failure occurred.
+An [IKEEXT_EM_SA_STATE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state)a> value that indicates the EM state when the failure occurred.
 
 
 ### -field saRole
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role_">IKEEXT_SA_ROLE</a> value that specifies the SA role when the failure occurred.
+An [IKEEXT_SA_ROLE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role)a> value that specifies the SA role when the failure occurred.
 
 
 ### -field emAuthMethod
@@ -134,15 +134,15 @@ Quick Mode (QM) filter ID associated with this failure.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state_">IKEEXT_EM_SA_STATE</a>
+[IKEEXT_EM_SA_STATE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role_">IKEEXT_SA_ROLE</a>
+[IKEEXT_SA_ROLE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point_">IPSEC_FAILURE_POINT</a>
+[IPSEC_FAILURE_POINT](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point)a>
 
 
 

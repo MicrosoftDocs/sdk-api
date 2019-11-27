@@ -93,7 +93,7 @@ A pointer to this callback function must be provided when calling <a href="https
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-callbacks">EAPHost Supplicant Callbacks</a>
+[EAPHost Supplicant Callbacks](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-callbacks)a>
  
 
  

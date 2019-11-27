@@ -95,7 +95,7 @@ Removes this property condition from the collection of property conditions speci
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/ifsrmpropertycondition-name">Name</a>
+[Name](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_name)a>
 
 
 </td>
@@ -127,7 +127,7 @@ The comparison operator used to determine whether property condition is met.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/ifsrmpropertycondition-value">Value</a>
+[Value](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_value)a>
 
 
 </td>
@@ -147,7 +147,7 @@ The property condition's value.
 
 
 
-The property condition specifies the classification property in the file to test. When the file management job runs, it gets the value of the classification property and uses the comparison operator to compare the value of the specified classification property (see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/ifsrmpropertycondition-name">Name</a> property) to the condition's value (see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/ifsrmpropertycondition-value">Value</a> property). If this condition  and all the other specified conditions for the job are met, FSRM can expire the file or call the custom action if it is defined.
+The property condition specifies the classification property in the file to test. When the file management job runs, it gets the value of the classification property and uses the comparison operator to compare the value of the specified classification property (see the [Value](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_value)a> property). If this condition  and all the other specified conditions for the job are met, FSRM can expire the file or call the custom action if it is defined.
 
 
 

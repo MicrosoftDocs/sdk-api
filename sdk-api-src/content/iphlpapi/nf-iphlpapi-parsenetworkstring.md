@@ -439,7 +439,7 @@ The <b>ParseNetworkString</b> function can parse representations of IPv4 or IPv6
     services using DNS names.
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN</a>,  SOCKADDR_IN6, and  SOCKADDR structures are used in the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info_">NET_ADDRESS_INFO</a> structure pointed to by the <i>AddressInfo</i> parameter. The SOCKADDR_IN and SOCKADDR structures are defined in the  <i>Ws2def.h</i> header file which is automatically included by the <i>Winsock2.h</i> header file. The SOCKADDR_IN6 structure is defined in the <i>Ws2ipdef.h</i> header file which is automatically included by the <i>Ws2tcpip.h</i> header file. In order to use the <b>ParseNetworkString</b> function  and the <b>NET_ADDRESS_INFO</b> structure, the <i>Winsock2.h</i> and <i>Ws2tcpip.h</i> header files must be included before the <i>Iphlpapi.h</i> header file.  
+The [NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)a> structure pointed to by the <i>AddressInfo</i> parameter. The SOCKADDR_IN and SOCKADDR structures are defined in the  <i>Ws2def.h</i> header file which is automatically included by the <i>Winsock2.h</i> header file. The SOCKADDR_IN6 structure is defined in the <i>Ws2ipdef.h</i> header file which is automatically included by the <i>Ws2tcpip.h</i> header file. In order to use the <b>ParseNetworkString</b> function  and the <b>NET_ADDRESS_INFO</b> structure, the <i>Winsock2.h</i> and <i>Ws2tcpip.h</i> header files must be included before the <i>Iphlpapi.h</i> header file.  
 
 
 
@@ -449,11 +449,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCK
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/ne-iphlpapi-net_address_format_">NET_ADDRESS_FORMAT</a>
+[NET_ADDRESS_FORMAT](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ne-iphlpapi-net_address_format)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info_">NET_ADDRESS_INFO</a>
+[NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)a>
 
 
 

@@ -105,7 +105,7 @@ Merging a disk requires that the affected disks be detached during the operation
 
 The caller must have READ|WRITE access to the backing store for the affected disks.
 
-The RWDepth of the disk must be greater than the merge depth  specified by the <b>MergeDepth</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-merge_virtual_disk_parameters">MERGE_VIRTUAL_DISK_PARAMETERS</a> structure (passed in the <i>Parameters</i> parameter). For more information about RWDepth, see <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_open_virtual_disk_parameters">OPEN_VIRTUAL_DISK_PARAMETERS</a>.
+The RWDepth of the disk must be greater than the merge depth  specified by the [OPEN_VIRTUAL_DISK_PARAMETERS](/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters)a>.
 
 Merge modifies the parent disk being merged into, therefore any other differencing disks dependent on that parent will no longer be valid.
 

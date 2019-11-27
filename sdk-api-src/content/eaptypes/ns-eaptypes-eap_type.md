@@ -82,7 +82,7 @@ The numeric type code for the vendor of this EAP method.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/common-eap-host-api-structures">Common EAPHost API Structures</a>
+[Common EAPHost API Structures](https://docs.microsoft.com/windows/win32/eaphost/common-eap-host-api-structures)a>
  
 
  

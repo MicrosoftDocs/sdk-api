@@ -64,7 +64,7 @@ The <b>FWPM_PROVIDER_CONTEXT_CHANGE0</b> structure contains a change notificatio
 
 Type of change.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type_">FWPM_CHANGE_TYPE</a> for more information.
+See [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a> for more information.
 
 
 ### -field providerContextKey
@@ -91,7 +91,7 @@ LUID of the provider context that changed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type_">FWPM_CHANGE_TYPE</a>
+[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a>
 
 
 

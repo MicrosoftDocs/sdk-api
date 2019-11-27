@@ -69,7 +69,7 @@ Handle for an open session to the filter engine. Call  <a href="https://docs.mic
 
 ### -param subLayer [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0_">FWPM_SUBLAYER0</a>*</b>
+Type: [FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)a>*</b>
 
 The sublayer to be added.
 
@@ -222,7 +222,7 @@ void main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0_">FWPM_SUBLAYER0</a>
+[FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)a>
 
 
 

@@ -69,14 +69,14 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param outboundTraffic [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0_">IPSEC_TRAFFIC1</a>*</b>
+Type: [IPSEC_TRAFFIC1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)a>*</b>
 
 The outbound traffic of the SA.
 
 
 ### -param virtualIfTunnelInfo [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-ipsec_virtual_if_tunnel_info0_">IPSEC_VIRTUAL_IF_TUNNEL_INFO0</a>*</b>
+Type: [IPSEC_VIRTUAL_IF_TUNNEL_INFO0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-ipsec_virtual_if_tunnel_info0)a>*</b>
 
 Details related to virtual interface tunneling.
 
@@ -167,11 +167,11 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0_">IPSEC_TRAFFIC1</a>
+[IPSEC_TRAFFIC1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-ipsec_virtual_if_tunnel_info0_">IPSEC_VIRTUAL_IF_TUNNEL_INFO0</a>
+[IPSEC_VIRTUAL_IF_TUNNEL_INFO0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-ipsec_virtual_if_tunnel_info0)a>
  
 
  

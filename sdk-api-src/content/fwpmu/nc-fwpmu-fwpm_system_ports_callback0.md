@@ -69,7 +69,7 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param *sysPorts [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports0_">FWPM_SYSTEM_PORTS0</a>*</b>
+Type: [FWPM_SYSTEM_PORTS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports0)a>*</b>
 
 The system port information.
 
@@ -99,7 +99,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpm
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports0_">FWPM_SYSTEM_PORTS0</a>
+[FWPM_SYSTEM_PORTS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports0)a>
 
 
 

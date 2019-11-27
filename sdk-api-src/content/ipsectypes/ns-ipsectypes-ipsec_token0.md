@@ -62,17 +62,17 @@ The <b>IPSEC_TOKEN0</b> structure contains various information about an IPsec-sp
 
 ### -field type
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_type_">IPSEC_TOKEN_TYPE</a> value that specifies the type of token.
+An [IPSEC_TOKEN_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_type)a> value that specifies the type of token.
 
 
 ### -field principal
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_principal_">IPSEC_TOKEN_PRINCIPAL</a> value that specifies the token principal.
+An [IPSEC_TOKEN_PRINCIPAL](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_principal)a> value that specifies the token principal.
 
 
 ### -field mode
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_mode_">IPSEC_TOKEN_MODE</a> value that indicates in which mode the token was obtained.
+An [IPSEC_TOKEN_MODE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_token_mode)a> value that indicates in which mode the token was obtained.
 
 
 ### -field token

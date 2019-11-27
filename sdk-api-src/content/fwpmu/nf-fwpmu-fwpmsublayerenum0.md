@@ -83,7 +83,7 @@ The number of sublayer entries requested.
 
 ### -param entries [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0_">FWPM_SUBLAYER0</a>***</b>
+Type: [FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)a>***</b>
 
 Addresses of the enumeration entries.
 
@@ -170,7 +170,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0_">FWPM_SUBLAYER0</a>
+[FWPM_SUBLAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer0)a>
 
 
 

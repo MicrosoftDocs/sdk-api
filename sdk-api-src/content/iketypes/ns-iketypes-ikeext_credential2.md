@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_CREDENTIAL2</b> structure is  used to store credential information used for the authentication.
-<div class="alert"><b>Note</b>  <b>IKEEXT_CREDENTIAL2</b> is the specific implementation of IKEEXT_CREDENTIAL used in Windows 8. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1_">IKEEXT_CREDENTIAL1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential0_">IKEEXT_CREDENTIAL0</a>  is available.</div><div> </div>
+[IKEEXT_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1)a> is available. For Windows Vista, [IKEEXT_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential0)a>  is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -83,7 +83,7 @@ Available when <b>authenticationMethodType</b> is <b>IKEEXT_PRESHARED_KEY</b>.
 
 ### -field certificate
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential1_">IKEEXT_CERTIFICATE_CREDENTIAL1</a>*</b>
+Type: [IKEEXT_CERTIFICATE_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential1)a>*</b>
 
 Available when <b>authenticationMethodType</b> is one of the following values.
 
@@ -97,7 +97,7 @@ Available when <b>authenticationMethodType</b> is one of the following values.
 
 ### -field name
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_name_credential0_">IKEEXT_NAME_CREDENTIAL0</a>*</b>
+Type: [IKEEXT_NAME_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_name_credential0)a>*</b>
 
 Available when <b>authenticationMethodType</b> is one of the following values.
 
@@ -118,11 +118,11 @@ Available when <b>authenticationMethodType</b> is one of the following values.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential1_">IKEEXT_CERTIFICATE_CREDENTIAL1</a>
+[IKEEXT_CERTIFICATE_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential1)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_name_credential0_">IKEEXT_NAME_CREDENTIAL0</a>
+[IKEEXT_NAME_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_name_credential0)a>
 
 
 

@@ -83,7 +83,7 @@ The number of enumeration entries requested.
 
 ### -param entries [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0_">IPSEC_SA_DETAILS0</a>***</b>
+Type: [IPSEC_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0)a>***</b>
 
 Addresses of the enumeration entries.
 
@@ -168,7 +168,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0_">IPSEC_SA_DETAILS0</a>
+[IPSEC_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0)a>
 
 
 

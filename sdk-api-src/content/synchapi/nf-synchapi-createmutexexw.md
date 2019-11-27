@@ -137,7 +137,7 @@ If the function succeeds, the return value is a handle to the newly created mute
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the mutex is a named mutex and the object existed before this function call, the return value is a handle to the existing object, 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_ALREADY_EXISTS</b>, <i>bInitialOwner</i> is ignored, and the calling thread is not granted ownership. However, if the caller has limited access rights, the function will fail with <b>ERROR_ACCESS_DENIED</b> and the caller should use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openmutexa">OpenMutex</a> function.
+[OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw)a> function.
 
 
 
@@ -168,7 +168,7 @@ Multiple processes can have handles of the same mutex object, enabling use of th
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> enabled inheritance. This mechanism works for both named and unnamed mutexes.</li>
 <li>A process can specify the handle to a mutex object in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function to create a duplicate handle that can be used by another process. This mechanism works for both named and unnamed mutexes.</li>
 <li>A process can specify a named mutex in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openmutexa">OpenMutex</a> or 
+[OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw)a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> function to retrieve a handle to the mutex object.</li>
 </ul>
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The mutex object is destroyed when its last handle has been closed.

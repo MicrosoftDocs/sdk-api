@@ -253,7 +253,7 @@ All of the data in the SOCKADDR_IN6 structure, except for the address family, mu
 The size of the SOCKADDR_IN6 structure is too large to fit in the memory space that is provided by a 
     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure. For a structure that is
     guaranteed to be large enough to contain a transport address for all possible address families, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a>.
+    [SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)a>.
 
 
 
@@ -275,7 +275,7 @@ The size of the SOCKADDR_IN6 structure is too large to fit in the memory space t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a>
+[SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)a>
  
 
  

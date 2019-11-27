@@ -82,7 +82,7 @@ The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprap
 
 ### -field MPRAPI_OBJECT_TYPE_UPDATE_CONNECTION_OBJECT
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection_">RAS_UPDATE_CONNECTION</a> structure.
+The structure is a [RAS_UPDATE_CONNECTION](https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection)a> structure.
 
 
 ### -field MPRAPI_OBJECT_TYPE_IF_CUSTOM_CONFIG_OBJECT

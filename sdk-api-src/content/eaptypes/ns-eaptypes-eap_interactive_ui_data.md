@@ -119,7 +119,7 @@ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/de
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-structures">EAPHost Supplicant Structures</a>
+[EAPHost Supplicant Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-structures)a>
 
 
 
@@ -131,11 +131,11 @@ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/de
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-cred-req">EAP_CRED_REQ</a>
+[EAP_CRED_REQ](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-req)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-cred-resp">EAP_CRED_RESP</a>
+[EAP_CRED_RESP](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-resp)a>
 
 
 
@@ -143,11 +143,11 @@ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/de
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/sso-password-change-behavior-">SSO Password Change Behavior</a>
+[SSO Password Change Behavior](https://docs.microsoft.com/windows/win32/eaphost/sso-password-change-behavior-)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/understanding-sso-and-plap">SSO and PLAP</a>
+[SSO and PLAP](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a>
  
 
  

@@ -91,10 +91,10 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/n
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-operator=">CharacterRange::operator=</a>
+[CharacterRange::operator=](/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-operator-assign)a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-operator=">CharacterRange::operator=</a> method sets this <b>CharacterRange</b> object equal to the specified <b>CharacterRange</b> object.
+The [CharacterRange::operator=](/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-operator-assign)a> method sets this <b>CharacterRange</b> object equal to the specified <b>CharacterRange</b> object.
 
 </td>
 </tr>

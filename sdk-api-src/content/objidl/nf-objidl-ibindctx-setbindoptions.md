@@ -62,7 +62,7 @@ Sets new values for the binding parameters stored in the bind context.
 
 ### -param pbindopts [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts2">BIND_OPTS2</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts3">BIND_OPTS3</a> structure containing the binding parameters.
+A pointer to a [BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1)a> structure containing the binding parameters.
 
 
 ## -returns
@@ -108,11 +108,11 @@ You can use the <b>IBindCtx::SetBindOptions</b> method to modify these values be
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts2">BIND_OPTS2</a>
+[BIND_OPTS2](/windows/win32/api/objidl/ns-objidl-bind_opts2~r1)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts3">BIND_OPTS3</a>
+[BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1)a>
 
 
 

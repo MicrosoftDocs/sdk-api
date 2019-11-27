@@ -567,7 +567,7 @@ A localized and readable string that describes the possible repair action.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/common-eap-host-api-structures">Common EAPHost API Structures</a>
+[Common EAPHost API Structures](https://docs.microsoft.com/windows/win32/eaphost/common-eap-host-api-structures)a>
  
 
  

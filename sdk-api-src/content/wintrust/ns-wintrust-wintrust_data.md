@@ -219,7 +219,7 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB
 </dl>
 </td>
 <td width="60%">
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_sgnr_info_">WINTRUST_SGNR_INFO</a> structure pointed to by <b>pSgnr</b>.
+Use the [WINTRUST_SGNR_INFO](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_sgnr_info)a> structure pointed to by <b>pSgnr</b>.
 
 </td>
 </tr>
@@ -259,7 +259,7 @@ A pointer to a
 ### -field pSgnr
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_sgnr_info_">WINTRUST_SGNR_INFO</a> structure.
+[WINTRUST_SGNR_INFO](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_sgnr_info)a> structure.
 
 
 ### -field pCert
@@ -557,7 +557,7 @@ Use when calling <a href="https://docs.microsoft.com/windows/desktop/api/wintrus
 
 ### -field pSignatureSettings
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings_">WINTRUST_SIGNATURE_SETTINGS</a> structure.
+Pointer to a [WINTRUST_SIGNATURE_SETTINGS](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings)a> structure.
 
 <b>Windows 8 and Windows Server 2012:  </b>Support for this member begins.
 

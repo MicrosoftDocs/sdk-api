@@ -62,7 +62,7 @@ The <b>pCryptSIPGetCaps</b> function is implemented by an <a href="https://docs.
 
 ### -param *pSubjInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure that specifies subject information data to the SIP APIs.
+Pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that specifies subject information data to the SIP APIs.
 
 
 ### -param *pCaps [in, out]
@@ -83,7 +83,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-ms
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a>
+[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a>
  
 
  

@@ -62,7 +62,7 @@ The DMA_RESOURCE structure is used for specifying either a resource list or a re
 
 ### -field DMA_Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des_s">DMA_DES</a> structure.
+A [DMA_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des)a> structure.
 
 
 ### -field DMA_Data
@@ -79,7 +79,7 @@ Zero.
 
 #### For a resource requirements list:
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range_s">DMA_RANGE</a> array.
+A [DMA_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range)a> array.
 
 
 ## -see-also
@@ -87,11 +87,11 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des_s">DMA_DES</a>
+[DMA_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range_s">DMA_RANGE</a>
+[DMA_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range)a>
  
 
  

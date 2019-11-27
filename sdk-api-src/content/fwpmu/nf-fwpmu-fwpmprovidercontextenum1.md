@@ -83,7 +83,7 @@ The number of provider context objects requested.
 
 ### -param entries [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1_">FWPM_PROVIDER_CONTEXT1</a>***</b>
+Type: [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)a>***</b>
 
 The returned provider context objects.
 
@@ -168,7 +168,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1_">FWPM_PROVIDER_CONTEXT1</a>
+[FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)a>
 
 
 

@@ -166,15 +166,15 @@ RAS stores the connection data returned by
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/client-side-configuration-user-interface">Client-Side Configuration User Interface</a>
+[Client-Side Configuration User Interface](https://docs.microsoft.com/windows/win32/eap/client-side-configuration-user-interface)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-functions">EAP Functions</a>
+[EAP Functions](https://docs.microsoft.com/windows/win32/eap/eap-functions)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference">Extensible Authentication Protocol Reference</a>
+[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
 
 
 

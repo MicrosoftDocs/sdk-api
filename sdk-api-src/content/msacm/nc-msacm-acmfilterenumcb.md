@@ -72,7 +72,7 @@ Handle to the ACM driver identifier.
 
 ### -param pafd
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfilterdetails">ACMFILTERDETAILS</a> structure that contains the enumerated filter details for a filter tag.
+Pointer to an [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a> structure that contains the enumerated filter details for a filter tag.
 
 
 ### -param dwInstance
@@ -82,7 +82,7 @@ Application-defined value specified in <a href="https://docs.microsoft.com/windo
 
 ### -param fdwSupport
 
-Driver-support flags specific to the driver identified by <i>hadid</i> for the specified filter. These flags are identical to the <b>fdwSupport</b> flags of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure, but they are specific to the filter that is being enumerated. This parameter can be a combination of the following values and identifies which operations the driver supports for the filter tag.
+Driver-support flags specific to the driver identified by [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure, but they are specific to the filter that is being enumerated. This parameter can be a combination of the following values and identifies which operations the driver supports for the filter tag.
 
 <table>
 <tr>

@@ -69,7 +69,7 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param *vSwitchEvent [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event0_">FWPM_VSWITCH_EVENT0</a>*</b>
+Type: [FWPM_VSWITCH_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event0)a>*</b>
 
 The vSwitch event information.
 
@@ -99,7 +99,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpm
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event0_">FWPM_VSWITCH_EVENT0</a>
+[FWPM_VSWITCH_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event0)a>
 
 
 

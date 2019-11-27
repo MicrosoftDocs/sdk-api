@@ -75,7 +75,7 @@ Application-defined value specified in <a href="https://docs.microsoft.com/windo
 
 ### -param fdwSupport
 
-Driver-support flags specific to the driver specified by <i>hadid</i>. These flags are identical to the <b>fdwSupport</b> flags of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure. This parameter can be a combination of the following values.
+Driver-support flags specific to the driver specified by [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure. This parameter can be a combination of the following values.
 
 <table>
 <tr>

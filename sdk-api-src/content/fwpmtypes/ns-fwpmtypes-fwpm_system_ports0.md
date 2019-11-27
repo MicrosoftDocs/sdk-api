@@ -67,7 +67,7 @@ The number of types in the array.
 
 ### -field types
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports_by_type0_">FWPM_SYSTEM_PORTS_BY_TYPE0</a> structure that specifies the array of system port types.
+A [FWPM_SYSTEM_PORTS_BY_TYPE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports_by_type0)a> structure that specifies the array of system port types.
 
 
 ## -remarks
@@ -84,7 +84,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports_by_type0_">FWPM_SYSTEM_PORTS_BY_TYPE0</a>
+[FWPM_SYSTEM_PORTS_BY_TYPE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports_by_type0)a>
 
 
 

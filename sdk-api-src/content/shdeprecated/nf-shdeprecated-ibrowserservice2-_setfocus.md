@@ -65,7 +65,7 @@ Deprecated. Sets the focus on a toolbar or on the browser's view window. Called 
 
 Type: <b>LPTOOLBARITEM</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-stoolbaritem">TOOLBARITEM</a> structure that specifies a browser toolbar item.
+A pointer to a [TOOLBARITEM](/windows/win32/api/shdeprecated/ns-shdeprecated-toolbaritem)a> structure that specifies a browser toolbar item.
 
 
 ### -param hwnd [in]

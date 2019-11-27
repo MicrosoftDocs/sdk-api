@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_EM_POLICY2</b> structure is used to store AuthIP's extended mode negotiation policy.
-<div class="alert"><b>Note</b>  <b>IKEEXT_EM_POLICY2</b> is the specific implementation of IKEEXT_EM_POLICY used in Windows 8. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy1_">IKEEXT_EM_POLICY1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy0_">IKEEXT_EM_POLICY0</a>  is available.</div><div> </div>
+[IKEEXT_EM_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy0)a>  is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -69,7 +69,7 @@ Type: <b>UINT32</b>
 
 ### -field authenticationMethods
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2_">IKEEXT_AUTHENTICATION_METHOD2</a>*</b>
+Type: [IKEEXT_AUTHENTICATION_METHOD2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2)a>*</b>
 
 size_is(numAuthenticationMethods)
 
@@ -92,7 +92,7 @@ Type of impersonation.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2_">IKEEXT_AUTHENTICATION_METHOD2</a>
+[IKEEXT_AUTHENTICATION_METHOD2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2)a>
 
 
 

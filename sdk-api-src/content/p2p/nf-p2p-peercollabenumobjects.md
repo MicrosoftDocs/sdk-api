@@ -166,7 +166,7 @@ If the user is publishing a picture, the picture can be obtained by retrieving t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact_tag">PEER_CONTACT</a>
+[PEER_CONTACT](/windows/win32/api/p2p/ns-p2p-peer_contact)a>
 
 
 

@@ -69,7 +69,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param outboundTraffic [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0_">IPSEC_TRAFFIC0</a>*</b>
+Type: [IPSEC_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)a>*</b>
 
 The outbound traffic of the SA. 
 
@@ -160,7 +160,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0_">IPSEC_TRAFFIC0</a>
+[IPSEC_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)a>
  
 
  

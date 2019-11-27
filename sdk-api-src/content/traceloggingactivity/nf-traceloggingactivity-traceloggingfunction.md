@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity~r1">TraceLoggingThreadActivity</a> named after the current function and writes a Start event for the activity. A Stop activity will be written at the end of the current scope.
+Creates a [TraceLoggingThreadActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity)a> named after the current function and writes a Start event for the activity. A Stop activity will be written at the end of the current scope.
 
 
 ## -parameters
@@ -74,10 +74,10 @@ Additional parameters that will be used to configure the activity’s Start even
 
 
 
-Invoke this macro at the beginning of a function to define an activity. This macro will then automatically create a <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity~r1">TraceLoggingThreadActivity</a> object based on the name of the function, and start logging for the activity. It will also automatically generate and log a stop event when the function completes.
+Invoke this macro at the beginning of a function to define an activity. This macro will then automatically create a [TraceLoggingThreadActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity)a> object based on the name of the function, and start logging for the activity. It will also automatically generate and log a stop event when the function completes.
        
 
-<div class="alert"><b>Caution</b>  <p class="note">Since this macro creates a <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity~r1">TraceLoggingThreadActivity</a> object, you must ensure that no child activity will outlast the associated function, even in error cases or edge cases.
+[TraceLoggingThreadActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity)a> object, you must ensure that no child activity will outlast the associated function, even in error cases or edge cases.
         
 
 </div>

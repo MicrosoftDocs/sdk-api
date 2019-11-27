@@ -69,7 +69,7 @@ A handle to the open virtual disk, which must have been opened using the
 
 ### -param VirtualDiskInfo [in]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_set_virtual_disk_info">SET_VIRTUAL_DISK_INFO</a> 
+A pointer to a valid [SET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-set_virtual_disk_info)a> 
      structure.
 
 

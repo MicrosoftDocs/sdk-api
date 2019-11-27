@@ -80,7 +80,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-authenticator-method-structures">EAPHost Authenticator Method Structures</a>
+[EAPHost Authenticator Method Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-structures)a>
  
 
  

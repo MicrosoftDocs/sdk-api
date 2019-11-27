@@ -62,7 +62,7 @@ The <b>IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0</b> function indicates whether the
 
 ### -param *ikeTraffic [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0_">IKEEXT_TRAFFIC0</a>*</b>
+Type: [IKEEXT_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0)a>*</b>
 
 Specifies the traffic for which keys should be set or retrieved.
 
@@ -106,7 +106,7 @@ If the TIA wants to dictate the keys, and its weight is higher than that of any 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0_">IKEEXT_TRAFFIC0</a>
+[IKEEXT_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0)a>
 
 
 

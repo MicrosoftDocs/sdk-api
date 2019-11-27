@@ -62,7 +62,7 @@ The <b>EMI_MEASUREMENT_DATA</b> structure provides data about the current energy
 
 ### -field AbsoluteEnergy
 
-The total accumulated energy in the units specified by the <b>MeasurementUnit</b> field of the 	<a href="https://docs.microsoft.com/windows/desktop/api/emi/ns-emi-emi_metadata">EMI_METADATA</a> struct returned by <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a>. In <b>EMI_VERSION_V1</b>, the only supported unit is picowatt-hours.
+The total accumulated energy in the units specified by the [EMI_METADATA](/windows/win32/api/emi/ns-emi-emi_metadata_v1)a> struct returned by <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a>. In <b>EMI_VERSION_V1</b>, the only supported unit is picowatt-hours.
 
 
 ### -field AbsoluteTime

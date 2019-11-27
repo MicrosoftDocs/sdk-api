@@ -74,7 +74,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range_s">IO_RANGE</a> array that is included in the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource_s">IO_RESOURCE</a> structure.
+The number of elements in the [IO_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range)a> array that is included in the [IO_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)a> structure.
 
 
 ### -field IOD_Type
@@ -237,11 +237,11 @@ Bitmask for the bits within <b>IOD_DesFlags</b> that specify the decode value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range_s">IO_RANGE</a>
+[IO_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource_s">IO_RESOURCE</a>
+[IO_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)a>
  
 
  

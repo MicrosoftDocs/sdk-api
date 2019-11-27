@@ -83,7 +83,7 @@ Same semantics as the <b>dwProvType</b> member of the <a href="https://docs.micr
 
 ### -field cgaModifier
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16_">FWP_BYTE_ARRAY16</a> structure containing a modifier used during CGA generation.
+A [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a> structure containing a modifier used during CGA generation.
 
 See CGA RFC for more information.
 
@@ -113,7 +113,7 @@ See CGA RFC for more information.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16_">FWP_BYTE_ARRAY16</a>
+[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a>
 
 
 

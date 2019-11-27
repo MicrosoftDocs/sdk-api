@@ -97,7 +97,7 @@ Implementations of EAP must export the
 
 Upon initialization, the Connection Manager calls 
 <b>RasEapGetInfo</b> for each EAP DLL installed in the registry subkey, as explained in the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-installation">EAP Overview</a>.
+[EAP Overview](https://docs.microsoft.com/windows/win32/eap/eap-installation)a>.
 
 If the function returns any value other than <b>NO_ERROR</b>, RAS considers the authentication protocol to be non-functional. RAS posts an error to the  Windows NT/Windows 2000 Event Log to indicate that this protocol did not start correctly and therefore is not available.
 
@@ -109,15 +109,15 @@ If the function returns any value other than <b>NO_ERROR</b>, RAS considers the 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/about-extensible-authentication-protocol">EAP (Extensible Authentication Protocol) Overview</a>
+[EAP (Extensible Authentication Protocol) Overview](https://docs.microsoft.com/windows/win32/eap/about-extensible-authentication-protocol)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-functions">EAP Functions</a>
+[EAP Functions](https://docs.microsoft.com/windows/win32/eap/eap-functions)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference">Extensible Authentication Protocol Reference</a>
+[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
 
 
 

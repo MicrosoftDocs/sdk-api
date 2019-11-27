@@ -62,7 +62,7 @@ Replaces the existing access rights on an object with the specified list.
 
 ### -param pAccessList [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_alista">ACTRL_ACCESS</a> list that contains an array of access lists to be written to the object.
+A pointer to the [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a)a> list that contains an array of access lists to be written to the object.
 
 
 ## -returns

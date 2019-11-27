@@ -62,7 +62,7 @@ The <b>FWPM_NET_EVENT_SUBSCRIPTION0</b> structure stores information used to sub
 
 ### -field enumTemplate
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0_">FWPM_NET_EVENT_ENUM_TEMPLATE0</a> structure. Notifications are only dispatched for objects that match the template. If
+Address of an [FWPM_NET_EVENT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0)a> structure. Notifications are only dispatched for objects that match the template. If
    <b>enumTemplate</b> is <b>NULL</b>, it matches all objects.
 
 

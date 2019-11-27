@@ -77,7 +77,7 @@ Pointer to a zero-terminated Unicode string that contains the display name of th
 
 ### -field eapProperties
 
-Set of flags that describe specific properties of the EAP method. For flag descriptions, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-properties">EAP Method Properties</a>.
+Set of flags that describe specific properties of the EAP method. For flag descriptions, see [EAP Method Properties](https://docs.microsoft.com/windows/win32/eaphost/eap-method-properties)a>.
 
 
 ### -field pInnerMethodInfo
@@ -96,11 +96,11 @@ Pointer to an <b>EAP_METHOD_INFO</b> structure that contains information about t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/common-eap-host-api-structures">Common EAPHost API Structures</a>
+[Common EAPHost API Structures](https://docs.microsoft.com/windows/win32/eaphost/common-eap-host-api-structures)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-properties">EAP Method Properties</a>
+[EAP Method Properties](https://docs.microsoft.com/windows/win32/eaphost/eap-method-properties)a>
 
 
 

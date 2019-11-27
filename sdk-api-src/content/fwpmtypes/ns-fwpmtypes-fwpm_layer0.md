@@ -67,7 +67,7 @@ Uniquely identifies the layer.
 
 ### -field displayData
 
-Allows layers to be annotated in a human-readable form. The <b>name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a> structure is not <b>NULL</b>.
+Allows layers to be annotated in a human-readable form. The [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a> structure is not <b>NULL</b>.
 
 
 ### -field flags
@@ -132,7 +132,7 @@ Number of fields in the layer.
 
 Schema information for the layer's fields.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0_">FWPM_FIELD0</a> for more information.
+See [FWPM_FIELD0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0)a> for more information.
 
 
 ### -field defaultSubLayerKey
@@ -159,11 +159,11 @@ LUID that identifies this layer.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a>
+[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0_">FWPM_FIELD0</a>
+[FWPM_FIELD0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0)a>
 
 
 

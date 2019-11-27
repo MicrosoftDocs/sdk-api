@@ -70,7 +70,7 @@ Matches SAs whose local address is on the specified subnet. Must be of one of th
 <li>FWP_V4_ADDR_MASK</li>
 <li>FWP_V6_ADDR_MASK</li>
 </ul>
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0_">FWP_CONDITION_VALUE0</a> for more information.
+See [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a> for more information.
 
 
 ### -field remoteSubNet
@@ -83,14 +83,14 @@ Matches SAs whose remote address is on the specified subnet. Must be of one of t
 <li>FWP_V4_ADDR_MASK</li>
 <li>FWP_V6_ADDR_MASK</li>
 </ul>
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0_">FWP_CONDITION_VALUE0</a> for more information.
+See [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a> for more information.
 
 
 ### -field localMainModeCertHash
 
 Matches SAs with a matching local main mode SHA thumbprint.  If none exist, this member will have a length of zero.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
 
 
 ## -remarks

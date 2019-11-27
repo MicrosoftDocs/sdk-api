@@ -352,7 +352,7 @@ If this flag is specified when calling one of the process creation functions, th
 function's <i>bInheritHandles</i> parameter must be set to TRUE. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/handle-inheritance">Handle Inheritance</a>.
 
-If this flag is specified when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getstartupinfoa">GetStartupInfo</a> function, these members are either the handle value specified during process creation or INVALID_HANDLE_VALUE.
+If this flag is specified when calling the [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)a> function, these members are either the handle value specified during process creation or INVALID_HANDLE_VALUE.
 
 Handles must be closed with 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
@@ -416,14 +416,14 @@ If <b>dwFlags</b> specifies STARTF_USESTDHANDLES, this member is the standard er
 For graphical user interface (GUI) processes, this information affects the first window created by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function and shown by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function. For console processes, this information affects the console window if a new console is created for the process. A process can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getstartupinfoa">GetStartupInfo</a> function to retrieve the 
+[GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)a> function to retrieve the 
 <b>STARTUPINFO</b> structure specified when the process was created.
 
 If a GUI process is being started and neither STARTF_FORCEONFEEDBACK or STARTF_FORCEOFFFEEDBACK is specified, the process feedback cursor is used. A GUI process is one whose subsystem is specified as "windows."
 
-If a process is launched from the taskbar or jump list, the system sets <b>hStdOutput</b> to a handle to the monitor that contains the taskbar or jump list used to launch the process. To retrieve this handle, use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getstartupinfoa">GetStartupInfo</a> to retrieve the <b>STARTUPINFO</b> structure and check that <b>hStdOutput</b> is set. If so, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> to check whether <b>hStdOutput</b> is a valid monitor handle (HMONITOR). The process can then use the handle to position its windows.
+If a process is launched from the taskbar or jump list, the system sets [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)a> to retrieve the <b>STARTUPINFO</b> structure and check that <b>hStdOutput</b> is set. If so, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> to check whether <b>hStdOutput</b> is a valid monitor handle (HMONITOR). The process can then use the handle to position its windows.
 
-If the <b>STARTF_UNTRUSTEDSOURCE</b> flag is set in the in the <b>STARTUPINFO</b> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getstartupinfoa">GetStartupInfo</a> function, then applications should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional. Applications that call <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> are encouraged to set this flag when launching a program with a untrusted command line so that the created process can apply appropriate policy.
+If the [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)a> function, then applications should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional. Applications that call <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> are encouraged to set this flag when launching a program with a untrusted command line so that the created process can apply appropriate policy.
 
 The <b>STARTF_UNTRUSTEDSOURCE</b> flag is supported starting in Windows Vista, but it is not defined in the SDK header files prior to the Windows 10 SDK. To use the flag in versions prior to Windows 10, you can define it manually in your program.
 
@@ -458,7 +458,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getstartupinfoa">GetStartupInfo</a>
+[GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)a>
  
 
  

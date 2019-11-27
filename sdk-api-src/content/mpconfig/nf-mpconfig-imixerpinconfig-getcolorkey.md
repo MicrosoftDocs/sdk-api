@@ -66,12 +66,12 @@ The <code>GetColorKey</code> method retrieves the color key being used by a vide
 
 ### -param pColorKey [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-colorkey">COLORKEY</a> structure that contains the key type and a palette index.
+Pointer to a [COLORKEY](/windows/win32/api/strmif/ns-strmif-colorkey)a> structure that contains the key type and a palette index.
 
 
 ### -param pColor [out]
 
-Pointer to a value indicating the 8-bit palette index of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-colorkey">COLORKEY</a> returned if the current display mode is 8-bit palettized. Otherwise it is a value representing the color key in the pixel format of the current display mode.
+Pointer to a value indicating the 8-bit palette index of the [COLORKEY](/windows/win32/api/strmif/ns-strmif-colorkey)a> returned if the current display mode is 8-bit palettized. Otherwise it is a value representing the color key in the pixel format of the current display mode.
 
 
 ## -returns

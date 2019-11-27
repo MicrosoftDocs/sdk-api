@@ -111,7 +111,7 @@ The  <b>ResUtilGetSzValue</b> utility function allocates the necessary memory fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nc-resapi-presutil_get_expand_sz_value">ResUtilGetExpandSzValue</a>
+[ResUtilGetExpandSzValue](/windows/win32/api/resapi/nf-resapi-resutilgetexpandszvalue)a>
 
 
 

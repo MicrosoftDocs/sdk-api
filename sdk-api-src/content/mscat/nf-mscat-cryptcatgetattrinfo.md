@@ -69,7 +69,7 @@ The handle of the catalog that contains the member to retrieve the attribute inf
 
 ### -param pCatMember [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember_">CRYPTCATMEMBER</a> structure that represents the member to retrieve the attribute information for. This can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatgetmemberinfo">CryptCATGetMemberInfo</a> function. This parameter is required and cannot be <b>NULL</b>.
+A pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)a> structure that represents the member to retrieve the attribute information for. This can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatgetmemberinfo">CryptCATGetMemberInfo</a> function. This parameter is required and cannot be <b>NULL</b>.
 
 
 ### -param pwszReferenceTag [in]
@@ -81,7 +81,7 @@ A pointer to a null-terminated Unicode string that contains the name of the attr
 
 
 
-This function returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute_">CRYPTCATATTRIBUTE</a> structure that contains the attribute information. If the function fails, it returns <b>NULL</b>.
+This function returns a pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a> structure that contains the attribute information. If the function fails, it returns <b>NULL</b>.
 
 
 <div class="alert"><b>Important</b>  Do not free the returned pointer nor any of the members pointed to by the returned pointer.</div>
@@ -131,11 +131,11 @@ One or more of the parameters are not valid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute_">CRYPTCATATTRIBUTE</a>
+[CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember_">CRYPTCATMEMBER</a>
+[CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)a>
 
 
 

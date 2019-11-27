@@ -64,7 +64,7 @@ The <b>IKEEXT_CIPHER_ALGORITHM0</b> structure stores information about the IKE/A
 
 The type of encryption algorithm.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cipher_type_">IKEEXT_CIPHER_TYPE</a> for more information.
+See [IKEEXT_CIPHER_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cipher_type)a> for more information.
 
 
 ### -field keyLen
@@ -91,7 +91,7 @@ Unused parameter, always set it to 0.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cipher_type_">IKEEXT_CIPHER_TYPE</a>
+[IKEEXT_CIPHER_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cipher_type)a>
 
 
 

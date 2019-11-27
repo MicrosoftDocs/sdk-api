@@ -66,7 +66,7 @@ Sets options for the stream selector.
 
 ### -param dwStreamSelectorFlags [in]
 
-Bitwise <b>OR</b> of zero or more members of the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_streamselectorflags">MFASF_STREAMSELECTOR_FLAGS</a> enumeration specifying the options to use.
+Bitwise [MFASF_STREAMSELECTOR_FLAGS](/windows/win32/api/wmcontainer/ne-wmcontainer-mfasf_streamselector_flags)a> enumeration specifying the options to use.
 
 
 ## -returns

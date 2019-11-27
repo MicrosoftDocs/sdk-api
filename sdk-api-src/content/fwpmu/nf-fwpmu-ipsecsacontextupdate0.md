@@ -71,7 +71,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 Type: <b>UINT32</b>
 
-Flags indicating the specific field in the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1_">IPSEC_SA_CONTEXT1</a> structure that is being updated.
+Flags indicating the specific field in the [IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)a> structure that is being updated.
 
 Possible values:
 
@@ -86,7 +86,7 @@ Possible values:
 </dl>
 </td>
 <td width="60%">
-Updates the <b>traffic</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a> structure.
+Updates the [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)a> structure.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Updates the <b>traffic</b> member of the <a href="https://docs.microsoft.com/win
 </dl>
 </td>
 <td width="60%">
-Updates the <b>udpEncapsulation</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a> structure.
+Updates the [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)a> structure.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Updates the <b>udpEncapsulation</b> member of the <a href="https://docs.microsof
 </dl>
 </td>
 <td width="60%">
-Updates the <b>flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1_">IPSEC_SA_BUNDLE1</a> structure.
+Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a> structure.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Updates the <b>flags</b> member of the <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-Updates the <b>napContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1_">IPSEC_SA_BUNDLE1</a> structure.
+Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a> structure.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ Updates the <b>napContext</b> member of the <a href="https://docs.microsoft.com/
 </dl>
 </td>
 <td width="60%">
-Updates the <b>keyModuleState</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1_">IPSEC_SA_BUNDLE1</a> structure.
+Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a> structure.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Updates the <b>keyModuleState</b> member of the <a href="https://docs.microsoft.
 </dl>
 </td>
 <td width="60%">
-Updates the <b>peerV4PrivateAddress</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1_">IPSEC_SA_BUNDLE1</a> structure.
+Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a> structure.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Updates the <b>peerV4PrivateAddress</b> member of the <a href="https://docs.micr
 </dl>
 </td>
 <td width="60%">
-Updates the <b>mmSaId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1_">IPSEC_SA_BUNDLE1</a> structure.
+Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a> structure.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ Updates the <b>mmSaId</b> member of the <a href="https://docs.microsoft.com/wind
 
 ### -param newValues [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1_">IPSEC_SA_CONTEXT1</a>*</b>
+Type: [IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)a>*</b>
 
 An inbound and outbound SA pair.
 
@@ -228,7 +228,7 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1_">IPSEC_SA_CONTEXT1</a>
+[IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)a>
  
 
  

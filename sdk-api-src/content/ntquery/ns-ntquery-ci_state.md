@@ -151,7 +151,7 @@ When using this structure, all members are output values. The <b>cbStruct</b> me
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-cistate">CIState</a>
+[CIState](/windows/win32/api/ntquery/ns-ntquery-ci_state)a>
 
 
 

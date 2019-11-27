@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a> structure points to the <b>PEER_EVENT_RECORD_CHANGE_DATA</b> structure if one of the following peer events is triggered:
+The [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a> structure points to the <b>PEER_EVENT_RECORD_CHANGE_DATA</b> structure if one of the following peer events is triggered:
 <ul>
 <li><b>PEER_GRAPH_EVENT_RECORD_CHANGE</b></li>
 <li><b>PEER_GROUP_EVENT_RECORD_CHANGE</b></li>
@@ -93,7 +93,7 @@ Specifies the unique  record type of a changed record.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>
+[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a>
 
 
 

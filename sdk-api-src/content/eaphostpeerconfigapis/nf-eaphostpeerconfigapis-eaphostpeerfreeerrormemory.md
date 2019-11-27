@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees memory allocated to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure.  An  <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP ERROR</a> structure is created whenever an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-configuration-functions">EAPHost supplicant configuration function</a> fails. 
+Frees memory allocated to an [EAPHost supplicant configuration function](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a> fails. 
 
 The  <b>EapHostPeerFreeErrorMemory</b> function is used only for freeing <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structures returned by EAPHost configuration APIs, while the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeEapError</a> function is used for freeing <b>EAP_ERROR</b> structures returned by EAPHost run-time APIs.
 
@@ -103,11 +103,11 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-configuration-functions">EAPHost Supplicant Configuration Functions</a>
+[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphost-supplicant-frequently-asked-questions">EAPHost Supplicant Frequently Asked Questions</a>
+[EAPHost Supplicant Frequently Asked Questions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-supplicant-frequently-asked-questions)a>
 
 
 

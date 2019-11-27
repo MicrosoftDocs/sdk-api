@@ -69,7 +69,7 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param *change [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_change0_">FWPM_FILTER_CHANGE0</a>*</b>
+Type: [FWPM_FILTER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_change0)a>*</b>
 
 The change notification information.
 
@@ -99,7 +99,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpm
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_change0_">FWPM_FILTER_CHANGE0</a>
+[FWPM_FILTER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_change0)a>
 
 
 

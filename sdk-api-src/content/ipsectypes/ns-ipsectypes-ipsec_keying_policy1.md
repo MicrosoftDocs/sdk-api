@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The  structure defines an unordered set of keying modules that will be tried for IPsec.<div class="alert"><b>Note</b>  <b>IPSEC_KEYING_POLICY1</b> is the specific implementation of IPSEC_KEYING_POLICY used in Windows 8. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista and Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy0_">IPSEC_KEYING_POLICY0</a> is available.</div>
+The  structure defines an unordered set of keying modules that will be tried for IPsec.[IPSEC_KEYING_POLICY0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy0)a> is available.</div>
 <div> </div>
 
 

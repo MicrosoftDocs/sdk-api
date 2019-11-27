@@ -62,12 +62,12 @@ The <b>CryptSIPVerifyIndirectData</b> function validates the indirect hashed dat
 
 ### -param pSubjectInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure that contains information about the message subject.
+A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that contains information about the message subject.
 
 
 ### -param pIndirectData [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data_">SIP_INDIRECT_DATA</a> structure that contains information about the hashed subject information.
+A pointer to a [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)a> structure that contains information about the hashed subject information.
 
 
 ## -returns

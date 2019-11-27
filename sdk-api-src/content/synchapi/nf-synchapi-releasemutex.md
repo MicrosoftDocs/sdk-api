@@ -70,7 +70,7 @@ Releases ownership of the specified mutex object.
 
 A handle to the mutex object. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openmutexa">OpenMutex</a> function returns this handle. 
+[OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw)a> function returns this handle. 
 
 
 

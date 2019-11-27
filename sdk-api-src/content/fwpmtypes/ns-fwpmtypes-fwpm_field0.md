@@ -69,14 +69,14 @@ Uniquely identifies the field. See FWPM_CONDITION_* identifiers in the topic <a 
 
 Determines how <b>dataType</b> is interpreted.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type_">FWPM_FIELD_TYPE</a> for more information.
+See [FWPM_FIELD_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type)a> for more information.
 
 
 ### -field dataType
 
 Data type passed to classify.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type_">FWP_DATA_TYPE</a> for more information.
+See [FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type)a> for more information.
 
 
 ## -remarks
@@ -93,11 +93,11 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type_">FWPM_FIELD_TYPE</a>
+[FWPM_FIELD_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type_">FWP_DATA_TYPE</a>
+[FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type)a>
 
 
 

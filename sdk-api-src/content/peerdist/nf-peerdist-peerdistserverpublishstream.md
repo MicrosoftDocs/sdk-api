@@ -82,7 +82,7 @@ The length, in bytes, of the content to be published. This value can be 0 if the
 
 ### -param pPublishOptions [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_publication_options_tag">PEERDIST_PUBLICATION_OPTIONS</a> structure that specifies content publishing rules.
+Pointer to a [PEERDIST_PUBLICATION_OPTIONS](/windows/win32/api/peerdist/ns-peerdist-peerdist_publication_options)a> structure that specifies content publishing rules.
 
 
 ### -param hCompletionPort [in, optional]

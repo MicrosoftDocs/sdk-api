@@ -80,7 +80,7 @@ Identifies the session that created the subscription.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_enum_template0_">FWPM_CONNECTION_ENUM_TEMPLATE0</a>
+[FWPM_CONNECTION_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_enum_template0)a>
  
 
  

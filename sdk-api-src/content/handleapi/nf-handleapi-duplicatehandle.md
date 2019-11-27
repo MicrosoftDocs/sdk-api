@@ -249,7 +249,7 @@ If the process that calls
 <td>Mutex</td>
 <td>The handle is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openmutexa">OpenMutex</a> function.</td>
+[OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw)a> function.</td>
 </tr>
 <tr>
 <td>Pipe</td>
@@ -292,8 +292,8 @@ If the process that calls
 <tr>
 <td>Timer</td>
 <td>The handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createwaitabletimera">CreateWaitableTimer</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openwaitabletimera">OpenWaitableTimer</a> function.</td>
+[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a> or 
+[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a> function.</td>
 </tr>
 <tr>
 <td>Transaction</td>

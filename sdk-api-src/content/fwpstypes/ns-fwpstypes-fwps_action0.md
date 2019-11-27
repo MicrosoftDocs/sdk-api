@@ -168,7 +168,7 @@ The run-time identifier for the callout that the filter engine calls if all of t
 
 
 An FWPS_ACTION0 structure is contained within an 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a> structure.
+    [FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)a> structure.
 
 
 
@@ -178,7 +178,7 @@ An FWPS_ACTION0 structure is contained within an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a>
+[FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)a>
 
 
 

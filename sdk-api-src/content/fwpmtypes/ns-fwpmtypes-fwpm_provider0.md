@@ -70,7 +70,7 @@ If the GUID is zero-initialized in the
 
 ### -field displayData
 
-Allows providers to be annotated in a human-readable form.  The <b>name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a> structure is required.
+Allows providers to be annotated in a human-readable form.  The [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a> structure is required.
 
 
 ### -field flags
@@ -110,7 +110,7 @@ Provider's filters were disabled when the BFE started because the provider has n
 
 ### -field providerData
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> structure that contains optional provider-specific data that allows providers to store additional context info with the object.
+An [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> structure that contains optional provider-specific data that allows providers to store additional context info with the object.
 
 
 ### -field serviceName
@@ -133,7 +133,7 @@ Optional name of the Windows service hosting the provider. This allows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a>
+[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a>
 
 
 

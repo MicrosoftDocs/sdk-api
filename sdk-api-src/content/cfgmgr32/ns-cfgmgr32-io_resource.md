@@ -62,7 +62,7 @@ The IO_RESOURCE structure is used for specifying either a resource list or a res
 
 ### -field IO_Header
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des_s">IO_DES</a> structure.
+An [IO_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des)a> structure.
 
 
 ### -field IO_Data
@@ -79,7 +79,7 @@ Zero.
 
 #### For a resource requirements list:
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range_s">IO_RANGE</a> array.
+An [IO_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range)a> array.
 
 
 ## -see-also
@@ -87,11 +87,11 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des_s">IO_DES</a>
+[IO_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range_s">IO_RANGE</a>
+[IO_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range)a>
  
 
  

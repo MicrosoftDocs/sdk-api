@@ -62,12 +62,12 @@ The <b>IPSEC_DOSP_STATE_ENUM_TEMPLATE0</b> structure is used to enumerate IPsec 
 
 ### -field publicV6AddrMask
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask_">FWP_V6_ADDR_AND_MASK</a> structure that specifies the public IPv6 address.
+An [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a> structure that specifies the public IPv6 address.
 
 
 ### -field internalV6AddrMask
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask_">FWP_V6_ADDR_AND_MASK</a> structure that specifies the internal IPv6 address.
+An [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a> structure that specifies the internal IPv6 address.
 
 
 ## -remarks
@@ -84,7 +84,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask_">FWP_V6_ADDR_AND_MASK</a>
+[FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a>
 
 
 

@@ -127,7 +127,7 @@ Specifies that the user should be prompted for identity information before diali
 </td>
 <td width="60%">
 Indicates that this connection is the first link in a multilink connection. See 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/multilink-and-callback-connections">Multilink and Callback Connections</a> for more information.
+[Multilink and Callback Connections](https://docs.microsoft.com/windows/win32/eap/multilink-and-callback-connections)a> for more information.
 
 </td>
 </tr>
@@ -260,15 +260,15 @@ If
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-functions">EAP Functions</a>
+[EAP Functions](https://docs.microsoft.com/windows/win32/eap/eap-functions)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference">Extensible Authentication Protocol Reference</a>
+[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/obtaining-identity-information">Obtaining Identity Information</a>
+[Obtaining Identity Information](https://docs.microsoft.com/windows/win32/eap/obtaining-identity-information)a>
 
 
 

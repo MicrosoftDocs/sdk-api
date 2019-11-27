@@ -72,7 +72,7 @@ Handle to the ACM driver identifier.
 
 ### -param paftd
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformattagdetails">ACMFORMATTAGDETAILS</a> structure that contains the enumerated format tag details.
+Pointer to an [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails)a> structure that contains the enumerated format tag details.
 
 
 ### -param dwInstance
@@ -82,7 +82,7 @@ Application-defined value specified in the <a href="https://docs.microsoft.com/w
 
 ### -param fdwSupport
 
-Driver-support flags specific to the format tag. These flags are identical to the <b>fdwSupport</b> flags of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure. This parameter can be a combination of the following values and indicates which operations the driver supports with the format tag.
+Driver-support flags specific to the format tag. These flags are identical to the [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure. This parameter can be a combination of the following values and indicates which operations the driver supports with the format tag.
 
 <table>
 <tr>

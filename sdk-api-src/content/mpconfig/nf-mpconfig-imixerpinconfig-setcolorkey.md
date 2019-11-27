@@ -66,7 +66,7 @@ The <code>SetColorKey</code> method sets the color key being used by a video str
 
 ### -param pColorKey [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-colorkey">COLORKEY</a> structure.
+Pointer to a [COLORKEY](/windows/win32/api/strmif/ns-strmif-colorkey)a> structure.
 
 
 ## -returns

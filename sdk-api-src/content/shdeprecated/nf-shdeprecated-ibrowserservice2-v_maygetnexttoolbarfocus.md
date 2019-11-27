@@ -86,7 +86,7 @@ The ID of the current toolbar with focus, or ITB_VIEW if the view has focus.
 
 Type: <b>LPTOOLBARITEM*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-stoolbaritem">TOOLBARITEM</a> structure that represents the toolbar receiving the focus.
+A pointer to a [TOOLBARITEM](/windows/win32/api/shdeprecated/ns-shdeprecated-toolbaritem)a> structure that represents the toolbar receiving the focus.
 
 
 ### -param phwnd [out]
