@@ -62,7 +62,7 @@ The <b>IKEEXT_TRAFFIC0</b> structure specifies the IKE/Authip traffic.
 
 ### -field ipVersion
 
-IP version specified by <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a>.
+IP version specified by [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>.
 
 
 ### -field localV4Address
@@ -112,7 +112,7 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a>
+[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>
 
 
 

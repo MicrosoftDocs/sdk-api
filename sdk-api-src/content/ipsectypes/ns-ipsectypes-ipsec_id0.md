@@ -72,12 +72,12 @@ Optional extended mode target SPN.
 
 ### -field numTokens
 
-Optional.  Number of <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0_">IPSEC_TOKEN0</a> structures present in the <b>tokens</b> member.
+Optional.  Number of [IPSEC_TOKEN0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0)a> structures present in the <b>tokens</b> member.
 
 
 ### -field tokens
 
-Optional array of <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0_">IPSEC_TOKEN0</a> structures.
+Optional array of [IPSEC_TOKEN0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0)a> structures.
 
 
 ### -field explicitCredentials

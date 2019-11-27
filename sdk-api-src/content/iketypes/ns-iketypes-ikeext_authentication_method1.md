@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IKEEXT_AUTHENTICATION_METHOD1</b> structure specifies various parameters for IKE/Authip authentication.<div class="alert"><b>Note</b>  <b>IKEEXT_AUTHENTICATION_METHOD1</b> is the specific implementation of IKEEXT_AUTHENTICATION_METHOD used in Windows 7. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2_">IKEEXT_AUTHENTICATION_METHOD2</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method0_">IKEEXT_AUTHENTICATION_METHOD0</a> is available.</div>
+The [IKEEXT_AUTHENTICATION_METHOD0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method0)a> is available.</div>
 <div> </div>
 
 
@@ -85,14 +85,14 @@ See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-i
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_KERBEROS</b>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_kerberos_authentication0__">IKEEXT_KERBEROS_AUTHENTICATION0</a> for more information.
+See [IKEEXT_KERBEROS_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0)a> for more information.
 
 
 ### -field ntlmV2Authentication
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_NTLM_V2</b>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ntlm_v2_authentication0__">IKEEXT_NTLM_V2_AUTHENTICATION0</a> for more information.
+See [IKEEXT_NTLM_V2_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0)a> for more information.
 
 
 ### -field sslAuthentication
@@ -106,14 +106,14 @@ See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-i
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_IPV6_CGA</b>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ipv6_cga_authentication0_">IKEEXT_IPV6_CGA_AUTHENTICATION0</a> for more information.
+See [IKEEXT_IPV6_CGA_AUTHENTICATION0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ipv6_cga_authentication0)a> for more information.
 
 
 ### -field eapAuthentication
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_EAP</b>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_eap_authentication0__">IKEEXT_EAP_AUTHENTICATION0</a> for more information.
+See [IKEEXT_EAP_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0)a> for more information.
 
 
 ## -see-also

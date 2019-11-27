@@ -80,7 +80,7 @@ Sends the packet and waits for a response for a longer period of time to allow f
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-authenticator-method-enumerations">EAPHost Authenticator Method Enumerations</a>
+[EAPHost Authenticator Method Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-enumerations)a>
  
 
  

@@ -157,7 +157,7 @@ An exception occurred while reading user input parameters.
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed. This error is returned if the <i>fdarray</i> parameter contains a <b>NULL</b> pointer. This error is also returned if invalid flags were specified in the <b>events</b> member of any of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a> structures  pointed to by the <i>fdarray</i> parameter when requesting socket
+An invalid parameter was passed. This error is returned if the [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a> structures  pointed to by the <i>fdarray</i> parameter when requesting socket
                        status. This error is also returned if none of the sockets specified in the <b>fd</b> member of any of the <b>WSAPOLLFD</b> structures  pointed to by the <i>fdarray</i> parameter were valid. 
 
 </td>
@@ -185,13 +185,13 @@ The function was unable to allocate sufficient memory.
 
 The <b>WSAPoll</b> function is defined on Windows Vista and later. 
 
-The <b>WSAPoll</b> function is used to determine the status of one or more sockets. The set of sockets for which status is requested is specified in <i>fdarray</i> parameter, which is an array of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a> structures.  An application sets the appropriate flags in the <b>events</b> member of the <b>WSAPOLLFD</b> structure to specify the type of status requested for each corresponding socket.  The <b>WSAPoll</b> function returns the status of a socket in the <b>revents</b> member of the <b>WSAPOLLFD</b> structure.
+The [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a> structures.  An application sets the appropriate flags in the <b>events</b> member of the <b>WSAPOLLFD</b> structure to specify the type of status requested for each corresponding socket.  The <b>WSAPoll</b> function returns the status of a socket in the <b>revents</b> member of the <b>WSAPOLLFD</b> structure.
 
 For each socket, a caller can request information on read or write status.  Error conditions are always returned, so information on them need not be requested.
 
-The <i>fdarray</i> parameter must contain at least one valid non-negative socket. Upon return, all of the supplied sockets that either satisfy the requested status conditions or have an error condition will have the appropriate flags set on the <b>revents</b> member of their corresponding <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a> structure pointed to by the <i>fdarray</i> parameter. All sockets that do not meet these criteria and have no error condition will have the corresponding  <b>revents</b> member set to 0.
+The [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a> structure pointed to by the <i>fdarray</i> parameter. All sockets that do not meet these criteria and have no error condition will have the corresponding  <b>revents</b> member set to 0.
 
-A combination of the following flags can be set in the <b>events</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a> structure for a given socket when requesting status for that socket:<table>
+A combination of the following flags can be set in the [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a> structure for a given socket when requesting status for that socket:<table>
 <tr>
 <th>Flag</th>
 <th>Description</th>
@@ -219,9 +219,9 @@ A combination of the following flags can be set in the <b>events</b> member of t
 
 The <b>POLLIN</b> flag is defined as the combination of the <b>POLLRDNORM</b>  and <b>POLLRDBAND</b> flag values. The <b>POLLOUT</b> flag is defined as the same as the <b>POLLWRNORM</b>  flag value.
 
-The <b>events</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a> structure must only contain a combination of the above flags that are supported by the Winsock provider. Any other values are considered errors and  <b>WSAPoll</b> will return <b>SOCKET_ERROR</b>. A subsequent call to  the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function will retrieve the extended error code of <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a>. If the <b>POLLPRI</b> flag is set on a socket for the Microsoft Winsock provider, the <b>WSAPoll</b> function will fail.  
+The [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a> structure must only contain a combination of the above flags that are supported by the Winsock provider. Any other values are considered errors and  <b>WSAPoll</b> will return <b>SOCKET_ERROR</b>. A subsequent call to  the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function will retrieve the extended error code of <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a>. If the <b>POLLPRI</b> flag is set on a socket for the Microsoft Winsock provider, the <b>WSAPoll</b> function will fail.  
 
-When the <b>WSAPoll</b> function returns a positive value, a combination of the following flags are returned in the <b>revents</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a> structures pointed to by the <i>fdarray</i> parameter to indicate socket  status:<table>
+When the [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a> structures pointed to by the <i>fdarray</i> parameter to indicate socket  status:<table>
 <tr>
 <th>Flag</th>
 <th>Description</th>
@@ -263,15 +263,15 @@ When the <b>WSAPoll</b> function returns a positive value, a combination of the 
 With regard to TCP and UDP sockets:
 
 <ul>
-<li>All regular TCP data and all UDP data is considered normal. So if SO_OOBINLINE has been enabled for a socket, out-of-band data will be indicated  in the returned <b>revents</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a> structure as  normal data as <b>POLLRDNORM</b>.</li>
-<li>When normal data is indicated in the returned <b>revents</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a> structure, a subsequent <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a> operation is guaranteed to complete without blocking.</li>
-<li>Pending <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> requests are indicated in the returned <b>revents</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a> structure by <b>POLLWRNORM</b>.</li>
-<li>Pending connections on a listening socket are indicated in the returned <b>revents</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a>  structure by <b>POLLRDNORM</b>. A subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> is guaranteed to complete without blocking.</li>
-<li>Any out-of-band data is considered priority band for TCP, and is indicated in the returned <b>revents</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a>  structure by <b>POLLRDBAND</b>.</li>
-<li><b>POLLRDNORM</b> is indicated in the returned <b>revents</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a>  structure when a remote peer shuts down a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a> operation (a TCP FIN was received). A subsequent <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a> function request will return zero bytes.</li>
-<li><b>POLLHUP</b> is indicated in the returned <b>revents</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a>  structure when the remote peer initiates a graceful disconnect.</li>
-<li>The <b>POLLHUP</b> and <b>POLLERR</b> are indicated in the returned <b>revents</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a>  structure returned when a remote peer suddenly disconnects.</li>
-<li><b>POLLERR</b> is indicated in the returned <b>revents</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a>  structure when the local socket is closed.</li>
+[WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a> structure as  normal data as <b>POLLRDNORM</b>.</li>
+[WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a> structure, a subsequent <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a> operation is guaranteed to complete without blocking.</li>
+[WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a> structure by <b>POLLWRNORM</b>.</li>
+[WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a>  structure by <b>POLLRDNORM</b>. A subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> is guaranteed to complete without blocking.</li>
+[WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a>  structure by <b>POLLRDBAND</b>.</li>
+[WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a>  structure when a remote peer shuts down a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a> operation (a TCP FIN was received). A subsequent <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a> function request will return zero bytes.</li>
+[WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a>  structure when the remote peer initiates a graceful disconnect.</li>
+[WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a>  structure returned when a remote peer suddenly disconnects.</li>
+[WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a>  structure when the local socket is closed.</li>
 </ul>
 
 
@@ -295,7 +295,7 @@ The timeout argument specifies how long the function is to wait before returning
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-pollfd">WSAPOLLFD</a>
+[WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a>
  
 
  

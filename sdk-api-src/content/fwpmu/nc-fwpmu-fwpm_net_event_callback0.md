@@ -69,7 +69,7 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param *event [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1_">FWPM_NET_EVENT1</a>*</b>
+Type: [FWPM_NET_EVENT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1)a>*</b>
 
 The net event information.
 
@@ -97,7 +97,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpm
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1_">FWPM_NET_EVENT1</a>
+[FWPM_NET_EVENT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1)a>
 
 
 

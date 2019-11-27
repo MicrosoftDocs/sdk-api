@@ -62,7 +62,7 @@ The <b>FWPM_FILTER_CHANGE0</b> structure stores change notification dispatched t
 
 ### -field changeType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type_">FWPM_CHANGE_TYPE</a> value that specifies the type of change notification to be dispatched.
+A [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a> value that specifies the type of change notification to be dispatched.
 
 
 ### -field filterKey
@@ -89,7 +89,7 @@ LUID of the filter that changed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type_">FWPM_CHANGE_TYPE</a>
+[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a>
 
 
 

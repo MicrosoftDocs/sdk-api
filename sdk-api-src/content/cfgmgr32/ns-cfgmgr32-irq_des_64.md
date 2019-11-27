@@ -74,7 +74,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range_s">IRQ_RANGE</a> array that is included in the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32_s">IRQ_RESOURCE</a> structure.
+The number of elements in the [IRQ_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32)a> structure.
 
 
 ### -field IRQD_Type
@@ -242,7 +242,7 @@ Zero.
 
 ##### - IRQD_Count.For a resource requirements list:
 
-The number of elements in the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range_s">IRQ_RANGE</a> array that is included in the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32_s">IRQ_RESOURCE</a> structure.
+The number of elements in the [IRQ_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32)a> structure.
 
 
 ## -see-also
@@ -250,11 +250,11 @@ The number of elements in the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range_s">IRQ_RANGE</a>
+[IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32_s">IRQ_RESOURCE</a>
+[IRQ_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32)a>
  
 
  

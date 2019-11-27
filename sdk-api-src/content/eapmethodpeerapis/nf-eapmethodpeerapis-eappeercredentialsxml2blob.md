@@ -72,7 +72,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-
 
 ### -param pCredentialsDoc [in]
 
-A pointer to an XML node that contains credentials, which are either user or machine credentials depending on the configuration passed in. The XML document is created with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphostusercredentialsschema-schema">EapHostUserCredentials Schema</a>. 
+A pointer to an XML node that contains credentials, which are either user or machine credentials depending on the configuration passed in. The XML document is created with the [EapHostUserCredentials Schema](https://docs.microsoft.com/windows/win32/eaphost/eaphostusercredentialsschema-schema)a>. 
 
 
 ### -param pConfigIn [in]
@@ -105,7 +105,7 @@ A pointer to the address of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphost-peer-method-configuration-functions">EAPHost Peer Method Configuration Functions</a>
+[EAPHost Peer Method Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-configuration-functions)a>
  
 
  

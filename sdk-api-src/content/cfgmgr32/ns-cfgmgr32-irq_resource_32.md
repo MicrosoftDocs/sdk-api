@@ -62,7 +62,7 @@ The IRQ_RESOURCE structure is used for specifying either a resource list or a re
 
 ### -field IRQ_Header
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32_s">IRQ_DES</a> structure.
+An [IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32)a> structure.
 
 
 ### -field IRQ_Data
@@ -79,7 +79,7 @@ Zero.
 
 #### For a resource requirements list:
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range_s">IRQ_RANGE</a> array.
+An [IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range)a> array.
 
 
 ## -see-also
@@ -87,11 +87,11 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32_s">IRQ_DES</a>
+[IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range_s">IRQ_RANGE</a>
+[IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range)a>
  
 
  

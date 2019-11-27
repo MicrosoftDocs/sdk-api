@@ -107,7 +107,7 @@ Type: <b>UINT32</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_statistics0_">FWPM_STATISTICS0</a>
+[FWPM_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_statistics0)a>
  
 
  

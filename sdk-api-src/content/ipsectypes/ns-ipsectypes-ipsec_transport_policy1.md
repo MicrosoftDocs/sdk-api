@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_TRANSPORT_POLICY1</b> structure  stores the quick mode negotiation policy for transport mode IPsec.
-<div class="alert"><b>Note</b>  <b>IPSEC_TRANSPORT_POLICY1</b> is the specific implementation of IPSEC_TRANSPORT_POLICY used in Windows 7. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy0_">IPSEC_TRANSPORT_POLICY0</a> is available. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2_">IPSEC_TRANSPORT_POLICY2</a> is available.</div><div> </div>
+[IPSEC_TRANSPORT_POLICY2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -69,7 +69,7 @@ Number of quick mode proposals in the policy.
 
 Array of quick mode proposals.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0_">IPSEC_PROPOSAL0</a> for more information.
+See [IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)a> for more information.
 
 
 ### -field flags
@@ -154,14 +154,14 @@ Timeout in seconds, after which the IPsec security association (SA) should stop 
 
 ### -field saIdleTimeout
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0_">IPSEC_SA_IDLE_TIMEOUT0</a> structure that specifies the SA idle timeout in IPsec policy.
+An [IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)a> structure that specifies the SA idle timeout in IPsec policy.
 
 
 ### -field emPolicy
 
 The AuthIP extended mode authentication policy.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy1_">IKEEXT_EM_POLICY1</a> for more information.
+See [IKEEXT_EM_POLICY1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy1)a> for more information.
 
 
 ## -see-also
@@ -169,15 +169,15 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy1_">IKEEXT_EM_POLICY1</a>
+[IKEEXT_EM_POLICY1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy1)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0_">IPSEC_PROPOSAL0</a>
+[IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0_">IPSEC_SA_IDLE_TIMEOUT0</a>
+[IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)a>
 
 
 

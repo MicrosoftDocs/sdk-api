@@ -69,7 +69,7 @@ Handle for an open session to the filter engine. Call  <a href="https://docs.mic
 
 ### -param provider [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0_">FWPM_PROVIDER0</a>*</b>
+Type: [FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)a>*</b>
 
 The provider object to be added.
 
@@ -140,7 +140,7 @@ Failure to communicate with the remote or local firewall engine.
 
 If the caller supplies a null security descriptor, the system will assign a default security descriptor.
 
-Boot-time objects are added to the Base Filtering Engine (BFE) when the TCP/IP driver starts, and are removed once the BFE finishes initialization.  Persistent objects are added when the BFE starts. If a policy provider has a persistent policy that is not intended to be enforced if its associated service is disabled, the caller can specify an optional service name in the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0_">FWPM_PROVIDER0</a> structure.  This service then owns the persistent policy object.  At start, the BFE only adds the following types of persistent objects to the system.
+Boot-time objects are added to the Base Filtering Engine (BFE) when the TCP/IP driver starts, and are removed once the BFE finishes initialization.  Persistent objects are added when the BFE starts. If a policy provider has a persistent policy that is not intended to be enforced if its associated service is disabled, the caller can specify an optional service name in the [FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)a> structure.  This service then owns the persistent policy object.  At start, the BFE only adds the following types of persistent objects to the system.
 
 <ul>
 <li>The object is not associated with a provider.</li>
@@ -162,7 +162,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0_">FWPM_PROVIDER0</a>
+[FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)a>
  
 
  

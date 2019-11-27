@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_CLASSIFY_DROP1</b> structure contains information that describes a layer drop  failure.
-<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_CLASSIFY_DROP1</b> is the specific implementation of FWPM_NET_EVENT_CLASSIFY_DROP used in Windows 7. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop2_">FWPM_NET_EVENT_CLASSIFY_DROP2</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop0_">FWPM_NET_EVENT_CLASSIFY_DROP0</a> is available.</div><div> </div>
+[FWPM_NET_EVENT_CLASSIFY_DROP0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop0)a> is available.</div><div> </div>
 
 ## -struct-fields
 

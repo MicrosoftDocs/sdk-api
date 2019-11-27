@@ -71,7 +71,7 @@ Handle to the conversion steam.
 
 ### -param pash
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmstreamheader">ACMSTREAMHEADER</a> structure that identifies the source and destination buffers to be unprepared.
+Pointer to an [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader)a> structure that identifies the source and destination buffers to be unprepared.
 
 
 ### -param fdwUnprepare

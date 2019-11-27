@@ -252,7 +252,7 @@ The entire collection of input fields in a EAP configuration dialog box is repre
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/understanding-sso-and-plap">SSO and PLAP</a>
+[SSO and PLAP](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a>
  
 
  

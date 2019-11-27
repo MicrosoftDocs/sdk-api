@@ -155,11 +155,11 @@ The DLL that implements
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-interfaces">EAP Interfaces</a>
+[EAP Interfaces](https://docs.microsoft.com/windows/win32/eap/eap-interfaces)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference">Extensible Authentication Protocol Reference</a>
+[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
 
 
 

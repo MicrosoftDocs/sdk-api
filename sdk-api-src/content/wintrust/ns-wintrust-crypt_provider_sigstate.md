@@ -132,7 +132,7 @@ Identifies the portion of the policy provider that  supports cryptographic polic
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings_">WINTRUST_SIGNATURE_SETTINGS</a>
+[WINTRUST_SIGNATURE_SETTINGS](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings)a>
  
 
  

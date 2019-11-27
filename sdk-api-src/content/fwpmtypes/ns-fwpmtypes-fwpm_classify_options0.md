@@ -69,7 +69,7 @@ Number of <b>FWPM_CLASSIFY_OPTION0</b> structures in the <b>options</b> member.
 
 [size_is(numCredentials)]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0_">FWPM_CLASSIFY_OPTION0</a> structures.
+Pointer to an array of [FWPM_CLASSIFY_OPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0)a> structures.
 
 
 ## -remarks
@@ -86,7 +86,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0_">FWPM_CLASSIFY_OPTION0</a>
+[FWPM_CLASSIFY_OPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0)a>
 
 
 

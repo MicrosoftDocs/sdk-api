@@ -115,7 +115,7 @@ Beginning with Windows 8 and Windows Server 2012, you must retrieve a handle b
 
 
 
-The <b>pwszP7File</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore_">CRYPTCATSTORE</a>  structure must be initialized before you call <b>CryptCATPersistStore</b>.
+The [CRYPTCATSTORE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore)a>  structure must be initialized before you call <b>CryptCATPersistStore</b>.
 
 Beginning with Windows 8 and Windows Server 2012, the following changes apply to this function:
 

@@ -123,7 +123,7 @@ Specifies the peer ID of the node that has  changed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data_tag">PEER_GRAPH_EVENT_DATA</a>
+[PEER_GRAPH_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_graph_event_data)a>
  
 
  

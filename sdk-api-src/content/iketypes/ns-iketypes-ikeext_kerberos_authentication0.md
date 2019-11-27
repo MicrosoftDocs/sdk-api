@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_KERBEROS_AUTHENTICATION0</b> structure contains information needed for preshared key authentication.
-<div class="alert"><b>Note</b>  <b>IKEEXT_KERBEROS_AUTHENTICATION0</b> is the specific implementation of IKEEXT_KERBEROS_AUTHENTICATION used in Windows Vista and Windows 7. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_kerberos_authentication1__">IKEEXT_KERBEROS_AUTHENTICATION1</a> is available.</div><div> </div>
+[IKEEXT_KERBEROS_AUTHENTICATION1](/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_authentication1)a> is available.</div><div> </div>
 
 ## -struct-fields
 

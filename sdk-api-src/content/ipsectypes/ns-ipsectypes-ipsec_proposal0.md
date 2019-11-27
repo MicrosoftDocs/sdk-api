@@ -62,7 +62,7 @@ The <b>IPSEC_PROPOSAL0</b> structure is used to store an IPsec quick mode propos
 
 ### -field lifetime
 
-Lifetime of the IPsec security association (SA) as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0_">IPSEC_SA_LIFETIME0</a>. Cannot be zero.
+Lifetime of the IPsec security association (SA) as specified by [IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0)a>. Cannot be zero.
 
 
 ### -field numSaTransforms
@@ -72,12 +72,12 @@ Number of IPsec SA transforms. The only possible values are 1 and 2. Use 2 only 
 
 ### -field saTransforms
 
-Array of IPsec SA transforms as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_transform0_">IPSEC_SA_TRANSFORM0</a>.
+Array of IPsec SA transforms as specified by [IPSEC_SA_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_transform0)a>.
 
 
 ### -field pfsGroup
 
-Perfect forward secrecy (PFS) group of the IPsec SA as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group_">IPSEC_PFS_GROUP</a>.
+Perfect forward secrecy (PFS) group of the IPsec SA as specified by [IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group)a>.
 
 
 ## -remarks
@@ -98,15 +98,15 @@ proposal.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group_">IPSEC_PFS_GROUP</a>
+[IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0_">IPSEC_SA_LIFETIME0</a>
+[IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_transform0_">IPSEC_SA_TRANSFORM0</a>
+[IPSEC_SA_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_transform0)a>
 
 
 

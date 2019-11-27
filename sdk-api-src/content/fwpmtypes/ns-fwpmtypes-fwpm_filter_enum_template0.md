@@ -72,7 +72,7 @@ Layer whose fields are to be enumerated.
 
 ### -field enumType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type_">FWP_FILTER_ENUM_TYPE</a> value that determines how the filter conditions are interpreted. 
+A [FWP_FILTER_ENUM_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type)a> value that determines how the filter conditions are interpreted. 
 
 
 ### -field flags
@@ -149,7 +149,7 @@ Number of filter conditions. If zero, then all filters match.
 
 ### -field filterCondition
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0_">FWPM_FILTER_CONDITION0</a> structures that contain distinct filter conditions (duplicated filter conditions will generate an error). 
+An array of [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)a> structures that contain distinct filter conditions (duplicated filter conditions will generate an error). 
 
 
 ### -field actionMask
@@ -209,7 +209,7 @@ Uniquely identifies the callout.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0_">FWPM_FILTER_CONDITION0</a>
+[FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)a>
 
 
 
@@ -217,7 +217,7 @@ Uniquely identifies the callout.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type_">FWP_FILTER_ENUM_TYPE</a>
+[FWP_FILTER_ENUM_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type)a>
 
 
 

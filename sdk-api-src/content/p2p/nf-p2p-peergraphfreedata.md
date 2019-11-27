@@ -78,7 +78,7 @@ This function does not have return values.
 
 
 
-The <b>PeerGraphFreeData</b> function should be called with pointers returned directly from the Peer Graphing API functions, for example, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetrecord">PeerGraphGetRecord</a>. Do not call <b>PeerGraphFreeData</b> for nested pointers such as member pointers of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a>.
+The [PEER_RECORD](/windows/win32/api/p2p/ns-p2p-peer_record)a>.
 
 
 

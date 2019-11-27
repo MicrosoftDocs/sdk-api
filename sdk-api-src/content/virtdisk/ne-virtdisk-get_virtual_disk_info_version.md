@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 Contains the kinds of virtual hard disk (VHD) information that you can retrieve. For more information, 
-    see <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_get_virtual_disk_info">GET_VIRTUAL_DISK_INFO</a>.
+    see [GET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info)a>.
 
 
 ## -enum-fields
@@ -170,7 +170,7 @@ The state of resilient change tracking (RCT) for the virtual disk.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_get_virtual_disk_info">GET_VIRTUAL_DISK_INFO</a>
+[GET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info)a>
 
 
 

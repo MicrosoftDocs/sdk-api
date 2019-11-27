@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_COMMON_STATISTICS0</b> structure contains various statistics common to IKE and Authip.
-<div class="alert"><b>Note</b>  <b>IKEEXT_COMMON_STATISTICS0</b> is the specific implementation of IKEEXT_COMMON_STATISTICS used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics1_">IKEEXT_COMMON_STATISTICS1</a> is available.</div><div> </div>
+[IKEEXT_COMMON_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics1)a> is available.</div><div> </div>
 
 ## -struct-fields
 

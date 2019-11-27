@@ -69,7 +69,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param subscription [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_subscription0_">FWPM_SUBLAYER_SUBSCRIPTION0</a>*</b>
+Type: [FWPM_SUBLAYER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_subscription0)a>*</b>
 
 The notifications to be delivered.
 
@@ -175,7 +175,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_subscription0_">FWPM_SUBLAYER_SUBSCRIPTION0</a>
+[FWPM_SUBLAYER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_subscription0)a>
  
 
  

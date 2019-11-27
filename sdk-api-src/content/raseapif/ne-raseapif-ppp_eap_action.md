@@ -113,11 +113,11 @@ Reserved for system use.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-enumerations">EAP Enumerations</a>
+[EAP Enumerations](https://docs.microsoft.com/windows/win32/eap/eap-enumerations)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference">Extensible Authentication Protocol Reference</a>
+[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
 
 
 

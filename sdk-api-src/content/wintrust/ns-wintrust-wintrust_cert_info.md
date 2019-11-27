@@ -72,7 +72,7 @@ Count of bytes in this structure.
 ### -field pcwszDisplayName
 
 String with the name of the memory object pointed to by the <b>pbMem</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_blob_info_">WINTRUST_BLOB_INFO</a> structure.
+[WINTRUST_BLOB_INFO](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_blob_info)a> structure.
 
 
 ### -field psCertContext

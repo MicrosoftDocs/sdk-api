@@ -69,7 +69,7 @@ Optional handle for an open session to the filter engine. Call <a href="https://
 
 ### -param sysPorts [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports0_">FWPM_SYSTEM_PORTS0</a>**</b>
+Type: [FWPM_SYSTEM_PORTS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports0)a>**</b>
 
 The array of system port types.
 
@@ -143,7 +143,7 @@ The returned array (but not the individual entries in the array) must be freed t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports0_">FWPM_SYSTEM_PORTS0</a>
+[FWPM_SYSTEM_PORTS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports0)a>
  
 
  

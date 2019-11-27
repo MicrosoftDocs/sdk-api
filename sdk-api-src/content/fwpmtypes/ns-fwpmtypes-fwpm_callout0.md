@@ -70,7 +70,7 @@ If the GUID is initialized to zero in the
 
 ### -field displayData
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a> structure that contains human-readable annotations associated with the callout.  The <b>name</b> member of the <b>FWPM_DISPLAY_DATA0</b> structure is required.
+A [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a> structure that contains human-readable annotations associated with the callout.  The <b>name</b> member of the <b>FWPM_DISPLAY_DATA0</b> structure is required.
 
 
 ### -field flags
@@ -96,7 +96,7 @@ The callout is persistent across reboots. As a result, it can be referenced by b
 </dl>
 </td>
 <td width="60%">
-The callout needs access to the provider context stored in the filter invoking the callout.  If this flag is set, the provider context will be copied from the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0_">FWPM_FILTER0</a> structure to the <b>FWPS_FILTER0</b> 
+The callout needs access to the provider context stored in the filter invoking the callout.  If this flag is set, the provider context will be copied from the [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)a> structure to the <b>FWPS_FILTER0</b> 
 structure. The <b>FWPS_FILTER0</b> structure is documented in the WDK.
 
 </td>
@@ -122,7 +122,7 @@ Uniquely identifies the provider associated with the callout. If the member is n
 
 ### -field providerData
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> structure that contains optional provider-specific data that allows providers to store additional context information with the object.
+A [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> structure that contains optional provider-specific data that allows providers to store additional context information with the object.
 
 
 ### -field applicableLayer

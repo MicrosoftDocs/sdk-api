@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEAGENTSESSIONLIST</b> structure describes a list of ACD agent sessions. This structure can contain an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsession_tag">LINEAGENTSESSIONENTRY</a> structures. The 
+[LINEAGENTSESSIONENTRY](/windows/win32/api/tapi/ns-tapi-lineagentsessionentry)a> structures. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessionlist">lineGetAgentSessionList</a> function returns the 
 <b>LINEAGENTSESSIONLIST</b> structure.
 
@@ -82,7 +82,7 @@ Size of the portion of this structure that contains useful information, in bytes
 ### -field dwNumEntries
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsession_tag">LINEAGENTSESSIONENTRY</a> structures that appear in the list array. The value is zero if no agent sessions have been created.
+[LINEAGENTSESSIONENTRY](/windows/win32/api/tapi/ns-tapi-lineagentsessionentry)a> structures that appear in the list array. The value is zero if no agent sessions have been created.
 
 
 ### -field dwListSize
@@ -93,7 +93,7 @@ Size of the agent session list array, in bytes.
 ### -field dwListOffset
 
 Offset from the beginning of this structure to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsession_tag">LINEAGENTSESSIONENTRY</a> structures that specify information about agents. The <b>dwListOffset</b> member is <b>dwNumEntries</b> times SIZEOF(LINEAGENTSESSIONENTRY). The size of the field is specified by <b>dwListSize</b>.
+[LINEAGENTSESSIONENTRY](/windows/win32/api/tapi/ns-tapi-lineagentsessionentry)a> structures that specify information about agents. The <b>dwListOffset</b> member is <b>dwNumEntries</b> times SIZEOF(LINEAGENTSESSIONENTRY). The size of the field is specified by <b>dwListSize</b>.
 
 
 ## -see-also
@@ -105,7 +105,7 @@ Offset from the beginning of this structure to an array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsession_tag">LINEAGENTSESSIONENTRY</a>
+[LINEAGENTSESSIONENTRY](/windows/win32/api/tapi/ns-tapi-lineagentsessionentry)a>
 
 
 

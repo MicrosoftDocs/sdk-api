@@ -71,7 +71,7 @@ An
 
 
 The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0_">FWPS_INCOMING_VALUES0</a> structure
+    [FWPS_INCOMING_VALUES0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0)a> structure
     contains a pointer to an array of FWPS_INCOMING_VALUE0 structures that contain the incoming data values
     that are passed to a callout's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function.
@@ -84,7 +84,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0_">FWPS_INCOMING_VALUES0</a>
+[FWPS_INCOMING_VALUES0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0)a>
 
 
 

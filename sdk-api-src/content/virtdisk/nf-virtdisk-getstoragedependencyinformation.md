@@ -87,7 +87,7 @@ Size, in bytes, of the buffer that the <i>StorageDependencyInfo</i> parameter re
 ### -param StorageDependencyInfo [in, out]
 
 A pointer to a buffer to receive the populated 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info">STORAGE_DEPENDENCY_INFO</a> structure, which is a 
+     [STORAGE_DEPENDENCY_INFO](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info)a> structure, which is a 
      variable-length structure.
 
 

@@ -67,7 +67,7 @@ The name of the property. If you are using the COM implementation of <a href="ht
 
 ### -param ppAccessList [out]
 
-The address of the pointer variable that receives a pointer to the access list structure. This parameter cannot be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_alista">ACTRL_ACCESS</a>.
+The address of the pointer variable that receives a pointer to the access list structure. This parameter cannot be [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a)a>.
 
 If the call succeeds, the caller must free the allocated memory with the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function. Note that the memory is allocate(all_nodes), which means that all the substructures are allocated in one block. Therefore, the entire data structure must be freed by a single call to <b>CoTaskMemFree</b>.
 
@@ -96,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_alista">ACTRL_ACCESS</a>
+[ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a)a>
 
 
 

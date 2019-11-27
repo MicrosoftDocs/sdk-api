@@ -69,7 +69,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param enumTemplate [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_enum_template0_">IPSEC_SA_ENUM_TEMPLATE0</a>*</b>
+Type: [IPSEC_SA_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_enum_template0)a>*</b>
 
 Template to selectively restrict the enumeration.
 
@@ -154,7 +154,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_enum_template0_">IPSEC_SA_ENUM_TEMPLATE0</a>
+[IPSEC_SA_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_enum_template0)a>
 
 
 

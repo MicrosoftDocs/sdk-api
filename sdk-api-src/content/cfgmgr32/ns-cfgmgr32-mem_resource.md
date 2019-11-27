@@ -62,7 +62,7 @@ The MEM_RESOURCE structure is used for specifying either a resource list or a re
 
 ### -field MEM_Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des_s">MEM_DES</a> structure.
+A [MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des)a> structure.
 
 
 ### -field MEM_Data
@@ -79,7 +79,7 @@ Zero.
 
 #### For a resource requirements list:
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range_s">MEM_RANGE</a> array.
+A [MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)a> array.
 
 
 ## -see-also
@@ -87,11 +87,11 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des_s">MEM_DES</a>
+[MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range_s">MEM_RANGE</a>
+[MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)a>
  
 
  

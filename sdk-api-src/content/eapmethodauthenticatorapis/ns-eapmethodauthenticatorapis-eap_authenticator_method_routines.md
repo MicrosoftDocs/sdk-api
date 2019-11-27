@@ -98,7 +98,7 @@ Function pointer to <a href="https://docs.microsoft.com/previous-versions/window
 
 #### dwFlags
 
-A combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-flags">EAP flags</a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
 
 
 
@@ -158,7 +158,7 @@ Function pointer to <a href="https://docs.microsoft.com/previous-versions/window
 
 #### dwFlags
 
-A combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-flags">EAP flags</a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
 
 
 
@@ -419,7 +419,7 @@ These APIs are called on an EAP authenticator method when an authenticator (serv
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-authenticator-method-structures">EAPHost Authenticator Method Structures</a>
+[EAPHost Authenticator Method Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-structures)a>
 
 
 

@@ -100,7 +100,7 @@ The peer method should return the handle for the user identity of the supplicant
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-authenticator-method-enumerations">EAP Host Authenticator Method Enumerations</a>
+[EAP Host Authenticator Method Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-enumerations)a>
  
 
  

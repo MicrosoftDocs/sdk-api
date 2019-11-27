@@ -77,7 +77,7 @@ A pointer to a <b>ULONG</b> that contains the size of the
 
 ### -param VirtualDiskInfo [in, out]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_get_virtual_disk_info">GET_VIRTUAL_DISK_INFO</a> 
+A pointer to a valid [GET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info)a> 
       structure. The format of the data returned is dependent on the value passed in the 
       <b>Version</b> member by the caller.
 
@@ -123,7 +123,7 @@ The <b>GetVirtualDiskInformation</b> function
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_get_virtual_disk_info">GET_VIRTUAL_DISK_INFO</a>
+[GET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info)a>
 
 
 

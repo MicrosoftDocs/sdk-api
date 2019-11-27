@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CryptCATStoreFromHandle</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATStoreFromHandle</b> function retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore_">CRYPTCATSTORE</a> structure from a catalog handle.
+The [CRYPTCATSTORE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore)a> structure from a catalog handle.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to the catalog obtained from the <a href="https://docs.microsoft.com/wi
 
 
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore_">CRYPTCATSTORE</a> structure that contains the catalog store. The caller must not free this pointer or any of its members.
+A pointer to a [CRYPTCATSTORE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore)a> structure that contains the catalog store. The caller must not free this pointer or any of its members.
 
 
 

@@ -99,15 +99,15 @@ Network Access Protection (NAP) uses the <b>ISOLATION_STATE</b> value to determi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-enumerations">EAPHost Supplicant Enumerations</a>
+[EAPHost Supplicant Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-enumerations)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/enabling-in-band-nap-support">Implementing In-Band NAP Support for EAP Methods</a>
+[Implementing In-Band NAP Support for EAP Methods](https://docs.microsoft.com/windows/win32/eaphost/enabling-in-band-nap-support)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/implementing-nap-for-eap-methods">Implementing NAP Support for EAP Methods</a>
+[Implementing NAP Support for EAP Methods](https://docs.microsoft.com/windows/win32/eaphost/implementing-nap-for-eap-methods)a>
 
 
 

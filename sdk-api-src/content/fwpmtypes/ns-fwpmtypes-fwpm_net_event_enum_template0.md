@@ -77,7 +77,7 @@ Indicates the number of filter conditions in the <b>filterCondition</b> member. 
 
 ### -field filterCondition
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0_">FWPM_FILTER_CONDITION0</a> structures that contain distinct filter conditions (duplicated filter conditions will generate an error). All conditions must be true for the action to be
+An array of [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)a> structures that contain distinct filter conditions (duplicated filter conditions will generate an error). All conditions must be true for the action to be
    performed. In other words, the conditions are AND'ed together. If no
    conditions are specified, the action is always performed. 
 
@@ -189,7 +189,7 @@ The identification of the local user.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0_">FWPM_FILTER_CONDITION0</a>
+[FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)a>
 
 
 

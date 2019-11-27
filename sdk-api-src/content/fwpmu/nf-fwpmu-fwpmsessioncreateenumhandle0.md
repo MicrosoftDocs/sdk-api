@@ -69,7 +69,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param enumTemplate [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session_enum_template0_">FWPM_SESSION_ENUM_TEMPLATE0</a>*</b>
+Type: [FWPM_SESSION_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session_enum_template0)a>*</b>
 
 Template to selectively restrict the enumeration.
 
@@ -157,7 +157,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session_enum_template0_">FWPM_SESSION_ENUM_TEMPLATE0</a>
+[FWPM_SESSION_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session_enum_template0)a>
 
 
 

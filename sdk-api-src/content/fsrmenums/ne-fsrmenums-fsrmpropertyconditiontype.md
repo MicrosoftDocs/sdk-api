@@ -147,7 +147,7 @@ The property condition is met if the property value matches the specified patter
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/ifsrmpropertycondition-type">IFsrmPropertyCondition.Type</a>
+[IFsrmPropertyCondition.Type](/windows/win32/api/fsrmreports/nf-fsrmreports-ifsrmpropertycondition-get_type)a>
  
 
  

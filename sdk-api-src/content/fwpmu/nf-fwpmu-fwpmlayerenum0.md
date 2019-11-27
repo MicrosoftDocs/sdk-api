@@ -83,7 +83,7 @@ The number of layer entries requested.
 
 ### -param entries [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0_">FWPM_LAYER0</a>***</b>
+Type: [FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0)a>***</b>
 
 Addresses of the enumeration entries.
 
@@ -168,7 +168,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0_">FWPM_LAYER0</a>
+[FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0)a>
 
 
 

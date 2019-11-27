@@ -85,7 +85,7 @@ Reserved.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-querychangesvirtualdisk">QueryCangesVirtualDisk</a>
+[QueryCangesVirtualDisk](/windows/win32/api/virtdisk/nf-virtdisk-querychangesvirtualdisk)a>
 
 
 

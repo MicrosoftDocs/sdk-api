@@ -62,12 +62,12 @@ The <b>IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</b> structure stores information ab
 
 ### -field saCipherInformation
 
-Encryption algorithm information as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_cipher_information0_">IPSEC_SA_CIPHER_INFORMATION0</a>.
+Encryption algorithm information as specified by [IPSEC_SA_CIPHER_INFORMATION0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_cipher_information0)a>.
 
 
 ### -field saAuthInformation
 
-Authentication algorithm information as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_information0_">IPSEC_SA_AUTH_INFORMATION0</a>.
+Authentication algorithm information as specified by [IPSEC_SA_AUTH_INFORMATION0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_information0)a>.
 
 
 ## -remarks
@@ -84,11 +84,11 @@ Authentication algorithm information as specified by <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_information0_">IPSEC_SA_AUTH_INFORMATION0</a>
+[IPSEC_SA_AUTH_INFORMATION0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_information0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_cipher_information0_">IPSEC_SA_CIPHER_INFORMATION0</a>
+[IPSEC_SA_CIPHER_INFORMATION0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_cipher_information0)a>
 
 
 

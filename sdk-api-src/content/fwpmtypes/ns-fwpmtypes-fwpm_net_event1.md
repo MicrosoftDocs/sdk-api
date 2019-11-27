@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT1</b> structure contains information about all event types.
-<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT1</b> is the specific implementation of FWPM_NET_EVENT used in Windows 7. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2_">FWPM_NET_EVENT2</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0_">FWPM_NET_EVENT0</a> is available.</div><div> </div>
+[FWPM_NET_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -62,12 +62,12 @@ The <b>FWPM_NET_EVENT1</b> structure contains information about all event types.
 
 ### -field header
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header1_">FWPM_NET_EVENT_HEADER1</a> structure that contains information common to all events.
+An [FWPM_NET_EVENT_HEADER1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header1)a> structure that contains information common to all events.
 
 
 ### -field type
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_net_event_type_">FWPM_NET_EVENT_TYPE</a> value that specifies the type of event.
+An [FWPM_NET_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_net_event_type)a> value that specifies the type of event.
 
 
 ### -field ikeMmFailure
@@ -93,7 +93,7 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE</b>.
 
 ### -field classifyDrop
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop1_">FWPM_NET_EVENT_CLASSIFY_DROP1</a> structure that contains information about  a drop event.
+Address of an [FWPM_NET_EVENT_CLASSIFY_DROP1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop1)a> structure that contains information about  a drop event.
 
 Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_CLASSIFY_DROP</b>.
 

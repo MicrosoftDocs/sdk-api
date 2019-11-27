@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_SA_DETAILS0</b> structure is used to store information returned when enumerating IKE, AuthIP, or IKEv2 security associations (SAs).
-<div class="alert"><b>Note</b>  <b>IKEEXT_SA_DETAILS0</b> is the specific implementation of IKEEXT_SA_DETAILS used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details1_">IKEEXT_SA_DETAILS1</a> is available. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details2_">IKEEXT_SA_DETAILS2</a> is available. </div><div> </div>
+[IKEEXT_SA_DETAILS2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details2)a> is available. </div><div> </div>
 
 ## -struct-fields
 
@@ -69,17 +69,17 @@ LUID identifying the security association.
 
 Key module type. 
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type_">IKEEXT_KEY_MODULE_TYPE</a> for more information. 
+See [IKEEXT_KEY_MODULE_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type)a> for more information. 
 
 
 ### -field ipVersion
 
-IP version specified by <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a>.
+IP version specified by [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>.
 
 
 ### -field v4UdpEncapsulation
 
-Points to an  <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_v4_udp_encapsulation0_">IPSEC_V4_UDP_ENCAPSULATION0</a> structure, which, if a NAT is detected,  stores the UDP ports corresponding to the 
+Points to an  [IPSEC_V4_UDP_ENCAPSULATION0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_v4_udp_encapsulation0)a> structure, which, if a NAT is detected,  stores the UDP ports corresponding to the 
    Main Mode.
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>. 
@@ -87,22 +87,22 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
 ### -field ikeTraffic
 
-The traffic corresponding to this IKE SA specified by <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0_">IKEEXT_TRAFFIC0</a>.
+The traffic corresponding to this IKE SA specified by [IKEEXT_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_traffic0)a>.
 
 
 ### -field ikeProposal
 
-The main mode proposal corresponding to this IKE SA specified by <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0_">IKEEXT_PROPOSAL0</a>.
+The main mode proposal corresponding to this IKE SA specified by [IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)a>.
 
 
 ### -field cookiePair
 
-SA cookies specified by <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cookie_pair0_">IKEEXT_COOKIE_PAIR0</a>.
+SA cookies specified by [IKEEXT_COOKIE_PAIR0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cookie_pair0)a>.
 
 
 ### -field ikeCredentials
 
-Credentials information for the SA specified by <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials0_">IKEEXT_CREDENTIALS0</a>.
+Credentials information for the SA specified by [IKEEXT_CREDENTIALS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials0)a>.
 
 
 ### -field ikePolicyKey

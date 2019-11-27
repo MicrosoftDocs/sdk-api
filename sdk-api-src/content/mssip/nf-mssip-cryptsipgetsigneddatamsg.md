@@ -62,7 +62,7 @@ The <b>CryptSIPGetSignedDataMsg</b> function retrieves an <a href="https://docs.
 
 ### -param pSubjectInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure that contains information about the message subject.
+A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that contains information about the message subject.
 
 
 ### -param pdwEncodingType [out]
@@ -168,7 +168,7 @@ The specified data or file format of the <a href="https://docs.microsoft.com/win
 </dl>
 </td>
 <td width="60%">
-The <i>pSubjectInfo</i> parameter or the <b>pgSubjectType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure is a null pointer.
+The [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure is a null pointer.
 
 </td>
 </tr>

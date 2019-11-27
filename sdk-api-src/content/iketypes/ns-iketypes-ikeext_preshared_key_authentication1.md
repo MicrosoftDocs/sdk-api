@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION1</b> structure stores information needed for pre-shared key authentication.
-<div class="alert"><b>Note</b>  <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION1</b> is the specific implementation of IKEEXT_PRESHARED_KEY_AUTHENTICATION used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_preshared_key_authentication0">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_preshared_key_authentication0__">IKEEXT_PRESHARED_KEY_AUTHENTICATION0</a> is available.</div><div> </div>
+[IKEEXT_PRESHARED_KEY_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ The <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION1</b> structure stores information nee
 
 ### -field presharedKey
 
-The pre-shared key specified by <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>.
+The pre-shared key specified by [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>.
 
 
 ### -field flags
@@ -107,7 +107,7 @@ Applicable only to IKEv2.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
 
 
 

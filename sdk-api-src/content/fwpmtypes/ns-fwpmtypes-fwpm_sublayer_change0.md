@@ -62,7 +62,7 @@ The <b>FWPM_SUBLAYER_CHANGE0</b> structure specifies a change notification dispa
 
 ### -field changeType
 
-Type of change as specified by <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type_">FWPM_CHANGE_TYPE</a>.
+Type of change as specified by [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a>.
 
 
 ### -field subLayerKey
@@ -84,7 +84,7 @@ GUID of the sublayer that changed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type_">FWPM_CHANGE_TYPE</a>
+[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a>
 
 
 

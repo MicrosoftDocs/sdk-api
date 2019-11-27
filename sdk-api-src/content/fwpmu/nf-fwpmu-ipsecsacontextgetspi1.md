@@ -76,7 +76,7 @@ A runtime identifier for the SA context. This identifier was received from the s
 
 ### -param getSpi [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi1_">IPSEC_GETSPI1</a>*</b>
+Type: [IPSEC_GETSPI1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi1)a>*</b>
 
 The inbound IPsec traffic.
 
@@ -155,7 +155,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi1_">IPSEC_GETSPI1</a>
+[IPSEC_GETSPI1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi1)a>
 
 
 

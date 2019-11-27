@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the relationship between the processor set identified in the corresponding <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>  or <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>  structure.
+Represents the relationship between the processor set identified in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex)a>  structure.
 
 
 ## -enum-fields
@@ -102,7 +102,7 @@ On input, retrieves information about all possible relationship types. This valu
 
 
 
-The value specified by this enumeration indicates the relationship represented in the corresponding <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL _PROCESSOR_INFORMATION</a>  or <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>  structure. 
+The value specified by this enumeration indicates the relationship represented in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex)a>  structure. 
 
 
 #### Examples

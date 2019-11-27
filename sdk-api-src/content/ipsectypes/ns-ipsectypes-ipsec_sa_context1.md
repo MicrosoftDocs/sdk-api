@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_SA_CONTEXT1</b> structure encapsulates an inbound and outbound security association (SA) pair.
-<div class="alert"><b>Note</b>  <b>IPSEC_SA_CONTEXT1</b> is the specific implementation of IPSEC_SA_CONTEXT used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context0_">IPSEC_SA_CONTEXT0</a> is available.</div><div> </div>
+[IPSEC_SA_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context0)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -67,12 +67,12 @@ Identifies the SA context.
 
 ### -field inboundSa
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a> structure that contains information about the inbound SA.
+An [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)a> structure that contains information about the inbound SA.
 
 
 ### -field outboundSa
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a> structure that contains information about the outbound SA.
+An [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)a> structure that contains information about the outbound SA.
 
 
 ## -see-also

@@ -110,7 +110,7 @@ An <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eap
 </dl>
 </td>
 <td width="60%">
-Windows 7 or later: <i>ppAuthData</i> contains a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphostpeernapinfo">EapHostPeerNapInfo</a> structure.
+Windows 7 or later: [EapHostPeerNapInfo](https://docs.microsoft.com/windows/win32/eaphost/eaphostpeernapinfo)a> structure.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ A pointer to the address of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-run-time-functions">EAPHost Supplicant Run-Time Functions</a>
+[EAPHost Supplicant Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-run-time-functions)a>
  
 
  

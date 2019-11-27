@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_TRAFFIC1</b> structure specifies parameters to describe IPsec traffic.
-<div class="alert"><b>Note</b>  <b>IPSEC_TRAFFIC1</b> is the specific implementation of IPSEC_TRAFFIC used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0_">IPSEC_TRAFFIC0</a> is available.</div><div> </div>
+[IPSEC_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ The <b>IPSEC_TRAFFIC1</b> structure specifies parameters to describe IPsec traff
 
 ### -field ipVersion
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a> value that specifies the IP version. In tunnel mode, this is the version of the outer header.
+An [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a> value that specifies the IP version. In tunnel mode, this is the version of the outer header.
 
 
 ### -field localV4Address
@@ -97,7 +97,7 @@ Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
 Type of IPsec traffic.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type_">IPSEC_TRAFFIC_TYPE</a> for more information.
+See [IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)a> for more information.
 
 
 ### -field ipsecFilterId
@@ -161,11 +161,11 @@ For IPsec tunnel mode, the <b>localV*Address</b> and  <b>remoteV*Address</b> mem
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a>
+[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type_">IPSEC_TRAFFIC_TYPE</a>
+[IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)a>
 
 
 

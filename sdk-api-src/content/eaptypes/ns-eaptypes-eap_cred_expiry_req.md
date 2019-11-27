@@ -88,7 +88,7 @@ The <b>EAP_CRED_EXPIRY_REQ</b> structure is identical to the <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-structures">EAPHost Supplicant Structures</a>
+[EAPHost Supplicant Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-structures)a>
 
 
 
@@ -96,11 +96,11 @@ The <b>EAP_CRED_EXPIRY_REQ</b> structure is identical to the <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-cred-req">EAP_CRED_REQ</a>
+[EAP_CRED_REQ](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-req)a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-cred-resp">EAP_CRED_RESP</a>
+[EAP_CRED_RESP](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-resp)a>
 
 
 
@@ -108,7 +108,7 @@ The <b>EAP_CRED_EXPIRY_REQ</b> structure is identical to the <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/understanding-sso-and-plap">SSO and PLAP</a>
+[SSO and PLAP](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a>
  
 
  

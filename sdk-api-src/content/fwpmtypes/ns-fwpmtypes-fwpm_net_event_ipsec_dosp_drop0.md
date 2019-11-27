@@ -64,7 +64,7 @@ The <b>FWPM_NET_EVENT_IPSEC_DOSP_DROP0</b> structure contains information that d
 
 Internet Protocol (IP) version.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a> for more information.
+See [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a> for more information.
 
 
 ### -field publicHostV4Addr
@@ -102,7 +102,7 @@ Contains the  error code for the failure.
 
 ### -field direction
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction_">FWP_DIRECTION</a> value that specifies whether the dropped packet is inbound or outbound.
+An [FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)a> value that specifies whether the dropped packet is inbound or outbound.
 
 
 ## -remarks
@@ -119,7 +119,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction_">FWP_DIRECTION</a>
+[FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)a>
 
 
 

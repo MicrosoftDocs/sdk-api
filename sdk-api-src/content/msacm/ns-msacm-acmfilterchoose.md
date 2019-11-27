@@ -163,12 +163,12 @@ Pointer to a string to be placed in the title bar of the dialog box. If this mem
 
 ### -field szFilterTag
 
-Buffer containing a null-terminated string describing the filter tag of the filter selection when the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function returns. This string is equivalent to the <b>szFilterTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfiltertagdetails">ACMFILTERTAGDETAILS</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagdetails">acmFilterTagDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
+Buffer containing a null-terminated string describing the filter tag of the filter selection when the [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails)a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagdetails">acmFilterTagDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
 
 
 ### -field szFilter
 
-Buffer containing a null-terminated string describing the filter attributes of the filter selection when the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function returns. This string is equivalent to the <b>szFilter</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfilterdetails">ACMFILTERDETAILS</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
+Buffer containing a null-terminated string describing the filter attributes of the filter selection when the [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
 
 
 ### -field pszName
@@ -236,11 +236,11 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfilterdetails">ACMFILTERDETAILS</a>
+[ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfiltertagdetails">ACMFILTERTAGDETAILS</a>
+[ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails)a>
 
 
 

@@ -69,7 +69,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param entries [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0_">FWPM_CONNECTION_SUBSCRIPTION0</a>***</b>
+Type: [FWPM_CONNECTION_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)a>***</b>
 
 The current connection object notification subscriptions. 
 
@@ -148,7 +148,7 @@ The returned array (but not the individual entries in the array) must be freed t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0_">FWPM_CONNECTION_SUBSCRIPTION0</a>
+[FWPM_CONNECTION_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)a>
  
 
  

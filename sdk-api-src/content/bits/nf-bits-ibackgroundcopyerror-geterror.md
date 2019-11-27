@@ -63,7 +63,7 @@ Retrieves the error code and identify the context in which the error occurred.
 ### -param pContext [out]
 
 Context in which the error occurred. For a list of context values, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyerror_0001">BG_ERROR_CONTEXT</a> enumeration.
+[BG_ERROR_CONTEXT](/windows/win32/api/bits/ne-bits-bg_error_context)a> enumeration.
 
 
 ### -param pCode [out]

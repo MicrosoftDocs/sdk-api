@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IKEEXT_CERTIFICATE_CREDENTIAL1</b> structure is used to store credential information specific to certificate authentication.<div class="alert"><b>Note</b>  <b>IKEEXT_CERTIFICATE_CREDENTIAL1</b> is the specific implementation of IKEEXT_CERTIFICATE_CREDENTIAL used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential0_">IKEEXT_CERTIFICATE_CREDENTIAL0</a> is available.</div>
+The [IKEEXT_CERTIFICATE_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential0)a> is available.</div>
 <div> </div>
 
 
@@ -66,14 +66,14 @@ The <b>IKEEXT_CERTIFICATE_CREDENTIAL1</b> structure is used to store credential 
 
 Encoded subject name of the certificate used for authentication. Use <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a> to convert the encoded name to string.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
 
 
 ### -field certHash
 
 SHA thumbprint of the certificate.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
 
 
 ### -field flags
@@ -91,7 +91,7 @@ Possible values:
 
 The encoded certificate. Use <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a> to create a certificate context from the encoded certificate.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
 
 
 ## -see-also
@@ -99,7 +99,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
 
 
 

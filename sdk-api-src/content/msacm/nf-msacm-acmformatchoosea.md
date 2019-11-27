@@ -68,7 +68,7 @@ The <b>acmFormatChoose</b> function creates an ACM-defined dialog box that enabl
 
 ### -param pafmtc
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatchoose">ACMFORMATCHOOSE</a> structure that contains information used to initialize the dialog box. When this function returns, this structure contains information about the user's format selection.
+Pointer to an [ACMFORMATCHOOSE](/windows/win32/api/msacm/nf-msacm-acmformatchoose)a> structure that contains information used to initialize the dialog box. When this function returns, this structure contains information about the user's format selection.
 
 The <b>pwfx</b> member of this structure must contain a valid pointer to a memory location that will contain the returned format header structure. Moreover, the <b>cbwfx</b> member must be filled in with the size, in bytes, of this memory buffer.
 

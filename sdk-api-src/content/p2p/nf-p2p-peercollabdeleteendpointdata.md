@@ -62,7 +62,7 @@ The <b>PeerCollabDeleteEndpointData</b> function deletes the peer endpoint data 
 
 ### -param pcEndpoint [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a> structure that contains the peer endpoint information to delete from the current peer node.
+Pointer to a [PEER_ENDPOINT](/windows/win32/api/p2p/ns-p2p-peer_endpoint)a> structure that contains the peer endpoint information to delete from the current peer node.
 
 
 ## -returns
@@ -118,7 +118,7 @@ The function <b>PeerCollabDeleteEndpointData</b> is used to remove cached endpoi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a>
+[PEER_ENDPOINT](/windows/win32/api/p2p/ns-p2p-peer_endpoint)a>
 
 
 

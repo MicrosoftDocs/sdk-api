@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptSIPCreateIndirectData</b> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data_">SIP_INDIRECT_DATA</a> structure that contains  a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of  the supplied <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure, the digest algorithm, and  an encoding attribute. The hash can be used as an indirect reference to the data.
+The [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure, the digest algorithm, and  an encoding attribute. The hash can be used as an indirect reference to the data.
 
 
 ## -parameters
@@ -62,17 +62,17 @@ The <b>CryptSIPCreateIndirectData</b> function returns a <a href="https://docs.m
 
 ### -param pSubjectInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure that contains the subject to which the indirect data reference will point.
+A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that contains the subject to which the indirect data reference will point.
 
 
 ### -param pcbIndirectData [in, out]
 
-A pointer to a <b>DWORD</b> value to receive the size of the returned  <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data_">SIP_INDIRECT_DATA</a> structure.
+A pointer to a [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)a> structure.
 
 
 ### -param pIndirectData [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data_">SIP_INDIRECT_DATA</a> structure to receive the catalog item.
+A pointer to a [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)a> structure to receive the catalog item.
 
 
 ## -returns

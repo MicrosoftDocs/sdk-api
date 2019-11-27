@@ -63,7 +63,7 @@ Retrieves the values for the user's warning threshold, hard quota limit, and quo
 ### -param pbQuotaInfo [out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/ns-dskquota-diskquotauserinformation">DISKQUOTA_USER_INFORMATION</a> structure to receive the quota information.
+[DISKQUOTA_USER_INFORMATION](/windows/win32/api/dskquota/ns-dskquota-diskquota_user_information)a> structure to receive the quota information.
 
 
 ### -param cbQuotaInfo [in]

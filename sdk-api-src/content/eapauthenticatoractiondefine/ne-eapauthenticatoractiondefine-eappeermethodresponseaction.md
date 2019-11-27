@@ -100,7 +100,7 @@ The supplicant should generate no  response to the EAP authenticator request.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-peer-method-enumerations">EAPHost Peer Method Enumerations</a>
+[EAPHost Peer Method Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-peer-method-enumerations)a>
  
 
  

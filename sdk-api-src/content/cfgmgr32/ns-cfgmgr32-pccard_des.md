@@ -204,7 +204,7 @@ This member is currently unused.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_resource_s">PCCARD_RESOURCE</a>
+[PCCARD_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_resource)a>
  
 
  

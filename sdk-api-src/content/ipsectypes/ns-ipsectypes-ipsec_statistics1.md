@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_STATISTICS1</b> structure is the  top-level of the IPsec statistics structures.
-<div class="alert"><b>Note</b>  <b>IPSEC_STATISTICS1</b> is the specific implementation of IPSEC_STATISTICS used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics0_">IPSEC_STATISTICS0</a> is available.</div><div> </div>
+[IPSEC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics0)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -87,13 +87,13 @@ The <b>IPSEC_STATISTICS1</b> structure is the  top-level of the IPsec statistics
 ### -field inboundTrafficStatistics
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics1_">IPSEC_TRAFFIC_STATISTICS1</a> structure containing IPsec inbound traffic statistics.
+[IPSEC_TRAFFIC_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics1)a> structure containing IPsec inbound traffic statistics.
 
 
 ### -field outboundTrafficStatistics
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics1_">IPSEC_TRAFFIC_STATISTICS1</a> structure containing IPsec outbound traffic statistics.
+[IPSEC_TRAFFIC_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics1)a> structure containing IPsec outbound traffic statistics.
 
 
 ## -see-also
@@ -117,7 +117,7 @@ The <b>IPSEC_STATISTICS1</b> structure is the  top-level of the IPsec statistics
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics1_">IPSEC_TRAFFIC_STATISTICS1</a>
+[IPSEC_TRAFFIC_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics1)a>
 
 
 

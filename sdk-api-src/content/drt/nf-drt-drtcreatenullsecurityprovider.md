@@ -62,7 +62,7 @@ The <b>DrtCreateNullSecurityProvider</b> function creates a null security provid
 
 ### -param ppSecurityProvider [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_security_provider">DRT_SECURITY_PROVIDER</a> module to be included in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> structure.
+Pointer to the [DRT_SETTINGS](/windows/win32/api/drt/ns-drt-drt_settings)a> structure.
 
 
 ## -returns

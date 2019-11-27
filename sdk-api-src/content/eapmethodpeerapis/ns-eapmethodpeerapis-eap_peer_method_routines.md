@@ -91,7 +91,7 @@ A function pointer for <a href="https://docs.microsoft.com/previous-versions/win
 
 #### dwflags
 
-A combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-flags">EAP flags</a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
 
 
 
@@ -164,7 +164,7 @@ A function pointer for <a href="https://docs.microsoft.com/previous-versions/win
 
 #### dwFlags
 
-A combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-flags">EAP flags</a> that describe the  new EAP authentication session behavior.
+A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  new EAP authentication session behavior.
 
 
 
@@ -545,7 +545,7 @@ The other functions in the EAP Peer Method API set are called by a peer-based EA
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-peer-method-structures">EAPHost Peer Method Structures</a>
+[EAPHost Peer Method Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-peer-method-structures)a>
 
 
 

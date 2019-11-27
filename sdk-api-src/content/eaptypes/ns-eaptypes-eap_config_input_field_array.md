@@ -127,7 +127,7 @@ The <b>EAP_CONFIG_INPUT_FIELD_ARRAY</b> structure can be employed to support Sin
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/understanding-sso-and-plap">SSO and PLAP</a>
+[SSO and PLAP](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a>
  
 
  

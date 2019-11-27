@@ -94,7 +94,7 @@ Regardless of whether a size is initially specified, the layer automatically res
 
 #### Examples
 
-For an example on how to use <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createlayer">CreateLayer</a>, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-clip-with-layers">How to Clip a Region with a Layer</a>.
+For an example on how to use [CreateLayer](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(constd2d1_size_f_id2d1layer))a>, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-clip-with-layers">How to Clip a Region with a Layer</a>.
 
 <div class="code"></div>
 

@@ -62,7 +62,7 @@ The MFCARD_RESOURCE structure is used for specifying either a resource list or a
 
 ### -field MfCard_Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des_s">MFCARD_DES</a> structure.
+A [MFCARD_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des)a> structure.
 
 
 ## -see-also
@@ -70,7 +70,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des_s">MFCARD_DES</a>
+[MFCARD_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des)a>
  
 
  

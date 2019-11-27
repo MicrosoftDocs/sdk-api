@@ -72,7 +72,7 @@ If this member is zero in the
 
 Allows sessions to be annotated in a human-readable form.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a> for more information.
+See [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a> for more information.
 
 
 ### -field flags
@@ -155,7 +155,7 @@ The members <b>processId</b>, <b>sid</b>,  <b>username</b>, and <b>kernelMode</b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a>
+[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a>
 
 
 

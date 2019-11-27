@@ -94,7 +94,7 @@ An
 
 The 
     <b>filterCondition</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a> structure points to an array of
+    [FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)a> structure points to an array of
     FWPS_FILTER_CONDITION0 structures that specify the run-time filtering conditions for a filter.
 
 
@@ -105,7 +105,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a>
+[FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)a>
 
 
 

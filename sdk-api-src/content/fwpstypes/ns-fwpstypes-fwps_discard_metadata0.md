@@ -64,7 +64,7 @@ The <b>FWPS_DISCARD_METADATA0</b> structure describes the data that was discarde
 ### -field discardModule
 
 An 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ne-fwpstypes-fwps_discard_module0_">FWPS_DISCARD_MODULE0</a> type that indicates
+     [FWPS_DISCARD_MODULE0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ne-fwpstypes-fwps_discard_module0)a> type that indicates
      the type of module that discarded the data.
 
 
@@ -99,7 +99,7 @@ The FWPS_DISCARD_METADATA0 structure contains valid data only if the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ne-fwpstypes-fwps_discard_module0_">FWPS_DISCARD_MODULE0</a>
+[FWPS_DISCARD_MODULE0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ne-fwpstypes-fwps_discard_module0)a>
 
 
 

@@ -66,7 +66,7 @@ Sets indexer options.
 
 ### -param dwFlags [in]
 
-Bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_indexerflags">MFASF_INDEXER_FLAGS</a> enumeration specifying the indexer options to use.
+Bitwise OR of zero or more flags from the [MFASF_INDEXER_FLAGS](/windows/win32/api/wmcontainer/ne-wmcontainer-mfasf_indexer_flags)a> enumeration specifying the indexer options to use.
 
 
 ## -returns

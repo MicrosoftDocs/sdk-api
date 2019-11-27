@@ -167,11 +167,11 @@ For an example that uses
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createwaitabletimera">CreateWaitableTimer</a>
+[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openwaitabletimera">OpenWaitableTimer</a>
+[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a>
 
 
 

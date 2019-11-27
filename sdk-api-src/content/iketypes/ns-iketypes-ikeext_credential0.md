@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_CREDENTIAL0</b> structure is  used to store credential information used for the authentication.
-<div class="alert"><b>Note</b>  <b>IKEEXT_CREDENTIAL0</b> is the specific implementation of IKEEXT_CREDENTIAL used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1_">IKEEXT_CREDENTIAL1</a> is available. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2_">IKEEXT_CREDENTIAL2</a> is available.</div><div> </div>
+[IKEEXT_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1)a> is available. For Windows 8, [IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -92,7 +92,7 @@ Available when <b>authenticationMethodType</b> is one of the following values.
 <b>IKEEXT_SSL_ECDSA_P256</b>
 <b>IKEEXT_SSL_ECDSA_P384</b>
 <b>IKEEXT_IPV6_CGA</b>
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential0_">IKEEXT_CERTIFICATE_CREDENTIAL0</a> for more information.
+See [IKEEXT_CERTIFICATE_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential0)a> for more information.
 
 
 ### -field name
@@ -101,7 +101,7 @@ Available when <b>authenticationMethodType</b> is one of the following values.
 
 <b>IKEEXT_KERBEROS</b>
 <b>IKEEXT_NTML_V2</b>
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_name_credential0_">IKEEXT_NAME_CREDENTIAL0</a> for more information.
+See [IKEEXT_NAME_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_name_credential0)a> for more information.
 
 
 ## -see-also
@@ -117,11 +117,11 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential0_">IKEEXT_CERTIFICATE_CREDENTIAL0</a>
+[IKEEXT_CERTIFICATE_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_name_credential0_">IKEEXT_NAME_CREDENTIAL0</a>
+[IKEEXT_NAME_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_name_credential0)a>
 
 
 

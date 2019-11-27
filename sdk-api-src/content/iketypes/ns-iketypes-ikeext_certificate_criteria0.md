@@ -62,7 +62,7 @@ The <b>IKEEXT_CERTIFICATE_CRITERIA0</b> structure contains a set of criteria to 
 
 ### -field certData
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a></b>
+Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a></b>
 
 X509/ASN.1 encoded name of the root certificate. Should be empty when
    specifying Enterprise or trusted root store config.
@@ -70,21 +70,21 @@ X509/ASN.1 encoded name of the root certificate. Should be empty when
 
 ### -field certHash
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a></b>
+Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a></b>
 
   16-character hexadecimal string that represents the ID, thumbprint or HASH of the end certificate.
 
 
 ### -field eku
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0_">IKEEXT_CERT_EKUS0</a>*</b>
+Type: [IKEEXT_CERT_EKUS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0)a>*</b>
 
 The specific extended key usage (EKU) object identifiers (OIDs) selected for the criteria on the end certificate.
 
 
 ### -field name
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0_">IKEEXT_CERT_NAME0</a>*</b>
+Type: [IKEEXT_CERT_NAME0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0)a>*</b>
 
 The name/subject selected for the criteria on the end certificate.
 
@@ -110,15 +110,15 @@ The <b>certData</b> member refers to the encoded name of the root certificate, w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0_">IKEEXT_CERT_EKUS0</a>
+[IKEEXT_CERT_EKUS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0_">IKEEXT_CERT_NAME0</a>
+[IKEEXT_CERT_NAME0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0)a>
  
 
  

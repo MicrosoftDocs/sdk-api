@@ -62,7 +62,7 @@ The <b>PeerCollabUnsubscribeEndpointData</b> function  removes a  subscription t
 
 ### -param pcEndpoint [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a> structure that contains the peer endpoint that is used to remove the subscription.
+Pointer to a [PEER_ENDPOINT](/windows/win32/api/p2p/ns-p2p-peer_endpoint)a> structure that contains the peer endpoint that is used to remove the subscription.
 
 
 ## -returns

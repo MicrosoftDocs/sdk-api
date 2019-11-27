@@ -64,12 +64,12 @@ The <b>FWPM_STATISTICS0</b> structure stores statistics related to connections a
 
 Type: <b>UINT32</b>
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0_">FWPM_LAYER_STATISTICS0</a> structures in the <b>layerStatistics</b> member.
+Number of [FWPM_LAYER_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0)a> structures in the <b>layerStatistics</b> member.
 
 
 ### -field layerStatistics
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0_">FWPM_LAYER_STATISTICS0</a>*</b>
+Type: [FWPM_LAYER_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0)a>*</b>
 
 Statistics related to the layer.
 
@@ -304,7 +304,7 @@ Number of active IPv6 outbound connections.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0_">FWPM_LAYER_STATISTICS0</a>
+[FWPM_LAYER_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0)a>
  
 
  

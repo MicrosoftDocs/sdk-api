@@ -62,7 +62,7 @@ The <b>FWPM_VSWITCH_EVENT0</b> structure contains information about a vSwitch ev
 
 ### -field eventType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type_">FWPM_VSWITCH_EVENT_TYPE</a></b>
+Type: [FWPM_VSWITCH_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type)a></b>
 
  The type of vSwitch event.
 
@@ -186,7 +186,7 @@ Array of strings identifying other vSwitch extensions.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type_">FWPM_VSWITCH_EVENT_TYPE</a>
+[FWPM_VSWITCH_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type)a>
  
 
  

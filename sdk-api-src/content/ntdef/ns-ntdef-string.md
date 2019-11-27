@@ -143,7 +143,7 @@ The <b>MaximumLength</b> is used to indicate the length of <b>Buffer</b> so that
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_unicode_string">UNICODE_STRING</a>
+[UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)a>
  
 
  

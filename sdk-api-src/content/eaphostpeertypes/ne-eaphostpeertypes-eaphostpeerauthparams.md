@@ -77,7 +77,7 @@ Contains extended user identity information for the supplicant from the identity
 
 ### -field EapHostNapInfo
 
-Windows 7 or later: Contains NAP-related information for the supplicant in an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphostpeernapinfo">EapHostPeerNapInfo</a> structure.
+Windows 7 or later: Contains NAP-related information for the supplicant in an [EapHostPeerNapInfo](https://docs.microsoft.com/windows/win32/eaphost/eaphostpeernapinfo)a> structure.
 
 
 ### -field v1_enum
@@ -90,7 +90,7 @@ Windows 7 or later: Contains NAP-related information for the supplicant in an <
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-enumerations">EAPHost Supplicant Enumerations</a>
+[EAPHost Supplicant Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-enumerations)a>
 
 
 

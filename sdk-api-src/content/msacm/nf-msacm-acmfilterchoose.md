@@ -68,7 +68,7 @@ The <b>acmFilterChoose</b> function creates an ACM-defined dialog box that enabl
 
 ### -param pafltrc
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfilterchoose">ACMFILTERCHOOSE</a> structure that contains information used to initialize the dialog box. When <b>acmFilterChoose</b> returns, this structure contains information about the user's filter selection.
+Pointer to an [ACMFILTERCHOOSE](/windows/win32/api/msacm/nf-msacm-acmfilterchoose)a> structure that contains information used to initialize the dialog box. When <b>acmFilterChoose</b> returns, this structure contains information about the user's filter selection.
 
 The <b>pwfltr</b> member of this structure must contain a valid pointer to a memory location that will contain the returned filter header structure. The <b>cbwfltr</b> member must be filled in with the size, in bytes, of this memory buffer.
 
@@ -102,7 +102,7 @@ The user chose the Cancel button or the Close command on the System menu to clos
 </dl>
 </td>
 <td width="60%">
-The buffer identified by the <b>pwfltr</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfilterchoose">ACMFILTERCHOOSE</a> structure is too small to contain the selected filter.
+The buffer identified by the [ACMFILTERCHOOSE](/windows/win32/api/msacm/nf-msacm-acmfilterchoose)a> structure is too small to contain the selected filter.
 
 </td>
 </tr>

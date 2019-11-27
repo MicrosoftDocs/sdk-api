@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_TUNNEL_ENDPOINTS0</b> structure is used to store end points of a tunnel mode SA.
-<div class="alert"><b>Note</b>  <b>IPSEC_TUNNEL_ENDPOINTS0</b> is the specific implementation of IPSEC_TUNNEL_ENDPOINTS used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints1_">IPSEC_TUNNEL_ENDPOINTS1</a> is available. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2_">IPSEC_TUNNEL_ENDPOINTS2</a> is available.</div><div> </div>
+[IPSEC_TUNNEL_ENDPOINTS2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ The <b>IPSEC_TUNNEL_ENDPOINTS0</b> structure is used to store end points of a tu
 
 IP version of the addresses.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a> for more information.
+See [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a> for more information.
 
 
 ### -field localV4Address
@@ -129,7 +129,7 @@ case(FWP_IP_VERSION_V6)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a>
+[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>
 
 
 

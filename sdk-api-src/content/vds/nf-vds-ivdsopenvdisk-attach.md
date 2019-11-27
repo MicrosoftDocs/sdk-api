@@ -70,7 +70,7 @@ A string that contains the security descriptor for the virtual disk. If not spec
 
 ### -param Flags [in]
 
-A bitmask  of  <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_attach_virtual_disk_flag">ATTACH_VIRTUAL_DISK_FLAG</a> enumeration values specifying how the virtual disk is to be attached. Possible values include the following.
+A bitmask  of  [ATTACH_VIRTUAL_DISK_FLAG](/windows/win32/api/virtdisk/ne-virtdisk-attach_virtual_disk_flag)a> enumeration values specifying how the virtual disk is to be attached. Possible values include the following.
 
 <table>
 <tr>

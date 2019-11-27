@@ -69,28 +69,28 @@ Security parameter index (SPI) of the IPsec SA. <b>IPSEC_SA_SPI</b> is defined i
 
 Transform type of the SA specifying the IPsec security protocol.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_transform_type_">IPSEC_TRANSFORM_TYPE</a> for more information.
+See [IPSEC_TRANSFORM_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_transform_type)a> for more information.
 
 
 ### -field ahInformation
 
 Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_AH</b>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_information0_">IPSEC_SA_AUTH_INFORMATION0</a> for more information.
+See [IPSEC_SA_AUTH_INFORMATION0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_information0)a> for more information.
 
 
 ### -field espAuthInformation
 
 Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH</b>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_information0_">IPSEC_SA_AUTH_INFORMATION0</a> for more information.
+See [IPSEC_SA_AUTH_INFORMATION0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_information0)a> for more information.
 
 
 ### -field espCipherInformation
 
 Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_ESP_CIPHER</b>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_cipher_information0_">IPSEC_SA_CIPHER_INFORMATION0</a> for more information.
+See [IPSEC_SA_CIPHER_INFORMATION0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_cipher_information0)a> for more information.
 
 
 ### -field espAuthAndCipherInformation
@@ -128,15 +128,15 @@ Security algorithms of the SA transform. Available when <b>saTransformType</b> i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_information0_">IPSEC_SA_AUTH_INFORMATION0</a>
+[IPSEC_SA_AUTH_INFORMATION0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_information0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_cipher_information0_">IPSEC_SA_CIPHER_INFORMATION0</a>
+[IPSEC_SA_CIPHER_INFORMATION0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_cipher_information0)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_transform_type_">IPSEC_TRANSFORM_TYPE</a>
+[IPSEC_TRANSFORM_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_transform_type)a>
 
 
 

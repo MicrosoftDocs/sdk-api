@@ -75,7 +75,7 @@ Specifies the IP address of the node in the Peer Infrastructure.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_connection_info_tag">PEER_CONNECTION_INFO</a>
+[PEER_CONNECTION_INFO](/windows/win32/api/p2p/ns-p2p-peer_connection_info)a>
 
 
 

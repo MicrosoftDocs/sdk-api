@@ -100,7 +100,7 @@ Use this interface to run a gadget. A running gadget is displayed on the desktop
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gadgetplatform/introduction-to-the-gadget-platform">Introduction to the Gadget Platform</a>
+[Introduction to the Gadget Platform](/previous-versions/windows/desktop/gadgetplatform/introduction-to-the-gadget-platform)a>
  
 
  

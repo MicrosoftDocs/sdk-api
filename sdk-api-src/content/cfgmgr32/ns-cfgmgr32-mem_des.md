@@ -74,7 +74,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range_s">MEM_RANGE</a> array that is included in the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource_s">MEM_RESOURCE</a> structure.
+The number of elements in the [MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)a> array that is included in the [MEM_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource)a> structure.
 
 
 ### -field MD_Type
@@ -380,11 +380,11 @@ Bitmask for the bit within <b>MD_Flags</b> that specifies the combine-write cach
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range_s">MEM_RANGE</a>
+[MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource_s">MEM_RESOURCE</a>
+[MEM_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource)a>
  
 
  

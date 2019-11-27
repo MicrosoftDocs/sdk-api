@@ -62,7 +62,7 @@ The <b>CryptSIPRemoveSignedDataMsg</b> function removes a specified <a href="htt
 
 ### -param pSubjectInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure that contains information about the message subject.
+A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that contains information about the message subject.
 
 
 ### -param dwIndex [in]

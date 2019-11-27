@@ -64,12 +64,12 @@ The <b>CryptCATCDFEnumCatAttributes</b> function enumerates catalog-level attrib
 
 ### -param pCDF [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf_">CRYPTCATCDF</a> structure.
+A pointer to a [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a> structure.
 
 
 ### -param pPrevAttr [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute_">CRYPTCATATTRIBUTE</a> structure for a catalog attribute in the CDF pointed to by <i>pCDF</i>.
+A pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a> structure for a catalog attribute in the CDF pointed to by <i>pCDF</i>.
 
 
 ### -param pfnParseError [in]
@@ -81,7 +81,7 @@ A pointer to a user-defined function to handle file parse errors.
 
 
 
-Upon success, this function returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute_">CRYPTCATATTRIBUTE</a> structure. The <b>CryptCATCDFEnumCatAttributes</b> function returns a <b>NULL</b> pointer if it fails.
+Upon success, this function returns a pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a> structure. The <b>CryptCATCDFEnumCatAttributes</b> function returns a <b>NULL</b> pointer if it fails.
 
 
 
@@ -124,11 +124,11 @@ The following example shows the correct sequence of assignments for the <i>pPrev
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute_">CRYPTCATATTRIBUTE</a>
+[CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf_">CRYPTCATCDF</a>
+[CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a>
 
 
 

@@ -67,32 +67,32 @@ The status of the group has changed. This peer event is fired when one of the fl
 
 ### -field PEER_GROUP_EVENT_PROPERTY_CHANGED
 
-A member in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties">PEER_GROUP_PROPERTIES</a> structure has changed.   The application already has the change and must use <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupgetproperties">PeerGroupGetProperties</a> to get the updated structure. This peer event does not have associated data present in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a> to retrieve.
+A member in the [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a> to retrieve.
 
 
 ### -field PEER_GROUP_EVENT_RECORD_CHANGED
 
-A group record has changed. Information on this change is provided in the <b>recordChangeData</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>.
+A group record has changed. Information on this change is provided in the [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a>.
 
 
 ### -field PEER_GROUP_EVENT_DIRECT_CONNECTION
 
-The status of a direct connection has changed. Information on this change is provided in the <b>connectionChangeData</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>.
+The status of a direct connection has changed. Information on this change is provided in the [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a>.
 
 
 ### -field PEER_GROUP_EVENT_NEIGHBOR_CONNECTION
 
-The status of a neighbor connection has changed. Information on this change is provided in the <b>connectionChangeData</b>  member of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>.
+The status of a neighbor connection has changed. Information on this change is provided in the [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a>.
 
 
 ### -field PEER_GROUP_EVENT_INCOMING_DATA
 
-Incoming direct connection data from a member is detected. Information on this peer event is provided in the <b>incomingData</b>  member of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>.
+Incoming direct connection data from a member is detected. Information on this peer event is provided in the [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a>.
 
 
 ### -field PEER_GROUP_EVENT_MEMBER_CHANGED
 
-The status of a member has changed. Information on this change is provided in the <b>memberChangeData</b>  member of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>.
+The status of a member has changed. Information on this change is provided in the [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a>.
 
 
 ### -field PEER_GROUP_EVENT_CONNECTION_FAILED
@@ -111,7 +111,7 @@ The connection to the peer group has failed. No data is provided when this peer 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>
+[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a>
 
 
 

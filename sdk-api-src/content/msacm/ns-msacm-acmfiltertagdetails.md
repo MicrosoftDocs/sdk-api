@@ -70,7 +70,7 @@ Size, in bytes, of the <b>ACMFILTERTAGDETAILS</b> structure. This member must be
 
 ### -field dwFilterTagIndex
 
-Index of the filter tag to retrieve details for. The index ranges from zero to one less than the number of filter tags supported by an ACM driver. The number of filter tags supported by a driver is contained in the <b>cFilterTags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure. The <b>dwFilterTagIndex</b> member is used only when querying filter tag details about a driver by index; otherwise, this member should be zero.
+Index of the filter tag to retrieve details for. The index ranges from zero to one less than the number of filter tags supported by an ACM driver. The number of filter tags supported by a driver is contained in the [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure. The <b>dwFilterTagIndex</b> member is used only when querying filter tag details about a driver by index; otherwise, this member should be zero.
 
 
 ### -field dwFilterTag
@@ -85,7 +85,7 @@ Largest total size, in bytes, of a waveform-audio filter of the <b>dwFilterTag</
 
 ### -field fdwSupport
 
-Driver-support flags specific to the filter tag. These flags are identical to the <b>fdwSupport</b> flags of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure. This member can be a combination of the following values and identifies which operations the driver supports with the filter tag:
+Driver-support flags specific to the filter tag. These flags are identical to the [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure. This member can be a combination of the following values and identifies which operations the driver supports with the filter tag:
 
 <table>
 <tr>
@@ -161,7 +161,7 @@ String that describes the <b>dwFilterTag</b> type. This string is always returne
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a>
+[ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a>
 
 
 

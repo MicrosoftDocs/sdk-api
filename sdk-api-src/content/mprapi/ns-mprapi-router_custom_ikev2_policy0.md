@@ -64,30 +64,30 @@ Do not use the  <b>ROUTER_CUSTOM_IKEv2_POLICY0</b> structure directly in your co
 
 ### -field dwIntegrityMethod
 
-A value that specifies the integrity algorithm to be negotiated during IKEv2 main mode SA negotiation. The allowed values for this member are defined in <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type_">IKEEXT_INTEGRITY_TYPE</a>.
+A value that specifies the integrity algorithm to be negotiated during IKEv2 main mode SA negotiation. The allowed values for this member are defined in [IKEEXT_INTEGRITY_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type)a>.
 
 
 ### -field dwEncryptionMethod
 
-A value that specifies the encryption algorithm to be negotiated during IKEv2 main mode SA negotiation. The allowed valued for this member are defined in <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cipher_type_">IKEEXT_CIPHER_TYPE</a>.
+A value that specifies the encryption algorithm to be negotiated during IKEv2 main mode SA negotiation. The allowed valued for this member are defined in [IKEEXT_CIPHER_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cipher_type)a>.
 
 
 ### -field dwCipherTransformConstant
 
-A value that specifies the encryption algorithm to be negotiated during IKEv2 quick mode SA negotiation. The allowed valued for this member are defined in <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_cipher_type_">IPSEC_CIPHER_TYPE</a>.
+A value that specifies the encryption algorithm to be negotiated during IKEv2 quick mode SA negotiation. The allowed valued for this member are defined in [IPSEC_CIPHER_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_cipher_type)a>.
 
 
 ### -field dwAuthTransformConstant
 
-A value that specifies the hash algorithm to be negotiated during IKEv2 quick mode SA negotiation. The allowed valued for this member are defined in <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_auth_type_">IPSEC_AUTH_TYPE</a>.
+A value that specifies the hash algorithm to be negotiated during IKEv2 quick mode SA negotiation. The allowed valued for this member are defined in [IPSEC_AUTH_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_auth_type)a>.
 
 
 ### -field dwPfsGroup
 
-A value that specifies the Diffie Hellman algorithm that should be used for Quick Mode PFS (Perfect Forward Secrecy). The allowed valued for this member are defined in <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group_">IPSEC_PFS_GROUP</a>.
+A value that specifies the Diffie Hellman algorithm that should be used for Quick Mode PFS (Perfect Forward Secrecy). The allowed valued for this member are defined in [IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group)a>.
 
 
 ### -field dwDhGroup
 
-A value that specifies the type of Diffie Hellman group used for Internet Key Exchange (IKE) key generation during MM SA negotiation. The allowed valued for this member are defined in <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_dh_group_">IKEEXT_DH_GROUP</a>.
+A value that specifies the type of Diffie Hellman group used for Internet Key Exchange (IKE) key generation during MM SA negotiation. The allowed valued for this member are defined in [IKEEXT_DH_GROUP](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_dh_group)a>.
 

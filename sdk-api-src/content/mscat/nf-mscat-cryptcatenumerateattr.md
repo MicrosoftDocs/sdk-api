@@ -69,7 +69,7 @@ Handle for the catalog that contains the member identified by <i>pCatMember</i>.
 
 ### -param pCatMember [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember_">CRYPTCATMEMBER</a> structure that identifies which member of the catalog is being enumerated.
+A pointer to the [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)a> structure that identifies which member of the catalog is being enumerated.
 
 
 ### -param pPrevAttr [in]

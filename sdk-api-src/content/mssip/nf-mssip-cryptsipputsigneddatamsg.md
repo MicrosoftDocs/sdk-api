@@ -62,7 +62,7 @@ The <b>CryptSIPPutSignedDataMsg</b> function stores an <a href="https://docs.mic
 
 ### -param pSubjectInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure that contains information about the message subject.
+Pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that contains information about the message subject.
 
 
 ### -param dwEncodingType [in]
@@ -156,8 +156,8 @@ This code can be returned for the following reasons:
 <li>The <i>pdwIndex</i> is <b>NULL</b>.</li>
 <li>The <i>pbSignedDataMsg</i> is <b>NULL</b>.</li>
 <li>The value of the <i>cbSignedDataMsg</i> parameter is less than one.</li>
-<li>The <i>cbSignedDataMsg</i> value is greater than the <b>cbSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure.</li>
-<li>The <i>dwEncodingType</i> parameter value is greater than the <b>dwEncodingType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure.</li>
+[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure.</li>
+[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure.</li>
 </ul>
 </td>
 </tr>

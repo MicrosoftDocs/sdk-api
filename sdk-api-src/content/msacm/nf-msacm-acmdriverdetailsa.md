@@ -73,7 +73,7 @@ Handle to the driver identifier of an installed ACM driver. Disabled drivers can
 
 ### -param padd
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure that will receive the driver details. The <b>cbStruct</b> member must be initialized to the size, in bytes, of the structure.
+Pointer to an [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure that will receive the driver details. The <b>cbStruct</b> member must be initialized to the size, in bytes, of the structure.
 
 
 ### -param fdwDetails

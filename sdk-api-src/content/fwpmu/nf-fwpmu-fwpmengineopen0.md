@@ -83,7 +83,7 @@ The authentication and authorization credentials for accessing the filter engine
 
 ### -param session [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0_">FWPM_SESSION0</a>*</b>
+Type: [FWPM_SESSION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)a>*</b>
 
 Session-specific parameters for the session being opened. This pointer is optional and can be <b>NULL</b>. 
 
@@ -219,7 +219,7 @@ else
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0_">FWPM_SESSION0</a>
+[FWPM_SESSION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)a>
 
 
 

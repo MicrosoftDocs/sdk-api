@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_KEYMODULE_STATISTICS1</b> structure contains various statistics specific to the keying module.
-<div class="alert"><b>Note</b>  <b>IKEEXT_KEYMODULE_STATISTICS1</b> is the specific implementation of IKEEXT_KEYMODULE_STATISTICS used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0_">IKEEXT_KEYMODULE_STATISTICS0</a> is available.</div><div> </div>
+[IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0)a> is available.</div><div> </div>
 
 ## -struct-fields
 

@@ -62,7 +62,7 @@ The <b>FWPM_CALLOUT_CHANGE0</b> structure specifies a change notification dispat
 
 ### -field changeType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type_">FWPM_CHANGE_TYPE</a> value that specifies the type of change.
+A [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a> value that specifies the type of change.
 
 
 ### -field calloutKey
@@ -89,7 +89,7 @@ LUID of the callout that changed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type_">FWPM_CHANGE_TYPE</a>
+[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a>
 
 
 

@@ -925,7 +925,7 @@ Specifies the physical or virtual private network (VPN) through which the user i
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/about-eap-attributes">About EAP Attributes</a>
+[About EAP Attributes](https://docs.microsoft.com/windows/win32/eaphost/about-eap-attributes)a>
 
 
 

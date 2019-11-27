@@ -69,7 +69,7 @@ The energy measurement is returned in picowatt-hours.
 
 
 
-When a component calls <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a> to obtain the Energy Metering Interface (EMI) metadata for a device, the units of energy measurements supported by the device are returned in the <b>MeasurementUnit</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/emi/ns-emi-emi_metadata">EMI_METADATA</a> structure output parameter.
+When a component calls [EMI_METADATA](/windows/win32/api/emi/ns-emi-emi_metadata_v1)a> structure output parameter.
 
 In devices that implement<b>EMI_VERSION_V1</b>, picowatt-hours is the only supported unit.
 
@@ -81,7 +81,7 @@ In devices that implement<b>EMI_VERSION_V1</b>, picowatt-hours is the only suppo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/emi/ns-emi-emi_metadata">EMI_METADATA</a>
+[EMI_METADATA](/windows/win32/api/emi/ns-emi-emi_metadata_v1)a>
 
 
 

@@ -70,7 +70,7 @@ Size, in bytes, of the <b>ACMFORMATTAGDETAILS</b> structure. This member must be
 
 ### -field dwFormatTagIndex
 
-Index of the format tag for which details will be retrieved. The index ranges from zero to one less than the number of format tags supported by an ACM driver. The number of format tags supported by a driver is contained in the <b>cFormatTags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure. The <b>dwFormatTagIndex</b> member is used only when querying format tag details on a driver by index; otherwise, this member should be zero.
+Index of the format tag for which details will be retrieved. The index ranges from zero to one less than the number of format tags supported by an ACM driver. The number of format tags supported by a driver is contained in the [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure. The <b>dwFormatTagIndex</b> member is used only when querying format tag details on a driver by index; otherwise, this member should be zero.
 
 
 ### -field dwFormatTag
@@ -85,7 +85,7 @@ Largest total size, in bytes, of a waveform-audio format of the <b>dwFormatTag</
 
 ### -field fdwSupport
 
-Driver-support flags specific to the format tag. These flags are identical to the <b>fdwSupport</b> flags of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure. This member may be some combination of the following values and refer to what operations the driver supports with the format tag:
+Driver-support flags specific to the format tag. These flags are identical to the [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure. This member may be some combination of the following values and refer to what operations the driver supports with the format tag:
 
 <table>
 <tr>
@@ -161,7 +161,7 @@ String that describes the <b>dwFormatTag</b> type. If the <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a>
+[ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a>
 
 
 

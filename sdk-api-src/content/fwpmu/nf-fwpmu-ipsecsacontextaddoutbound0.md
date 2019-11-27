@@ -76,7 +76,7 @@ Identifier for the existing IPsec SA context. This is the value returned in the 
 
 ### -param outboundBundle [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0_">IPSEC_SA_BUNDLE0</a>*</b>
+Type: [IPSEC_SA_BUNDLE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0)a>*</b>
 
 The outbound IPsec SA bundle to be added to the SA context.
 
@@ -139,7 +139,7 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0_">IPSEC_SA_BUNDLE0</a>
+[IPSEC_SA_BUNDLE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0)a>
 
 
 

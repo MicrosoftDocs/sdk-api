@@ -67,7 +67,7 @@ Contains the  error code for the failure.
 
 ### -field direction
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction_">FWP_DIRECTION</a> value that specifies whether the dropped packet is inbound or outbound.
+An [FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)a> value that specifies whether the dropped packet is inbound or outbound.
 
 
 ### -field spi

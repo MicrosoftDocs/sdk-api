@@ -101,11 +101,11 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setcentery">IDCompositionRotateTransform3D::SetCenterY</a>
+[IDCompositionRotateTransform3D::SetCenterY](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcentery(idcompositionanimation))a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setcenterz">IDCompositionRotateTransform3D::SetCenterZ</a>
+[IDCompositionRotateTransform3D::SetCenterZ](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterz(idcompositionanimation))a>
  
 
  

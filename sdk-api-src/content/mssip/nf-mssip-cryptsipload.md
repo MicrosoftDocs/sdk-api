@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptSIPLoad</b> function loads the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">dynamic-link library</a> (DLL) that implements a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) and assigns appropriate library export functions to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info_">SIP_DISPATCH_INFO</a> structure. The exported functions must have been previously registered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider">CryptSIPAddProvider</a> function.
+The [SIP_DISPATCH_INFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info)a> structure. The exported functions must have been previously registered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider">CryptSIPAddProvider</a> function.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ This parameter is reserved and must be set to zero.
 
 ### -param pSipDispatch [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info_">SIP_DISPATCH_INFO</a> structure that contains pointers to SIP provider functions that are specific to the subject type. The caller must initialize this structure to binary zeros, and set the <b>cbSize</b> member to <code>sizeof(SIP_DISPATCH_INFO)</code> before calling the <b>CryptSIPLoad</b> function.
+A pointer to a [SIP_DISPATCH_INFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info)a> structure that contains pointers to SIP provider functions that are specific to the subject type. The caller must initialize this structure to binary zeros, and set the <b>cbSize</b> member to <code>sizeof(SIP_DISPATCH_INFO)</code> before calling the <b>CryptSIPLoad</b> function.
 
 
 ## -returns
