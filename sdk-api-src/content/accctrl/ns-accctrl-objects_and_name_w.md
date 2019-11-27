@@ -42,7 +42,6 @@ api_name:
 - OBJECTS_AND_NAME
 - OBJECTS_AND_NAME_A
 - OBJECTS_AND_NAME_W
-product: Windows
 targetos: Windows
 req.typenames: OBJECTS_AND_NAME_W, *POBJECTS_AND_NAME_W
 req.redist: 

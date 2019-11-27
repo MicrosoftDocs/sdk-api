@@ -4,8 +4,6 @@ ms.assetid: 920df706-c723-37fe-8536-596167286f93
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mib
 ---

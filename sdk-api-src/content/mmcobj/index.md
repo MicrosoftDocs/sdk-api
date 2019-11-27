@@ -4,8 +4,6 @@ ms.assetid: 7f95157e-7412-35a5-8536-40b4788da6e5
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: lwef
 ---

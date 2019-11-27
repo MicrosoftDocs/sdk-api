@@ -4,8 +4,6 @@ ms.assetid: 20a66ae4-e14a-374a-899e-997c5d448900
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: directcomp
 ---

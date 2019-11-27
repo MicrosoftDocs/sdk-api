@@ -4,8 +4,6 @@ ms.assetid: e7c2345c-8ba7-3e77-950a-a6b7906db4f7
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: fwp
 ---

@@ -40,7 +40,6 @@ api_location:
  - AccCtrl.h
 api_name:
  - SE_OBJECT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: SE_OBJECT_TYPE
 req.redist: 

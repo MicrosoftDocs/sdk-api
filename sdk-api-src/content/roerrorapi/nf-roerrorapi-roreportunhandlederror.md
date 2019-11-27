@@ -9,8 +9,6 @@ ms.assetid: DE8F29B4-505C-480E-9258-9E5300BEA3F0
 
 ms.date: 12/5/2018
 ms.keywords: RoReportUnhandledError, RoReportUnhandledError function [Windows Runtime], roerrorapi/RoReportUnhandledError, winrt.roreportunhandlederror
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 f1_keywords: 
  - "roerrorapi/RoReportUnhandledError"

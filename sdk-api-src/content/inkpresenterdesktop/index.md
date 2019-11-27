@@ -4,8 +4,6 @@ ms.assetid: 45556f03-b45f-35f6-aed6-0c56c4bda63f
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: input_ink
 ---

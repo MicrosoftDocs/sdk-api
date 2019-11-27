@@ -4,8 +4,6 @@ ms.assetid: 25418b10-2542-3985-81e4-7a66e7e2ec17
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: direct2d
 ---

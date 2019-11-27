@@ -4,8 +4,6 @@ ms.assetid: a4c7c22a-09d2-38c4-953e-d9d5066a4676
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winrt
 ---

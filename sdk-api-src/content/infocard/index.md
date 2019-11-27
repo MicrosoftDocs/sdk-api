@@ -4,8 +4,6 @@ ms.assetid: 933dc371-9601-3039-96ec-c8e90dce88c8
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: qos
 ---

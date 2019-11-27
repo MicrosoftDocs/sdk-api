@@ -4,8 +4,6 @@ ms.assetid: d748591d-610c-3f80-98ea-e0680533f5c1
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: hidpi
 ---

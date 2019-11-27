@@ -42,7 +42,6 @@ api_name:
  - ACTRL_ACCESS
  - ACTRL_ACCESSA
  - ACTRL_ACCESSW
-product: Windows
 targetos: Windows
 req.typenames: ACTRL_ACCESSW, *PACTRL_ACCESSW, ACTRL_AUDITW, *PACTRL_AUDITW
 req.redist: 

@@ -4,8 +4,6 @@ ms.assetid: d33bb8ba-58d0-3db9-a5ab-c02cf0cb9156
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: cimwin32
 ---

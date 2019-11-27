@@ -4,8 +4,6 @@ ms.assetid: a27b3b32-7e36-395c-beec-b81b278b75df
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: windowsribbon
 ---

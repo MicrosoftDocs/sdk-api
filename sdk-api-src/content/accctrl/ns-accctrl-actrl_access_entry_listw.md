@@ -42,7 +42,6 @@ api_name:
  - ACTRL_ACCESS_ENTRY_LIST
  - ACTRL_ACCESS_ENTRY_LISTA
  - ACTRL_ACCESS_ENTRY_LISTW
-product: Windows
 targetos: Windows
 req.typenames: ACTRL_ACCESS_ENTRY_LISTW, *PACTRL_ACCESS_ENTRY_LISTW
 req.redist: 

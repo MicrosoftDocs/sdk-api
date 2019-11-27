@@ -4,8 +4,6 @@ ms.assetid: 3373afd5-dd48-30e0-bb2b-7f6588fc84a0
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wibe
 ---

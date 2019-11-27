@@ -11,7 +11,6 @@ dev_langs:
 f1_keywords:
  - "winbase/SetHandleCount"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -9,8 +9,6 @@ ms.assetid: 3F4A62EF-ECD3-45FA-836D-77C510C43C5E
 
 ms.date: 12/5/2018
 ms.keywords: SetRestrictedErrorInfo, SetRestrictedErrorInfo function [Windows Runtime], roerrorapi/SetRestrictedErrorInfo, winrt.setrestrictederrorinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 f1_keywords: 
  - "roerrorapi/SetRestrictedErrorInfo"

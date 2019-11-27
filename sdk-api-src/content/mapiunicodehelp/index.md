@@ -4,8 +4,6 @@ ms.assetid: 934df035-3853-348e-9aea-890d961e71f7
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mapi
 ---

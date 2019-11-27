@@ -4,8 +4,6 @@ ms.assetid: 1868d24c-599c-3a55-b0f8-839fa027e6b7
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winprog
 ---

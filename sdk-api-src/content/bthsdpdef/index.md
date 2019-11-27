@@ -4,8 +4,6 @@ ms.assetid: 06f255a2-0e7c-3809-bddb-1d29718348ae
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: bluetooth
 ---

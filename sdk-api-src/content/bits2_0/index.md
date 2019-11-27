@@ -4,8 +4,6 @@ ms.assetid: e57aeadc-3684-3315-a06e-54ad7f000dad
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: bits
 ---

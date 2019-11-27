@@ -4,8 +4,6 @@ ms.assetid: 6d155966-c54b-38d6-aff1-6ea0a1fd3bf0
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: tablet
 ---

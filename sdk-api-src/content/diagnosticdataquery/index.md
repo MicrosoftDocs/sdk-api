@@ -3,8 +3,6 @@ UID: NA:diagnosticdataquery
 
 ms.date: 08/19/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: security
 ---

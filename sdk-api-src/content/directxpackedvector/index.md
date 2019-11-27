@@ -4,8 +4,6 @@ ms.assetid: 9e73fdfb-d1c2-3155-b657-180a3776e9b7
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dxmath
 ---

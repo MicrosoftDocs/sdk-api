@@ -4,8 +4,6 @@ ms.assetid: 48850291-5341-30aa-b795-92c8ca6ed55f
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wec
 ---

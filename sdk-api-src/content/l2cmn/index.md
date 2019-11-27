@@ -4,8 +4,6 @@ ms.assetid: 1ebea135-cd59-3d5a-b055-9e5472a1c12d
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: netvista
 ---

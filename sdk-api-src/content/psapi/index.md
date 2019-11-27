@@ -4,8 +4,6 @@ ms.assetid: 0a012eb9-3ffa-3edd-aeb2-4021d99f8c55
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: psapi
 ---

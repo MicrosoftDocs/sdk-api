@@ -4,8 +4,6 @@ ms.assetid: 0e81ac43-89f3-3837-b085-d06594f4d8c9
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winlocation
 ---

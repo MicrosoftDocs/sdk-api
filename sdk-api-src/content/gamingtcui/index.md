@@ -4,8 +4,6 @@ ms.assetid: ff15fd6d-c38d-3f75-9bae-10508dda883c
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: tcui
 ---

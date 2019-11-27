@@ -4,8 +4,6 @@ ms.assetid: 95ac423c-bf97-334b-a8ff-0e284ec817e7
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: smi
 ---

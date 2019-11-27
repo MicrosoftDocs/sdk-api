@@ -4,8 +4,6 @@ ms.assetid: e50324ba-586f-3cfc-a612-55cd4b98b0d0
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: nap
 ---

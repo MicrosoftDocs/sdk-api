@@ -4,8 +4,6 @@ ms.assetid: 9148a56e-aa8d-3f9d-b6c2-fd983f5e54e2
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: netmgmt
 ---

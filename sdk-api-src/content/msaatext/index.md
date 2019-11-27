@@ -4,8 +4,6 @@ ms.assetid: 9d7f8726-f2d5-3a8e-9d11-dddcd34f33a0
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: tsf
 ---

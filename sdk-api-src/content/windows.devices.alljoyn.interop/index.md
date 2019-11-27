@@ -4,8 +4,6 @@ ms.assetid: 2c766203-b990-32c4-bed9-d664aec33084
 
 ms.date: 01/11/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows-sdk
 ms.topic: portal
 tech.root: alljoyn
 ---
