@@ -1,39 +1,37 @@
 ---
 UID: NF:winuser.GetGuiResources
-title: GetGuiResources function (winuser.h)
-
-description: Retrieves the count of handles to graphical user interface (GUI) objects in use by the specified process.
+title: GetGuiResources (winuser.h)
 old-location: base\getguiresources.htm
 tech.root: ProcThread
 ms.assetid: 55fbb7e8-79b4-4011-b522-25ea5a928b86
-
-ms.date: 12/05/2018
+ms.date: 11/4/2019
 ms.keywords: GR_GDIOBJECTS, GR_GDIOBJECTS_PEAK, GR_USEROBJECTS, GR_USEROBJECTS_PEAK, GetGuiResources, GetGuiResources function, _win32_getguiresources, base.getguiresources, winuser/GetGuiResources
-ms.topic: function
+ms.topic: language-reference
+targetos: Windows
+description: Retrieves the count of handles to graphical user interface (GUI) objects in use by the specified process.
 f1_keywords: 
  - "winuser/GetGuiResources"
-dev_langs:
- - c++
-req.header: winuser.h
-req.include-header: Windows.h
-req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
-req.kmdf-ver: 
-req.umdf-ver: 
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: User32.dll
+req.header: winuser.h
 req.idl: 
+req.include-header: windows.h
+req.irql: 
+req.kmdf-ver: 
+req.lib: User32.lib
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-type: Windows
 req.type-library: 
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - DllExport
 api_location:
@@ -47,10 +45,10 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - GetGuiResources
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
+f1_keywords:
+ - winuser/GetGuiResources
+dev_langs:
+ - c++
 ---
 
 ## -description
@@ -65,7 +63,7 @@ A handle to the process. The handle must refer to a process in the current sessi
 
 If this parameter is the special value **GR_GLOBAL**, then the resource usage is reported across all processes in the current session.
 
-**Windows Server 2008, Windows Vista, Windows Server 2003, and Windows XP:  **The **GR_GLOBAL** value is not supported until Windows 7 and Windows Server 2008 R2.
+**Windows Server 2008, Windows Vista, Windows Server 2003, and Windows XP:** The **GR_GLOBAL** value is not supported until Windows 7 and Windows Server 2008 R2.
 
 ### -param uiFlags [in]
 
