@@ -53,25 +53,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# GetGuiResources function
-
-
 ## -description
-
 
 Retrieves the count of handles to graphical user interface (GUI) objects in use by the specified process.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
-A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+A handle to the process. The handle must refer to a process in the current session, and must have the **PROCESS_QUERY_INFORMATION** access right (see [Process security and access rights](/windows/win32/procthread/process-security-and-access-rights)).
 
+If this parameter is the special value **GR_GLOBAL**, then the resource usage is reported across all processes in the current session.
+
+**Windows Server 2008, Windows Vista, Windows Server 2003, and Windows XP:  **The **GR_GLOBAL** value is not supported until Windows 7 and Windows Server 2008 R2.
 
 ### -param uiFlags [in]
 
