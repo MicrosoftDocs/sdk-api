@@ -104,12 +104,12 @@ Denies the pixel shader access to the root signature.
 
 ### -field D3D12_ROOT_SIGNATURE_FLAG_ALLOW_STREAM_OUTPUT
 
-The root signature is to be used with raytracing shaders to define resource bindings sourced from shader records in shader tables.  This flag cannot be combined with any other root signature flags, which are all related to the graphics pipeline.  The absence of the flag means the root signature can be used with graphics or compute, where the compute version is also shared with raytracing’s global root signature.
+The app is opting in to using Stream Output. Omitting this flag can result in one root argument space being saved on some hardware. Omit this flag if Stream Output is not required, though the optimization is minor.
 
 
 ### -field D3D12_ROOT_SIGNATURE_FLAG_LOCAL_ROOT_SIGNATURE
 
-Denies the domain shader access to the root signature.
+The root signature is to be used with raytracing shaders to define resource bindings sourced from shader records in shader tables.  This flag cannot be combined with any other root signature flags, which are all related to the graphics pipeline.  The absence of the flag means the root signature can be used with graphics or compute, where the compute version is also shared with raytracing’s global root signature.
           
 
 
