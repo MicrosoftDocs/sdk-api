@@ -302,9 +302,13 @@ Considerations for working with synchronous file handles:
        <b>ReadFile</b> does not return until the read operation is 
        complete. The system updates the <b>OVERLAPPED</b> offset 
        before <b>ReadFile</b> returns.</li>
-<li>When a synchronous read operation reaches the end of a file, 
+ <li>If <i>lpOverlapped</i> is <b>NULL</b>, then when a synchronous read operation reaches the end of a file, 
        <b>ReadFile</b> returns <b>TRUE</b> and sets 
        <code>*lpNumberOfBytesRead</code> to zero.</li>
+ <li>If <i>lpOverlapped</i> is not <b>NULL</b>, then when a synchronous read operation reaches the end of a file,
+  <b>ReadFile</b> returns <b>FALSE</b> and
+  <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns
+  <b>ERROR_HANDLE_EOF</b>.</li>
 </ul>
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> and 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
