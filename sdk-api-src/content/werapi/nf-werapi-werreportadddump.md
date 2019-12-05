@@ -51,32 +51,23 @@ ms.custom: 19H1
 
 # WerReportAddDump function
 
-
 ## -description
-
 
 Adds a dump of the specified type to the specified report.
 
-
 ## -parameters
-
-
-
 
 ### -param hReportHandle [in]
 
 A handle to the report. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
 
-
 ### -param hProcess [in]
 
 A handle to the process for which the report is being generated. This handle must have the STANDARD_RIGHTS_READ and PROCESS_QUERY_INFORMATION access rights.
 
-
 ### -param hThread [in, optional]
 
 A handle to the thread of <i>hProcess</i> for which the report is being generated. If <i>dumpType</i> is WerDumpTypeMicro, this parameter is required. For other dump types, this parameter may be <b>NULL</b>.
-
 
 ### -param dumpType [in]
 

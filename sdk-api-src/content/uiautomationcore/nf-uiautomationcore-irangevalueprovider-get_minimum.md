@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRangeValueProvider_Minimum.htm
 tech.root: WinAuto
 ms.assetid: 6704d5d8-7024-4010-a212-2ffccfae0cbf
 
-ms.date: 12/05/2018
+ms.date: 12/04/2019
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],Minimum property, IRangeValueProvider.Minimum, IRangeValueProvider.get_Minimum, IRangeValueProvider::Minimum, IRangeValueProvider::get_Minimum, Minimum property [Windows Accessibility], Minimum property [Windows Accessibility],IRangeValueProvider interface, get_Minimum, uiauto.uiauto_IRangeValueProvider_Minimum, uiauto_IRangeValueProvider_Minimum, uiautomationcore/IRangeValueProvider::Minimum, uiautomationcore/IRangeValueProvider::get_Minimum, winauto.uiauto_IRangeValueProvider_Minimum
 ms.topic: method
 f1_keywords: 
@@ -49,29 +49,18 @@ ms.custom: 19H1
 
 # IRangeValueProvider::get_Minimum
 
-
 ## -description
-
 
 Specifies the minimum range value supported by the control.
 
 This property is read-only.
 
-
 ## -parameters
 
+## -remarks
+
+This value should be less than [Maximum](nf-uiautomationcore-irangevalueprovider-get_maximum.md), with the lower limit defined by the UI framework.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irangevalueprovider">IRangeValueProvider</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
-
+[IRangeValueProvider interface](nn-uiautomationcore-irangevalueprovider.md), [UI Automation Providers Overview](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview)
