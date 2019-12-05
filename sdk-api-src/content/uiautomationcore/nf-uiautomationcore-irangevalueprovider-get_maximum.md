@@ -59,7 +59,7 @@ This property is read-only.
 
 ## -remarks
 
-This value should be larger than [Minimum](nf-uiautomationcore-irangevalueprovider-get_minimum.md), with the upper limit defined by the UI framework.
+This value should be larger than [Minimum](nf-uiautomationcore-irangevalueprovider-get_minimum.md).
 
 ## -see-also
 
